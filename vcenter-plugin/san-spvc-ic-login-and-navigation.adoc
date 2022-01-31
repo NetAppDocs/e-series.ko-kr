@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: san-spvc-ic-login-and-navigation.html 
+keywords: log in vCenter plugin, login Plugin for vCenter, browsers vCenter plugin user interface, vCenter GUI, 
+summary: 로그인하여 vCenter용 플러그인을 탐색합니다. 
+---
+= 로그인하여 vCenter용 Storage Plugin을 탐색합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+vCenter용 Storage Plugin에 로그인하여 사용자 인터페이스를 탐색할 수 있습니다.
+
+. 플러그인에 로그인하기 전에 다음 브라우저 중 하나를 사용하고 있는지 확인합니다.
++
+** Google Chrome 79 이상
+** Mozilla Firefox 70 이상
+** Microsoft Edge 79 이상
+
+
+. 플러그인에 대한 읽기/쓰기 권한이 있는 사용자 계정으로 vSphere Client에 로그인합니다.
+. vSphere 클라이언트 홈 페이지에서 * vCenter * 용 SANtricity 스토리지 플러그인 을 클릭합니다.
++
+vSphere Client 창에서 플러그인이 열립니다. 플러그인의 기본 페이지가 * Manage - All * 로 열립니다.
+
+. 왼쪽의 탐색 사이드바에서 스토리지 관리 작업에 액세스합니다.
++
+** * 관리 * – 네트워크에서 스토리지 어레이를 검색, 어레이에 대한 System Manager 열기, 한 어레이에서 여러 어레이로 설정 가져오기, 어레이 그룹 관리, OS 소프트웨어 업그레이드 및 스토리지 용량 할당 등의 작업을 수행합니다.
+** * 인증서 관리 * – 브라우저와 클라이언트 간 인증을 위해 인증서를 관리합니다.
+** * Operations * – 한 어레이에서 다른 어레이로 설정을 가져오는 등의 배치 작업 진행률을 봅니다.
+** * 지원 * – 기술 지원 옵션, 리소스 및 연락처를 볼 수 있습니다.
+
+
+

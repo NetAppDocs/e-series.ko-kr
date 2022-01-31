@@ -1,0 +1,13 @@
+---
+permalink: maintenance-ef600/concept-controllers-wombat.html 
+sidebar: sidebar 
+keywords: controller, board, firmware, software, control, drive, implement, system, manager, function, ef300, ef600, shelf 
+summary: 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 EF300 또는 EF600 컨트롤러 쉘프에서 단일 컨트롤러 또는 두 컨트롤러를 모두 교체하는 방법에 대해 설명합니다. 
+---
+= 컨트롤러
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 EF300 또는 EF600 컨트롤러 쉘프에서 단일 컨트롤러 또는 두 컨트롤러를 모두 교체하는 방법에 대해 설명합니다.

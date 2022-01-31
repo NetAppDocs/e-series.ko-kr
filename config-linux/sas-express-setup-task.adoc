@@ -1,0 +1,11 @@
+---
+permalink: config-linux/sas-express-setup-task.html 
+sidebar: sidebar 
+keywords: sas, express, setup 
+summary: SAS Express를 설정합니다 
+---
+= SAS Express를 설정합니다
+:icons: font
+:imagesdir: ../media/
+
+

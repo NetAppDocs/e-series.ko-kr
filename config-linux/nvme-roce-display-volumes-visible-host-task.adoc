@@ -1,0 +1,28 @@
+---
+permalink: config-linux/nvme-roce-display-volumes-visible-host-task.html 
+sidebar: sidebar 
+keywords: display volumes host, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: NVMe-CLI 패키지의 일부인 SMdevices 툴을 사용하여 호스트에 현재 표시된 볼륨을 볼 수 있습니다. 이 도구는 NVMe list 명령을 대체하는 도구입니다. 
+---
+= 호스트에 표시되는 볼륨을 표시합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SMdevices 툴을 사용하여 호스트에 현재 표시된 볼륨을 볼 수 있습니다. 이 도구는 NVMe-CLI 패키지의 일부이며 'NVMe list' 명령 대신 사용할 수 있습니다.
+
+E-Series 볼륨에 대한 각 NVMe 경로에 대한 정보를 보려면 'NVMe NetApp SMdevices[-o<format>]' 명령을 사용하십시오. format> 출력은 정상(-o가 사용되지 않는 경우 기본값), 열 또는 json이 될 수 있습니다.
+
+[listing]
+----
+# nvme netapp smdevices
+/dev/nvme1n1, Array Name ICTM0706SYS04, Volume Name NVMe2, NSID 1, Volume ID 000015bd5903df4a00a0980000af4462, Controller A, Access State unknown, 2.15GB
+/dev/nvme1n2, Array Name ICTM0706SYS04, Volume Name NVMe3, NSID 2, Volume ID 000015c05903e24000a0980000af4462, Controller A, Access State unknown, 2.15GB
+/dev/nvme1n3, Array Name ICTM0706SYS04, Volume Name NVMe4, NSID 4, Volume ID 00001bb0593a46f400a0980000af4462, Controller A, Access State unknown, 2.15GB
+/dev/nvme1n4, Array Name ICTM0706SYS04, Volume Name NVMe6, NSID 6, Volume ID 00001696593b424b00a0980000af4112, Controller A, Access State unknown, 2.15GB
+/dev/nvme2n1, Array Name ICTM0706SYS04, Volume Name NVMe2, NSID 1, Volume ID 000015bd5903df4a00a0980000af4462, Controller B, Access State unknown, 2.15GB
+/dev/nvme2n2, Array Name ICTM0706SYS04, Volume Name NVMe3, NSID 2, Volume ID 000015c05903e24000a0980000af4462, Controller B, Access State unknown, 2.15GB
+/dev/nvme2n3, Array Name ICTM0706SYS04, Volume Name NVMe4, NSID 4, Volume ID 00001bb0593a46f400a0980000af4462, Controller B, Access State unknown, 2.15GB
+/dev/nvme2n4, Array Name ICTM0706SYS04, Volume Name NVMe6, NSID 6, Volume ID 00001696593b424b00a0980000af4112, Controller B, Access State unknown, 2.15GB
+----

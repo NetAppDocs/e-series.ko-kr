@@ -1,0 +1,31 @@
+---
+permalink: config-windows/discover-storage-host-task.html 
+sidebar: sidebar 
+keywords: LUNs, discover LUNs, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: Windows Express용 스토리지를 검색합니다. 
+---
+= 호스트에서 스토리지를 검색합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+새 LUN을 추가할 때 연결된 디스크를 수동으로 재검색하여 검색해야 합니다. 호스트가 새 LUN을 자동으로 검색하지 않습니다.
+
+스토리지 시스템의 LUN은 Windows 호스트에 디스크로 표시됩니다.
+
+.단계
+. 관리자로 로그온합니다.
+. 스토리지를 검색하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
++
+[listing]
+----
+# echo rescan | diskpart
+----
+. 새 스토리지가 추가되었는지 확인하려면 다음 명령을 실행합니다.
++
+[listing]
+----
+# echo list disk | diskpart
+----
+

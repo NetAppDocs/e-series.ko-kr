@@ -1,0 +1,130 @@
+---
+sidebar: sidebar 
+permalink: san-spvc-ic-user-access.html 
+keywords: user access vCenter plugin, user roles vCenter plugin, privileges vCenter plugin, access permissions vCenter plugin 
+summary: vCenter용 Storage Plugin에 대한 액세스 권한을 구성합니다. 
+---
+= 플러그인 액세스 권한을 구성합니다
+:hardbreaks:
+:experimental: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+사용자, 역할 및 권한이 포함된 vCenter용 Storage Plugin에 대한 액세스 권한을 구성할 수 있습니다.
+
+
+
+== 필요한 vSphere 권한을 검토합니다
+
+vSphere Client 내에서 플러그인에 액세스하려면 적절한 vSphere 권한이 있는 역할에 할당해야 합니다. "Configure datastore" vSphere 권한이 있는 사용자는 플러그인에 대한 읽기/쓰기 액세스 권한을 가지고 있는 반면 "Browse datastore" 권한이 있는 사용자는 읽기 전용 액세스 권한을 갖습니다. 사용자에게 이러한 권한이 없는 경우 플러그인에는 "권한 부족" 메시지가 표시됩니다.
+
+|===
+| 플러그인 액세스 유형입니다 | vSphere 권한이 필요합니다 
+
+
+| 읽기-쓰기(구성) | 데이터 저장소. 구성 
+
+
+| 읽기 전용(보기) | 데이터 저장소. 찾아보기 
+|===
+
+
+== 스토리지 관리자 역할을 구성합니다
+
+플러그인 사용자에게 읽기/쓰기 권한을 제공하려면 역할을 생성, 복제 또는 편집할 수 있습니다. vSphere Client에서 역할을 구성하는 방법에 대한 자세한 내용은 VMware Doc Center에서 다음 항목을 참조하십시오.
+
+* https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-41E5E52E-A95B-4E81-9724-6AD6800BEF78.html["사용자 지정 역할을 만듭니다"^]
+
+
+
+
+=== 역할 작업에 액세스합니다
+
+. vSphere Client의 홈 페이지에서 액세스 제어 영역에서 * Administrator * 를 선택합니다.
+. 액세스 제어 영역에서 * 역할 * 을 클릭합니다.
+. 다음 작업 중 하나를 수행합니다.
++
+** * 새 역할 생성 *: * 역할 생성 * 작업 아이콘을 클릭합니다.
+** * 클론 역할 *: 기존 역할을 선택하고 * 클론 역할 * 작업 아이콘을 클릭합니다.
+** * 기존 역할 편집 *: 기존 역할을 선택하고 * 역할 편집 * 작업 아이콘을 클릭합니다.
+
+
+
+
+
+NOTE: 관리자 역할은 편집할 수 없습니다.
+
+위의 선택에 따라 적절한 마법사가 나타납니다.
+
+
+
+=== 새 역할을 만듭니다
+
+. 권한 목록에서 이 역할에 할당할 액세스 권한을 선택합니다.
++
+플러그인에 대한 읽기 전용 액세스를 허용하려면 * 데이터 저장소 * > * 찾아보기 * * * 데이터 저장소 * 를 선택합니다. 읽기-쓰기 액세스를 허용하려면 * 데이터 저장소 * > * 데이터 저장소 구성 * 을 선택합니다.
+
+. 필요한 경우 목록에 다른 권한을 할당한 후 * 다음 * 을 클릭합니다.
+. 역할의 이름을 지정하고 설명을 입력합니다.
+. 마침 * 을 클릭합니다.
+
+
+
+
+=== 역할을 복제합니다
+
+. 역할의 이름을 지정하고 설명을 입력합니다.
+. 마법사를 마치려면 * 확인 * 을 클릭합니다.
+. 목록에서 복제된 역할을 선택한 다음 * 역할 편집 * 을 클릭합니다.
+. 권한 목록에서 이 역할에 할당할 액세스 권한을 선택합니다.
++
+플러그인에 대한 읽기 전용 액세스를 허용하려면 Datastore [Browse datastore] 메뉴를 선택합니다. 읽기-쓰기 액세스를 허용하려면 Datastore [Configure Datastore] 메뉴를 선택합니다.
+
+. 다음 * 을 클릭합니다.
+. 필요한 경우 이름과 설명을 업데이트합니다.
+. 마침 * 을 클릭합니다.
+
+
+
+
+=== 기존 역할을 편집합니다
+
+. 권한 목록에서 이 역할에 할당할 액세스 권한을 선택합니다.
++
+플러그인에 대한 읽기 전용 액세스를 허용하려면 Datastore [Browse datastore] 메뉴를 선택합니다. 읽기-쓰기 액세스를 허용하려면 Datastore [Configure Datastore] 메뉴를 선택합니다.
+
+. 다음 * 을 클릭합니다.
+. 필요한 경우 이름 또는 설명을 업데이트합니다.
+. 마침 * 을 클릭합니다.
+
+
+
+
+== vCenter Server 어플라이언스에 대한 권한을 설정합니다
+
+역할에 대한 권한을 설정한 후 vCenter Server 어플라이언스에 권한을 추가해야 합니다. 이 권한을 사용하면 지정된 사용자 또는 그룹이 플러그인에 액세스할 수 있습니다.
+
+. 메뉴 드롭다운 목록에서 * 호스트 및 클러스터 * 를 선택합니다.
+. 액세스 제어 영역에서 * vCenter Server Appliance * 를 선택합니다.
+. 사용 권한 * 탭을 클릭합니다.
+. 권한 추가 * 작업 아이콘을 클릭합니다.
+. 적절한 도메인 및 사용자/그룹을 선택합니다.
+. 읽기/쓰기 플러그인 권한을 허용하는 생성된 역할을 선택합니다.
+. 필요한 경우 * Propagate to Children * 옵션을 활성화합니다.
+. 확인 * 을 클릭합니다.
+
+
+
+NOTE: 기존 권한을 선택하고 생성된 역할을 사용하도록 수정할 수 있습니다. * 단, 권한이 다시 발생하는 것을 방지하기 위해서는 역할이 읽기/쓰기 플러그인 권한과 동일한 권한을 가져야 합니다. *
+
+플러그인에 액세스하려면 플러그인에 대한 읽기/쓰기 권한이 있는 사용자 계정으로 vSphere Client에 로그인해야 합니다.
+
+사용 권한 관리에 대한 자세한 내용은 VMware Doc Center에서 다음 항목을 참조하십시오.
+
+* https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-3B78EEB3-23E2-4CEB-9FBD-E432B606011A.html["vCenter 구성 요소에 대한 권한 관리"^]
+* https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-FAA074CC-E8C9-4F13-ABCF-6CF7F15F04EE.html["역할 및 권한에 대한 모범 사례"^]
+

@@ -1,0 +1,21 @@
+---
+permalink: config-vmware/configure-multipath-software-concept.html 
+sidebar: sidebar 
+keywords: multipath software for vmware, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 물리적 경로 중 하나가 중단되는 경우 스토리지 배열에 대한 중복 경로를 제공하도록 m 소프트웨어를 구성합니다. 
+---
+= 다중 경로 소프트웨어를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 배열에 대한 중복 경로를 제공하기 위해 다중 경로 소프트웨어를 구성할 수 있습니다.
+
+물리적 경로 중 하나가 중단되는 경우 다중 경로 소프트웨어가 스토리지 배열에 대한 중복 경로를 제공합니다. 다중 경로 소프트웨어는 스토리지에 대한 활성 물리적 경로를 나타내는 단일 가상 장치를 운영 체제에 제공합니다. 또한 다중 경로 소프트웨어는 가상 장치를 업데이트하는 페일오버 프로세스를 관리합니다. VMware의 경우 NVMe/FC는 HPP(고성능 플러그인)를 사용합니다.
+
+FC, iSCSI 및 SAS 프로토콜에만 적용되는 VMware는 특정 공급업체의 스토리지 어레이 ``스토리지 어레이 유형 플러그인’(SATP)으로 알려진 플러그인을 제공하여 페일오버 구현을 처리합니다.
+
+사용해야 하는 SATP는 * VMW_SATP_ALUA * 입니다.
+
+자세한 내용은 을 참조하십시오 https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-DB5BC795-E4D9-4350-9C5D-12BB3C0E6D99.html["VMware SATP"^].

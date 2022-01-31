@@ -1,0 +1,205 @@
+---
+permalink: config-vmware/nmve-fc-perform-specific-task.html 
+sidebar: sidebar 
+keywords: Nvme over FC, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: NVMe over Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 확인합니다. 
+---
+= NVMe over FC 관련 작업을 수행합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe over Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 확인합니다.
+
+
+
+== 1단계: NVMe/FC 스위치 구성
+
+NVMe over Fibre Channel(FC) 스위치를 구성(조닝)하면 호스트가 스토리지 어레이에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 스위치에 대한 관리자 자격 증명.
+* 스위치에 연결된 각 호스트 이니시에이터 포트 및 각 컨트롤러 대상 포트의 WWPN입니다. 검색에 HBA 유틸리티를 사용하십시오.
+
+
+
+NOTE: 공급업체의 HBA 유틸리티를 사용하여 HBA를 업그레이드하고 HBA에 대한 특정 정보를 얻을 수 있습니다. HBA 유틸리티를 얻는 방법에 대한 지침은 공급업체 웹 사이트의 지원 섹션을 참조하십시오.
+
+각 이니시에이터 포트는 해당하는 모든 타겟 포트와 함께 별도의 존에 있어야 합니다. 스위치 조닝에 대한 자세한 내용은 스위치 공급업체의 설명서를 참조하십시오.
+
+.단계
+. FC 스위치 관리 프로그램에 로그인한 다음 zoning 구성 옵션을 선택합니다.
+. 첫 번째 호스트 이니시에이터 포트를 포함하고 이니시에이터와 동일한 FC 스위치에 연결되는 모든 타겟 포트를 포함하는 새 존을 생성합니다.
+. 스위치에서 각 FC 호스트 이니시에이터 포트에 대해 추가 존 생성
+. 영역을 저장한 다음 새로운 조닝 구성을 활성화합니다.
+
+
+
+
+== 2단계: 호스트 포트 WWPN 확인 - NVMe/FC VMware
+
+FC 조닝을 구성하려면 각 이니시에이터 포트의 WWPN(Worldwide Port Name)을 확인해야 합니다.
+
+.단계
+. SSH 또는 ESXi 셸을 사용하여 ESXi 호스트에 연결합니다.
+. 다음 명령을 실행합니다.
++
+[listing]
+----
+esxcfg-scsidevs –a
+----
+. 이니시에이터 식별자를 기록합니다. 출력은 다음 예와 비슷합니다.
++
+[listing]
+----
+vmhba3 lpfc link-up  fc.20000090fa05e848:10000090fa05e848 (0000:03:00.0)
+Emulex Corporation Emulex LPe16000 16Gb PCIe Fibre Channel Adapter
+vmhba4 lpfc link-up  fc.20000090fa05e849:10000090fa05e849 (0000:03:00.1)
+Emulex Corporation Emulex LPe16000 16Gb PCIe Fibre Channel Adapter
+----
+
+
+
+
+== 3단계: HBA 드라이버를 사용하도록 설정합니다
+
+NVMe 지원은 Broadcom/Emulex 및 Marvell/Qlogic HBA 드라이버 내에서 활성화해야 합니다.
+
+.단계
+. ESXi 셸에서 다음 명령 중 하나를 실행합니다.
++
+** * Broadcom/Emulex HBA 드라이버 *
++
+[listing]
+----
+esxcli system module parameters set -m lpfc -p "lpfc_enable_fc4_type=3"
+----
+** * Marvell/Qlogic HBA 드라이버 *
++
+[listing]
+----
+esxcfg-module -s "ql2xnvmesupport=1" qlnativefc
+----
+
+
+. 호스트를 재부팅합니다.
+
+
+
+
+== 4단계: 구성을 기록합니다
+
+이 페이지의 PDF를 생성하여 인쇄한 다음 다음, 다음 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
+
+그림에서는 두 개의 존에서 E-Series 스토리지 어레이에 연결된 호스트를 보여 줍니다. 한 영역은 파란색 선으로 표시되고 다른 영역은 빨간색 선으로 표시됩니다. 각 존에는 이니시에이터 포트 하나와 모든 타겟 포트가 포함되어 있습니다.
+
+image::../media/port_identifiers_host_and_target_conf-vmw.gif[포트 식별자 호스트 및 타겟 구성 VMW]
+
+
+
+=== 호스트 식별자입니다
+
+|===
+| 속성 표시기 번호 | 호스트(이니시에이터) 포트 접속입니다 | WWPN입니다 
+
+
+ a| 
+1
+ a| 
+호스트
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+2
+ a| 
+호스트 포트 0에서 FC 스위치 존 0으로
+ a| 
+
+
+
+ a| 
+7
+ a| 
+호스트 포트 1에서 FC 스위치 존 1로
+ a| 
+
+|===
+
+
+=== 타겟 식별자
+
+|===
+| 속성 표시기 번호 | 어레이 컨트롤러(타겟) 포트 연결 | WWPN입니다 
+
+
+ a| 
+3
+ a| 
+스위치
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+6
+ a| 
+어레이 컨트롤러(타겟)
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+5
+ a| 
+컨트롤러 A, 포트 1에서 FC 스위치 1로
+ a| 
+
+
+
+ a| 
+9
+ a| 
+컨트롤러 A, 포트 2에서 FC 스위치 2로
+ a| 
+
+
+
+ a| 
+4
+ a| 
+컨트롤러 B, 포트 1에서 FC 스위치 1로
+ a| 
+
+
+
+ a| 
+8
+ a| 
+컨트롤러 B, 포트 2에서 FC 스위치 2로
+ a| 
+
+|===
+
+
+=== 호스트 매핑 중
+
+|===
+
+
+ a| 
+호스트 이름 매핑 중
+ a| 
+
+
+
+ a| 
+호스트 OS 유형입니다
+ a| 
+
+|===

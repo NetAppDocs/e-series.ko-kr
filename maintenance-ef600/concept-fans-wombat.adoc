@@ -1,0 +1,13 @@
+---
+permalink: maintenance-ef600/concept-fans-wombat.html 
+sidebar: sidebar 
+keywords: ef300, ef600, controller, shelf, drive, fan, cooling 
+summary: 각 EF300 또는 EF600 컨트롤러 쉘프 또는 드라이브 쉘프에는 컨트롤러 냉각을 위한 5개의 팬이 포함됩니다. 
+---
+= 팬
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 EF300 또는 EF600 컨트롤러 쉘프 또는 드라이브 쉘프에는 컨트롤러 냉각을 위한 5개의 팬이 포함됩니다.

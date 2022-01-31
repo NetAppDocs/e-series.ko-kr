@@ -1,0 +1,35 @@
+---
+permalink: web-services-proxy/index.html 
+sidebar: sidebar 
+keywords: Web Services Proxy, WSP, 
+summary: SANtricity ® 웹 서비스 프록시, 웹 서비스 API, REST API 개요 
+---
+= SANtricity 웹 서비스 프록시 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity 웹 서비스 프록시는 호스트 시스템에 별도로 설치되는 RESTful API 서버로, 수백 개의 새로운 NetApp E-Series 스토리지 시스템을 관리합니다. 이 대리인에는 유사한 기능을 제공하는 웹 기반 인터페이스인 SANtricity Unified Manager가 포함되어 있습니다.
+
+
+
+== 설치 개요
+
+웹 서비스 프록시를 설치 및 구성하는 절차는 다음과 같습니다.
+
+. link:install-reqs-task.html["설치 및 업그레이드 요구 사항 검토"].
+. link:install-wsp-task.html["웹 서비스 프록시 파일을 다운로드하여 설치합니다"].
+. link:install-login-task.html["API 및 Unified Manager에 로그인합니다"].
+. link:install-config-task.html["웹 서비스 프록시를 구성합니다"].
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+* Unified Manager -- 프록시 설치에는 최신 E-Series 및 EF-Series 스토리지 시스템에 대한 구성 액세스를 제공하는 웹 기반 인터페이스인 SANtricity Unified Manager가 포함됩니다. 자세한 내용은 사용자 인터페이스 또는 에서 제공되는 Unified Manager 온라인 도움말을 참조하십시오 https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-uni-5/home.html?cp=5_1["문서 센터"^].
+* GitHub 저장소 -- GitHub에는 NetApp SANtricity 웹 서비스 API를 사용하는 것을 보여주는 샘플 스크립트의 수집 및 구성을 위한 저장소가 포함되어 있습니다. 리포지토리에 액세스하려면 를 참조하십시오 https://github.com/NetApp/webservices-samples["NetApp 웹 서비스 샘플"^].
+* REST(Representational State Transfer) -- 웹 서비스는 거의 모든 SANtricity 관리 기능에 대한 액세스를 제공하는 RESTful API로, REST 개념에 익숙해야 합니다. 자세한 내용은 을 참조하십시오 http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm["아키텍처 스타일 및 네트워크 기반 소프트웨어 아키텍처의 설계"^].
+* JSON(JavaScript Object Notation) -- 웹 서비스 내의 데이터는 JSON을 통해 인코딩되므로 JSON 프로그래밍 개념에 익숙해야 합니다. 자세한 내용은 을 참조하십시오 http://www.json.org["JSON을 소개합니다"^].
+

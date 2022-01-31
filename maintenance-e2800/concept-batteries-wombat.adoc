@@ -1,0 +1,13 @@
+---
+permalink: maintenance-e2800/concept-batteries-wombat.html 
+sidebar: sidebar 
+keywords: controller, canister, battery, preserve, cache, data, ac, power, fail, recovery, guru, santricity, system, manager, replacement, require, affect, batteries 
+summary: 각 컨트롤러 캐니스터에는 AC 전원에 장애가 발생할 경우 캐싱된 데이터를 보관하는 배터리가 포함되어 있습니다. SANtricity 시스템 관리자의 Recovery Guru에서 배터리 실패 상태 또는 배터리 교체 필요 상태를 보고하는 경우 영향을 받는 배터리를 교체해야 합니다. 
+---
+= 배터리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 컨트롤러 캐니스터에는 AC 전원에 장애가 발생할 경우 캐싱된 데이터를 보관하는 배터리가 포함되어 있습니다. SANtricity 시스템 관리자의 Recovery Guru에서 배터리 실패 상태 또는 배터리 교체 필요 상태를 보고하는 경우 영향을 받는 배터리를 교체해야 합니다.

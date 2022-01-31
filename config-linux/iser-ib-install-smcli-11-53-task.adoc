@@ -1,0 +1,54 @@
+---
+permalink: config-linux/iser-ib-install-smcli-11-53-task.html 
+sidebar: sidebar 
+keywords: install Storage Manager Linux, install CLI Windows, install command line interface, install Host Context Agent, install HCA, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: CLI용 Storage Manager와 Linux Express 방법에서 HCA를 설치합니다. 
+---
+= SMcli용 SANtricity 스토리지 관리자 설치(SANtricity 소프트웨어 버전 11.53 이하)
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity 소프트웨어 11.53 이하를 사용하는 경우, 관리 스테이션에 SANtricity 스토리지 관리자 소프트웨어를 설치하여 어레이를 관리할 수 있습니다.
+
+SANtricity 스토리지 관리자는 추가 관리 작업을 위한 CLI(Command Line Interface)와 I/O 경로를 통해 호스트 구성 정보를 스토리지 어레이 컨트롤러로 푸시하는 Host Context Agent를 포함합니다.
+
+
+NOTE: SANtricity 소프트웨어 11.60 이상을 사용하는 경우 다음 단계를 수행할 필요가 없습니다. SANtricity 보안 CLI(SMcli)는 SANtricity OS에 포함되어 있으며 SANtricity 시스템 관리자를 통해 다운로드할 수 있습니다. SANtricity 시스템 관리자를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말의 _CLI(명령줄 인터페이스)_다운로드 항목을 참조하십시오.
+
+.무엇을 &#8217;필요로 할거야
+* SANtricity 소프트웨어 11.53 이전 버전.
+* 관리자 또는 고급 사용자 권한을 수정합니다.
+* 다음과 같은 최소 요구 사항이 있는 SANtricity Storage Manager 클라이언트용 시스템:
++
+** RAM *: Java Runtime Engine용 2GB
+** * 디스크 공간 *: 5GB
+** * OS/아키텍처 *: 지원되는 운영 체제 버전 및 아키텍처를 결정하는 지침은 을 참조하십시오 http://mysupport.netapp.com["NetApp 지원"^]. 다운로드 * 탭에서 다운로드 [E-Series SANtricity 스토리지 관리자] 메뉴로 이동합니다.
+
+
+
+
+이 작업에서는 데이터 호스트에 Linux를 사용할 때 Windows와 Linux가 모두 공통 관리 스테이션 플랫폼이기 때문에 Windows 및 Linux OS 플랫폼 모두에 SANtricity 스토리지 관리자를 설치하는 방법을 설명합니다.
+
+.단계
+. 에서 SANtricity 소프트웨어 릴리스를 다운로드합니다 http://mysupport.netapp.com["NetApp 지원"^]. 다운로드 * 탭에서 다운로드 [E-Series SANtricity 스토리지 관리자] 메뉴로 이동합니다.
+. SANtricity 설치 프로그램을 실행합니다.
++
+|===
+| Windows | 리눅스 
+
+
+ a| 
+SMIA*.exe 설치 패키지를 두 번 클릭하여 설치를 시작합니다.
+ a| 
+.. SMIA*.BIN 설치 패키지가 있는 디렉터리로 이동합니다.
+.. temp 마운트 지점에 실행 권한이 없는 경우 'IATEMPDIR' 변수를 설정합니다. 예: "IATEMPDIR=/root./SMIA-LINUXX64-11.25.0A00.0002.BIN"
+.. 파일에 대한 실행 권한을 부여하려면 "chmod + x SMIA *.bin" 명령을 실행합니다.
+.. './SMIA *.BIN' 명령어를 실행하여 설치 프로그램을 시작한다.
+
+
+|===
+. 설치 마법사를 사용하여 관리 스테이션에 소프트웨어를 설치합니다.
+

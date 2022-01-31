@@ -1,0 +1,52 @@
+---
+permalink: install-hw-ef600/power-controller-shelves-task.html 
+sidebar: sidebar 
+keywords: EF300, EF600, installation, power on, power cables 
+summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
+---
+= 컨트롤러 쉘프의 전원을 켭니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+전원 케이블을 연결하고 드라이브 쉘프의 전원을 켜는 방법을 알아봅니다.
+
+컨트롤러 쉘프의 전원을 켜기 전에 다음을 수행합니다.
+
+* 하드웨어를 설치합니다.
+* 정전기 방지 예방 조치를 취하십시오.
+
+
+.단계
+. 전원 케이블을 각 컨트롤러에 연결합니다(아래 EF600 그림 참조).
++
+|===
+
+
+ a| 
+image:../media/power_cable_inst-hw-ef600.png[""]
+ a| 
+* 전원 케이블 *
+
+|===
++
+|===
+
+
+ a| 
+image:../media/cabling_power.png[""]
+
+|===
+. 각 컨트롤러에서 2개의 전원 케이블을 캐비닛 또는 랙에 있는 2개의 개별 PDU(Power Distribution Unit)에 연결합니다.
++
+
+CAUTION: 쉘프를 통해 EF300 또는 EF600 컨트롤러 캐니스터에 액세스하면 타사 PDU가 차단됩니다. 컨트롤러 캐니스터 바로 뒤에 전원 콘센트를 사용하지 마십시오.
+
+. 스토리지 시스템 설정 및 구성을 완료하기 전에 컨트롤러가 5분 동안 부팅되도록 합니다.
+
+
+컨트롤러가 자동으로 부팅됩니다. LED가 깜박이고 팬이 시작하면서 컨트롤러의 전원이 켜졌음을 알려줍니다.
+
+
+NOTE: 팬이 처음 전원을 켤 때 매우 큰 소리가 발생합니다.

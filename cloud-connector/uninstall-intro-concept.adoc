@@ -1,0 +1,75 @@
+---
+permalink: cloud-connector/uninstall-intro-concept.html 
+sidebar: sidebar 
+keywords: Cloud Connector uninstall, remove Cloud Connector 
+summary: 그래픽 제거 프로그램 또는 콘솔을 통해 SANtricity 클라우드 커넥터를 제거할 수 있습니다. 
+---
+= SANtricity 클라우드 커넥터를 제거합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그래픽 제거 프로그램 또는 콘솔 모드를 통해 SANtricity 클라우드 커넥터를 제거할 수 있습니다.
+
+
+
+== 그래픽 모드를 사용하여 제거합니다
+
+그래픽 모드를 사용하여 Linux 운영 체제에서 SANtricity 클라우드 커넥터를 제거할 수 있습니다.
+
+.단계
+. 터미널 창에서 SANtricity 클라우드 커넥터 제거 파일이 포함된 디렉터리로 이동합니다.
++
+SANtricity 클라우드 커넥터의 제거 파일은 다음 기본 디렉토리 위치에서 사용할 수 있습니다.
+
++
+[listing]
+----
+/opt/netapp/santricity_cloud_connector4/uninstall_cloud_connector4
+----
+. SANtricity 클라우드 커넥터 제거 파일이 포함된 디렉토리에서 다음 명령을 실행합니다.
++
+[listing]
+----
+./uninstall_cloud_connector4 –i gui
+----
++
+SANtricity 클라우드 커넥터의 제거 프로세스가 초기화됩니다.
+
+. 제거 창에서 * 제거 * 를 클릭하여 SANtricity 클라우드 커넥터 제거를 계속합니다.
++
+제거 프로세스가 완료되고 SANtricity 클라우드 커넥터 응용 프로그램이 Linux 운영 체제에서 제거됩니다.
+
+
+
+
+
+== 콘솔 모드를 사용하여 제거합니다
+
+콘솔 모드를 사용하여 Linux 운영 체제에서 SANtricity 클라우드 커넥터를 제거할 수 있습니다.
+
+.단계
+. 터미널 창에서 SANtricity 클라우드 커넥터 제거 파일이 포함된 디렉터리로 이동합니다.
++
+SANtricity 클라우드 커넥터의 제거 파일은 다음 기본 디렉토리 위치에서 사용할 수 있습니다.
+
++
+[listing]
+----
+/opt/netapp/santricity_cloud_connector4/uninstall_cloud_connector4
+----
+. SANtricity 클라우드 커넥터 제거 파일이 포함된 디렉토리에서 다음 명령을 실행합니다.
++
+[listing]
+----
+./uninstall_cloud_connector4 –i console
+----
++
+SANtricity 클라우드 커넥터의 제거 프로세스가 초기화됩니다.
+
+. 제거 창에서 * Enter * 를 눌러 SANtricity 클라우드 커넥터 제거를 계속합니다.
++
+제거 프로세스가 완료되고 SANtricity 클라우드 커넥터 응용 프로그램이 Linux 운영 체제에서 제거됩니다.
+
+

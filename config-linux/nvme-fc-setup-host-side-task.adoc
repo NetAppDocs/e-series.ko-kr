@@ -1,0 +1,99 @@
+---
+permalink: config-linux/nvme-fc-setup-host-side-task.html 
+sidebar: sidebar 
+keywords: NVMe over Fibre Channel, host side, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 것이 포함됩니다. 
+---
+= 호스트 측에서 NVMe over Fibre Channel을 설정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 기능이 포함됩니다.
+
+다음 절차는 Broadcom Emulex 또는 QLogic NVMe/FC 지원 FC HBA를 사용하는 RHEL 7, RHEL 8, SLES 12 및 SLES 15에 대한 것입니다. 지원되는 OS 버전 또는 HBA에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
+.단계
+. "NVMe-CLI" 패키지를 설치합니다.
++
+* SLES 12 또는 SLES 15 *
+
++
+[listing]
+----
+
+# zypper install nvme-cli
+----
++
+RHEL 7 또는 RHEL 8 *
+
++
+[listing]
+----
+
+# yum install nvme-cli
+----
++
+.. RHEL 7의 경우에만 을 통해 NVMe/FC 연결에 대한 외부 Broadcom AutoConnect 스크립트를 다운로드하여 설치합니다 https://www.broadcom.com/support/download-search["Broadcom 웹 사이트"^]. FC 드라이버를 통해 받은 편지함 NVMe에 대한 키워드 * AutoConnect 스크립트 파일 * 을 입력하고 OS에 맞는 최신 버전을 선택합니다.
+.. Qlogic의 경우 Broadcom NVMe/FC 자동 연결 스크립트를 설치한 후 다음을 포함하도록 '/lib/systemd/system/nvmefc-boot-connections.service` 를 수정합니다.
++
+[listing]
+----
+[Unit]
+Description=Auto-connect to subsystems on FC-NVME devices found during boot
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo add > /sys/class/fc/fc_udev_device/nvme_discovery"
+
+[Install]
+WantedBy=default.target
+----
+
+
+. nvmefc-boot-connections 서비스를 활성화하고 시작합니다.
++
+[listing]
+----
+systemctl enable nvmefc-boot-connections.service
+----
++
+[listing]
+----
+systemctl start nvmefc-boot-connections.service
+----
+
+
+* Emulex HBA에 대한 호스트 측 설정: *
+
+
+NOTE: 다음 단계는 Emulex HBA에만 해당됩니다.
+
+. SLES12 SP4를 NVMe/FC Initiator로 사용하려면 lpfc_enable_fc4_type을 3으로 설정하십시오.
++
+[listing]
+----
+# cat /etc/modprobe.d/lpfc.conf
+options lpfc lpfc_enable_fc4_type=3
+----
+. "initrd"를 다시 빌드하여 Emulex 변경 및 부팅 매개 변수 변경을 가져옵니다.
++
+[listing]
+----
+# dracut --force
+----
+. 호스트를 재부팅하여 "Ipfc" 드라이버의 변경 사항을 로드합니다.
++
+[listing]
+----
+# reboot
+----
++
+호스트가 재부팅되고 호스트에서 NVMe/FC 이니시에이터가 설정됩니다.
+
++
+
+NOTE: 호스트 측 설정을 완료하면 NVMe over Fibre Channel 포트가 자동으로 연결됩니다.
+
+

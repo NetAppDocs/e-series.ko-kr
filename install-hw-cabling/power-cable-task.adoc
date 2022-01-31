@@ -1,0 +1,24 @@
+---
+permalink: install-hw-cabling/power-cable-task.html 
+sidebar: sidebar 
+keywords: cabling, cables, power cable, power cabling, power supply cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
+summary: 각 구성 요소의 전원 공급 장치를 별도의 전원 회로에 연결합니다. 
+---
+= 전원 케이블 연결
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 구성 요소의 전원 공급 장치를 별도의 전원 회로에 연결해야 합니다.
+
+.시작하기 전에
+* 귀하의 위치가 필요한 전력을 제공한다는 것을 확인했습니다.
+* 2개의 셸프 전원 공급 장치에 있는 2개의 전원 스위치를 꺼야 합니다.
+
+
+스토리지 시스템의 전원을 새 드라이브 쉘프의 전원 요구사항을 수용할 수 있어야 합니다. 스토리지 시스템의 전력 소비에 대한 자세한 내용은 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
+
+.단계
+. 각 셸프의 전원 케이블 2개를 캐비닛이나 랙의 서로 다른 PDU(Power Distribution Unit)에 연결합니다.
+

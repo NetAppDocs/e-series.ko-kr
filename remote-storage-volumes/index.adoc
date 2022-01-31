@@ -1,0 +1,34 @@
+---
+permalink: remote-storage-volumes/index.html 
+sidebar: sidebar 
+keywords: Remote Storage Volumes, RTV, remote volumes, remote storage E-Series 
+summary: 원격 스토리지 볼륨 기능을 사용하여 원격 스토리지 장치에서 로컬 E-Series 볼륨으로 직접 데이터를 가져올 수 있습니다. 
+---
+= 원격 스토리지 볼륨 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity ® 원격 스토리지 볼륨 기능을 사용하여 원격 스토리지 장치에서 로컬 E-Series 볼륨으로 직접 데이터를 가져올 수 있습니다. 이 기능은 장비 업그레이드 프로세스를 간소화하고, 비 E-Series 장치에서 E-Series 시스템으로 데이터를 이동할 수 있는 데이터 마이그레이션 기능을 제공합니다.
+
+
+
+== 구성 개요
+
+원격 스토리지 볼륨 기능은 선택된 하위 모델 ID에서 SANtricity System Manager에서 사용할 수 있습니다. 이 기능을 사용하려면 원격 스토리지 시스템과 E-Series 스토리지 시스템이 서로 통신하도록 구성해야 합니다.
+
+다음 워크플로를 사용합니다.
+
+. link:system-reqs-concept.html["요건 및 제한 사항 검토"].
+. link:setup-remote-volumes-concept.html["하드웨어를 구성합니다"].
+. link:import-remote-storage-task.html["원격 저장소 가져오기"].
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+* 온라인 도움말: System Manager 사용자 인터페이스 또는 에서 사용할 수 있습니다 https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-117/home.html?cp=5_0["문서 센터"^].
+* 원격 스토리지 볼륨 기능에 대한 자세한 기술 정보는 를 참조하십시오 https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["원격 스토리지 볼륨 기술 보고서"^].
+

@@ -1,0 +1,22 @@
+---
+permalink: config-vmware/discover-storage-host-task.html 
+sidebar: sidebar 
+keywords: discover storage ESXi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 호스트에 볼륨을 할당한 후 호스트에서 다중 경로를 위한 볼륨을 감지하고 구성할 수 있도록 재검색을 수행합니다. 
+---
+= 호스트에서 스토리지를 검색합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+호스트에 볼륨을 할당한 후 호스트에서 다중 경로를 위한 볼륨을 감지하고 구성할 수 있도록 재검색을 수행합니다.
+
+기본적으로 ESXi 호스트는 5분마다 재검색을 자동으로 수행합니다. 수동 재검색을 수행하기 전에 볼륨을 생성한 후 호스트에 할당할 때 사이에 볼륨이 나타날 수 있습니다. 관계없이 모든 볼륨이 올바르게 구성되도록 수동 재검색을 수행할 수 있습니다.
+
+.단계
+. 하나 이상의 볼륨을 생성하여 ESXi 호스트에 할당합니다.
+. vCenter Server를 사용하는 경우 호스트를 서버의 인벤토리에 추가합니다.
+. vSphere Client 또는 vSphere Web Client를 사용하여 vCenter Server 또는 ESXi 호스트에 직접 연결합니다.
+. ESXi 호스트에서 스토리지 재검색을 수행하는 방법에 대한 지침은 를 검색합니다 https://kb.vmware.com/s/["VMware 기술 자료"^] 를 참조하십시오.
+

@@ -1,0 +1,23 @@
+---
+permalink: config-linux/iscsi-configure-switches-concept.html 
+sidebar: sidebar 
+keywords: Switches, zoning, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 공급업체의 iSCSI 권장 사항에 따라 스위치를 구성합니다. 
+---
+= 스위치를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
+
+다음 사항을 확인해야 합니다.
+
+* 고가용성을 위해 두 개의 별도 네트워크가 있습니다. iSCSI 트래픽을 분리하여 네트워크 세그먼트를 구분해야 합니다.
+* 흐름 제어 * 엔드 투 엔드 * 를 활성화해야 합니다.
+* 필요한 경우 점보 프레임을 사용하도록 설정합니다.
+
+
+
+NOTE: 컨트롤러의 스위치 포트에서는 포트 채널/LACP가 지원되지 않습니다. 호스트측 LACP는 권장되지 않습니다. 다중 경로가 동일한 이점을 제공하며 경우에 따라 더 나은 이점이 있습니다.

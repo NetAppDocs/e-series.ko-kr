@@ -1,0 +1,165 @@
+---
+permalink: config-linux/iser-ib-configure-network-attached-hosts-task.html 
+sidebar: sidebar 
+keywords: configure network Linux, configure hosts linux, express linux configuration, linux host, 
+summary: InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 SRP를 동시에 실행할 수 있으므로 추가 하드웨어가 필요하지 않습니다. 
+---
+= 스토리지 연결 호스트에 대한 네트워킹을 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성에서 InfiniBand 프로토콜을 통한 iSER을 사용하는 경우 이 섹션의 단계를 수행하십시오.
+
+InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 SRP를 동시에 실행할 수 있으므로 추가 하드웨어가 필요하지 않습니다.
+
+NetApp에서 시스템에 OFED를 설치하도록 권장합니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
+.단계
+. 호스트에서 iSCSI 서비스 활성화 및 시작:
++
+* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *
+
++
+[listing]
+----
+
+# systemctl start iscsi
+# systemctl start iscsid
+# systemctl enable iscsi
+# systemctl enable iscsid
+----
++
+* SUSE Linux Enterprise Server 12 및 15(SLES 12 및 SLES 15) *
+
++
+[listing]
+----
+
+# systemctl start iscsid.service
+# systemctl enable iscsid.service
+----
+. IPoIB 네트워크 인터페이스 구성:
++
+.. 사용할 InfiniBand 포트를 식별합니다. 각 포트의 HW 주소(MAC 주소)를 기록합니다.
+.. InfiniBand 네트워크 인터페이스 디바이스의 영구 이름을 구성합니다.
+.. 식별된 IPoIB 인터페이스에 대한 IP 주소 및 네트워크 정보를 구성합니다.
++
+필요한 특정 인터페이스 구성은 사용하는 운영 체제에 따라 다를 수 있습니다. 구축에 대한 자세한 내용은 공급업체의 운영 체제 설명서를 참조하십시오.
+
+.. 네트워킹 서비스를 다시 시작하거나 각 인터페이스를 수동으로 다시 시작하여 IB 네트워크 인터페이스를 시작합니다. 예를 들면 다음과 같습니다.
++
+[listing]
+----
+systemctl restart network
+----
+.. 타겟 포트에 대한 접속을 확인합니다. 호스트에서 네트워크 연결을 구성할 때 구성한 IP 주소를 ping합니다.
+
+
+. 서비스를 다시 시작하여 iSER 모듈을 로드합니다.
+. /etc/iscsi/iscsid.conf에서 iSCSI 설정을 편집합니다.
++
+[listing]
+----
+node.startup = automatic replacement_timeout = 20
+----
+. iSCSI 세션 구성 생성:
++
+.. 각 InfiniBand 인터페이스에 대한 iface 구성 파일을 생성합니다.
++
+
+NOTE: iSCSI iface 파일의 디렉토리 위치는 운영 체제에 따라 다릅니다. 이 예는 Red Hat Enterprise Linux를 사용하는 경우입니다.
+
++
+[listing]
+----
+iscsiadm -m iface -I iser > /var/lib/iscsi/ifaces/iface-ib0
+iscsiadm -m iface -I iser > /var/lib/iscsi/ifaces/iface-ib1
+----
+.. 각 iface 파일을 편집하여 인터페이스 이름과 이니시에이터 IQN을 설정합니다. 각 iface 파일에 대해 다음 매개 변수를 적절하게 설정합니다.
++
+|===
+| 옵션을 선택합니다 | 값 
+
+
+ a| 
+iface.net_ifacename
+ a| 
+인터페이스 디바이스 이름(예: ib0)를 참조하십시오.
+
+
+
+ a| 
+iface.initiatorname
+ a| 
+워크시트에 기록된 호스트 이니시에이터 IQN입니다.
+
+|===
+.. 타겟에 대한 iSCSI 세션을 생성합니다.
++
+세션을 만드는 기본 방법은 SendTargets 검색 방법을 사용하는 것입니다. 그러나 일부 운영 체제 릴리스에서는 이 방법이 작동하지 않습니다.
+
++
+
+NOTE: RHEL 6.x 또는 SLES 11.3 이상에 * 방법 2 * 를 사용합니다.
+
++
+*** * 방법 1 - SendTargets 검색: * SendTargets 검색 메커니즘을 대상 포털 IP 주소 중 하나에 사용합니다. 이렇게 하면 각 타겟 포털에 대한 세션이 생성됩니다.
++
+[listing]
+----
+iscsiadm -m discovery -t st -p 192.168.130.101 -I iser
+----
+*** * 방법 2 - 수동 생성: * 각 대상 포털 IP 주소에 대해 적절한 호스트 인터페이스 iface 구성을 사용하여 세션을 생성합니다. 이 예에서 인터페이스 ib0은 서브넷 A에 있고 인터페이스 ib1은 서브넷 B에 있습니다 이러한 변수의 경우 워크시트에서 적절한 값을 대체합니다.
++
+**** 타겟 IQN> = 스토리지 배열 타겟 IQN입니다
+**** Target Port IP> = 지정된 대상 포트에 구성된 IP 주소입니다
+
+
+
+
+
+
++
+[listing]
+----
+# Controller A Port 1
+iscsiadm -m node -target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l -o new
+# Controller B Port 1
+iscsiadm -m node -target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l -o new
+# Controller A Port 2
+iscsiadm -m node -target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l -o new
+# Controller B Port 2
+iscsiadm -m node -target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l -o new
+----
+. iSCSI 세션에 로그인합니다.
++
+각 세션에 대해 iscsiadm 명령을 실행하여 세션에 로그인합니다.
+
++
+[listing]
+----
+# Controller A Port 1
+iscsiadm -m node -target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l
+# Controller B Port 1
+iscsiadm -m node -target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l
+# Controller A Port 2
+iscsiadm -m node -target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l
+# Controller B Port 2
+iscsiadm -m node -target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l
+----
+. iSER/iSCSI 세션을 확인합니다.
++
+.. 호스트에서 iSCSI 세션 상태를 확인합니다.
++
+[listing]
+----
+iscsiadm -m session
+----
+.. 스토리지에서 iSCSI 세션 상태를 확인합니다. SANtricity 시스템 관리자에서 * 스토리지 어레이 * > * iSER * > * 보기/종료 세션 * 으로 이동합니다.
+
+
+
+
+OFED/RDMA 서비스가 시작되면 iSER 커널 모듈은 iSCSI 서비스가 실행 중일 때 기본적으로 로드됩니다. iSER 연결 설정을 완료하려면 iSER 모듈을 로드해야 합니다. 현재 이 작업을 수행하려면 호스트를 재부팅해야 합니다.

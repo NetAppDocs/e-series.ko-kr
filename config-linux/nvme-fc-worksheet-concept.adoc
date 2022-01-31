@@ -1,0 +1,130 @@
+---
+permalink: config-linux/nvme-fc-worksheet-concept.html 
+sidebar: sidebar 
+keywords: NVMe over FC worksheet Linux, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 이 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 구성 정보를 기록할 수 있습니다. 
+---
+= NVMe over FC 구성을 기록합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지의 PDF를 생성하여 인쇄한 다음 다음, 다음 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
+
+
+
+== 직접 연결 토폴로지
+
+직접 연결 토폴로지에서는 하나 이상의 호스트가 컨트롤러에 직접 연결됩니다.
+
+image::../media/nvme_fc_direct_topology.png[NVMe FC 직접 토폴로지]
+
+* 호스트 1 HBA 포트 1 및 컨트롤러 A 호스트 포트 1
+* 호스트 1 HBA 포트 2 및 컨트롤러 B 호스트 포트 1
+* 호스트 2 HBA 포트 1 및 컨트롤러 A 호스트 포트 2
+* 호스트 2 HBA 포트 2 및 컨트롤러 B 호스트 포트 2
+* 호스트 3 HBA 포트 1 및 컨트롤러 A 호스트 포트 3
+* 호스트 3 HBA 포트 2 및 컨트롤러 B 호스트 포트 3
+* 호스트 4 HBA 포트 1 및 컨트롤러 A 호스트 포트 4
+* 호스트 4 HBA 포트 2 및 컨트롤러 B 호스트 포트 4
+
+
+
+
+== 스위치 연결 토폴로지
+
+Fabric 토폴로지에서는 하나 이상의 스위치가 사용됩니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 지원되는 스위치 목록을 참조하십시오.
+
+image::../media/nvme_fc_fabric_topology.png[NVMe FC 패브릭 토폴로지]
+
+
+
+== 호스트 식별자입니다
+
+각 호스트에서 이니시에이터 NQN을 찾아 문서화합니다.
+
+|===
+| 호스트 포트 연결 | 호스트 NQN 
+
+
+ a| 
+호스트(이니시에이터) 1
+ a| 
+
+
+
+ a| 
+호스트(이니시에이터) 2
+ a| 
+
+|===
+
+
+== 타겟 NQN
+
+스토리지 배열의 대상 NQN을 기록합니다.
+
+|===
+| 스토리지 이름입니다 | 타겟 NQN 
+
+
+ a| 
+어레이 컨트롤러(타겟)
+ a| 
+
+|===
+
+
+== 대상 NQN
+
+스토리지 포트에서 사용할 NQN을 기록합니다.
+
+|===
+| 어레이 컨트롤러(타겟) 포트 연결 | NQN 
+
+
+ a| 
+컨트롤러 A, 포트 1
+ a| 
+
+
+
+ a| 
+컨트롤러 B, 포트 1
+ a| 
+
+
+
+ a| 
+컨트롤러 A, 포트 2
+ a| 
+
+
+
+ a| 
+컨트롤러 B, 포트 2
+ a| 
+
+|===
+
+
+== 호스트 이름 매핑 중
+
+
+NOTE: 매핑 호스트 이름은 워크플로우 중에 생성됩니다.
+
+|===
+
+
+ a| 
+호스트 이름 매핑 중
+ a| 
+
+
+
+ a| 
+호스트 OS 유형입니다
+ a| 
+
+|===

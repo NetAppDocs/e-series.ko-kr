@@ -1,0 +1,169 @@
+---
+permalink: web-services-proxy/asup-intro-concept.html 
+sidebar: sidebar 
+keywords: ASUP configuration Web Services, AutoSupport Web Services Proxy, WSP ASUP config 
+summary: '데이터를 수집한 AutoSupport(ASUP)를 구성하여 원격 문제 해결 및 문제 분석을 위해 해당 데이터를 기술 지원 부서에 자동으로 전송할 수 있습니다.' 
+---
+= 웹 서비스 프록시를 사용하여 AutoSupport를 관리합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+데이터를 수집한 AutoSupport(ASUP)를 구성하여 원격 문제 해결 및 문제 분석을 위해 해당 데이터를 기술 지원 부서에 자동으로 전송할 수 있습니다.
+
+
+
+== AutoSupport(ASUP) 개요
+
+ASUP(AutoSupport) 기능은 수동 및 일정 기반의 기준에 따라 메시지를 NetApp에 자동으로 전송합니다.
+
+각 AutoSupport 메시지는 로그 파일, 구성 데이터, 상태 데이터 및 성능 메트릭의 모음입니다. 기본적으로 AutoSupport는 다음 표에 나열된 파일을 매주 한 번씩 NetApp 지원 팀에 전송합니다.
+
+|===
+| 파일 이름 | 설명 
+
+
+ a| 
+x-headers-data.txt
+ a| 
+X-헤더 정보가 포함된 .txt 파일입니다.
+
+
+
+ a| 
+manifest.xml
+ a| 
+메시지의 내용을 자세히 설명하는 .xml 파일입니다.
+
+
+
+ a| 
+arraydata.xml
+ a| 
+클라이언트 영구 데이터 목록이 들어 있는 .xml 파일입니다.
+
+
+
+ a| 
+appserver-config.txt
+ a| 
+응용 프로그램 서버 구성 데이터가 포함된 .txt 파일입니다.
+
+
+
+ a| 
+wsconfig.txt
+ a| 
+웹 서비스 구성 데이터가 포함된 .txt 파일입니다.
+
+
+
+ a| 
+host-info.txt
+ a| 
+호스트 환경에 대한 정보가 포함된 .txt 파일입니다.
+
+
+
+ a| 
+server-logs.7z
+ a| 
+사용 가능한 모든 웹 서버 로그 파일을 포함하는 .7z 파일입니다.
+
+
+
+ a| 
+client-info.txt
+ a| 
+메서드 및 웹 페이지 적중 횟수와 같은 응용 프로그램별 카운터에 대한 임의의 키/값 쌍이 들어 있는 .txt 파일입니다.
+
+
+
+ a| 
+webServices - profile.json
+ a| 
+이러한 파일에는 Webservices 프로필 데이터와 Jersey 모니터링 통계 데이터가 포함되어 있습니다. 기본적으로 저지 모니터링 통계가 활성화됩니다. wsconfig.xml 파일에서 다음과 같이 활성화 및 비활성화할 수 있습니다.
+
+* Enable:(< env key="enable.jersey.statistics">true</env>)
+* 비활성화: `<env key="enable.jersey.statistics">false</env>'
+
+
+|===
+
+
+== AutoSupport를 구성합니다
+
+AutoSupport는 설치 시 기본적으로 활성화되어 있지만, 이 설정을 변경하거나 전송 유형을 수정할 수 있습니다.
+
+
+
+=== AutoSupport를 활성화 또는 비활성화합니다
+
+AutoSupport 기능은 웹 서비스 프록시를 처음 설치하는 동안 활성화 또는 비활성화되지만 ASUPConfig 파일에서 해당 설정을 변경할 수 있습니다.
+
+아래 단계에 설명된 대로 ASUPConfig.xml 파일을 통해 AutoSupport를 활성화하거나 비활성화할 수 있습니다. 또는 * 구성 * 및 * POST/ASUP * 를 사용하여 API를 통해 이 기능을 활성화 또는 비활성화한 다음 "참" 또는 "거짓"을 입력할 수 있습니다.
+
+. 작업 디렉터리에서 ASUPConfig.xml 파일을 엽니다.
+. "<asupdata enabled="(Boolean)" timestamp=>"에 대한 줄을 찾습니다
+. TRUE(활성화) 또는 FALSE(비활성화)를 입력합니다. 예를 들면 다음과 같습니다.
++
+[listing]
+----
+<asupdata enabled="false" timestamp="0">
+----
++
+
+NOTE: 타임스탬프 항목이 불필요합니다.
+
+. 파일을 저장합니다.
+
+
+
+
+=== AutoSupport 전달 방법을 구성합니다
+
+HTTPS, HTTP 또는 SMTP 전송 방법을 사용하도록 AutoSupport 기능을 구성할 수 있습니다. HTTPS는 기본 전송 방법입니다.
+
+. 작업 디렉터리에서 ASUPConfig.xml 파일에 액세스합니다.
+. 문자열, "<delivery type="n">"에 표에 설명된 대로 1, 2 또는 3을 입력합니다.
++
+|===
+| 값 | 설명 
+
+
+ a| 
+1
+ a| 
+* HTTPS * (기본값)
+
+전달 유형="1">
+
+
+
+ a| 
+2
+ a| 
+* HTTP *
+
+전달 유형="2">
+
+
+
+ a| 
+3
+ a| 
+SMTP * -- SMTP에 AutoSupport 전달 유형을 올바르게 구성하려면 다음 예와 같이 보낸 사람 및 받는 사람 사용자 이메일과 함께 SMTP 메일 서버 주소를 포함해야 합니다.
+
+[listing]
+----
+<delivery type="3">
+<smtp>
+<mailserver>smtp.example.com</mailserver>
+<sender>user@example.com</sender>
+<replyto>user@example.com</replyto>
+</smtp>
+</delivery>
+----
+|===
+

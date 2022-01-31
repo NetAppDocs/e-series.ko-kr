@@ -1,0 +1,60 @@
+---
+permalink: web-services-proxy/overview-compat-concept.html 
+sidebar: sidebar 
+keywords: Web Services, WSP, SANtricity API, 
+summary: WSP 호환성 및 제한 사항. 
+---
+= 호환성 및 제한
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+웹 서비스 프록시 사용에 적용되는 호환성 및 제한 사항은 다음과 같습니다.
+
+|===
+| 고려 사항 | 호환성 또는 제한 
+
+
+ a| 
+HTTP 지원
+ a| 
+웹 서비스 프록시는 HTTP 또는 HTTPS를 사용할 수 있습니다. (임베디드 버전의 웹 서비스는 보안상의 이유로 HTTPS가 필요합니다.)
+
+
+
+ a| 
+기술을 자세히 소개합니다
+ a| 
+웹 서비스 프록시를 사용하면 이전 시스템과 최신 E2800, EF280, E5700, EF570, EF300 등의 모든 E-Series 스토리지 시스템을 관리할 수 있습니다. EF600 시리즈 시스템이었습니다.
+
+
+
+ a| 
+IP 지원
+ a| 
+웹 서비스 프록시는 IPv4 프로토콜 또는 IPv6 프로토콜을 지원합니다.
+
+
+NOTE: 웹 서비스 프록시가 컨트롤러 구성에서 관리 주소를 자동으로 검색하려고 하면 IPv6 프로토콜이 실패할 수 있습니다. IP 주소 전달 중 또는 IPv6가 서버에 있지 않고 스토리지 시스템에서 활성화되어 있는 동안 발생하는 문제가 오류의 가능한 원인입니다.
+
+
+
+ a| 
+NVSRAM 파일 이름 제약 조건
+ a| 
+웹 서비스 프록시는 NVSRAM 파일 이름을 사용하여 버전 정보를 정확하게 식별합니다. 따라서 웹 서비스 프록시와 함께 사용되는 NVSRAM 파일 이름은 변경할 수 없습니다. 웹 서비스 프록시는 이름이 바뀐 NVSRAM 파일을 유효한 펌웨어 파일로 인식하지 못할 수 있습니다.
+
+
+
+ a| 
+Symbol 웹
+ a| 
+Symbol Web은 REST API의 URL입니다. 거의 모든 심볼 호출에 액세스할 수 있습니다. SYMBOL 함수는 다음 URL의 일부입니다.
+
+'+http://host:port/devmgr/storage-system/storage 배열 ID/기호/기호 함수+'
+
+
+NOTE: Symbol에서 사용하지 않는 스토리지 시스템은 웹 서비스 프록시를 통해 지원됩니다.
+
+|===

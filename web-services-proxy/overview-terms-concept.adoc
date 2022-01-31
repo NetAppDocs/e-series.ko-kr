@@ -1,0 +1,87 @@
+---
+permalink: web-services-proxy/overview-terms-concept.html 
+sidebar: sidebar 
+keywords: Web Services terms, WSP concepts 
+summary: 웹 서비스 API에 대해 자세히 알아보십시오 
+---
+= 용어 및 개념
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 용어는 웹 서비스 프록시에 적용됩니다.
+
+|===
+| 기간 | 정의 
+
+
+ a| 
+API를 참조하십시오
+ a| 
+API(응용 프로그래밍 인터페이스)는 개발자가 장치와 통신할 수 있도록 하는 프로토콜 및 메서드 집합입니다. 웹 서비스 API는 E-Series 스토리지 시스템과 통신하는 데 사용됩니다.
+
+
+
+ a| 
+ASUP
+ a| 
+ASUP(AutoSupport) 기능은 고객 지원 번들에서 데이터를 수집하고 원격 문제 해결 및 문제 분석을 위해 메시지 파일을 기술 지원 팀에 자동으로 전송합니다.
+
+
+
+ a| 
+엔드포인트
+ a| 
+끝점은 API를 통해 사용할 수 있는 기능입니다. 끝점에는 HTTP 동사와 URI 경로가 포함됩니다. 웹 서비스에서 끝점은 스토리지 시스템 검색 및 볼륨 생성과 같은 작업을 실행할 수 있습니다.
+
+
+
+ a| 
+HTTP 동사
+ a| 
+HTTP 동사는 데이터 검색 및 만들기와 같은 끝점에 대한 해당 작업입니다. 웹 서비스에서 HTTP 동사는 POST, GET 및 DELETE를 포함합니다.
+
+
+
+ a| 
+JSON을 참조하십시오
+ a| 
+JSON(JavaScript Object Notation)은 XML과 유사한 구조화된 데이터 형식으로, 읽을 수 있는 최소 형식을 사용합니다. 웹 서비스 내의 데이터는 JSON을 통해 인코딩됩니다.
+
+
+
+ a| 
+REST/RESTful
+ a| 
+REST(Representational State Transfer)는 API의 아키텍처 스타일을 정의하는 느슨한 사양입니다. 대부분의 REST API는 사양을 완전히 따르지 않기 때문에 "restful" 또는 "reST-like"로 묘사됩니다. 일반적으로 "restful" API는 프로그래밍 언어에 상관없이 사용할 수 있으며 다음과 같은 특징이 있습니다.
+
+* 프로토콜의 일반적인 의미를 따르는 HTTP 기반
+* 정형 데이터의 생산자 및 소비자(JSON, XML 등)
+* 오브젝트 지향(운영 중심 대신)
+
+
+웹 서비스는 거의 모든 SANtricity 관리 기능에 대한 액세스를 제공하는 RESTful API입니다.
+
+
+
+ a| 
+수행할 수 있습니다
+ a| 
+스토리지 시스템은 E-Series 어레이로, 쉘프, 컨트롤러, 드라이브, 소프트웨어 펌웨어를 업데이트할 수 있습니다.
+
+
+
+ a| 
+기호 API
+ a| 
+Symbol은 E-Series 스토리지 시스템을 관리하기 위한 레거시 API를 제공합니다. 웹 서비스 API의 기본 구현에는 기호가 사용됩니다.
+
+
+
+ a| 
+웹 서비스
+ a| 
+Web Services는 개발자가 E-Series 스토리지 시스템을 관리하도록 설계된 API입니다. 웹 서비스는 컨트롤러에 내장되어 있고 Linux 또는 Windows에 설치할 수 있는 별도의 프록시와 같은 두 가지 구현이 있습니다.
+
+|===

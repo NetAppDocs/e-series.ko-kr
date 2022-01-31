@@ -1,0 +1,96 @@
+---
+permalink: install-hw-ef600/install-hardware-task.html 
+sidebar: sidebar 
+keywords: EF300, EF600, installation, 
+summary: 2-포스트 랙 또는 NetApp 시스템 캐비닛에 EF300 또는 EF600을 설치합니다. 
+---
+= 하드웨어를 설치합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF300 또는 EF600 스토리지 시스템을 2포스트 랙 또는 NetApp 시스템 캐비닛에 설치할 수 있습니다.
+
+EF300 또는 EF600 스토리지 시스템을 설치하기 전에 다음을 확인하십시오.
+
+* 에서 하드웨어를 등록하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+* 평평하고 정전기가 없는 작업 영역을 준비합니다.
+* 정전기 방지 예방 조치를 취하십시오.
+
+
+.단계
+. 하드웨어 포장을 풉니다.
++
+.. 내용물 포장을 풀고 포함된 하드웨어를 포장 명세서에 적으십시오.
+.. 계속하기 전에 모든 지침을 읽으십시오.
+
+
+. 레일을 설치합니다.
++
+
+NOTE: 장비가 넘어지지 않도록 하려면 랙 또는 캐비닛 하단에서 상단까지 하드웨어를 설치하십시오.
+
++
+|===
+
+
+ a| 
+랙 장착 하드웨어에 지침이 포함된 경우 레일 설치 방법을 참조하십시오. 추가 랙 장착 지침은 을 참조하십시오 link:../rackmount-hardware.html["랙 마운트 하드웨어"].
+
+
+
+ a| 
+image:../media/install_rails_inst-hw-ef600.png[""]
+
+|===
+. 쉘프를 설치합니다.
++
+|===
+
+
+ a| 
+.. 여러 개의 선반을 설치하는 경우 캐비닛 하단에서 상단까지 설치를 시작합니다. 선반 뒷면을 레일 위에 놓습니다.
++
+
+CAUTION: 선반을 설치할 때는 팀 리프트를 두 사람과 함께 사용합니다.
+
+.. 하단에서 쉘프를 지지한 다음 캐비닛에 밀어 넣습니다.
+
+
+
+
+ a| 
+image:../media/install_ef600.png[""]
+
+|===
+. 쉘프를 고정하십시오.
++
+|===
+
+
+ a| 
+자세한 내용은 을 참조하십시오 link:../rackmount-hardware.html["랙 마운트 하드웨어"].
+
+
+
+ a| 
+image:../media/secure_shelf_inst-hw-ef600.png[""]
+
+|===
+. 전면판을 설치합니다.
++
+|===
+
+
+ a| 
+.. 면판을 선반과 맞추고 제자리에 끼웁니다.
+
+
+
+
+ a| 
+image:../media/install_faceplate_2_0_inst-hw-ef600.png[""]
+
+|===
+

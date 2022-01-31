@@ -1,0 +1,45 @@
+---
+permalink: config-linux/index.html 
+sidebar: sidebar 
+keywords: express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: E-Series 시스템이 있는 Linux 호스트의 Express 구성을 사용합니다. 
+---
+= Linux Express 구성 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이를 설치하고 SANtricity System Manager에 액세스하는 Linux Express 방법은 독립형 Linux 호스트를 E-Series 스토리지 시스템에 설정하는 데 적합합니다. 최소한의 의사 결정으로 스토리지 시스템을 최대한 빠르게 가동 및 운영할 수 있도록 설계되었습니다.
+
+
+
+=== 절차 개요
+
+Linux Express 방법에는 다음 단계가 포함됩니다.
+
+. 다음 통신 환경 중 하나를 설정합니다.
++
+** 파이버 채널(FC)
+** iSCSI
+** SAS를 참조하십시오
+** Infiniband를 통한 iSER
+** Infiniband를 통한 SRP
+** NVMe over Infiniband
+** RoCE를 통한 NVMe
+** NVMe over Fibre Channel
+
+
+. 스토리지 배열에 논리적 볼륨을 생성합니다.
+. 데이터 호스트에서 볼륨을 사용할 수 있도록 설정합니다.
+
+
+
+
+=== 자세한 내용을 확인하십시오
+
+* 온라인 도움말 -- SANtricity System Manager를 사용하여 구성 및 스토리지 관리 작업을 완료하는 방법에 대해 설명합니다. 제품 내에서 사용할 수 있습니다.
+* https://kb.netapp.com/["NetApp 기술 자료"^] (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.
+* http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] NetApp에서 지정한 표준 및 요구사항을 충족하는 NetApp 제품 및 구성요소 구성을 검색할 수 있습니다.
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936["Linux Unified Host Utilities 7.1 설치 가이드"^] Linux Unified Host Utilities 7.1을 사용하는 방법에 대해 설명합니다.
+

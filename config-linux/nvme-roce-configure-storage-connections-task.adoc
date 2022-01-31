@@ -1,0 +1,123 @@
+---
+permalink: config-linux/nvme-roce-configure-storage-connections-task.html 
+sidebar: sidebar 
+keywords: NVMe over RoCE, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: '컨트롤러에 NVMe over RoCE\(RDMA over Converged Ethernet\)에 대한 연결이 포함되어 있는 경우 하드웨어 페이지 또는 SANtricity System Manager의 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.' 
+---
+= 스토리지 어레이 NVMe over RoCE 연결을 구성합니다
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러에 NVMe over RoCE(RDMA over Converged Ethernet)에 대한 연결이 포함되어 있는 경우 하드웨어 페이지 또는 SANtricity System Manager의 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 컨트롤러의 NVMe over RoCE 호스트 포트. 그렇지 않으면 System Manager에서 NVMe over RoCE 설정을 사용할 수 없습니다.
+* 호스트 연결의 IP 주소입니다.
+
+
+NVMe over RoCE 구성은 * 하드웨어 * 페이지 또는 메뉴: 설정 [시스템] 에서 액세스할 수 있습니다. 이 작업에서는 하드웨어 페이지에서 포트를 구성하는 방법을 설명합니다.
+
+
+NOTE: NVMe over RoCE 설정 및 기능은 스토리지 어레이의 컨트롤러에 NVMe over RoCE 포트가 포함된 경우에만 표시됩니다.
+
+.단계
+. System Manager 인터페이스에서 * Hardware * 를 선택합니다.
+. 구성할 NVMe over RoCE 포트가 있는 컨트롤러를 클릭합니다.
++
+컨트롤러의 상황에 맞는 메뉴가 나타납니다.
+
+. RoCE 포트를 통한 NVMe 구성 * 을 선택합니다.
++
+RoCE 포트를 통한 NVMe 구성 * 대화 상자가 열립니다.
+
+. 드롭다운 목록에서 구성할 포트를 선택한 후 * 다음 * 을 클릭합니다.
+. 사용할 포트 구성 설정을 선택한 후 * 다음 * 을 클릭합니다.
++
+모든 포트 설정을 보려면 대화 상자 오른쪽에 있는 * 추가 포트 설정 표시 * 링크를 클릭합니다.
+
++
+|===
+| 포트 설정 | 설명 
+
+
+ a| 
+이더넷 포트 속도를 구성했습니다
+ a| 
+원하는 속도를 선택합니다. 드롭다운 목록에 표시되는 옵션은 네트워크에서 지원할 수 있는 최대 속도(예: 10Gbps)에 따라 달라집니다. 가능한 값은 다음과 같습니다.
+
+** 자동 협상
+** 10Gbps
+** 25Gbps
+** 40Gbps
+** 50Gbps
+** 100Gbps
+** 200Gbps
+
+
+
+NOTE: 200GB 가능 HIC를 QSFP 56 케이블로 연결한 경우 Mellanox 스위치 및/또는 어댑터에 연결하는 경우에만 자동 협상을 사용할 수 있습니다.
+
+
+NOTE: 구성된 NVMe over RoCE 포트 속도는 선택한 포트에서 SFP의 속도 기능과 일치해야 합니다. 모든 포트는 동일한 속도로 설정되어야 합니다.
+
+
+
+ a| 
+IPv4 및/또는 IPv6 사용 을 설정합니다
+ a| 
+IPv4 및 IPv6 네트워크에 대한 지원을 활성화하려면 하나 또는 두 옵션을 모두 선택하십시오.
+
+
+
+ a| 
+MTU 크기(* 추가 포트 설정 표시 * 를 클릭하여 사용 가능)
+ a| 
+필요한 경우 MTU(Maximum Transmission Unit)에 대한 새 크기를 바이트 단위로 입력합니다. 기본 MTU 크기는 프레임당 1500바이트입니다. 1500 ~ 4200 사이의 값을 입력해야 합니다.
+
+|===
++
+IPv4 사용 * 을 선택한 경우 * 다음 * 을 클릭하면 IPv4 설정을 선택할 수 있는 대화 상자가 열립니다. IPv6 사용 * 을 선택한 경우 * 다음 * 을 클릭하면 IPv6 설정을 선택할 수 있는 대화 상자가 열립니다. 두 옵션을 모두 선택한 경우 IPv4 설정에 대한 대화 상자가 먼저 열리고 * 다음 * 을 클릭하면 IPv6 설정에 대한 대화 상자가 열립니다.
+
+. IPv4 및/또는 IPv6 설정을 자동 또는 수동으로 구성합니다. 모든 포트 설정을 보려면 대화 상자 오른쪽에 있는 * 추가 설정 표시 * 링크를 클릭합니다.
++
+|===
+| 포트 설정 | 설명 
+
+
+ a| 
+DHCP 서버에서 자동으로 구성을 가져옵니다
+ a| 
+구성을 자동으로 가져오려면 이 옵션을 선택합니다.
+
+
+
+ a| 
+수동으로 정적 설정을 지정합니다
+ a| 
+이 옵션을 선택한 다음 필드에 정적 주소를 입력합니다. IPv4의 경우 네트워크 서브넷 마스크 및 게이트웨이를 포함합니다. IPv6의 경우 라우팅 가능한 IP 주소와 라우터 IP 주소를 포함합니다.
+
+
+NOTE: 라우팅 가능한 IP 주소가 하나만 있는 경우 나머지 주소를 0:0:0:0:0:0:0:0으로 설정합니다.
+
+
+
+ a| 
+VLAN 지원을 활성화합니다(* 추가 설정 표시 * 를 클릭하여 사용 가능).
+ a| 
+
+NOTE: 이 옵션은 iSCSI 환경에서만 사용할 수 있습니다. NVMe over RoCE 환경에서는 사용할 수 없습니다.
+
+
+
+ a| 
+이더넷 우선 순위 활성화(* 추가 설정 표시 * 를 클릭하여 사용 가능)
+ a| 
+
+NOTE: 이 옵션은 iSCSI 환경에서만 사용할 수 있습니다. NVMe over RoCE 환경에서는 사용할 수 없습니다.
+
+|===
+. 마침 * 을 클릭합니다.
+

@@ -1,0 +1,96 @@
+---
+permalink: config-linux/srp-ib-worksheet-concept.html 
+sidebar: sidebar 
+keywords: SRP over Infiniband worksheet Linux, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 이 워크시트를 사용하여 Infiniband 스토리지 구성 정보를 통해 SRP를 기록할 수 있습니다. 
+---
+= IB 구성을 통해 SRP를 기록합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 InfiniBand 스토리지 구성 정보를 통해 SRP를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
+
+image::../media/port_identifiers_ib_srp.gif[포트 식별자 IB SRP]
+
+
+
+== 호스트 식별자입니다
+
+
+NOTE: 이니시에이터 GUID는 작업에서 결정됩니다. xref:srp-ib-determine-host-port-guids-task.adoc[호스트 포트 GUID를 확인하고 권장 설정을 지정합니다].
+
+|===
+| 속성 표시기 번호 | 호스트(이니시에이터) 포트 접속입니다 | GUID 
+
+
+ a| 
+1
+ a| 
+호스트
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+3
+ a| 
+스위치
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+4
+ a| 
+타겟(스토리지 어레이)
+ a| 
+_해당 사항 없음 _
+
+
+
+ a| 
+2
+ a| 
+호스트 포트 1에서 IB 스위치 1로("A" 경로)
+ a| 
+
+
+
+ a| 
+5
+ a| 
+호스트 포트 2에서 IB 스위치 2로("B" 경로)
+ a| 
+
+|===
+
+
+== 권장 구성
+
+권장 구성은 2개의 이니시에이터 포트와 4개의 타겟 포트로 구성됩니다.
+
+
+
+== 호스트 이름 매핑 중
+
+
+NOTE: 매핑 호스트 이름은 워크플로우 중에 생성됩니다.
+
+|===
+
+
+ a| 
+호스트 이름 매핑 중
+ a| 
+
+
+
+ a| 
+호스트 OS 유형입니다
+ a| 
+
+|===

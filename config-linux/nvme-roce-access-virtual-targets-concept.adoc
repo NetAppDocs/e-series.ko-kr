@@ -1,0 +1,125 @@
+---
+permalink: config-linux/nvme-roce-access-virtual-targets-concept.html 
+sidebar: sidebar 
+keywords: NVMe volume virtual, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출력을 구성할 수 있습니다. 
+---
+= 가상 장치 타겟에 NVMe 볼륨에 액세스합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+사용하는 OS(및 확장 경로 다중화 방법)를 기반으로 디바이스 타겟으로 연결되는 입출력을 구성할 수 있습니다.
+
+RHEL 7 및 SLES 12의 경우, I/O는 Linux 호스트가 가상 장치 대상으로 지정합니다. DM-MP는 이러한 가상 타겟의 기반이 되는 물리적 경로를 관리합니다.
+
+
+
+== 가상 디바이스는 입출력 타겟입니다
+
+물리적 디바이스 경로가 아닌 DM-MP에서 생성한 가상 디바이스에만 입출력을 실행해야 합니다. 물리적 경로에 대한 입출력을 실행하는 경우 DM-MP가 페일오버 이벤트를 관리할 수 없으며 입출력이 실패합니다.
+
+/dev/mapper의 dm 장치 또는 'symlink'를 통해 이러한 블록 장치에 액세스할 수 있습니다. 예를 들면 다음과 같습니다.
+
+[listing]
+----
+/dev/dm-1
+/dev/mapper/eui.00001bc7593b7f5f00a0980000af4462
+----
+
+
+== 예
+
+다음 "NVMe list" 명령의 출력 예에서는 호스트 노드 이름과 네임스페이스 ID의 상관 관계를 보여 줍니다.
+
+[listing]
+----
+
+NODE         SN           MODEL           NAMESPACE
+
+/dev/nvme1n1 021648023072 NetApp E-Series 10
+/dev/nvme1n2 021648023072 NetApp E-Series 11
+/dev/nvme1n3 021648023072 NetApp E-Series 12
+/dev/nvme1n4 021648023072 NetApp E-Series 13
+/dev/nvme2n1 021648023151 NetApp E-Series 10
+/dev/nvme2n2 021648023151 NetApp E-Series 11
+/dev/nvme2n3 021648023151 NetApp E-Series 12
+/dev/nvme2n4 021648023151 NetApp E-Series 13
+----
+|===
+| 열 | 설명 
+
+
+ a| 
+'노드
+ a| 
+노드 이름은 다음 두 부분으로 구성됩니다.
+
+* nvme1은 컨트롤러 A를 나타내고 nvme2는 컨트롤러 B를 나타냅니다
+* n1, n2 등의 표기법은 호스트 관점에서 네임스페이스 식별자를 나타냅니다. 이러한 식별자는 표에서 반복되고 컨트롤러 A는 한 번, 컨트롤러 B는 한 번 반복됩니다
+
+
+
+
+ a| 
+'네임스페이스'
+ a| 
+네임스페이스 열에는 스토리지 배열 관점에서 사용되는 식별자인 네임스페이스 ID(NSID)가 나열됩니다.
+
+|===
+다음 '멀티패스-ll' 출력에서는 최적화 경로가 프리오 값 50으로 표시되고 최적화되지 않은 경로는 프리오 값 10으로 표시됩니다.
+
+Linux 운영체제는 'Status=active'로 표시된 경로 그룹에 대한 I/O를 라우팅하고, 'Status=enabled'로 나열된 경로 그룹은 페일오버에 사용할 수 있습니다.
+
+[listing]
+----
+eui.00001bc7593b7f500a0980000af4462 dm-0 NVME,NetApp E-Series
+size=15G features='1 queue_if_no_path' hwhandler='0' wp=rw
+|-+- policy='service-time 0' prio=50 status=active
+| `- #:#:#:# nvme1n1 259:5 active ready running
+`-+- policy='service-time 0' prio=10 status=enabled
+  `- #:#:#:# nvme2n1 259:9  active ready running
+
+eui.00001bc7593b7f5f00a0980000af4462 dm-0 NVME,NetApp E-Series
+size=15G features='1 queue_if_no_path' hwhandler='0' wp=rw
+|-+- policy='service-time 0' prio=0 status=enabled
+| `- #:#:#:# nvme1n1 259:5 failed faulty running
+`-+- policy='service-time 0' prio=10 status=active
+  `- #:#:#:# nvme2n1 259:9  active ready running
+----
+|===
+| 라인 항목 | 설명 
+
+
+ a| 
+' policy='service-time 0' prio=50 status=active
+ a| 
+이 선과 다음 줄은 NSID가 10인 namespace인 nvme1n1이 prio 값 50과 active의 '상태' 값으로 경로에 최적화되는 것을 보여 줍니다.
+
+이 네임스페이스는 컨트롤러 A에서 소유합니다
+
+
+
+ a| 
+' policy='service-time 0' prio=10 status=enabled'
+ a| 
+이 선은 네임스페이스 10의 페일오버 경로를 보여 주며, 프리오 값이 10이고 '상태' 값이 '활성화됨'인 것을 나타냅니다. 현재 I/O가 이 경로의 네임스페이스로 보내지지 않습니다.
+
+이 네임스페이스는 컨트롤러 B에서 소유합니다
+
+
+
+ a| 
+' policy='service-time 0' prio=0 status=enabled'
+ a| 
+이 예제는 컨트롤러 A가 재부팅되는 동안 다른 시점의 '멀티패스-ll' 출력을 보여줍니다. 네임스페이스 10의 경로는 프리오 값이 0이고 '상태' 값이 '활성화됨'인 실패한 실행 경로로 표시됩니다.
+
+
+
+ a| 
+' policy='service-time 0' prio=10 status=active
+ a| 
+활성 경로는 nvme2를 가리키므로 I/O는 이 경로를 통해 컨트롤러 B로 리디렉션됩니다
+
+|===

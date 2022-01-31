@@ -1,0 +1,40 @@
+---
+permalink: config-windows/index.html 
+sidebar: sidebar 
+keywords: express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: E-Series 시스템이 있는 Windows 호스트의 Express 구성을 사용합니다. 
+---
+= Windows Express 구성 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이를 설치하고 SANtricity System Manager에 액세스하는 Windows Express 방법은 독립형 Windows 호스트를 E-Series 시스템에 설치하는 데 적합합니다. 최소한의 의사 결정으로 스토리지 시스템을 최대한 빠르게 가동 및 운영할 수 있도록 설계되었습니다.
+
+
+
+=== 절차 개요
+
+빠른 방법에는 다음 단계가 포함되어 있으며, 이 단계는 에 설명되어 있습니다 link:understand-windows-concept.html["Windows 워크플로"].
+
+. 다음 통신 환경 중 하나를 설정합니다.
++
+** link:fc-perform-specific-task.html["파이버 채널(FC)"]
+** link:iscsi-perform-specific-task.html["iSCSI"]
+** link:sas-perform-specific-task.html["SAS를 참조하십시오"]
+
+
+. 스토리지 배열에 논리적 볼륨을 생성합니다.
+. 데이터 호스트에서 볼륨을 사용할 수 있도록 설정합니다.
+
+
+
+
+=== 자세한 내용을 확인하십시오
+
+* 온라인 도움말 -- SANtricity System Manager를 사용하여 구성 및 스토리지 관리 작업을 완료하는 방법에 대해 설명합니다. 제품 내에서 사용할 수 있습니다.
+* https://kb.netapp.com/["NetApp 기술 자료"^] (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.
+* http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] NetApp에서 지정한 표준 및 요구사항을 충족하는 NetApp 제품 및 구성요소 구성을 검색할 수 있습니다.
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61343["NetApp 설명서: 호스트 유틸리티"^] -- 현재 Windows Unified Host Utilities 버전에 대한 설명서를 제공합니다.
+

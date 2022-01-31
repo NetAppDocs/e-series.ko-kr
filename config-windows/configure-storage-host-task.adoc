@@ -1,0 +1,72 @@
+---
+permalink: config-windows/configure-storage-host-task.html 
+sidebar: sidebar 
+keywords: LUNs, configure LUNs, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: Windows Express 방법에 대한 호스트의 스토리지를 구성합니다. 
+---
+= 호스트에서 스토리지를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Windows 호스트가 LUN을 처음 검색할 때 새 LUN이 오프라인 상태이고 파티션 또는 파일 시스템이 없으므로 볼륨을 온라인 상태로 전환하고 Windows에서 초기화해야 합니다. 선택적으로 파일 시스템으로 LUN을 포맷할 수 있습니다.
+
+GPT 또는 MBR 파티션 테이블을 사용하여 디스크를 기본 디스크로 초기화할 수 있습니다. 일반적으로 NTFS(New Technology File System)와 같은 파일 시스템으로 LUN을 포맷합니다.
+
+호스트에서 검색된 LUN입니다.
+
+.단계
+. Windows 명령 프롬프트에서 dkpart 컨텍스트를 입력합니다.
++
+[listing]
+----
+> diskpart
+----
+. 사용 가능한 디스크 목록을 봅니다.
++
+[listing]
+----
+> list disk
+----
+. 온라인으로 가져올 디스크를 선택합니다.
++
+[listing]
+----
+> select disk 1
+----
+. 디스크를 온라인 상태로 전환합니다.
++
+[listing]
+----
+> online disk
+----
+. 파티션을 생성합니다.
++
+[listing]
+----
+> create partition primary
+----
++
+
+NOTE: Windows Server 2008 이상에서는 파티션을 만든 직후 디스크를 포맷하고 이름을 지정하라는 메시지가 표시됩니다. 이 지침에 따라 파티션을 포맷하고 이름을 지정하려면 프롬프트에서 * Cancel * 을 선택하십시오.
+
+. 드라이브 문자를 할당합니다.
++
+[listing]
+----
+> assign letter=f
+----
+. 디스크를 포맷합니다.
++
+[listing]
+----
+> format FS=NTFS LABEL=”New Volume” QUICK
+----
+. diskpart 컨텍스트를 종료합니다.
++
+[listing]
+----
+> exit
+----
+

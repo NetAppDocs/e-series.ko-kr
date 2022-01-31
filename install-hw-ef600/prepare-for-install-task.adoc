@@ -1,0 +1,134 @@
+---
+permalink: install-hw-ef600/prepare-for-install-task.html 
+sidebar: sidebar 
+keywords: EF300, EF600, installation, create account, register hardware 
+summary: EF300 또는 EF600을 설치하려면 계정을 생성하고 하드웨어를 등록하십시오. 
+---
+= 설치 준비
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF300 또는 EF600 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.
+
+SAS 확장을 위해 EF300을 케이블로 연결하는 경우 다음 정보를 검토하십시오.
+
+* link:../maintenance-ef600/sas-add-supertask-task.html["SAS 확장 카드를 추가합니다"^] SAS 확장 카드 설치용.
+* link:../install-hw-cabling/index.html["케이블 연결 개요"] SAS 확장 케이블 연결용.
+
+
+.단계
+. 에서 계정을 만들고 하드웨어를 등록합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+. 받은 상자에 다음 항목이 있는지 확인합니다.
++
+|===
+
+
+ a| 
+image:../media/ef600_w_faceplate.png[""]
+ a| 
+드라이브가 설치된 쉘프(베젤 및 엔드 캡 별도 패키지)
+
+
+
+ a| 
+image:../media/superrails_inst-hw-ef600.png[""]
+ a| 
+랙 마운트 하드웨어
+
+|===
++
+다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://hwu.netapp.com/["Hardware Universe"] 케이블을 찾아 사용 여부를 확인합니다.
+
++
+|===
+| 커넥터 유형 | 케이블 유형 | 사용 
+
+
+ a| 
+image:../media/cable_ethernet_inst-hw-ef600.png[""]
+ a| 
+RJ-45 이더넷 케이블(주문한 경우)
+ a| 
+관리 연결
+
+
+
+ a| 
+image:../media/cable_io_inst-hw-ef600.png[""]
+ a| 
+I/O 케이블(주문한 경우)
+ a| 
+데이터 호스트 케이블 연결
+
+
+
+ a| 
+image:../media/cable_power_inst-hw-ef600.png[""]
+ a| 
+전원 케이블(주문한 경우)
+ a| 
+스토리지 시스템의 전원을 켭니다
+
+|===
+. 다음 항목을 제공해야 합니다.
++
+|===
+
+
+ a| 
+image:../media/screwdriver_inst-hw-ef600.png[""]
+ a| 
+Phillips #2 드라이버
+
+
+
+ a| 
+image:../media/flashlight_inst-hw-ef600.png[""]
+ a| 
+플래시
+
+
+
+ a| 
+image:../media/wrist_strap_inst-hw-ef600.png[""]
+ a| 
+ESD 스트랩
+
+
+
+ a| 
+image:../media/2u_rackspace_inst-hw-ef600.png[""]
+ a| 
+2U 랙 공간: 의 표준 19인치 (48.30cm) 랙에 장착할 수 있습니다.
+
+* 깊이 *:19.0in. (48.3cm)
+
+* 너비 *:17.6인치 (44.7cm)
+
+* 높이 *: 3.34in. (8.48cm)
+
+* 쉘프 *: 24 드라이브
+
+* 최대 중량 *: 27.4kg(60.5lb)
+
+
+NOTE: 타사 캐비닛을 사용하면 전원 케이블이 컨트롤러에 대한 액세스를 제한할 수 있습니다.
+
+
+
+ a| 
+image:../media/management_station_inst-hw-ef600_g60b3.png[""]
+ a| 
+관리 소프트웨어에 대해 지원되는 브라우저:
+
+** Google Chrome(버전 78 이상)
+** Microsoft Internet Explorer(버전 11 이상)
+** Microsoft Edge(88 이상)
+** Mozilla Firefox(버전 70 이상)
+** Safari(버전 12 이상)
+
+
+|===
+

@@ -1,0 +1,27 @@
+---
+permalink: config-linux/fc-configure-switches-task.html 
+sidebar: sidebar 
+keywords: FC switches, zoning, express linux configuration, software configuration, linux host, 
+summary: 호스트가 스토리지 시스템에 접속할 수 있도록 Fibre Channel 스위치를 구성하고 경로 수를 제한합니다. 
+---
+= FC 스위치를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FC(Fibre Channel) 스위치를 구성(조닝)하면 호스트가 스토리지에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 스위치에 대한 관리자 자격 증명.
+* 스위치에 연결된 각 호스트 이니시에이터 포트 및 각 컨트롤러 대상 포트의 WWPN입니다. 검색에 HBA 유틸리티를 사용하십시오.
+
+
+각 이니시에이터 포트는 해당하는 모든 타겟 포트와 함께 별도의 존에 있어야 합니다. 스위치 조닝에 대한 자세한 내용은 스위치 공급업체의 설명서를 참조하십시오.
+
+.단계
+. FC 스위치 관리 프로그램에 로그인한 다음 zoning 구성 옵션을 선택합니다.
+. 첫 번째 호스트 이니시에이터 포트를 포함하고 이니시에이터와 동일한 FC 스위치에 연결되는 모든 타겟 포트를 포함하는 새 존을 생성합니다.
+. 스위치에서 각 FC 호스트 이니시에이터 포트에 대해 추가 존 생성
+. 영역을 저장한 다음 새로운 조닝 구성을 활성화합니다.
+

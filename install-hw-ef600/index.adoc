@@ -1,0 +1,26 @@
+---
+permalink: install-hw-ef600/index.html 
+sidebar: sidebar 
+keywords: EF300, EF600, installation 
+summary: EF300 및 EF600 어레이 설치 및 설정 
+---
+= EF300 및 EF600 스토리지 시스템 설치 및 설정
+:icons: font
+:imagesdir: ../media/
+:pdfdir: ../pdf/
+
+
+[role="lead"]
+EF300 또는 EF600 스토리지 시스템을 설치하고 설정하는 방법에 대해 알아보십시오.
+
+다음 형식 중 하나를 선택하여 새 스토리지 시스템을 설치하고 설정하는 과정을 안내할 수 있습니다.
+
+* * PDF *
++
+이것은 입니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2851449["PDF 포스터"^] 추가 컨텐츠에 대한 라이브 링크가 포함된 단계별 지침
+
+* * 온라인 지침 *
++
+다음은 이 사이트에서 설명하는 온라인 설정 지침입니다. 로 시작합니다 xref:prepare-for-install-task.adoc[설치 준비] 시작하십시오.
+
+

@@ -1,0 +1,99 @@
+---
+sidebar: sidebar 
+permalink: san-spvc-ic-plugin-removal.html 
+keywords: remove vCenter plugin, uninstall Plugin for vCenter, unregister vCenter plugin, 
+summary: vCenter용 플러그인을 제거합니다. 
+---
+= vCenter용 Storage Plugin을 제거합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+vCenter Server Appliance에서 플러그인을 제거하고 애플리케이션 호스트에서 플러그인 웹 서버를 제거할 수 있습니다.
+
+이러한 단계는 순서에 관계없이 수행할 수 있는 두 가지 고유 단계입니다. 그러나 플러그인 등록을 취소하기 전에 응용 프로그램 호스트에서 플러그인 웹서버를 제거하도록 선택하면 등록 스크립트가 해당 프로세스 중에 제거되고 방법 1을 사용하여 등록을 취소할 수 없습니다.
+
+
+
+== vCenter Server Appliance에서 플러그인 등록을 취소합니다
+
+vCenter Server Appliance에서 플러그인 등록을 취소하려면 다음 방법 중 하나를 선택합니다.
+
+* 방법 1: 등록 스크립트 실행
+* 방법 2: vCenter Server Mob 페이지 사용
+
+
+
+
+=== 방법 1: 등록 스크립트 실행
+
+. 명령줄을 통해 프롬프트를 열고 다음 디렉토리로 이동합니다.
++
+"<설치 디렉토리>\vcenter-register\bin"
+
+. "vcenter-register.bat" 파일을 실행합니다.
++
+vcenter-register.bat ^
+
++
+'-action unregisterPlugin^'
+
++
+"-vCenterHostname <vCenter FQDN>^"
+
++
+'-사용자 이름 <관리자 사용자 이름>^'
+
+. 스크립트가 성공했는지 확인합니다.
++
+로그는 "%install_dir%/working/logs/vc-registration.log"에 저장됩니다.
+
+
+
+
+
+=== 방법 2: vCenter Server Mob 페이지 사용
+
+. 웹 브라우저를 열고 다음 URL을 입력합니다.
++
+++ https://<FQDN[] vCenter Server>/MOB++의
+
+. 관리자 자격 증명 아래에 로그인합니다.
+. 'extensionManager'의 속성 이름을 찾아 해당 속성과 관련된 링크를 클릭합니다.
+. 자세히 * 를 클릭하여 속성 목록을 확장합니다. 링크 를 클릭합니다.
+. 확장자 plugin.netapp.eseries` 가 목록에 있는지 확인합니다.
+. 이 경우 UnregisterExtension 메서드 를 클릭합니다.
+. 대화 상자에 plugin.netapp.eseries` 값을 입력하고 * Invoke Method * 를 클릭합니다.
+. 대화 상자를 닫고 웹 브라우저를 새로 고칩니다.
+. plugin.netapp.eseries` 확장자가 목록에 없는지 확인합니다.
+
+
+
+NOTE: 이 절차에서는 vCenter Server Appliance에서 플러그인 등록을 해제하지만 서버에서 플러그인 패키지 파일은 제거하지 않습니다. 패키지 파일을 제거하려면 SSH를 사용하여 vCenter Server Appliance에 액세스하고 다음 디렉토리로 이동합니다.
+
+"etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/
+
+그런 다음 플러그인과 연결된 디렉터리를 제거합니다.
+
+
+
+== 애플리케이션 호스트에서 플러그인 웹 서버를 제거합니다
+
+애플리케이션 호스트에서 플러그인 소프트웨어를 제거하려면 다음 단계를 수행하십시오.
+
+. 응용 프로그램 서버에서 * 제어판 * 으로 이동합니다.
+. 앱 및 기능 * 으로 이동한 다음 * vCenter * 용 SANtricity 스토리지 플러그인 을 선택합니다.
+. 제거/변경 * 을 클릭합니다.
++
+확인 대화 상자가 열립니다.
+
+. 제거 * 를 클릭합니다.
++
+제거가 완료되면 확인 메시지가 표시됩니다.
+
+. 완료 * 를 클릭합니다.
+

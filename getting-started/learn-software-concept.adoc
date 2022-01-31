@@ -1,0 +1,172 @@
+---
+permalink: getting-started/learn-software-concept.html 
+sidebar: sidebar 
+keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, E-Series software, E-Series user interface 
+summary: E-Series 시스템에는 스토리지 프로비저닝 및 기타 작업을 위한 SANtricity 소프트웨어가 포함되어 있습니다. 
+---
+= SANtricity 소프트웨어 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E-Series 시스템에는 스토리지 프로비저닝 및 기타 작업을 위한 SANtricity 소프트웨어가 포함되어 있습니다.
+
+SANtricity 소프트웨어는 다음과 같은 관리 인터페이스로 구성됩니다.
+
+* System Manager -- 스토리지 어레이에서 하나의 컨트롤러를 관리하는 데 사용되는 웹 기반 인터페이스입니다.
+* Unified Manager -- 네트워크의 모든 스토리지 어레이를 보고 관리하는 데 사용되는 웹 기반 인터페이스입니다.
+* 웹 서비스 프록시 -- 네트워크의 모든 스토리지 어레이를 보고 관리하는 데 사용되는 REST API입니다.
+* CLI(Command Line Interface) -- 스토리지 어레이를 구성하고 모니터링하기 위한 소프트웨어 애플리케이션입니다.
+
+
+
+NOTE: EF600 및 EF300 스토리지 어레이는 미러링, 씬 볼륨 또는 SSD Cache 기능을 지원하지 않습니다.
+
+
+
+== SANtricity 시스템 관리자
+
+System Manager는 각 컨트롤러에 내장된 웹 기반 관리 소프트웨어입니다. 사용자 인터페이스에 액세스하려면 브라우저에서 컨트롤러의 IP 주소를 가리킵니다. 설치 마법사를 사용하면 시스템 구성을 시작할 수 있습니다.
+
+System Manager는 다음과 같은 다양한 관리 기능을 제공합니다.
+
+|===
+
+
+ a| 
+image:../media/sam1130_icon_performance.gif[""] * 성능 *
+ a| 
+I/O 지연 시간, IOPS, CPU 활용률, 처리량을 비롯하여 최대 30일 성능 데이터를 봅니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_volumes.gif[""] * 스토리지 *
+ a| 
+풀 또는 볼륨 그룹을 사용하여 스토리지를 프로비저닝하고 애플리케이션 워크로드를 생성합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_async_mirroring.gif[""] * 데이터 보호 *
+ a| 
+스냅샷, 볼륨 복사본 및 원격 미러링을 사용하여 백업 및 재해 복구를 수행합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_controllers.gif[""] * 하드웨어 *
+ a| 
+구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능(예: 핫 스페어 드라이브 할당)을 수행합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_alerts.gif[""] * 경고 *
+ a| 
+스토리지 시스템에서 발생하는 중요한 이벤트에 대해 관리자에게 알립니다. 알림은 이메일, SNMP 트랩 및 syslog를 통해 보낼 수 있습니다.
+
+
+
+ a| 
+image:../media/sam1140_icon_active_directory.gif[""] * 액세스 관리 *
+ a| 
+사용자가 할당된 자격 증명을 사용하여 시스템에 로그인해야 하는 사용자 인증을 구성합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_settings.gif[""] * 시스템 설정 *
+ a| 
+SSD 캐시 및 자동 로드 밸런싱과 같은 다른 시스템 성능 기능을 구성합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_support.gif[""] * 지원 *
+ a| 
+진단 데이터를 보고, 업그레이드를 관리하고, AutoSupport를 구성하여 스토리지 어레이의 상태를 모니터링하고, 자동 디스패치를 기술 지원 부서에 보냅니다.
+
+|===
+
+
+== SANtricity 유니파이드 관리자
+
+Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E2800, EF280, EF300, E5700, EF570, 기타 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. EF600을 지원합니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.
+
+Unified Manager는 웹 서비스 프록시와 함께 관리 서버에 설치됩니다. Unified Manager에 액세스하려면 브라우저를 열고 웹 서비스 프록시가 설치된 서버를 가리키는 URL을 입력합니다.
+
+Unified Manager는 다음과 같은 다양한 관리 기능을 제공합니다.
+
+|===
+
+
+ a| 
+image:../media/artboard_9.png[""] * 스토리지 시스템을 검색합니다
+ a| 
+조직의 네트워크에서 관리할 스토리지 어레이를 찾아 추가합니다. 그런 다음 단일 페이지에서 모든 스토리지 어레이의 상태를 볼 수 있습니다.
+
+
+
+ a| 
+image:../media/artboard_11.png[""] * 출시 *
+ a| 
+System Manager의 인스턴스를 열어 특정 스토리지 어레이에 대한 개별 관리 작업을 수행합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_system.gif[""] * 설정 가져오기 *
+ a| 
+경고, AutoSupport 및 디렉토리 서비스에 대한 설정을 포함하여 하나의 스토리지 어레이에서 여러 어레이로 일괄 가져오기를 수행합니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_async_mirroring.gif[""] * 미러링 *
+ a| 
+두 스토리지 시스템 간에 비동기식 또는 동기식 미러링 쌍을 구성합니다.
+
+
+
+ a| 
+image:../media/artboard_10.png[""] * 그룹 관리 *
+ a| 
+스토리지 배열을 그룹으로 구성하여 보다 쉽게 관리할 수 있습니다.
+
+
+
+ a| 
+image:../media/sam1130_icon_upgrade_center.gif[""] * 업그레이드 센터 *
+ a| 
+여러 스토리지 어레이에서 SANtricity OS 소프트웨어를 업그레이드합니다.
+
+
+
+ a| 
+image:../media/sam1140_icon_certs.gif[""] * 인증서 *
+ a| 
+CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 여러 스토리지 어레이에 대한 기존 인증서를 관리합니다.
+
+
+
+ a| 
+image:../media/sam1140_icon_active_directory.gif[""] * 액세스 관리 *
+ a| 
+할당된 자격 증명을 사용하여 Unified Manager에 로그인해야 하는 사용자 인증을 구성합니다.
+
+|===
+
+
+== SANtricity 웹 서비스 프록시
+
+웹 서비스 프록시는 수백 개의 새로운 기존 E-Series 어레이를 관리할 수 있는 RESTful API 서버입니다. 프록시는 Windows 또는 Linux 서버에 별도로 설치됩니다.
+
+웹 서비스에는 REST API와 직접 상호 작용할 수 있는 API 문서가 포함되어 있습니다. 웹 서비스 API 설명서에 액세스하려면 브라우저를 열고 웹 서비스 프록시가 설치된 서버를 가리키는 URL을 입력합니다.
+
+
+
+== CLI(Command Line Interface)
+
+CLI(Command Line Interface)는 스토리지 어레이를 구성하고 모니터링하는 방법을 제공하는 소프트웨어 애플리케이션입니다. CLI를 사용하면 DOS C: 프롬프트, Linux 운영 체제 경로 또는 Solaris 운영 체제 경로와 같은 운영 체제 프롬프트에서 명령을 실행할 수 있습니다.

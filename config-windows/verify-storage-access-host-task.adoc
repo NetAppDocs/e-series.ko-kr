@@ -1,0 +1,58 @@
+---
+permalink: config-windows/verify-storage-access-host-task.html 
+sidebar: sidebar 
+keywords: express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 호스트가 LUN에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다. 
+---
+= 호스트에서 스토리지 액세스를 확인합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼륨을 사용하기 전에 호스트가 LUN에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다.
+
+LUN을 초기화하고 파일 시스템으로 포맷해야 합니다.
+
+.단계
+. 새 LUN에 있는 파일을 생성하고 파일에 씁니다.
++
+[listing]
+----
+> echo test file > f:\\test.txt
+----
+. 파일을 읽고 데이터가 기록되었는지 확인합니다.
++
+[listing]
+----
+> type f:\\test.txt
+----
+. 다중 경로가 작동하는지 확인하려면 볼륨 소유권을 변경합니다.
++
+.. SANtricity 시스템 관리자 GUI에서 * 스토리지 * > * 볼륨 * 으로 이동한 다음 * 자세히 * > * 소유권 변경 * 을 선택합니다.
+.. 볼륨 소유권 변경 대화 상자에서 * 기본 소유자 * 풀다운을 사용하여 목록에 있는 볼륨 중 하나에 대한 다른 컨트롤러를 선택한 다음 작업을 확인합니다.
+.. LUN의 파일에 계속 액세스할 수 있는지 확인합니다.
++
+[listing]
+----
+> dir f:\\
+----
+
+
+. 대상 ID를 찾습니다.
++
+
+NOTE: dsmUtil 유틸리티는 대/소문자를 구분합니다.
+
++
+[listing]
+----
+> C:\\Program Files \(x86\)\\DSMDrivers\\mppdsm\\dsmUtil.exe -a
+----
+. LUN에 대한 경로를 확인하고 예상 경로 수가 있는지 확인합니다. 명령의 "<target ID>" 부분에서 이전 단계에서 찾은 대상 ID를 사용합니다.
++
+[listing]
+----
+> C:\\Program Files \(x86\)\\DSMDrivers\\mppdsm\\dsmUtil.exe –g <target ID\>
+----
+

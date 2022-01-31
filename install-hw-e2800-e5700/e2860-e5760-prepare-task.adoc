@@ -1,0 +1,140 @@
+---
+permalink: install-hw-e2800-e5700/e2860-e5760-prepare-task.html 
+sidebar: sidebar 
+keywords: E2860, E5760, DE460, installation 
+summary: E2860, E57760 또는 DE460을 설치하려면 계정을 만들고 하드웨어를 등록하십시오. 
+---
+= 설치 준비
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E2860, E5760 또는 DE460 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.
+
+.단계
+. 에서 계정을 만들고 하드웨어를 등록합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+. 받은 상자에 다음 항목이 있는지 확인합니다.
++
+|===
+
+
+ a| 
+image:../media/trafford_overview.png[""]
+ a| 
+쉘프, 베젤 및 랙 마운트 하드웨어
+
+
+
+ a| 
+image:../media/handles_counted.png[""]
+ a| 
+선반 핸들 x4
+
+|===
++
+다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://hwu.netapp.com/["Hardware Universe"^] 케이블을 찾아 사용 여부를 확인합니다.
+
++
+|===
+| 커넥터 유형 | 케이블 유형 | 사용 
+
+
+ a| 
+image:../media/cable_ethernet_inst-hw-e2800-e5700.png[""]
+ a| 
+이더넷 케이블
+
+(주문한 경우)
+ a| 
+관리 연결
+
+
+
+ a| 
+image:../media/cable_io_inst-hw-e2800-e5700.png[""]
+ a| 
+I/O 케이블
+
+(주문한 경우)
+ a| 
+데이터 호스트 케이블 연결
+
+
+
+ a| 
+image:../media/cable_power_inst-hw-e2800-e5700.png[""]
+ a| 
+전원 케이블
+
+쉘프당 2개
+
+(주문한 경우)
+ a| 
+스토리지 시스템의 전원을 켭니다
+
+
+
+ a| 
+image:../media/sas_cable.png[""]
+ a| 
+SAS 케이블(드라이브 쉘프에만 포함)
+ a| 
+쉘프 케이블링
+
+|===
+. 다음 항목을 제공해야 합니다.
++
+|===
+
+
+ a| 
+image:../media/screwdriver_inst-hw-e2800-e5700.png[""]
+ a| 
+Phillips #2 드라이버
+
+
+
+ a| 
+image:../media/flashlight_inst-hw-e2800-e5700.png[""]
+ a| 
+플래시
+
+
+
+ a| 
+image:../media/wrist_strap_inst-hw-e2800-e5700.png[""]
+ a| 
+ESD 스트랩
+
+
+
+ a| 
+image:../media/4u_dummy.png[""]
+ a| 
+4U 랙 공간: 표준 19인치 48.30cm(48.30cm) 랙은 다음 치수의 4U 쉘프에 맞게 장착할 수 있습니다.
+
+* 깊이 *:38.25인치 (97.16cm)
+
+너비 *:17.66in. (44.86cm)
+
+* 높이 *: 6.87in. (17.46cm)
+
+* 최대 중량 *: 113kg(250lb)
+
+
+
+ a| 
+image:../media/management_station_inst-hw-e2800-e5700_g60b3.png[""]
+ a| 
+관리 소프트웨어에 대해 지원되는 브라우저:
+
+** Google Chrome(버전 47 이상)
+** Microsoft Internet Explorer(버전 11 이상)
+** Microsoft Edge(EdgeHTML 12 이상)
+** Mozilla Firefox(버전 31 이상)
+** Safari(버전 9 이상)
+
+
+|===
+

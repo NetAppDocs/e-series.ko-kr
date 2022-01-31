@@ -1,0 +1,13 @@
+---
+permalink: getting-started/learn-intro-concept.html 
+sidebar: sidebar 
+keywords: E-Series, eseries, E2800, E5700, EF300, EF600 
+summary: 조직의 데이터 스토리지 요구 사항을 충족하는 통합 하드웨어 및 소프트웨어가 포함된 E-Series 시스템에 대해 알아보십시오. 
+---
+= E-Series 시스템에 대해 알아보십시오
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+조직의 데이터 스토리지 요구사항에 적합한 통합 하드웨어 및 소프트웨어가 포함된 E-Series 시스템에 대해 알아보십시오.

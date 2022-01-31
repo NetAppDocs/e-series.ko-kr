@@ -1,0 +1,23 @@
+---
+permalink: config-linux/nvme-roce-verify-storage-access-host-task.html 
+sidebar: sidebar 
+keywords: express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 네임스페이스를 사용하기 전에 호스트에서 네임스페이스에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다. 
+---
+= 호스트에서 스토리지 액세스를 확인합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+네임스페이스를 사용하기 전에 호스트에서 네임스페이스에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다.
+
+파일 시스템으로 포맷된 초기화된 네임스페이스입니다.
+
+.단계
+. 호스트에서 하나 이상의 파일을 디스크의 마운트 지점으로 복사합니다.
+. 파일을 원래 디스크의 다른 폴더로 다시 복사합니다.
+. "IFF" 명령을 실행하여 복사된 파일을 원본과 비교합니다.
+
+
+복사한 파일 및 폴더를 제거합니다.

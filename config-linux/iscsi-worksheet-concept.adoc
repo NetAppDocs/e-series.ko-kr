@@ -1,0 +1,59 @@
+---
+permalink: config-linux/iscsi-worksheet-concept.html 
+sidebar: sidebar 
+keywords: iSCSI worksheet Linux, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 이 워크시트를 사용하여 iSCSI 스토리지 구성 정보를 기록합니다. 
+---
+= iSCSI 구성을 기록합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 iSCSI 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
+
+
+
+== 권장 구성
+
+권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
+
+image::../media/50001_01_conf-lin.gif[50001 conf lin]
+
+
+
+== 타겟 IQN입니다
+
+|===
+| 속성 표시기 번호 | 대상 포트 연결입니다 | IQN을 선택합니다 
+
+
+ a| 
+2
+ a| 
+대상 포트
+ a| 
+
+|===
+
+
+== 호스트 이름 매핑 중
+
+|===
+| 속성 표시기 번호 | 호스트 정보입니다 | 이름 및 유형 
+
+
+ a| 
+1
+ a| 
+호스트 이름 매핑 중
+ a| 
+
+
+
+ a| 
+ a| 
+호스트 OS 유형입니다
+ a| 
+
+|===

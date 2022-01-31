@@ -1,0 +1,21 @@
+---
+permalink: install-hw-cabling/cable-overview-requirements-concept.html 
+sidebar: sidebar 
+keywords: cabling, cabling requirements, drive shelf cabling, controller cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
+summary: E-Series 쉘프의 케이블을 연결하는 데 몇 가지 구성 요소가 필요합니다. 
+---
+= 요구 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러 쉘프와 드라이브 쉘프 외에도, 스토리지 시스템을 케이블로 연결할 때 다음과 같은 구성 요소의 일부 또는 전체가 필요할 수 있습니다.
+
+* 케이블: SAS, 파이버 채널(FC), 이더넷, InfiniBand
+* SFP(Small Form-Factor Pluggable) 또는 QSFP(Quad SFP) 트랜시버입니다
+* 스위치
+* 호스트 버스 어댑터(HBA)
+* 호스트 채널 어댑터(HCA)
+* 네트워크 인터페이스 카드(NIC)
+

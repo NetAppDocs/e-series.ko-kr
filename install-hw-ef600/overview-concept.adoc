@@ -1,0 +1,15 @@
+---
+permalink: install-hw-ef600/overview-concept.html 
+sidebar: sidebar 
+keywords: EF300, EF600, installation process overview 
+summary: EF300 또는 EF600의 설치 및 설정 프로세스를 검토합니다. 
+---
+= 설치 프로세스
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+새 스토리지 시스템을 설치하고 설정하기 전에 설치 프로세스를 숙지하십시오.
+
+image::../media/ef600_isi_workflow_v_2_inst-hw-ef600.bmp[ef600 isi 워크플로우 v 2 inst HW ef600]

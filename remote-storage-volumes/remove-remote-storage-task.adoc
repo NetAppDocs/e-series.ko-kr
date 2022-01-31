@@ -1,0 +1,26 @@
+---
+permalink: remote-storage-volumes/remove-remote-storage-task.html 
+sidebar: sidebar 
+keywords: remove storage object, disconnect remote storage 
+summary: SANtricity 시스템 관리자를 통해 구성된 모든 원격 스토리지 객체를 제거할 수 있습니다. 
+---
+= 원격 스토리지 객체를 제거합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+가져오기가 완료된 후 로컬 디바이스와 원격 디바이스 간에 더 이상 데이터를 복사하지 않으려면 원격 스토리지 객체를 제거할 수 있습니다.
+
+.단계
+. 제거하려는 원격 스토리지 객체와 연결된 가져오기가 없는지 확인합니다.
+. SANtricity 시스템 관리자의 원격 스토리지 화면에서 결과 목록 섹션 아래에서 원하는 원격 스토리지 객체를 선택합니다.
+. 제거 * 를 클릭합니다.
++
+원격 스토리지 연결 제거 확인 대화 상자가 표시됩니다.
+
+. 'remove'를 입력한 다음 * Remove * 를 클릭하여 작업을 확인합니다.
++
+선택한 원격 스토리지 객체가 제거됩니다.
+
+

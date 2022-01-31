@@ -1,0 +1,215 @@
+---
+permalink: config-linux/nvme-ib-setup-host-side-task.html 
+sidebar: sidebar 
+keywords: configure Linux host, express linux configuration, linux host, 
+summary: InfiniBand 환경에서 NVMe 이니시에이터를 구성하려면 InfiniBand, NVMe-CLI 및 RDMA 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다. 
+---
+= 호스트 측에서 InfiniBand를 통해 NVMe를 설정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+InfiniBand 환경에서 NVMe 이니시에이터를 구성하려면 InfiniBand, NVMe-CLI 및 RDMA 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다.
+
+호환되는 최신 RHEL 7, RHEL 8, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
+
+.단계
+. RDMA, NVMe-CLI 및 InfiniBand 패키지를 설치합니다.
++
+* SLES 12 또는 SLES 15 *
+
++
+[listing]
+----
+
+# zypper install infiniband-diags
+# zypper install rdma-core
+# zypper install nvme-cli
+----
++
+RHEL 7 또는 RHEL 8 *
+
++
+[listing]
+----
+
+# yum install infiniband-diags
+# yum install rdma-core
+# yum install nvme-cli
+----
+. "IPoIB"를 활성화합니다. /etc/RDMA/RDMA.conf 파일을 편집하고 "IPoIB" 로드 항목을 수정합니다.
++
+[listing]
+----
+IPOIB_LOAD=yes
+----
+. 두 IB 포트 링크가 작동 중인지, State=Active 인지 확인합니다.
++
+[listing]
+----
+ # ibstat
+----
++
+[listing]
+----
+CA 'mlx4_0'
+        CA type: MT4099
+        Number of ports: 2
+        Firmware version: 2.40.7000
+        Hardware version: 1
+        Node GUID: 0x0002c90300317850
+        System image GUID: 0x0002c90300317853
+        Port 1:
+                State: Active
+                Physical state: LinkUp
+                Rate: 40
+                Base lid: 4
+                LMC: 0
+                SM lid: 4
+                Capability mask: 0x0259486a
+                Port GUID: 0x0002c90300317851
+                Link layer: InfiniBand
+        Port 2:
+                State: Active
+                Physical state: LinkUp
+                Rate: 56
+                Base lid: 5
+                LMC: 0
+                SM lid: 4
+                Capability mask: 0x0259486a
+                Port GUID: 0x0002c90300317852
+                Link layer: InfiniBand
+----
+. IB 포트에서 IPv4 IP 주소를 설정합니다.
++
+* SLES 12 또는 SLES 15 *
+
++
+다음 내용으로 /etc/sysconfig/network/ifcfg-ib0 파일을 생성합니다.
+
++
+[listing]
+----
+
+  BOOTPROTO='static'
+  BROADCAST=
+  ETHTOOL_OPTIONS=
+  IPADDR='10.10.10.100/24'
+  IPOIB_MODE='connected'
+  MTU='65520'
+  NAME=
+  NETWORK=
+  REMOTE_IPADDR=
+  STARTMODE='auto'
+----
++
+그런 다음 /etc/sysconfig/network/ifcfg-ib1 파일을 생성합니다.
+
++
+[listing]
+----
+
+  BOOTPROTO='static'
+  BROADCAST=
+  ETHTOOL_OPTIONS=
+  IPADDR='11.11.11.100/24'
+  IPOIB_MODE='connected'
+  MTU='65520'
+  NAME=
+  NETWORK=
+  REMOTE_IPADDR=
+  STARTMODE='auto'
+----
++
+RHEL 7 또는 RHEL 8 *
+
++
+다음 내용으로 /etc/sysconfig/network-scripts/ifcfg-ib0 파일을 생성합니다.
+
++
+[listing]
+----
+
+  CONNECTED_MODE=no
+  TYPE=InfiniBand
+  PROXY_METHOD=none
+  BROWSER_ONLY=no
+  BOOTPROTO=static
+  IPADDR='10.10.10.100/24'
+  DEFROUTE=no
+  IPV4=FAILURE_FATAL=yes
+  IPV6INIT=no
+  NAME=ib0
+  ONBOOT=yes
+----
++
+그런 다음 /etc/sysconfig/network-scripts/ifcfg-ib1 파일을 생성합니다.
+
++
+[listing]
+----
+
+  CONNECTED_MODE=no
+  TYPE=InfiniBand
+  PROXY_METHOD=none
+  BROWSER_ONLY=no
+  BOOTPROTO=static
+  IPADDR='11.11.11.100/24'
+  DEFROUTE=no
+  IPV4=FAILURE_FATAL=yes
+  IPV6INIT=no
+  NAME=ib1
+  ONBOOT=yes
+----
+. "IB" 인터페이스를 활성화합니다.
++
+[listing]
+----
+
+# ifup ib0
+# ifup ib1
+----
+. 어레이에 연결하는 데 사용할 IP 주소를 확인합니다. ib0과 ib1 모두에 대해 이 명령을 실행합니다.
++
+[listing]
+----
+
+# ip addr show ib0
+# ip addr show ib1
+----
++
+아래 예에서와 같이 ib0의 IP 주소는 10.10.255입니다.
+
++
+[listing]
+----
+10: ib0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 65520 qdisc pfifo_fast state UP group default qlen 256
+    link/infiniband 80:00:02:08:fe:80:00:00:00:00:00:00:00:02:c9:03:00:31:78:51 brd 00:ff:ff:ff:ff:12:40:1b:ff:ff:00:00:00:00:00:00:ff:ff:ff:ff
+    inet 10.10.10.255 brd 10.10.10.255 scope global ib0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::202:c903:31:7851/64 scope link
+       valid_lft forever preferred_lft forever
+----
++
+아래 예에서와 같이 ib1의 IP 주소는 11.11.11.255입니다.
+
++
+[listing]
+----
+10: ib1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 65520 qdisc pfifo_fast state UP group default qlen 256
+    link/infiniband 80:00:02:08:fe:80:00:00:00:00:00:00:00:02:c9:03:00:31:78:51 brd 00:ff:ff:ff:ff:12:40:1b:ff:ff:00:00:00:00:00:00:ff:ff:ff:ff
+    inet 11.11.11.255 brd 11.11.11.255 scope global ib0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::202:c903:31:7851/64 scope link
+       valid_lft forever preferred_lft forever
+----
+. 호스트에서 NVMe-oF 계층을 설정합니다. /etc/modules-load.d/ 아래에 다음 파일을 만들어 "NVMe-RDMA" 커널 모듈을 로드하고 재부팅 후에도 커널 모듈이 항상 켜져 있는지 확인합니다.
++
+[listing]
+----
+
+# cat /etc/modules-load.d/nvme-rdma.conf
+  nvme-rdma
+----
+

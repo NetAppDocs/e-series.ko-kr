@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: san-spvc-ic-overview.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter, VMware vSphere Client 
+summary: vCenter용 SANtricity 스토리지 플러그인은 VMware vSphere 클라이언트 세션 내에서 E-Series 스토리지 어레이에 대한 통합 관리 기능을 제공합니다. 
+---
+= vCenter용 Storage Plugin 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+vCenter용 SANtricity 스토리지 플러그인은 VMware vSphere 클라이언트 세션 내에서 E-Series 스토리지 어레이에 대한 통합 관리 기능을 제공합니다.
+
+vCenter용 플러그인에서 사용할 수 있는 기능은 다음과 같습니다.
+
+* 네트워크에서 검색된 스토리지 어레이를 보고 관리합니다.
+* 여러 스토리지 시스템 그룹에 대해 배치 작업을 수행합니다.
+* 소프트웨어 OS에서 업그레이드를 수행합니다.
+* 한 스토리지 어레이에서 다른 스토리지 어레이로 설정을 가져옵니다.
+* 볼륨, SSD 캐시, 호스트, 호스트 클러스터, 풀 구성 볼륨 그룹:
+* 어레이에 대한 추가 관리 작업을 위해 System Manager 인터페이스를 시작합니다.
+
+
+
+NOTE: 플러그인은 SANtricity 시스템 관리자 소프트웨어를 직접 대체하는 것이 아닙니다. 단일 어레이에서 특정 스토리지 관리 작업을 수행하려면 System Manager가 여전히 필요합니다.
+
+플러그인을 사용하려면 VMware 환경에 구축된 VMware vCenter Server Appliance와 플러그인 웹 서버를 설치하고 실행하기 위한 애플리케이션 호스트가 필요합니다.
+
+vCenter 환경의 통신에 대한 자세한 내용은 다음 그림을 참조하십시오.
+
+image::../media/vcenter_communication.png[vCenter 통신]
+
+
+
+== 구성 개요
+
+. link:san-spvc-ic-installation.html["플러그인을 설치하고 등록합니다"].
+. link:san-spvc-ic-user-access.html["플러그인 액세스 권한을 구성합니다"].
+. link:san-spvc-ic-login-and-navigation.html["플러그인 인터페이스에 로그인합니다"].
+. link:san-spvc-ic-storage-array-discovery.html["스토리지 시스템을 검색합니다"].
+. link:san-spvc-ic-storage-provisioning.html["스토리지 프로비저닝"].
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+* 온라인 도움말은 vCenter용 Storage Plugin의 사용자 인터페이스를 참조하십시오.
+* vSphere Client에서 데이터 저장소를 관리하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.vmware.com/en/VMware-vSphere/index.html["VMware vSphere 설명서"^].
+

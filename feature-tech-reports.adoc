@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: feature-tech-reports.html 
+keywords: feature technical reports, e-series, hardware, santricity, os 
+summary: E-Series 기술 보고서 
+---
+= 주요 기술 보고서를 찾아보십시오
+
+
+
+
+== 기능 TR
+
+[cols="9,9,9"]
+|===
+
+
+| https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["* TR-4893: SANtricity 원격 스토리지 볼륨 *"^] | https://www.netapp.com/pdf.html?item=/media/19405-tr-4839.pdf["* TR-4839: SANtricity 동기 및 비동기 미러링 *"^] | https://www.netapp.com/pdf.html?item=/media/17167-tr4747pdf.pdf["* TR-4747: SANtricity 스냅샷 기능 개요 및 배포 가이드 *"^] 
+
+
+| 솔루션 아키텍처와 E-Series 스토리지 시스템을 사용하여 기존 원격 스토리지 장치에서 데이터를 가져오는 방법에 대해 설명합니다. | 에서는 SANtricity 동기 및 비동기 미러링 기능에 대해 설명합니다. | 에서는 SANtricity 시스템 관리자를 사용한 GUI 탐색 지침을 포함하여 SANtricity 스냅샷 기능에 대해 설명합니다. 
+
+
+|  |  |  
+
+
+|  |  |  
+
+
+| https://www.netapp.com/ko/media/12421-tr4652.pdf["* TR-4652: SANtricity 동적 디스크 풀 *"^] | https://www.netapp.com/pdf.html?item=/media/17144-tr4737pdf.pdf["* TR-4737: SANtricity 자동 로드 밸런싱 *"^] | https://www.netapp.com/pdf.html?item=/media/17142-tr4736pdf.pdf["* TR-4736: SANtricity 웹 서비스 API *"^] 
+
+
+| 스토리지 관리자가 유사한 디스크 세트를 풀 토폴로지로 그룹화하여 풀의 모든 드라이브가 I/O 워크플로우에 참여하는 방법에 대해 설명합니다. | ALB 기능의 동작, 주요 구성 매개 변수 및 호스트 상호 운용성 향상에 대한 개요를 설명합니다. | E-Series 스토리지 시스템을 구성 및 관리하는 데 사용되는 API, SANtricity 웹 서비스에 대한 개요를 설명합니다. 
+|===

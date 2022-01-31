@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: early-versions.html 
+keywords: early versions, e-series, hardware, santricity, os 
+summary: 이전 버전의 문서 
+---
+= 이전 버전
+
+
+[role="lead"]
+아래 링크를 통해 E-Series 하드웨어 및 SANtricity 소프트웨어의 이전 버전 설명서에 액세스하십시오. 이 링크를 클릭하면 다른 문서 사이트로 이동합니다.
+
+
+
+== 이전 릴리즈에 대한 하드웨어 설명서
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484026["E2712, E2724, E5612, E5624 컨트롤러 드라이브 트레이 및 DE1600 및 DE5600 확장 드라이브 트레이를 설치합니다"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484072["E2760 및 E5660 컨트롤러-드라이브 트레이 및 DE6600 확장 드라이브 트레이를 설치합니다"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484108["EF560 Flash Array 및 DE5600 플래시 확장 트레이를 설치합니다"^]
+* https://mysupport.netapp.com/info/web/ECMP11392380.html["이전 시스템을 설치합니다"^]
+* https://mysupport.netapp.com/info/web/ECMP11751516.html["이전 시스템 유지 관리"^]
+* https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1394872["E2600 및 E2700에 두 번째 컨트롤러를 추가합니다"^]
+* https://mysupport.netapp.com/info/web/ECMP11750309.html["호스트 프로토콜을 변경하거나 추가합니다"^]
+* https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1656638["AC 전원에서 DC 전원으로 변환합니다"^]
+
+
+
+
+== 이전 릴리스에 대한 소프트웨어 문서
+
+
+
+=== SANtricity 릴리스 11.6
+
+* https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-116/home.html["System Manager 온라인 도움말"^]
+* https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-uni-32/home.html["Unified Manager 온라인 도움말"^]
+
+
+
+
+=== SANtricity 릴리스 11.5
+
+* https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-115/home.html["System Manager 온라인 도움말"^]
+* https://mysupport.netapp.com/NOW/public/eseries/unified_archive1150/index.html["Unified Manager 온라인 도움말"^]
+
+
+
+
+=== SANtricity 릴리스 11.4
+
+* https://mysupport.netapp.com/NOW/public/eseries/sam_archive1140/index.html["E2800(System Manager) 온라인 도움말"^]
+* https://mysupport.netapp.com/ecm/ecm_get_file/ECMLP2862590["AMW(E2700, E5600/EF560) 온라인 도움말"^]
+* https://mysupport.netapp.com/ecm/ecm_get_file/ECMLP2862588["EMW(E2700, E5600/EF560) 온라인 도움말"^]
+

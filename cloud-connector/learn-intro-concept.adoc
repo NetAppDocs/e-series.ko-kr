@@ -1,0 +1,89 @@
+---
+permalink: cloud-connector/learn-intro-concept.html 
+sidebar: sidebar 
+keywords: Cloud Connector requirements 
+summary: SANtricity 클라우드 커넥터 응용 프로그램과 관련된 시스템 요구 사항, 설정, 설치, 구성 및 작업. 
+---
+= Cloud Connector의 시스템 요구 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템은 SANtricity 클라우드 커넥터의 호환성 요구 사항을 충족해야 합니다.
+
+
+
+== 호스트 하드웨어 요구 사항
+
+하드웨어는 다음 최소 요구 사항을 충족해야 합니다.
+
+* 최소 5GB의 메모리, 구성된 최대 힙 크기에 대해 4GB
+* 소프트웨어 설치 시 최소 5GB의 사용 가능한 디스크 공간이 필요합니다
+
+
+SANtricity 클라우드 커넥터를 사용하려면 SANtricity 웹 서비스 프록시를 설치해야 합니다. 웹 서비스 프록시를 로컬로 설치하거나 다른 서버에서 응용 프로그램을 원격으로 실행할 수 있습니다. SANtricity 웹 서비스 프록시 설치에 대한 자세한 내용은 를 참조하십시오 link:../web-services-proxy/index.html["웹 서비스 프록시 항목"].
+
+
+
+== 지원되는 브라우저
+
+다음 브라우저는 SANtricity 클라우드 커넥터 응용 프로그램에서 지원됩니다(최소 버전 표시).
+
+* Firefox v31
+* Google Chrome v47
+* Microsoft Internet Explorer v11
+* Microsoft Edge, EdgeHTML 12
+* Safari v9
+
+
+
+NOTE: Microsoft Internet Explorer v11 브라우저 내에서 호환성 보기 설정을 사용할 때 SANtricity 클라우드 커넥터 응용 프로그램에 대한 API 문서가 로드되지 않습니다. Microsoft Internet Explorer v11 브라우저에서 API 문서가 제대로 표시되도록 하려면 호환성 보기 설정을 사용하지 않는 것이 좋습니다.
+
+
+
+== 호환되는 스토리지 어레이 및 컨트롤러 펌웨어입니다
+
+SANtricity 클라우드 커넥터 애플리케이션을 사용하기 전에 스토리지 어레이와 펌웨어의 호환성을 확인해야 합니다.
+
+SANtricity 클라우드 커넥터의 호환 가능한 모든 스토리지 어레이 및 펌웨어의 전체 최신 목록은 을 참조하십시오 http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
+
+
+== 호환되는 운영 체제
+
+SANtricity 클라우드 커넥터 4.0 응용 프로그램은 다음 운영 체제와 호환되고 지원됩니다.
+
+|===
+| 운영 체제 | 버전 | 있습니다 
+
+
+ a| 
+Red Hat Enterprise Linux(RHEL)
+ a| 
+7.x
+ a| 
+64비트
+
+
+
+ a| 
+SUSE Linux Enterprise Server(SLES)
+ a| 
+12.x
+ a| 
+64비트
+
+|===
+
+
+== 지원되는 파일 시스템
+
+SANtricity Cloud Connector 애플리케이션을 통해 백업 및 복구를 수행하려면 지원되는 파일 시스템을 사용해야 합니다.
+
+SANtricity 클라우드 커넥터 애플리케이션에서 백업 및 복구 작업을 지원하는 파일 시스템은 다음과 같습니다.
+
+* ext2
+* ext3
+* ext4
+

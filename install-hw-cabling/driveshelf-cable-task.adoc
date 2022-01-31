@@ -1,0 +1,85 @@
+---
+permalink: install-hw-cabling/driveshelf-cable-task.html 
+sidebar: sidebar 
+keywords: cabling, cables, drive shelf cabling, controller shelf cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
+summary: '컨트롤러 쉘프의 각 컨트롤러를 드라이브 쉘프의 I/O 모듈(IOM)에 연결합니다.' 
+---
+= 드라이브 쉘프 케이블링
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러 쉘프의 각 컨트롤러를 드라이브 쉘프의 I/O 모듈(IOM)에 연결해야 합니다.
+
+구형 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460에 케이블로 연결하는 경우 를 참조하십시오 https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2859057["기존 E27XX, E56XX 또는 EF560 컨트롤러 쉘프에 IOM 드라이브 쉘프를 추가합니다"^].
+
+
+
+== E2800 및 E5700 케이블 연결
+
+다음 정보는 E5700, EF570, E2800 또는 EF280 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460 드라이브 쉘프에 연결하는 데 적용됩니다.
+
+
+
+=== 12-드라이브 또는 24-드라이브 쉘프의 케이블 연결
+
+컨트롤러 쉘프를 하나 이상의 12 드라이브 또는 24 드라이브 쉘프에 연결할 수 있습니다.
+
+다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
+
+
+
+==== 컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프
+
+image::../media/12_24_cabling.png[12 24 케이블 연결]
+
+
+
+=== 60-드라이브 쉘프의 케이블 연결
+
+컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.
+
+다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
+
+
+
+==== 컨트롤러 쉘프 및 60-드라이브 쉘프
+
+image::../media/60_cabling.png[60 케이블 연결]
+
+
+
+== EF300 케이블 연결
+
+다음 정보는 EF300 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460 드라이브 쉘프에 연결하는 데 적용됩니다.
+
+EF300을 케이블로 연결하기 전에 펌웨어가 최신 버전으로 업데이트되었는지 확인하십시오. 펌웨어를 업데이트하려면 의 지침을 따르십시오 link:../upgrade-santricity/index.html["SANtricity OS 업그레이드 중"^].
+
+
+
+=== 12-드라이브 또는 24-드라이브 쉘프의 케이블 연결
+
+컨트롤러 쉘프를 하나 이상의 12 드라이브 또는 24 드라이브 쉘프에 연결할 수 있습니다.
+
+다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
+
+
+
+==== 컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프
+
+image::../media/ef_to_de224c_four_shelves.png[EF에서 de224c 4개 쉘프]
+
+
+
+=== 60-드라이브 쉘프의 케이블 연결
+
+컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.
+
+다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
+
+
+
+==== 컨트롤러 쉘프 및 60-드라이브 쉘프
+
+image::../media/ef_to_de460c.png[EF에서 de460c로]

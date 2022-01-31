@@ -1,0 +1,89 @@
+---
+permalink: config-linux/nvme-roce-access-physical-targets-concept.html 
+sidebar: sidebar 
+keywords: NVMe volume physical, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출력을 구성할 수 있습니다. 
+---
+= 물리적 NVMe 장치 타겟에 대한 NVMe 볼륨 액세스
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+사용 중인 OS 및 확장 경로 다중화 방법에 따라 디바이스 타겟에 대한 입출력을 구성할 수 있습니다.
+
+RHEL 8 및 SLES 15의 경우, I/O는 Linux 호스트가 물리적 NVMe 장치 타겟으로 지정합니다. 기본 NVMe 다중 경로 솔루션은 호스트에서 표시되는 분명한 단일 물리적 장치의 물리적 경로를 관리합니다.
+
+/dev/nvme0n1 대신 /dev/disk/by-id/의 링크를 사용하는 것이 좋습니다. 예를 들면 다음과 같습니다.
+
+[listing]
+----
+# ls /dev/disk/by-id/ -l lrwxrwxrwx 1 root root 13 Oct 18 15:14
+nvme-eui.0000320f5cad32cf00a0980000af4112 -> ../../nvme0n1
+----
+
+
+== 물리적 NVMe 장치는 I/O 타겟입니다
+
+물리적 NVMe 장치 경로에 대한 I/O를 실행합니다. 다음 형식을 사용하여 각 네임스페이스에 대해 이러한 디바이스 중 하나만 있어야 합니다.
+
+[listing]
+----
+/dev/nvme[subsys#]n[id#]
+----
+모든 경로는 이 장치 아래에 있는 기본 다중 경로 솔루션을 사용하여 가상화됩니다.
+
+다음을 실행하여 경로를 볼 수 있습니다.
+
+[listing]
+----
+# nvme list-subsys
+----
+예제 출력:
+
+[listing]
+----
+nvme-subsys0 - NQN=nqn.1992-08.com.netapp:5700.600a098000a522500000000589aa8a6
+\
++- nvme0 rdma traddr=192.4.21.131 trsvcid=4420 live
++- nvme1 rdma traddr=192.4.22.141 trsvcid=4420 live
+----
+"NVMe list -Subsys" 명령을 사용할 때 네임스페이스 장치를 지정하면 해당 네임스페이스에 대한 경로에 대한 추가 정보가 제공됩니다.
+
+[listing]
+----
+# nvme list-subsys /dev/nvme0n1
+nvme-subsys0 - NQN=nqn.1992-08.com.netapp:5700.600a098000af44620000000058d5dd96
+\
+ +- nvme0 rdma traddr=192.168.130.101 trsvcid=4420 live non-optimized
+ +- nvme1 rdma traddr=192.168.131.101 trsvcid=4420 live non-optimized
+ +- nvme2 rdma traddr=192.168.130.102 trsvcid=4420 live optimized
+ +- nvme3 rdma traddr=192.168.131.102 trsvcid=4420 live optimized
+----
+또한 다중 경로 명령에 후크를 사용하여 기본 페일오버를 위한 경로 정보를 볼 수도 있습니다.
+
+[listing]
+----
+#multipath -ll
+----
+
+NOTE: 경로 정보를 보려면 /etc/multipath.conf에서 다음을 설정해야 합니다.
+
+[listing]
+----
+
+defaults {
+        enable_foreign nvme
+}
+----
+예제 출력:
+
+[listing]
+----
+eui.0000a0335c05d57a00a0980000a5229d [nvme]:nvme0n9 NVMe,Netapp E-Series,08520001
+size=4194304 features='n/a' hwhandler='ANA' wp=rw
+|-+- policy='n/a' prio=50 status=optimized
+| `- 0:0:1 nvme0c0n1 0:0 n/a optimized    live
+`-+- policy='n/a' prio-10 status=non-optimized
+`- 0:1:1 nvme0c1n1 0:0 n/a non-optimized    live
+----

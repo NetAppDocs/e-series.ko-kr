@@ -1,0 +1,104 @@
+---
+permalink: config-linux/nvme-fc-setup-failover-host-task.html 
+sidebar: sidebar 
+keywords: failover, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: 페일오버를 실행하도록 호스트를 구성합니다. 
+---
+= 호스트에서 장애 조치를 설정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 배열에 대한 중복 경로를 제공하기 위해 호스트에서 장애 조치를 실행하도록 구성할 수 있습니다.
+
+시스템에 필요한 패키지를 설치해야 합니다.
+
+* RHEL(Red Hat) 호스트의 경우 "rpm -q device-mapper-multipath"를 실행하여 패키지가 설치되어 있는지 확인합니다
+* SLES 호스트의 경우 'rpm-q multipath-tools'를 실행하여 패키지가 설치되어 있는지 확인합니다
+
+
+RHEL 7 및 SLES 12는 NVMe over Fibre Channel을 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
+
+
+
+== RHEL 7 또는 SLES 12에 대해 장치 매퍼 다중 경로(DMMP)를 활성화합니다
+
+기본적으로 DM-MP는 RHEL 및 SLES에서 비활성화됩니다. 호스트에서 DM-MP 구성 요소를 활성화하려면 다음 단계를 수행하십시오.
+
+.단계
+. 다음 예에 표시된 대로 NVMe E-Series 장치 항목을 /etc/multipath.conf 파일의 devices 섹션에 추가합니다.
++
+[listing]
+----
+
+devices {
+        device {
+                vendor "NVME"
+                product "NetApp E-Series*"
+                path_grouping_policy group_by_prio
+                failback immediate
+                no_path_retry 30
+        }
+}
+----
+. 시스템 부팅 시 시작되도록 'multipid'를 구성합니다.
++
+[listing]
+----
+# systemctl enable multipathd
+----
+. 현재 실행되고 있지 않으면 '멀티페이드'를 시작합니다.
++
+[listing]
+----
+# systemctl start multipathd
+----
+. '멀티페이드' 상태를 확인하여 활성 상태이고 실행 중인지 확인합니다.
++
+[listing]
+----
+# systemctl status multipathd
+----
+
+
+
+
+== RHEL 8에 대한 네이티브 NMVe 다중 경로를 설정합니다
+
+기본 NVMe Multipathing은 RHEL 8에서 기본적으로 비활성화되어 있으며 아래 단계를 사용하여 활성화해야 합니다.
+
+.단계
+. 기본 NVMe 다중 경로를 켜기 위해 'modprobe' 규칙을 설정합니다.
++
+[listing]
+----
+# echo "options nvme_core multipath=y" >> /etc/modprobe.d/50-nvme_core.conf
+----
+. 새 modprobe 매개변수로 "initramfs"를 다시 만듭니다.
++
+[listing]
+----
+# dracut -f
+----
+. 서버를 재부팅하여 기본 NVMe 경로 다중화가 활성화된 상태로 전환합니다
++
+[listing]
+----
+# reboot
+----
+. 호스트를 부팅한 후 기본 NVMe 경로 다중화가 활성화되었는지 확인합니다.
++
+[listing]
+----
+# cat /sys/module/nvme_core/parameters/multipath
+----
++
+.. 명령 출력이 N인 경우 기본 NVMe Multipathing은 여전히 비활성화되어 있습니다.
+.. 명령 출력이 Y인 경우 기본 NVMe 다중경로 기능이 활성화되고 발견한 모든 NVMe 장치에서 이 기능을 사용할 것입니다.
+
+
+
+
+
+NOTE: SLES 15의 경우 기본 NVMe 경로 다중화가 기본적으로 활성화되어 있으며 추가 구성이 필요하지 않습니다.

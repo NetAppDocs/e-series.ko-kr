@@ -1,0 +1,13 @@
+---
+permalink: maintenance-ef600/concept-drives-wombat.html 
+sidebar: sidebar 
+keywords: drive, device, physical, storage, media, data 
+summary: 드라이브는 물리적 데이터 저장 미디어를 제공하는 장치입니다. 
+---
+= 드라이브
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+드라이브는 물리적 데이터 저장 미디어를 제공하는 장치입니다.

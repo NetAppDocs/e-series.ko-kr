@@ -1,0 +1,35 @@
+---
+permalink: install-hw-cabling/ethernet-cable-task.html 
+sidebar: sidebar 
+keywords: cabling, cables, ethernet cabling, ethernet cable, out of band, direct topology, fabric topology, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
+summary: 대역외 관리를 위해 스토리지 시스템을 이더넷 네트워크에 연결합니다. 
+---
+= 관리 스테이션용 이더넷 케이블 연결
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 시스템을 이더넷 네트워크에 연결하여 대역외 스토리지 어레이 관리를 수행할 수 있습니다. 모든 스토리지 어레이 관리 접속에는 이더넷 케이블을 사용해야 합니다.
+
+
+
+== 직접 토폴로지
+
+직접 토폴로지는 컨트롤러를 이더넷 네트워크에 직접 연결합니다.
+
+대역외 관리를 위해 각 컨트롤러의 관리 포트 1을 연결하고 기술 지원 부서에서 스토리지 어레이에 액세스할 수 있도록 포트 2를 그대로 두어야 합니다.
+
+.직접 스토리지 관리 연결
+image::../media/74167.gif[74167]
+
+
+
+== Fabric 토폴로지
+
+패브릭 토폴로지에서는 스위치를 사용하여 컨트롤러를 이더넷 네트워크에 연결합니다.
+
+대역외 관리를 위해 각 컨트롤러의 관리 포트 1을 연결하고 기술 지원 부서에서 스토리지 어레이에 액세스할 수 있도록 포트 2를 그대로 두어야 합니다.
+
+.패브릭 스토리지 관리 연결
+image::../media/74110.gif[74110]

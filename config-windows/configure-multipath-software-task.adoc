@@ -1,0 +1,25 @@
+---
+permalink: config-windows/configure-multipath-software-task.html 
+sidebar: sidebar 
+keywords: multipath software for Windows, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: Windows용 다중 경로 소프트웨어가 포함된 DSM 패키지를 설치합니다. 
+---
+= 다중 경로 소프트웨어를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+저장소 배열에 대한 중복 경로를 제공하기 위해 SANtricity Windows DSM 패키지를 설치하고 Windows용 다중 경로 패키지를 사용할 수 있습니다.
+
+올바른 관리자 또는 고급 사용자 권한
+
+물리적 경로 중 하나가 중단되는 경우 다중 경로 소프트웨어가 스토리지 배열에 대한 중복 경로를 제공합니다. 다중 경로를 사용하려면 SANtricity Windows DSM 패키지를 설치해야 합니다. 이 패키지에는 Windows용 다중 경로 소프트웨어가 들어 있습니다.
+
+Windows 설치는 장애 조치를 위해 기본 MPIO DSM(Device Specific Module) 드라이버를 사용합니다. SANtricity Windows DSM 패키지를 설치하고 활성화할 때 다중 경로를 사용하기 위해 추가 작업을 수행할 필요가 없습니다.
+
+.단계
+. 에서 * SANtricity Windows DSM * 패키지를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/eseries-santricityos/downloads-tab["SANtricity OS 소프트웨어 페이지"^]. 소프트웨어 버전을 선택하고 라이센스 계약에 동의한 다음 추가 다운로드에서 * SANtricity Windows DSM * 을 선택합니다.
+. SANtricity Windows DSM * 설치 프로그램을 실행합니다. 실행할 설치 패키지를 두 번 클릭합니다.
+. 설치 마법사를 사용하여 관리 스테이션에 패키지를 설치합니다.
+

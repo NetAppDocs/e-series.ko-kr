@@ -1,0 +1,22 @@
+---
+permalink: upgrade-santricity/index.html 
+sidebar: sidebar 
+keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, drive firmware, upgrade SANtricity, upgrade OS, upgrade E-Series, upgrade firmware, upgrading, upgrade IOM firmware, upgrade NVSRAM, upgrade controller 
+summary: SANtricity ® OS 업그레이드 개요 
+---
+= SANtricity OS 업그레이드 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+운영 체제 및 시스템 하드웨어 구성 요소를 최신 버전의 SANtricity 소프트웨어 및 펌웨어로 업그레이드할 수 있습니다.
+
+이러한 업그레이드 절차에는 다음에 대한 별도의 지침이 포함되어 있습니다.
+
+* 단일 컨트롤러 -- 스토리지 어레이의 소프트웨어를 업그레이드하는 절차 및 선택적으로 IOM 펌웨어 및 NVSRAM(Nonvolatile Static Random Access Memory)을 포함합니다.
+* 다중 컨트롤러 -- 같은 유형의 여러 스토리지 어레이에서 SANtricity OS 소프트웨어를 업그레이드하는 절차가 포함됩니다.
+* 드라이브 -- 드라이브의 펌웨어를 업그레이드하는 지침을 포함합니다.
+
+
+업그레이드를 시작하기 전에 을 검토하십시오 link:overview-upgrade-consider-task.html["업그레이드 고려 사항"].

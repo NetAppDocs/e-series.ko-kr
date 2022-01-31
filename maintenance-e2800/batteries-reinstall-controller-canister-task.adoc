@@ -1,0 +1,40 @@
+---
+permalink: maintenance-e2800/batteries-reinstall-controller-canister-task.html 
+sidebar: sidebar 
+keywords: E2800 battery fail, E2800 battery, E2800 battery replacement, replace E2800 battery, replacing E2800 battery, E2800, E-Series, eseries 
+summary: 새 배터리를 장착한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다. 
+---
+= E2800 컨트롤러 캐니스터를 다시 설치합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+새 배터리를 장착한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
+
+.단계
+. 딸깍 소리가 날 때까지 덮개를 뒤로 밀어 컨트롤러 캐니스터에 덮개를 다시 설치합니다.
+. 이동식 덮개가 아래를 향하도록 컨트롤러 캐니스터를 뒤집습니다.
+. 캠 핸들을 열린 위치로 둔 상태에서 컨트롤러 캐니스터를 완전히 컨트롤러 쉘프에 밀어 넣습니다.
++
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 e2800을 제거합니다]
+
++
+* (1) * _컨트롤러 캐니스터 _
+
++
+* (2) * _ 캠 핸들 _
+
++
+image::../media/28_dwg_e2860_add_controller_canister_maint-e2800.gif[28 DWG e2860은 컨트롤러 캐니스터 유지보수 e2800을 추가합니다]
+
++
+* (1) * _컨트롤러 캐니스터 _
+
++
+* (2) * _ 캠 핸들 _
+
+. 캠 핸들을 왼쪽으로 이동하여 컨트롤러 캐니스터를 제자리에 고정합니다.
+. 모든 케이블을 다시 연결합니다.
+. 로 이동합니다 link:batteries-complete-replacement-task.html["E2800 배터리를 완전히 교체합니다"].
+
