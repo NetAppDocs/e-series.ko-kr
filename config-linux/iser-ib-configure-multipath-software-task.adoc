@@ -62,7 +62,7 @@ SLES 12.x 및 15.x 시스템:
 'stemctl enable multipathd'입니다
 
 |===
-. /boot 디렉토리에서 initramfs 이미지 또는 initrd 이미지를 재생성합니다.
+. /boot 디렉토리에서 "initramfs" 이미지 또는 "initrd" 이미지를 재생성합니다.
 +
 |===
 | 을(를) 사용하는 경우 | 수행할 작업... 
