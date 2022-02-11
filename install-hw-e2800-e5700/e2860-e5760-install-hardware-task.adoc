@@ -57,7 +57,7 @@ image:../media/4_person_lift_source.png[""]
 .. 양쪽의 선반 상단에서 첫 번째 및 세 번째 구멍에 나사를 삽입하여 캐비닛 전면에 고정시킵니다.
 .. 선반 상단 후면 섹션의 양쪽에 후면 브래킷 2개를 놓습니다. 각 브래킷의 첫 번째 및 세 번째 구멍에 나사를 삽입하여 캐비닛 뒷면을 고정합니다.
 +
-image:../media/secure_shelf_inst-hw-e2800-e5700.png[""]
+image:../media/trafford_secure.png[""]
 
 
 
@@ -91,7 +91,7 @@ image:../media/secure_shelf_inst-hw-e2800-e5700.png[""]
 
 
  a| 
-image:../media/install_faceplate_2_0_inst-hw-e2800-e5700.png[""]
+image:../media/trafford_overview.png[""]
 
 
 

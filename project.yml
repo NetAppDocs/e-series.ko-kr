@@ -546,7 +546,7 @@ sidebar:
       - title: 배터리
         pdf-filename: E2800은 배터리를 유지합니다
         entries:
-        - title: 배터리 교체 요구 사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/batteries-overview-requirements-concept.html"
         - title: 배터리 교체를 준비합니다
           url: "/maintenance-e2800/batteries-prepare-replace-task.html"
@@ -563,7 +563,7 @@ sidebar:
       - title: 컨트롤러
         pdf-filename: E2800은 컨트롤러를 유지 관리합니다
         entries:
-        - title: 컨트롤러 교체 요구사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/controllers-overview-supertask-concept.html"
         - title: 두 번째 컨트롤러 캐니스터를 추가합니다
           url: "/maintenance-e2800/controllers-second-add-task.html"
@@ -574,7 +574,7 @@ sidebar:
       - title: 캐니스터
         pdf-filename: E2800은 캐니스터를 유지합니다
         entries:
-        - title: 캐니스터 교체 요구 사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/canisters-overview-supertask-concept.html"
         - title: 전원 공급 장치 교체(12 드라이브 또는 24 드라이브)
           url: "/maintenance-e2800/canisters-supply-supertask-task.html"
@@ -585,7 +585,7 @@ sidebar:
       - title: 드라이브
         pdf-filename: E2800은 드라이브를 유지합니다
         entries:
-        - title: 드라이브 교체 요구 사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/drives-overview-supertask-concept.html"
         - title: 드라이브 교체(12 드라이브 또는 24 드라이브)
           url: "/maintenance-e2800/drives-12-24-supertask-task.html"
@@ -596,7 +596,7 @@ sidebar:
       - title: 호스트 인터페이스 카드
         pdf-filename: E2800은 HIC를 유지합니다
         entries:
-        - title: HIC 교체 요구사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/hics-overview-supertask-concept.html"
         - title: 호스트 인터페이스 카드를 추가합니다
           url: "/maintenance-e2800/hics-add-supertask-task.html"
@@ -607,7 +607,7 @@ sidebar:
       - title: 호스트 포트 프로토콜 변환
         pdf-filename: E2800 호스트 프로토콜 변환
         entries:
-        - title: 변환 요구 사항
+        - title: 개요 및 요구 사항
           url: "/maintenance-e2800/hpp-overview-supertask-concept.html"
         - title: 호스트 프로토콜을 변경합니다
           url: "/maintenance-e2800/hpp-change-host-protocol-task.html"

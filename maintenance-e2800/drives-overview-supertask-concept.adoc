@@ -18,6 +18,11 @@ E2800 드라이브를 교체하기 전에 요구 사항과 고려 사항을 검�
 
 12 드라이브, 24 드라이브, 60 드라이브 컨트롤러 쉘프 또는 드라이브 쉘프의 드라이브를 교체할 수 있습니다.
 
+이 절차는 IOM12 및 IOM12B 드라이브 쉘프, DCM 및 DCM2 드라이브 쉘프에 적용됩니다.
+
+
+NOTE: 이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)
+
 
 
 === 12-드라이브 또는 24-드라이브 쉘프
@@ -60,7 +65,7 @@ image::../media/28_dwg_e2860_de460c_front_no_callouts_maint-e2800.gif[28 DWG e28
 
 5개의 드로어 각각은 최대 12개의 드라이브를 수용할 수 있습니다.
 
-image:../media/92_dwg_de6600_drawer_with_hdds_no_callouts_maint-e2800.gif[""] image:../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[""]
+image:../media/92_dwg_de6600_drawer_with_hdds_no_callouts_maint-e2800.gif[""]
 
 
 

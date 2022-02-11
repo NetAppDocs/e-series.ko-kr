@@ -3375,7 +3375,6 @@
   <block id="0ae25f6f8fb841bfcaec3b0d4a60caed" category="image-alt">HDD 속성 표시기가 있는 DWG Trafford 서랍 maint e2800</block>
   <block id="f3b87b99157e2d4c6ce764334780ad25" category="admonition">E2860 스토리지 어레이에는 DE1600 12 드라이브 트레이, DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이를 포함할 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 <block ref="9e136a997bcf3e05c018623bc12de242" category="inline-link-macro-rx"></block> 및 <block ref="168600e88979a841f5ba5db5c2e4bc72" category="inline-link-macro-rx"></block>.</block>
   <block id="777b0649fcc5fcc5bb1164b9d7eaa265" category="paragraph">E2860 컨트롤러 쉘프 및 DE460C 드라이브 쉘프에서 드라이브 드로어를 교체할 수 있습니다. 이러한 60-드라이브 쉘프에는 각각 5개의 드라이브 서랍이 있습니다.</block>
-  <block id="113cabefba6314f00b60f0b88bc8b1fa" category="paragraph"><block ref="f20b4bef1c485b65027bb64c40283577" category="inline-image-macro-rx" type="image"></block> <block ref="8589ea515c203c5bc845d521107b1586" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95d290c7c8680af128bf09d62a8aa6c0" category="section-title">드라이브 취급</block>
   <block id="9ab2450e73d8b1c6fcd4cbdd796e2f91" category="summary">E2800 어레이에 호스트 인터페이스 카드(HIC)를 추가합니다.</block>
   <block id="01ff5ad67baf6b4ef35176cfabf729e1" category="doc">E2800 호스트 인터페이스 카드(HIC) 추가</block>
@@ -5889,7 +5888,6 @@
   <block id="d6824df6c78161020f612be2cf0dd5ea" category="paragraph">' policy='service-time 0' prio=10 status=active</block>
   <block id="a602b51c709c08f2a0056a93c3f7347c" category="paragraph">활성 경로는 nvme2를 가리키므로 I/O는 이 경로를 통해 컨트롤러 B로 리디렉션됩니다</block>
   <block id="a5974dd8ce70a548614c8d5d17a3d822" category="list-text">부팅 시 다중 경로 데몬을 활성화하려면 다음 중 하나를 수행하십시오.</block>
-  <block id="9473d9f79f6f9f58365aacf4bc3692ed" category="list-text">/boot 디렉토리에서 initramfs 이미지 또는 initrd 이미지를 재생성합니다.</block>
   <block id="ee916e0d414bc638aa03071c909609ac" category="list-text">부팅 구성 파일에서 새로 생성된 /boot/initrams- * 이미지 또는 /boot/initrd- * 이미지가 선택되었는지 확인합니다.</block>
   <block id="46bcd2758b72eff5e80f3a63941f1254" category="paragraph">예를 들어, grub의 경우 '/boot/grub/menu.lst'이고 grub2의 경우 '/boot/grub2/menu.cfg'입니다.</block>
   <block id="cfacf32d5f730b5bb16ae4c5d345f88e" category="summary">FC(Fibre Channel) 스위치를 구성 \(조닝\)하면 호스트가 스토리지에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.</block>
@@ -5970,7 +5968,6 @@
   <block id="01310ef017ef25d822f741c21c117a36" category="paragraph">값 대체를 사용하는 명령의 예:</block>
   <block id="9f02febaba0653c0eaad0ff1bbaad908" category="paragraph">* RHEL 예 *</block>
   <block id="ab3920ef337c66be846f600286085d4d" category="list-text">다음 두 행을 /etc/rc.d/rc.local에 추가합니다. 2단계에서 찾은 값을 GUID0, GUID1 값으로 바꿉니다. P0과 P1의 경우 서브넷 관리자 우선 순위를 사용합니다. 1은 가장 낮고 15는 가장 높은 우선순위입니다.</block>
-  <block id="b1d612f8bc6f63ea300e554a42b1cbbb" category="list-text">/boot directory 아래의 "initramfs" 이미지 또는 "initrd" 이미지를 재생성합니다.</block>
   <block id="cd811d566fa107f125fee827c9a97038" category="summary">SANtricity 시스템 관리자를 사용하여 스토리지 배열에 데이터를 전송하는 호스트를 정의합니다. 호스트 정의는 스토리지 배열에 연결된 호스트를 알려 주는 단계 중 하나이며 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다.</block>
   <block id="de91602d965d3f24d55de1a618deaaff" category="doc">호스트를 정의합니다</block>
   <block id="e05bf6d17d783fdea5d98847101f7fbc" category="paragraph">호스트를 정의할 때 다음 지침을 염두에 두십시오.</block>
@@ -6003,7 +6000,6 @@
   <block id="446e80fe7b2b546a067aa727557f83e0" category="paragraph">파일 시스템을 생성하는 방법은 선택한 파일 시스템에 따라 다릅니다. 이 예제에서는 ext4 파일 시스템을 만드는 방법을 보여 줍니다.</block>
   <block id="975fd0c9892b022cfeeec8b2a371f30b" category="paragraph">사용할 호스트 인터페이스 유형을 선택합니다. 구성한 어레이에 사용 가능한 호스트 인터페이스 유형이 하나만 있는 경우 이 설정을 선택할 수 없습니다.</block>
   <block id="365f3205f151d2c0162b586cda9fa899" category="paragraph">기본 별칭은 "&lt;Hostname_Port Number&gt;"입니다. 예를 들어, 호스트 IPT에 대해 생성된 첫 번째 포트의 기본 별칭은 IPT_1입니다.</block>
-  <block id="cc30f274a8a39d689efd61eb14c09e98" category="list-text">관리자 암호 설정 및 암호 확인 필드에 관리자 역할에 대한 System Manager 암호를 입력한 다음 * 암호 설정 * 을 선택합니다.</block>
   <block id="710df034a9973ed95466a5c185556f12" category="summary">SANtricity System Manager에서 각 호스트를 정의하기 전에 호스트에서 타겟 컨트롤러 포트를 검색한 다음 NVMe 연결을 설정해야 합니다.</block>
   <block id="f2a10b60273c2d45f86ba6d1349e46ec" category="doc">호스트에서 스토리지를 검색하고 연결합니다</block>
   <block id="439cfd29f74a2517f05ea9a0f22d1652" category="list-text">다음 명령을 사용하여 모든 경로에 대해 NVMe-oF 타겟의 사용 가능한 서브시스템을 검색합니다.</block>
@@ -6923,10 +6919,7 @@
   <block id="dfc89ed29b8093883ce7ea3c4c99b457" category="list-text"><block ref="dfc89ed29b8093883ce7ea3c4c99b457" category="inline-link-rx"></block></block>
   <block id="f4553fe3f97fd4025f4ff41e1c663e50" category="section-title">SANtricity 릴리스 11.5</block>
   <block id="8331ef16c33d5befa6eb42b34efce9e4" category="list-text"><block ref="8331ef16c33d5befa6eb42b34efce9e4" category="inline-link-rx"></block></block>
-  <block id="faa01428232843c880bdec559135813c" category="list-text"><block ref="faa01428232843c880bdec559135813c" category="inline-link-rx"></block></block>
   <block id="cc54f468d2ac18e796e79f84a331074c" category="section-title">SANtricity 릴리스 11.4</block>
-  <block id="7536a2061c4368d5b7d751060ed52eac" category="inline-link">E2800(System Manager) 온라인 도움말</block>
-  <block id="ad0d3e53db3511f30eba4fe654f73723" category="list-text"><block ref="ad0d3e53db3511f30eba4fe654f73723" category="inline-link-rx"></block></block>
   <block id="e14af5af57d07a1e059a7501d1dd8049" category="inline-link">AMW(E2700, E5600/EF560) 온라인 도움말</block>
   <block id="f102ce57babbb1ddaf5712f2d567e723" category="list-text"><block ref="f102ce57babbb1ddaf5712f2d567e723" category="inline-link-rx"></block></block>
   <block id="451309945948c56a3f40b082fd1af9f3" category="inline-link">EMW(E2700, E5600/EF560) 온라인 도움말</block>
@@ -7052,7 +7045,6 @@
   <block id="7f91b3bbd1281f9b80cef4d909c6db05" category="list-text">선반을 손으로 들어올리는 경우 리프트 핸들 4개를 장착합니다. 딸깍 소리가 나면서 제자리에 고정될 때까지 각 손잡이를 위로 밉니다.</block>
   <block id="f8a163eecaf819af57298c9a255ffb1c" category="list-text">하단에서 쉘프를 지지한 다음 캐비닛에 밀어 넣습니다. 리프트 핸들을 사용하는 경우 선반이 캐비닛에 들어갈 때 한 번에 한 세트를 제거합니다. 핸들을 분리하려면 분리 래치를 뒤로 당기고 아래로 누른 다음 쉘프를 당겨 빼냅니다.</block>
   <block id="8da92aca81a2b2221d6b182da0317a70" category="paragraph"><block ref="8da92aca81a2b2221d6b182da0317a70" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="32b5404fbe312401c8fe1625cf4f29fc" category="paragraph"><block ref="32b5404fbe312401c8fe1625cf4f29fc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8f57d3a728dbee93c91f52df708a0f03" category="list-text">드라이브를 설치합니다.</block>
   <block id="e7f546cb3de7b0b2f545861ec3bd8faf" category="list-text">정전기 방전을 방지하려면 ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 접지에 고정합니다.</block>
   <block id="441cd839d4b2fb880029cd3ae287e829" category="list-text">상단 드로어의 전면 왼쪽 슬롯부터 드라이브 슬롯에 조심스럽게 배치하고 딸깍 소리가 나면서 제자리에 고정될 때까지 들어 올린 드라이브 핸들을 내려 각 드라이브를 설치합니다.</block>
@@ -7180,14 +7172,12 @@
   <block id="36ea2743576b4967eefec734fdf225a7" category="sidebar">E2800</block>
   <block id="fa62d1ff5c8df2db90b5a0e66ffb499d" category="sidebar">E2800은 시스템을 유지보수합니다</block>
   <block id="90dcd50961ab2150c40f87fb4d43a7bd" category="sidebar">E2800은 배터리를 유지합니다</block>
-  <block id="7f7cf3af2708f90b78cf062cc1e437cf" category="sidebar">배터리 교체 요구 사항</block>
   <block id="bd9f159fb2ba43c274d5642a1cc1ef25" category="sidebar">배터리 교체를 준비합니다</block>
   <block id="3baa1fee1e1b39bd0fd8a6bf141e043f" category="sidebar">컨트롤러 캐니스터를 제거합니다</block>
   <block id="99bee74f5d740a2a8a8b9d5def2c97dd" category="sidebar">결함이 있는 배터리를 제거합니다</block>
   <block id="3cec1b2f6a283292e50d93f442dd85e3" category="sidebar">컨트롤러 캐니스터를 다시 설치합니다</block>
   <block id="b83cceb33f417f30c5b7a19d7dd4fee3" category="sidebar">배터리 교체를 완료합니다</block>
   <block id="91b40d84f48e5d6f1d066eddec6eaa5a" category="sidebar">E2800은 컨트롤러를 유지 관리합니다</block>
-  <block id="8ba2c7b7e7e041afe017948946f3e750" category="sidebar">컨트롤러 교체 요구사항</block>
   <block id="740b55f851abbca6a657db02ffeff89a" category="sidebar">두 번째 컨트롤러 캐니스터를 추가합니다</block>
   <block id="f49fcc97f8c0dfeaa8ca82bf8c67cb27" category="sidebar">단일 구성의 컨트롤러 교체</block>
   <block id="604d449a82a2afb8f31d42b6ab329b65" category="sidebar">E2800은 캐니스터를 유지합니다</block>
@@ -7195,15 +7185,12 @@
   <block id="607f7947f757dd2fb95ff0346170a6e2" category="sidebar">전원 캐니스터 교체(60 드라이브)</block>
   <block id="e87621d4d3b3341d1a85640a80dbe8ba" category="sidebar">팬 캐니스터 교체(60 드라이브)</block>
   <block id="aa9efa5146b23092e16f1a1f313d3147" category="sidebar">E2800은 드라이브를 유지합니다</block>
-  <block id="0a0338503c8de53bdfebef5b2d7cc7f7" category="sidebar">드라이브 교체 요구 사항</block>
   <block id="5ee5097b71b0657d7279a81c788216c2" category="sidebar">드라이브 교체(12 드라이브 또는 24 드라이브)</block>
   <block id="45e5b95f027a05014cb568fd518ffccb" category="sidebar">드라이브 교체(60 드라이브)</block>
   <block id="174a20bb5d925507cfb49bc15d89639f" category="sidebar">드라이브 드로어 교체(60 드라이브)</block>
   <block id="8b0389482da8a34dfa2fd7d612428f19" category="sidebar">E2800은 HIC를 유지합니다</block>
-  <block id="7fa1e190a095db7bd749074512cb3ffc" category="sidebar">HIC 교체 요구사항</block>
   <block id="f8f636622390b1e0f605b81f0353b02d" category="sidebar">호스트 인터페이스 카드를 교체합니다</block>
   <block id="40234e2675994dfbdf06dbbc35002dae" category="sidebar">E2800 호스트 프로토콜 변환</block>
-  <block id="1db1e36e7849178e07ef65643e7b332f" category="sidebar">변환 요구 사항</block>
   <block id="176e516e8cae45764073b4a9b3674666" category="sidebar">E5700</block>
   <block id="4fcc5dd0ed72afd3d9122de43013c918" category="sidebar">E5700 시스템 유지</block>
   <block id="418d964fbc943b1c7d7d1e1e76b278b4" category="sidebar">E5700에는 배터리가 유지됩니다</block>
@@ -7266,4 +7253,13 @@
   <block id="668e2078ef1b1722c77cdb5c523a4463" category="sidebar">NetApp 기술 자료</block>
   <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
   <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E-Series/SANtricity 다운로드(로그인 필요)</block>
+  <block id="e9983c2bf51c9aa8f38dce44157b9a2a" category="paragraph">이 절차는 IOM12 및 IOM12B 드라이브 쉘프에 적용됩니다.</block>
+  <block id="2af3ffb0914986412fbce97033362ada" category="admonition">이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)</block>
+  <block id="2dbe08d5683f7868502b2ae7bf0efe28" category="paragraph">이 절차는 IOM12 및 IOM12B 드라이브 쉘프, DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
+  <block id="6dc10b003bcb8e0cbbcf076e7dbcdf2f" category="paragraph">이 작업은 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
+  <block id="acd1dcb9f4c3f9c9b28f9c1a4d234d1b" category="admonition">전원 공급 장치 교체 절차는 IOM 교체에 적용할 수 있습니다. IOM을 교체하려면 전원 공급 장치 교체 절차를 수행하십시오.</block>
+  <block id="f20b4bef1c485b65027bb64c40283577" category="paragraph"><block ref="f20b4bef1c485b65027bb64c40283577" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ebc31fad1cf84954196a7706294df684" category="paragraph">이 절차는 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
+  <block id="9fab40c340a50dc566e1060dd32e768d" category="admonition">클라이언트 및 서버 인증서를 검색하려면 스토리지 배열이 최적 상태여야 합니다. 인증서를 검색할 수 없는 경우 새 CSR을 만들고 서명하고 EKMS에서 서버 인증서를 다운로드해야 합니다.</block>
+  <block id="86e856206affbccd36d96e0932a14510" category="paragraph">"NVMe-RDMA" 커널 모듈이 로드되었는지 확인하려면 다음 명령을 실행합니다.</block>
 </blocks>
