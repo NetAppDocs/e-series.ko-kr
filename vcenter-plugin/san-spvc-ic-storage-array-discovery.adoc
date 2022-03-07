@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: san-spvc-ic-storage-array-discovery.html 
+permalink: vcenter-plugin/san-spvc-ic-storage-array-discovery.html 
 keywords: discover arrays vCenter plugin, discover storage resources Plugin for vCenter, resolve certificates vCenter plugin 
 summary: Plugin for vCenter 인터페이스를 사용하여 네트워크에 있는 어레이의 IP 주소를 검색합니다. 
 ---

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: san-spvc-ic-plugin-removal.html 
+permalink: vcenter-plugin/san-spvc-ic-plugin-removal.html 
 keywords: remove vCenter plugin, uninstall Plugin for vCenter, unregister vCenter plugin, 
 summary: vCenter용 플러그인을 제거합니다. 
 ---

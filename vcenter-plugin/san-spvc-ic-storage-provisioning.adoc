@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: san-spvc-ic-storage-provisioning.html 
+permalink: vcenter-plugin/san-spvc-ic-storage-provisioning.html 
 keywords: create volumes vCenter plugin, provision Plugin for vCenter, vCenter plugin storage provisioning, vCenter plugin host 
 summary: Plugin for vCenter를 사용하여 볼륨을 생성하고 호스트에 볼륨을 할당한 다음 볼륨을 데이터 저장소에 할당합니다. 
 ---
