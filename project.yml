@@ -733,19 +733,19 @@ sidebar:
     - title: vCenter용 스토리지 플러그인
       entries:
       - title: 개요
-        url: "/san-spvc-ic-overview.html"
+        url: "/vcenter-plugin/san-spvc-ic-overview.html"
       - title: 플러그인을 설치합니다
-        url: "/san-spvc-ic-installation.html"
+        url: "/vcenter-plugin/san-spvc-ic-installation.html"
       - title: 액세스 권한을 구성합니다
-        url: "/san-spvc-ic-user-access.html"
+        url: "/vcenter-plugin/san-spvc-ic-user-access.html"
       - title: 로그인하여 탐색하십시오
-        url: "/san-spvc-ic-login-and-navigation.html"
+        url: "/vcenter-plugin/san-spvc-ic-login-and-navigation.html"
       - title: 스토리지 시스템을 검색합니다
-        url: "/san-spvc-ic-storage-array-discovery.html"
+        url: "/vcenter-plugin/san-spvc-ic-storage-array-discovery.html"
       - title: 스토리지 프로비저닝
-        url: "/san-spvc-ic-storage-provisioning.html"
+        url: "/vcenter-plugin/san-spvc-ic-storage-provisioning.html"
       - title: 플러그인을 제거합니다
-        url: "/san-spvc-ic-plugin-removal.html"
+        url: "/vcenter-plugin/san-spvc-ic-plugin-removal.html"
     - title: 기능과 이점을 설명할 수 있습니다
       entries:
       - title: 클라우드 커넥터
