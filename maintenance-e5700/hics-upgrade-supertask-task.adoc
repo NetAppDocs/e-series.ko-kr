@@ -25,7 +25,7 @@ HIC를 업그레이드할 때는 스토리지 어레이의 전원을 끄고 각 
 * 스위치 또는 호스트 버스 어댑터(HBA)와 같은 새 호스트 포트에 새 호스트 하드웨어가 설치됩니다.
 * 새 호스트 포트를 연결하는 데 필요한 모든 케이블, 트랜시버, 스위치 및 호스트 버스 어댑터(HBA)
 +
-호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다.
+호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다 http://hwu.netapp.com/home.aspx["NetApp Hardware Universe를 참조하십시오"^].
 
 * 컨트롤러 캐니스터에 연결된 각 케이블을 식별하는 레이블입니다.
 * ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.

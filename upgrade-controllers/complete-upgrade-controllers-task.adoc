@@ -142,7 +142,7 @@ LED 및 스토리지 관리 소프트웨어를 사용하여 컨트롤러 및 트
 
 
 +
-호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 및.
+호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 및 http://hwu.netapp.com/home.aspx["NetApp Hardware Universe를 참조하십시오"^].
 
 . 헤드스왑을 준비하는 동안 모든 씬 볼륨에 대해 Write Back Caching을 사용하지 않도록 설정한 경우 Write Back Caching을 다시 사용하도록 설정합니다.
 +

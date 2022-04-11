@@ -23,7 +23,7 @@ summary: E5700 호스트 프로토콜 변환 완료
 
 이 작업은 이미 사용 중인 스토리지 배열을 변환하는 경우에만 적용됩니다.
 
-호스트 및 볼륨이 아직 정의되지 않은 새 스토리지 배열을 변환하는 경우에는 이 작업이 적용되지 않습니다. 새 스토리지 배열의 호스트 포트 프로토콜을 변환한 경우 를 참조하십시오 link:../install-hw-cabling/index.html["케이블 연결 절차"] 케이블 및 SFP 설치 그런 다음 의 지침을 따릅니다 , , 또는  를 눌러 각 프로토콜에 대한 설정을 완료합니다.
+호스트 및 볼륨이 아직 정의되지 않은 새 스토리지 배열을 변환하는 경우에는 이 작업이 적용되지 않습니다. 새 스토리지 배열의 호스트 포트 프로토콜을 변환한 경우 를 참조하십시오 link:../install-hw-cabling/index.html["케이블 연결 절차"] 케이블 및 SFP 설치 그런 다음 의 지침을 따릅니다 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"] 를 눌러 각 프로토콜에 대한 설정을 완료합니다.
 
 .단계
 . 스위치를 구성합니다.
@@ -76,7 +76,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 
 이 작업은 이미 사용 중인 스토리지 배열을 변환하는 경우에만 적용됩니다.
 
-호스트 및 볼륨이 아직 정의되지 않은 새 스토리지 배열을 변환하는 경우에는 이 작업이 적용되지 않습니다. 새 스토리지 배열의 호스트 포트 프로토콜을 변환한 경우 를 참조하십시오 link:../install-hw-cabling/index.html["케이블 연결 절차"] 케이블 및 SFP 설치 그런 다음 의 지침을 따릅니다 , , 또는  를 눌러 각 프로토콜에 대한 설정을 완료합니다.
+호스트 및 볼륨이 아직 정의되지 않은 새 스토리지 배열을 변환하는 경우에는 이 작업이 적용되지 않습니다. 새 스토리지 배열의 호스트 포트 프로토콜을 변환한 경우 를 참조하십시오 link:../install-hw-cabling/index.html["케이블 연결 절차"] 케이블 및 SFP 설치 그런 다음 의 지침을 따릅니다 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"] 를 눌러 각 프로토콜에 대한 설정을 완료합니다.
 
 .단계
 . HBA 유틸리티를 설치하고 이니시에이터 WWPN을 확인합니다.

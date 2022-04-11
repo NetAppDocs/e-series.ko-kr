@@ -45,9 +45,9 @@ NOTE: 이 그림은 컨트롤러 캐니스터를 보여 줍니다. 컨트롤러 
 * 현재 설치된 컨트롤러 캐니스터의 HIC와 동일한 새 HIC(현재 설치된 컨트롤러 캐니스터에 호스트 인터페이스 카드가 포함된 경우에만 필요)
 * 새 컨트롤러 포트를 연결하는 데 필요한 모든 케이블, 트랜시버, 스위치 및 호스트 버스 어댑터(HBA)
 +
-호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다.
+호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다 http://hwu.netapp.com/home.aspx["NetApp Hardware Universe를 참조하십시오"^].
 
-* 두 컨트롤러를 모두 사용할 수 있도록 호스트에 설치된 다중 경로 드라이버 을 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], , 또는  를 참조하십시오.
+* 두 컨트롤러를 모두 사용할 수 있도록 호스트에 설치된 다중 경로 드라이버 을 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"] 를 참조하십시오.
 * ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.
 * 1 십자 드라이버.
 * 새 케이블을 식별하기 위한 레이블

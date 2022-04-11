@@ -193,4 +193,4 @@ System Manager에 액세스하려면 관리 포트를 구성하는 데 사용한
 |===
 
 
-SAS 확장을 위해 EF300을 케이블로 연결하는 경우 를 참조하십시오 link:../maintenance-ef600/index.html["EF600 하드웨어 유지 관리"] SAS 확장 카드 설치 및 의 경우  SAS 확장 케이블 연결용.
+SAS 확장을 위해 EF300을 케이블로 연결하는 경우 를 참조하십시오 link:../maintenance-ef600/index.html["EF600 하드웨어 유지 관리"] SAS 확장 카드 설치 및 의 경우 link:../install-hw-cabling/index.html["E-Series 하드웨어 케이블링"] SAS 확장 케이블 연결용.

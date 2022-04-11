@@ -34,7 +34,7 @@ E5724 컨트롤러 쉘프 또는 DE224C 드라이브 쉘프 * 에서 드라이�
 image::../media/28_dwg_e2824_de224c_drive_numbering_maint-e5700.gif[28 DWG e2824 de224c 드라이브 번호 지정 maint e5700]
 
 
-NOTE: E55724 스토리지 어레이에는 DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이를 포함할 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 .
+NOTE: E55724 스토리지 어레이에는 DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이를 포함할 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 link:https://library.netapp.com/ecmdocs/ECMLP2577971/html/GUID-E9157E41-F4BF-4237-9454-F1C9145247F0.html["E2600, E2700, E5400, E5500, E5600 12-드라이브 또는 24-드라이브 트레이의 드라이브 교체"].
 
 
 
@@ -49,7 +49,7 @@ E5560 컨트롤러 쉘프 드로어 및 DE460C 드라이브 쉘프 드로어의 
 image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[HDD 속성 표시기가 있는 DWG Trafford 서랍 maint e5700]
 
 
-NOTE: E5560 스토리지 어레이에는 DE1600 12 드라이브 트레이, DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이가 포함될 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 .
+NOTE: E5560 스토리지 어레이에는 DE1600 12 드라이브 트레이, DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이가 포함될 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 link:https://library.netapp.com/ecmdocs/ECMLP2577971/html/GUID-E9157E41-F4BF-4237-9454-F1C9145247F0.html["E2600, E2700, E5400, E5500, E5600 12-드라이브 또는 24-드라이브 트레이의 드라이브 교체"].
 
 
 

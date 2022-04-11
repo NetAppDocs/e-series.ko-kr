@@ -116,7 +116,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 모든 FC 호스트를 새 iSCSI 포트에서 FC로 남아 있는 포트로 이동합니다.
 . 이중 프로토콜 SFP를 아직 사용하지 않는 경우 FC SFP를 모두 제거하십시오.
 . 직접 또는 스위치를 사용하여 이러한 포트에 새 iSCSI 호스트를 연결합니다.
-. 새 호스트 및 포트에 대한 iSCSI 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], , 또는 .
+. 새 호스트 및 포트에 대한 iSCSI 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"].
 
 
 
@@ -153,7 +153,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 새 FC 포트에서 iSCSI가 남아 있는 포트로 iSCSI 호스트를 이동합니다.
 . 이중 프로토콜 SFP를 아직 사용하지 않는 경우 FC SFP를 모두 제거하십시오.
 . 직접 또는 스위치를 사용하여 이러한 포트에 새 FC 호스트를 연결합니다.
-. 새 호스트 및 포트에 대해 FC 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-windows/index.html["Linux Express 구성"], , 또는 .
+. 새 호스트 및 포트에 대해 FC 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-windows/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"].
 
 
 
@@ -190,7 +190,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 아직 이중 프로토콜 SFP를 사용하지 않는 경우 iSCSI SFP를 모두 제거하고 FC SFP 또는 이중 프로토콜 SFP로 교체하십시오.
 . 이중 프로토콜 SFP를 아직 사용하지 않는 경우 FC SFP를 모두 제거하십시오.
 . 직접 또는 스위치를 사용하여 이러한 포트에 새 FC 호스트를 연결합니다
-. 새 호스트 및 포트에 대해 FC 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], , 또는 .
+. 새 호스트 및 포트에 대해 FC 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"].
 
 
 
@@ -226,7 +226,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 
 . 아직 이중 프로토콜 SFP를 사용하지 않는 경우 FC SFP를 모두 제거하고 iSCSI SFP 또는 이중 프로토콜 SFP로 교체하십시오.
 . 직접 또는 스위치를 사용하여 이러한 포트에 새 iSCSI 호스트를 연결합니다.
-. 새 호스트 및 포트에 대한 iSCSI 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], , 또는 .
+. 새 호스트 및 포트에 대한 iSCSI 네트워킹을 구성합니다. 자세한 내용은 를 참조하십시오 link:../config-linux/index.html["Linux Express 구성"], link:../config-windows/index.html["Windows Express 구성"], 또는 link:../config-vmware/index.html["VMware Express 구성"].
 
 
 

@@ -28,7 +28,7 @@ HIC를 업그레이드할 때는 스토리지 어레이의 전원을 끄고 각 
 * 스위치 또는 호스트 버스 어댑터(HBA)와 같이 새 호스트 포트에 설치된 새 호스트 하드웨어
 * 새 호스트 포트를 연결하는 데 필요한 모든 케이블, 트랜시버, 스위치 및 호스트 버스 어댑터(HBA)
 +
-호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다.
+호환 하드웨어에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"^] 또는 을 누릅니다 http://hwu.netapp.com/home.aspx["NetApp Hardware Universe를 참조하십시오"^].
 
 * 컨트롤러의 SANtricity 시스템 관리자에 액세스할 수 있는 브라우저가 있는 관리 스테이션. System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
 
