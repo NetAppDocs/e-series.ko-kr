@@ -5,6 +5,7 @@ keywords: battery, controller, canister, preserve, cache, data, ac, power, fail,
 summary: 배터리는 컨트롤러 캐니스터에 포함되어 있으며 AC 전원이 장애가 발생할 경우 캐싱된 데이터를 보존합니다. 
 ---
 = 배터리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

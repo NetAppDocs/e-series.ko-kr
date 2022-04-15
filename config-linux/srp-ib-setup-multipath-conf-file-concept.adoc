@@ -5,6 +5,7 @@ keywords: multipath.conf, express linux configuration, software configuration, l
 summary: multipath.conf 파일은 multipath daemon, multipathd의 구성 파일입니다. 
 ---
 = multipath.conf 파일을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: replace E2800 controller, replacing E2800 controller, duplex controlle
 summary: 듀플렉스 구성에서 컨트롤러 캐니스터를 교체합니다. 
 ---
 = E2800 이중 구성의 컨트롤러를 교체합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

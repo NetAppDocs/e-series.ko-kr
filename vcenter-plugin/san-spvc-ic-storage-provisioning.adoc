@@ -6,6 +6,7 @@ summary: Plugin for vCenter를 사용하여 볼륨을 생성하고 호스트에 
 ---
 = 플러그인에서 스토리지를 프로비저닝합니다
 :hardbreaks:
+:allow-uri-read: 
 :experimental: 
 :nofooter: 
 :icons: font

@@ -5,6 +5,7 @@ keywords: Web Services, WSP, SANtricity API, discover storage WSP,
 summary: 네트워크에서 스토리지 시스템을 관리하려면 먼저 스토리지 시스템을 검색한 다음 관리 목록에 추가해야 합니다. 
 ---
 = 웹 서비스 프록시를 사용하여 스토리지 시스템을 관리합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

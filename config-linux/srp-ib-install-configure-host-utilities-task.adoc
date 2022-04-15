@@ -5,6 +5,7 @@ keywords: Unified Host Utilities, express linux configuration, software configur
 summary: Linux Unified Host Utilities 7.1에는 페일오버 정책과 물리적 경로를 비롯하여 NetApp 스토리지를 관리하는 툴이 포함되어 있습니다. 
 ---
 = Linux Host Utilities를 설치하고 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

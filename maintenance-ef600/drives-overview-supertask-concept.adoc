@@ -5,6 +5,7 @@ keywords: replace EF300 drive, replace EF600 drive,
 summary: EF300 또는 EF600의 드라이브를 교체하기 전에 요구사항 및 고려 사항을 검토하십시오. 
 ---
 = EF300 또는 EF600 드라이브 교체에 대한 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

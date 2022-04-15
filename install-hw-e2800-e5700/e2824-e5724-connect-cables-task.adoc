@@ -5,6 +5,7 @@ keywords: E2800, E5700, connect power cables
 summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
 ---
 = 케이블을 연결합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

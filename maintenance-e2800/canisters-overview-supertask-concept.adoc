@@ -5,6 +5,7 @@ keywords: E2800 replace canister, replacing E2800 canister, E2800 replace power 
 summary: E2800 캐니스터 유형과 요구사항을 검토합니다. 
 ---
 = E2800 캐니스터 교체 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

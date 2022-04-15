@@ -5,6 +5,7 @@ keywords: Fibre Channel protocol, switches, zone switches, zoning, host port ide
 summary: Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 결정합니다. 
 ---
 = FC 관련 작업을 수행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

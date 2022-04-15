@@ -5,6 +5,7 @@ keywords: Nvme over FC, express vmware configuration, software configuration, vm
 summary: NVMe over Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 확인합니다. 
 ---
 = NVMe over FC 관련 작업을 수행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

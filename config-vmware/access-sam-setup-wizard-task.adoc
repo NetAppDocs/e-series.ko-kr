@@ -5,6 +5,7 @@ keywords: access System Manager vmware, express vmware configuration,software co
 summary: SANtricity 시스템 관리자의 설정 마법사를 사용하여 스토리지 배열을 구성합니다. 
 ---
 = SANtricity 시스템 관리자에 액세스하고 설치 마법사를 사용합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

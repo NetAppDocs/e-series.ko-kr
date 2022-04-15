@@ -5,6 +5,7 @@ keywords: replace EF300 fan, replace EF600 fan,
 summary: EF300 또는 EF600 팬을 교체하기 전에 요구사항 및 고려 사항을 검토하십시오. 
 ---
 = EF300 또는 EF600 팬 교체에 대한 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

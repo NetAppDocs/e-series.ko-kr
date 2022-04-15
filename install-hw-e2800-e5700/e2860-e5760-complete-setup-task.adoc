@@ -5,6 +5,7 @@ keywords: E2800, E5700, installation, host cabling, direct-attach topology, fabr
 summary: 스토리지 시스템의 설치 및 구성을 완료하려면 컨트롤러를 네트워크에 연결하십시오. 
 ---
 = 스토리지 시스템의 설치 및 구성을 완료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -6,6 +6,7 @@ summary: vCenter용 플러그인을 제거합니다.
 ---
 = vCenter용 Storage Plugin을 제거합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

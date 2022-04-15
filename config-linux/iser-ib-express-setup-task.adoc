@@ -5,6 +5,7 @@ keywords:
 summary:  
 ---
 = InfiniBand Express Setup을 통한 iSER
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: configure iSCSI networking, express linux configuration, software conf
 summary: 어레이 측에서 iSCSI 네트워킹을 구성합니다. 
 ---
 = 스토리지 측 네트워킹 구성
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

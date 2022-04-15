@@ -5,6 +5,7 @@ keywords: install Storage Manager Linux, install CLI Windows, install command li
 summary: CLI용 Storage Manager와 Linux Express 방법에서 HCA를 설치합니다. 
 ---
 = SMcli용 SANtricity 스토리지 관리자 설치(SANtricity 소프트웨어 버전 11.53 이하)
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

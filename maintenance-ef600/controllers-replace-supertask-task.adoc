@@ -5,6 +5,7 @@ keywords: replace EF300 controller, replace EF600 controller, replace EF300 cani
 summary: EF300 또는 EF600 컨트롤러 쉘프에 있는 단일 컨트롤러를 교체합니다. 
 ---
 = EF300 또는 EF600 컨트롤러 교체
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

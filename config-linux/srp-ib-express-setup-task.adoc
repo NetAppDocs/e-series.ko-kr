@@ -5,6 +5,7 @@ keywords: srp, infiniband, express, setup
 summary: InfiniBand Express를 통한 SRP 설정 
 ---
 = InfiniBand Express를 통한 SRP 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: feature technical reports, e-series, hardware, santricity, os
 summary: E-Series 기술 보고서 
 ---
 = 주요 기술 보고서를 찾아보십시오
+:allow-uri-read: 
 
 
 

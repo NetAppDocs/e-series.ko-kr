@@ -5,6 +5,7 @@ keywords: cabling, cables, drive shelf cabling, controller shelf cabling, E-Seri
 summary: '컨트롤러 쉘프의 각 컨트롤러를 드라이브 쉘프의 I/O 모듈(IOM)에 연결합니다.' 
 ---
 = 드라이브 쉘프 케이블링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

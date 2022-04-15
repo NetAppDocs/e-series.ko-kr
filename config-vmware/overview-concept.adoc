@@ -5,6 +5,7 @@ keywords: express vmware configuration, software configuration, vmware host, E28
 summary: Express 방법을 사용하여 E-Series 어레이 및 VMware 호스트를 설정하기 위한 요구사항을 검토합니다. 
 ---
 = 가정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: online help, System Manager, Unified Manager
 summary: 스토리지 관리 
 ---
 = 스토리지 관리
+:allow-uri-read: 
 
 
 [role="lead"]

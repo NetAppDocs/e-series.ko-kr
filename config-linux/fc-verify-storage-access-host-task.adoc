@@ -5,6 +5,7 @@ keywords: express linux configuration, software configuration, linux host,
 summary: 볼륨을 사용하기 전에 호스트에서 볼륨에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다. 
 ---
 = 호스트에서 스토리지 액세스를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

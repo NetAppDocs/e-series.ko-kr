@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upg
 summary: 컨트롤러 업그레이드의 첫 번째 단계는 기존 컨트롤러를 제거하고 선택적으로 배터리를 제거하는 것입니다. 
 ---
 = 컨트롤러를 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

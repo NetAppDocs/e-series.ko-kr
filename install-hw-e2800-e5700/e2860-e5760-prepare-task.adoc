@@ -5,6 +5,7 @@ keywords: E2860, E5760, DE460, installation
 summary: E2860, E57760 또는 DE460을 설치하려면 계정을 만들고 하드웨어를 등록하십시오. 
 ---
 = 설치 준비
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

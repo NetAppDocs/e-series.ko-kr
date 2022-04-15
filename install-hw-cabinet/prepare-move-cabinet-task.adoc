@@ -5,6 +5,7 @@ keywords: 3040 40U cabinet, cabinet installation, drive tray installation, contr
 summary: 캐비닛을 이동할 준비를 합니다. 
 ---
 = 캐비닛을 이동할 준비를 합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: log in API, log in Unified Manager
 summary: 웹 서비스 API 및 Unified Manager에 액세스 및 로그인합니다. 
 ---
 = API 및 Unified Manager에 로그인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

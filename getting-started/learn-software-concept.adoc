@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, E-Series so
 summary: E-Series 시스템에는 스토리지 프로비저닝 및 기타 작업을 위한 SANtricity 소프트웨어가 포함되어 있습니다. 
 ---
 = SANtricity 소프트웨어 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

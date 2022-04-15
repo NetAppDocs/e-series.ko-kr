@@ -5,6 +5,7 @@ keywords: multipath software for Linux, express linux configuration, software co
 summary: 물리적 경로 중 하나가 중단될 경우 스토리지 어레이에 대한 중복 경로를 제공하는 다중 경로 소프트웨어를 구성합니다. 
 ---
 = 다중 경로 소프트웨어를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: Cloud Connector uninstall, remove Cloud Connector
 summary: 그래픽 제거 프로그램 또는 콘솔을 통해 SANtricity 클라우드 커넥터를 제거할 수 있습니다. 
 ---
 = SANtricity 클라우드 커넥터를 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

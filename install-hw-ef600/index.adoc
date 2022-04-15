@@ -5,6 +5,7 @@ keywords: EF300, EF600, installation
 summary: EF300 및 EF600 어레이 설치 및 설정 
 ---
 = EF300 및 EF600 스토리지 시스템 설치 및 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 :pdfdir: ../pdf/

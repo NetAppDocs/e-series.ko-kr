@@ -5,6 +5,7 @@ keywords: E2800 replace drive, replacing E2800 drive, E2800 replace drive, repla
 summary: E2800의 드라이브를 60 드라이브 쉘프로 교체합니다. 
 ---
 = E2800의 드라이브 교체(60-드라이브 쉘프)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
@@ -181,7 +182,7 @@ NOTE: 기술 지원 부서 또는 Recovery Guru에서 지시한 경우에만 이
 
 
 . 필요한 경우 베젤을 다시 설치합니다.
-. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.
+. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 램프; 교체 페이지"] 를 참조하십시오.
 
 
 드라이브 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.

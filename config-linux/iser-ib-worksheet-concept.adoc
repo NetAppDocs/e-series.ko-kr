@@ -5,6 +5,7 @@ keywords: iSER worksheet Linux, express linux configuration, software configurat
 summary: 이 워크시트를 사용하여 iSER을 Infiniband 스토리지 구성 정보에 기록합니다. 
 ---
 = IB 구성을 통해 iSER을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

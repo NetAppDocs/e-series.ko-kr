@@ -5,6 +5,7 @@ keywords: IP address, DHCP, express Windows configuration, software configuratio
 summary: 'DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 Windows Express 방법으로 IP 주소를 제공합니다.' 
 ---
 = DHCP를 사용하여 IP 주소를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

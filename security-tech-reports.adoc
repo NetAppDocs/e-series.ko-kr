@@ -5,6 +5,7 @@ keywords: security technical reports, e-series, hardware, santricity, os
 summary: E-Series 기술 보고서 
 ---
 = 보안 기술 보고서 찾아보기
+:allow-uri-read: 
 
 
 

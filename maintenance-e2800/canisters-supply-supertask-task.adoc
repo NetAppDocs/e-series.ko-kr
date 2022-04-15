@@ -5,6 +5,7 @@ keywords: E2800 replace 12-drive power supply, E2800 replace 24-drive power supp
 summary: 통합 팬을 포함하는 2개의 전원 공급 장치가 포함된 E2800 12 드라이브 또는 24 드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 교체합니다. 
 ---
 = E2800 전원 공급 장치 교체(12 드라이브 또는 24 드라이브)
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
@@ -167,7 +168,7 @@ CAUTION: 전원 공급 장치를 시스템에 밀어 넣을 때 과도한 힘을
 
 
 
-. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.
+. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 램프; 교체 페이지"] 를 참조하십시오.
 
 
 전원 공급 장치 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.

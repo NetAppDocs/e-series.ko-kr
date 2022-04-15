@@ -5,6 +5,7 @@ keywords: replace, dimm, memory, mismatch, fail
 summary: 메모리 불일치가 있거나 DIMM에 결함이 있는 경우 DIMM을 교체해야 합니다. 
 ---
 = DIMM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

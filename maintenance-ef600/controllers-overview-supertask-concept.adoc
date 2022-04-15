@@ -5,6 +5,7 @@ keywords: replace EF300 controller, replace EF600 controller,
 summary: EF300 또는 EF600 컨트롤러 교체에 대한 요구사항 및 고려사항 
 ---
 = EF300 또는 EF600 컨트롤러 교체 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

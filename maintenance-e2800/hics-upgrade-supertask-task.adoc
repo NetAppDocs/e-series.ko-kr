@@ -5,6 +5,7 @@ keywords: upgrading E2800 HIC, upgrade E2800 HIC, upgrade host interface card, E
 summary: 'E2800 어레이에서 HIC(호스트 인터페이스 카드)를 업그레이드합니다.' 
 ---
 = E2800 호스트 인터페이스 카드(HIC) 업그레이드
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

@@ -5,6 +5,7 @@ keywords: install Storage Manager Windows, install CLI Windows, install command 
 summary: CLI용 Storage Manager 및 HCA를 Windows Express 방법에 설치합니다. 
 ---
 = SMcli 및 호스트 컨텍스트 에이전트용 SANtricity 스토리지 관리자(HCA) 설치
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

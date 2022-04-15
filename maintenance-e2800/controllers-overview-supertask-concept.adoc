@@ -5,6 +5,7 @@ keywords: E2800 controller replacement requirements, E2800 replace controller, r
 summary: E2800 컨트롤러 교체 요구 사항 및 고려 사항을 검토합니다. 
 ---
 = E2800 컨트롤러 교체 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

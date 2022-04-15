@@ -5,6 +5,7 @@ keywords: NVMe over FC worksheet Linux, express linux configuration, software co
 summary: 이 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 구성 정보를 기록할 수 있습니다. 
 ---
 = NVMe over FC 구성을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

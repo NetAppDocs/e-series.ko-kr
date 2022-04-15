@@ -6,6 +6,7 @@ summary: Plugin for vCenter 인터페이스를 사용하여 네트워크에 있�
 ---
 = 플러그인에서 스토리지 시스템을 검색합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

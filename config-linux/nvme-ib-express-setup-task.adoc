@@ -5,6 +5,7 @@ keywords: nvme, infiniband, network, protocol, express, setup
 summary: InfiniBand 네트워크 프로토콜에서 NVMe를 사용할 수 있습니다. 
 ---
 = NVMe over InfiniBand Express 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

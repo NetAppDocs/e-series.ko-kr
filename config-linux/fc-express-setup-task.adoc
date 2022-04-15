@@ -5,6 +5,7 @@ keywords:
 summary:  
 ---
 = Fibre Channel Express 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

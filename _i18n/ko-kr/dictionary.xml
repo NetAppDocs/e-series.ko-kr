@@ -638,7 +638,6 @@
   <block id="e82ba360b90b9dc8c3512d90f81adae2" category="admonition">플러그인은 SANtricity 시스템 관리자 소프트웨어를 직접 대체하는 것이 아닙니다. 단일 어레이에서 특정 스토리지 관리 작업을 수행하려면 System Manager가 여전히 필요합니다.</block>
   <block id="05ed80d1233d90c62b52eb88f5b39c76" category="paragraph">플러그인을 사용하려면 VMware 환경에 구축된 VMware vCenter Server Appliance와 플러그인 웹 서버를 설치하고 실행하기 위한 애플리케이션 호스트가 필요합니다.</block>
   <block id="48d764802fe6e980e3b6bd8569912134" category="paragraph">vCenter 환경의 통신에 대한 자세한 내용은 다음 그림을 참조하십시오.</block>
-  <block id="3bf4c5ae23f12f4212cf98bf1595f373" category="image-alt">vCenter 통신</block>
   <block id="282155126a94a0702cfd80daf38d4362" category="section-title">구성 개요</block>
   <block id="4c325e0efa9d7efb489577d6f330275e" category="inline-link-macro">플러그인을 설치하고 등록합니다</block>
   <block id="9670be495e136856463c7e5aa230b55e" category="list-text"><block ref="086335fac0a72f6b7709b869613c6621" category="inline-link-macro-rx"></block>.</block>
@@ -1750,7 +1749,6 @@
   <block id="a320ceabc99151b468bbfc423c22bfdf" category="list-text">SANtricity 시스템 관리자의 Recovery Guru에서 * Recheck * 를 선택하여 문제가 해결되었는지 확인합니다.</block>
   <block id="c01085e6cd0606ebdc3939310bd696ac" category="list-text">전원 공급 장치 오류가 계속 보고되는 경우 의 단계를 반복합니다 <block ref="ea8874311efff004f4ccf043a598fb2e" category="inline-xref-macro-rx"></block> 및 IN <block ref="1b7a0d310d8da3d5c98eb62f6d26c34f" category="inline-xref-macro-rx"></block>. 문제가 지속되면 기술 지원 팀에 문의하십시오.</block>
   <block id="8d50e29d2dbe5c9bd78247f7b1bdb86f" category="list-text">정전기 방지 장치를 제거합니다.</block>
-  <block id="a8280a793d4f574a1e8ec9fdeff29427" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="3dbc4b1fda3f7e5b612f7b6c5b1c62db" category="paragraph">전원 공급 장치 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="1cceb37762649e12d403d1def85f4c21" category="summary">E5700 드라이브 요구사항 검토</block>
   <block id="f606b288add440526eb541bfdfeaba20" category="doc">E5700 드라이브 교체 요구사항</block>
@@ -2170,7 +2168,6 @@
   <block id="bfe0056c6787fe62d52c9480cc0c3591" category="paragraph">* (2) * _주의 LED(황색) _</block>
   <block id="141788fd9fbcd786d76f541540756dc4" category="list-text">또는 다음 CLI 명령을 사용할 수 있습니다.</block>
   <block id="5811caab16d9ae3e7df8465579187dda" category="list-text">* OE *, * L6 *, *_blank_ * (지원되지 않는 HIC) * 주의: * * 데이터 액세스 손실 가능성 * -- 방금 설치한 컨트롤러에 이러한 코드 중 하나가 표시되고 다른 컨트롤러가 어떤 이유로든 재설정된 경우 두 번째 컨트롤러도 잠길 수 있습니다.</block>
-  <block id="738a8c736dcf0a5ae4920a6448ab8da7" category="paragraph">기술 지원 부서(에 문의하십시오<block ref="2ff36e7792a0e0257d19a11dce8cade8" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 RMA 번호가 필요한 경우 +800-800-80-800 (아시아/태평양).</block>
   <block id="2af7d274631cea316011b977d54e2eaf" category="paragraph">HIC 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="11fdd43137cfc836a71e2c84f0134b65" category="summary">의견을 보내주시면 문서의 품질 향상에 큰 도움이 됩니다. 생산 수준 \(GA/FCS\) 문서가 처음 릴리스되거나 기존 생산 수준 문서에 중요한 변경 사항이 있을 때 자동 알림을 받을 수 있습니다.</block>
   <block id="6ab85e747e0c76cd7c95b5eb2dd03018" category="doc">설명서에 대한 의견을 보내고 업데이트 알림을 받는 방법</block>
@@ -6397,8 +6394,6 @@
   <block id="dcd56d80ecc0d78aefb3259c4aa4270b" category="summary">SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
-  <block id="6f2ac1cf1da8ec34232c651d4bba0149" category="paragraph"><block ref="6f2ac1cf1da8ec34232c651d4bba0149" category="inline-link-macro-rx"></block></block>
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E-Series/EF-Series SANtricity OS에 대한 알림</block>
   <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
   <block id="f54101aa6702c025c4f74ec5ada7bae3" category="summary">스토리지 관리</block>
@@ -7264,4 +7259,19 @@
   <block id="67b64abed949ae2b1a2626ebe211fd47" category="paragraph">이 절차는 DE212C, DE224C 또는 DE460C 드라이브 쉘프를 E2800, E2800B, EF280, E5700, E5500B, EF570 또는 EF300 컨트롤러 쉘프</block>
   <block id="f2c505979298b93cfd8e71dc78ddd1b0" category="admonition">전압 유형이 다른 PSU를 혼용하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="b7b26f8fd8107cf68f2bc572008d19a7" category="admonition">교체 컨트롤러에는 16GB의 메모리가 미리 설치되어 있습니다. 컨트롤러에 64GB 구성이 필요한 경우 교체 컨트롤러를 설치하기 전에 제공된 업그레이드 키트를 사용하십시오.</block>
+  <block id="103c35d06a9326cb406be18b9f01dd19" category="paragraph"><block ref="103c35d06a9326cb406be18b9f01dd19" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de12f8e20bb08c1655c9e9ec9fcdf669" category="inline-link">부품 반품 및 램프; 교체 페이지</block>
+  <block id="b513e4fc1080a3f36d587a4f3f169ecd" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오<block ref="e0e4d885bf8f1687472b6fca77c9b03b" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
 </blocks>

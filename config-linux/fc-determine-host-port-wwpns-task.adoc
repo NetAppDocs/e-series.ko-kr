@@ -5,6 +5,7 @@ keywords: host wwpn, HBA utility, express linux configuration, software configur
 summary: '각 호스트 포트의 WWPN\(Worldwide Port Name\)을 볼 수 있도록 FC HBA 유틸리티를 설치합니다. 또한 HBA 유틸리티를 사용하여 NetApp 상호 운용성 매트릭스 툴의 Notes 열에서 권장된 설정을 지원되는 구성으로 변경할 수 있습니다.' 
 ---
 = 호스트 WWPN을 확인하고 권장 설정을 지정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

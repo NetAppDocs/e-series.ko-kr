@@ -5,6 +5,7 @@ keywords: Cloud Connector login, log in Cloud Connector
 summary: 지원되는 브라우저에서 구성된 서버를 통해 SANtricity 클라우드 커넥터 응용 프로그램의 그래픽 사용자 인터페이스에 액세스할 수 있습니다. SANtricity 클라우드 커넥터 계정이 설정되어 있는지 확인합니다. 
 ---
 = SANtricity 클라우드 커넥터에 로그인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

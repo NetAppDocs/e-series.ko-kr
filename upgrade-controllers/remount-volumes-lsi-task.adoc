@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upg
 summary: 컨트롤러 업그레이드로 인해 공급업체 ID가 LSI에서 NetApp로 변경되는 경우 볼륨을 다시 마운트합니다. 
 ---
 = 공급업체를 LSI에서 NetApp로 변경한 후 볼륨을 다시 마운트합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

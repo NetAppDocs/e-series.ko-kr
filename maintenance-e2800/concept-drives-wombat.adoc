@@ -5,6 +5,7 @@ keywords: drive, electromagnetic, mechanical, device, physical, storage, media, 
 summary: 드라이브는 물리적 데이터 저장 매체를 제공하는 전자기 기계 장치입니다. 
 ---
 = 드라이브
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

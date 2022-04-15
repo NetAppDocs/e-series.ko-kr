@@ -2,7 +2,7 @@
 settings:
   name: e-series
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: true
     harmony_enabled: false
@@ -809,7 +809,7 @@ homepage:
     - title: 웹 서비스
       url: "/web-services-proxy/index.html"
     - title: vCenter용 플러그인
-      url: "/san-spvc-ic-overview.html"
+      url: "/vcenter-plugin/san-spvc-ic-overview.html"
     - title: SMI-S 공급자
       url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
   - title: 고성능 애플리케이션 애드온

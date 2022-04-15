@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600,
 summary: E-Series 시스템을 설치하여 실행하려면 하드웨어 구성요소를 설치하고 호스트 시스템을 구성하고 스토리지를 구성해야 합니다. 
 ---
 = E-Series와 함께 가동 및 운영합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

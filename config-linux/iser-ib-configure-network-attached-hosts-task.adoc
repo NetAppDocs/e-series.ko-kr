@@ -5,6 +5,7 @@ keywords: configure network Linux, configure hosts linux, express linux configur
 summary: InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 SRP를 동시에 실행할 수 있으므로 추가 하드웨어가 필요하지 않습니다. 
 ---
 = 스토리지 연결 호스트에 대한 네트워킹을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

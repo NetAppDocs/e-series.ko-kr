@@ -5,6 +5,7 @@ keywords: instruction, describe, install, storage, system, provide, link, additi
 summary: 다음 지침은 새 스토리지 시스템을 설치 및 설정하는 방법을 설명하고 추가 컨텐츠에 대한 링크를 제공합니다. 
 ---
 = E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

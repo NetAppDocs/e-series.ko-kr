@@ -5,6 +5,7 @@ keywords: express vmware configuration, software configuration, vmware host, E28
 summary: VMware 구성이 지원되는지 확인합니다. 
 ---
 = VMware 구성이 지원되는지 확인합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

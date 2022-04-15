@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upg
 summary: 컨트롤러 교체를 통한 E-Series 어레이 업그레이드 개요 
 ---
 = 컨트롤러 업그레이드 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

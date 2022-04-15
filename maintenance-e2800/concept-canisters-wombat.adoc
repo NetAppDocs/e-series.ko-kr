@@ -5,6 +5,7 @@ keywords: canister, power-fan, power, supplies, supply, redundant, source, adequ
 summary: 캐니스터는 3가지 유형, 즉 12-드라이브 또는 24-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프에서 이중 전원 공급 장치와 적절한 냉각 기능을 제공하는 전원 팬 캐니스터, 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프의 전원 중복에 사용되는 전원 캐니스터, 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 냉각하는 데 사용되는 팬 캐니스터를 지원합니다. 
 ---
 = 캐니스터
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

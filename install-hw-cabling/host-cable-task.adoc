@@ -5,6 +5,7 @@ keywords: cabling, cables, host cabling, direct-attached topology, switch topolo
 summary: 호스트를 컨트롤러에 직접 연결하거나 스위치를 사용할 수 있습니다. 
 ---
 = 호스트 케이블 연결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: Web Services terms, WSP concepts
 summary: 웹 서비스 API에 대해 자세히 알아보십시오 
 ---
 = 용어 및 개념
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

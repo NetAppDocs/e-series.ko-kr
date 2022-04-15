@@ -5,6 +5,7 @@ keywords: polling Web Services Proxy, WSP statistics, poll WSP,
 summary: 검색된 스토리지 시스템의 모든 디스크 및 볼륨 통계에 대한 자동 폴링을 구성할 수 있습니다. 
 ---
 = 웹 서비스 프록시 통계에 대한 자동 폴링을 관리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

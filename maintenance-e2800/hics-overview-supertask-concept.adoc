@@ -5,6 +5,7 @@ keywords: E2800 replace HIC, E2800 replace host interface card, replacing E2800 
 summary: E2800 HIC 교체에 대한 요구사항을 검토합니다. 
 ---
 = E2800 HIC 교체 요구 사항
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

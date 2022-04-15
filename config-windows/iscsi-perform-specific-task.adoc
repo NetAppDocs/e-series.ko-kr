@@ -5,6 +5,7 @@ keywords: iSCSI, switches, IP network configuration, express Windows configurati
 summary: iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측과 호스트 측에서 네트워킹을 구성합니다. 그런 다음 IP 네트워크 연결을 확인합니다. 
 ---
 = iSCSI 관련 작업을 수행합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

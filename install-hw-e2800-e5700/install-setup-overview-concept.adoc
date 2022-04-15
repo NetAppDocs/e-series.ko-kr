@@ -5,6 +5,7 @@ keywords: E2800, E5700, installation process overview
 summary: E2800 및 E5700의 설치 및 설정 프로세스를 검토합니다. 
 ---
 = 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

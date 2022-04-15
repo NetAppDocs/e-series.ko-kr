@@ -5,6 +5,7 @@ keywords: E5700 battery, repair E5700 battery, replace E5700 battery, failed E57
 summary: E5700 배터리 교체 요구사항 및 고려사항 검토 
 ---
 = E5700 배터리 교체 요구사항
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

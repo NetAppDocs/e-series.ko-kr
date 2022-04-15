@@ -7,6 +7,7 @@ summary: E-Series 시스템은 단순하고 빠르며 안정적인 SAN 스토리
 ---
 = E-Series 및 SANtricity 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ keywords: replace EF300 DIMM, replace EF600 DIMM
 summary: EF300 또는 EF600 어레이에서 DIMM 교체 
 ---
 = EF300 또는 EF600의 DIMM을 교체합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

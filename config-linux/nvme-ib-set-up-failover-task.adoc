@@ -5,6 +5,7 @@ keywords: failover, express linux configuration, software configuration, linux h
 summary: 페일오버를 실행하도록 호스트를 구성합니다. 
 ---
 = 대체 작동 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

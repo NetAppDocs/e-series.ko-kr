@@ -5,6 +5,7 @@ keywords: Windows Unified Host Utilities, express Windows configuration, softwar
 summary: Windows Express용 Windows Unified Host Utilities를 설치합니다. 
 ---
 = Windows Unified Host Utilities를 설치하고 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

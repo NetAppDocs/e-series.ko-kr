@@ -5,6 +5,7 @@ keywords: express linux configuration, software configuration, linux host, E2800
 summary: E-Series 시스템이 있는 Linux 호스트의 Express 구성을 사용합니다. 
 ---
 = Linux Express 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

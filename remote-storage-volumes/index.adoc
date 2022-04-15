@@ -5,6 +5,7 @@ keywords: Remote Storage Volumes, RTV, remote volumes, remote storage E-Series
 summary: 원격 스토리지 볼륨 기능을 사용하여 원격 스토리지 장치에서 로컬 E-Series 볼륨으로 직접 데이터를 가져올 수 있습니다. 
 ---
 = 원격 스토리지 볼륨 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

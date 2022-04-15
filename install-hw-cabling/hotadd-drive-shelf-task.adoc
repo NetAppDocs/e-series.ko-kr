@@ -5,6 +5,7 @@ keywords: cabling, cables, hot add, hot add drive shelf, E-Series, eseries, E280
 summary: 전원이 다른 구성 요소에 계속 공급되는 동안 새 드라이브 쉘프를 추가합니다. 
 ---
 = 드라이브 쉘프 핫 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

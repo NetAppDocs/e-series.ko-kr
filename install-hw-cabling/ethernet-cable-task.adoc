@@ -5,6 +5,7 @@ keywords: cabling, cables, ethernet cabling, ethernet cable, out of band, direct
 summary: 대역외 관리를 위해 스토리지 시스템을 이더넷 네트워크에 연결합니다. 
 ---
 = 관리 스테이션용 이더넷 케이블 연결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: NVMe volume virtual, express linux configuration, software configurati
 summary: 'SLES\(SUSE Linux 버전\)의 버전을 기반으로 장치 대상으로 지정된 I/O를 구성합니다.' 
 ---
 = 가상 장치 타겟에 NVMe 볼륨에 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

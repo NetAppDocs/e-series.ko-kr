@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upg
 summary: E-Series 컨트롤러의 업그레이드 및 교체에 대한 요구사항을 검토하십시오. 
 ---
 = 업그레이드 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

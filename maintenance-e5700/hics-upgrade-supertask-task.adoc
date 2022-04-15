@@ -5,6 +5,7 @@ keywords: E5700 host interface card, E5700 HIC, upgrade E5700 HIC, update E5700 
 summary: E5700에서 HIC를 업그레이드합니다. 
 ---
 = E5700 호스트 인터페이스 카드(HIC) 업그레이드
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

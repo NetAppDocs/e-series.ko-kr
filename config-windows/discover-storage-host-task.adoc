@@ -5,6 +5,7 @@ keywords: LUNs, discover LUNs, express Windows configuration, software configura
 summary: Windows Express용 스토리지를 검색합니다. 
 ---
 = 호스트에서 스토리지를 검색합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

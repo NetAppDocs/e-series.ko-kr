@@ -5,6 +5,7 @@ keywords:
 summary:  
 ---
 = iSCSI Express 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

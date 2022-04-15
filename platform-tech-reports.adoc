@@ -5,6 +5,7 @@ keywords: platform technical reports, e-series, hardware, santricity, os
 summary: E-Series 기술 보고서 
 ---
 = 플랫폼 기술 보고서 찾아보기
+:allow-uri-read: 
 
 
 

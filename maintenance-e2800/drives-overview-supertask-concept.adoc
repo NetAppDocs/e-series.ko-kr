@@ -5,6 +5,7 @@ keywords: E2800 replace drive, replacing E2800 drive, E2800 replace drive, repla
 summary: E2800 드라이브 교체 요구 사항을 검토합니다. 
 ---
 = E2800 드라이브 교체 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upg
 summary: 기존 컨트롤러를 교체하여 스토리지 어레이를 업그레이드할 수 있습니다. 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 관리 소프트웨어 기능을 구현합니다. 
 ---
 = E-Series 컨트롤러 업그레이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

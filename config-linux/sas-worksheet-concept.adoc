@@ -5,6 +5,7 @@ keywords: SAS worksheet Linux, express linux configuration, software configurati
 summary: 이 워크시트를 사용하여 SAS 스토리지 구성 정보를 기록하십시오. 
 ---
 = SAS 구성을 기록합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: EF300, EF600, installation process overview
 summary: EF300 또는 EF600의 설치 및 설정 프로세스를 검토합니다. 
 ---
 = 설치 프로세스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

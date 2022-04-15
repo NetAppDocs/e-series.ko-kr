@@ -5,6 +5,7 @@ keywords: host, interface, card, hic, install, controller, canister, ef600, port
 summary: '호스트 인터페이스 카드\(HIC\)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.' 
 ---
 = 호스트 인터페이스 카드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: volumes, host volume, express linux configuration, software configurat
 summary: NVMe를 파이버 채널 프로토콜과 함께 사용할 수 있습니다. 
 ---
 = NVMe over Fibre Channel Express 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

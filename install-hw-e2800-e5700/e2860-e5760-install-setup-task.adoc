@@ -5,6 +5,7 @@ keywords: instruction, describe, install, storage, system, link, additional, con
 summary: 다음 지침은 새 스토리지 시스템을 설치 및 설정하는 방법을 설명하고 추가 컨텐츠에 대한 링크를 제공합니다. 
 ---
 = E2860, E5760 및 DE460C에 대한 설치 및 설정 지침
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

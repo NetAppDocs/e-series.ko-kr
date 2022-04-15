@@ -5,6 +5,7 @@ keywords: Storage Manager, cli, command line interface, express linux configurat
 summary: '관리 스테이션에 SANtricity 스토리지 관리자 소프트웨어를 설치하면 기본적으로 그래픽 사용자 인터페이스\(GUI\)와 명령줄 인터페이스\(CLI\)가 설치됩니다. 이 지침에서는 입출력 호스트가 아닌 관리 스테이션에 SANtricity 스토리지 관리자 GUI를 설치한다고 가정합니다.' 
 ---
 = SMcli용 SANtricity 스토리지 관리자 설치(SANtricity 소프트웨어 버전 11.53 이하)
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

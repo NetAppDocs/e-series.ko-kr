@@ -5,6 +5,7 @@ keywords: Certificates Web Services Proxy, WSP certificates,
 summary: 웹 서비스 프록시 구성 파일을 사용하거나 API 명령을 사용하거나 Unified Manager 인터페이스를 사용하여 인증서를 관리합니다. 
 ---
 = 웹 서비스 프록시에서 보안 및 인증서를 관리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

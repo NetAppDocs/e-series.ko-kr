@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, E-series hardware, E-Se
 summary: E-Series 시스템은 다양한 쉘프 크기로 제공됩니다. 
 ---
 = E-Series 쉘프 유형
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

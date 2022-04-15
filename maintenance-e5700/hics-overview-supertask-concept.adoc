@@ -5,6 +5,7 @@ keywords: E5700 host interface card, E5700 HIC, replace E5700 HIC, failed E5700 
 summary: E5700 HIC 교체에 대한 요구사항을 검토합니다. 
 ---
 = E5700 HIC 교체 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

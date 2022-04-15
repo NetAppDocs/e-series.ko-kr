@@ -5,6 +5,7 @@ keywords: LUNs, configure LUNs, express Windows configuration, software configur
 summary: Windows Express 방법에 대한 호스트의 스토리지를 구성합니다. 
 ---
 = 호스트에서 스토리지를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

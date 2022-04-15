@@ -5,6 +5,7 @@ keywords: uninstall Web Services Proxy, remove WSP,
 summary: '웹 서비스 프록시 및 Unified Manager를 제거하려면 프록시를 설치하는 데 사용한 방법에 관계없이 모든 모드(그래픽, 콘솔, 자동 또는 RPM 파일)를 사용할 수 있습니다.' 
 ---
 = 웹 서비스 프록시를 제거합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

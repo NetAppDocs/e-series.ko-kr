@@ -5,6 +5,7 @@ keywords: express linux configuration, software configuration, linux host, E2800
 summary: 'DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 IP 주소를 제공합니다.' 
 ---
 = DHCP를 사용하여 IP 주소를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: Web Services, WSP, SANtricity API,
 summary: 웹 서비스 API에 대해 자세히 알아보십시오 
 ---
 = 웹 서비스 및 Unified Manager 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

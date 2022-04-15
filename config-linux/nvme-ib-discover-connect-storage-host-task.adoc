@@ -5,6 +5,7 @@ keywords: discover storage, host, express linux configuration, software configur
 summary: SANtricity System Manager에서 각 호스트를 정의하기 전에 호스트에서 타겟 컨트롤러 포트를 검색한 다음 NVMe 연결을 설정해야 합니다. 
 ---
 = 호스트에서 스토리지를 검색하고 연결합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

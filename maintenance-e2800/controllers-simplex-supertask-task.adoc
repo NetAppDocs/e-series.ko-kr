@@ -5,6 +5,7 @@ keywords: replace E2800 controller, replacing E2800 controller, simplex controll
 summary: 단순 구성에서 오류가 발생한 컨트롤러 캐니스터를 교체할 수 있습니다. 
 ---
 = E2800 Simplex 구성에서는 컨트롤러를 교체합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

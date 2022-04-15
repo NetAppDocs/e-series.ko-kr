@@ -5,6 +5,7 @@ keywords: power, supply, redundant, source, controller, shelf, supplies
 summary: 전원 공급 장치는 컨트롤러 쉘프에 이중 전원을 제공합니다. 
 ---
 = 전원 공급 장치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

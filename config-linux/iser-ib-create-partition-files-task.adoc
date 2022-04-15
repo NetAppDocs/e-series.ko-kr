@@ -5,6 +5,7 @@ keywords: configure partitions Linux, configure filesystems linux, express linux
 summary: Linux 호스트가 처음 LUN을 검색할 때 새 LUN에 파티션 또는 파일 시스템이 없습니다. LUN을 사용하려면 먼저 포맷해야 합니다. 
 ---
 = 파티션 및 파일 시스템을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: multipath software for vmware, express vmware configuration, software 
 summary: 물리적 경로 중 하나가 중단되는 경우 스토리지 배열에 대한 중복 경로를 제공하도록 m 소프트웨어를 구성합니다. 
 ---
 = 다중 경로 소프트웨어를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

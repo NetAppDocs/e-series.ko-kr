@@ -5,6 +5,7 @@ keywords: E2800 battery fail, E2800 battery, E2800 battery replacement, replace 
 summary: 양면 또는 단면 인쇄의 적절한 단계를 따라 E2800 배터리 교체를 준비합니다. 
 ---
 = E2800 배터리 교체 준비
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

@@ -5,6 +5,7 @@ keywords: modify Remote Storage Volumes settings, RTV settings, remote volume se
 summary: 구성된 원격 스토리지 가져오기에 대한 연결 설정은 SANtricity 시스템 관리자의 원격 스토리지 화면에 있는 설정 보기/편집 옵션을 통해 수정할 수 있습니다. 
 ---
 = 원격 스토리지 접속 설정을 수정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

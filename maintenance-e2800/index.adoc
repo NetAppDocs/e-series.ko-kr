@@ -5,6 +5,7 @@ keywords: E2800 maintenance, E2800 repair, replace E2800 components, replacing E
 summary: E2800 구성 요소에 대한 유지 관리를 수행합니다. 
 ---
 = E2800 하드웨어 유지 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

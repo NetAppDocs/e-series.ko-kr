@@ -5,6 +5,7 @@ keywords: configure iSCSI networking, express linux configuration, software conf
 summary: 호스트 측에서 iSCSI 네트워킹을 구성합니다. 
 ---
 = 호스트측 네트워킹을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

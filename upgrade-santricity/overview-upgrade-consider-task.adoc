@@ -5,6 +5,7 @@ keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, drive firmw
 summary: 스토리지 어레이의 SANtricity OS 컨트롤러 소프트웨어 및 펌웨어 및 드라이브 펌웨어에 대한 업그레이드 고려 사항을 검토합니다. 
 ---
 = 업그레이드 고려 사항
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

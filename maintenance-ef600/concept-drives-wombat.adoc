@@ -5,6 +5,7 @@ keywords: drive, device, physical, storage, media, data
 summary: 드라이브는 물리적 데이터 저장 미디어를 제공하는 장치입니다. 
 ---
 = 드라이브
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

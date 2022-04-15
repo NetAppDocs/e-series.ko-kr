@@ -5,6 +5,7 @@ keywords: host port GUIDs, express linux configuration, software configuration, 
 summary: 호스트 포트 GUID를 확인합니다. 
 ---
 = 호스트 포트 GUID를 확인하고 권장 설정을 지정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

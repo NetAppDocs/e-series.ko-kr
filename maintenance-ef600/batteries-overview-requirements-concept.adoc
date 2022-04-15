@@ -5,6 +5,7 @@ keywords: replace EF300 battery, replace EF600 battery, EF300 battery fail, EF60
 summary: EF300 또는 EF600 배터리 교체에 대한 요구 사항 및 고려 사항 
 ---
 = EF300 또는 EF600 배터리 교체 요구 사항
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

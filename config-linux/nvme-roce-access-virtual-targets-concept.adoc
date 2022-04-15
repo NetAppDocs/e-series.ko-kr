@@ -5,6 +5,7 @@ keywords: NVMe volume virtual, express linux configuration, software configurati
 summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출력을 구성할 수 있습니다. 
 ---
 = 가상 장치 타겟에 NVMe 볼륨에 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

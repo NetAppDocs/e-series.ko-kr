@@ -5,6 +5,7 @@ keywords: 3040 40U cabinet, cabinet installation, drive tray installation, contr
 summary: E-Series 3040 40U 캐비닛에 드라이브 트레이 설치 개요 
 ---
 = 3040 40U 캐비닛에 용지함을 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

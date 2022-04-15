@@ -5,6 +5,7 @@ keywords: Switches, zoning, express linux configuration, software configuration,
 summary: 공급업체의 iSCSI 권장 사항에 따라 스위치를 구성합니다. 
 ---
 = 스위치를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

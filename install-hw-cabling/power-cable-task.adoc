@@ -5,6 +5,7 @@ keywords: cabling, cables, power cable, power cabling, power supply cabling, E-S
 summary: 각 구성 요소의 전원 공급 장치를 별도의 전원 회로에 연결합니다. 
 ---
 = 전원 케이블 연결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

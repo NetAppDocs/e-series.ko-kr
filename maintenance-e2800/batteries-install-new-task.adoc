@@ -5,6 +5,7 @@ keywords: E2800 battery fail, E2800 battery, E2800 battery replacement, replace 
 summary: 새 배터리를 장착하십시오. 
 ---
 = 새 E2800 배터리를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

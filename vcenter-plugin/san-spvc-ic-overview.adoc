@@ -6,10 +6,11 @@ summary: vCenter용 SANtricity 스토리지 플러그인은 VMware vSphere 클�
 ---
 = vCenter용 Storage Plugin 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -32,7 +33,7 @@ NOTE: 플러그인은 SANtricity 시스템 관리자 소프트웨어를 직접 �
 
 vCenter 환경의 통신에 대한 자세한 내용은 다음 그림을 참조하십시오.
 
-image::../media/vcenter_communication.png[vCenter 통신]
+image:../media/vcenter_communication.png[""]
 
 
 

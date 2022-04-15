@@ -5,6 +5,7 @@ keywords: Web Services Proxy, WSP,
 summary: SANtricity ® 웹 서비스 프록시, 웹 서비스 API, REST API 개요 
 ---
 = SANtricity 웹 서비스 프록시 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

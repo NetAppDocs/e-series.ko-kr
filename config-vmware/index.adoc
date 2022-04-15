@@ -5,6 +5,7 @@ keywords: express vmware configuration, software configuration, vmware host, E28
 summary: E-Series 시스템이 있는 VMware 호스트의 Express 구성을 사용합니다. 
 ---
 = VMware Express 구성 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

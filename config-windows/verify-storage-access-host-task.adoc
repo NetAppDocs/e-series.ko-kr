@@ -5,6 +5,7 @@ keywords: express Windows configuration, software configuration, Windows host, E
 summary: 호스트가 LUN에 데이터를 쓰고 다시 읽을 수 있는지 확인합니다. 
 ---
 = 호스트에서 스토리지 액세스를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

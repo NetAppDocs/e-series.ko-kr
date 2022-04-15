@@ -5,6 +5,7 @@ keywords: EF300, EF600, installation,
 summary: 2-포스트 랙 또는 NetApp 시스템 캐비닛에 EF300 또는 EF600을 설치합니다. 
 ---
 = 하드웨어를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
