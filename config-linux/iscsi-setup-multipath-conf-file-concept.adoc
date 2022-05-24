@@ -13,19 +13,9 @@ summary: multipath daemon, multipathd의 구성 파일인 multipath.conf 파일�
 [role="lead"]
 multipath.conf 파일은 multipath daemon, multipathd의 구성 파일입니다.
 
-multipath.conf 파일은 multipathd에 대한 기본 제공 구성 테이블보다 우선합니다. 첫 번째 공백 문자가 #인 파일의 모든 줄은 설명 줄로 간주됩니다.
+multipath.conf 파일은 multipathd에 대한 기본 제공 구성 테이블보다 우선합니다.
 
 
 NOTE: SANtricity 운영 체제 8.30 이상의 경우 NetApp은 제공된 기본 설정을 사용할 것을 권장합니다.
 
-multipath.conf 파일은 다음 위치에서 사용할 수 있습니다.
-
-* SLES의 경우:
-+
-'/usr/share/doc/packages/multipath-tools/multipath.conf.mynthic'
-
-* RHEL의 경우:
-+
-'/usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf'
-
-
+/etc/multipath.conf를 변경할 필요가 없습니다.

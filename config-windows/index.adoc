@@ -15,7 +15,7 @@ summary: E-Series 시스템이 있는 Windows 호스트의 Express 구성을 사
 
 
 
-=== 절차 개요
+== 절차 개요
 
 빠른 방법에는 다음 단계가 포함되어 있으며, 이 단계는 에 설명되어 있습니다 link:understand-windows-concept.html["Windows 워크플로"].
 
@@ -32,7 +32,7 @@ summary: E-Series 시스템이 있는 Windows 호스트의 Express 구성을 사
 
 
 
-=== 자세한 내용을 확인하십시오
+== 자세한 내용을 확인하십시오
 
 * 온라인 도움말 -- SANtricity System Manager를 사용하여 구성 및 스토리지 관리 작업을 완료하는 방법에 대해 설명합니다. 제품 내에서 사용할 수 있습니다.
 * https://kb.netapp.com/["NetApp 기술 자료"^] (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.

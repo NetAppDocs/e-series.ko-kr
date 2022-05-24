@@ -24,13 +24,13 @@ vCenter Server Appliance에서 플러그인을 제거하고 애플리케이션 �
 
 vCenter Server Appliance에서 플러그인 등록을 취소하려면 다음 방법 중 하나를 선택합니다.
 
-* 방법 1: 등록 스크립트 실행
-* 방법 2: vCenter Server Mob 페이지 사용
+* <<Method 1: Execute the registration script>>
+* <<Method 2: Use the vCenter Server Mob pages>>
 
 
 
 
-=== 방법 1: 등록 스크립트 실행
+=== 방법 1: 등록 스크립트를 실행합니다
 
 . 명령줄을 통해 프롬프트를 열고 다음 디렉토리로 이동합니다.
 +
@@ -57,7 +57,7 @@ vcenter-register.bat ^
 
 
 
-=== 방법 2: vCenter Server Mob 페이지 사용
+=== 방법 2: vCenter Server Mob 페이지를 사용합니다
 
 . 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
@@ -74,11 +74,7 @@ vcenter-register.bat ^
 
 
 
-NOTE: 이 절차에서는 vCenter Server Appliance에서 플러그인 등록을 해제하지만 서버에서 플러그인 패키지 파일은 제거하지 않습니다. 패키지 파일을 제거하려면 SSH를 사용하여 vCenter Server Appliance에 액세스하고 다음 디렉토리로 이동합니다.
-
-"etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/
-
-그런 다음 플러그인과 연결된 디렉터리를 제거합니다.
+NOTE: 이 절차에서는 vCenter Server Appliance에서 플러그인 등록을 해제하지만 서버에서 플러그인 패키지 파일은 제거하지 않습니다. 패키지 파일을 제거하려면 SSH를 사용하여 vCenter Server Appliance에 액세스하고 "etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/" 디렉토리로 이동합니다. 그런 다음 플러그인과 연결된 디렉터리를 제거합니다.
 
 
 

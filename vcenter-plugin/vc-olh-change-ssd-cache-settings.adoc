@@ -1,0 +1,93 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-change-ssd-cache-settings.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: SSD Cache 이름을 편집하고 상태, 최대 및 현재 용량, Drive Security and Data Assurance 상태, 관련 볼륨 및 드라이브를 확인합니다. 
+---
+= SSD 캐시 설정을 변경합니다
+:hardbreaks:
+:allow-uri-read: 
+:experimental: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SSD Cache의 이름을 편집하고 해당 상태, 최대 및 현재 용량, Drive Security 및 Data Assurance 상태, 관련 볼륨 및 드라이브를 확인할 수 있습니다.
+
+
+NOTE: EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.
+
+.단계
+. 관리 페이지에서 SSD Cache가 포함된 스토리지 어레이를 선택합니다.
+. 메뉴: Provisioning [Configure Pools and Volume Groups]를 선택합니다.
+. 편집할 SSD Cache를 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.
++
+SSD Cache Settings 대화상자가 나타납니다.
+
+. SSD Cache 설정을 적절하게 검토 또는 편집합니다.
++
+.필드 세부 정보
+====
+[cols="25h,~"]
+|===
+| 설정 | 설명 
+
+
+ a| 
+이름
+ a| 
+변경할 수 있는 SSD Cache의 이름을 표시합니다. SSD Cache의 이름은 필수입니다.
+
+
+
+ a| 
+특징
+ a| 
+SSD Cache의 상태를 표시합니다. 가능한 상태는 다음과 같습니다.
+
+** 최적
+** 알 수 없음
+** 성능 저하
+** 실패(실패 상태로 인해 심각한 MEL 이벤트가 발생합니다.)
+** 일시 중단됨
+
+
+
+
+ a| 
+용량
+ a| 
+에는 SSD Cache에 허용되는 현재 용량과 최대 용량이 나와 있습니다. SSD Cache에 허용되는 최대 용량은 컨트롤러의 기본 캐시 크기에 따라 다릅니다.
+
+** 최대 1GiB
+** 1GiB에서 2GiB까지
+** 2GiB에서 4GiB까지
+** 4GiB 초과
+
+
+
+
+ a| 
+보안 및 DA
+ a| 
+에서는 SSD Cache의 드라이브 보안 및 Data Assurance 상태를 보여 줍니다.
+
+** * 보안 가능 * -- SSD 캐시가 완전히 보안 가능 드라이브로 구성되어 있는지 여부를 나타냅니다. 보안 가능 드라이브는 자체 암호화 드라이브로 무단 액세스로부터 데이터를 보호할 수 있습니다.
+** * Secure-enabled * -- SSD Cache에서 보안이 설정되었는지 여부를 나타냅니다.
+** * DA 가능 * -- SSD 캐시가 완전히 DA 가능 드라이브로 구성되는지 여부를 나타냅니다. DA 지원 드라이브는 호스트와 스토리지 시스템 간에 데이터가 전달될 때 발생할 수 있는 오류를 확인하고 수정할 수 있습니다.
+
+
+
+
+ a| 
+연관된 개체
+ a| 
+에는 SSD Cache와 연결된 볼륨 및 드라이브가 나와 있습니다.
+
+|===
+====
+. 저장 * 을 클릭합니다.
+

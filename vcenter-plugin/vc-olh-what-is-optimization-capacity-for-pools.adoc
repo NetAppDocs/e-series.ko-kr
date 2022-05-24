@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-what-is-optimization-capacity-for-pools.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: SSD 드라이브는 용량의 일부가 할당되지 않은 경우 수명이 더 길고 쓰기 성능이 극대화됩니다. 
+---
+= 풀의 최적화 용량은 얼마입니까?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SSD 드라이브는 용량의 일부가 할당되지 않은 경우 수명이 더 길고 쓰기 성능이 극대화됩니다.
+
+풀과 연결된 드라이브의 경우 할당되지 않은 용량은 풀의 보존 용량, 사용 가능한 용량(볼륨에서 사용하지 않는 용량) 및 추가 최적화 용량으로 남겨 둔 사용 가능한 용량의 일부로 구성됩니다. 추가 최적화 용량은 사용 가능한 용량을 줄여 최적화 용량을 최소화하므로 볼륨 생성에 사용할 수 없습니다.
+
+풀을 생성할 때 성능, 드라이브 마모 수명 및 가용 용량의 균형을 제공하는 권장 최적화 용량이 생성됩니다. Pool Settings(풀 설정) 대화 상자에 있는 Additional Optimization Capacity(추가 최적화 용량) 슬라이더를 사용하여 풀의 최적화 용량을 조정할 수 있습니다. 슬라이더를 조정하면 사용 가능한 용량을 희생하여 더 나은 성능과 드라이브 마모 수명을 얻을 수 있고, 성능과 드라이브 마모 수명을 희생하여 사용 가능한 추가 용량을 확보할 수 있습니다.
+
+
+NOTE: 추가 최적화 용량 슬라이더는 EF600 및 EF300 스토리지 시스템에서만 사용할 수 있습니다.

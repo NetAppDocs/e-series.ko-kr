@@ -1,15 +1,15 @@
 ---
 settings:
-  name: e-series
+  name: E-Series Systems
   internal:
-    pdf_enabled: false
+    pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: E-시리즈 문서
+  - title: E-Series 시스템 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -510,8 +510,6 @@ sidebar:
         entries:
         - title: 개요 및 요구 사항
           url: "/maintenance-ef600/hics-overview-supertask-concept.html"
-        - title: 호스트 인터페이스 카드를 추가합니다
-          url: "/maintenance-ef600/hics-add-supertask-task.html"
         - title: 호스트 인터페이스 카드를 업그레이드합니다
           url: "/maintenance-ef600/hics-upgrade-intro.html"
         - title: 장애가 발생한 호스트 인터페이스 카드를 교체합니다
@@ -734,18 +732,238 @@ sidebar:
       entries:
       - title: 개요
         url: "/vcenter-plugin/san-spvc-ic-overview.html"
-      - title: 플러그인을 설치합니다
-        url: "/vcenter-plugin/san-spvc-ic-installation.html"
-      - title: 액세스 권한을 구성합니다
-        url: "/vcenter-plugin/san-spvc-ic-user-access.html"
-      - title: 로그인하여 탐색하십시오
-        url: "/vcenter-plugin/san-spvc-ic-login-and-navigation.html"
-      - title: 스토리지 시스템을 검색합니다
-        url: "/vcenter-plugin/san-spvc-ic-storage-array-discovery.html"
+      - title: 시작하십시오
+        entries:
+        - title: 플러그인을 설치합니다
+          url: "/vcenter-plugin/san-spvc-ic-installation.html"
+        - title: 액세스 권한을 구성합니다
+          url: "/vcenter-plugin/san-spvc-ic-user-access.html"
+        - title: 로그인하여 탐색하십시오
+          url: "/vcenter-plugin/san-spvc-ic-login-and-navigation.html"
+        - title: 스토리지 시스템을 검색합니다
+          url: "/vcenter-plugin/san-spvc-ic-storage-array-discovery.html"
+        - title: 스토리지 프로비저닝
+          url: "/vcenter-plugin/san-spvc-ic-storage-provisioning.html"
+        - title: 상태를 봅니다
+          url: "/vcenter-plugin/vc-olh-view-status.html"
+      - title: 인증서를 관리합니다
+        entries:
+        - title: 인증서 개요
+          url: "/vcenter-plugin/vc-olh-certificates-overview.html"
+        - title: CA 서명 인증서를 사용합니다
+          url: "/vcenter-plugin/vc-olh-use-ca-signed-certificates.html"
+        - title: 관리 인증서를 재설정합니다
+          url: "/vcenter-plugin/vc-olh-reset-management-certificates.html"
+        - title: 스토리지에 대한 인증서를 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-certificates-for-arrays.html"
+        - title: 인증서를 봅니다
+          url: "/vcenter-plugin/vc-olh-view-certificates.html"
+        - title: 인증서를 내보냅니다
+          url: "/vcenter-plugin/vc-olh-export-certificates.html"
+        - title: 신뢰할 수 있는 인증서를 삭제합니다
+          url: "/vcenter-plugin/vc-olh-delete-trusted-certificates.html"
+        - title: 신뢰할 수 없는 인증서를 확인합니다
+          url: "/vcenter-plugin/vc-olh-resolve-untrusted-certificates.html"
+      - title: 스토리지 관리
+        entries:
+        - title: 스토리지 관리 개요
+          url: "/vcenter-plugin/vc-olh-array-management-overview.html"
+        - title: 스토리지 시스템을 검색합니다
+          url: "/vcenter-plugin/vc-olh-discover-storage-arrays.html"
+        - title: 스토리지 배열의 이름을 바꿉니다
+          url: "/vcenter-plugin/vc-olh-rename-storage-array.html"
+        - title: 스토리지 배열 암호를 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-storage-array-passwords.html"
+        - title: 스토리지 배열을 제거합니다
+          url: "/vcenter-plugin/vc-olh-remove-storage-arrays.html"
+        - title: System Manager를 시작합니다
+          url: "/vcenter-plugin/vc-olh-launch-system-manager.html"
+      - title: 설정을 가져옵니다
+        entries:
+        - title: 설정 가져오기 개요
+          url: "/vcenter-plugin/vc-olh-import-settings-overview.html"
+        - title: 알림 설정을 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-alert-settings.html"
+        - title: AutoSupport 설정을 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-autosupport-settings.html"
+        - title: 디렉터리 서비스 설정을 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-directory-services-settings.html"
+        - title: 시스템 설정을 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-system-settings.html"
+        - title: 스토리지 구성 설정을 가져옵니다
+          url: "/vcenter-plugin/vc-olh-import-storage-configuration-settings.html"
+      - title: 스토리지 그룹을 관리합니다
+        entries:
+        - title: 스토리지 그룹 개요
+          url: "/vcenter-plugin/vc-olh-array-groups-overview.html"
+        - title: 스토리지 어레이 그룹을 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-storage-array-group.html"
+        - title: 스토리지 배열을 그룹에 추가합니다
+          url: "/vcenter-plugin/vc-olh-add-storage-array-to-group.html"
+        - title: 스토리지 그룹 이름을 바꿉니다
+          url: "/vcenter-plugin/vc-olh-rename-storage-array-group.html"
+        - title: 그룹에서 스토리지 배열을 제거합니다
+          url: "/vcenter-plugin/vc-olh-remove-storage-arrays-from-group.html"
+        - title: 스토리지 어레이 그룹을 삭제합니다
+          url: "/vcenter-plugin/vc-olh-delete-storage-array-group.html"
+      - title: OS 소프트웨어를 업그레이드합니다
+        entries:
+        - title: 업그레이드 개요
+          url: "/vcenter-plugin/vc-olh-upgrade-overview.html"
+        - title: 업그레이드 전 상태 점검을 수행합니다
+          url: "/vcenter-plugin/vc-olh-perform-pre-upgrade-health-check.html"
+        - title: SANtricity OS를 업그레이드합니다
+          url: "/vcenter-plugin/vc-olh-upgrade-santricity-os.html"
+        - title: 스테이징된 OS 소프트웨어를 활성화합니다
+          url: "/vcenter-plugin/vc-olh-activate-staged-os-software.html"
+        - title: 스테이징된 OS 소프트웨어를 지웁니다
+          url: "/vcenter-plugin/vc-olh-clear-staged-os-software.html"
+        - title: 소프트웨어 저장소를 관리합니다
+          url: "/vcenter-plugin/vc-olh-manage-software-repository.html"
       - title: 스토리지 프로비저닝
-        url: "/vcenter-plugin/san-spvc-ic-storage-provisioning.html"
+        entries:
+        - title: 프로비저닝 개요
+          url: "/vcenter-plugin/vc-olh-provisioning-overview.html"
+        - title: 스토리지 생성
+          url: "/vcenter-plugin/vc-olh-create-storage.html"
+        - title: 볼륨의 용량을 늘립니다
+          url: "/vcenter-plugin/vc-olh-increase-capacity-of-a-volume.html"
+        - title: 볼륨의 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-settings-for-a-volume.html"
+        - title: 워크로드에 볼륨 추가
+          url: "/vcenter-plugin/vc-olh-add-volumes-to-workload.html"
+        - title: 워크로드 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-workload-settings.html"
+        - title: 볼륨 초기화
+          url: "/vcenter-plugin/vc-olh-initialize-volumes.html"
+        - title: 볼륨을 재배포합니다
+          url: "/vcenter-plugin/vc-olh-redistribute-volumes.html"
+        - title: 볼륨의 컨트롤러 소유권을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-controller-ownership-of-a-volume.html"
+        - title: 볼륨의 캐시 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-cache-settings-for-a-volume.html"
+        - title: 볼륨에 대한 미디어 스캔 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-media-scan-settings-for-a-volume.html"
+        - title: 볼륨을 삭제합니다
+          url: "/vcenter-plugin/vc-olh-delete-volume.html"
+      - title: 호스트를 구성합니다
+        entries:
+        - title: 호스트 생성 개요
+          url: "/vcenter-plugin/vc-olh-host-creation-overview.html"
+        - title: 호스트 액세스를 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-host-access.html"
+        - title: 호스트 클러스터를 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-host-cluster.html"
+        - title: 호스트에 볼륨을 할당합니다
+          url: "/vcenter-plugin/vc-olh-assign-volumes-to-hosts.html"
+        - title: 볼륨 할당 해제
+          url: "/vcenter-plugin/vc-olh-unassign-volumes.html"
+        - title: 호스트의 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-the-settings-for-a-host.html"
+        - title: 호스트 또는 호스트 클러스터를 삭제합니다
+          url: "/vcenter-plugin/vc-olh-delete-host-or-host-cluster.html"
+      - title: 풀 및 볼륨 그룹을 구성합니다
+        entries:
+        - title: 풀 및 볼륨 그룹 개요
+          url: "/vcenter-plugin/vc-olh-pools-and-volume-group-overview.html"
+        - title: 풀을 자동으로 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-pool-automatically.html"
+        - title: 풀을 수동으로 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-pool-manually.html"
+        - title: 볼륨 그룹을 생성합니다
+          url: "/vcenter-plugin/vc-olh-create-a-volume-group.html"
+        - title: 풀 또는 볼륨 그룹에 용량을 추가합니다
+          url: "/vcenter-plugin/vc-olh-add-capacity-to-a-pool-or-volume-group.html"
+        - title: SSD Cache 생성
+          url: "/vcenter-plugin/vc-olh-create-ssd-cache.html"
+        - title: 풀의 구성 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-configuration-settings-for-a-pool.html"
+        - title: 볼륨 그룹의 구성 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-configuration-settings-for-a-volume-group.html"
+        - title: SSD 캐시 설정을 변경합니다
+          url: "/vcenter-plugin/vc-olh-change-ssd-cache-settings.html"
+        - title: SSD Cache 통계를 확인합니다
+          url: "/vcenter-plugin/vc-olh-view-ssd-cache-statistics.html"
+        - title: 볼륨 중복성을 확인합니다
+          url: "/vcenter-plugin/vc-olh-check-volume-redundancy.html"
+        - title: 풀 또는 볼륨 그룹을 삭제합니다
+          url: "/vcenter-plugin/vc-olh-delete-pool-or-volume-group.html"
+        - title: 볼륨 그룹의 여유 용량을 통합합니다
+          url: "/vcenter-plugin/vc-olh-consolidate-free-capacity-for-a-volume-group.html"
+        - title: 로케이터 조명을 켭니다
+          url: "/vcenter-plugin/vc-olh-turn-on-locator-lights.html"
+        - title: 용량을 제거합니다
+          url: "/vcenter-plugin/vc-olh-remove-capacity.html"
+        - title: 풀 또는 볼륨 그룹에 대한 보안을 설정합니다
+          url: "/vcenter-plugin/vc-olh-enable-security-for-a-pool-or-volume-group.html"
       - title: 플러그인을 제거합니다
         url: "/vcenter-plugin/san-spvc-ic-plugin-removal.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 어떤 설정을 가져올까요?
+          url: "/vcenter-plugin/vc-olh-what-settings-are-imported.html"
+        - title: 내 스토리지 어레이가 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-do-i-not-see-all-of-my-storage-arrays.html"
+        - title: 이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-are-these-volumes-not-associated-with-a-workload.html"
+        - title: 선택한 워크로드가 볼륨 생성에 어떤 영향을 미칩니까?
+          url: "/vcenter-plugin/vc-olh-how-does-my-selected-workload-impact-volume-creation.html"
+        - title: 내 볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-do-i-not-see-all-my-volumes,-hosts,-or-host-clusters.html"
+        - title: 선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-can-i-not-delete-the-selected-workload.html"
+        - title: 애플리케이션별 워크로드를 사용하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?
+          url: "/vcenter-plugin/vc-olh-how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
+        - title: 확장된 용량을 인식하려면 어떻게 해야 합니까?
+          url: "/vcenter-plugin/vc-olh-what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
+        - title: 나중에 호스트 할당 선택 항목을 언제 사용하시겠습니까?
+          url: "/vcenter-plugin/vc-olh-when-would-i-want-to-use-the-assign-host-later-selection.html"
+        - title: 호스트 블록 크기 요구 사항에 대해 알아야 할 내용은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-do-i-need-to-know-about-host-block-size-requirements.html"
+        - title: 호스트 클러스터를 생성해야 하는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-would-i-need-to-create-a-host-cluster.html"
+        - title: 어떤 호스트 운영 체제 유형이 올바른지 어떻게 알 수 있습니까?
+          url: "/vcenter-plugin/vc-olh-how-do-i-know-which-host-operating-system-type-is-correct.html"
+        - title: 호스트 포트를 호스트에 일치시키려면 어떻게 해야 합니까?
+          url: "/vcenter-plugin/vc-olh-how-do-i-match-the-host-ports-to-a-host.html"
+        - title: 기본 클러스터는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-the-default-cluster.html"
+        - title: 중복 검사란?
+          url: "/vcenter-plugin/vc-olh-what-is-redundancy-check.html"
+        - title: 보존 용량이란?
+          url: "/vcenter-plugin/vc-olh-what-is-preservation-capacity.html"
+        - title: 애플리케이션에 가장 적합한 RAID 레벨은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-raid-level-is-best-for-my-application.html"
+        - title: 일부 드라이브가 표시되지 않는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-are-some-drives-not-showing-up.html"
+        - title: 보존 용량을 늘릴 수 없는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-can-i-not-increase-my-preservation-capacity.html"
+        - title: Data Assurance란 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-data-assurance.html"
+        - title: FDE/FIPS 보안이란 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-fde-fips-security.html"
+        - title: 보안 기능(드라이브 보안)이란 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-secure-capable-drive-security.html"
+        - title: 모든 SSD Cache 통계를 보고 해석하려면 어떻게 해야 합니까?
+          url: "/vcenter-plugin/vc-olh-how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
+        - title: 선반 손실 방지 및 서랍 손실 방지란 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+        - title: 선반 및 서랍 손실 방지를 어떻게 유지합니까?
+          url: "/vcenter-plugin/vc-olh-how-do-i-maintain-shelf-and-drawer-loss-protection.html"
+        - title: 풀의 최적화 용량은 얼마입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-optimization-capacity-for-pools.html"
+        - title: 볼륨 그룹의 최적화 용량은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-optimization-capacity-for-volume-groups.html"
+        - title: 리소스 프로비저닝 기능은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-resource-provisioning-capable.html"
+        - title: 리소스 프로비저닝된 볼륨 기능에 대해 알아야 할 내용은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+        - title: 내부 보안 키와 외부 보안 키 관리의 차이점은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+        - title: 보안 키를 생성하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-what-do-i-need-to-know-before-creating-a-security-key.html"
+        - title: 암호문을 정의해야 하는 이유는 무엇입니까?
+          url: "/vcenter-plugin/vc-olh-why-do-i-need-to-define-a-pass-phrase.html"
     - title: 기능과 이점을 설명할 수 있습니다
       entries:
       - title: 클라우드 커넥터
@@ -788,28 +1006,26 @@ homepage:
     links:
     - title: 빠른 시작
       url: "/getting-started/getup-run-concept.html"
-    - title: EF-Series 개요
+    - title: EF-Series 데이터시트 를 살펴 보십시오
       url: https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf
-    - title: E5700 시리즈 개요
+    - title: E5700 데이터시트
       url: https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf
-    - title: E2800 시리즈 개요
+    - title: E2800 데이터시트를 참조하십시오
       url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
-    - title: SANtricity 소프트웨어 개요
-      url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
-  - title: 온라인 도움말
+  - title: SANtricity 소프트웨어
     links:
     - title: SANtricity 시스템 관리자 11.7
-      url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-117/home.html
+      url: https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html
     - title: SANtricity 유니파이드 관리자 5
-      url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-uni-5/home.html
+      url: https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html
     - title: CLI(Command Line Interface) 참조
-      url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-cli-115/home.html
+      url: https://docs.netapp.com/us-en/e-series-cli/index.html
   - title: SANtricity API
     links:
     - title: 웹 서비스
       url: "/web-services-proxy/index.html"
     - title: vCenter용 플러그인
-      url: "/vcenter-plugin/san-spvc-ic-overview.html"
+      url: "/san-spvc-ic-overview.html"
     - title: SMI-S 공급자
       url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
   - title: 고성능 애플리케이션 애드온
@@ -840,3 +1056,6 @@ homepage:
       url: https://activeiq.netapp.com/?source=aiqnsspage
     - title: E-Series/SANtricity 다운로드(로그인 필요)
       url: https://mysupport.netapp.com/site/downloads#E
+product-family:
+  name: E-Series
+  repo: e-series-family

@@ -103,7 +103,7 @@ NOTE: 플러그인은 한 번에 하나의 vCSA에만 등록할 수 있습니다
 
 . vCenter Server Appliance에 대한 vSphere Client를 엽니다.
 . 메뉴 표시줄에서 Administrator[Client Plugins] 메뉴를 선택합니다.
-. vCenter용 SANtricity 스토리지 플러그인이 * Enabled * 로 표시되는지 확인합니다.
+. vCenter용 Storage Plugin이 * Enabled * 로 표시되는지 확인합니다.
 +
 응용 프로그램 서버와 통신할 수 없다는 오류 메시지와 함께 플러그인이 사용 안 함 으로 표시되면 응용 프로그램 서버에 대해 정의된 포트 번호가 사용 중인 방화벽을 통과할 수 있도록 설정되어 있는지 확인합니다. 기본 애플리케이션 서버 TCP(Transmission Control Protocol) 포트 번호는 8445입니다.
 

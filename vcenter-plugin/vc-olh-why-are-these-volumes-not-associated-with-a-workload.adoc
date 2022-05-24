@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-why-are-these-volumes-not-associated-with-a-workload.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 'CLI(Command Line Interface)를 사용하여 볼륨을 생성했거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)한 경우 볼륨은 워크로드에 연결되지 않습니다.' 
+---
+= 이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+CLI(Command Line Interface)를 사용하여 볼륨을 생성했거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)한 경우 볼륨은 워크로드에 연결되지 않습니다.

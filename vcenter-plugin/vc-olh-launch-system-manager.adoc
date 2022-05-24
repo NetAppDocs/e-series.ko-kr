@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-launch-system-manager.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 단일 어레이를 관리하려면 시작 옵션을 사용하여 새 브라우저 창에서 System Manager를 엽니다. 
+---
+= System Manager를 시작합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+단일 어레이를 관리하려면 시작 옵션을 사용하여 새 브라우저 창에서 SANtricity System Manager를 엽니다.
+
+System Manager는 이더넷 관리 포트를 통해 네트워크에 연결되는 스토리지 어레이 컨트롤러에 내장된 애플리케이션입니다. System Manager에는 모든 어레이 기반 기능이 포함되어 있습니다. System Manager에 액세스하려면 웹 브라우저를 통해 네트워크 관리 클라이언트에 대역외 연결이 있어야 합니다.
+
+.단계
+. Manage * 페이지에서 관리할 스토리지 어레이를 하나 이상 선택합니다.
+. 시작 * 을 클릭합니다.
++
+브라우저에서 새 탭이 열리면 System Manager 로그인 페이지가 표시됩니다.
+
+. 사용자 이름과 암호를 입력한 다음 * 로그인 * 을 클릭합니다.
+

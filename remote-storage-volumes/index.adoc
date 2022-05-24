@@ -30,6 +30,6 @@ SANtricity ® 원격 스토리지 볼륨 기능을 사용하여 원격 스토리
 
 == 자세한 내용을 확인하십시오
 
-* 온라인 도움말: System Manager 사용자 인터페이스 또는 에서 사용할 수 있습니다 https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-117/home.html?cp=5_0["문서 센터"^].
+* 온라인 도움말: System Manager 사용자 인터페이스 또는 에서 사용할 수 있습니다 https://docs.netapp.com/us-en/e-series-santricity/index.html["SANtricity 소프트웨어 문서 사이트입니다"^].
 * 원격 스토리지 볼륨 기능에 대한 자세한 기술 정보는 를 참조하십시오 https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["원격 스토리지 볼륨 기술 보고서"^].
 

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-rename-storage-array-group.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 현재 이름이 더 이상 의미가 없거나 적용할 수 없는 경우 스토리지 어레이 그룹의 이름을 변경합니다. 
+---
+= 스토리지 그룹 이름을 바꿉니다
+:hardbreaks:
+:allow-uri-read: 
+:experimental: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+현재 이름이 더 이상 의미가 없거나 적용할 수 없는 경우 스토리지 어레이 그룹의 이름을 변경할 수 있습니다.
+
+이 지침을 염두에 두십시오.
+
+* 이름은 문자, 숫자 및 밑줄(_), 하이픈(-) 및 파운드(#)로 구성될 수 있습니다. 다른 문자를 선택하면 오류 메시지가 나타납니다. 다른 이름을 선택하라는 메시지가 표시됩니다.
+* 이름을 30자로 제한합니다. 이름의 선행 및 후행 공백이 삭제됩니다.
+* 쉽게 이해하고 기억할 수 있는 독특하고 의미 있는 이름을 사용합니다.
+* 나중에 그 의미를 금방 잊어버릴 수 있는 임의 이름이나 이름을 피하십시오.
+
+
+.단계
+. 기본 보기에서 * 관리 * 를 선택한 다음 이름을 바꿀 스토리지 어레이 그룹을 선택합니다.
+. 메뉴 선택: Manage Groups [Rename storage array group](그룹 관리 [스토리지 배열 그룹 이름 바꾸기]).
+. 그룹 이름 * 필드에 그룹의 새 이름을 입력합니다.
+. 이름 바꾸기 * 를 클릭합니다.
+

@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-view-ssd-cache-statistics.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 'SSD Cache의 통계 보기: 읽기, 쓰기, 캐시 적중 횟수, 캐시 할당 백분율, 캐시 활용률입니다.' 
+---
+= SSD Cache 통계를 확인합니다
+:hardbreaks:
+:allow-uri-read: 
+:experimental: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SSD Cache의 통계(예: 읽기, 쓰기, 캐시 적중, 캐시 할당 백분율)를 볼 수 있습니다. 캐시 활용률입니다.
+
+
+NOTE: EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.
+
+상세 통계의 하위 집합인 공칭 통계가 SSD 캐시 통계 보기 대화 상자에 표시됩니다. 모든 SSD 통계를 .csv 파일로 내보낼 때만 SSD Cache에 대한 자세한 통계를 볼 수 있습니다.
+
+통계를 검토 및 해석할 때는 통계의 조합을 통해 일부 해석이 파생된다는 점을 염두에 두십시오.
+
+.단계
+. 관리 페이지에서 SSD Cache가 포함된 스토리지 어레이를 선택합니다.
+. 메뉴: Provisioning [Configure Pools and Volume Groups]를 선택합니다.
+. 통계를 보려는 SSD Cache를 선택하고 메뉴: 추가 [SSD Cache 보기] 통계 를 클릭합니다.
++
+SSD Cache 통계 보기 대화 상자가 나타나고 선택한 SSD 캐시에 대한 공칭 통계가 표시됩니다.
+
++
+.필드 세부 정보
+====
+[cols="25h,~"]
+|===
+| 설정 | 설명 
+
+
+| 읽기 | 에는 SSD Cache 지원 볼륨의 총 호스트 읽기 수가 나와 있습니다. 읽기-쓰기의 비율이 클수록 캐시의 작업이 더 낫습니다. 
+
+
+| 쓰기 | SSD Cache가 활성화된 볼륨에 대한 총 호스트 쓰기 수입니다. 읽기-쓰기의 비율이 클수록 캐시의 작업이 더 낫습니다. 
+
+
+| 캐시 적중 횟수 | 캐시 적중 수를 표시합니다. 
+
+
+| 캐시 적중률 | 캐시 적중률을 표시합니다. 이 숫자는 캐시 적중 횟수/(읽기+쓰기)에서 파생됩니다. 효과적인 SSD Cache 작업을 위해서는 캐시 적중률이 50%를 초과해야 합니다. 
+
+
+| 캐시 할당 % | 할당된 SSD Cache 스토리지의 비율을 표시합니다. 이 스토리지는 이 컨트롤러에서 사용할 수 있으며 할당된 바이트/사용 가능 바이트에서 파생되는 SSD Cache 스토리지의 백분율로 표시됩니다. 
+
+
+| 캐시 활용률 | 에는 할당된 SSD Cache 스토리지의 백분율로 표시된 활성화된 볼륨의 데이터가 포함된 SSD Cache 스토리지의 백분율이 나와 있습니다. 이 양은 SSD Cache의 사용률 또는 밀도를 나타냅니다. 할당된 바이트/사용 가능한 바이트에서 파생됩니다. 
+
+
+| 모두 내보내기 | 모든 SSD Cache 통계를 CSV 형식으로 내보냅니다. 내보낸 파일에는 SSD Cache에 대해 사용 가능한 모든 통계(공칭 및 세부 정보)가 포함됩니다. 
+|===
+====
+. 대화 상자를 닫으려면 * 취소 * 를 클릭합니다.
+

@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-why-can-i-not-delete-the-selected-workload.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 이 워크로드의 볼륨은 애플리케이션별 워크로드와 연결되어 있지 않으므로 워크로드를 삭제할 수 없습니다. 
+---
+= 선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이 워크로드는 CLI(Command Line Interface)를 사용하여 생성되거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)된 볼륨 그룹으로 구성됩니다. 따라서 이 워크로드의 볼륨은 애플리케이션별 워크로드와 연결되지 않으므로 워크로드를 삭제할 수 없습니다.

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-export-certificates.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 전체 세부 정보를 보려면 인증서를 내보냅니다. 
+---
+= 인증서를 내보냅니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+인증서를 내보내 전체 세부 정보를 볼 수 있습니다.
+
+내보낸 파일을 열려면 인증서 뷰어 응용 프로그램이 있어야 합니다.
+
+.단계
+. 인증서 관리 * 를 선택합니다.
+. 다음 탭 중 하나를 선택합니다.
++
+** * Management * -- 플러그인을 호스팅하는 시스템의 인증서를 표시합니다. 관리 인증서는 CA(인증 기관)에서 자체 서명하거나 승인할 수 있습니다. 플러그인에 대한 보안 액세스를 허용합니다.
+** * 신뢰 * -- 플러그인이 스토리지 시스템 및 LDAP 서버와 같은 기타 원격 서버에 액세스할 수 있는 인증서를 표시합니다. 인증서는 CA(인증 기관)에서 발급하거나 자체 서명할 수 있습니다.
+
+
+. 페이지에서 인증서를 선택한 다음 행 끝에 있는 줄임표를 클릭합니다.
+. 내보내기 * 를 클릭한 다음 인증서 파일을 저장합니다.
+. 인증서 뷰어 응용 프로그램에서 파일을 엽니다.
+

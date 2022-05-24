@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-why-would-i-need-to-create-a-host-cluster.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 동일한 볼륨 세트에 대한 액세스를 공유하는 호스트가 2개 이상인 경우 호스트 클러스터를 생성해야 합니다. 
+---
+= 호스트 클러스터를 생성해야 하는 이유는 무엇입니까?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+동일한 볼륨 세트에 대한 액세스를 공유하는 호스트가 2개 이상인 경우 호스트 클러스터를 생성해야 합니다. 일반적으로 개별 호스트에는 볼륨 액세스를 조정하기 위해 클러스터링 소프트웨어가 설치되어 있습니다.

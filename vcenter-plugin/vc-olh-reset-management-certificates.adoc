@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: vcenter-plugin/vc-olh-reset-management-certificates.html 
+keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
+summary: 관리 인증서를 공장 자체 서명된 원래 상태로 되돌립니다. 
+---
+= 관리 인증서를 재설정합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+vCenter용 Storage Plugin을 호스팅하는 관리 시스템의 경우 관리 인증서를 공장 자체 서명된 원래 상태로 되돌릴 수 있습니다.
+
+이 작업은 Storage Plugin for vCenter가 실행 중인 호스트 시스템에서 현재 관리 인증서를 삭제합니다. 인증서가 재설정되면 호스트 시스템은 자체 서명된 인증서를 사용하여 되돌아갑니다.
+
+.단계
+. 인증서 관리 * 를 선택합니다.
+. 관리 * 탭에서 * 재설정 * 을 선택합니다.
++
+관리 인증서 재설정 확인 대화 상자가 열립니다.
+
+. 필드에 reset을 입력한 다음 * Reset * 을 클릭합니다.
++
+브라우저가 새로 고쳐지면 브라우저가 대상 사이트에 대한 액세스를 차단하고 사이트가 HTTP Strict Transport Security를 사용하고 있다고 보고할 수 있습니다. 이 조건은 자체 서명된 인증서로 다시 전환하면 발생합니다. 대상에 대한 액세스를 차단하는 조건을 지우려면 브라우저에서 탐색 데이터를 지워야 합니다.
+
+
+
+시스템에서 서버에서 자체 서명된 인증서를 사용하도록 되돌립니다. 따라서 사용자가 세션에 대해 자체 서명된 인증서를 수동으로 수락하라는 메시지가 표시됩니다.
