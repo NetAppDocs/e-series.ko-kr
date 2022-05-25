@@ -5746,7 +5746,6 @@
   <block id="e5dcf520a1b25b17e87573413fb7bb6c" category="paragraph">기본 이중화를 사용하여 iSCSI 네트워크를 구성하려면 각 호스트 포트와 각 컨트롤러의 포트 하나를 별도의 스위치에 연결하고 각 호스트 포트 및 컨트롤러 포트 세트를 별도의 네트워크 세그먼트 또는 VLAN에서 분할하십시오.</block>
   <block id="1374ba4a3b800b667c2d22bc12c95878" category="paragraph">하드웨어 흐름 제어 전송 및 수신 * 엔드 투 엔드 * 를 활성화해야 합니다. 우선 순위 흐름 제어를 비활성화해야 합니다.</block>
   <block id="7e37f4cc4c72af636a462f4562f809e5" category="inline-link-macro">스토리지 측 네트워킹 구성</block>
-  <block id="bfd77f2e9284c82bb0898c1fc8ee96a2" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 의 단계를 완료하십시오 <block ref="2ed754c1ecdb6cf89d6f4fd9390a16d0" category="inline-link-macro-rx"></block>.</block>
   <block id="544de7ba1dbbebfb99a713dc8014fa98" category="admonition">IP 오버헤드를 위해 많은 네트워크 스위치를 9,000바이트 이상으로 구성해야 합니다. 자세한 내용은 스위치 설명서를 참조하십시오.</block>
   <block id="2b430348ddae524592cd1c4207d8f170" category="summary">SLES\(SUSE Linux 버전\)의 버전을 기반으로 장치 대상으로 지정된 I/O를 구성합니다.</block>
   <block id="2760a5173fe84d55b4dfd0df17083b60" category="doc">가상 장치 타겟에 NVMe 볼륨에 액세스합니다</block>
@@ -8802,4 +8801,5 @@
   <block id="ecc348240fe0031a456c147f13126f0c" category="sidebar">E5700 데이터시트</block>
   <block id="239a8d1ddfc1ceae19ee25fea039a278" category="sidebar">E2800 데이터시트를 참조하십시오</block>
   <block id="eecdfe99dab1ba77ed2b7b1d9b86256b" category="sidebar">SANtricity 소프트웨어</block>
+  <block id="b9d208fcce9c26f3aacf7b49c9cdbaef" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 의 단계를 완료하십시오 <block ref="16d4528e3823d381a97af6e1811e489a" category="inline-link-macro-rx"></block>.</block>
 </blocks>
