@@ -6436,8 +6436,6 @@
   <block id="c6941703005adb7144c53a6fa1e9031b" category="section-title">6단계: 스토리지 구성</block>
   <block id="9bc4dbdc4b0ba32e879477f6d380d1f2" category="paragraph">스토리지를 구성하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 System Manager의 웹 기반 인터페이스에 액세스할 수 있습니다. 설치 마법사를 사용하면 시스템 구성을 시작할 수 있습니다. 또는 CLI(Command Line Interface)를 사용할 수도 있습니다.</block>
   <block id="dc319fa18c0e449181d9af17b46cb41d" category="paragraph">사용할 인터페이스를 선택합니다.</block>
-  <block id="e310bf04394efde500bf9f4c81acb37c" category="inline-link">11.7배의 SANtricity 시스템 관리자 온라인 도움말</block>
-  <block id="cf7b3313bd605518202463f0e3fe1b45" category="inline-link">11.6x용 SANtricity 시스템 관리자 온라인 도움말</block>
   <block id="b099e1af7ef72f35c180ddc664299373" category="summary">비디오 데모를 통해 E-Series 시스템에 대해 자세히 알아보십시오.</block>
   <block id="55a719e89f77dd4327ce93ddce72d2b3" category="doc">E-Series 비디오</block>
   <block id="8519014ad5d86d252a65a30b42df0919" category="section-title">E-Series: 빠르고 단순하며 안정적인 스토리지</block>
@@ -7126,8 +7124,6 @@
   <block id="738a8c736dcf0a5ae4920a6448ab8da7" category="paragraph">기술 지원 부서(에 문의하십시오<block ref="2ff36e7792a0e0257d19a11dce8cade8" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 RMA 번호가 필요한 경우 +800-800-80-800 (아시아/태평양).</block>
   <block id="edb3c50e1624e1c64455cc9c6b567531" category="inline-link">SANtricity 소프트웨어 문서 사이트입니다</block>
   <block id="b4f5988f99b045705684a7692efed8d6" category="list-text">온라인 도움말: System Manager 사용자 인터페이스 또는 에서 사용할 수 있습니다<block ref="173d089ddf996dbd066dc04ffeb10dca" category="inline-link-rx"></block>.</block>
-  <block id="5c78b830f7bd834501154848ce310440" category="list-text"><block ref="5c78b830f7bd834501154848ce310440" category="inline-link-rx"></block></block>
-  <block id="553343f1040951376da0b5928b9f5ce6" category="list-text"><block ref="553343f1040951376da0b5928b9f5ce6" category="inline-link-rx"></block></block>
   <block id="829fea797e3072814f3b223d66b72f1a" category="inline-link">* TR-4838: Milestone XProtect VM 인증 보고서 * 가 포함된 E2800 및 E5700</block>
   <block id="bda3fde6fc7c495545a73026a8a05e44" category="cell"><block ref="af8284118427afcf1ac4e1e4465162e1" category="inline-link-rx"></block></block>
   <block id="10cd7a5a5e5e238ed0a260ca5ca1f4af" category="inline-link">* TR-4771 - 설계: NetApp E-Series 및 Genetec 비디오 관리 소프트웨어 *</block>
@@ -8802,4 +8798,8 @@
   <block id="239a8d1ddfc1ceae19ee25fea039a278" category="sidebar">E2800 데이터시트를 참조하십시오</block>
   <block id="eecdfe99dab1ba77ed2b7b1d9b86256b" category="sidebar">SANtricity 소프트웨어</block>
   <block id="b9d208fcce9c26f3aacf7b49c9cdbaef" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 의 단계를 완료하십시오 <block ref="16d4528e3823d381a97af6e1811e489a" category="inline-link-macro-rx"></block>.</block>
+  <block id="82c87a954533f4f73c4568a90d45d795" category="inline-link">11.7배의 SANtricity 시스템 관리자 도움말</block>
+  <block id="b6adf77a8fd2cb1ee566051ed64b7bbb" category="list-text"><block ref="b6adf77a8fd2cb1ee566051ed64b7bbb" category="inline-link-rx"></block></block>
+  <block id="73ea8f8143966cdb241af48e230354bb" category="inline-link">11.6x를 위한 SANtricity 시스템 관리자 도움말</block>
+  <block id="00f0cc59eb519b0e3ccef23f32fc3242" category="list-text"><block ref="00f0cc59eb519b0e3ccef23f32fc3242" category="inline-link-rx"></block></block>
 </blocks>

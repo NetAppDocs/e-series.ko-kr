@@ -77,6 +77,6 @@ E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유�
 
 사용할 인터페이스를 선택합니다.
 
-* https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["11.7배의 SANtricity 시스템 관리자 온라인 도움말"]
-* https://docs.netapp.com/us-en/e-series-santricity-116/system-manager/index.html["11.6x용 SANtricity 시스템 관리자 온라인 도움말"]
+* https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["11.7배의 SANtricity 시스템 관리자 도움말"]
+* https://docs.netapp.com/us-en/e-series-santricity-116/index.html["11.6x를 위한 SANtricity 시스템 관리자 도움말"]
 
