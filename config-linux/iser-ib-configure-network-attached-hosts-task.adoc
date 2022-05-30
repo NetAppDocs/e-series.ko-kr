@@ -41,11 +41,11 @@ NetApp에서 시스템에 OFED를 설치하도록 권장합니다. 자세한 내
 # systemctl start iscsid.service
 # systemctl enable iscsid.service
 ----
-. IPoIB 네트워크 인터페이스 구성:
+. InfiniBand 카드 네트워크 인터페이스 구성:
 +
 .. 사용할 InfiniBand 포트를 식별합니다. 각 포트의 HW 주소(MAC 주소)를 기록합니다.
 .. InfiniBand 네트워크 인터페이스 디바이스의 영구 이름을 구성합니다.
-.. 식별된 IPoIB 인터페이스에 대한 IP 주소 및 네트워크 정보를 구성합니다.
+.. 식별된 InfiniBand 인터페이스의 IP 주소 및 네트워크 정보를 구성합니다.
 +
 필요한 특정 인터페이스 구성은 사용하는 운영 체제에 따라 다를 수 있습니다. 구축에 대한 자세한 내용은 공급업체의 운영 체제 설명서를 참조하십시오.
 

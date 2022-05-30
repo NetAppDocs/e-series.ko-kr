@@ -5913,10 +5913,8 @@
   <block id="7f02faf8a07269a5ab98e244f089148d" category="list-text">호스트에서 iSCSI 서비스 활성화 및 시작:</block>
   <block id="4578709b544309c3c129ddd77e647202" category="paragraph">* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *</block>
   <block id="03255405207be9e847f2d898e05048a4" category="paragraph">* SUSE Linux Enterprise Server 12 및 15(SLES 12 및 SLES 15) *</block>
-  <block id="9f20bfce60dbc91ad764d37dadffc227" category="list-text">IPoIB 네트워크 인터페이스 구성:</block>
   <block id="49688998ea00bb073d084abbb307e708" category="list-text">사용할 InfiniBand 포트를 식별합니다. 각 포트의 HW 주소(MAC 주소)를 기록합니다.</block>
   <block id="6b4ef7dc778070c5ee2f7456ae2e252c" category="list-text">InfiniBand 네트워크 인터페이스 디바이스의 영구 이름을 구성합니다.</block>
-  <block id="713824554266fc9376f3db256933c6af" category="list-text">식별된 IPoIB 인터페이스에 대한 IP 주소 및 네트워크 정보를 구성합니다.</block>
   <block id="4ecefee9b1283cd8f82d4b55f24122c7" category="paragraph">필요한 특정 인터페이스 구성은 사용하는 운영 체제에 따라 다를 수 있습니다. 구축에 대한 자세한 내용은 공급업체의 운영 체제 설명서를 참조하십시오.</block>
   <block id="61c924231a8595eeee332cc71a80361b" category="list-text">네트워킹 서비스를 다시 시작하거나 각 인터페이스를 수동으로 다시 시작하여 IB 네트워크 인터페이스를 시작합니다. 예를 들면 다음과 같습니다.</block>
   <block id="ac1bbea8797a5c18374a7eb5a191169e" category="list-text">타겟 포트에 대한 접속을 확인합니다. 호스트에서 네트워크 연결을 구성할 때 구성한 IP 주소를 ping합니다.</block>
@@ -8802,4 +8800,6 @@
   <block id="b6adf77a8fd2cb1ee566051ed64b7bbb" category="list-text"><block ref="b6adf77a8fd2cb1ee566051ed64b7bbb" category="inline-link-rx"></block></block>
   <block id="73ea8f8143966cdb241af48e230354bb" category="inline-link">11.6x를 위한 SANtricity 시스템 관리자 도움말</block>
   <block id="00f0cc59eb519b0e3ccef23f32fc3242" category="list-text"><block ref="00f0cc59eb519b0e3ccef23f32fc3242" category="inline-link-rx"></block></block>
+  <block id="3bf3cbc109a52d0d37f5d3c9ecf3e14a" category="list-text">InfiniBand 카드 네트워크 인터페이스 구성:</block>
+  <block id="0360bd7f0d62ff5323000d0f25742cf3" category="list-text">식별된 InfiniBand 인터페이스의 IP 주소 및 네트워크 정보를 구성합니다.</block>
 </blocks>
