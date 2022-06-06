@@ -8801,5 +8801,5 @@
   <block id="00f0cc59eb519b0e3ccef23f32fc3242" category="list-text"><block ref="00f0cc59eb519b0e3ccef23f32fc3242" category="inline-link-rx"></block></block>
   <block id="3bf3cbc109a52d0d37f5d3c9ecf3e14a" category="list-text">InfiniBand 카드 네트워크 인터페이스 구성:</block>
   <block id="0360bd7f0d62ff5323000d0f25742cf3" category="list-text">식별된 InfiniBand 인터페이스의 IP 주소 및 네트워크 정보를 구성합니다.</block>
-  <block id="076b3ed1d1bebd5a14f9e01695f62e5b" category="section-title">RHEL 8에 대한 기본 NMVe Multipathing을 설정합니다</block>
+  <block id="4df6b1c48c33c3735ab315bb52db5933" category="section-title">RHEL 8에 대한 기본 NVMe 다중 경로를 설정합니다</block>
 </blocks>
