@@ -65,7 +65,7 @@ devices {
 
 
 
-== RHEL 8에 대한 네이티브 NMVe 다중 경로를 설정합니다
+== RHEL 8에 대한 기본 NMVe Multipathing을 설정합니다
 
 기본 NVMe Multipathing은 RHEL 8에서 기본적으로 비활성화되어 있으며 아래 단계를 사용하여 활성화해야 합니다.
 

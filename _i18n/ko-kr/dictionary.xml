@@ -6211,7 +6211,6 @@
   <block id="b4c0052af465e60e515dd89ce3a30501" category="list-text">IQN을 기록합니다.</block>
   <block id="2a9360c5f25e96ff91adcbc48896848d" category="paragraph">이 정보는 전송 대상 검색을 지원하지 않는 운영 체제에서 iSER 세션을 생성할 때 필요할 수 있습니다. 에 이 정보를 입력합니다 <block ref="0a1a4238c86ce603a2c352fabafb1abf" category="inline-xref-macro-rx"></block>.</block>
   <block id="4d8c7109afb8533630e6b060d83f938e" category="paragraph">RHEL 7 및 SLES 12는 NVMe over Fibre Channel을 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
-  <block id="2c04a3e0f45855d5ed2cbdb6c291967d" category="section-title">RHEL 8에 대한 네이티브 NMVe 다중 경로를 설정합니다</block>
   <block id="ce787f5529e569c07191ad09975c4a3f" category="list-text">새 modprobe 매개변수로 "initramfs"를 다시 만듭니다.</block>
   <block id="0e550c6e0d7b33fb6681b0cab3069f86" category="list-text">서버를 재부팅하여 기본 NVMe 경로 다중화가 활성화된 상태로 전환합니다</block>
   <block id="dcb07d8ae16ab2bd4fcf3f16bb1e166b" category="summary">파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 것이 포함됩니다.</block>
@@ -8802,4 +8801,5 @@
   <block id="00f0cc59eb519b0e3ccef23f32fc3242" category="list-text"><block ref="00f0cc59eb519b0e3ccef23f32fc3242" category="inline-link-rx"></block></block>
   <block id="3bf3cbc109a52d0d37f5d3c9ecf3e14a" category="list-text">InfiniBand 카드 네트워크 인터페이스 구성:</block>
   <block id="0360bd7f0d62ff5323000d0f25742cf3" category="list-text">식별된 InfiniBand 인터페이스의 IP 주소 및 네트워크 정보를 구성합니다.</block>
+  <block id="076b3ed1d1bebd5a14f9e01695f62e5b" category="section-title">RHEL 8에 대한 기본 NMVe Multipathing을 설정합니다</block>
 </blocks>
