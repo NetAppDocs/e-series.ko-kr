@@ -30,7 +30,7 @@ NOTE: "NVMe 검색" 명령은 호스트 액세스에 관계없이 하위 시스�
 +
 [listing]
 ----
-# nvme discover  -t rdma -a 10.10.10.100
+# nvme discover -t rdma -a 10.10.10.100
  Discovery Log Number of Records 2, Generation counter 0
  =====Discovery Log Entry 0======
  trtype:  rdma
@@ -88,7 +88,7 @@ NOTE: 권장 컨트롤러 손실 시간 제한 시간(초)은 60분(3600초)입�
 +
 [listing]
 ----
-# nvme connect -t rdma -a 10.10.10.100 -n  nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
+# nvme connect -t rdma -a 10.10.10.100 -n nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
 ----
 . 현재 연결된 NVMe 장치의 목록을 보려면 "NVMe list" 명령을 사용하십시오. 아래 예에서는 nvme0n1입니다.
 +
@@ -111,7 +111,7 @@ Usage                 Format           FW Rev
 +
 [listing]
 ----
-  # nvme connect -t rdma -a 11.11.11.100 -n  nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
+  # nvme connect -t rdma -a 11.11.11.100 -n nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
 ----
 . Linux 'lsblk' 및 'grep' 명령을 사용하여 각 블록 디바이스에 대한 추가 정보를 표시합니다.
 +
