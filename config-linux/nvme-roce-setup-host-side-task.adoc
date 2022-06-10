@@ -37,6 +37,12 @@ RHEL 7 또는 RHEL 8 *
 # yum install rdma-core
 # yum install nvme-cli
 ----
+. 호스트를 스토리지에 구성하는 데 사용되는 호스트 NQN을 가져옵니다.
++
+[listing]
+----
+# cat /etc/nvme/hostnqn
+----
 . NVMe over RoCE를 연결하는 데 사용되는 이더넷 포트에서 IPv4 IP 주소를 설정합니다. 각 네트워크 인터페이스에 대해 해당 인터페이스에 대한 다양한 변수가 포함된 구성 스크립트를 생성합니다.
 +
 이 단계에서 사용되는 변수는 서버 하드웨어와 네트워크 환경을 기반으로 합니다. 이 변수에는 IPADDR, Gateway 등이 있다. 다음은 SLES 및 RHEL의 예제 지침입니다.
@@ -45,71 +51,76 @@ RHEL 7 또는 RHEL 8 *
 * SLES 12 및 SLES 15 *
 
 +
-** 다음과 같이 예제 파일 '/etc/sysconfig/network/ifcfg-eth4'를 생성합니다.
+다음 내용으로 예제 파일 '/etc/sysconfig/network/ifcfg-eth4'를 생성합니다.
+
 +
 [listing]
 ----
 BOOTPROTO='static'
-   BROADCAST=
-   ETHTOOL_OPTIONS=
-   IPADDR='192.168.1.87/24'
-   GATEWAY='192.168.1.1'
-   MTU=
-   NAME='MT27800 Family [ConnectX-5]'
-   NETWORK=
-   REMOTE_IPADDR=
-   STARTMODE='auto'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='192.168.1.87/24'
+GATEWAY='192.168.1.1'
+MTU=
+NAME='MT27800 Family [ConnectX-5]'
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
-** 다음과 같이 파일 '/etc/sysconfig/network/ifcfg-eth5'를 생성합니다.
++
+그런 다음 예제 파일 '/etc/sysconfig/network/ifcfg-eth5'를 생성합니다.
+
 +
 [listing]
 ----
 BOOTPROTO='static'
-   BROADCAST=
-   ETHTOOL_OPTIONS=
-   IPADDR='192.168.2.87/24'
-   GATEWAY='192.168.2.1'
-   MTU=
-   NAME='MT27800 Family [ConnectX-5]'
-   NETWORK=
-   REMOTE_IPADDR=
-   STARTMODE='auto'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='192.168.2.87/24'
+GATEWAY='192.168.2.1'
+MTU=
+NAME='MT27800 Family [ConnectX-5]'
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
 +
 RHEL 7 및 RHEL 8 *
 
-** 다음과 같이 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth4'를 생성합니다.
++
+다음 내용으로 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth4'를 생성합니다.
+
 +
 [listing]
 ----
 BOOTPROTO='static'
-  BROADCAST=
-  ETHTOOL_OPTIONS=
-  IPADDR='192.168.1.87/24’
-  GATEWAY='192.168.1.1'
-  MTU=
-  NAME='MT27800 Family [ConnectX-5]'
-  NETWORK=
-  REMOTE_IPADDR=
-  STARTMODE='auto'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='192.168.1.87/24’
+GATEWAY='192.168.1.1'
+MTU=
+NAME='MT27800 Family [ConnectX-5]'
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
-** 다음과 같이 파일 '/etc/sysconfig/network-scripts/ifcfg-eth5'를 생성합니다.
++
+그런 다음 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth5'를 생성합니다.
+
 +
 [listing]
 ----
 BOOTPROTO='static'
-   BROADCAST=
-   ETHTOOL_OPTIONS=
-   IPADDR='192.168.2.87/24'
-   GATEWAY='192.168.2.1'
-   MTU=
-   NAME='MT27800 Family [ConnectX-5]'
-   NETWORK=
-   REMOTE_IPADDR=
-   STARTMODE='auto'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='192.168.2.87/24'
+GATEWAY='192.168.2.1'
+MTU=
+NAME='MT27800 Family [ConnectX-5]'
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
-
-
 . 네트워크 인터페이스를 활성화합니다.
 +
 [listing]
@@ -118,9 +129,7 @@ BOOTPROTO='static'
 # ifup eth4
 # ifup eth5
 ----
-. 호스트에서 NVMe-oF 계층을 설정합니다.
-+
-.. 다음 파일을 '/etc/modules-load.d/'에서 생성하여 NVMe-RDMA 커널 모듈을 로드하고 재부팅 후에도 커널 모듈이 항상 켜져 있는지 확인합니다.
+. 호스트에서 NVMe-oF 계층을 설정합니다. 다음 파일을 '/etc/modules-load.d/'에서 생성하여 NVMe-RDMA 커널 모듈을 로드하고 재부팅 후에도 커널 모듈이 항상 켜져 있는지 확인합니다.
 +
 [listing]
 ----
@@ -142,6 +151,4 @@ rdma_cm               114688  7 rpcrdma,ib_srpt,ib_srp,nvme_rdma,ib_iser,ib_iser
 ib_core               393216  15 rdma_cm,ib_ipoib,rpcrdma,ib_srpt,ib_srp,nvme_rdma,iw_cm,ib_iser,ib_umad,ib_isert,rdma_ucm,ib_uverbs,mlx5_ib,qedr,ib_cm
 t10_pi                 16384  2 sd_mod,nvme_core
 ----
-
-
 
