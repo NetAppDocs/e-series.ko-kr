@@ -3297,7 +3297,6 @@
   <block id="fbcedc805afedbeaf7664976b732371b" category="paragraph">HIC(호스트 인터페이스 카드)를 베이스보드 호스트 포트가 있는 E2800 컨트롤러 캐니스터에 추가할 수 있습니다. 또한 E2800 스토리지 어레이의 호스트 포트 수를 증가시키고 추가 호스트 프로토콜을 제공합니다.</block>
   <block id="bae6747b03b066c55bb70405c284861b" category="paragraph">이 절차를 수행하는 동안 스토리지 어레이의 전원을 끄고 HIC를 설치한 다음 전원을 다시 적용해야 합니다.</block>
   <block id="070240a094393a3e57b978aa2f566cb4" category="inline-link-macro">E2800 HIC 교체 요구 사항</block>
-  <block id="648ab45c7c16024229384da8a07faf88" category="list-text">검토 <block ref="8b9a37c372cb06d9e349e5fcd6c7e362" category="inline-link-macro-rx"></block>.</block>
   <block id="8c5454e59d2a11219e2ce80369161ec1" category="list-text">스위치 또는 호스트 버스 어댑터(HBA)와 같이 새 호스트 포트에 필요한 모든 호스트 하드웨어가 설치됩니다.</block>
   <block id="df3446e765e5aa88b2f1ff570bce3220" category="paragraph">스토리지 시스템의 구성 데이터베이스를 백업하고 지원 데이터를 수집하고 호스트 I/O 작업을 중지하여 HIC를 추가할 준비를 합니다. 그런 다음 컨트롤러 쉘프의 전원을 끕니다.</block>
   <block id="4a2f4579802cd4b78e234f0a8b277904" category="paragraph">새 호스트 인터페이스 카드를 추가할 수 있도록 컨트롤러 캐니스터를 제거합니다.</block>
@@ -8804,4 +8803,5 @@
   <block id="65c76cf8b4c172d7378f288e8af8a08c" category="list-text">ifaces를 사용할 때는 iSCSI iface 바인딩 두 개를 생성하여 iSCSI 인터페이스를 구성합니다.</block>
   <block id="d601c251b180e2832efe894c46092431" category="list-text">iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.</block>
   <block id="f53443405a6562d0b3e4c7cf9bc15b23" category="admonition">위의 명령은 재부팅 후에도 유지되지 않습니다. NVMe 연결을 재설정하기 위해서는 재부팅 후 NVMe connect 명령을 실행해야 한다.</block>
+  <block id="67abfdf061a5203871b27c16ec885ea9" category="list-text">검토 <block ref="75c4b5f7794c0531679941f5aad7b091" category="inline-link-macro-rx"></block>.</block>
 </blocks>
