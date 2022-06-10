@@ -66,17 +66,29 @@ node.session.timeo.replacement_timeout=20
 NOTE: 공용 네트워크 포트 외에도 iSCSI 이니시에이터는 별도의 개인 세그먼트 또는 VLAN에 둘 이상의 NIC를 사용해야 합니다.
 
 +
-.. '#ifconfig-a' 명령을 사용하여 iSCSI 포트 이름을 확인합니다.
+.. ifconfig -a 명령을 사용하여 iSCSI 포트 이름을 확인합니다.
 .. iSCSI 이니시에이터 포트의 IP 주소를 설정합니다. 이니시에이터 포트는 iSCSI 타겟 포트와 동일한 서브넷에 있어야 합니다.
 +
 [listing]
 ----
 # vim /etc/sysconfig/network-scripts/ifcfg-<NIC port>
-Edit:
+----
++
+편집:
+
++
+[listing]
+----
 BOOTPROTO=none
 ONBOOT=yes
 NM_CONTROLLED=no
-Add:
+----
++
+추가:
+
++
+[listing]
+----
 IPADDR=192.168.xxx.xxx
 NETMASK=255.255.255.0
 ----
@@ -93,30 +105,38 @@ NOTE: 두 iSCSI 이니시에이터 포트의 주소를 설정해야 합니다.
 .. Linux 서버가 iSCSI 대상 포트의 ping_all_을 수행할 수 있는지 확인합니다.
 
 
-. iSCSI iface 바인딩 2개를 생성하여 iSCSI 인터페이스를 구성합니다.
+. 이니시에이터와 타겟 간의 iSCSI 세션을 설정합니다(총 4개).
++
+.. ifaces를 사용할 때는 iSCSI iface 바인딩 두 개를 생성하여 iSCSI 인터페이스를 구성합니다.
 +
 [listing]
 ----
-iscsiadm -m iface -I iface0 -o new
-iscsiadm -m iface -I iface0 -o update -n iface.net_ifacename -v <NIC port1>
+# iscsiadm -m iface -I iface0 -o new
+# iscsiadm -m iface -I iface0 -o update -n iface.net_ifacename -v <NIC port1>
 ----
 +
 [listing]
 ----
-iscsiadm -m iface -I iface1 -o new
-iscsiadm -m iface -I iface1 -o update -n iface.net_ifacename -v <NIC port2>
+# iscsiadm -m iface -I iface1 -o new
+# iscsiadm -m iface -I iface1 -o update -n iface.net_ifacename -v <NIC port2>
 ----
 +
 
 NOTE: 인터페이스를 나열하려면 iscsiadm -m iface를 사용합니다.
 
-. 이니시에이터와 타겟 간의 iSCSI 세션을 설정합니다(총 4개).
-+
 .. iSCSI 대상을 검색합니다. 다음 단계를 위해 워크시트에 IQN(각 검색과 동일함)을 저장합니다.
 +
 [listing]
 ----
-iscsiadm -m discovery -t sendtargets -p 192.168.0.1:3260 -I iface0 -P 1
+# iscsiadm -m discovery -t sendtargets -p 192.168.0.1:3260 -I iface0 -P 1
+----
++
+또는
+
++
+[listing]
+----
+# iscsiadm -m discovery -t sendtargets -p 192.168.0.1:3260
 ----
 +
 
@@ -127,12 +147,20 @@ NOTE: IQN은 다음과 같습니다.
 ----
 iqn.1992-01.com.netapp:2365.60080e50001bf1600000000531d7be3
 ----
-.. ifaces를 사용하여 iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.
+.. iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.
 +
 [listing]
 ----
-iscsiadm -m node -T iqn.1992-01.com.netapp:2365.60080e50001bf1600000000531d7be3
+# iscsiadm -m node -T iqn.1992-01.com.netapp:2365.60080e50001bf1600000000531d7be3
 -p 192.168.0.1:3260 -I iface0 -l
+----
++
+또는
+
++
+[listing]
+----
+# iscsiadm -m node -L all
 ----
 .. 호스트에 설정된 iSCSI 세션을 나열합니다.
 +
