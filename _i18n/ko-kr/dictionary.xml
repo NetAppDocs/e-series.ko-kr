@@ -5810,7 +5810,6 @@
   <block id="e180dcda700b7114bbf7cbdb821df4a6" category="list-text">두 IB 포트 링크가 작동 중인지, State=Active 인지 확인합니다.</block>
   <block id="22b4a25f95365479298f378bbf161e6f" category="list-text">IB 포트에서 IPv4 IP 주소를 설정합니다.</block>
   <block id="08fa0114b0d6dc928f4c7ac5eb67c374" category="paragraph">다음 내용으로 /etc/sysconfig/network/ifcfg-ib0 파일을 생성합니다.</block>
-  <block id="033848f8e5f29b66fa491a6133c35ab8" category="paragraph">그런 다음 /etc/sysconfig/network/ifcfg-ib1 파일을 생성합니다.</block>
   <block id="736d155a06721b3c243a2d11dd71cf06" category="paragraph">다음 내용으로 /etc/sysconfig/network-scripts/ifcfg-ib0 파일을 생성합니다.</block>
   <block id="2ec96b50b65cad4cbdf3961da2c339d2" category="paragraph">그런 다음 /etc/sysconfig/network-scripts/ifcfg-ib1 파일을 생성합니다.</block>
   <block id="9830a61f8841b6d0b5bd803cf5c60d44" category="list-text">"IB" 인터페이스를 활성화합니다.</block>
@@ -8802,4 +8801,5 @@
   <block id="f1d1c2a7d2a912bc6a5aa04e31b25d26" category="paragraph">다음 내용으로 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth4'를 생성합니다.</block>
   <block id="51be39b7e050efbe3d29b5d8c0430aa5" category="paragraph">그런 다음 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth5'를 생성합니다.</block>
   <block id="ffbb9e9bc4bfe3481683088489b9c286" category="list-text">호스트에서 NVMe-oF 계층을 설정합니다. 다음 파일을 '/etc/modules-load.d/'에서 생성하여 NVMe-RDMA 커널 모듈을 로드하고 재부팅 후에도 커널 모듈이 항상 켜져 있는지 확인합니다.</block>
+  <block id="ba5d5a8fa23f831ccd6827dc3b611469" category="paragraph">그런 다음 /etc/sysconfig/network/ifcfg-ib1 파일을 생성합니다.</block>
 </blocks>

@@ -45,11 +45,17 @@ RHEL 7 또는 RHEL 8 *
 ----
 IPOIB_LOAD=yes
 ----
+. 호스트를 스토리지에 구성하는 데 사용되는 호스트 NQN을 가져옵니다.
++
+[listing]
+----
+# cat /etc/nvme/hostnqn
+----
 . 두 IB 포트 링크가 작동 중인지, State=Active 인지 확인합니다.
 +
 [listing]
 ----
- # ibstat
+# ibstat
 ----
 +
 [listing]
@@ -93,16 +99,16 @@ CA 'mlx4_0'
 [listing]
 ----
 
-  BOOTPROTO='static'
-  BROADCAST=
-  ETHTOOL_OPTIONS=
-  IPADDR='10.10.10.100/24'
-  IPOIB_MODE='connected'
-  MTU='65520'
-  NAME=
-  NETWORK=
-  REMOTE_IPADDR=
-  STARTMODE='auto'
+BOOTPROTO='static'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='10.10.10.100/24'
+IPOIB_MODE='connected'
+MTU='65520'
+NAME=
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
 +
 그런 다음 /etc/sysconfig/network/ifcfg-ib1 파일을 생성합니다.
@@ -111,16 +117,16 @@ CA 'mlx4_0'
 [listing]
 ----
 
-  BOOTPROTO='static'
-  BROADCAST=
-  ETHTOOL_OPTIONS=
-  IPADDR='11.11.11.100/24'
-  IPOIB_MODE='connected'
-  MTU='65520'
-  NAME=
-  NETWORK=
-  REMOTE_IPADDR=
-  STARTMODE='auto'
+BOOTPROTO='static'
+BROADCAST=
+ETHTOOL_OPTIONS=
+IPADDR='11.11.11.100/24'
+IPOIB_MODE='connected'
+MTU='65520'
+NAME=
+NETWORK=
+REMOTE_IPADDR=
+STARTMODE='auto'
 ----
 +
 RHEL 7 또는 RHEL 8 *
@@ -132,17 +138,17 @@ RHEL 7 또는 RHEL 8 *
 [listing]
 ----
 
-  CONNECTED_MODE=no
-  TYPE=InfiniBand
-  PROXY_METHOD=none
-  BROWSER_ONLY=no
-  BOOTPROTO=static
-  IPADDR='10.10.10.100/24'
-  DEFROUTE=no
-  IPV4=FAILURE_FATAL=yes
-  IPV6INIT=no
-  NAME=ib0
-  ONBOOT=yes
+CONNECTED_MODE=no
+TYPE=InfiniBand
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+IPADDR='10.10.10.100/24'
+DEFROUTE=no
+IPV4=FAILURE_FATAL=yes
+IPV6INIT=no
+NAME=ib0
+ONBOOT=yes
 ----
 +
 그런 다음 /etc/sysconfig/network-scripts/ifcfg-ib1 파일을 생성합니다.
@@ -151,17 +157,17 @@ RHEL 7 또는 RHEL 8 *
 [listing]
 ----
 
-  CONNECTED_MODE=no
-  TYPE=InfiniBand
-  PROXY_METHOD=none
-  BROWSER_ONLY=no
-  BOOTPROTO=static
-  IPADDR='11.11.11.100/24'
-  DEFROUTE=no
-  IPV4=FAILURE_FATAL=yes
-  IPV6INIT=no
-  NAME=ib1
-  ONBOOT=yes
+CONNECTED_MODE=no
+TYPE=InfiniBand
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+IPADDR='11.11.11.100/24'
+DEFROUTE=no
+IPV4=FAILURE_FATAL=yes
+IPV6INIT=no
+NAME=ib1
+ONBOOT=yes
 ----
 . "IB" 인터페이스를 활성화합니다.
 +
