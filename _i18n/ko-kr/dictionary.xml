@@ -8804,4 +8804,5 @@
   <block id="d601c251b180e2832efe894c46092431" category="list-text">iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.</block>
   <block id="f53443405a6562d0b3e4c7cf9bc15b23" category="admonition">위의 명령은 재부팅 후에도 유지되지 않습니다. NVMe 연결을 재설정하기 위해서는 재부팅 후 NVMe connect 명령을 실행해야 한다.</block>
   <block id="67abfdf061a5203871b27c16ec885ea9" category="list-text">검토 <block ref="75c4b5f7794c0531679941f5aad7b091" category="inline-link-macro-rx"></block>.</block>
+  <block id="d29230a83d49c7722d815a3203b64bef" category="admonition">SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으며 다운로드할 수 없습니다.</block>
 </blocks>
