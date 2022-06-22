@@ -69,9 +69,20 @@ NOTE: 공용 네트워크 포트 외에도 iSCSI 이니시에이터는 별도의
 .. ifconfig -a 명령을 사용하여 iSCSI 포트 이름을 확인합니다.
 .. iSCSI 이니시에이터 포트의 IP 주소를 설정합니다. 이니시에이터 포트는 iSCSI 타겟 포트와 동일한 서브넷에 있어야 합니다.
 +
+* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *
+
++
 [listing]
 ----
 # vim /etc/sysconfig/network-scripts/ifcfg-<NIC port>
+----
++
+* SUSE Linux Enterprise Server 12 및 15(SLES 12 및 SLES 15) *
+
++
+[listing]
+----
+# vim /etc/sysconfig/network/ifcfg-<NIC port>
 ----
 +
 편집:
