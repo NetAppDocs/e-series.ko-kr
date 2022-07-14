@@ -8803,6 +8803,8 @@
   <block id="65c76cf8b4c172d7378f288e8af8a08c" category="list-text">ifaces를 사용할 때는 iSCSI iface 바인딩 두 개를 생성하여 iSCSI 인터페이스를 구성합니다.</block>
   <block id="d601c251b180e2832efe894c46092431" category="list-text">iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.</block>
   <block id="f53443405a6562d0b3e4c7cf9bc15b23" category="admonition">위의 명령은 재부팅 후에도 유지되지 않습니다. NVMe 연결을 재설정하기 위해서는 재부팅 후 NVMe connect 명령을 실행해야 한다.</block>
-  <block id="67abfdf061a5203871b27c16ec885ea9" category="list-text">검토 <block ref="75c4b5f7794c0531679941f5aad7b091" category="inline-link-macro-rx"></block>.</block>
   <block id="d29230a83d49c7722d815a3203b64bef" category="admonition">SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으며 다운로드할 수 없습니다.</block>
+  <block id="273dcb16af41ba30a29aa8335c08a790" category="inline-link">* TR-4930: Splunk Enterprise * 기반 EF600</block>
+  <block id="d037693956f399ee3ef1299cb9175342" category="cell"><block ref="d037693956f399ee3ef1299cb9175342" category="inline-link-rx"></block></block>
+  <block id="709b2345a804dd3959ae288cc98408cf" category="cell">EF600 All-Flash 어레이 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다.</block>
 </blocks>

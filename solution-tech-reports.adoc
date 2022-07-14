@@ -12,14 +12,14 @@ summary: E-Series 기술 보고서
 
 == 더 효율적인 데이터 센터
 
-[cols="9,1,9,1,9"]
+[cols="9,9,9"]
 |===
 
 
-| https://www.netapp.com/pdf.html?item=/media/16851-tr-4623pdf.pdf["* TR-4623: Splunk Enterprise * 가 탑재된 E5700"^] |  | https://www.netapp.com/media/57104-tr-4903.pdf["* TR-4903: Splunk Enterprise * 기반 EF300"^] |  |  
+| https://www.netapp.com/pdf.html?item=/media/16851-tr-4623pdf.pdf["* TR-4623: Splunk Enterprise * 가 탑재된 E5700"^] | https://www.netapp.com/media/57104-tr-4903.pdf["* TR-4903: Splunk Enterprise * 기반 EF300"^] | https://www.netapp.com/pdf.html?item=/media/72003-tr-4930.pdf["* TR-4930: Splunk Enterprise * 기반 EF600"^] 
 
 
-| E5700 시스템 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다. |  | EF300 All-Flash 어레이 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다. |  |  
+| E5700 시스템 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다. | EF300 All-Flash 어레이 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다. | EF600 All-Flash 어레이 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다. 
 |===
 
 
