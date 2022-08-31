@@ -17,9 +17,6 @@ SANtricity 시스템 관리자의 Recovery Guru는 스토리지 어레이의 드
 
 이 절차는 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.
 
-
-NOTE: 이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)
-
 .시작하기 전에
 * 에서 드라이브 취급 요구 사항을 검토합니다 link:drives-overview-supertask-concept.html["E2800 드라이브 교체 요구 사항"].
 
