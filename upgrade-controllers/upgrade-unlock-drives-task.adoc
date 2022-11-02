@@ -11,12 +11,12 @@ summary: E2800 및 E5700 컨트롤러를 업그레이드하고 드라이브 보�
 
 
 [role="lead"]
-E2800 및 E5700 컨트롤러를 업그레이드할 경우 이러한 컨트롤러의 드라이브 보안 기능을 사용하면 부분적으로, 외부적으로 또는 내부적으로 드라이브가 잠깁니다. 드라이브 보안 기능이 활성화된 경우 이러한 드라이브를 수동으로 잠금 해제해야 합니다.
+E2800 및 E5700 컨트롤러를 업그레이드하는 경우, 이러한 컨트롤러의 드라이브 보안 기능은 드라이브를 부분적으로, 외부적으로 또는 내부적으로 잠급니다. 드라이브 보안 기능이 활성화된 경우 이러한 드라이브를 수동으로 잠금 해제해야 합니다.
 
 다음에 대한 적절한 절차를 따르십시오.
 
-* <<Internal key management>>
-* <<External key management>>
+*  key management
+*  key management
 
 
 
@@ -25,17 +25,24 @@ E2800 및 E5700 컨트롤러를 업그레이드할 경우 이러한 컨트롤러
 
 모든 드라이브가 잠겨 있을 때 내부 키 관리를 위해 다음 단계를 수행하십시오.
 
-새로 바꾼 컨트롤러는 L5의 7세그먼트 디스플레이 코드로 잠깁니다. 이 잠금은 스토리지 배열에 있는 드라이브가 자동 모드 동기화(ACS)를 수행할 수 없을 때 발생합니다. ACS는 보안 키를 가져온 후 새 컨트롤러를 다시 시작하고 업데이트합니다.
+새로 바꾼 컨트롤러는 * L5 * 의 7세그먼트 디스플레이 코드로 잠깁니다. 이 잠금은 드라이브가 자동 모드 동기화(ACS)를 수행할 수 없을 때 발생합니다. 보안 키를 가져오면 ACS가 새 컨트롤러를 다시 시작하고 업데이트합니다.
 
 
 NOTE: 관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 사용해 봅니다. + Ctrl A 포트 1: 192.168.128.101 + Ctrl A 포트 2: 192.168.128.102 + Ctrl 포트 1: 192.168.129.101 + Ctrl B 포트 2: 192.168.129.102
 
 .단계
-. 2단계에서 사용할 노트북 또는 PC에 SANtricity 클라이언트를 설치하여 어레이 컨트롤러에 직접 연결합니다.
-. RJ45 이더넷 케이블을 통해 노트북 또는 PC를 컨트롤러 A 관리 포트 1에 직접 연결합니다. 이 단계에서는 노트북 IP 주소를 동일한 서브넷으로 설정해야 할 수도 있습니다.
-. 사용자 이름 * admin * 과 비밀번호 공백으로 IP 주소 192.168.128.101을 사용하여 에서 저장된 보안 키를 사용하여 'import storageArray securityKey file' CLI 명령을 사용하여 내부 키를 가져옵니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 _명령줄 참조_를 참조하십시오.
+. 스토리지 어레이와 SANtricity 클라이언트의 랩톱 또는 PC 간에 직접 전용 이더넷을 연결합니다. 방법:
++
+.. RJ45 이더넷 케이블을 사용하여 랩톱을 컨트롤러 A의 관리 포트 1에 연결합니다
+.. 연결을 완료하려면 랩톱을 컨트롤러 A와 동일한 서브넷에 있는 IP 주소에 할당해야 할 수 있습니다 컨트롤러를 잠글 때 컨트롤러 A의 관리 주소는 기본적으로 192.168.128.101입니다. 따라서 랩톱을 "192.168.128.201"과 같은 서브넷에 할당할 수 있습니다.
+
+
+. username * admin * 과 패스워드가 비어 있는 IP 주소 192.168.128.101을 사용하여 을 사용하여 내부 키를 가져옵니다 `import storageArray securityKey file` 에서 보안 키를 저장한 상태에서 CLI 명령을 실행합니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-cli/index.html["명령줄 인터페이스 참조"].
 +
 * 예: * s Mcli 192.168.128.101 -u admin -c "import storageArray securityKey file=\"Directory & filename\" passphrase=\"passPhasspeaseString\";"
+
++
+또는 다음 호출을 통해 REST API를 통해 내부 키를 가져올 수 있습니다. `/storage-systems/{system-id}/security-key/import`
 
 
 
@@ -47,28 +54,41 @@ NOTE: 관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 �
 
 모든 드라이브가 잠겨 있을 때 외부 키 관리를 위해 다음 단계를 수행하십시오.
 
-새로 바꾼 컨트롤러는 L5의 7세그먼트 디스플레이 코드로 잠깁니다. 이 잠금은 스토리지 배열에 있는 드라이브가 자동 모드 동기화(ACS)를 수행할 수 없을 때 발생합니다. ACS는 보안 키를 가져온 후 새 컨트롤러를 다시 시작하고 업데이트합니다.
+새로 바꾼 컨트롤러는 * L5 * 의 7세그먼트 디스플레이 코드로 잠깁니다. 이 잠금은 드라이브가 자동 모드 동기화(ACS)를 수행할 수 없을 때 발생합니다. 보안 키를 가져오면 ACS가 새 컨트롤러를 다시 시작하고 업데이트합니다.
 
 
-NOTE: 클라이언트 및 서버 인증서를 검색하려면 스토리지 배열이 최적 상태여야 합니다. 인증서를 검색할 수 없는 경우 새 CSR을 만들고 서명하고 EKMS에서 서버 인증서를 다운로드해야 합니다.
+NOTE: 클라이언트 및 서버 인증서를 검색하려면 스토리지 배열이 최적 상태여야 합니다. 인증서를 검색할 수 없는 경우 새 인증서 서명 요청(CSR)을 생성한 다음 외부 키 관리 서버에서 서버 인증서를 가져와야 합니다.
 
 .단계
-. 2단계에서 사용할 노트북 또는 PC에 SANtricity 클라이언트를 설치하여 어레이 컨트롤러에 직접 연결합니다.
-. RJ45 이더넷 케이블을 통해 노트북 또는 PC를 컨트롤러 A 관리 포트 1에 직접 연결합니다. 랩톱 IP 주소를 동일한 서브넷으로 설정해야 할 수도 있습니다.
-. 사용자 이름 * admin * 과 비밀번호 공백으로 기본 IP 주소 192.168.128.101을 사용하여, 'et storageArray externalKeyManagement' CLI 명령어를 이용하여 외부 키 관리 서버를 설정하고 에서 저장한 'erverAddress' 및 'erverPort'를 제공한다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 _명령줄 참조_를 참조하십시오.
+. 스토리지 어레이와 SANtricity 클라이언트의 랩톱 또는 PC 간에 직접 전용 이더넷을 연결합니다. 방법:
++
+.. RJ45 이더넷 케이블을 사용하여 랩톱을 컨트롤러 A의 관리 포트 1에 연결합니다
+.. 연결을 완료하려면 랩톱을 컨트롤러 A와 동일한 서브넷에 있는 IP 주소에 할당해야 할 수 있습니다 컨트롤러를 잠글 때 컨트롤러 A의 관리 주소는 기본적으로 192.168.128.101입니다. 따라서 랩톱을 "192.168.128.201"과 같은 서브넷에 할당할 수 있습니다.
+
+
+. 사용자 이름 * admin * 과 비밀번호 공백으로 기본 IP 주소 192.168.128.101을 사용하여 를 사용하여 외부 키 관리 서버를 설정합니다 `set storageArray externalKeyManagement` 명령을 사용하여 를 제공합니다 `serverAddress` 및 `serverPort` 에서 저장되었습니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-cli/index.html["명령줄 인터페이스 참조"].
 +
 * 예: * s Mcli 192.168.128.101 -u admin -c "set storageArray externalKeyManagement serverAddress=<ServerIPAddress>serverPort=<serverPort>;"
 
-. 기본 IP 주소 192.168.128.101을 사용자 이름 * admin * 과 빈 암호로 사용하여 'torageArray keyManagementCertificate' CLI 명령을 사용하여 인증서를 다운로드합니다. 클라이언트 인증서는 한 번, 서버 인증서는 두 번. 이 명령 사용에 대한 자세한 내용은 _명령줄 참조_를 참조하십시오.
++
+또는 다음 호출을 통해 REST API를 통해 외부 키 관리 서버를 설정할 수 있습니다. `/storage-systems/{system-id}/external-key-server`
+
+. 사용자 이름 * admin * 과 비어 있는 암호를 사용하여 기본 IP 주소 192.168.128.101을 사용하여 인증서를 가져옵니다 `storageArray keyManagementCertificate` CLI 명령: 클라이언트 인증서에 대해 한 번, 서버 인증서에 대해 두 번째.
 +
 * 예 A: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=client file=\"Directory & filename\";""
 
 +
 * 예 B: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=server file=\"Directory & filename\";""
 
-. 에서 저장된 보안 키를 사용합니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]에서 외부 키를 사용자 이름 * admin * 과 빈 암호를 사용하여 IP 주소 192.168.128.101로 가져옵니다. 이 명령 사용에 대한 자세한 내용은 _명령줄 참조_를 참조하십시오.
++
+또는 다음 호출을 통해 REST API를 통해 키서버 인증서를 가져올 수 있습니다. `/storage-systems/{system-id}/external-key-server/certificate`
+
+. 에서 저장된 보안 키를 사용합니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]에서 외부 키를 사용자 이름 * admin * 과 빈 암호를 사용하여 IP 주소 192.168.128.101로 가져옵니다.
 +
 * 예: * s Mcli 192.168.128.101 -u admin -c "import storageArray securityKey file=\"Directory & filename\" passphrase=\"passPhasspeaseString\";"
+
++
+또는 다음 호출을 통해 REST API를 통해 외부 키를 가져올 수 있습니다. `/storage-systems/{system-id}/security-key/import`
 
 
 

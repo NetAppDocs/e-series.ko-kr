@@ -20,7 +20,7 @@ NetApp에서 시스템에 OFED를 설치하도록 권장합니다. 자세한 내
 .단계
 . 호스트에서 iSCSI 서비스 활성화 및 시작:
 +
-* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *
+* Red Hat Enterprise Linux 7, 8 및 9(RHEL 7, RHEL 8 및 RHEL 9) *
 
 +
 [listing]
@@ -127,13 +127,13 @@ iscsiadm -m discovery -t st -p 192.168.130.101 -I iser
 [listing]
 ----
 # Controller A Port 1
-iscsiadm -m node --target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l -o new
+iscsiadm -m node --target <Target IQN> -I iface-ib0 -p <Target Port IP\> -l -o new
 # Controller B Port 1
-iscsiadm -m node --target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l -o new
+iscsiadm -m node --target <Target IQN> -I iface-ib0 -p <Target Port IP\> -l -o new
 # Controller A Port 2
-iscsiadm -m node --target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l -o new
+iscsiadm -m node --target <Target IQN> -I iface-ib1 -p <Target Port IP\> -l -o new
 # Controller B Port 2
-iscsiadm -m node --target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l -o new
+iscsiadm -m node --target <Target IQN> -I iface-ib1 -p <Target Port IP\> -l -o new
 ----
 . iSCSI 세션에 로그인합니다.
 +
@@ -143,13 +143,13 @@ iscsiadm -m node --target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l -o 
 [listing]
 ----
 # Controller A Port 1
-iscsiadm -m node --target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l
+iscsiadm -m node --target <Target IQN> -I iface-ib0 -p <Target Port IP\> -l
 # Controller B Port 1
-iscsiadm -m node --target <Target IQN\> -I iface-ib0 -p <Target Port IP\> -l
+iscsiadm -m node --target <Target IQN> -I iface-ib0 -p <Target Port IP\> -l
 # Controller A Port 2
-iscsiadm -m node --target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l
+iscsiadm -m node --target <Target IQN> -I iface-ib1 -p <Target Port IP\> -l
 # Controller B Port 2
-iscsiadm -m node --target <Target IQN\> -I iface-ib1 -p <Target Port IP\> -l
+iscsiadm -m node --target <Target IQN> -I iface-ib1 -p <Target Port IP\> -l
 ----
 . iSER/iSCSI 세션을 확인합니다.
 +

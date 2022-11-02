@@ -13,9 +13,9 @@ summary: 컨트롤러 업그레이드로 인해 공급업체 ID가 LSI에서 Net
 [role="lead"]
 컨트롤러 업그레이드로 인해 공급업체 ID를 LSI에서 NetApp으로 변경할 수 있는 경우, 호스트 유형에 적합한 절차를 따르십시오.
 
-* <<Remount volumes on an AIX host>>
-* <<Remount volumes on a VMware host>>
-* <<Remount volumes on a Windows host>>
+*  volumes on an AIX host
+*  volumes on a VMware host
+*  volumes on a Windows host
 
 
 

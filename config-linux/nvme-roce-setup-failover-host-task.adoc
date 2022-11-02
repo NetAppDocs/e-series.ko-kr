@@ -22,7 +22,7 @@ summary: 페일오버를 실행하도록 호스트를 구성합니다.
 
 NOTE: 을 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 필요한 업데이트가 설치되었는지 확인하기 위해, 다중 경로가 SLES 또는 RHEL의 GA 버전과 제대로 작동하지 않을 수 있습니다.
 
-RHEL 7 및 SLES 12는 NVMe over RoCE에 대한 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
+RHEL 7 및 SLES 12는 NVMe over RoCE에 대한 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
 
 
 
@@ -104,4 +104,4 @@ devices {
 
 
 
-NOTE: SLES 15의 경우 기본 NVMe 경로 다중화가 기본적으로 활성화되어 있으며 추가 구성이 필요하지 않습니다.
+NOTE: RHEL 9 및 SLES 15의 경우, 기본 NVMe 다중 경로를 기본적으로 사용하며 추가 구성이 필요하지 않습니다.

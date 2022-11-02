@@ -4,24 +4,24 @@ sidebar: sidebar
 keywords: file systems, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: RHEL 8 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다. 
 ---
-= 파일 시스템 생성(RHEL 8 및 SLES 15)
+= 파일 시스템 생성(RHEL 8, RHEL 9, SLES 15)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-RHEL 8 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.
+RHEL 8, RHEL 9, SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.
 
 .단계
-. 'multipath -ll' 명령을 실행하여 '/dev/NVMe' 디바이스 목록을 가져옵니다.
+. 를 실행합니다 `multipath -ll` NVMe 장치 목록을 가져오는 명령입니다.
 +
 [listing]
 ----
 # multipath -ll
 ----
 +
-이 명령의 결과에는 장치 'nvme0n6'이 표시됩니다.
+이 명령의 결과는 와 연결된 장치를 찾는 데 사용할 수 있습니다 `/dev/disk/by-id/nvme-eui.[uuid#]` 위치. 아래 예에서는 입니다 `/dev/disc/by-id/nvme-eui.000082dd5c05d39300a0980000a52225`.
 
 +
 [listing]
@@ -37,7 +37,7 @@ size=4194304 features='n/a' hwhandler='ANA' wp=rw
 `-+- policy='n/a' prio=10 status=non-optimized
   `- 0:3:1 nvme0c3n1 0:0 n/a non-optimized live
 ----
-. 각 '/dev/nvme0n#' 디바이스의 파티션에 파일 시스템을 생성합니다.
+. 위치를 사용하여 원하는 NVMe 장치의 파티션에 파일 시스템을 생성합니다 `/dev/disk/by-id/nvme-eui.[id#]`.
 +
 파일 시스템을 생성하는 방법은 선택한 파일 시스템에 따라 다릅니다. 이 예에서는 ext4 파일 시스템을 만드는 방법을 보여 줍니다.
 

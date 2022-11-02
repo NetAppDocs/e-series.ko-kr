@@ -206,6 +206,8 @@ sidebar:
           url: "/config-linux/iser-ib-verify-linux-config-support-task.html"
         - title: DHCP를 사용하여 IP 주소를 구성합니다
           url: "/config-linux/iser-ib-configure-ip-address-dhcp-task.html"
+        - title: 호스트 포트 GUID를 확인하고 권장 설정을 지정합니다
+          url: "/config-linux/iser-ib-determine-host-port-guids-task.html"
         - title: 서브넷 관리자를 구성합니다
           url: "/config-linux/iser-ib-configure-subnet-manager-task.html"
         - title: 호스트 유틸리티를 설치하고 구성합니다
@@ -234,6 +236,8 @@ sidebar:
           url: "/config-linux/srp-ib-verify-linux-config-support-task.html"
         - title: DHCP를 사용하여 IP 주소를 구성합니다
           url: "/config-linux/srp-ib-configure-ip-address-dhcp-task.html"
+        - title: 호스트 포트 GUID를 확인합니다
+          url: "/config-linux/srp-ib-determine-host-port-guids-task.html"
         - title: 서브넷 관리자를 구성합니다
           url: "/config-linux/srp-ib-configure-subnet-manager-task.html"
         - title: 호스트 유틸리티를 설치하고 구성합니다
@@ -246,8 +250,6 @@ sidebar:
           url: "/config-linux/srp-ib-configure-multipath-software-task.html"
         - title: multipath.conf 파일을 설정합니다
           url: "/config-linux/srp-ib-setup-multipath-conf-file-concept.html"
-        - title: 호스트 포트 GUID를 확인합니다
-          url: "/config-linux/srp-ib-determine-host-port-guids-task.html"
         - title: 네트워크 연결 구성 - Infiniband를 통한 SRP
           url: "/config-linux/srp-ib-configure-network-connections-task.html"
         - title: 파티션 및 파일 시스템을 생성합니다
@@ -266,6 +268,8 @@ sidebar:
           url: "/config-linux/nvme-ib-install-smcli-11-53-task.html"
         - title: SANtricity 시스템 관리자에 액세스하고 설치 마법사를 사용합니다
           url: "/config-linux/nvme-ib-access-sam-setup-wizard-task.html"
+        - title: 호스트 포트 GUID를 확인하고 권장 설정을 지정합니다
+          url: "/config-linux/nvme-ib-determine-host-port-guids-task.html"
         - title: 서브넷 관리자를 구성합니다
           url: "/config-linux/nvme-ib-configure-subnet-manager-task.html"
         - title: 호스트 측에서 InfiniBand를 통해 NVMe를 설정합니다
@@ -288,7 +292,7 @@ sidebar:
           url: "/config-linux/nvme-ib-access-physical-targets-concept.html"
         - title: 파일 시스템 생성(RHEL 7 및 SLES 12)
           url: "/config-linux/nvme-ib-create-filesystems-sles-12-task.html"
-        - title: 파일 시스템 생성(RHEL 8 및 SLES 15)
+        - title: 파일 시스템 생성(RHEL 8, RHEL 9 및 SLES 15)
           url: "/config-linux/nvme-ib-create-filesystems-sles-15-task.html"
         - title: 호스트에서 스토리지 액세스를 확인합니다
           url: "/config-linux/nvme-ib-verify-storage-access-host-task.html"
@@ -326,7 +330,7 @@ sidebar:
           url: "/config-linux/nvme-roce-access-physical-targets-concept.html"
         - title: 파일 시스템 생성(RHEL 7 및 SLES 12)
           url: "/config-linux/nvme-roce-create-filesystems-sles-12-task.html"
-        - title: 파일 시스템 생성(RHEL 8 및 SLES 15)
+        - title: 파일 시스템 생성(RHEL 8, RHEL 9 및 SLES 15)
           url: "/config-linux/nvme-roce-create-filesystems-sles-15-task.html"
         - title: 호스트에서 스토리지 액세스를 확인합니다
           url: "/config-linux/nvme-roce-verify-storage-access-host-task.html"
@@ -358,8 +362,10 @@ sidebar:
           url: "/config-linux/nvme-fc-access-virtual-targets-concept.html"
         - title: 물리적 장치 타겟에 대한 NVMe 볼륨에 액세스합니다
           url: "/config-linux/nvme-fc-access-physical-targets-concept.html"
-        - title: 파티션 및 파일 시스템을 생성합니다
-          url: "/config-linux/nvme-fc-create-partition-files-task.html"
+        - title: 파일 시스템 생성(RHEL 7 및 SLES 12)
+          url: "/config-linux/nvme-fc-create-filesystems-sles-12-task.html"
+        - title: 파일 시스템 생성(RHEL 8, RHEL 9 및 SLES 15)
+          url: "/config-linux/nvme-fc-create-filesystems-sles-15-task.html"
         - title: 호스트에서 스토리지 액세스를 확인합니다
           url: "/config-linux/nvme-fc-verify-storage-access-host-task.html"
         - title: Linux용 NVMe over Fibre Channel 워크시트

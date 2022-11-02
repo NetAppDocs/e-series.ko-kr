@@ -15,8 +15,8 @@ EF300 스토리지의 드라이브를 교체할 수 있습니다.
 
 EF300은 24개 드라이브 및 60개 드라이브 쉘프를 통해 SAS 확장을 지원합니다. 다음 절차는 24-드라이브 쉘프인지 60-드라이브 쉘프인지에 따라 다릅니다.
 
-* <<Replace drive in an EF300 (24-drive shelf)>>
-* <<Replace drive in an EF300 (60-drive shelf)>>
+*  drive in an EF300 (24-drive shelf)
+*  drive in an EF300 (60-drive shelf)
 
 
 

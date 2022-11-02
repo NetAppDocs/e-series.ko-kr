@@ -139,7 +139,7 @@ CAUTION: 전원 캐니스터를 시스템에 밀어 넣을 때 과도한 힘을 
 .단계
 . 새 전원 캐니스터에서 녹색 전원 LED가 켜져 있고 황색 주의 LED가 꺼져 있는지 확인합니다.
 . SANtricity 시스템 관리자의 Recovery Guru에서 * Recheck * 를 선택하여 문제가 해결되었는지 확인합니다.
-. 결함이 있는 전원 캐니스터가 여전히 보고되면 의 단계를 반복합니다 <<Step 2: Remove failed power canister>> 및 IN <<Step 3: Install new power canister>>. 문제가 지속되면 기술 지원 팀에 문의하십시오.
+. 결함이 있는 전원 캐니스터가 여전히 보고되면 의 단계를 반복합니다  2: Remove failed power canister 및 IN  3: Install new power canister. 문제가 지속되면 기술 지원 팀에 문의하십시오.
 . 정전기 방지 장치를 제거합니다.
 . SANtricity 시스템 관리자를 사용하여 스토리지 어레이에 대한 지원 데이터를 수집합니다.
 +

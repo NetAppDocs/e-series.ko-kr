@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: replace EF300 SAS expansion card, replacing SAS card, drive tray expansion, expansion card 
 summary: EF300 SAS 확장 카드를 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오. 
 ---
-= EF300 SAS 확장 카드 교체 요구 사항
+= EF300 및 EF600 SAS 확장 카드 교체 요구사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SAS 확장 카드를 EF300에 추가하려는 경우 다음 요구 사항을 검토하십시오.
+EF300 또는 EF600에 SAS 확장 카드를 추가하려는 경우 다음 요구사항을 검토하십시오.
 
 * 을 따라야 합니다 link:../install-hw-ef600/index.html["EF300 및 EF600 스토리지 시스템 설치 및 설정"] 를 눌러 컨트롤러를 설정합니다.
 * 펌웨어를 최신 버전으로 업데이트해야 합니다. 펌웨어를 업데이트하려면 의 지침을 따르십시오 link:../upgrade-santricity/index.html["SANtricity OS 업그레이드 중"].

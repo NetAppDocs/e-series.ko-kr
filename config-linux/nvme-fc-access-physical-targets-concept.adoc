@@ -13,26 +13,20 @@ summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출
 [role="lead"]
 사용 중인 OS 및 확장 경로 다중화 방법에 따라 디바이스 타겟에 대한 입출력을 구성할 수 있습니다.
 
-RHEL 8 및 SLES 15의 경우, I/O는 Linux 호스트가 물리적 NVMe 장치 타겟으로 지정합니다. 기본 NVMe 다중 경로 솔루션은 호스트에서 표시되는 분명한 단일 물리적 장치의 물리적 경로를 관리합니다.
+RHEL 8, RHEL 9 및 SLES 15의 경우, I/O는 Linux 호스트가 물리적 NVMe 장치 타겟으로 지정합니다. 기본 NVMe 다중 경로 솔루션은 호스트에서 표시되는 분명한 단일 물리적 장치의 물리적 경로를 관리합니다.
 
-/dev/nvme0n1 대신 /dev/disk/by-id/의 링크를 사용하는 것이 좋습니다. 예를 들면 다음과 같습니다.
-
-[listing]
-----
-# ls /dev/disk/by-id/ -l lrwxrwxrwx 1 root root 13 Oct 18 15:14
-nvme-eui.0000320f5cad32cf00a0980000af4112 -> ../../nvme0n1
-----
 
 
 == 물리적 NVMe 장치는 I/O 타겟입니다
 
-물리적 NVMe 장치 경로에 대한 I/O를 실행합니다. 다음 형식을 사용하여 각 네임스페이스에 대해 이러한 디바이스 중 하나만 있어야 합니다.
+의 링크에 대한 I/O를 실행하는 것이 가장 좋습니다 `/dev/disk/by-id/nvme-eui.[uuid#]` 물리적 NVMe 장치 경로로 직접 이동하는 것이 아니라 `/dev/nvme[subsys#]n[id#]`. 이러한 두 위치 간의 링크는 다음 명령을 사용하여 찾을 수 있습니다.
 
 [listing]
 ----
-/dev/nvme[subsys#]n[id#]
+# ls /dev/disk/by-id/ -l
+lrwxrwxrwx 1 root root 13 Oct 18 15:14 nvme-eui.0000320f5cad32cf00a0980000af4112 -> ../../nvme0n1
 ----
-모든 경로는 이 장치 아래에 있는 기본 다중 경로 솔루션을 사용하여 가상화됩니다.
+I/O가 에 실행됩니다 `/dev/disk/by-id/nvme-eui.[uuid#]` 을 통해 직접 전달됩니다 `/dev/nvme[subsys#]n[id#]` 기본 NVMe 다중 경로 솔루션을 사용하여 모든 경로를 이 경로 아래에서 가상화했습니다.
 
 다음을 실행하여 경로를 볼 수 있습니다.
 

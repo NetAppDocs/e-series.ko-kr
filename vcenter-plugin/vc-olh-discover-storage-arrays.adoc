@@ -24,9 +24,9 @@ vCenter용 저장소 플러그인에서 저장소 리소스를 표시하고 관�
 
 스토리지 검색은 다단계 절차입니다.
 
-* <<Step 1: Enter network addresses for discovery>>
-* <<Step 2: Resolve untrusted certificates during discovery>>
-* <<Step 3: Provide passwords>>
+*  1: Enter network addresses for discovery
+*  2: Resolve untrusted certificates during discovery
+*  3: Provide passwords
 
 
 
@@ -59,7 +59,7 @@ NOTE: 관리 가능한 어레이가 검색되지 않으면 스토리지 어레�
 시스템은 관리 도메인에 추가할 각 스토리지에 대해 자격 증명 검사를 수행합니다. 계속하기 전에 신뢰할 수 없는 인증서의 문제를 해결해야 할 수 있습니다.
 
 . 마법사의 다음 단계로 진행하려면 * Next * (다음 *)를 클릭합니다.
-. 스토리지 배열에 유효한 인증서가 있는 경우 로 이동합니다 <<Step 3: Provide passwords>>. 스토리지 배열에 유효한 인증서가 없는 경우 자체 서명된 인증서 확인 대화 상자가 나타납니다. 로 이동합니다 <<Step 2: Resolve untrusted certificates during discovery>>. CA 서명 인증서를 가져오려면 검색 대화 상자에서 취소하고 로 이동합니다 link:vc-olh-import-certificates-for-arrays.html["스토리지에 대한 인증서를 가져옵니다"].
+. 스토리지 배열에 유효한 인증서가 있는 경우 로 이동합니다  3: Provide passwords. 스토리지 배열에 유효한 인증서가 없는 경우 자체 서명된 인증서 확인 대화 상자가 나타납니다. 로 이동합니다  2: Resolve untrusted certificates during discovery. CA 서명 인증서를 가져오려면 검색 대화 상자에서 취소하고 로 이동합니다 link:vc-olh-import-certificates-for-arrays.html["스토리지에 대한 인증서를 가져옵니다"].
 
 
 

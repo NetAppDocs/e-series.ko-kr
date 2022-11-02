@@ -24,8 +24,8 @@ vCenter Server Appliance에서 플러그인을 제거하고 애플리케이션 �
 
 vCenter Server Appliance에서 플러그인 등록을 취소하려면 다음 방법 중 하나를 선택합니다.
 
-* <<Method 1: Execute the registration script>>
-* <<Method 2: Use the vCenter Server Mob pages>>
+*  1: Execute the registration script
+*  2: Use the vCenter Server Mob pages
 
 
 

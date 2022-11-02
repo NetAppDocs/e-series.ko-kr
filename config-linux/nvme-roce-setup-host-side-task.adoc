@@ -13,7 +13,7 @@ summary: RoCE 환경의 NVMe 이니시에이터 구성에는 RDMA 코어 및 NVM
 [role="lead"]
 RoCE 환경의 NVMe 이니시에이터 구성에는 RDMA 코어 및 NVMe-CLI 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다.
 
-RHEL 7, RHEL 8 및 최신 호환 SUSE Linux Enterprise Server 12 및 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
+호환되는 최신 RHEL 7, RHEL 8 및 RHEL 9 SUSE Linux Enterprise Server 12 및 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
 
 .단계
 . RDMA 및 NVMe-CLI 패키지를 설치합니다.
@@ -28,7 +28,7 @@ RHEL 7, RHEL 8 및 최신 호환 SUSE Linux Enterprise Server 12 및 15 서비�
 # zypper install nvme-cli
 ----
 +
-RHEL 7 또는 RHEL 8 *
+RHEL 7, RHEL 8 및 RHEL 9 *
 
 +
 [listing]
@@ -85,7 +85,7 @@ REMOTE_IPADDR=
 STARTMODE='auto'
 ----
 +
-RHEL 7 및 RHEL 8 *
+RHEL 7, RHEL 8 및 RHEL 9 *
 
 +
 다음 내용으로 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth4'를 생성합니다.

@@ -23,7 +23,7 @@ NOTE: 을 참조하십시오  https://mysupport.netapp.com/matrix["NetApp 상호
 
 
 
-RHEL 7 및 SLES 12는 NVMe over Infiniband를 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
+RHEL 7 및 SLES 12는 NVMe over Infiniband를 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL9 및 SLES 15에서 기본 제공되는 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
 
 
 
@@ -105,4 +105,4 @@ devices {
 
 
 
-NOTE: SLES 15의 경우 기본 NVMe 경로 다중화가 기본적으로 활성화되어 있으며 추가 구성이 필요하지 않습니다.
+NOTE: SLES 15 및 RHEL 9의 경우 기본 NVMe 다중 경로를 기본적으로 사용하며 추가 구성이 필요하지 않습니다.

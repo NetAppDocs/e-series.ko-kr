@@ -66,4 +66,4 @@ Manual(수동) 방법을 사용하면 볼륨 그룹을 구성하는 특정 드�
 . 표시된 드라이브 특성에 따라 볼륨 그룹에서 사용할 드라이브를 선택한 다음 * Create * 를 클릭합니다.
 
 
-표시되는 드라이브 특성은 자동 방법 또는 수동 방법을 선택했는지 여부에 따라 달라집니다.
+표시되는 드라이브 특성은 자동 방법 또는 수동 방법을 선택했는지 여부에 따라 달라집니다. 자세한 내용은 SANtricity 시스템 관리자 설명서를 참조하십시오. https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-volume-group.html["볼륨 그룹을 생성합니다"^].

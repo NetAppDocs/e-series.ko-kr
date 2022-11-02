@@ -36,8 +36,8 @@ HIC를 교체할 때 컨트롤러를 오프라인으로 전환하고 컨트롤�
 
 컨트롤러를 오프라인으로 전환하는 단계는 컨트롤러 1개(단일) 또는 컨트롤러 2개(이중)가 있는지 여부에 따라 다릅니다. 다음에 대한 적절한 지침으로 이동하십시오.
 
-* <<Duplex: Place controller offline>>
-* <<Simplex: Power down the controller shelf>>
+*  Place controller offline
+*  Power down the controller shelf
 
 
 

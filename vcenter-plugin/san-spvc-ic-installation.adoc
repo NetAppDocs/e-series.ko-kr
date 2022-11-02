@@ -23,12 +23,12 @@ vCenter용 Storage Plugin을 설치하고 플러그인 등록을 확인할 수 �
 
 시스템이 다음 요구사항을 충족하는지 확인하십시오.
 
-* VMware vCenter Server Appliance 지원 버전: 6.7U3J, 7.0U1 또는 7. 0U2
+* VMware vCenter Server Appliance 지원 버전: 6.7U3J, 7.0U1, 7.0U2, 7.0U3 및 8.0.
 * NetApp SANtricity OS 버전: 11.60.2 이상
-* 지원되는 애플리케이션 호스트 버전: Windows 2016 또는 Windows 2019
+* 지원되는 애플리케이션 호스트 버전: Windows 2016, Windows 2019, Windows 2022.
 * 호스트 시스템의 CPU 요구 사항:
 +
-** 시스템 메모리: 1.5GB
+** 시스템 메모리: 512MB
 ** 스토리지 공간: 275MB + 200MB(로깅)
 
 

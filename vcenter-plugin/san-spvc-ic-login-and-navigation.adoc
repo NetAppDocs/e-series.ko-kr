@@ -18,9 +18,9 @@ vCenter용 Storage Plugin에 로그인하여 사용자 인터페이스를 탐색
 
 . 플러그인에 로그인하기 전에 다음 브라우저 중 하나를 사용하고 있는지 확인합니다.
 +
-** Google Chrome 79 이상
-** Mozilla Firefox 70 이상
-** Microsoft Edge 79 이상
+** Google Chrome 89 이상
+** Mozilla Firefox 80 이상
+** Microsoft Edge 90 이상
 
 
 . 플러그인에 대한 읽기/쓰기 권한이 있는 사용자 계정으로 vSphere Client에 로그인합니다.
