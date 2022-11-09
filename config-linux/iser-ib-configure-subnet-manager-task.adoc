@@ -23,8 +23,8 @@ NOTE: 서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 �
 [listing]
 ----
 # ibstat -p
-0x248a070300a80a80
-0x248a070300a80a81
+ 0x248a070300a80a80
+ 0x248a070300a80a81
 ----
 . 부팅 프로세스의 일부로 한 번 실행되는 서브넷 관리자 스크립트를 생성합니다.
 +
@@ -52,7 +52,7 @@ opensm -B -g <GUID1> -p <P1> -f /var/log/opensm-ib1.log
 opensm -B -g 0x248a070300a80a80 -p 15 -f /var/log/opensm-ib0.log
 opensm -B -g 0x248a070300a80a81 -p 1 -f /var/log/opensm-ib1.log
 ----
-. 이름이 인 시스템 서비스 유닛 파일을 생성합니다 `subnet-manager.service`.
+. 이름이 인 시스템 서비스 유닛 파일을 생성합니다 `subnet-manager service`.
 +
 [listing]
 ----
@@ -78,7 +78,7 @@ WantedBy=multi-user.target
 ----
 # systemctl daemon-reload
 ----
-. 를 활성화하고 시작합니다 `subnet-manager` 서비스.
+. 를 활성화하고 시작합니다 `subnet manager service`.
 +
 [listing]
 ----
