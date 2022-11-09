@@ -8832,4 +8832,6 @@
   <block id="e2acb831b00c32f1c83710aa634a7625" category="admonition">IOM12B 모듈은 SANtricity OS 11.07.2 이상에서만 지원됩니다. IOM12B를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
   <block id="5dd94bd0b7c84a6ccc9fc7c3a1fa82e6" category="paragraph">InfiniBand-diags 패키지에는 각 InfiniBand(IB) 포트의 GUID(Globally Unique ID)를 표시하는 명령이 포함되어 있습니다. 포함된 패키지를 통해 지원되는 OFED/RDMA의 대부분의 Linux 배포판에는 HCA에 대한 정보를 표시하는 명령이 포함된 InfiniBand-DIAG 패키지도 포함되어 있습니다.</block>
   <block id="dfcfc178d6edc54d8706c59b747948d5" category="list-text">를 설치합니다<block ref="3b13fc847651d5be5c89aeab4722c099" prefix=" " category="inline-code"></block> 운영 체제의 패키지 관리 명령을 사용하여 패키지를 만듭니다.</block>
+  <block id="79c617afe97932f20f52d1217736d403" category="list-text">이름이 인 시스템 서비스 유닛 파일을 생성합니다<block ref="6bddfc9da80e7ef0195a324214877004" prefix=" " category="inline-code"></block>.</block>
+  <block id="d40e479d6bc1cf9824be2cfa7e837140" category="list-text">를 활성화하고 시작합니다<block ref="6b64648adbe124ad96531f7f0dd977a4" prefix=" " category="inline-code"></block> 서비스.</block>
 </blocks>
