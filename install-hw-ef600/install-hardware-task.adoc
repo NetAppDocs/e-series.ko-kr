@@ -13,6 +13,7 @@ summary: 2-포스트 랙 또는 NetApp 시스템 캐비닛에 EF300 또는 EF600
 [role="lead"]
 EF300 또는 EF600 스토리지 시스템을 2포스트 랙 또는 NetApp 시스템 캐비닛에 설치할 수 있습니다.
 
+.시작하기 전에
 EF300 또는 EF600 스토리지 시스템을 설치하기 전에 다음을 확인하십시오.
 
 * 에서 하드웨어를 등록하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"^].

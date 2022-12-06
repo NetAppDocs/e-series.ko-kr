@@ -45,6 +45,7 @@ SAS 케이블 *
 
 |===
 +
+.예 A: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 3개가 포함된 E5700 컨트롤러 쉘프
 image:../media/example_a_28_57.png[""]
 
 +
@@ -57,6 +58,7 @@ image:../media/example_a_28_57.png[""]
 
 
 +
+.예 B: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 1개가 있는 E5700 컨트롤러 쉘프
 image:../media/example_b_57_28.png[""]
 
 +

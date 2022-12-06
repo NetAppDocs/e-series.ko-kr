@@ -19,7 +19,7 @@ SANtricity 스토리지 관리자는 추가 관리 작업을 위한 CLI(Command 
 
 NOTE: SANtricity 소프트웨어 11.60 이상을 사용하는 경우 다음 단계를 수행할 필요가 없습니다. SANtricity 보안 CLI(SMcli)는 SANtricity OS에 포함되어 있으며 SANtricity 시스템 관리자를 통해 다운로드할 수 있습니다. SANtricity 시스템 관리자를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말의 _CLI(명령줄 인터페이스)_다운로드 항목을 참조하십시오.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * SANtricity 소프트웨어 11.53 이전 버전.
 * 올바른 관리자 또는 고급 사용자 권한
 * 다음과 같은 최소 요구 사항이 있는 SANtricity Storage Manager 클라이언트용 시스템:

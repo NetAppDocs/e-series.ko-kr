@@ -24,18 +24,18 @@ summary: 하드웨어를 랙에 장착합니다.
 
 
 
-== 2-포스트 랙 - 2U
+== 2-포스트 랙 -- 2U
 
 액세스 https://mysupport.netapp.com/ecm/ecm_download_file/ECMM1280302["2-포스트 랙에 2U 장비 설치"^].
 
 
 
-== 4-포스트 랙 또는 캐비닛 - 2U
+== 4-포스트 랙 또는 캐비닛 -- 2U
 
 액세스 https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2484194["4-포스트 랙 또는 캐비닛에 2U 12 드라이브 엔클로저 설치"^].
 
 
 
-== 4-포스트 랙 - SuperRail
+== 4-포스트 랙 -- SuperRail
 
 액세스 https://docs.netapp.com/us-en/ontap-systems/platform-supplemental/superrail-install.html["4-포스트 랙에 SuperRail 설치(DE224C/DE460C 쉘프)"^].

@@ -30,6 +30,7 @@ SSD Cache Settings 대화상자가 나타납니다.
 . SSD Cache 설정을 적절하게 검토 또는 편집합니다.
 +
 .필드 세부 정보
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

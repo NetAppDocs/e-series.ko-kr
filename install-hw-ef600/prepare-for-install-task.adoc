@@ -13,6 +13,7 @@ summary: EF300 또는 EF600을 설치하려면 계정을 생성하고 하드웨�
 [role="lead"]
 EF300 또는 EF600 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.
 
+.시작하기 전에
 SAS 확장을 위해 EF300을 케이블로 연결하는 경우 다음 정보를 검토하십시오.
 
 * link:../maintenance-ef600/sas-add-supertask-task.html["SAS 확장 카드를 추가합니다"^] SAS 확장 카드 설치용.

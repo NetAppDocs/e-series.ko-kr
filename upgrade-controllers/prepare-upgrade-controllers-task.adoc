@@ -159,4 +159,5 @@ NOTE: SAML이 활성화된 후에는 SANtricity 시스템 관리자 인터페이
 
 
 
+.다음 단계
 로 이동합니다 link:remove-controllers-task.html["컨트롤러를 제거합니다"].

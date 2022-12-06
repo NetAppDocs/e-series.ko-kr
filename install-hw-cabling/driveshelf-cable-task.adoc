@@ -63,6 +63,7 @@ image::../media/60_cabling.png[60 케이블 연결]
 
 다음 정보는 EF300 또는 EF600 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460 드라이브 쉘프에 연결하는 데 적용됩니다.
 
+.시작하기 전에
 EF300 또는 EF600을 케이블로 연결하기 전에 펌웨어를 최신 버전으로 업데이트해야 합니다. 펌웨어를 업데이트하려면 의 지침을 따르십시오 link:../upgrade-santricity/index.html["SANtricity OS 업그레이드 중"^].
 
 

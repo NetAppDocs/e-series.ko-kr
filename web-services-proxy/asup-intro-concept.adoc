@@ -106,7 +106,7 @@ AutoSupport 기능은 웹 서비스 프록시를 처음 설치하는 동안 활�
 아래 단계에 설명된 대로 ASUPConfig.xml 파일을 통해 AutoSupport를 활성화하거나 비활성화할 수 있습니다. 또는 * 구성 * 및 * POST/ASUP * 를 사용하여 API를 통해 이 기능을 활성화 또는 비활성화한 다음 "참" 또는 "거짓"을 입력할 수 있습니다.
 
 . 작업 디렉터리에서 ASUPConfig.xml 파일을 엽니다.
-. "<asupdata enabled="(Boolean)" timestamp=>"에 대한 줄을 찾습니다
+. <asupdata enable="Boolean_value" timestamp="timestamp">의 행을 찾습니다
 . TRUE(활성화) 또는 FALSE(비활성화)를 입력합니다. 예를 들면 다음과 같습니다.
 +
 [listing]

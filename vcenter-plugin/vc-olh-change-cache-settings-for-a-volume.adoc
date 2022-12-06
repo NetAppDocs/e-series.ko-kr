@@ -17,6 +17,7 @@ keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter
 [role="lead"]
 읽기 캐시 및 쓰기 캐시 설정을 변경하여 볼륨의 전체 I/O 성능에 영향을 줄 수 있습니다.
 
+.이 작업에 대해
 볼륨에 대한 캐시 설정을 변경할 때 다음 지침을 염두에 두십시오.
 
 * 캐시 설정 변경 대화 상자를 연 후 선택한 캐시 속성 옆에 아이콘이 표시될 수 있습니다. 이 아이콘은 컨트롤러의 캐싱 작업이 일시적으로 중단되었음을 나타냅니다. 이 동작은 새 배터리가 충전 중이거나 컨트롤러가 분리되었거나 컨트롤러에서 캐시 크기가 일치하지 않는 경우 발생할 수 있습니다. 조건이 지워지면 대화 상자에서 선택한 캐시 속성이 활성화됩니다. 선택한 캐시 속성이 활성화되지 않으면 기술 지원 부서에 문의하십시오.
@@ -33,6 +34,7 @@ keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter
 . 기본 * 탭을 선택하여 읽기 캐싱 및 쓰기 캐싱 설정을 변경합니다.
 +
 .필드 세부 정보
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -48,6 +50,7 @@ keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter
 . 고급 * 탭을 선택하여 일반 볼륨의 고급 설정을 변경합니다. 고급 캐시 설정은 일반 볼륨에만 사용할 수 있습니다.
 +
 .필드 세부 정보
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

@@ -741,6 +741,8 @@ sidebar:
         url: "/vcenter-plugin/san-spvc-ic-overview.html"
       - title: 시작하십시오
         entries:
+        - title: 요구사항 검토
+          url: "/vcenter-plugin/san-spvc-ic-reqs.html"
         - title: 플러그인을 설치합니다
           url: "/vcenter-plugin/san-spvc-ic-installation.html"
         - title: 액세스 권한을 구성합니다

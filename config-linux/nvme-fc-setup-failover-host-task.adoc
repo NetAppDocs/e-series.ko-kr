@@ -13,12 +13,14 @@ summary: 페일오버를 실행하도록 호스트를 구성합니다.
 [role="lead"]
 스토리지 배열에 대한 중복 경로를 제공하기 위해 호스트에서 장애 조치를 실행하도록 구성할 수 있습니다.
 
+.필요한 것
 시스템에 필요한 패키지를 설치해야 합니다.
 
 * RHEL(Red Hat) 호스트의 경우 "rpm -q device-mapper-multipath"를 실행하여 패키지가 설치되어 있는지 확인합니다
 * SLES 호스트의 경우 'rpm-q multipath-tools'를 실행하여 패키지가 설치되어 있는지 확인합니다
 
 
+.이 작업에 대해
 RHEL 7 및 SLES 12는 NVMe over Fibre Channel을 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.
 
 
@@ -67,6 +69,7 @@ devices {
 
 == RHEL 8에 대한 기본 NVMe 다중 경로를 설정합니다
 
+.이 작업에 대해
 기본 NVMe Multipathing은 RHEL 8에서 기본적으로 비활성화되어 있으며 아래 단계를 사용하여 활성화해야 합니다.
 
 .단계

@@ -1,0 +1,73 @@
+---
+permalink: vcenter-plugin/san-spvc-ic-reqs.html 
+sidebar: sidebar 
+keywords: upgrade vCenter 
+summary: vCenter 플러그인의 설치 및 업그레이드 요구 사항 및 고려 사항 
+---
+= 설치 및 업그레이드 요구 사항 검토
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+vCenter용 SANtricity 스토리지 플러그인을 설치 또는 업그레이드하기 전에 설치 요구 사항 및 업그레이드 고려 사항을 검토하십시오.
+
+
+
+== 설치 요구 사항
+
+Windows 호스트 시스템에서 vCenter용 Storage Plugin을 설치 및 구성할 수 있습니다. 플러그인 설치에는 다음 요구 사항이 포함됩니다.
+
+[cols="35h,~"]
+|===
+| 요구 사항 | 설명 
+
+
+ a| 
+지원되는 버전
+ a| 
+* VMware vCenter Server Appliance 지원 버전: 6.7U3J, 7.0U1, 7.0U2, 7.0U3 및 8.0.
+* NetApp SANtricity OS 버전: 11.60.2 이상
+* 지원되는 애플리케이션 호스트 버전: Windows 2016, Windows 2019, Windows 2022.
+
+
+호환성에 대한 자세한 내용은 를 참조하십시오 http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
+
+
+ a| 
+다중 인스턴스
+ a| 
+Windows 호스트에 vCenter용 Storage Plugin 인스턴스를 하나만 설치할 수 있으며 하나의 vCSA에만 등록할 수 있습니다.
+
+
+
+ a| 
+용량 계획
+ a| 
+vCenter용 Storage Plugin을 실행하려면 실행 및 로깅을 위한 충분한 공간이 필요합니다. 시스템이 다음과 같은 사용 가능한 디스크 공간 요구 사항을 충족하는지 확인합니다.
+
+* 필요한 설치 공간 — 275MB
+* 스토리지 공간 — 275MB + 200MB(로깅)
+* 시스템 메모리 — 512MB
+
+
+
+
+ a| 
+라이센스
+ a| 
+vCenter용 Storage Plugin은 라이센스 키가 필요하지 않은 독립 실행형 무료 제품입니다. 그러나 해당 저작권 및 서비스 약관이 적용됩니다.
+
+|===
+
+
+== 업그레이드 고려 사항
+
+이전 버전에서 업그레이드하는 경우 업그레이드하기 전에 vCSA에서 플러그인을 등록 해제해야 합니다.
+
+* 업그레이드 중에는 플러그인의 이전 구성 설정 대부분이 보존됩니다. 이러한 설정에는 사용자 암호, 검색된 모든 스토리지 시스템, 서버 인증서, 신뢰할 수 있는 인증서 및 서버 런타임 구성이 포함됩니다.
+* 업그레이드 프로세스에서 * vcenter.properties* 파일이 보존되지 않으므로 업그레이드하기 전에 플러그 인을 등록 취소해야 합니다. 업그레이드가 완료되면 플러그인을 vCSA에 다시 등록할 수 있습니다.
+* 이전에 리포지토리에 로드된 모든 SANtricity OS 파일이 업그레이드 중에 제거됩니다.
+

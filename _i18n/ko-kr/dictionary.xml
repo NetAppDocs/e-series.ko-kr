@@ -2,16 +2,13 @@
 <blocks>
   <block id="50b44e77204c03afe37922911ec47676" category="summary">iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측과 호스트 측에서 네트워킹을 구성합니다. 그런 다음 IP 네트워크 연결을 확인합니다.</block>
   <block id="1073617cb349d634023f3f6c0c581f80" category="doc">iSCSI 관련 작업을 수행합니다</block>
-  <block id="7e43b51d16efc204bf64cbc8fd4839e4" category="section-title">1단계: 스위치를 구성합니다</block>
   <block id="3fc34abf379078547de4c6d755b1e4c5" category="paragraph">iSCSI에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.</block>
-  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">무엇을 &amp;#8217;필요로 할거야</block>
   <block id="d55a36a933d309c8f14fd52063711862" category="list-text">고가용성을 위한 2개의 별도 네트워크. iSCSI 트래픽을 분리하여 네트워크 세그먼트를 구분해야 합니다.</block>
   <block id="f63ed564dfb8701d9a01a826ed8b7184" category="list-text">하드웨어 흐름 제어 전송 및 수신 * 엔드 투 엔드 * 를 활성화했습니다.</block>
   <block id="8a15fc8cc90b121809398331bd4e3fcc" category="list-text">우선 순위 흐름 제어를 비활성화했습니다.</block>
   <block id="5c1f4c531be5dc78e029acb7423171cb" category="list-text">필요한 경우 점보 프레임을 사용하도록 설정합니다.</block>
   <block id="565c3a2d9c34937aa961e9ed85bb8ba7" category="admonition">컨트롤러의 스위치 포트에서는 포트 채널/LACP가 지원되지 않습니다. 호스트측 LACP는 권장되지 않습니다. 다중 경로가 동일한 이점 이상을 제공합니다.</block>
   <block id="fa1a4bd3bc0839afda794c9adf85f500" category="paragraph">스위치 공급업체의 설명서를 참조하십시오.</block>
-  <block id="bb5b71b867bf5283ded7116e41b2e1f0" category="section-title">2단계: 네트워킹 구성 - iSCSI VMware를 기반으로 합니다</block>
   <block id="664f6e0bf6d6470056c04546c10ee78f" category="paragraph">데이터 저장소 요구 사항에 따라 여러 가지 방법으로 iSCSI 네트워크를 설정할 수 있습니다. 사용자 환경에 가장 적합한 구성을 선택하는 방법은 네트워크 관리자에게 문의하십시오.</block>
   <block id="1040198bf6f7f968d14e3eb526c9e1f4" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 3단계의 단계를 완료하십시오.</block>
   <block id="0f2f72ef3f176b98134caf100a06cf5f" category="inline-link">VMware 구성 최대값</block>
@@ -22,7 +19,6 @@
   <block id="0995e93f2d32176a9594170326076188" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다.</block>
   <block id="4d58b104819df733df379625cb1928bb" category="paragraph">경로 다중화 구성이 양호한지 확인하려면 iSCSI 네트워크에 대해 여러 네트워크 세그먼트를 사용합니다. 한 네트워크 세그먼트의 각 어레이 컨트롤러에서 하나 이상의 호스트 측 포트와 하나 이상의 포트를 배치하고 다른 네트워크 세그먼트의 호스트 측 포트와 어레이 측 포트의 동일한 그룹을 배치합니다. 가능한 경우 여러 이더넷 스위치를 사용하여 추가적인 이중화를 제공합니다.</block>
   <block id="f15f906f7bea6ec29e2979d8f1f2fcfb" category="admonition">많은 네트워크 스위치는 IP 오버헤드를 위해 9,000바이트 이상으로 구성해야 합니다. 자세한 내용은 스위치 설명서를 참조하십시오.</block>
-  <block id="f7455ef6422846d98816708b27dee294" category="section-title">3단계: 스토리지 측 네트워킹 구성 - iSCSI, VMware</block>
   <block id="e416e1de0c9f752b24a207ee8a149921" category="paragraph">SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네트워킹을 구성합니다.</block>
   <block id="abd85d61e0ca502e115118b250b321b5" category="list-text">스토리지 어레이 컨트롤러 중 하나의 IP 주소 또는 도메인 이름입니다.</block>
   <block id="7da05d75fd1c28b0ff4d04d30f85aa5b" category="list-text">System Manager GUI, 즉 RBAC(역할 기반 액세스 제어) 또는 LDAP 및 디렉토리 서비스에 대한 암호는 스토리지 어레이에 대한 적절한 보안 액세스를 위해 구성됩니다. 액세스 관리에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.</block>
@@ -72,7 +68,6 @@
   <block id="6f16a33ada2180c9fa2760228064e1ba" category="paragraph">이 옵션을 선택한 다음 필드에 정적 주소를 입력합니다. IPv4의 경우 네트워크 서브넷 마스크 및 게이트웨이를 포함합니다. IPv6의 경우 라우팅 가능한 IP 주소와 라우터 IP 주소를 포함합니다.</block>
   <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">마침 * 을 클릭합니다.</block>
   <block id="ad3af221db79214a4f22ecdc2ee12d40" category="list-text">System Manager를 닫습니다.</block>
-  <block id="d6982b7cb99590941b0d9dd21f85a639" category="section-title">4단계: 호스트 측 네트워킹 구성 - 호스트 iSCSI</block>
   <block id="07400b5d0c1cefb8324f4f04590f28e5" category="paragraph">호스트 측에서 iSCSI 네트워킹을 구성하면 VMware iSCSI 이니시에이터가 스토리지와 세션을 설정할 수 있습니다.</block>
   <block id="f5462cfa22506eb86e8f76429c946a72" category="paragraph">호스트 측에서 iSCSI 네트워킹을 구성하는 이 빠른 방법에서는 ESXi 호스트가 스토리지에 대한 4개의 중복 경로를 통해 iSCSI 트래픽을 전송할 수 있습니다.</block>
   <block id="130f3b7858a2c31d31c7f3dcd0d7db98" category="paragraph">이 작업을 완료하면 호스트는 VMkernel 포트 및 두 VMNIC를 모두 포함하는 단일 vSwitch로 구성됩니다.</block>
@@ -85,7 +80,6 @@
   <block id="05b5dfc4fb1314c8f84b1aa1f6716ac8" category="list-text">iSCSI 트래픽에는 NIC 포트 2개를 사용합니다.</block>
   <block id="0e615d5b228749c24eb37ff17dbc56eb" category="list-text">vSphere Client 또는 vSphere 웹 클라이언트를 사용하여 호스트 측 구성을 수행합니다.</block>
   <block id="4f2551c8e6a460403dafc0762e48ee59" category="paragraph">인터페이스는 기능마다 다르며 정확한 워크플로도 다릅니다.</block>
-  <block id="bed1d6d39d380a9f84c5ba4b6c11a167" category="section-title">5단계: IP 네트워크 연결 확인 - 호스트 iSCSI, VMware</block>
   <block id="1ff0b97fd27edfb22e4024dee03fa784" category="paragraph">ping 테스트를 사용하여 호스트와 어레이가 통신할 수 있는지 확인하여 IP(인터넷 프로토콜) 네트워크 연결을 확인합니다.</block>
   <block id="5b629af1ecdd34428fd106507876326b" category="list-text">호스트에서 점보 프레임이 활성화되었는지 여부에 따라 다음 명령 중 하나를 실행합니다.</block>
   <block id="581ea1ede625cccd9a92ad8ae6b9c322" category="list-text">점보 프레임이 활성화되어 있지 않으면 다음 명령을 실행합니다.</block>
@@ -127,7 +121,6 @@
   <block id="1370546e4641b1ed39f05dc4be11d6dc" category="paragraph">이렇게 하려면 볼륨이 VMFS(Virtual Machine File System) 데이터 저장소로 사용되거나 RDM(Raw Device Mapping)으로 사용하기 위해 VM에 직접 매핑되었는지 확인합니다.</block>
   <block id="4182da09b2e38e1306891b2c7db5433d" category="summary">SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 권장 설정을 구성합니다.</block>
   <block id="782074a892923ea9433c10e2d684625e" category="doc">SAS 관련 작업을 수행합니다</block>
-  <block id="31e25a16522d6e2086ecfa78b4821b3c" category="section-title">1단계: SAS 호스트 식별자 확인 - N. VMware</block>
   <block id="e987e7fa5c9abc75335a066329ba6eaa" category="paragraph">HBA 유틸리티를 사용하여 SAS 주소를 찾은 다음 HBA BIOS를 사용하여 적절한 구성 설정을 수행합니다.</block>
   <block id="b769f2f457baf26b76c0285eaf26cac1" category="paragraph">HBA 유틸리티에 대한 지침을 검토합니다.</block>
   <block id="4191e9e13f8a201f560ff4eb7e03a2b8" category="list-text">대부분의 HBA 공급업체는 HBA 유틸리티를 제공합니다.</block>
@@ -262,7 +255,6 @@
   <block id="7c7869777c18f39124da389c81664a9e" category="list-text">첫 번째 호스트 이니시에이터 포트를 포함하고 이니시에이터와 동일한 FC 스위치에 연결되는 모든 타겟 포트를 포함하는 새 존을 생성합니다.</block>
   <block id="1088b852c25195807c415eebd5e3c772" category="list-text">스위치에서 각 FC 호스트 이니시에이터 포트에 대해 추가 존 생성</block>
   <block id="38b2faff78c86d10664d04002c0e6d64" category="list-text">영역을 저장한 다음 새로운 조닝 구성을 활성화합니다.</block>
-  <block id="1a1c52b433357855334fa98cf2fbdd0f" category="section-title">2단계: 호스트 포트 WWPN 확인 - NVMe/FC VMware</block>
   <block id="47fe6177a7ca4fc05ab663890e75ee90" category="paragraph">FC 조닝을 구성하려면 각 이니시에이터 포트의 WWPN(Worldwide Port Name)을 확인해야 합니다.</block>
   <block id="f33f5a2f363be35d2aef36d0895f8c7d" category="list-text">SSH 또는 ESXi 셸을 사용하여 ESXi 호스트에 연결합니다.</block>
   <block id="337d79852891a37d41285c9101c3fff4" category="list-text">다음 명령을 실행합니다.</block>
@@ -294,9 +286,7 @@
   <block id="16e885987fa556e8919fa293fb8ba6ee" category="section-title">호스트 매핑 중</block>
   <block id="dc9a3adad931bcc95bb908edc1ca137c" category="summary">Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 결정합니다.</block>
   <block id="500f35e1a49050d329695333eb443f53" category="doc">FC 관련 작업을 수행합니다</block>
-  <block id="6e7cc21a437cf9286fc0875901a94774" category="section-title">1단계: FC 스위치 구성 - VMware</block>
   <block id="2996f0172f73e90304548255cfe1f7b8" category="paragraph">FC(Fibre Channel) 스위치를 구성(조닝)하면 호스트가 스토리지에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.</block>
-  <block id="00f995e1d9cfe3e72e90c3642382bae8" category="section-title">2단계: 호스트 포트 WWPN 확인 - 호스트 포트 번호</block>
   <block id="937eaba2c714abd2c87056b5288c7f8f" category="section-title">3단계: 구성을 기록합니다</block>
   <block id="272063612c247d680dc6dcce09f932e0" category="paragraph">이 페이지의 PDF를 생성하여 인쇄한 다음 다음 다음 워크시트를 사용하여 FC 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.</block>
   <block id="600c6d3fd1229d63ffae79514c2f27e3" category="summary">SANtricity 시스템 관리자의 설정 마법사를 사용하여 스토리지 배열을 구성합니다.</block>
@@ -824,31 +814,14 @@
   <block id="9fb794be4150b7763c0a4833d06c9e31" category="list-text">* 인증서 관리 * – 브라우저와 클라이언트 간 인증을 위해 인증서를 관리합니다.</block>
   <block id="b2a734e63e69490e094f416eda4eeb72" category="list-text">* Operations * – 한 어레이에서 다른 어레이로 설정을 가져오는 등의 배치 작업 진행률을 봅니다.</block>
   <block id="c39f2962708144021250f1c1774ee46b" category="list-text">* 지원 * – 기술 지원 옵션, 리소스 및 연락처를 볼 수 있습니다.</block>
-  <block id="4f5e7bcbe41e887700d69a7347fc4ec4" category="summary">vCenter용 SANtricity 스토리지 플러그인을 설치합니다.</block>
-  <block id="480dbff7fe3f36c7e40bb55917ce4363" category="doc">vCenter용 Storage Plugin을 설치합니다</block>
-  <block id="b343a8501c81a39ccd85e7ffcb042c9a" category="paragraph">vCenter용 Storage Plugin을 설치하고 플러그인 등록을 확인할 수 있습니다.</block>
   <block id="f648da22c98e52c918faa560efe4f898" category="section-title">설치 사전 요구 사항을 검토합니다</block>
-  <block id="3f2d2f00d799dde329a804cc37f26a7c" category="paragraph">시스템이 다음 요구사항을 충족하는지 확인하십시오.</block>
   <block id="2ce43ab0f5d314b47dd9cb618dcc2844" category="list-text">NetApp SANtricity OS 버전: 11.60.2 이상</block>
-  <block id="85826baa206c427868f3feaff8a9870b" category="list-text">호스트 시스템의 CPU 요구 사항:</block>
-  <block id="567b36d352655c36a5a725d1ebf33c0f" category="list-text">스토리지 공간: 275MB + 200MB(로깅)</block>
   <block id="dc7364d3899f846fdf1224ed73fd1f69" category="section-title">플러그인 소프트웨어를 설치합니다</block>
   <block id="77ceebed4c1a4af4acd87fb741a6c682" category="paragraph">플러그인 소프트웨어를 설치하려면:</block>
   <block id="96de9428e796ae7fd12aa7eb5f8c47eb" category="list-text">설치 관리자 파일을 응용 프로그램 서버로 사용할 호스트에 복사한 다음 설치 프로그램을 다운로드한 폴더에 액세스합니다.</block>
   <block id="5615a5290f7916cea22366db3afe36ca" category="list-text">설치 파일을 두 번 클릭합니다.</block>
   <block id="7bf75a37617fe76a3416d2424deced05" category="paragraph">'S antricity_storage_vcenterplugin-windows_x64--nn.nn.nn.nnnn.exe'</block>
   <block id="01eb9f6780fbba151f0f50844a4c1df7" category="paragraph">위 파일 이름에서 ' nn.nn.nn.nnnn'은 버전 번호를 나타냅니다.</block>
-  <block id="7cfae2e1d2ea7368589cf5db38e58545" category="list-text">설치가 시작되면 화면에 나타나는 지침을 따릅니다.</block>
-  <block id="0a15cde063d5ad5f4517618505eec23e" category="paragraph">설치하는 동안 일부 구성 매개 변수를 입력하라는 메시지가 표시됩니다.</block>
-  <block id="d820ee7ec02fc2a6d8be199849df9b2f" category="list-text">첫 번째 화면에서 소프트웨어에 사용할 언어를 선택하고 * 확인 * 을 클릭합니다.</block>
-  <block id="b989796b66ff1d9406ec1c531d469666" category="list-text">소개 화면에서 * 다음 * 을 클릭합니다.</block>
-  <block id="325b33ff6ecded6095d73d040e6a1fea" category="list-text">저작권 화면에서 * 다음 * 을 클릭합니다.</block>
-  <block id="5c8aa03abd50920e0f0c126d643020ea" category="list-text">사용권 계약 화면에서 약관에 동의하는 확인란을 선택한 후 * 다음 * 을 클릭합니다.</block>
-  <block id="0b231efa0d0ec3e7d3e43cf4892ac5bf" category="list-text">소프트웨어를 설치할 폴더를 선택한 후 * 다음 * 을 클릭합니다.</block>
-  <block id="184a98dbb91e62e80b288dedf3c5a47b" category="list-text">플러그인과 스토리지 배열 간에 인증서 유효성 검사를 적용하려면 인증서 유효성 검사 화면에서 확인란을 선택한 상태로 유지합니다. 이렇게 하면 스토리지 배열 인증서가 플러그인에 대해 신뢰되도록 확인됩니다. 인증서를 신뢰할 수 없는 경우 플러그인에 인증서를 추가할 수 없습니다. 인증서 유효성 검사를 재정의하려면 자체 서명된 인증서를 사용하여 모든 스토리지 어레이를 플러그인에 추가할 수 있도록 확인란을 선택 취소합니다. 다음 * 을 클릭합니다.</block>
-  <block id="330978dd5354b46e213f942edf959eb0" category="paragraph">인증서에 대한 자세한 내용은 플러그인 인터페이스에서 사용할 수 있는 온라인 도움말을 참조하십시오.</block>
-  <block id="9cae702ab26aef3182168c3ef66b420a" category="list-text">HTTPS 웹 서비스 포트 화면에서 기본값을 8445로 그대로 두거나 필요한 경우 포트 번호를 변경합니다. 다음 * 을 클릭합니다.</block>
-  <block id="116a92bc310fb5fa8eacab83ecfddf66" category="list-text">사전 설치 요약 화면에서 * 다음 * 을 클릭하여 파일을 설치합니다.</block>
   <block id="9964b55b18c628445831aa8f480ccdc5" category="list-text">Webserver Started 메시지가 나타나면 * OK * 를 클릭하여 설치를 완료합니다.</block>
   <block id="e13a15252a4dbf9779c44afe477e3343" category="list-text">완료 * 를 클릭합니다.</block>
   <block id="4f64b1596007c92e3ab2a4bf215f3ab0" category="admonition">필요한 경우 설치 후 인증서 유효성 검사 및 웹 서비스 포트 설정을 변경할 수 있습니다. 설치 디렉터리에서 wsconfig.xml 파일을 엽니다. 스토리지 배열에서 인증서 유효성 검사를 제거하려면 env 키 trust.all.arrays를 true로 변경합니다. 웹 서비스 포트를 변경하려면 'slport' 값을 0에서 65535 사이의 원하는 포트 값으로 수정합니다. 사용된 포트 번호가 다른 프로세스에 바인딩되어 있지 않은지 확인합니다. 완료되면 변경 사항을 저장하고 플러그인 웹 서버를 다시 시작합니다. 플러그인을 vCSA에 등록한 후 플러그인 웹 서버의 포트 값이 변경되면 vCSA가 변경된 포트에서 플러그인 웹서버로 통신하도록 플러그인을 등록 취소하고 다시 등록해야 합니다.</block>
@@ -856,7 +829,6 @@
   <block id="220cd7bbad8213b2212fe72d054af003" category="list-text">VCP(Application Server) 서비스 * vCenter * 용 NetApp SANtricity 스토리지 플러그인 이 설치되어 있고 서비스가 시작되었는지 확인합니다.</block>
   <block id="dd0f5711b4dbdc0f95aaf96b06c2d059" category="section-title">vCenter Server Appliance에 플러그인을 등록합니다</block>
   <block id="73d0e801912fc9ea82e6f5937e17c0cc" category="paragraph">플러그인 소프트웨어가 설치되면 vCSA에 플러그인을 등록합니다.</block>
-  <block id="145e65fcacf3fc703ceb2a4eaedbf1c9" category="admonition">플러그인은 한 번에 하나의 vCSA에만 등록할 수 있습니다. 다른 vCSA에 등록하려면 현재 vCSA에서 플러그인 등록을 해제하고 애플리케이션 호스트에서 제거해야 합니다. 그런 다음 플러그인을 다시 설치하고 다른 vCSA에 등록할 수 있습니다.</block>
   <block id="865ac329a03e52758709c3e8d2a3b6ee" category="list-text">명령줄을 통해 프롬프트를 열고 다음 디렉토리로 이동합니다.</block>
   <block id="e198063891afa31e40cd534993e8bc3f" category="paragraph">"&lt;설치 디렉토리&gt;\vcenter-register\bin"</block>
   <block id="6bb899b55f01bce9e8af1c2f60672bc3" category="list-text">vcenter-register.bat * 파일: 'vcenter-register.bat^ - action registerPlugin^ - vcenter Hostname &lt;vcenter FQDN&gt;^ - username &lt;Administrator username&gt;^'을 실행합니다</block>
@@ -1245,12 +1217,9 @@
   <block id="3cd5d491ea9bf0d29c5ab9adf78cb96c" category="list-text">드라이브 트레이를 켠 후 30초 동안 기다린 다음 캐비닛에 있는 모든 컨트롤러 드라이브 트레이에 대한 전원을 켭니다.</block>
   <block id="34a41d4e3b538464e1138ee17196dbda" category="paragraph">캐비닛 설치가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="44fc66161e7a43ac157626f024173dde" category="paragraph">iSCSI 프로토콜의 경우 스위치를 구성하고, 스토리지 측과 호스트 측에서 네트워킹을 구성한 다음 IP 네트워크 연결을 확인합니다.</block>
-  <block id="e21c632eff4dcb4c33312f2048c1bdfd" category="section-title">1단계: 스위치를 구성합니다(예: iSCSI, Windows)</block>
   <block id="9c8c6bc1dd1c6a33336d55ccb262a475" category="list-text">고가용성을 위한 2개의 별도 네트워크. VLAN 또는 두 개의 별도 네트워크를 사용하여 iSCSI 트래픽을 분리하여 네트워크 세그먼트를 구분해야 합니다.</block>
-  <block id="96d6d5da6e7c9c318bc8a1f7571ca765" category="section-title">2단계: 네트워킹 구성 — iSCSI 창을 나타냅니다</block>
   <block id="7a0cbf02537e0c5675240097a5e290c6" category="paragraph">기본 이중화를 사용하여 iSCSI 네트워크를 구성하는 효과적인 전략은 각 호스트 포트와 각 컨트롤러에서 포트 하나를 개별 스위치에 연결하고 VLAN을 사용하여 개별 네트워크 세그먼트에서 각 호스트 및 컨트롤러 포트 세트를 분할하는 것입니다.</block>
   <block id="193ade8f53ce0d3769717269d5021a04" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 3단계의 절차를 완료하십시오.</block>
-  <block id="71aa525f4580797cdff57e0dd639aa22" category="section-title">3단계: 어레이 측 네트워킹 구성 - Windows에 대한 iSCSI</block>
   <block id="7a44acba5c86f8f1ca8ef18dcb107358" category="list-text">스토리지 어레이에 대한 적절한 보안 액세스를 위해 구성된 System Manager GUI, 즉 역할 기반 액세스 제어(RBAC) 또는 LDAP 및 디렉토리 서비스에 대한 암호입니다. 액세스 관리에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.</block>
   <block id="79ea1ff8d5f0ec26c8c8cc72a7085a20" category="list-text">관리자 암호 설정 및 암호 확인 필드에 관리자 역할에 대한 System Manager 암호를 입력한 다음 * 암호 설정 * 버튼을 선택합니다.</block>
   <block id="5967546ab7bb830bfd3596e874f087ef" category="paragraph">System Manager를 열고 풀, 볼륨 그룹, 워크로드 또는 알림이 구성되지 않은 경우 설정 마법사가 시작됩니다.</block>
@@ -1281,7 +1250,6 @@
   <block id="11067f76259f391bcf91a2a3d2955b1e" category="list-text">대상에 연결 * 대화 상자로 돌아갈 때 * 확인 * 을 다시 선택합니다.</block>
   <block id="385b4af64bde28fe3449616f51738066" category="list-text">설정할 스토리지 시스템에 대한 각 이니시에이터 포트 및 세션(논리 경로)에 대해 이 절차를 반복합니다.</block>
   <block id="15b6118a81aee81c1a1d53b3df6273bd" category="image-alt">82012 00)를 참조하십시오</block>
-  <block id="1d67ee0bcd66df5d64d6595ef7f9d10e" category="section-title">5단계: IP 네트워크 연결 확인 — 호스트 ID, Windows</block>
   <block id="e67855cd7e9b1c8568edde29dc1e19d1" category="list-text">메뉴: 시작 [모든 프로그램 &gt; 보조프로그램 &gt; 명령 프롬프트]를 선택한 다음 점보 프레임 활성화 여부에 따라 Windows CLI를 사용하여 다음 명령 중 하나를 실행합니다.</block>
   <block id="82b036dc1c9aac368948e60ed01a1cd4" category="list-text">점보 프레임이 활성화된 경우 페이로드 크기가 8,972바이트인 ping 명령을 실행합니다. IP 및 ICMP 결합된 헤더는 28바이트로, 페이로드에 추가되면 9,000바이트입니다. f 스위치는 Ddf(조각 안 함) 비트를 설정합니다. l 스위치를 사용하여 크기를 설정할 수 있습니다. 이러한 옵션을 사용하면 9,000바이트의 점보 프레임을 iSCSI 이니시에이터와 타겟 간에 성공적으로 전송할 수 있습니다.</block>
   <block id="36495d85fdafce51c0c18d44dc824473" category="list-text">각 호스트의 이니시에이터 주소(iSCSI에 사용되는 호스트 이더넷 포트의 IP 주소)에서 각 컨트롤러의 iSCSI 포트로 'ping' 명령을 실행합니다. 구성에 있는 각 호스트 서버에서 이 작업을 수행하고 필요에 따라 IP 주소를 변경합니다.</block>
@@ -1320,7 +1288,6 @@
   <block id="fe2b572228681d85876f1c2ffc7023a9" category="admonition">또는 SANtricity SMdevices 유틸리티를 사용하여 통합 호스트 유틸리티 도구와 동일한 기능을 수행할 수 있습니다. SMdevices 유틸리티는 SMutils 패키지의 일부로 포함되어 있습니다. SMutils 패키지는 호스트가 스토리지 배열에서 무엇을 볼 수 있는지 확인하는 유틸리티 모음입니다. SANtricity 소프트웨어 설치의 일부로 포함되어 있습니다.</block>
   <block id="135d30ad6d2da4597cfa1d9690fba47a" category="summary">SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 권장 설정을 구성합니다.</block>
   <block id="d723a375133225f8e40ad6de1d56e805" category="paragraph">SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 적절한 설정을 합니다.</block>
-  <block id="949def9e74c32b2d76220ef2a708fcd7" category="section-title">1단계: SAS 호스트 식별자 확인 - Windows</block>
   <block id="bfcd4b5a45e2121dd605c54a4da4bd65" category="paragraph">HBA 유틸리티를 사용하여 SAS 주소를 찾은 다음 HBA BIOS를 사용하여 적절한 구성 설정을 수행합니다.</block>
   <block id="c06b839abd65c201b1c005767294828c" category="list-text">대부분의 HBA 공급업체는 HBA 유틸리티를 제공합니다. 호스트 운영 체제 및 CPU에 따라 LSI-sas2flash(6G) 또는 sas3flash(12G) 유틸리티를 사용하십시오.</block>
   <block id="24e8d96ea66cd40afc07c55bd24a3685" category="list-text">HBA 공급업체의 웹 사이트에서 LSI-sas2flash(6G) 또는 sas3flash(12G) 유틸리티를 다운로드합니다.</block>
@@ -1358,9 +1325,7 @@
   <block id="89bbddc36b93eaee6f01e5b193630385" category="summary">Express 방법을 사용하여 E-Series 어레이 및 Windows 호스트를 설정하기 위한 요구사항을 검토합니다.</block>
   <block id="07a9ec56be1ccc7dee886d04a8fedcfe" category="paragraph">Windows express 방법은 다음과 같은 가정을 기반으로 합니다.</block>
   <block id="3e8e0dd8758b207f979965536754d298" category="list-text">Windows를 가상화된 게스트로 사용하고 있지 않습니다.</block>
-  <block id="2f04e704a7a815c0e774ed659cc504c3" category="section-title">1단계: FC 스위치 구성 - Windows</block>
   <block id="5192c4044ff1350931950a13c0344c96" category="paragraph">물리적 포트가 아닌 WWPN으로 영역을 지정해야 합니다. 각 이니시에이터 포트는 해당하는 모든 타겟 포트와 함께 별도의 존에 있어야 합니다. 스위치 조닝에 대한 자세한 내용은 스위치 공급업체의 설명서를 참조하십시오.</block>
-  <block id="cf835a04573e0610ec8897238c527f88" category="section-title">2단계: 호스트 WWPN을 확인하고 권장된 설정을 지정합니다</block>
   <block id="be45f039274998f659527af3c0750a6a" category="paragraph">각 호스트 포트의 WWPN(Worldwide Port Name)을 볼 수 있도록 FC HBA 유틸리티를 설치합니다. 또한 HBA 유틸리티를 사용하여 의 Notes(메모) 열에 권장된 설정을 변경할 수 있습니다<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="726ce1b88701f14ff4fb2f28e5be2a4c" category="paragraph">HBA 유틸리티에 대한 다음 지침을 검토하십시오.</block>
   <block id="93872d516824e8ba4bd0ef2fca5923bf" category="list-text">대부분의 HBA 공급업체는 HBA 유틸리티를 제공합니다. 호스트 운영 체제 및 CPU에 맞는 올바른 버전의 HBA가 필요합니다. FC HBA 유틸리티의 예는 다음과 같습니다.</block>
@@ -1503,10 +1468,6 @@
   <block id="a001f7630ca6df494681b2daba776c8b" category="admonition">실제 설치 및 전원 케이블 연결에 대한 전체 절차는 해당 모델의 설치 지침을 참조하십시오. 해당 모델의 설치 지침에는 드라이브 쉘프를 안전하게 설치하기 위해 고려해야 하는 참고 사항 및 경고가 포함되어 있습니다.</block>
   <block id="8e48f6475dbee2032869e2a0715b2460" category="list-text">새 드라이브 쉘프의 전원을 켜고 드라이브 쉘프에 있는 주황색 주의 LED가 켜져 있지 않은지 확인합니다. 가능한 경우 이 절차를 계속하기 전에 모든 고장 상태를 해결하십시오.</block>
   <block id="e741aab45a4bd68c7c79e39d156c970e" category="section-title">3단계: 시스템에 케이블을 연결합니다</block>
-  <block id="f56eb649ef27dab12f2b4eb0a88a0d8a" category="paragraph">E2800 및 E5700 스토리지 시스템의 케이블 연결 또는 EF300 스토리지 시스템의 케이블 연결 여부에 따라 다음 옵션 중 하나를 선택합니다.</block>
-  <block id="6d1579b454943360f37cf77c92fdbd30" category="list-text"><block ref="d2d4be73706180bc7597d299c249d866" category="inline-xref-macro-rx"></block></block>
-  <block id="73a1596c6d50d92b7125c8d88323bace" category="list-text"><block ref="307f269e3c3fe9adffe68a2a198897ec" category="inline-xref-macro-rx"></block></block>
-  <block id="9831b6f8d53301f978e5645721ea5cc8" category="section-title">옵션 1: E2800 및 E5700용 드라이브 쉘프 연결</block>
   <block id="628770b160427a4fb650a632638d7a51" category="paragraph">드라이브 쉘프를 컨트롤러 A에 연결하고 IOM 상태를 확인한 다음, 드라이브 쉘프를 컨트롤러 B에 연결합니다</block>
   <block id="37d23d5b85350384fbdd960e5a148cb3" category="list-text">드라이브 쉘프를 컨트롤러 A에 연결합니다</block>
   <block id="243467d3e3a9a5fe56202ff382d14981" category="paragraph">다음 그림은 추가 드라이브 쉘프와 컨트롤러 A 사이의 연결 예를 보여줍니다 모델에서 포트를 찾으려면 을 참조하십시오<block ref="5d49ffd87c57001d2b40191486fafc6a" category="inline-link-rx"></block>.</block>
@@ -1528,7 +1489,6 @@
   <block id="ebd1f3c2a319b70999092b11ab0edcb6" category="image-alt">뜨거운 e5700 2</block>
   <block id="7260d6d9ae9fe1625d41a3d42ae918f7" category="list-text">아직 선택하지 않은 경우 * Shelf Component Settings * 대화 상자에서 * ESM/IOMs * 탭을 선택한 다음 * Show More options * 를 선택합니다. 카드 통신이 * 예 * 인지 확인합니다.</block>
   <block id="1eae9337ad28fcd392d68a768a69a453" category="admonition">Optimal(최적) 상태는 새 드라이브 쉘프와 관련된 이중화 오류가 해결되었으며 스토리지 시스템이 안정화되었음을 나타냅니다.</block>
-  <block id="f4ff3b64fac713387048943adcb0bfb5" category="section-title">옵션 2: EF300용 드라이브 쉘프 연결</block>
   <block id="44358da7cef962731faab21103a86c3e" category="inline-link-macro">SANtricity OS 업그레이드 중</block>
   <block id="2e769f075fc7c30e7206b0cb5e2b8799" category="list-text">펌웨어를 최신 버전으로 업데이트했습니다. 펌웨어를 업데이트하려면 의 지침을 따르십시오 <block ref="bf6a098eae1df274d91ef498db89d4bb" category="inline-link-macro-rx"></block>.</block>
   <block id="65983bbf5ef58a0867c94fb0138a7307" category="list-text">스택의 이전 마지막 쉘프에서 IOM12 포트 1 및 2에서 A 측 컨트롤러 케이블을 모두 분리한 다음 새 쉘프 IOM12 포트 1 및 2에 연결합니다.</block>
@@ -3344,7 +3304,6 @@
   <block id="16b6379630c69eca65ed1fd0904bcefc" category="list-text">현재 설치된 컨트롤러 캐니스터와 부품 번호가 동일한 새 컨트롤러 캐니스터 (부품 번호를 확인하려면 1단계를 참조하십시오.)</block>
   <block id="fac8dec8997a2b6acc0da0c38c936391" category="list-text">ESD 밴드로 손목밴드를 착용하거나 기타 정전기 방지 조치를 취하십시오.</block>
   <block id="4ac60dfd435aae167fae752e804adc62" category="list-text">새 케이블을 식별하기 위한 레이블 호환 하드웨어에 대한 자세한 내용은 를 참조하십시오<block ref="a3e2ed1651134ba8d782e5dc8287cbc1" category="inline-link-rx"></block> 또는 을 누릅니다<block ref="654b66baa180d1959dc74b2dcae2e81b" category="inline-link-rx"></block>.</block>
-  <block id="57e1256d4794c404d0c7bcf46a11428e" category="section-title">1단계: 새 컨트롤러의 부품 번호를 확인합니다</block>
   <block id="189edd72c022821058abae88a6795697" category="paragraph">새 컨트롤러의 부품 번호가 현재 설치된 컨트롤러와 동일한지 확인합니다.</block>
   <block id="b116bbca7c5a236cab561a14348c06cc" category="image-alt">28 DWG e2800 라벨 유지보수 e2800</block>
   <block id="b6e156797ee2c8838880295fe99ef9f0" category="paragraph">* (1) * _MAC 주소: _ 관리 포트 1의 MAC 주소(""P1"). DHCP를 사용하여 원래 컨트롤러의 IP 주소를 얻은 경우 이 주소가 새 컨트롤러에 연결되어 있어야 합니다.</block>
@@ -4122,13 +4081,10 @@
   <block id="7a0a9c41b30d67f285b02b6001f734dc" category="list-text">DE1600 또는 DE5600</block>
   <block id="6f90f0e892dcbad9cc3c5c7a2f71e22a" category="list-text">E2612 또는 E2624</block>
   <block id="e58072e70303cdd370fa9dc168dfa8e8" category="list-text">E5412, E5424, E5512 또는 E5524</block>
-  <block id="10aa710125be51cc73af248b454958aa" category="section-title">2-포스트 랙 - 2U</block>
   <block id="6c9c9493e3710515edb0e087658e5c24" category="inline-link">2-포스트 랙에 2U 장비 설치</block>
   <block id="0413abfef8aae89542d15125dba4d96b" category="paragraph">액세스<block ref="fc9b704cab109303261cec9768bb3291" category="inline-link-rx"></block>.</block>
-  <block id="b3e8b82dc764d0e6bd4fd78c3ecd968d" category="section-title">4-포스트 랙 또는 캐비닛 - 2U</block>
   <block id="ae4141f22c2ed3b7878fa2ff3a1e6cfe" category="inline-link">4-포스트 랙 또는 캐비닛에 2U 12 드라이브 엔클로저 설치</block>
   <block id="5eba68d12705561c14a5cf782039d9a6" category="paragraph">액세스<block ref="790da98275795a97c8f97401754053cf" category="inline-link-rx"></block>.</block>
-  <block id="eef7cecc379e5c2c29880cbc37d1d2ad" category="section-title">4-포스트 랙 - SuperRail</block>
   <block id="10b221abe33d91a2165eab967641529e" category="inline-link">4-포스트 랙에 SuperRail 설치(DE224C/DE460C 쉘프)</block>
   <block id="a6d47447094eb5b7920c8d1f16d0d25d" category="paragraph">액세스<block ref="384159b715a893ce026df1e06010cefa" category="inline-link-rx"></block>.</block>
   <block id="9ec28cb381dd9edd5e1a4ad5641fba96" category="summary">호스트 인터페이스 카드\(HIC\)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
@@ -5122,9 +5078,7 @@
   <block id="c83a555962427b3fafdbf4afa3ef4e12" category="paragraph">하드웨어 리소스, 장애 데이터 및 펌웨어 업그레이드를 담당하는 사용자입니다. 이 사용자에게는 support.admin 및 storage.monitor 역할이 포함됩니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
   <block id="08b5411f848a2581a41672a759c87380" category="paragraph">모니터링</block>
   <block id="7190d6a7c60ba57f0e040dd38d0f3840" category="paragraph">시스템에 대한 읽기 전용 액세스 권한이 있는 사용자입니다. 이 사용자는 storage.monitor 역할만 포함합니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
-  <block id="038c0dc8a958ffea17af047244fb6960" category="paragraph">제공합니다</block>
   <block id="06389059e144364d36df5aa491caefa7" category="paragraph">RW(읽기/쓰기) 사용자에게는 storage.admin, support.admin, storage.monitor 등의 역할이 포함됩니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
-  <block id="3605c251087b88216c9bca890e07ad9c" category="paragraph">ro.(로</block>
   <block id="f3b685b126aa5da84d79a12555b91220" category="paragraph">ro(읽기 전용) 사용자에게는 storage.monitor 역할만 포함됩니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
   <block id="a7febdf14c9271294814ce07e57de3f2" category="section-title">암호 암호화</block>
   <block id="86e5da53020f59199dc5c88501bcd76b" category="paragraph">각 암호에 기존 SHA256 암호 인코딩을 사용하여 추가 암호화 프로세스를 적용할 수 있습니다. 이 추가 암호화 프로세스는 각 SHA256 해시 암호화에 대해 각 암호(SALT)에 임의의 바이트 세트를 적용합니다. 새로 만든 모든 암호에 소금된 SHA256 암호화가 적용됩니다.</block>
@@ -5195,7 +5149,6 @@
   <block id="f53c8aca4a29351426197b65cd5ebc4a" category="paragraph">AutoSupport 기능은 웹 서비스 프록시를 처음 설치하는 동안 활성화 또는 비활성화되지만 ASUPConfig 파일에서 해당 설정을 변경할 수 있습니다.</block>
   <block id="0828dd7a23feb7374b137534d8ca660c" category="paragraph">아래 단계에 설명된 대로 ASUPConfig.xml 파일을 통해 AutoSupport를 활성화하거나 비활성화할 수 있습니다. 또는 * 구성 * 및 * POST/ASUP * 를 사용하여 API를 통해 이 기능을 활성화 또는 비활성화한 다음 "참" 또는 "거짓"을 입력할 수 있습니다.</block>
   <block id="b1421bfcff007d81c137a2b1a26be812" category="list-text">작업 디렉터리에서 ASUPConfig.xml 파일을 엽니다.</block>
-  <block id="feb82637a6c110761417be91fc1124d2" category="list-text">"&lt;asupdata enabled="(Boolean)" timestamp=&gt;"에 대한 줄을 찾습니다</block>
   <block id="6d246a645a6d81f96b7b3d8250715fca" category="list-text">TRUE(활성화) 또는 FALSE(비활성화)를 입력합니다. 예를 들면 다음과 같습니다.</block>
   <block id="2f9941ce39306cfceb39a95b6bd40bfe" category="admonition">타임스탬프 항목이 불필요합니다.</block>
   <block id="37d2d3abeb0c853792589ef5ef3ca6e2" category="section-title">AutoSupport 전달 방법을 구성합니다</block>
@@ -6092,7 +6045,6 @@
   <block id="257b40198f0083663eee051dc8899cd7" category="cell">소프트웨어 이니시에이터 NQN</block>
   <block id="e7f0bd2c7ce5a2859d99775fd89bb0a2" category="summary">FC를 사용할 때 Linux Unified Host Utilities를 설치합니다.</block>
   <block id="43256533b4d88b90a519151bb6b8744e" category="summary">호스트 포트 GUID를 확인합니다.</block>
-  <block id="5e8bb43a311db3e4eae61b5de50a3e70" category="list-text">운영 체제의 패키지 관리 명령을 사용하여 InfiniBand-diags 패키지를 설치합니다.</block>
   <block id="d405d36a5a07f387a8a07ebe6eeb8c55" category="list-text">'ibstat' 명령어를 실행하여 포트 정보를 출력한다.</block>
   <block id="9fd1ccf35b45152e10c1dcc3a278a357" category="inline-xref-macro">SRP 워크시트</block>
   <block id="e8377a168400202c4d751db31f2af66a" category="list-text">에 이니시에이터의 GUID를 기록합니다 <block ref="637e124a730f0905ce6e480d5b773394" category="inline-xref-macro-rx"></block>.</block>
@@ -6242,7 +6194,6 @@
   <block id="dabaf1be0a9b702645c2034751bb93e4" category="paragraph">최대 96개의 SSD 2.5" 드라이브를 지원합니다</block>
   <block id="630bf7189f1f48a3d15afca1b43ffe75" category="section-title">EF300 모델</block>
   <block id="d0b7c338ed0be5f3b1669af1d792b13b" category="paragraph">드라이브 및 HIC:</block>
-  <block id="fd3993a989139216c6567b19ff6319e8" category="paragraph">컨트롤러당 단일 호스트 인터페이스 카드(HIC)를 통해 최대 24개의 NVMe SSD 지원</block>
   <block id="c4b9deb88d9cf1b1a2160cb28a2c41ca" category="list-text">25GB iSCSI</block>
   <block id="caa2bae7a0bf9eeb472d0be37b3ddb33" category="list-text">32Gb NVMe/파이버 채널</block>
   <block id="ceec84279e4dcf98176b72979318c9cb" category="list-text">32Gb SCSI/파이버 채널</block>
@@ -6258,7 +6209,6 @@
   <block id="d5f44c6d91cc30efaab6d46dd6163d11" category="section-title">EF570 모델</block>
   <block id="c28c25ae4438c2bd5f4ba6029ca86d13" category="paragraph">최대 120개의 SSD 2.5" 드라이브를 지원합니다</block>
   <block id="177e7abf37e275d36b66b48e65ce67fd" category="section-title">EF600 모델</block>
-  <block id="167a31a7be26c9816ae2b5c7bec480cc" category="paragraph">컨트롤러당 2개의 HIC(호스트 인터페이스 카드)를 통해 최대 24개의 NVMe SSD를 지원합니다.</block>
   <block id="02e7dbfc793e4b39dcedafabef1c51ea" category="list-text">200GB iSER/IB</block>
   <block id="70b3564018ed1ee2f8101886edc0d765" category="list-text">200GB NVMe/IB</block>
   <block id="3a01d70cdb33efe48884ef541815818b" category="list-text">200GB NVMe/RoCE</block>
@@ -7014,7 +6964,6 @@
   <block id="ebc31fad1cf84954196a7706294df684" category="paragraph">이 절차는 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
   <block id="86e856206affbccd36d96e0932a14510" category="paragraph">"NVMe-RDMA" 커널 모듈이 로드되었는지 확인하려면 다음 명령을 실행합니다.</block>
   <block id="dbf42093a0041931999943f18d3f0986" category="paragraph">다음 정보는 E2800, E2800B, EF280, E5700, EF5700B 케이블 연결에 적용됩니다. 또는 EF570 컨트롤러 쉘프: DE212C, DE224C 또는 DE460 드라이브 쉘프</block>
-  <block id="67b64abed949ae2b1a2626ebe211fd47" category="paragraph">이 절차는 DE212C, DE224C 또는 DE460C 드라이브 쉘프를 E2800, E2800B, EF280, E5700, E5500B, EF570 또는 EF300 컨트롤러 쉘프</block>
   <block id="f2c505979298b93cfd8e71dc78ddd1b0" category="admonition">전압 유형이 다른 PSU를 혼용하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="b7b26f8fd8107cf68f2bc572008d19a7" category="admonition">교체 컨트롤러에는 16GB의 메모리가 미리 설치되어 있습니다. 컨트롤러에 64GB 구성이 필요한 경우 교체 컨트롤러를 설치하기 전에 제공된 업그레이드 키트를 사용하십시오.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -8750,10 +8699,8 @@
   <block id="3e0d4696992cb009b792ca52c4080196" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="33c9296cee3d3d5ec5f21b481b8c30ca" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="7f055c1166dd665b0b44651bedc2cbc8" category="list-text">부팅 프로세스의 일부로 한 번 실행되는 서브넷 관리자 스크립트를 생성합니다.</block>
   <block id="df45b26c6e6aa12c9a2da2dc8610745d" category="list-text">다음 행을 추가합니다. 2단계에서 찾은 값을 로 대체합니다<block ref="7804c104033334dfd1f4483b356e7e80" prefix=" " category="inline-code"></block> 및<block ref="a343d59b38a9422b5e453e8b5ab007c0" prefix=" " category="inline-code"></block>. 용<block ref="16a2e561c536a77cbfd10490ea398be6" prefix=" " category="inline-code"></block> 및<block ref="5f2b9323c39ee3c861a7b382d205c3d3" prefix=" " category="inline-code"></block>에서 서브넷 관리자 우선 순위를 사용합니다. 1은 가장 낮고 15는 가장 높습니다.</block>
-  <block id="233a179301cf4de0df435df2eb7e929a" category="list-text">이름이 인 시스템 서비스 유닛 파일을 생성합니다<block ref="c0248303a9c396ef63e7c8d1b55865fa" prefix=" " category="inline-code"></block>.</block>
   <block id="a377bc45676f5d1c2a8f8219a09c9b83" category="list-text">다음 행을 추가합니다.</block>
   <block id="4eb5da929a8b5274983c883ec977d36a" category="list-text">시스템에 새 서비스를 알립니다.</block>
-  <block id="053dd33688a35b5cefe88637ff4e2a16" category="list-text">를 활성화하고 시작합니다<block ref="43be3ee7567c2cce7cc16a0555c90bf3" prefix=" " category="inline-code"></block>.</block>
   <block id="941060fc12806a5c3d9302d2624cb774" category="paragraph">호환되는 최신 RHEL 7, RHEL 8, RHEL9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 최신 요구 사항의 전체 목록을 확인하십시오.</block>
   <block id="1f34187b1a209107eee63f82ab42cc05" category="paragraph">RHEL 7, RHEL 8 또는 RHEL 9 *</block>
   <block id="7965a5bdacca6ec4414d73846a2effc0" category="doc">파일 시스템 생성(RHEL 8, RHEL 9, SLES 15)</block>
@@ -8772,7 +8719,6 @@
   <block id="52b757f8b32ea9abd11ade22593e1b87" category="paragraph">RHEL 7 및 SLES 12는 NVMe over Infiniband를 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL9 및 SLES 15에서 기본 제공되는 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
   <block id="d061a1419e660c90553f0a82e4f669dc" category="admonition">SLES 15 및 RHEL 9의 경우 기본 NVMe 다중 경로를 기본적으로 사용하며 추가 구성이 필요하지 않습니다.</block>
   <block id="1424a7cf2a070f7dd12d78a849490f2c" category="paragraph">RHEL 7 및 SLES 12는 NVMe over Fibre Channel을 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
-  <block id="509b37f1b5674ea3fcdd6f53b4a83cb8" category="paragraph">InfiniBand-diags 패키지에는 각 InfiniBand(IB) 포트의 GUID(Globally Unique ID)를 표시하는 명령이 포함되어 있습니다. 포함된 패키지를 통해 지원되는 OFED/RDMA의 대부분의 Linux 배포판에는 HCA에 대한 정보를 표시하는 명령이 포함된 InfiniBand-DIAG 패키지도 포함되어 있습니다.</block>
   <block id="6ee2d18851ba4498d7c9ba43881528c3" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="59608be4b8a68b7f95e7aa6a8924d39f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="44da8255024278223616706dabffdcf2" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="8968844fa75d7274ef053da34cb4323f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="7bfe6a8c2694c58155bcb8132f65ecd8" category="list-text">를 활성화합니다<block ref="8732863da72605a20ed96b4eee87a5fb" prefix=" " category="inline-code"></block> 부팅 시 데몬</block>
@@ -8798,7 +8744,6 @@
   <block id="e3ef1fa2600da4921ead110fb0d1606b" category="paragraph">표시되는 드라이브 특성은 자동 방법 또는 수동 방법을 선택했는지 여부에 따라 달라집니다. 자세한 내용은 SANtricity 시스템 관리자 설명서를 참조하십시오.<block ref="a35ecfb4da00f746430c0cae02d730d0" category="inline-link-rx"></block>.</block>
   <block id="30ec052a906564798e129e10f7d39ab0" category="list-text">VMware vCenter Server Appliance 지원 버전: 6.7U3J, 7.0U1, 7.0U2, 7.0U3 및 8.0.</block>
   <block id="35372cbcff3be2cc25be5129c31c81c6" category="list-text">지원되는 애플리케이션 호스트 버전: Windows 2016, Windows 2019, Windows 2022.</block>
-  <block id="02e5141224b0a2ac9f9a2b07a05b90b3" category="list-text">시스템 메모리: 512MB</block>
   <block id="e3cf47c6cb2c608927e7de97ecbf20d2" category="list-text">보안이 가능한 드라이브는 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브일 수 있습니다. FIPS 드라이브는 수준 140-3이고 수준 140-3은 상위 수준의 보안일 수 있습니다. 140-3단계 드라이브와 140-3단계 드라이브를 혼합하여 선택하면 풀 또는 볼륨 그룹이 더 낮은 보안 수준(140-2)에서 작동합니다.</block>
   <block id="1974aafa112f63127faafcfced06eda0" category="list-text">FDE 전용 풀을 생성하려면 Secure-Capable 열에서 * Yes-FDE * 를 찾습니다. FIPS 전용 풀을 생성하려면 * Yes-FIPS * 또는 * Yes-FIPS(Mixed) * 를 찾습니다. "혼합"은 140-3단계 드라이브와 140-3단계 드라이브의 혼합을 나타냅니다. 이러한 수준을 혼합하여 사용하는 경우 풀이 낮은 보안 수준(140-2)에서 작동할 수 있습니다.</block>
   <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">버전 11.74의 새로운 기능</block>
@@ -8834,4 +8779,73 @@
   <block id="dfcfc178d6edc54d8706c59b747948d5" category="list-text">를 설치합니다<block ref="3b13fc847651d5be5c89aeab4722c099" prefix=" " category="inline-code"></block> 운영 체제의 패키지 관리 명령을 사용하여 패키지를 만듭니다.</block>
   <block id="79c617afe97932f20f52d1217736d403" category="list-text">이름이 인 시스템 서비스 유닛 파일을 생성합니다<block ref="6bddfc9da80e7ef0195a324214877004" prefix=" " category="inline-code"></block>.</block>
   <block id="d40e479d6bc1cf9824be2cfa7e837140" category="list-text">를 활성화하고 시작합니다<block ref="6b64648adbe124ad96531f7f0dd977a4" prefix=" " category="inline-code"></block> 서비스.</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">필요한 것</block>
+  <block id="6e45870f8629b562b79da969a290951f" category="section-title">2단계: 호스트 포트 WWPN 확인 -- NVMe/FC VMware</block>
+  <block id="2f5a12ce7256b2085ffbd47c6ada5cab" category="section-title">1단계: FC 스위치 구성 -- VMware</block>
+  <block id="8177490e8cadc7f4b772200e86180fb2" category="section-title">2단계: 호스트 포트 WWPN--FC를 확인합니다</block>
+  <block id="20ce9a06abc9195bebe0e59b26293e21" category="section-title">1단계: 스위치 구성 - iSCSI, VMware</block>
+  <block id="7ffd227cb5a9d8c313e27ae6d4060249" category="section-title">2단계: 네트워킹 구성 -- iSCSI VMware</block>
+  <block id="c68a106f59b3a963f6045af07b07b0c6" category="section-title">3단계: 스토리지 측 네트워킹 구성 -- iSCSI, VMware</block>
+  <block id="d8055035001bdb0000b27f355301370e" category="section-title">4단계: 호스트측 네트워킹 구성 -- iSCSI</block>
+  <block id="6a767cf6bee4c3579f40439895fda2b7" category="section-title">5단계: IP 네트워크 연결 확인 -- iSCSI, VMware</block>
+  <block id="063b0df0c14bee863fd6d206304aaf27" category="section-title">1단계: SAS 호스트 식별자 확인 -- VMware</block>
+  <block id="047294bc09f8ed4e396d9739a1462dab" category="section-title">1단계: FC 스위치 구성 -- Windows</block>
+  <block id="e4211d8cdea679b81e26d9910d042052" category="section-title">2단계: 호스트 WWPN을 확인하고 권장 설정 -- FC, Windows</block>
+  <block id="eec7a038ccdf3e900f836e0ad0064352" category="section-title">1단계: 스위치 구성 -- iSCSI, Windows</block>
+  <block id="86809c62a485c6e1f1cd50f8a442bedc" category="section-title">2단계: 네트워킹 구성 -- iSCSI 창</block>
+  <block id="8d7771526174dcfe25e99ed7f2ec957b" category="section-title">3단계: 어레이 측 네트워킹 구성 -- iSCSI, Windows</block>
+  <block id="5628dcecfdc23242b9050ffd0f4e0ca8" category="section-title">5단계: IP 네트워크 연결 확인 -- iSCSI, Windows</block>
+  <block id="a26b6112f0f78db7ee6507f0fe0deaeb" category="section-title">6단계: 구성을 기록합니다</block>
+  <block id="3e2fccfcb2c1e5332c5dbf8b36d7aa80" category="section-title">1단계: SAS 호스트 식별자 확인 -- Windows</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="a6157a9850788d9c0341e93d5f79de31" category="summary">vCenter 플러그인의 설치 및 업그레이드 요구 사항 및 고려 사항</block>
+  <block id="d4dbf4915d26814b90635132e02de3a1" category="paragraph">vCenter용 SANtricity 스토리지 플러그인을 설치 또는 업그레이드하기 전에 설치 요구 사항 및 업그레이드 고려 사항을 검토하십시오.</block>
+  <block id="dbb4458edca7c5733da82369529b938e" category="paragraph">Windows 호스트 시스템에서 vCenter용 Storage Plugin을 설치 및 구성할 수 있습니다. 플러그인 설치에는 다음 요구 사항이 포함됩니다.</block>
+  <block id="2e5d14f7919ff3c6138e7845aec4f915" category="paragraph">지원되는 버전</block>
+  <block id="b41bb59cbbaa2802af53d977c440f2c8" category="paragraph">호환성에 대한 자세한 내용은 를 참조하십시오<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>.</block>
+  <block id="361484a234b118c769c841cb7b8351d8" category="paragraph">Windows 호스트에 vCenter용 Storage Plugin 인스턴스를 하나만 설치할 수 있으며 하나의 vCSA에만 등록할 수 있습니다.</block>
+  <block id="11b02af429676c3e4ef0b14f72c58b44" category="paragraph">vCenter용 Storage Plugin을 실행하려면 실행 및 로깅을 위한 충분한 공간이 필요합니다. 시스템이 다음과 같은 사용 가능한 디스크 공간 요구 사항을 충족하는지 확인합니다.</block>
+  <block id="5f5fc15545b1dee5b3f1c2ee92f47de0" category="list-text">필요한 설치 공간 — 275MB</block>
+  <block id="9bcf5bd8266f8eea99112a520f67ad79" category="list-text">스토리지 공간 — 275MB + 200MB(로깅)</block>
+  <block id="4cdb1974fd7f08cb281a8396b499d8f7" category="list-text">시스템 메모리 — 512MB</block>
+  <block id="206c0580c23a54528ad2d285e97454b4" category="paragraph">vCenter용 Storage Plugin은 라이센스 키가 필요하지 않은 독립 실행형 무료 제품입니다. 그러나 해당 저작권 및 서비스 약관이 적용됩니다.</block>
+  <block id="cdd47ce62ae0283ba81fbbfac98aa0be" category="paragraph">이전 버전에서 업그레이드하는 경우 업그레이드하기 전에 vCSA에서 플러그인을 등록 해제해야 합니다.</block>
+  <block id="167e9fb1b11b78bdc503cae6390a6818" category="list-text">업그레이드 중에는 플러그인의 이전 구성 설정 대부분이 보존됩니다. 이러한 설정에는 사용자 암호, 검색된 모든 스토리지 시스템, 서버 인증서, 신뢰할 수 있는 인증서 및 서버 런타임 구성이 포함됩니다.</block>
+  <block id="4dcf1264688d388f8c1ead31971aded6" category="list-text">업그레이드 프로세스에서 * vcenter.properties* 파일이 보존되지 않으므로 업그레이드하기 전에 플러그 인을 등록 취소해야 합니다. 업그레이드가 완료되면 플러그인을 vCSA에 다시 등록할 수 있습니다.</block>
+  <block id="23d80e8f2ebb14976e8d910eea4d386b" category="list-text">이전에 리포지토리에 로드된 모든 SANtricity OS 파일이 업그레이드 중에 제거됩니다.</block>
+  <block id="2e7d2097c91ceed4e818c5518afa994a" category="summary">vCenter용 SANtricity 스토리지 플러그인을 설치하거나 업그레이드합니다.</block>
+  <block id="259aa472928a9297b2dc9f3f8b125b3b" category="doc">vCenter용 Storage Plugin을 설치하거나 업그레이드합니다</block>
+  <block id="3b840adf9a5dcc09c69daab725b7c465" category="paragraph">다음 단계에 따라 vCenter용 Storage Plugin을 설치하고 플러그인 등록을 확인합니다. 다음 지침을 사용하여 플러그인을 업그레이드할 수도 있습니다.</block>
+  <block id="bda87156c434adbda0ab9a9dfdf4203c" category="paragraph">시스템이 의 요구 사항을 충족하는지 확인합니다 <block ref="20ce28c64503bb775dd7ac22c0aadd0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="84f59f102df96e2886b696e130b28443" category="admonition">업그레이드 프로세스에서 * vcenter.properties* 파일은 보존되지 않습니다. 업그레이드 중인 경우 업그레이드 전에 플러그 인을 등록 취소해야 합니다. 업그레이드가 완료되면 플러그인을 vCSA에 다시 등록할 수 있습니다.</block>
+  <block id="a2c33f0d50276fb56d5066c659a36281" category="list-text">설치가 시작되면 화면의 지시에 따라 여러 기능을 활성화하고 일부 구성 매개 변수를 입력합니다. 필요한 경우 나중에 구성 파일에서 이러한 선택 항목을 변경할 수 있습니다.</block>
+  <block id="685fd8088c2b843b61f4afa2c0588163" category="admonition">업그레이드 중에는 구성 매개 변수를 묻는 메시지가 표시되지 않습니다.</block>
+  <block id="5a71fa4a4c3dcb9f7fb7866f2d54b837" category="admonition">설치하는 동안 인증서 유효성 검사를 묻는 메시지가 표시됩니다. 플러그인과 스토리지 시스템 간에 인증서 유효성 검사를 적용하려면 이 확인란을 선택한 상태로 유지합니다. 이렇게 하면 스토리지 배열 인증서가 플러그인에 대해 신뢰되도록 확인됩니다. 인증서를 신뢰할 수 없는 경우 플러그인에 인증서를 추가할 수 없습니다. 인증서 유효성 검사를 재정의하려면 자체 서명된 인증서를 사용하여 모든 스토리지 어레이를 플러그인에 추가할 수 있도록 확인란을 선택 취소합니다. 인증서에 대한 자세한 내용은 플러그인 인터페이스에서 사용할 수 있는 온라인 도움말을 참조하십시오.</block>
+  <block id="9aa965893e984bad2c9729b6444a575c" category="list-text">Webserver Started 메시지가 나타나면 * OK * 를 클릭하여 설치를 완료한 다음 * Done * 을 클릭합니다.</block>
+  <block id="127bf35b11d9e63d1023ec8556d4bcaf" category="admonition">플러그인은 한 번에 하나의 vCSA에만 등록할 수 있습니다. 다른 vCSA에 등록하려면 현재 vCSA에서 플러그인을 등록 취소하고 애플리케이션 호스트에서 제거해야 합니다. 그런 다음 플러그인을 다시 설치하고 다른 vCSA에 등록할 수 있습니다.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
+  <block id="6d4f7aaea60249778cba2f48ab44265c" category="list-text">&lt;asupdata enable="Boolean_value" timestamp="timestamp"&gt;의 행을 찾습니다</block>
+  <block id="9f8389aeec49fcf74df4811ae74671bb" category="paragraph">RW(기존 어레이의 경우)</block>
+  <block id="da4eb5c5c70275ba4c87430e9eb2caa1" category="paragraph">RO(기존 스토리지의 경우)</block>
+  <block id="520ae3e14dc7dcddbce514f73ae5f9c9" category="doc">웹 서비스 프록시 파일을 설치하거나 업그레이드합니다</block>
+  <block id="f036aa96cb85f83dc2dad71a70ca9ab9" category="paragraph">설치에는 파일을 다운로드한 다음 Linux 또는 Windows 서버에 프록시 패키지를 설치하는 과정이 포함됩니다. 이 지침을 사용하여 프록시를 업그레이드할 수도 있습니다.</block>
+  <block id="9ab5a43912057c3f252ae0aa5ffafa08" category="paragraph">컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 통해 다음 드라이브 지원</block>
+  <block id="d7873c5a31e9fb583fb911435316e255" category="list-text">NVMe SSD 드라이브: 컨트롤러 쉘프에 최대 24개의 NVMe SSD 드라이브 장착 가능</block>
+  <block id="99017918290ad98fceaa8544139404ea" category="list-text">NL-SAS 드라이브 및 확장 셸프: DE212C 및 DE460C 셸프의 혼합은 DE212C 쉘프만 사용하지 않는 한 총 240개의 NL-SAS 드라이브 슬롯과 4개의 확장 셸프를 초과할 수 없으며, 8개의 DE212C 쉘프가 허용됩니다. 예를 들어, DE460C 쉘프 4개, DE212C 쉘프 8개, DE460C 쉘프 2개, 쉘프 2개 등 쉘프 2개.</block>
+  <block id="f7bdca5a10b1a8a32a0410aa51cc3658" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 4개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개.</block>
+  <block id="d4f4328db6f2e4f903874bc046fd613f" category="list-text">NL-SAS 드라이브 및 확장 셸프: DE212C 및 DE460C 셸프의 혼합은 DE212C 쉘프만 사용하지 않는 한 총 420개의 NL-SAS 드라이브 슬롯과 7개의 확장 셸프를 초과할 수 없으며, 8개의 DE212C 쉘프가 허용됩니다. 예를 들어, DE460C 쉘프 7개, DE212C 쉘프 8개, DE460C 쉘프 5개, 쉘프 2개 등.</block>
+  <block id="538ff1eff5fd361d6f0b2adf6bbf0ed4" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 7개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개.</block>
+  <block id="731e4c243221cff11b35e735d54a097c" category="section-title">2-포스트 랙 -- 2U</block>
+  <block id="08e15a26eb1bed02ff476c90993bb81d" category="section-title">4-포스트 랙 또는 캐비닛 -- 2U</block>
+  <block id="f7e582702fa43947010600df41688562" category="section-title">4-포스트 랙 -- SuperRail</block>
+  <block id="88587640720455d00dd679a1ce9fe099" category="paragraph-title">예 A: 표준 SAS 구성에서 DE460C 디스크 쉘프 2개가 장착된 E2860 컨트롤러 쉘프</block>
+  <block id="5e2cc996382bb24824986ff473c63abc" category="paragraph-title">예 B: 표준 SAS 구성에서 DE460C 디스크 쉘프 1개가 장착된 E2860 컨트롤러 쉘프</block>
+  <block id="7bb583eaeb72cab404957a32bf32e9fb" category="paragraph-title">예 A: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 3개가 포함된 E5700 컨트롤러 쉘프</block>
+  <block id="ab945691a98936597c2ea25ebe10559a" category="paragraph-title">예 B: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 1개가 있는 E5700 컨트롤러 쉘프</block>
+  <block id="45d7b912755be5cce50a63e39e38af8a" category="section-title">1단계: 새 컨트롤러의 부품 번호를 확인합니다</block>
+  <block id="80517d3f6b5fb7efb65f606eaba16467" category="paragraph">이 절차는 DE212C, DE224C 또는 DE460C 드라이브 쉘프를 E2800, E2800B, EF280, E5700, E5500B, EF570, EF300 또는 EF600 컨트롤러 쉘프</block>
+  <block id="8a8126e8cdb353719a24e8201a310aee" category="list-text"><block ref="5b1d5e9837fad271f198b7479454fb9a" category="inline-xref-macro-rx"></block></block>
+  <block id="294b3397fedca884072c918fc613f61d" category="list-text"><block ref="b1d2c45bc75ed5d4a6faa0261f1569e8" category="inline-xref-macro-rx"></block></block>
+  <block id="04c5c6e14f0bbd925f3877a16bc2c6a5" category="section-title">옵션 1: E2800 또는 E5700용 드라이브 쉘프 연결</block>
+  <block id="3519a93182c0883a5ee2951208ede7c9" category="section-title">옵션 2: EF300 또는 EF600의 드라이브 쉘프 연결</block>
 </blocks>
