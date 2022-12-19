@@ -505,6 +505,8 @@ sidebar:
           url: "/maintenance-ef600/drives-replace-EF300-task.html"
         - title: EF600 드라이브 교체
           url: "/maintenance-ef600/drives-replace-supertask-task.html"
+        - title: 드라이브 쉘프를 핫 추가합니다
+          url: "/maintenance-ef600/drives-hotadd-drive-shelf-task.html"
       - title: 팬
         pdf-filename: EF300 - EF600은 팬을 유지합니다
         entries:
@@ -598,6 +600,8 @@ sidebar:
           url: "/maintenance-e2800/drives-60-replace-task.html"
         - title: 드라이브 드로어 교체(60 드라이브)
           url: "/maintenance-e2800/drives-60-supertask-task.html"
+        - title: 드라이브 쉘프를 핫 추가합니다
+          url: "/maintenance-e2800/drives-hotadd-drive-shelf-task.html"
       - title: 호스트 인터페이스 카드
         pdf-filename: E2800은 HIC를 유지합니다
         entries:
@@ -659,6 +663,8 @@ sidebar:
           url: "/maintenance-e5700/drives-60-replace-task.html"
         - title: 드라이브 드로어 교체(60 드라이브)
           url: "/maintenance-e5700/drives-drawer-supertask-task.html"
+        - title: 드라이브 쉘프를 핫 추가합니다
+          url: "/maintenance-e5700/drives-hotadd-drive-shelf-task.html"
       - title: 호스트 인터페이스 카드
         pdf-filename: E5700은 HIC를 유지합니다
         entries:
