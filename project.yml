@@ -502,9 +502,9 @@ sidebar:
         - title: 개요 및 요구 사항
           url: "/maintenance-ef600/drives-overview-supertask-concept.html"
         - title: EF300 드라이브를 교체합니다
-          url: "/maintenance-ef600/drives-replace-EF300-task.html"
+          url: "/maintenance-ef600/drives-replace-EF300-supertask-task.html"
         - title: EF600 드라이브 교체
-          url: "/maintenance-ef600/drives-replace-supertask-task.html"
+          url: "/maintenance-ef600/drives-replace-EF600-supertask-task.html"
         - title: 드라이브 쉘프를 핫 추가합니다
           url: "/maintenance-ef600/drives-hotadd-drive-shelf-task.html"
       - title: 팬
