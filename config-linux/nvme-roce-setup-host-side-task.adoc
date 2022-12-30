@@ -14,7 +14,7 @@ summary: RoCE 환경의 NVMe 이니시에이터 구성에는 RDMA 코어 및 NVM
 RoCE 환경의 NVMe 이니시에이터 구성에는 RDMA 코어 및 NVMe-CLI 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다.
 
 .필요한 것
-호환되는 최신 RHEL 7, RHEL 8 및 RHEL 9 SUSE Linux Enterprise Server 12 및 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
+호환되는 최신 RHEL 7, RHEL 8, RHEL 9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
 
 .단계
 . RDMA 및 NVMe-CLI 패키지를 설치합니다.
@@ -37,6 +37,23 @@ RHEL 7, RHEL 8 및 RHEL 9 *
 
 # yum install rdma-core
 # yum install nvme-cli
+----
+. RHEL 8 및 RHEL 9의 경우 네트워크 스크립트를 설치합니다.
++
+RHEL 8 *
+
++
+[listing]
+----
+# yum install network-scripts
+----
++
+RHEL 9 *
+
++
+[listing]
+----
+# yum install NetworkManager-initscripts-updown
 ----
 . 호스트를 스토리지에 구성하는 데 사용되는 호스트 NQN을 가져옵니다.
 +
@@ -86,7 +103,7 @@ REMOTE_IPADDR=
 STARTMODE='auto'
 ----
 +
-RHEL 7, RHEL 8 및 RHEL 9 *
+RHEL 7 또는 RHEL 8 *
 
 +
 다음 내용으로 예제 파일 '/etc/sysconfig/network-scripts/ifcfg-eth4'를 생성합니다.
@@ -121,6 +138,61 @@ NAME='MT27800 Family [ConnectX-5]'
 NETWORK=
 REMOTE_IPADDR=
 STARTMODE='auto'
+----
++
+RHEL 9 *
+
++
+를 사용합니다 `nmtui` 도구를 사용하여 연결을 활성화하고 편집합니다. 다음은 예제 파일입니다 `/etc/NetworkManager/system-connections/eth4.nmconnection` 이 도구는 다음을 생성합니다.
+
++
+[listing]
+----
+
+[connection]
+id=eth4
+uuid=<unique uuid>
+type=ethernet
+interface-name=eth4
+
+[ethernet]
+mtu=4200
+
+[ipv4]
+address1=192.168.1.87/24
+method=manual
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
+----
++
+다음은 예제 파일입니다 `/etc/NetworkManager/system-connections/eth5.nmconnection` 이 도구는 다음을 생성합니다.
+
++
+[listing]
+----
+
+[connection]
+id=eth5
+uuid=<unique uuid>
+type=ethernet
+interface-name=eth5
+
+[ethernet]
+mtu=4200
+
+[ipv4]
+address1=192.168.2.87/24
+method=manual
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
 ----
 . 네트워크 인터페이스를 활성화합니다.
 +
