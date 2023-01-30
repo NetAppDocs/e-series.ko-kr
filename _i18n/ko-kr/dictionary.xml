@@ -6109,16 +6109,13 @@
   <block id="7e470e1466f12fa596adb6f0ed2e3983" category="list-text">/etc/iscsi/iscsid.conf 파일에서 ' node.session.nr_sessions` 변수를 확인하여 물리적 경로당 기본 세션 수를 확인합니다. 필요한 경우 기본 세션 수를 하나의 세션으로 변경합니다.</block>
   <block id="dac50a4bf77e8de98c9f0ecbf1efd96c" category="list-text">/etc/iscsi/iscsid.conf 파일의 node.session.timeo.replacement_timeout` 변수를 기본값인 120에서 20으로 변경합니다.</block>
   <block id="79148913b006ee398551d3b206312f29" category="list-text">"iscsid" 및 "open-) iSCSI" 서비스가 부팅 및 활성화되어 있는지 확인합니다.</block>
-  <block id="a41a1bbdcdc59cf69e7fb285339a9625" category="paragraph">필요한 경우, "iscsiadm" 명령을 실행하기 전에 /etc/iscsi/iscsid.conf에서 node.startup=automatic"을 설정하여 재부팅 후 세션을 유지할 수 있습니다.</block>
   <block id="22573cb1d3a24e811b00be3cdf11ed07" category="list-text">호스트 IQN 이니시에이터 이름을 가져옵니다. 이 이니시에이터 이름은 호스트를 스토리지에 구성하는 데 사용됩니다.</block>
-  <block id="d707e35eeedda41c6a0cfa761fd2a07b" category="list-text">iSCSI 포트에 대한 네트워크 구성:</block>
   <block id="d2ac38f00dee7d2a262b2bf0fa6f3b64" category="admonition">공용 네트워크 포트 외에도 iSCSI 이니시에이터는 별도의 개인 세그먼트 또는 VLAN에 둘 이상의 NIC를 사용해야 합니다.</block>
   <block id="a055f9d8150408cf1633c42de1d3c847" category="list-text">iSCSI 이니시에이터 포트의 IP 주소를 설정합니다. 이니시에이터 포트는 iSCSI 타겟 포트와 동일한 서브넷에 있어야 합니다.</block>
   <block id="068968b47b209b5ab4b2bf2a892a53da" category="admonition">두 iSCSI 이니시에이터 포트의 주소를 설정해야 합니다.</block>
   <block id="3ec57145ad99ba132ea5906182fa7d34" category="list-text">네트워크 서비스를 다시 시작합니다.</block>
   <block id="3aa61be860f27f859aed628c7d7a8783" category="list-text">Linux 서버가 iSCSI 대상 포트의 ping_all_을 수행할 수 있는지 확인합니다.</block>
   <block id="64adb9e225feb356ed6ec628cd40671f" category="admonition">인터페이스를 나열하려면 iscsiadm -m iface를 사용합니다.</block>
-  <block id="a6575d77a64e40bfa8e81ab8ade7d7a1" category="list-text">이니시에이터와 타겟 간의 iSCSI 세션을 설정합니다(총 4개).</block>
   <block id="ac8ddbbb791a17c089f8b72f6801a3dc" category="list-text">iSCSI 대상을 검색합니다. 다음 단계를 위해 워크시트에 IQN(각 검색과 동일함)을 저장합니다.</block>
   <block id="8329426ded9436d4fbff44b5e4b4c72c" category="admonition">IQN은 다음과 같습니다.</block>
   <block id="e6fa7633cc6e723b63becb0e5f1d6bb5" category="list-text">호스트에 설정된 iSCSI 세션을 나열합니다.</block>
@@ -8666,9 +8663,6 @@
   <block id="ffbb9e9bc4bfe3481683088489b9c286" category="list-text">호스트에서 NVMe-oF 계층을 설정합니다. 다음 파일을 '/etc/modules-load.d/'에서 생성하여 NVMe-RDMA 커널 모듈을 로드하고 재부팅 후에도 커널 모듈이 항상 켜져 있는지 확인합니다.</block>
   <block id="ba5d5a8fa23f831ccd6827dc3b611469" category="paragraph">그런 다음 /etc/sysconfig/network/ifcfg-ib1 파일을 생성합니다.</block>
   <block id="ca77b43383ee68c3baec39cef81b151e" category="list-text">ifconfig -a 명령을 사용하여 iSCSI 포트 이름을 확인합니다.</block>
-  <block id="c13ee4fd00cee57d25631dda7a3afcfc" category="paragraph">편집:</block>
-  <block id="d43f0c1ac820c0cdc6a73e7a6f943df2" category="paragraph">추가:</block>
-  <block id="65c76cf8b4c172d7378f288e8af8a08c" category="list-text">ifaces를 사용할 때는 iSCSI iface 바인딩 두 개를 생성하여 iSCSI 인터페이스를 구성합니다.</block>
   <block id="d601c251b180e2832efe894c46092431" category="list-text">iSCSI 이니시에이터와 iSCSI 타겟 간의 접속을 생성합니다.</block>
   <block id="f53443405a6562d0b3e4c7cf9bc15b23" category="admonition">위의 명령은 재부팅 후에도 유지되지 않습니다. NVMe 연결을 재설정하기 위해서는 재부팅 후 NVMe connect 명령을 실행해야 한다.</block>
   <block id="d29230a83d49c7722d815a3203b64bef" category="admonition">SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으며 다운로드할 수 없습니다.</block>
@@ -8718,7 +8712,6 @@
   <block id="6ee2d18851ba4498d7c9ba43881528c3" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="59608be4b8a68b7f95e7aa6a8924d39f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="44da8255024278223616706dabffdcf2" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="8968844fa75d7274ef053da34cb4323f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="7bfe6a8c2694c58155bcb8132f65ecd8" category="list-text">를 활성화합니다<block ref="8732863da72605a20ed96b4eee87a5fb" prefix=" " category="inline-code"></block> 부팅 시 데몬</block>
-  <block id="52430bef221dfe0288778cdfd54cab9b" category="paragraph">* Red Hat Enterprise Linux 7, 8 및 9(RHEL 7, RHEL 8 및 RHEL9) *</block>
   <block id="519a88244e86ab9ce17209c219a4969a" category="paragraph">'NVMe list -Subsys' 명령을 사용할 때 물리적 NVMe 장치를 지정하면 해당 네임스페이스에 대한 경로에 대한 추가 정보가 제공됩니다.</block>
   <block id="b3e41b03ef621f7814aead1762d37e57" category="doc">파일 시스템 생성(RHEL 8, RHEL 9 및 SLES 15)</block>
   <block id="278d29980d384d87e03c8f99681b0980" category="paragraph">RHEL 8, RHEL 9 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
@@ -8857,4 +8850,17 @@
   <block id="0cd1f8d86f769c38f1483db60702ae30" category="list-text">두 IB 포트 링크가 작동 중인지, State=Active 인지 확인합니다.</block>
   <block id="b19174b79ffa987ea20abbce564e973e" category="paragraph">를 사용합니다<block ref="94f122660e8e80af7b93d6609515bc99" prefix=" " category="inline-code"></block> 도구를 사용하여 연결을 활성화하고 편집합니다. 다음은 예제 파일입니다<block ref="9c2912b95ccba22459cf5353437988de" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
   <block id="2662a31940eac2df0a6809d02c631cbb" category="paragraph">다음은 예제 파일입니다<block ref="c9f0a91feab8e55b8d9d166acc79562e" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
+  <block id="b7577216b0e50cc5bbbbf4483bbc37cd" category="list-text">선택적으로 을 설정할 수 있습니다<block ref="68e21a6780edcb6acab77e2a42f4f506" prefix=" " category="inline-code"></block> 를 실행하기 전에 /etc/iscsi/iscsid.conf에서<block ref="f88921f58beaaae5bcb9dffac54bf5ad" prefix=" " category="inline-code"></block> 재부팅 후 세션이 유지되는 명령입니다.</block>
+  <block id="d0c7f819a9c352ec47123255b7bea069" category="list-text">iSCSI 포트에 대한 네트워크를 구성합니다. 다음은 RHEL 및 SLES에 대한 지침 예입니다.</block>
+  <block id="4578709b544309c3c129ddd77e647202" category="paragraph">* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *</block>
+  <block id="9dabae4a06d30c9c7f51e5f507819763" category="paragraph">예제 파일을 만듭니다<block ref="0d7d3fc433b1b9e503de96fc98959275" prefix=" " category="inline-code"></block> 다음 내용을 참조하십시오.</block>
+  <block id="d495950a6cee8eefb9fec72eb4759f52" category="paragraph">IPv6과 관련한 선택적 추가 사항:</block>
+  <block id="8a242e9b511ac07bc46f6d5758b40101" category="paragraph">* Red Hat Enterprise Linux 9(RHEL 9) *</block>
+  <block id="42b36daf2d76a2e6ced2edcf1ac0780c" category="paragraph">를 사용합니다<block ref="94f122660e8e80af7b93d6609515bc99" prefix=" " category="inline-code"></block> 도구를 사용하여 연결을 활성화하고 편집합니다. 도구가 을 생성합니다<block ref="b9b1a8ef49e07c55d90e41f053c5f240" prefix=" " category="inline-code"></block> 파일 내<block ref="1580a184ac85703ca1cfde026b32109e" prefix=" " category="inline-code"></block>.</block>
+  <block id="a708543f0c471392232ef363aa304233" category="paragraph">예제 파일을 만듭니다<block ref="07c8ad3b1f5865fe6e3186f131aad980" prefix=" " category="inline-code"></block> 다음 내용을 참조하십시오.</block>
+  <block id="2b9d337912530454459670ef2f6000d4" category="paragraph">IPv6에 대한 추가 옵션:</block>
+  <block id="caa9c7e5ca67cc93af5e1a5af13b5f06" category="list-text">두 가지 방법 중 하나를 사용하여 이니시에이터와 타겟 사이의 iSCSI 세션을 설정합니다(총 4개).</block>
+  <block id="629d95b23c4787247cb60bd0d79ce58b" category="list-text">(선택 사항) ifaces를 사용하는 경우 iSCSI iface 바인딩 2개를 생성하여 iSCSI 인터페이스를 구성합니다.</block>
+  <block id="c40ee4712318216da52bf38dda83bd0b" category="paragraph">* 방법 1(ifaces 사용) *</block>
+  <block id="340e742b206cd41d5a3527d53de73cf7" category="paragraph">* 방법 2(ifaces 없음) *</block>
 </blocks>
