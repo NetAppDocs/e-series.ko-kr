@@ -14,7 +14,7 @@ summary: InfiniBand 환경에서 NVMe 이니시에이터를 구성하려면 Infi
 InfiniBand 환경에서 NVMe 이니시에이터를 구성하려면 InfiniBand, NVMe-CLI 및 RDMA 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다.
 
 .필요한 것
-호환되는 최신 RHEL 7, RHEL 8, RHEL9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
+호환되는 최신 RHEL 7, RHEL 8, RHEL 9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 요구 사항의 전체 목록을 확인하십시오.
 
 .단계
 . RDMA, NVMe-CLI 및 InfiniBand 패키지를 설치합니다.
@@ -40,7 +40,24 @@ RHEL 7, RHEL 8 또는 RHEL 9 *
 # yum install rdma-core
 # yum install nvme-cli
 ----
-. "IPoIB"를 활성화합니다. /etc/RDMA/RDMA.conf 파일을 편집하고 "IPoIB" 로드 항목을 수정합니다.
+. RHEL 8 또는 RHEL 9의 경우 네트워크 스크립트를 설치합니다.
++
+RHEL 8 *
+
++
+[listing]
+----
+# yum install network-scripts
+----
++
+RHEL 9 *
+
++
+[listing]
+----
+# yum install NetworkManager-initscripts-updown
+----
+. RHEL 7의 경우 활성화합니다 `ipoib`. /etc/RDMA/RDMA.conf 파일을 편집하고 로드할 항목을 수정합니다 `ipoib`:
 +
 [listing]
 ----
@@ -130,7 +147,7 @@ REMOTE_IPADDR=
 STARTMODE='auto'
 ----
 +
-RHEL 7, RHEL 8 또는 RHEL 9 *
+RHEL 7 또는 RHEL 8 *
 
 +
 다음 내용으로 /etc/sysconfig/network-scripts/ifcfg-ib0 파일을 생성합니다.
@@ -169,6 +186,59 @@ IPV4=FAILURE_FATAL=yes
 IPV6INIT=no
 NAME=ib1
 ONBOOT=yes
+----
++
+RHEL 9 *
+
++
+를 사용합니다 `nmtui` 도구를 사용하여 연결을 활성화하고 편집합니다. 다음은 예제 파일입니다 `/etc/NetworkManager/system-connections/ib0.nmconnection` 이 도구는 다음을 생성합니다.
+
++
+[listing]
+----
+[connection]
+id=ib0
+uuid=<unique uuid>
+type=infiniband
+interface-name=ib0
+
+[infiniband]
+mtu=4200
+
+[ipv4]
+address1=10.10.10.100/24
+method=manual
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
+----
++
+다음은 예제 파일입니다 `/etc/NetworkManager/system-connections/ib1.nmconnection` 이 도구는 다음을 생성합니다.
+
++
+[listing]
+----
+[connection]
+id=ib1
+uuid=<unique uuid>
+type=infiniband
+interface-name=ib1
+
+[infiniband]
+mtu=4200
+
+[ipv4]
+address1=11.11.11.100/24'
+method=manual
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
 ----
 . "IB" 인터페이스를 활성화합니다.
 +
