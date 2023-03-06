@@ -34,7 +34,7 @@ sidebar:
         url: "/getting-started/learn-software-concept.html"
       - title: E-Series 비디오
         url: "/getting-started/learn-video-concept.html"
-    - title: E-Series와 함께 가동 및 운영합니다
+    - title: 빠른 시작
       url: "/getting-started/getup-run-concept.html"
   - title: 하드웨어를 설치합니다
     entries:

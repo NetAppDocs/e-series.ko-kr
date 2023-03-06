@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E-Series, eseries, E2800, E5700, EF300, EF600, 
 summary: E-Series 시스템을 설치하여 실행하려면 하드웨어 구성요소를 설치하고 호스트 시스템을 구성하고 스토리지를 구성해야 합니다. 
 ---
-= E-Series와 함께 가동 및 운영합니다
+= E-Series를 빠르게 시작합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,70 +13,61 @@ summary: E-Series 시스템을 설치하여 실행하려면 하드웨어 구성�
 [role="lead"]
 E-Series 시스템을 설치하여 실행하려면 하드웨어 구성요소를 설치하고 호스트 시스템을 구성하고 스토리지를 구성해야 합니다.
 
-스토리지 시스템을 구축하려면 다음과 같은 워크플로우가 필요합니다.
-
-image::../media/doccenterworkflow.gif[문서 센터워크플로우]
-
-
-
-== 1단계: 하드웨어 설치
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 하드웨어를 설치합니다
+[role="quick-margin-para"]
 E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유형에 대한 설치 및 설정 지침을 따르십시오.
 
+[role="quick-margin-list"]
 * link:../install-hw-ef600/index.html["24-드라이브 쉘프를 지원하는 EF600 또는 EF300 시리즈"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2842063["12 또는 24 드라이브 쉘프가 포함된 E2800/EF280 또는 E5700/EF570 시리즈"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2842061["60-드라이브 쉘프가 포함된 E2800 또는 E5700 시리즈"^]
 
 
-
-
-== 2단계: 캐비닛 설정
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 캐비닛을 설정합니다
+[role="quick-margin-para"]
 스토리지 배열에 대한 새 캐비닛을 설정하는 경우 캐비닛을 영구 위치로 이동하고 하드웨어를 설치한 다음 전원에 연결해야 합니다. 캐비닛을 설정하려면 다음 지침을 따르십시오.
 
+[role="quick-margin-list"]
 * link:../install-hw-cabinet/index.html["3040 40U 캐비닛을 설치합니다"^]
 
 
-
-
-== 3단계: 레일 설치
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 레일을 설치합니다
+[role="quick-margin-para"]
 각 쉘프는 랙 장착 하드웨어를 함께 제공합니다. 레일 설치에 대한 자세한 지침을 보려면 레일 유형을 선택하십시오.
 
+[role="quick-margin-list"]
 * https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1652045["조절식 지지 레일을 설치합니다"^]
 * https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2484194["2U 엔클로저를 4-포스트 랙에 설치합니다"^]
 * https://mysupport.netapp.com/ecm/ecm_download_file/ECMM1280302["DE224C 쉘프를 2-포스트 랙에 설치합니다"^]
 * http://docs.netapp.com/platstor/topic/com.netapp.doc.hw-rail-superrail/home.html["4-포스트 랙에 SuperRail 설치(DE224C/DE460C 쉘프)"^]
 
 
-
-
-== 4단계: 케이블을 연결합니다
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 케이블을 연결합니다
+[role="quick-margin-para"]
 설치 및 설정 지침(1단계)에는 케이블 연결 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록, 케이블 연결에 대한 모범 사례 및 컨트롤러의 호스트 포트에 대한 자세한 정보가 필요한 경우 다음 지침을 참조하십시오.
 
+[role="quick-margin-list"]
 * link:../install-hw-cabling/index.html["E-Series 하드웨어 케이블 연결"]
 
 
-
-
-== 5단계: 호스트 구성
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] 호스트를 구성합니다
+[role="quick-margin-para"]
 호스트에서 스토리지를 사용할 수 있도록 하려면 호스트의 운영 체제 유형에 대한 가이드를 선택합니다.
 
+[role="quick-margin-list"]
 * link:../config-linux/index.html["Linux Express 구성"]
 * link:../config-vmware/index.html["VMware Express 구성"]
 * link:../config-windows/index.html["Windows Express 구성"]
 
 
-
-
-== 6단계: 스토리지 구성
-
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 스토리지를 구성합니다
+[role="quick-margin-para"]
 스토리지를 구성하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 System Manager의 웹 기반 인터페이스에 액세스할 수 있습니다. 설치 마법사를 사용하면 시스템 구성을 시작할 수 있습니다. 또는 CLI(Command Line Interface)를 사용할 수도 있습니다.
 
+[role="quick-margin-para"]
 사용할 인터페이스를 선택합니다.
 
+[role="quick-margin-list"]
 * https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["11.7배의 SANtricity 시스템 관리자 도움말"]
 * https://docs.netapp.com/us-en/e-series-santricity-116/index.html["11.6x를 위한 SANtricity 시스템 관리자 도움말"]
 
