@@ -8868,6 +8868,5 @@
   <block id="e6fbc0b9673f8c86726688d7607fc8f5" category="inline-image-macro">6개</block>
   <block id="8cb633130263590fcb215001ddbab715" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block> 스토리지를 구성합니다</block>
   <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">버전 11.75의 새로운 기능</block>
-  <block id="a4b7d4d589fe2fdcc52596432d9392ed" category="paragraph">11.80.x로 업그레이드 허용</block>
-  <block id="7c2f19d039e9dc3e3394a748e8ac016e" category="paragraph">11.80.x 이상으로 업그레이드하려면 시스템에서 11.70.5 를 실행해야 합니다. 이제 SAS 및 NVMe 기반 SSD의 특정 드라이브에서 FIPS 140-3이 지원됩니다. 드라이브가 모든 NVMe 기반이거나 모든 SAS 기반인 경우 FIPS 140-3단계 SSD 드라이브는 FIPS 140-2 레벨 SSD 드라이브와 함께 존재할 수 있습니다. 볼륨 그룹 및 디스크 풀에서 이러한 레벨을 혼합하여 사용할 경우 그룹 또는 풀이 낮은 보안 수준(140-2)으로 작동할 수 있습니다.</block>
+  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">11.80.x 이상으로 업그레이드하려면 시스템에서 11.70.5 를 실행해야 합니다.</block>
 </blocks>
