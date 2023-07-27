@@ -47,7 +47,7 @@ E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유�
 설치 및 설정 지침(1단계)에는 케이블 연결 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록, 케이블 연결에 대한 모범 사례 및 컨트롤러의 호스트 포트에 대한 자세한 정보가 필요한 경우 다음 지침을 참조하십시오.
 
 [role="quick-margin-list"]
-* link:../install-hw-cabling/index.html["E-Series 하드웨어 케이블 연결"]
+* link:../install-hw-cabling/index.html["E-Series 하드웨어 케이블 연결"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] 호스트를 구성합니다
@@ -55,9 +55,9 @@ E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유�
 호스트에서 스토리지를 사용할 수 있도록 하려면 호스트의 운영 체제 유형에 대한 가이드를 선택합니다.
 
 [role="quick-margin-list"]
-* link:../config-linux/index.html["Linux Express 구성"]
-* link:../config-vmware/index.html["VMware Express 구성"]
-* link:../config-windows/index.html["Windows Express 구성"]
+* link:../config-linux/index.html["Linux Express 구성"^]
+* link:../config-vmware/index.html["VMware Express 구성"^]
+* link:../config-windows/index.html["Windows Express 구성"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 스토리지를 구성합니다
@@ -68,6 +68,7 @@ E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유�
 사용할 인터페이스를 선택합니다.
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["11.7배의 SANtricity 시스템 관리자 도움말"]
-* https://docs.netapp.com/us-en/e-series-santricity-116/index.html["11.6x를 위한 SANtricity 시스템 관리자 도움말"]
+* https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["11.8x에 대한 SANtricity 시스템 관리자 온라인 도움말"^]
+* https://docs.netapp.com/us-en/e-series-santricity-117/system-manager/index.html["11.7배의 SANtricity 시스템 관리자 온라인 도움말"^]
+* https://docs.netapp.com/us-en/e-series-santricity-116/index.html["11.6x용 SANtricity 시스템 관리자 온라인 도움말"^]
 

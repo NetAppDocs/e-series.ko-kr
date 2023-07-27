@@ -31,6 +31,14 @@ summary: 이전 버전의 문서
 
 
 
+=== SANtricity 릴리스 11.7
+
+* https://docs.netapp.com/us-en/e-series-santricity-117/index.html["System Manager 도움말"^]
+* https://docs.netapp.com/us-en/e-series-santricity-117/index.html["Unified Manager 도움말"^]
+
+
+
+
 === SANtricity 릴리스 11.6
 
 * https://docs.netapp.com/us-en/e-series-santricity-116/index.html["System Manager 도움말"^]

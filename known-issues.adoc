@@ -11,6 +11,7 @@ summary: 알려진 문제
 [role="lead"]
 릴리스 정보는 이 사이트 외부에서 사용할 수 있습니다. NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
 
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885976["11.80 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2874254["11.70 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2857931["11.60 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2842060["11.50 릴리스 정보"^]
