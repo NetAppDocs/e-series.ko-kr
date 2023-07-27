@@ -30,7 +30,7 @@ NOTE: "NVMe 검색" 명령은 호스트 액세스에 관계없이 하위 시스�
 +
 [listing]
 ----
-# nvme discover -t rdma -a 10.10.10.100
+# nvme discover -t rdma -a 10.10.10.200
  Discovery Log Number of Records 2, Generation counter 0
  =====Discovery Log Entry 0======
  trtype:  rdma
@@ -40,7 +40,7 @@ NOTE: "NVMe 검색" 명령은 호스트 액세스에 관계없이 하위 시스�
  portid:  0
  trsvcid: 4420
  subnqn:  nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be
- traddr: 10.10.10.100
+ traddr: 10.10.10.200
  rdma_prtype: infiniband
  rdma_qptype: connected
  rdma_cms:    rdma-cm
@@ -88,25 +88,9 @@ NOTE: 권장 컨트롤러 손실 시간 제한 시간(초)은 60분(3600초)입�
 +
 [listing]
 ----
-# nvme connect -t rdma -a 10.10.10.100 -n nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
+# nvme connect -t rdma -a 10.10.10.200 -n nqn.1992-08.com.netapp:5700.600a098000af41580000000058ed54be -Q 1024 -l 3600
 ----
-. 현재 연결된 NVMe 장치의 목록을 보려면 "NVMe list" 명령을 사용하십시오. 아래 예에서는 nvme0n1입니다.
-+
-[listing]
-----
- # nvme list
-
- Node          SN            Model             Namespace
- -------------------------------------------------------
- /dev/nvme0n1  021648023161  NetApp E-Series      1
-----
-+
-[listing]
-----
-Usage                 Format           FW Rev
---------------------------------------------------------------
-5.37 GB /5.37 GB      512 B + 0 B      0842XXXX
-----
+. 를 사용합니다 `nvme list-subsys` 명령을 사용하여 현재 연결된 NVMe 장치 목록을 표시합니다.
 . 두 번째 경로에서 검색된 하위 시스템에 연결합니다.
 +
 [listing]

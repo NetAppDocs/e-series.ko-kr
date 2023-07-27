@@ -21,6 +21,7 @@ ASUP(AutoSupport) 기능은 수동 및 일정 기반의 기준에 따라 메시�
 
 각 AutoSupport 메시지는 로그 파일, 구성 데이터, 상태 데이터 및 성능 메트릭의 모음입니다. 기본적으로 AutoSupport는 다음 표에 나열된 파일을 매주 한 번씩 NetApp 지원 팀에 전송합니다.
 
+[cols="35h,~"]
 |===
 | 파일 이름 | 설명 
 
@@ -129,6 +130,7 @@ HTTPS, HTTP 또는 SMTP 전송 방법을 사용하도록 AutoSupport 기능을 �
 . 작업 디렉터리에서 ASUPConfig.xml 파일에 액세스합니다.
 . 문자열, "<delivery type="n">"에 표에 설명된 대로 1, 2 또는 3을 입력합니다.
 +
+[cols="25h,~"]
 |===
 | 값 | 설명 
 

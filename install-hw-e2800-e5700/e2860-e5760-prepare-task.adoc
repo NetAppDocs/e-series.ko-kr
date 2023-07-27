@@ -14,7 +14,7 @@ summary: E2860, E57760 또는 DE460을 설치하려면 계정을 만들고 하�
 E2860, E5760 또는 DE460 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.
 
 .단계
-. 에서 계정을 만들고 하드웨어를 등록합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+. 에서 계정을 만들고 하드웨어를 등록합니다 http://mysupport.netapp.com/["NetApp 지원"^].
 . 받은 상자에 다음 항목이 있는지 확인합니다.
 +
 |===
@@ -130,11 +130,10 @@ image:../media/management_station_inst-hw-e2800-e5700_g60b3.png[""]
  a| 
 관리 소프트웨어에 대해 지원되는 브라우저:
 
-** Google Chrome(버전 47 이상)
-** Microsoft Internet Explorer(버전 11 이상)
-** Microsoft Edge(EdgeHTML 12 이상)
-** Mozilla Firefox(버전 31 이상)
-** Safari(버전 9 이상)
+** Google Chrome(버전 89 이상)
+** Microsoft Edge(버전 90 이상)
+** Mozilla Firefox(버전 80 이상)
+** Safari(버전 14 이상)
 
 
 |===

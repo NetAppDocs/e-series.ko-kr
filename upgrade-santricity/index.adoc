@@ -20,4 +20,4 @@ summary: SANtricity ® OS 업그레이드 개요
 * 드라이브 -- 드라이브의 펌웨어를 업그레이드하는 지침을 포함합니다.
 
 
-업그레이드를 시작하기 전에 을 검토하십시오 link:overview-upgrade-consider-task.html["업그레이드 고려 사항"].
+업그레이드를 시작하기 전에 을 검토하십시오  link:overview-upgrade-consider-task.html["업그레이드 고려 사항"^].

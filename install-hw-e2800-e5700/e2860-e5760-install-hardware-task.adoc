@@ -14,7 +14,7 @@ summary: 2-포스트 랙 또는 NetApp 시스템 캐비닛에 E2800 또는 E5700
 E2860, E57760 또는 DE460 스토리지 시스템을 2포스트 랙 또는 NetApp 시스템 캐비닛에 설치하는 방법에 대해 알아보십시오.
 
 .시작하기 전에
-* 에서 하드웨어를 등록하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+* 에서 하드웨어를 등록하십시오 http://mysupport.netapp.com/["NetApp 지원"^].
 * 평평하고 정전기가 없는 작업 영역을 준비합니다.
 * ESD 밴드를 착용하고 정전기 방지 조치를 취하십시오.
 

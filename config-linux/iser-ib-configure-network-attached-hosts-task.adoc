@@ -15,8 +15,11 @@ summary: InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 
 
 InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 SRP를 동시에 실행할 수 있으므로 추가 하드웨어가 필요하지 않습니다.
 
-.필요한 것
-NetApp에서 시스템에 OFED를 설치하도록 권장합니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+.시작하기 전에
+다음 사항을 확인하십시오.
+
+* NetApp에서 시스템에 OFED를 설치하도록 권장합니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
 
 .단계
 . 호스트에서 iSCSI 서비스 활성화 및 시작:
