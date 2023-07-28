@@ -50,4 +50,4 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2874738["E-Series/EF-Series SANtricity OS에 대한 알림"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2885978["E-Series/EF-Series SANtricity OS에 대한 알림"]
