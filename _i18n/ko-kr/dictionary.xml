@@ -6890,15 +6890,11 @@
   <block id="f2c505979298b93cfd8e71dc78ddd1b0" category="admonition">전압 유형이 다른 PSU를 혼용하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="b7b26f8fd8107cf68f2bc572008d19a7" category="admonition">교체 컨트롤러에는 16GB의 메모리가 미리 설치되어 있습니다. 컨트롤러에 64GB 구성이 필요한 경우 교체 컨트롤러를 설치하기 전에 제공된 업그레이드 키트를 사용하십시오.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="a8280a793d4f574a1e8ec9fdeff29427" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.</block>
@@ -8799,8 +8795,6 @@
   <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">드라이브 펌웨어가 암호로 서명되었습니다. 서명은 초기 다운로드 중에 확인되며 CA에서 발급한 Extended Validation 인증서를 통해 백업됩니다. 이제 드라이브 펌웨어 컨텐츠가 ZIP 파일로 전달되며, 여기에는 기존의 서명되지 않은 펌웨어와 새로 서명된 펌웨어가 포함됩니다. 사용자는 대상 시스템에서 실행 중인 코드의 릴리스 버전을 기반으로 적절한 파일을 선택해야 합니다.</block>
   <block id="3c65e3636111523111e45a49a80face3" category="paragraph">외부 키 서버 관리 - 인증서 키 크기</block>
   <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">새 기본 인증서 키 크기는 3072비트(2048비트)입니다. 최대 4096비트의 키 크기가 지원됩니다. 기본값이 아닌 키 크기를 지원하려면 NVSRAM 비트를 변경해야 합니다.</block>
-  <block id="710e42f1cedbf3e670aace3815d6e451" category="paragraph">512b 블록 크기의 드라이브를 사용하여 더 큰 동적 디스크 풀 크기 지원</block>
-  <block id="7a4f6b11e091466663e9c7d3c9480717" category="paragraph">버전 1 풀 버전 유형을 사용하는 고객은 이제 최대 크기가 48TB인 디스크 풀을 사용할 수 있습니다. 이전 버전은 최대 24TB의 디스크 풀 크기를 지원합니다. 기존 디스크 풀을 더 큰 크기로 변환하려면 먼저 모든 볼륨을 제거해야 합니다. 버전 1 디스크 풀이 있는 경우 다운그레이드 작업이 제한됩니다.</block>
   <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">최소 브라우저 요구 사항이 충족되지 않으면 System Manager 및 Unified Manager가 실행되지 않습니다</block>
   <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">System Manager 또는 Unified Manager를 실행하기 전에 브라우저의 최소 버전이 필요합니다. 다음은 지원되는 최소 버전입니다.</block>
   <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox 최소 버전 80</block>
@@ -8846,4 +8840,24 @@
   <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
   <block id="050910c569f1cb9044086ceee795e2f8" category="sidebar">SANtricity 시스템 관리자 11.8</block>
   <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="sidebar">SANtricity 유니파이드 관리자 6</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="deab0ae4ee87e153ce15a1182bf91617" category="paragraph">키 크기 선택 값은 다음과 같습니다.</block>
+  <block id="92c9cd6ce879c70c929395d49566fca3" category="list-text">기본값 = 0</block>
+  <block id="91d66be9b353d488558a2fc87f866263" category="list-text">길이 2048 = 1</block>
+  <block id="60f95b27118522aa50716737cc578a39" category="list-text">길이 3072 = 2</block>
+  <block id="46b1448aca55d48c198834955f8e6b6a" category="list-text">길이 4096 = 3</block>
+  <block id="80b104f769b8bbef5d4b39ffe2efd816" category="paragraph">SMcli를 통해 키 크기를 4096으로 변경하려면:</block>
+  <block id="7f1a49e026d5afc827c5a0184af45fe0" category="paragraph"><block ref="53d52ccae7296ad3c52a5cc86881da22" prefix="" category="inline-code"></block><block ref="52baead6a42dd6532784cc33f69d8d94" prefix=" " category="inline-code"></block></block>
+  <block id="ad7ca0ac2dce92cb837bf072818ce860" category="paragraph">키 크기 조회:</block>
+  <block id="dc8f09004148c8853414b2fe2f19c503" category="paragraph"><block ref="5dfae352b2be729a121ea8024c5dc604" prefix="" category="inline-code"></block></block>
+  <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">Disk Pool 기능 향상</block>
+  <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80 이상을 실행하는 컨트롤러로 생성된 디스크 풀은 _ 버전 0_pool과 달리 _ 버전 1_pool입니다. 버전 1_ 디스크 풀이 있으면 다운그레이드 작업이 제한됩니다.</block>
+  <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">디스크 풀의 버전은 스토리지 배열 프로파일에서 확인할 수 있습니다.</block>
 </blocks>
