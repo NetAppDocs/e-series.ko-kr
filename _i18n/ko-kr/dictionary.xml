@@ -8860,4 +8860,6 @@
   <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">Disk Pool 기능 향상</block>
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80 이상을 실행하는 컨트롤러로 생성된 디스크 풀은 _ 버전 0_pool과 달리 _ 버전 1_pool입니다. 버전 1_ 디스크 풀이 있으면 다운그레이드 작업이 제한됩니다.</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">디스크 풀의 버전은 스토리지 배열 프로파일에서 확인할 수 있습니다.</block>
+  <block id="82bf7451a207cfbac427edc3bb60fced" category="paragraph">이 문서는 추가 컨텐츠에 대한 라이브 링크가 포함된 단계별 지침의 인쇄 가능한 PDF입니다.</block>
+  <block id="a2f0a23d015da77ff81697442b8f6aad" category="paragraph">다음은 이 사이트에서 설명하는 설정 지침입니다.</block>
 </blocks>
