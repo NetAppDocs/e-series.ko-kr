@@ -8817,10 +8817,7 @@
   <block id="a5ff5d8396bab4e857d616fc9fa06b26" category="list-title">필요한 것</block>
   <block id="75014b540a900a20abf83a06a6f23acc" category="paragraph">다음을 수행하십시오.</block>
   <block id="d51a879a95a1f1b04438a7e672254378" category="list-text">Microsoft Edge(90 이상)</block>
-  <block id="055c49f32e97721509c3ba8e800b7d0e" category="admonition">E2800, EF280, E5700, EF570, EF600에서 모든 USB 포트 비활성화 및 EF300 스토리지</block>
-  <block id="9fed5991090e027f2348c873d605f4d6" category="admonition">EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
   <block id="dae6baa86f1f6e4135f2552862c8b191" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 7개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개</block>
-  <block id="e1602ccaec81c1829eb2a83bd391bfb8" category="admonition">EF600은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
   <block id="70a5ac954926edc08c5f6fc4c248a4a6" category="section-title">SANtricity 릴리스 11.7</block>
   <block id="f7b52729af7c7aa177e09390f0afd194" category="list-text"><block ref="f7b52729af7c7aa177e09390f0afd194" category="inline-link-rx"></block></block>
   <block id="797222f106ff986b71e9f972dd342bc3" category="list-text"><block ref="797222f106ff986b71e9f972dd342bc3" category="inline-link-rx"></block></block>
@@ -8895,4 +8892,7 @@
   <block id="d7ffc2406b2b1f56267e389dcea17d16" category="paragraph">이제 아무런 조치가 필요하지 않은 공칭 및 최대 온도 초과 이벤트에 대해 케이스 생성 플래그가 비활성화됩니다.</block>
   <block id="746cf185d12f5492055c99b5dda9119d" category="paragraph">0x1209 Mel 이벤트에 대해 활성화된 우선순위 케이스 생성 플래그</block>
   <block id="09c222edb73c49afd2e9ec9f75a2cd53" category="paragraph">이제 에 대한 케이스 생성 플래그가 생성됩니다<block ref="768a075a6d4dc734e5397ee50957d8d8" prefix=" " category="inline-code"></block> Mel 이벤트.</block>
+  <block id="11f16f90266e9e59b05bab98913c351d" category="admonition">SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600, 및 EF300 스토리지.</block>
+  <block id="fad6f3761e69d291ccde3b2351a1c961" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
+  <block id="cc1b53336ed5c926305dd7ad876ab1d2" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF600은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
 </blocks>
