@@ -70,6 +70,4 @@ E2760, E5660
 DE460C
 
 |===
-다른 케이블 연결 옵션에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2773533["E-Series 하드웨어 케이블 연결 가이드 를 참조하십시오"^] 이전 시스템의 경우.
-
 미러링 기능을 지원하는 케이블 연결에 대한 자세한 내용은 를 참조하십시오 https://www.netapp.com/us/media/tr-4656.pdf["동기 및 비동기 미러링 기능 설명 및 배포 가이드"^].
