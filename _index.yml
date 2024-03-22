@@ -1,0 +1,64 @@
+---
+indexpage:
+  title: E-Series 시스템 설명서
+  summary: E-Series 시스템은 단순하고 빠르며 안정적인 SAN 스토리지가 필요한 데이터 분석, 비디오 감시 및 디스크 기반 백업과 같은
+    전용 고대역폭 애플리케이션을 위한 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.
+  keywords: e-series, integrated hardware, software, data analytics, video surveillance,
+    disk-based backup
+  lead: E-Series 시스템은 단순하고 빠르며 안정적인 SAN 스토리지가 필요한 데이터 분석, 비디오 감시 및 디스크 기반 백업과 같은 전용
+    고대역폭 애플리케이션을 위한 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: 빠른 시작
+      url: "/getting-started/getup-run-concept.html"
+    - title: EF-Series 데이터시트 를 살펴 보십시오
+      url: https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf
+    - title: E5700 데이터시트
+      url: https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf
+    - title: E2800 데이터시트를 참조하십시오
+      url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
+  - title: SANtricity 소프트웨어
+    links:
+    - title: SANtricity 시스템 관리자 11.8
+      url: https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html
+    - title: SANtricity 유니파이드 관리자 6
+      url: https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html
+    - title: CLI(Command Line Interface) 참조
+      url: https://docs.netapp.com/us-en/e-series-cli/index.html
+  - title: SANtricity API
+    links:
+    - title: 웹 서비스
+      url: "/web-services-proxy/index.html"
+    - title: vCenter용 플러그인
+      url: "/vcenter-plugin/san-spvc-ic-overview.html"
+    - title: SMI-S 공급자
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+  - title: 고성능 애플리케이션 애드온
+    links:
+    - title: Splunk Enterprise용 SANtricity 앱
+      url: https://splunkbase.splunk.com/app/1932/
+    - title: SANtricity용 Splunk 기술 애드온
+      url: https://splunkbase.splunk.com/app/1933/
+    - title: E-Series + Grafana를 사용한 성능 분석기
+      url: https://github.com/NetApp/eseries-perf-analyzer
+    - title: E-Series Performance Analyzer에 대한 블로그
+      url: https://blog.netapp.com/monitoring-netapp-eseries
+  - title: SE용
+    links:
+    - title: E-Series/EF-Series 기술 교육(로그인 필요)
+      url: https://fieldportal.netapp.com/content/199944
+    - title: EF300 개요 및 기술 세부 정보(로그인 필요)
+      url: https://fieldportal.netapp.com/content/1417672
+    - title: NetApp Fusion(로그인 필요)
+      url: https://fusion.netapp.com/
+  - title: 도구 지원
+    links:
+    - title: NetApp 상호 운용성 매트릭스
+      url: http://mysupport.netapp.com/matrix/
+    - title: NetApp 기술 자료
+      url: https://kb.netapp.com/
+    - title: Active IQ(로그인 필요)
+      url: https://activeiq.netapp.com/?source=aiqnsspage
+    - title: E-Series/SANtricity 다운로드(로그인 필요)
+      url: https://mysupport.netapp.com/site/downloads#E
