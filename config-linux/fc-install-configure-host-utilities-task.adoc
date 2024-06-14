@@ -1,7 +1,7 @@
 ---
 permalink: config-linux/fc-install-configure-host-utilities-task.html 
 sidebar: sidebar 
-keywords: Linux Unified Host Utilities, express linux configuration, software configuration, linux host, 
+keywords: Linux Unified Host Utilities, express linux configuration, software configuration, linux host, SMcli, SMdevices 
 summary: FC를 사용할 때 Linux Unified Host Utilities를 설치합니다. 
 ---
 = Linux Unified Host Utilities를 설치하고 구성합니다
@@ -21,6 +21,6 @@ Linux Unified Host Utilities 툴을 사용하면 페일오버 정책과 물리�
 . 에서 Unified Host Utilities를 다운로드합니다 https://mysupport.netapp.com/site/["NetApp 지원"^].
 +
 
-NOTE: 또는 SANtricity SMdevices 유틸리티를 사용하여 통합 호스트 유틸리티 도구와 동일한 기능을 수행할 수 있습니다. SMdevices 유틸리티는 SMutils 패키지의 일부로 포함되어 있습니다. SMutils 패키지는 호스트가 스토리지 배열에서 무엇을 볼 수 있는지 확인하는 유틸리티 모음입니다. SANtricity 소프트웨어 설치의 일부로 포함되어 있습니다.
+NOTE: 또는 SMcli 명령을 사용할 수 있습니다 `-identifyDevices` Unified Host Utility 툴과 동일한 기능을 수행합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 
 

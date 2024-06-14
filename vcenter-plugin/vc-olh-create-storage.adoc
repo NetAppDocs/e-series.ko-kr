@@ -341,8 +341,8 @@ DA
 .작업을 마친 후
 * vSphere Client에서 볼륨에 대한 데이터 저장소를 생성합니다.
 * 응용 프로그램이 볼륨을 사용할 수 있도록 응용 프로그램 호스트에서 필요한 모든 운영 체제 수정을 수행합니다.
-* 호스트 기반 핫 애드(hot_add) 유틸리티나 운영 체제별 유틸리티(타사 공급업체에서 제공)를 실행한 다음 '디바이스' 유틸리티를 실행하여 볼륨 이름을 호스트 스토리지 배열 이름과 상호 연관시킵니다.
+* 운영 체제 특정 유틸리티(타사 공급업체에서 제공)를 실행한 다음 SMcli 명령을 실행합니다 `-identifyDevices` 볼륨 이름과 호스트 스토리지 배열 이름을 서로 연관시킵니다.
 +
-Hot_add 유틸리티와 '장치' 유틸리티는 'Mutils' 패키지의 일부로 포함되어 있습니다. 'Utils' 패키지는 호스트에서 스토리지 배열의 내용을 확인하는 유틸리티 모음입니다. SANtricity 소프트웨어 설치의 일부로 포함되어 있습니다.
+SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 
 

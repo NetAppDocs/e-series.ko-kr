@@ -16,7 +16,6 @@
   <block id="ecb3eae36555245dd97b57edf925b519" category="paragraph">기본적으로 VMware iSCSI 소프트웨어 이니시에이터는 iSCSI 포트 바인딩을 사용하지 않을 때 iSCSI 타겟당 단일 세션을 생성합니다.</block>
   <block id="84b339ef337149fb55dc73165dd441d4" category="inline-link">VMware 기술 자료</block>
   <block id="bcf2befa67a21b602de7c9607a256fdd" category="admonition">VMware iSCSI 포트 바인딩은 구성된 네트워크 세그먼트에서 액세스할 수 있는 모든 타겟 포트에 바인딩된 모든 VMkernel 포트를 강제로 로그인하는 기능입니다. iSCSI 대상에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용됩니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 를 참조하십시오<block ref="f51a555352ce97fa9606c6453ba145eb" category="inline-link-rx"></block> ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용할 때의 고려 사항에 대한 문서를 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우 별도의 iSCSI vmkernel 포트를 사용하여 포트 바인딩과 충돌하지 않는 것이 좋습니다.</block>
-  <block id="0995e93f2d32176a9594170326076188" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다.</block>
   <block id="4d58b104819df733df379625cb1928bb" category="paragraph">경로 다중화 구성이 양호한지 확인하려면 iSCSI 네트워크에 대해 여러 네트워크 세그먼트를 사용합니다. 한 네트워크 세그먼트의 각 어레이 컨트롤러에서 하나 이상의 호스트 측 포트와 하나 이상의 포트를 배치하고 다른 네트워크 세그먼트의 호스트 측 포트와 어레이 측 포트의 동일한 그룹을 배치합니다. 가능한 경우 여러 이더넷 스위치를 사용하여 추가적인 이중화를 제공합니다.</block>
   <block id="f15f906f7bea6ec29e2979d8f1f2fcfb" category="admonition">많은 네트워크 스위치는 IP 오버헤드를 위해 9,000바이트 이상으로 구성해야 합니다. 자세한 내용은 스위치 설명서를 참조하십시오.</block>
   <block id="e416e1de0c9f752b24a207ee8a149921" category="paragraph">SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네트워킹을 구성합니다.</block>
@@ -124,7 +123,6 @@
   <block id="e987e7fa5c9abc75335a066329ba6eaa" category="paragraph">HBA 유틸리티를 사용하여 SAS 주소를 찾은 다음 HBA BIOS를 사용하여 적절한 구성 설정을 수행합니다.</block>
   <block id="b769f2f457baf26b76c0285eaf26cac1" category="paragraph">HBA 유틸리티에 대한 지침을 검토합니다.</block>
   <block id="4191e9e13f8a201f560ff4eb7e03a2b8" category="list-text">대부분의 HBA 공급업체는 HBA 유틸리티를 제공합니다.</block>
-  <block id="8e23f53043423e6715229ae35c668a80" category="list-text">호스트 컨텍스트 에이전트가 설치된 경우 호스트 I/O 포트가 자동으로 등록될 수 있습니다.</block>
   <block id="f839e1b7c3a21e269ed4802e2a8f478a" category="list-text">HBA 공급업체의 웹 사이트에서 HBA 유틸리티를 다운로드합니다.</block>
   <block id="32e3cf2b76364e5780ea7c673b668437" category="list-text">유틸리티를 설치합니다.</block>
   <block id="87e85b9ea37f21226023282c05abc3b0" category="list-text">HBA BIOS를 사용하여 구성에 적합한 설정을 선택합니다.</block>
@@ -662,24 +660,12 @@
   <block id="36a6c85baeb45ad7d6b182928148783d" category="cell">* 예 * 는 풀 또는 볼륨 그룹의 드라이브가 DA(Data Assurance)를 지원하는 경우에만 "DA" 옆에 표시됩니다. DA는 전체 스토리지 시스템에서 데이터 무결성을 높입니다. DA를 사용하면 데이터를 컨트롤러를 통해 드라이브로 전송할 때 발생할 수 있는 오류를 스토리지 어레이에서 확인할 수 있습니다. 새 볼륨에 DA를 사용하면 오류가 감지됩니다.</block>
   <block id="ad2bbf8f4eaa2e5c1f2dc065812618ee" category="list-text">선택한 응용 프로그램에 대한 볼륨 생성 순서를 계속하려면 * 다음 * 을 클릭합니다.</block>
   <block id="05ac61cded1d64877319e6fc3303a304" category="list-text">마지막 단계에서는 생성하려는 볼륨의 요약을 검토하고 필요한 내용을 변경합니다. 변경하려면 * 뒤로 * 를 클릭합니다. 볼륨 구성이 만족스러우면 * 마침 * 을 클릭합니다.</block>
-  <block id="6ce56c3d2a347e8eec31ca9a5f266cb2" category="paragraph">호스트를 자동으로 또는 수동으로 생성할 수 있습니다.</block>
-  <block id="3f6aae0d6b07b0c0c3753a29f5ea7bbb" category="list-text">* 자동 * -- SCSI 기반(NVMe-oF 아님) 호스트의 자동 호스트 생성이 HCA(Host Context Agent)에 의해 시작됩니다. HCA는 스토리지 배열에 연결된 각 호스트에 설치할 수 있는 유틸리티입니다. HCA가 설치된 각 호스트는 I/O 경로를 통해 구성 정보를 스토리지 어레이 컨트롤러로 푸시합니다. 호스트 정보에 따라 컨트롤러는 자동으로 호스트와 관련 호스트 포트를 생성하고 호스트 유형을 설정합니다. 필요한 경우 호스트 구성을 추가로 변경할 수 있습니다. HCA가 자동 감지를 수행한 후 호스트는 다음 속성을 사용하여 자동으로 구성됩니다.</block>
-  <block id="f83da56133b643da9e77e51cd6c5bb60" category="list-text">호스트의 시스템 이름에서 파생된 호스트 이름입니다.</block>
-  <block id="ff355485c71c980dad7d2bcc738031e3" category="list-text">호스트와 연결된 호스트 식별자 포트입니다.</block>
-  <block id="9216f53a8757b69a9763476f633bafcd" category="list-text">호스트의 호스트 운영 체제 유형입니다.</block>
   <block id="8b261088a6c6ed749f082d5672940ffb" category="inline-link">NetApp 지원 - 다운로드</block>
-  <block id="4954a64a167635ad19317842780fc1e2" category="admonition">Linux 및 Windows용 호스트 컨텍스트 에이전트 소프트웨어는 에서 사용할 수 있습니다<block ref="d4d0bd08778a1eda2e214061987877dd" category="inline-link-rx"></block>.</block>
-  <block id="ce20270f9f59c29940789eed21ca0ad1" category="admonition">호스트는 독립 실행형 호스트로 생성되지만 HCA는 호스트 클러스터를 자동으로 생성하거나 추가하지 않습니다.</block>
   <block id="b4f69aa1a7313b31e977a8c463cdf13b" category="list-text">* 수동 * – 수동 호스트 생성 중에 호스트 포트 식별자를 목록에서 선택하거나 수동으로 입력하여 연결합니다. 호스트를 생성한 후 볼륨에 대한 액세스를 공유하려는 경우 호스트에 볼륨을 할당하거나 호스트 클러스터에 추가할 수 있습니다.</block>
-  <block id="97af09f89abd52bc4528726a62f75580" category="section-title">HCA를 사용하여 호스트를 자동으로 검색합니다</block>
-  <block id="5f96931891fdfe6d097d700182501d44" category="paragraph">HCA(Host Context Agent)에서 호스트를 자동으로 검색한 다음 정보가 올바른지 확인할 수 있습니다.</block>
   <block id="2f3d16ae594f1458b2df0f43ad9132a5" category="list-text">관리 페이지에서 호스트 연결이 있는 스토리지 배열을 선택합니다.</block>
   <block id="47369607937ea8b62ad0a5349cee6fb8" category="list-text">메뉴: Provisioning [Configure Hosts](호스트 구성)를 선택합니다.</block>
   <block id="41dbd6041fd556f06750dc1495be7b10" category="paragraph">호스트 구성 페이지가 열립니다.</block>
   <block id="0924796085f7df98cb7ab62924c6e73c" category="list-text">스토리지 [호스트] 메뉴를 선택합니다.</block>
-  <block id="33c6b73b3842ba3a2a3c555bf1ce0cd6" category="paragraph">이 표에는 자동으로 생성된 호스트가 나열됩니다.</block>
-  <block id="4519f1c84733049cbbfffe94fa4d88d1" category="list-text">HCA에서 제공하는 정보(이름, 호스트 유형, 호스트 포트 식별자)가 올바른지 확인합니다.</block>
-  <block id="b36dd028d4cc9fd23358d580eca639f1" category="list-text">정보를 변경해야 하는 경우 호스트를 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="390c57ab50f691d4eb0f2ff4e5c42c23" category="section-title">호스트를 수동으로 생성합니다</block>
   <block id="882cb68e5d863b419d0d4d5f61d4f0bf" category="paragraph">다음 지침을 읽으십시오.</block>
   <block id="6ed30639f30e0f37f0053ee840f7df42" category="list-text">사용자 환경 내에 이미 스토리지 시스템을 추가하거나 검색한 상태여야 합니다.</block>
@@ -1244,7 +1230,6 @@
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link">NetApp 지원</block>
   <block id="f64d5867fd911e2b14d8680010121759" category="list-text">에서 Unified Host Utilities를 다운로드합니다<block ref="2ff36e7792a0e0257d19a11dce8cade8" category="inline-link-rx"></block>.</block>
   <block id="59fbc26a1831942cb6ebf2d627aa2db8" category="admonition">SANtricity 저장소 관리자 설치 프로그램을 사용하여 이 유틸리티 패키지를 설치할 수 없습니다.</block>
-  <block id="fe2b572228681d85876f1c2ffc7023a9" category="admonition">또는 SANtricity SMdevices 유틸리티를 사용하여 통합 호스트 유틸리티 도구와 동일한 기능을 수행할 수 있습니다. SMdevices 유틸리티는 SMutils 패키지의 일부로 포함되어 있습니다. SMutils 패키지는 호스트가 스토리지 배열에서 무엇을 볼 수 있는지 확인하는 유틸리티 모음입니다. SANtricity 소프트웨어 설치의 일부로 포함되어 있습니다.</block>
   <block id="135d30ad6d2da4597cfa1d9690fba47a" category="summary">SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 권장 설정을 구성합니다.</block>
   <block id="d723a375133225f8e40ad6de1d56e805" category="paragraph">SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 적절한 설정을 합니다.</block>
   <block id="bfcd4b5a45e2121dd605c54a4da4bd65" category="paragraph">HBA 유틸리티를 사용하여 SAS 주소를 찾은 다음 HBA BIOS를 사용하여 적절한 구성 설정을 수행합니다.</block>
@@ -1296,10 +1281,8 @@
   <block id="a8342f05171838958a785b1d2d1db93b" category="paragraph">그림에서는 두 개의 존에서 E-Series 스토리지 어레이에 연결된 호스트를 보여 줍니다. 한 영역은 파란색 선으로 표시되고 다른 영역은 빨간색 선으로 표시됩니다. 단일 포트에는 스토리지에 대한 경로가 2개 있습니다(각 컨트롤러에 대한 경로 1개).</block>
   <block id="c110df1be6e0c274e5b6190b197bcabe" category="image-alt">포트 식별자 호스트 및 타겟 conf win</block>
   <block id="7baddc80f2f90c28721d910489b197cb" category="summary">CLI용 Storage Manager 및 HCA를 Windows Express 방법에 설치합니다.</block>
-  <block id="dc3fbfd52a78c903e6de09d05ddfc27d" category="doc">SMcli 및 호스트 컨텍스트 에이전트용 SANtricity 스토리지 관리자(HCA) 설치</block>
   <block id="ef71c4d60b721871a9a1acefb72e13e4" category="paragraph">SANtricity 소프트웨어 11.53 이하를 사용하는 경우, 관리 스테이션에 SANtricity 스토리지 관리자 소프트웨어를 설치하여 어레이를 관리할 수 있습니다.</block>
   <block id="501a2ad13300e0aa28ebe2f8b5f896f5" category="paragraph">SANtricity 스토리지 관리자는 추가 관리 작업을 위한 CLI(Command Line Interface)와 I/O 경로를 통해 호스트 구성 정보를 스토리지 어레이 컨트롤러로 푸시하는 Host Context Agent를 포함합니다.</block>
-  <block id="5d2dd026d83ed1ae31b7c46f98cd9d34" category="admonition">SANtricity 소프트웨어 11.60 이상을 사용하는 경우 다음 단계를 수행할 필요가 없습니다. SANtricity 보안 CLI(SMcli)는 SANtricity OS에 포함되어 있으며 SANtricity 시스템 관리자를 통해 다운로드할 수 있습니다. SANtricity 시스템 관리자를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말의 _CLI(명령줄 인터페이스)_다운로드 항목을 참조하십시오.</block>
   <block id="333a1ae397172ffa7f074eb82c021e4e" category="list-text">SANtricity 소프트웨어 11.53 이전 버전.</block>
   <block id="2f42837cf7042dcd613c4776cd821f9b" category="list-text">다음과 같은 최소 요구 사항이 있는 SANtricity Storage Manager 클라이언트용 시스템:</block>
   <block id="f8dc05e90027ef9e4b77e8ab41d012c6" category="list-text">RAM *: Java Runtime Engine용 2GB</block>
@@ -1371,7 +1354,6 @@
   <block id="de79e6b334ef3f5c38431ae360ff09f6" category="paragraph">E2712, E2724, E5612, E5624, EF560</block>
   <block id="f2a12ad5f52528054619d431dc7c3054" category="paragraph">E2760, E5660</block>
   <block id="15ced0ef88b79c27417b95cc4a6474e1" category="inline-link">E-Series 하드웨어 케이블 연결 가이드 를 참조하십시오</block>
-  <block id="588ea625981b26f278d5da4ff8ceb15d" category="paragraph">다른 케이블 연결 옵션에 대한 자세한 내용은 를 참조하십시오<block ref="b81b0da72978e2b90766cbfae5ed2466" category="inline-link-rx"></block> 이전 시스템의 경우.</block>
   <block id="5c8edef9c398c6792341850977901070" category="inline-link">동기 및 비동기 미러링 기능 설명 및 배포 가이드</block>
   <block id="9696fa6d39ba9aab453fe1ba80da0669" category="paragraph">미러링 기능을 지원하는 케이블 연결에 대한 자세한 내용은 를 참조하십시오<block ref="ecbdbcda2695048a35af4e9c40e978db" category="inline-link-rx"></block>.</block>
   <block id="f9bcb67d08f727c5a322f1f2c7b1e5c5" category="summary">대역외 관리를 위해 스토리지 시스템을 이더넷 네트워크에 연결합니다.</block>
@@ -1959,10 +1941,8 @@
   <block id="e93d2afef215287e7ea403b7d93a1042" category="admonition">* 데이터 액세스 손실 가능성 * -- 방금 설치한 컨트롤러에 이러한 코드 중 하나가 표시되고 어떤 이유로든 다른 컨트롤러가 재설정된 경우 두 번째 컨트롤러도 잠길 수 있습니다.</block>
   <block id="81511c16ac1c696901257fc0136ae1d1" category="list-text">컨트롤러가 다시 온라인 상태가 최적인지 확인하고 컨트롤러 쉘프의 주의 LED를 확인합니다.</block>
   <block id="e11265286d3acc7518f4d458373d21d2" category="paragraph">상태가 최적이 아니거나 주의 LED 중 하나라도 켜져 있으면 모든 케이블이 올바르게 장착되고 컨트롤러 캐니스터가 올바르게 설치되었는지 확인합니다. 필요한 경우 컨트롤러 캐니스터를 제거하고 다시 설치합니다.</block>
-  <block id="79985a6d5d752cdcbb9bbb8340fa510f" category="list-text">필요한 경우 모든 볼륨을 기본 소유자에게 다시 재배포합니다.</block>
   <block id="bbf46f9beb7cca84a6bd9b9ad7a9d701" category="list-text">Storage [Volumes](저장소 [볼륨]) 메뉴를 선택합니다.</block>
   <block id="cd836d5607a72e58c28486ef83128f85" category="list-text">메뉴 선택: More [Redistribute volumes](추가 [볼륨 재배포])</block>
-  <block id="09a5aa9209154ff3bed809e609a7760d" category="list-text">최신 버전의 SANtricity OS 소프트웨어(컨트롤러 펌웨어)가 설치되었는지 확인하려면 메뉴: 하드웨어 [지원 &gt; 업그레이드 센터]를 클릭합니다.</block>
   <block id="c65491c8c7503c1a6db7cfd16113b72a" category="paragraph">필요한 경우 최신 버전을 설치합니다.</block>
   <block id="f64ac56cef1f5e4f7896043e6750dc53" category="paragraph">컨트롤러 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="6fcb8b9672441ca691f4d85d1836833b" category="summary">E5700 하드웨어 유지 관리</block>
@@ -3437,7 +3417,6 @@
   <block id="28c74601cab51ec0f572b112f7aee948" category="list-text">를 사용합니다<block ref="a3e2ed1651134ba8d782e5dc8287cbc1" category="inline-link-rx"></block> iSCSI 호스트를 구성하는 도구입니다.</block>
   <block id="84a0100270817ab949ead0850e5c7934" category="list-text">호스트 파티션을 편집하여 iSCSI 호스트 포트 ID를 추가하고 FC 호스트 포트 ID를 제거합니다.</block>
   <block id="e13345f5a8fed2baefb676e54c837f9b" category="list-text">iSCSI 호스트가 재부팅된 후 호스트에서 해당 절차를 사용하여 볼륨을 등록하고 운영 체제에서 사용할 수 있도록 합니다.</block>
-  <block id="dc11132834c12745a593ada748aa2908" category="list-text">운영 체제에 따라 스토리지 관리 소프트웨어(hot_add 및 SMdevices)에 두 개의 유틸리티가 포함되어 있습니다. 이러한 유틸리티를 사용하면 호스트에 볼륨을 등록할 수 있을 뿐 아니라 해당 볼륨의 장치 이름도 표시할 수 있습니다.</block>
   <block id="1ee6a2654832926bb18e15e40f4d7110" category="list-text">볼륨을 사용 가능하게 만들기 위해 운영 체제와 함께 제공되는 특정 도구 및 옵션을 사용해야 할 수도 있습니다(즉, 드라이브 문자를 할당하고 마운트 지점을 만드는 등). 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.</block>
   <block id="9728e1a98137d35970e4f40061b6f1b6" category="section-title">iSCSI를 FC/iSCSI로 변환합니다</block>
   <block id="016bce178ce0362a322d720a4763b0cd" category="paragraph">이전에 모든 iSCSI 호스트 포트를 FC로 변환한 경우에는 기존 구성을 수정하여 FC를 지원해야 할 수 있습니다.</block>
@@ -5390,13 +5369,9 @@
   <block id="df8c85065effb5093bcc1889495b92f7" category="section-title">내부 키 관리</block>
   <block id="8f0439a6f042ce457ec5d5faf91c28ea" category="paragraph">모든 드라이브가 잠겨 있을 때 내부 키 관리를 위해 다음 단계를 수행하십시오.</block>
   <block id="e55e81df495444ffb2639e3a7f9ef86e" category="admonition">관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 사용해 봅니다. + Ctrl A 포트 1: 192.168.128.101 + Ctrl A 포트 2: 192.168.128.102 + Ctrl 포트 1: 192.168.129.101 + Ctrl B 포트 2: 192.168.129.102</block>
-  <block id="451adf9dc612afcfa43e2c0797313ea1" category="paragraph">* 예: * s Mcli 192.168.128.101 -u admin -c "import storageArray securityKey file=\"Directory &amp; filename\" passphrase=\"passPhasspeaseString\";"</block>
   <block id="02626834a548b28e809c79cc3246fbf9" category="paragraph">컨트롤러는 드라이브의 자동 코드 동기화 프로세스를 계속 수행하고 재부팅합니다. 재부팅 후 컨트롤러는 원래 IP 구성을 통해 액세스할 수 있습니다.</block>
   <block id="370c6dde461cc5827c330619a80ca24b" category="section-title">외부 키 관리</block>
   <block id="9208cd3893f8fbd0715f391ac0195354" category="paragraph">모든 드라이브가 잠겨 있을 때 외부 키 관리를 위해 다음 단계를 수행하십시오.</block>
-  <block id="203b2e157336601775297d64e8b01713" category="paragraph">* 예: * s Mcli 192.168.128.101 -u admin -c "set storageArray externalKeyManagement serverAddress=&lt;ServerIPAddress&gt;serverPort=&lt;serverPort&gt;;"</block>
-  <block id="ff8ee4661fbac57cdf8a71747f69e4ed" category="paragraph">* 예 A: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=client file=\"Directory &amp; filename\";""</block>
-  <block id="0558f36aa79582296ec1f39019ce4f53" category="paragraph">* 예 B: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=server file=\"Directory &amp; filename\";""</block>
   <block id="854750d89bde7b9006e843874058e608" category="summary">E-Series 컨트롤러의 업그레이드 및 교체에 대한 요구사항을 검토하십시오.</block>
   <block id="520dc026db4e88668c8c301bd1d52f89" category="paragraph">컨트롤러를 업그레이드하기 전에 다음 고려 사항을 검토하십시오.</block>
   <block id="42eef425d97514d2a9e42ae0abebfde1" category="section-title">하드웨어 및 펌웨어 요구 사항</block>
@@ -6558,7 +6533,6 @@
   <block id="b54e5effb0684297a425f4b4d27a0901" category="inline-link">E2600 및 E2700에 두 번째 컨트롤러를 추가합니다</block>
   <block id="8873c4daaa79b4f2a0a76d2d60e0f4d2" category="list-text"><block ref="8873c4daaa79b4f2a0a76d2d60e0f4d2" category="inline-link-rx"></block></block>
   <block id="cc2c4e05a565a41e24830b8e20a407fa" category="inline-link">호스트 프로토콜을 변경하거나 추가합니다</block>
-  <block id="6ef4b2f0ae71e9e178116859d849d637" category="list-text"><block ref="6ef4b2f0ae71e9e178116859d849d637" category="inline-link-rx"></block></block>
   <block id="4a24ac39c4082dcb978a418e7c412751" category="inline-link">AC 전원에서 DC 전원으로 변환합니다</block>
   <block id="60d69132ac18e209751d2055249f9499" category="list-text"><block ref="60d69132ac18e209751d2055249f9499" category="inline-link-rx"></block></block>
   <block id="8538359cd0d88b60011df2ea127fcda4" category="section-title">이전 릴리스에 대한 소프트웨어 문서</block>
@@ -7206,8 +7180,6 @@
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="list-title">작업을 마친 후</block>
   <block id="9c9c42da70924dff53917fd5752cd0a9" category="list-text">vSphere Client에서 볼륨에 대한 데이터 저장소를 생성합니다.</block>
   <block id="27288924eb00279da6258f216a826ce6" category="list-text">응용 프로그램이 볼륨을 사용할 수 있도록 응용 프로그램 호스트에서 필요한 모든 운영 체제 수정을 수행합니다.</block>
-  <block id="f4c48f2383ce25f158cf33df12dc65ee" category="list-text">호스트 기반 핫 애드(hot_add) 유틸리티나 운영 체제별 유틸리티(타사 공급업체에서 제공)를 실행한 다음 '디바이스' 유틸리티를 실행하여 볼륨 이름을 호스트 스토리지 배열 이름과 상호 연관시킵니다.</block>
-  <block id="fc689e3fec7436f0795ba215ddaea02c" category="paragraph">Hot_add 유틸리티와 '장치' 유틸리티는 'Mutils' 패키지의 일부로 포함되어 있습니다. 'Utils' 패키지는 호스트에서 스토리지 배열의 내용을 확인하는 유틸리티 모음입니다. SANtricity 소프트웨어 설치의 일부로 포함되어 있습니다.</block>
   <block id="4db4ceee2891d65f714f908305bf69f5" category="summary">Storage Plugin for vCenter를 호스팅하는 관리 시스템에 안전하게 액세스할 수 있도록 CA 서명 인증서를 받아서 가져옵니다.</block>
   <block id="07d971b4a5a654450d917b608d4ec4f8" category="doc">CA 서명 인증서를 사용합니다</block>
   <block id="020e8003add330567e5f0d10609d0973" category="paragraph">Storage Plugin for vCenter를 호스팅하는 관리 시스템에 안전하게 액세스하기 위해 CA 서명 인증서를 얻고 가져올 수 있습니다.</block>
@@ -7269,14 +7241,12 @@
   <block id="6f77c9c07c72d4718892ec422f4427bc" category="doc">호스트 포트를 호스트에 일치시키려면 어떻게 해야 합니까?</block>
   <block id="e3603ec100f890e2ef8684fc0f32d90c" category="paragraph">이 정보가 있는 경우 Create Host 대화 상자에 제공된 목록에서 스토리지 배열에 로그인한 호스트 포트 식별자를 선택합니다.</block>
   <block id="2bba3e0602cd7a130a9a940ee66aefad" category="admonition">생성 중인 호스트에 대해 적절한 호스트 포트 식별자를 선택해야 합니다. 잘못된 호스트 포트 식별자를 연결하면 다른 호스트에서 이 데이터에 의도하지 않은 액세스가 발생할 수 있습니다.</block>
-  <block id="805b5a8d335604839f980870f92238c2" category="paragraph">각 호스트에 설치된 HCA(호스트 컨텍스트 에이전트)를 사용하여 호스트를 자동으로 생성하는 경우 HCA는 자동으로 호스트 포트 식별자를 각 호스트에 연결하고 적절히 구성해야 합니다.</block>
   <block id="490911223ced9bd35d325330312a99b5" category="summary">암호 구문은 로컬 관리 클라이언트에 저장된 보안 키 파일을 암호화하고 해독하는 데 사용됩니다.</block>
   <block id="7e2fd80391cbb19f61be6028669d1143" category="doc">암호문을 정의해야 하는 이유는 무엇입니까?</block>
   <block id="2f42cd01026066a070aa52e53e4d963f" category="paragraph">암호 구문은 로컬 관리 클라이언트에 저장된 보안 키 파일을 암호화하고 해독하는 데 사용됩니다. 암호 구문이 없으면 보안 키를 해독할 수 없으며 다른 스토리지 배열에 다시 설치한 경우 보안 활성 드라이브에서 데이터의 잠금을 해제하는 데 사용할 수 없습니다.</block>
   <block id="2da87ae0f783e9cc7ac8f36a7af697e4" category="summary">기본 클러스터는 기본 클러스터에 할당된 볼륨에 대한 액세스 권한을 얻기 위해 스토리지 배열에 로그인한 연결되지 않은 호스트 포트 식별자를 허용하는 시스템 정의 엔티티입니다.</block>
   <block id="b8d724212008baee7a5c6030da8fa5bc" category="doc">기본 클러스터는 무엇입니까?</block>
   <block id="9624dccf17eb4cce07a5a0013616c0f9" category="paragraph">연결되지 않은 호스트 포트 식별자는 특정 호스트와 논리적으로 연결되지 않지만 호스트에 물리적으로 설치되어 스토리지 배열에 로그인하는 호스트 포트입니다.</block>
-  <block id="b4c67a8296dafaccaed924668fa901da" category="admonition">호스트가 스토리지 배열의 특정 볼륨에 특정 액세스 권한을 가지도록 하려면 기본 클러스터를 사용하지 않아야 합니다. 대신 호스트 포트 식별자를 해당 호스트에 연결해야 합니다. 이 작업은 호스트 생성 작업 중에 수동으로 수행하거나 각 호스트에 설치된 HCA(호스트 컨텍스트 에이전트)를 사용하여 자동으로 수행할 수 있습니다. 그런 다음 개별 호스트 또는 호스트 클러스터에 볼륨을 할당합니다.</block>
   <block id="854135f279202e145fddcf81f6d69dab" category="paragraph">외부 스토리지 환경이 모든 호스트 및 스토리지 배열에 연결된 모든 로그인 호스트 포트 식별자를 모든 볼륨에 액세스할 수 있도록 허용하는 특수한 경우에만 기본 클러스터를 사용해야 합니다(모든 액세스 모드). 호스트를 스토리지 시스템 또는 사용자 인터페이스에 특별히 알려주지 않습니다.</block>
   <block id="c167b87ad97a717ca19e8302324a61d6" category="paragraph">처음에는 CLI(Command Line Interface)를 통해 기본 클러스터에만 볼륨을 할당할 수 있습니다. 그러나 기본 클러스터에 볼륨을 한 개 이상 할당한 후에는 이 개체(기본 클러스터라고 함)가 사용자 인터페이스에 표시되며, 여기에서 이 엔터티를 관리할 수 있습니다.</block>
   <block id="369faeb4aa443a86445a9cdfb023bb83" category="summary">추가/검색 기능을 사용하여 조직의 네트워크에서 관리할 스토리지 어레이를 찾아서 추가합니다.</block>
@@ -7445,7 +7415,6 @@
   <block id="2f405cc1b427d24720c2cc7d7dda7e2c" category="list-text">기본 보기에서 * 관리 * 를 선택한 다음 스토리지 배열을 추가할 그룹을 선택합니다.</block>
   <block id="78d46085734b1546832159391eb2b467" category="list-text">메뉴: Manage Groups [Add storage arrays to group]를 선택합니다.</block>
   <block id="875510c22480d2f647cff890742474ab" category="list-text">그룹에 추가할 스토리지 배열을 선택합니다.</block>
-  <block id="158015df88d990434f1a9d713f772baa" category="summary">호스트 운영 체제 유형 필드에는 호스트의 운영 체제가 들어 있습니다. 드롭다운 목록에서 권장 호스트 유형을 선택하거나 HCA(Host Context Agent)에서 호스트 및 적절한 호스트 운영 체제 유형을 구성할 수 있도록 허용할 수 있습니다.</block>
   <block id="c99be05276e49867c3c82a7022f31b32" category="doc">어떤 호스트 운영 체제 유형이 올바른지 어떻게 알 수 있습니까?</block>
   <block id="e13be85800aed175412a62f5b2b23406" category="paragraph">드롭다운 목록에 표시되는 호스트 유형은 스토리지 어레이 모델 및 펌웨어 버전에 따라 다릅니다. 가장 최신 버전은 가장 일반적인 옵션을 먼저 표시하며, 이 옵션이 가장 적절할 가능성이 높습니다. 이 목록의 모양은 옵션이 완전히 지원됨을 의미하지는 않습니다.</block>
   <block id="d11b94f400203a9104d040cb12cd7ca1" category="admonition">호스트 지원에 대한 자세한 내용은 를 참조하십시오<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>.</block>
@@ -7478,8 +7447,6 @@
   <block id="02677c9d7a9295a0b7ff23da80ed17c2" category="cell">3.9 이하의 커널과 함께 장치 매퍼 다중 경로 장애 조치 솔루션을 사용하여 Linux 운영 체제를 지원합니다.</block>
   <block id="e9745a54dc083bc4c6e7adb0ba4a88bf" category="cell">Window Clustered(더 이상 사용되지 않음)</block>
   <block id="ee99f98925e229fb230a1fca830d5dd4" category="cell">호스트 운영 체제 유형이 이 값으로 설정되어 있으면 Windows(클러스터형 또는 비클러스터형) 설정을 대신 사용합니다.</block>
-  <block id="c4a63ba39b5ca841704abea6cb2fb44a" category="paragraph">HCA를 설치하고 스토리지를 호스트에 연결한 후 HCA는 입출력 경로를 통해 호스트 토폴로지를 스토리지 컨트롤러로 보냅니다. 호스트 토폴로지에 따라 스토리지 컨트롤러는 자동으로 호스트와 연결된 호스트 포트를 정의한 다음 호스트 유형을 설정합니다.</block>
-  <block id="1ddb6810aa8c1c6572287f48e53a765f" category="admonition">HCA가 권장 호스트 유형을 선택하지 않으면 호스트 유형을 수동으로 설정해야 합니다.</block>
   <block id="e28ca758b5b6384ff2daa36accced63c" category="summary">볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 묻는 메시지가 표시됩니다.</block>
   <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">선택한 워크로드가 볼륨 생성에 어떤 영향을 미칩니까?</block>
   <block id="0c6710fd70e8f6dfb7dc7c5ef665fd39" category="paragraph">볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다. 선택적으로 볼륨 생성 순서에서 이 단계를 건너뛸 수 있습니다.</block>
@@ -8097,8 +8064,6 @@
   <block id="2c7bb5c0c4cf1c8a98580db96306828f" category="summary">vCenter용 Storage Plugin을 사용하여 스토리지를 관리하려면 네트워크에서 각 호스트를 검색 또는 정의해야 합니다.</block>
   <block id="3377964f846f087c85bfa55b8e435603" category="doc">호스트 생성 개요</block>
   <block id="dd4be5e22b2713a377fc88babf216418" category="paragraph">vCenter용 Storage Plugin을 사용하여 스토리지를 관리하려면 네트워크에서 각 호스트를 검색 또는 정의해야 합니다. 호스트는 스토리지 배열의 볼륨에 입출력을 전송하는 서버입니다.</block>
-  <block id="14e74c56c083745010899e49908977f0" category="section-title">자동 및 수동 호스트 생성</block>
-  <block id="ae1c3c63ab898ce42b5595fdbc2e91fc" category="paragraph">호스트를 생성하는 것은 스토리지 어레이가 호스트에 연결된 호스트를 파악하고 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다. 호스트를 자동 또는 수동으로 생성할 수 있습니다.</block>
   <block id="ed871627754400dea09f1a125da2eff2" category="list-text">* 수동 * -- 수동 호스트 생성 중에 호스트 포트 식별자를 목록에서 선택하거나 수동으로 입력하여 연결합니다. 호스트를 생성한 후 볼륨에 대한 액세스를 공유하려는 경우 호스트에 볼륨을 할당하거나 호스트 클러스터에 추가할 수 있습니다.</block>
   <block id="cf9a49f1bff1d19decdde49cdbdae169" category="section-title">볼륨이 할당되는 방법입니다</block>
   <block id="e82214f920b58da315913ddaf6ee6c4a" category="paragraph">호스트에서 볼륨에 I/O를 보내려면 볼륨을 할당해야 합니다. 볼륨을 생성할 때 호스트 또는 호스트 클러스터를 선택하거나 나중에 호스트 또는 호스트 클러스터에 볼륨을 할당할 수 있습니다. 호스트 클러스터는 호스트 그룹입니다. 호스트 클러스터를 생성하여 동일한 볼륨을 여러 호스트에 쉽게 할당할 수 있습니다.</block>
@@ -8302,7 +8267,6 @@
   <block id="4b5189c89fc982fea1db0f47f6bca6ac" category="list-text">4k--4,096바이트.</block>
   <block id="9df105cfb95359552740abf1d9863ac1" category="doc">호스트 액세스를 생성합니다</block>
   <block id="3c6c09b90537af17f7537af5bcbf33f8" category="paragraph">호스트를 생성하면 스토리지 시스템에 대한 접속 및 볼륨에 대한 입출력 액세스를 제공하는 호스트 매개 변수를 정의할 수 있습니다.</block>
-  <block id="69517bdc763a3da40b243d4bb6b4875c" category="paragraph">호스트 구성 페이지에서 * 설정 보기/편집 * 을 선택하여 HCA(Host Context Agent)에서 호스트를 자동으로 검색한 다음 정보가 올바른지 확인할 수 있습니다. 그러나 HCA는 지원되는 모든 운영 체제에서 사용할 수 없으며 호스트를 수동으로 생성해야 합니다.</block>
   <block id="e2fb84e873c35950636aa48dbab40f62" category="paragraph">호스트를 생성할 때 다음 지침을 염두에 두십시오.</block>
   <block id="5d79fe33f11555546005cfbd02dcc6b8" category="list-text">* 수동 추가 * -- 호스트 포트 식별자가 목록에 표시되지 않으면 호스트 포트가 로그인되어 있지 않은 것입니다. HBA 유틸리티 또는 iSCSI 이니시에이터 유틸리티를 사용하여 호스트 포트 식별자를 찾아 호스트에 연결할 수 있습니다. 호스트 포트 식별자를 수동으로 입력하거나 유틸리티에서 호스트 포트 필드로 복사/붙여 넣을 수 있습니다(한 번에 하나씩). 호스트와 연결하려면 한 번에 하나의 호스트 포트 식별자를 선택해야 하지만 호스트와 연결된 식별자를 계속 선택할 수 있습니다. 각 식별자는 호스트 포트 필드에 표시됩니다. 필요한 경우 옆에 있는 * X * 를 선택하여 식별자를 제거할 수도 있습니다.</block>
   <block id="a7a6bda88008827c24afa07e951218a9" category="paragraph">(선택 사항) iSCSI IQN을 사용하여 호스트 포트를 선택하거나 수동으로 입력한 경우, CHAP(Challenge Handshake Authentication Protocol)를 사용하여 인증하기 위해 스토리지 배열에 액세스를 시도하는 호스트를 요구하려면 “Set CHAP initiator secret(CHAP 초기자 암호 설정)” 확인란을 선택합니다. 선택하거나 수동으로 입력한 각 iSCSI 호스트 포트에 대해 다음을 수행합니다.</block>
@@ -8643,7 +8607,6 @@
   <block id="ebf132debe07a5cd0bc888dd5078033d" category="paragraph">또는 다음 호출을 통해 REST API를 통해 키서버 인증서를 가져올 수 있습니다.<block ref="640677ffae20a0401b505d0de933e391" prefix=" " category="inline-code"></block></block>
   <block id="bc2848514b39d7125ea7f1e0192ff80f" category="list-text">에서 저장된 보안 키를 사용합니다 <block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block>에서 외부 키를 사용자 이름 * admin * 과 빈 암호를 사용하여 IP 주소 192.168.128.101로 가져옵니다.</block>
   <block id="4097f6992eb560447325a703f31e2270" category="paragraph">또는 다음 호출을 통해 REST API를 통해 외부 키를 가져올 수 있습니다.<block ref="758036d11568492285b8504fb55d4d9f" prefix=" " category="inline-code"></block></block>
-  <block id="5dd94bd0b7c84a6ccc9fc7c3a1fa82e6" category="paragraph">InfiniBand-diags 패키지에는 각 InfiniBand(IB) 포트의 GUID(Globally Unique ID)를 표시하는 명령이 포함되어 있습니다. 포함된 패키지를 통해 지원되는 OFED/RDMA의 대부분의 Linux 배포판에는 HCA에 대한 정보를 표시하는 명령이 포함된 InfiniBand-DIAG 패키지도 포함되어 있습니다.</block>
   <block id="dfcfc178d6edc54d8706c59b747948d5" category="list-text">를 설치합니다<block ref="3b13fc847651d5be5c89aeab4722c099" prefix=" " category="inline-code"></block> 운영 체제의 패키지 관리 명령을 사용하여 패키지를 만듭니다.</block>
   <block id="79c617afe97932f20f52d1217736d403" category="list-text">이름이 인 시스템 서비스 유닛 파일을 생성합니다<block ref="6bddfc9da80e7ef0195a324214877004" prefix=" " category="inline-code"></block>.</block>
   <block id="d40e479d6bc1cf9824be2cfa7e837140" category="list-text">를 활성화하고 시작합니다<block ref="6b64648adbe124ad96531f7f0dd977a4" prefix=" " category="inline-code"></block> 서비스.</block>
@@ -8895,4 +8858,53 @@
   <block id="11f16f90266e9e59b05bab98913c351d" category="admonition">SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600, 및 EF300 스토리지.</block>
   <block id="fad6f3761e69d291ccde3b2351a1c961" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
   <block id="cc1b53336ed5c926305dd7ad876ab1d2" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF600은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
+  <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
+  <block id="c68dfa9143daa0b2c3c80d2545e2410c" category="inline-link">SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오</block>
+  <block id="0c229260a68aeca566d73a23ad233dcd" category="admonition">또는 SMcli 명령을 사용할 수 있습니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> Unified Host Utility 툴과 동일한 기능을 수행합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="a9fe8fbe4d692fa7e3dc0b66710307cd" category="inline-link-rx"></block>.</block>
+  <block id="ffc3de562db3aaacf94180bc367bf157" category="admonition">SANtricity 소프트웨어 11.60 이상을 사용하는 경우 다음 단계를 수행할 필요가 없습니다. SANtricity 보안 CLI(SMcli)는 SANtricity OS에 포함되어 있으며 SANtricity 시스템 관리자를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="07ba191255ffe5607ddf4202e3c76da7" category="inline-link-macro-rx"></block></block>
+  <block id="fc4f413bbdc13c9d07bb87f1f0e4b5bc" category="admonition">SANtricity 소프트웨어 버전 11.80.1부터 호스트 컨텍스트 에이전트는 더 이상 지원되지 않습니다.</block>
+  <block id="5f0e6cffb0f871fd63ee412b0867faa5" category="admonition">SANtricity 11.60 이상을 실행하는 플랫폼의 경우 기본 서브넷 마스크는 255.255.0.0입니다.</block>
+  <block id="b62cb85461ac6e99d68c9332f3dcd4fc" category="paragraph">InfiniBand-diags 패키지에는 각 InfiniBand(IB) 포트의 GUID(Globally Unique ID)를 표시하는 명령이 포함되어 있습니다. 포함된 패키지를 통해 지원되는 OFED/RDMA를 사용하는 대부분의 Linux 배포에는 InfiniBand-DIAGS 패키지도 포함되어 있습니다. 여기에는 호스트 채널 어댑터(HCA)에 대한 정보를 표시하는 명령이 포함되어 있습니다.</block>
+  <block id="e2c48d6f7dc54c69caaee62695c56d1b" category="paragraph">InfiniBand-diags 패키지에는 각 InfiniBand(IB) 포트의 GUID(Globally Unique ID)를 표시하는 명령이 포함되어 있습니다. 포함된 패키지를 통해 지원되는 OFED/RDMA를 사용하는 대부분의 Linux 배포에는 InfiniBand-DIAGS 패키지도 포함되어 있습니다. 여기에는 호스트 채널 어댑터(HCA)에 대한 정보를 표시하는 명령이 포함되어 있습니다.</block>
+  <block id="4fef884c45e5beb8a0176970f056d2b1" category="admonition">또는 을 통해 이러한 결과를 검색할 수 있습니다<block ref="3d80983fc82ff72fd51e5d1f7e90c56d" prefix=" " category="inline-code"></block> 명령.</block>
+  <block id="38be852a7469b47a9544ad44f92c4a87" category="list-text">컨트롤러가 다시 온라인 상태가 되면 Recovery Guru에서 NVSRAM 불일치가 보고되는지 확인합니다.</block>
+  <block id="835e1e289164a83cd62a957064a6d333" category="list-text">NVSRAM 불일치가 보고되면 다음 SMcli 명령을 사용하여 NVSRAM을 업그레이드합니다.</block>
+  <block id="188409731f46449038b85e358a882871" category="paragraph">를 클릭합니다<block ref="ff2bddd61609f26dc3255408781890ad" prefix=" " category="inline-code"></block> 스토리지가 https 보안이 아닌 경우 매개 변수가 필요합니다.</block>
+  <block id="898884f576d3c785b2b6fb9b78fc56d8" category="inline-link">NetApp 기술 지원</block>
+  <block id="be078623b1a43475081fe909e7280f94" category="admonition">SMcli 명령을 완료할 수 없는 경우 에 문의하십시오<block ref="0116d50fc8feadbb0d1b3f97da5f8144" category="inline-link-rx"></block> 또는 에 로그인합니다<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> 를 눌러 케이스를 생성합니다.</block>
+  <block id="29ff5c5c99e35fef2700d4d5f0f036de" category="list-text">시스템이 Optimal(최적) 상태인지 확인하고 컨트롤러 쉘프의 주의 LED를 확인합니다.</block>
+  <block id="447181afc701fd84c26bf3596e763049" category="list-text">시스템의 펌웨어 및 NVSRAM 버전이 원하는 수준인지 확인하려면 하드웨어 [지원 &gt; 업그레이드 센터] 메뉴를 클릭합니다.</block>
+  <block id="815fe3ef7733928259b45b99a5ecfc49" category="admonition">다음과 같은 교체 조건이 발생할 때마다 컨트롤러의 황색 주의 LED가 꺼집니다.</block>
+  <block id="d6a28a344ee78ec0d5fd738bc338db3f" category="list-text">Alt 드라이브 경로가 실패했습니다</block>
+  <block id="2f9cb3ec0fe7cfbcedfda207100269a8" category="list-text">서랍이 열려 있거나 없습니다</block>
+  <block id="c33de3a09d49fe0c9f425a18bc68b004" category="list-text">팬이 고장/누락되었습니다</block>
+  <block id="cbf7b24ce0d93efff84abb6dca91dc9e" category="list-text">전원 공급 장치가 없습니다</block>
+  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">버전 11.80.1의 새로운 기능</block>
+  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 매개 변수</block>
+  <block id="f853f0f729e70cf8d4d12c4bb6b0dbfc" category="paragraph">새로운 소식<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 이제 SMcli에서 매개 변수를 사용할 수 있습니다. 이 새로운 매개변수를 사용하여 스토리지 배열과 연결된 모든 SCSI 기본 블록 장치를 찾을 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices[Downloadable SMcli 명령줄 매개 변수 를 참조하십시오.</block>
+  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">이더넷 커널 통계</block>
+  <block id="d1c09bea07e8eb52df56a18fb41d1ba1" category="paragraph">이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html[View iSCSI 통계 패키지 를 참조하십시오.</block>
+  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">System Manager 내에서 할당되지 않은 드라이브 및 보안 활성화 드라이브에 대한 필터링 기능이 향상되었습니다</block>
+  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">이제 System Manager는 수동 드라이브를 선택할 때 할당되지 않은 드라이브 및 보안된 활성 드라이브를 필터링합니다. 따라서 System Manager 드라이브 선택 횟수가 CLI 및 REST API에 있는 자동 드라이브 선택 후보 목록과 일치합니다. 고유한 아이콘과 호버 텍스트가 이제 System Manager 내의 할당되지 않은 드라이브와 보안 활성화 드라이브에도 적용됩니다.</block>
+  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다</block>
+  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.</block>
+  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 플러그인이 E-Series 11.80.1 릴리즈와의 호환성을 위해 업데이트되었습니다.</block>
+  <block id="e536634a787591dd23dbc618cd207ba6" category="paragraph">웹 서비스 프록시</block>
+  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 버전 6.1로 업데이트되었습니다.</block>
+  <block id="c89b00da7202a9a153f3761208e9c04b" category="inline-link">TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드</block>
+  <block id="d449697e3f0e2e82550c5b9a353fbb21" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 을 참조하십시오<block ref="b18137069ebac12afacac28918c3703b" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="d94b2476c52b9269fb71e09f2c273b3f" category="paragraph">* 예: *<block ref="55629997c44d8d81fce2f6296c8a341d" prefix=" " category="inline-code"></block></block>
+  <block id="ecac0776d163be45b9926de55b835ec4" category="paragraph">* 예: *<block ref="2c35a6e97cb5b6b552dd737031188e4c" prefix=" " category="inline-code"></block></block>
+  <block id="8afb7a80484f4a0c97a4ca2b1dd4f7a9" category="paragraph">* 예 A: *<block ref="5f6fe0e54ad0da0581f1c921b9d0d2ce" prefix=" " category="inline-code"></block></block>
+  <block id="1f30cbc7228c9c1478541fac65592fdd" category="paragraph">* 예 B: *<block ref="ce9fafaa9a800b6d0168143573308013" prefix=" " category="inline-code"></block></block>
+  <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="section-title">수동 호스트 생성</block>
+  <block id="9a3eb00d2d24e24125d1dfecb99a47e1" category="paragraph">호스트를 생성하는 것은 스토리지 어레이가 호스트에 연결된 호스트를 파악하고 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다. 호스트를 수동으로 생성할 수 있습니다.</block>
+  <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">운영 체제 특정 유틸리티(타사 공급업체에서 제공)를 실행한 다음 SMcli 명령을 실행합니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 볼륨 이름과 호스트 스토리지 배열 이름을 서로 연관시킵니다.</block>
+  <block id="4f939d909de82f0b6db329c93f1bf479" category="paragraph">SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="a9fe8fbe4d692fa7e3dc0b66710307cd" category="inline-link-rx"></block>.</block>
+  <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">호스트 운영 체제 유형 필드에는 호스트의 운영 체제가 들어 있습니다. 드롭다운 목록에서 권장 호스트 유형을 선택할 수 있습니다.</block>
+  <block id="e93513455b64fd664d3f89e3161de3ae" category="paragraph">호스트를 수동으로 생성할 수 있습니다.</block>
+  <block id="2ff8f9ab0a5cf81ee962ea6fda131b40" category="admonition">호스트가 스토리지 배열의 특정 볼륨에 특정 액세스 권한을 가지도록 하려면 기본 클러스터를 사용하지 않아야 합니다. 대신 호스트 포트 식별자를 해당 호스트에 연결해야 합니다. 이 작업은 Create Host(호스트 생성) 작업 중에 수동으로 수행할 수 있습니다. 그런 다음 개별 호스트 또는 호스트 클러스터에 볼륨을 할당합니다.</block>
+  <block id="e5a4a8069ad5713adce4d473829f3108" category="admonition">다음과 같은 교체 조건이 발생할 때마다 컨트롤러의 황색 주의 LED가 꺼집니다.</block>
+  <block id="a425ad1782379ad30aed42d2cca2a9de" category="list-text">대체 전원 공급 장치에 실패했습니다</block>
+  <block id="197afe3e4b0fdccae7f0384e342bb289" category="list-text">SMcli 명령을 사용할 수 있습니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="a9fe8fbe4d692fa7e3dc0b66710307cd" category="inline-link-rx"></block>.</block>
 </blocks>

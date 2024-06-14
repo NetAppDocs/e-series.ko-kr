@@ -133,7 +133,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 호스트 파티션을 편집하여 iSCSI 호스트 포트 ID를 추가하고 FC 호스트 포트 ID를 제거합니다.
 . iSCSI 호스트가 재부팅된 후 호스트에서 해당 절차를 사용하여 볼륨을 등록하고 운영 체제에서 사용할 수 있도록 합니다.
 +
-** 운영 체제에 따라 스토리지 관리 소프트웨어(hot_add 및 SMdevices)에 두 개의 유틸리티가 포함되어 있습니다. 이러한 유틸리티를 사용하면 호스트에 볼륨을 등록할 수 있을 뿐 아니라 해당 볼륨의 장치 이름도 표시할 수 있습니다.
+** SMcli 명령을 사용할 수 있습니다 `-identifyDevices` 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 ** 볼륨을 사용 가능하게 만들기 위해 운영 체제와 함께 제공되는 특정 도구 및 옵션을 사용해야 할 수도 있습니다(즉, 드라이브 문자를 할당하고 마운트 지점을 만드는 등). 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.
 
 
@@ -170,7 +170,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 호스트 파티션을 편집하여 FC 호스트 포트 ID를 추가하고 iSCSI 호스트 포트 ID를 제거합니다.
 . 새 FC 호스트가 재부팅된 후 호스트에서 해당 절차를 사용하여 볼륨을 등록하고 운영 체제에서 사용할 수 있도록 합니다.
 +
-** 운영 체제에 따라 스토리지 관리 소프트웨어(hot_add 및 SMdevices)에 두 개의 유틸리티가 포함되어 있습니다. 이러한 유틸리티를 사용하면 호스트에 볼륨을 등록할 수 있을 뿐 아니라 해당 볼륨의 장치 이름도 표시할 수 있습니다.
+** SMcli 명령을 사용할 수 있습니다 `-identifyDevices` 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 ** 볼륨을 사용 가능하게 만들기 위해 운영 체제와 함께 제공되는 특정 도구 및 옵션을 사용해야 할 수도 있습니다(즉, 드라이브 문자를 할당하고 마운트 지점을 만드는 등). 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.
 
 
@@ -207,7 +207,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 호스트 파티션을 편집하여 FC 호스트 포트 ID를 추가하고 iSCSI 호스트 포트 ID를 제거합니다.
 . 새 FC 호스트가 재부팅된 후 호스트에서 해당 절차를 사용하여 볼륨을 등록하고 운영 체제에서 사용할 수 있도록 합니다.
 +
-** 운영 체제에 따라 스토리지 관리 소프트웨어(hot_add 및 SMdevices)에 두 개의 유틸리티가 포함되어 있습니다. 이러한 유틸리티를 사용하면 호스트에 볼륨을 등록할 수 있을 뿐 아니라 해당 볼륨의 장치 이름도 표시할 수 있습니다.
+** SMcli 명령을 사용할 수 있습니다 `-identifyDevices` 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 ** 볼륨을 사용 가능하게 만들기 위해 운영 체제와 함께 제공되는 특정 도구 및 옵션을 사용해야 할 수도 있습니다(즉, 드라이브 문자를 할당하고 마운트 지점을 만드는 등). 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.
 
 
@@ -243,7 +243,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 . 호스트 파티션을 편집하여 iSCSI 호스트 포트 ID를 추가하고 FC 호스트 포트 ID를 제거합니다.
 . 새 iSCSI 호스트가 재부팅된 후 호스트에서 해당 절차를 사용하여 볼륨을 등록하고 운영 체제에서 사용할 수 있도록 합니다.
 +
-** 운영 체제에 따라 스토리지 관리 소프트웨어(hot_add 및 SMdevices)에 두 개의 유틸리티가 포함되어 있습니다. 이러한 유틸리티를 사용하면 호스트에 볼륨을 등록할 수 있을 뿐 아니라 해당 볼륨의 장치 이름도 표시할 수 있습니다.
+** SMcli 명령을 사용할 수 있습니다 `-identifyDevices` 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html["SANtricity System Manager 온라인 도움말에서 CLI(Command Line Interface) 항목을 다운로드하십시오"^].
 ** 볼륨을 사용 가능하게 만들기 위해 운영 체제와 함께 제공되는 특정 도구 및 옵션을 사용해야 할 수도 있습니다(즉, 드라이브 문자를 할당하고 마운트 지점을 만드는 등). 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.
 
 

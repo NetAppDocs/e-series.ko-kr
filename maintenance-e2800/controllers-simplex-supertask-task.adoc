@@ -506,6 +506,23 @@ passPhrase="passPhrase";
 .. 상태가 최적이 아닌 경우 컨트롤러를 강조 표시하고 * 온라인 상태로 전환 * 을 선택합니다.
 
 
+. 컨트롤러가 다시 온라인 상태가 되면 Recovery Guru에서 NVSRAM 불일치가 보고되는지 확인합니다.
++
+.. NVSRAM 불일치가 보고되면 다음 SMcli 명령을 사용하여 NVSRAM을 업그레이드합니다.
++
+[listing]
+----
+SMcli <controller A IP> <controller B IP> -u admin -p <password> -k -c "download storageArray NVSRAM file=\"C:\Users\testuser\Downloads\NVSRAM .dlp file>\" forceDownload=TRUE;"
+----
++
+를 클릭합니다 `-k` 스토리지가 https 보안이 아닌 경우 매개 변수가 필요합니다.
+
+
+
++
+
+NOTE: SMcli 명령을 완료할 수 없는 경우 에 문의하십시오 https://www.netapp.com/company/contact-us/support/["NetApp 기술 지원"^] 또는 에 로그인합니다 https://mysupport.netapp.com["NetApp Support 사이트"^] 를 눌러 케이스를 생성합니다.
+
 . SANtricity 시스템 관리자를 사용하여 스토리지 어레이에 대한 지원 데이터를 수집합니다.
 +
 .. 지원 [지원 센터 > * 진단] 메뉴를 선택합니다.

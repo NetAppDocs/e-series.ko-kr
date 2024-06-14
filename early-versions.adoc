@@ -21,7 +21,7 @@ summary: 이전 버전의 문서
 * https://mysupport.netapp.com/info/web/ECMP11392380.html["이전 시스템을 설치합니다"^]
 * https://mysupport.netapp.com/info/web/ECMP11751516.html["이전 시스템 유지 관리"^]
 * https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1394872["E2600 및 E2700에 두 번째 컨트롤러를 추가합니다"^]
-* https://mysupport.netapp.com/info/web/ECMP11750309.html["호스트 프로토콜을 변경하거나 추가합니다"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2353447["호스트 프로토콜을 변경하거나 추가합니다"^]
 * https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1656638["AC 전원에서 DC 전원으로 변환합니다"^]
 
 

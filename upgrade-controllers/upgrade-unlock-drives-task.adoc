@@ -40,7 +40,7 @@ NOTE: 관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 �
 
 . username * admin * 과 패스워드가 비어 있는 IP 주소 192.168.128.101을 사용하여 을 사용하여 내부 키를 가져옵니다 `import storageArray securityKey file` 에서 보안 키를 저장한 상태에서 CLI 명령을 실행합니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-cli/index.html["명령줄 인터페이스 참조"].
 +
-* 예: * s Mcli 192.168.128.101 -u admin -c "import storageArray securityKey file=\"Directory & filename\" passphrase=\"passPhasspeaseString\";"
+* 예: * `SMcli 192.168.128.101 -u admin -p "" -c "import storageArray securityKey file=\"Directory&FileName\" passPhrase=\"passPhraseString\";"`
 
 +
 또는 다음 호출을 통해 REST API를 통해 내부 키를 가져올 수 있습니다. `/storage-systems/{system-id}/security-key/import`
@@ -70,24 +70,24 @@ NOTE: 클라이언트 및 서버 인증서를 검색하려면 스토리지 배�
 
 . 사용자 이름 * admin * 과 비밀번호 공백으로 기본 IP 주소 192.168.128.101을 사용하여 를 사용하여 외부 키 관리 서버를 설정합니다 `set storageArray externalKeyManagement` 명령을 사용하여 를 제공합니다 `serverAddress` 및 `serverPort` 에서 저장되었습니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/e-series-cli/index.html["명령줄 인터페이스 참조"].
 +
-* 예: * s Mcli 192.168.128.101 -u admin -c "set storageArray externalKeyManagement serverAddress=<ServerIPAddress>serverPort=<serverPort>;"
+* 예: * `SMcli 192.168.128.101 -u admin -p "" -c "set storageArray externalKeyManagement serverAddress=<ServerIPAddress> serverPort=<serverPort>;"`
 
 +
 또는 다음 호출을 통해 REST API를 통해 외부 키 관리 서버를 설정할 수 있습니다. `/storage-systems/{system-id}/external-key-server`
 
 . 사용자 이름 * admin * 과 비어 있는 암호를 사용하여 기본 IP 주소 192.168.128.101을 사용하여 인증서를 가져옵니다 `storageArray keyManagementCertificate` CLI 명령: 클라이언트 인증서에 대해 한 번, 서버 인증서에 대해 두 번째.
 +
-* 예 A: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=client file=\"Directory & filename\";""
+* 예 A: * `SMcli 192.168.128.101 -u admin -p "" -c "download storageArray keyManagementCertificate certificateType=client file=\"Directory&FileName\";"`
 
 +
-* 예 B: * s Mcli 192.168.128.101 -u admin -c "download storageArray keyManagementCertificate certificateType=server file=\"Directory & filename\";""
+* 예 B: * `SMcli 192.168.128.101 -u admin -p "" -c "download storageArray keyManagementCertificate certificateType=server file=\"Directory&FileName\";"`
 
 +
 또는 다음 호출을 통해 REST API를 통해 키서버 인증서를 가져올 수 있습니다. `/storage-systems/{system-id}/external-key-server/certificate`
 
 . 에서 저장된 보안 키를 사용합니다 link:prepare-upgrade-controllers-task.html["컨트롤러 업그레이드를 준비합니다"]에서 외부 키를 사용자 이름 * admin * 과 빈 암호를 사용하여 IP 주소 192.168.128.101로 가져옵니다.
 +
-* 예: * s Mcli 192.168.128.101 -u admin -c "import storageArray securityKey file=\"Directory & filename\" passphrase=\"passPhasspeaseString\";"
+* 예: * `SMcli 192.168.128.101 -u admin -p "" -c "import storageArray securityKey file=\"Directory&FileName\" passPhrase=\"passPhraseString\";"`
 
 +
 또는 다음 호출을 통해 REST API를 통해 외부 키를 가져올 수 있습니다. `/storage-systems/{system-id}/security-key/import`
