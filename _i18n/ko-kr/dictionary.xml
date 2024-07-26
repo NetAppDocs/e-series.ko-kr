@@ -5765,8 +5765,6 @@
   <block id="65194545b4f99b4476c642dfa457deb6" category="list-text">NVMe over Infiniband</block>
   <block id="551aa3d31c165957ccd88122b7fe01be" category="list-text">RoCE를 통한 NVMe</block>
   <block id="77535417313be931c13402d84092a8f6" category="list-text"><block ref="18f041f08534fbeb53ae160ad78cfbc4" category="inline-link-rx"></block> (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.</block>
-  <block id="838cc8ab1454bd7f8f1150dacfe96313" category="inline-link">Linux Unified Host Utilities 7.1 설치 가이드</block>
-  <block id="f059eb99e984ac5d9db818726aea63a2" category="list-text"><block ref="234e662716f52704759847c738e409ad" category="inline-link-rx"></block> Linux Unified Host Utilities 7.1을 사용하는 방법에 대해 설명합니다.</block>
   <block id="b672e0a91ab26c755c6523b52301f265" category="summary">이 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 구성 정보를 기록할 수 있습니다.</block>
   <block id="0adabebb059206d194f1093271694dfb" category="doc">NVMe over FC 구성을 기록합니다</block>
   <block id="5f73d116847f62f320bdb4dcf043099d" category="section-title">직접 연결 토폴로지</block>
@@ -8884,8 +8882,6 @@
   <block id="f853f0f729e70cf8d4d12c4bb6b0dbfc" category="paragraph">새로운 소식<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 이제 SMcli에서 매개 변수를 사용할 수 있습니다. 이 새로운 매개변수를 사용하여 스토리지 배열과 연결된 모든 SCSI 기본 블록 장치를 찾을 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices[Downloadable SMcli 명령줄 매개 변수 를 참조하십시오.</block>
   <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">이더넷 커널 통계</block>
   <block id="d1c09bea07e8eb52df56a18fb41d1ba1" category="paragraph">이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html[View iSCSI 통계 패키지 를 참조하십시오.</block>
-  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">System Manager 내에서 할당되지 않은 드라이브 및 보안 활성화 드라이브에 대한 필터링 기능이 향상되었습니다</block>
-  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">이제 System Manager는 수동 드라이브를 선택할 때 할당되지 않은 드라이브 및 보안된 활성 드라이브를 필터링합니다. 따라서 System Manager 드라이브 선택 횟수가 CLI 및 REST API에 있는 자동 드라이브 선택 후보 목록과 일치합니다. 고유한 아이콘과 호버 텍스트가 이제 System Manager 내의 할당되지 않은 드라이브와 보안 활성화 드라이브에도 적용됩니다.</block>
   <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다</block>
   <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.</block>
   <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 플러그인이 E-Series 11.80.1 릴리즈와의 호환성을 위해 업데이트되었습니다.</block>
@@ -8907,4 +8903,9 @@
   <block id="e5a4a8069ad5713adce4d473829f3108" category="admonition">다음과 같은 교체 조건이 발생할 때마다 컨트롤러의 황색 주의 LED가 꺼집니다.</block>
   <block id="a425ad1782379ad30aed42d2cca2a9de" category="list-text">대체 전원 공급 장치에 실패했습니다</block>
   <block id="197afe3e4b0fdccae7f0384e342bb289" category="list-text">SMcli 명령을 사용할 수 있습니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 볼륨에 해당하는 장치 이름을 표시합니다. SMcli는 SANtricity OS에 포함되어 있으며 SANtricity System Manager를 통해 다운로드할 수 있습니다. SANtricity System Manager를 통해 SMcli를 다운로드하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="a9fe8fbe4d692fa7e3dc0b66710307cd" category="inline-link-rx"></block>.</block>
+  <block id="d699daec8de3b69e6a41a8c5e1e7f44e" category="inline-link">Linux Unified Host Utilities 7.1을 설치합니다</block>
+  <block id="7c4ed11037f1ffa580c5462fde3a9a9c" category="list-text"><block ref="5a6c0185dc13c38c5945f8fa47c41898" category="inline-link-rx"></block> -- Linux Unified Host Utilities 7.1을 설치하는 방법에 대해 설명합니다.</block>
+  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">버전 11.80.1R1의 새로운 기능</block>
+  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.</block>
+  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.</block>
 </blocks>
