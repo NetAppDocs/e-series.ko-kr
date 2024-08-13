@@ -105,4 +105,4 @@ IP 주소 지정
 
 
 |===
-이러한 가정이 설치에 적합하지 않거나 자세한 개념 배경 정보를 원하는 경우 다음 기술 보고서를 참조하십시오. https://www.netapp.com/us/media/tr-4789.pdf["E-Series SANtricity iSCSI와 ESXi 6.X의 통합에 대한 VMware 구성 가이드"^]
+이러한 가정이 설치에 적합하지 않거나 보다 개념적인 배경 정보를 원하면 다음 기술 보고서를 참조하십시오. https://www.netapp.com/pdf.html?item=/media/17017-tr4789pdf.pdf["E-Series SANtricity iSCSI와 ESXi 6.X의 통합에 대한 VMware 구성 가이드"^]

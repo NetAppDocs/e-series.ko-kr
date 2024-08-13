@@ -60,7 +60,7 @@ iSCSI 네트워킹을 계획하는 동안 에 유의하십시오 https://configm
 
 NOTE: VMware iSCSI 포트 바인딩은 구성된 네트워크 세그먼트에서 액세스할 수 있는 모든 타겟 포트에 바인딩된 모든 VMkernel 포트를 강제로 로그인하는 기능입니다. iSCSI 대상에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용됩니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 를 참조하십시오 http://kb.vmware.com/["VMware 기술 자료"] ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용할 때의 고려 사항에 대한 문서를 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우 별도의 iSCSI vmkernel 포트를 사용하여 포트 바인딩과 충돌하지 않는 것이 좋습니다.
 
-모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 을 참조하십시오 https://www.netapp.com/media/17017-tr4789.pdf["TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드"] 를 참조하십시오.
+모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 자세한 내용은 을 https://www.netapp.com/media/17017-tr4789.pdf["TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드"^] 참조하십시오.
 
 경로 다중화 구성이 양호한지 확인하려면 iSCSI 네트워크에 대해 여러 네트워크 세그먼트를 사용합니다. 한 네트워크 세그먼트의 각 어레이 컨트롤러에서 하나 이상의 호스트 측 포트와 하나 이상의 포트를 배치하고 다른 네트워크 세그먼트의 호스트 측 포트와 어레이 측 포트의 동일한 그룹을 배치합니다. 가능한 경우 여러 이더넷 스위치를 사용하여 추가적인 이중화를 제공합니다.
 
@@ -87,7 +87,7 @@ SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네
 이 작업은 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 시스템 [설정 > iSCSI 포트 구성] 메뉴에서 구성에 액세스할 수도 있습니다.
 
 
-NOTE: VMware 구성에서 스토리지 측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오. https://www.netapp.com/us/media/tr-4789.pdf["E-Series SANtricity iSCSI와 ESXi 6.x 및 7.x의 통합에 대한 VMware 구성 가이드"].
+NOTE: VMware 구성에서 스토리지측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오 https://www.netapp.com/pdf.html?item=/media/17017-tr4789pdf.pdf["E-Series SANtricity iSCSI와 ESXi 6.x 및 7.x의 통합에 대한 VMware 구성 가이드"^].
 
 .단계
 . 브라우저에서 '+https://<DomainNameOrIPAddress>+` URL을 입력합니다

@@ -23,7 +23,6 @@
   <block id="7da05d75fd1c28b0ff4d04d30f85aa5b" category="list-text">System Manager GUI, 즉 RBAC(역할 기반 액세스 제어) 또는 LDAP 및 디렉토리 서비스에 대한 암호는 스토리지 어레이에 대한 적절한 보안 액세스를 위해 구성됩니다. 액세스 관리에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.</block>
   <block id="21075a2c147c20a9ef54f587da0a2a84" category="paragraph">이 작업은 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 시스템 [설정 &gt; iSCSI 포트 구성] 메뉴에서 구성에 액세스할 수도 있습니다.</block>
   <block id="d112a4595d7d618458e0e407fe3798c1" category="inline-link">E-Series SANtricity iSCSI와 ESXi 6.x 및 7.x의 통합에 대한 VMware 구성 가이드</block>
-  <block id="afc25a4106d05ed660ffe38cacd9e41e" category="admonition">VMware 구성에서 스토리지 측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오.<block ref="2b0010fda48675021938d8a7e0b75245" category="inline-link-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="9a2245d556f7fae3850b428531a32296" category="list-text">브라우저에서 '+https://&lt;DomainNameOrIPAddress&gt;+` URL을 입력합니다</block>
   <block id="7bed2562bdc586ec3d67d6662e168cc9" category="paragraph">IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.</block>
@@ -167,7 +166,6 @@
   <block id="aebb270a0f1270c10fb5b2e56830535a" category="list-text"><block ref="18f041f08534fbeb53ae160ad78cfbc4" category="inline-link-rx"></block> (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.</block>
   <block id="fc4773230b262d26eed69c2a96bd9708" category="list-text"><block ref="b1540a3ec25c7d8277b499a1cc1d920b" category="inline-link-rx"></block> NetApp에서 지정한 표준 및 요구사항을 충족하는 NetApp 제품 및 구성요소 구성을 검색할 수 있습니다.</block>
   <block id="8bdb84c095cd42085dcbf03a378418f7" category="inline-link">E-Series SANtricity iSCSI와 ESXi 6.X의 통합에 대한 VMware 구성 가이드</block>
-  <block id="c2b7fa28fa5830785c2ed3fa9e67be04" category="list-text"><block ref="bb9afc94d0b3b2b5568ddea4b546dd05" category="inline-link-rx"></block> -- VMware와의 iSCSI 통합에 대한 기술 정보를 제공합니다.</block>
   <block id="5ec68760b690fe27d275d8ef065433df" category="list-text"><block ref="3efd8448d2410829795078709782a7da" category="inline-link-rx"></block> ESX/ESXi가 지원하는 허용된 최대 한도 내에서 가상 및 물리적 스토리지를 구성하는 방법에 대해 설명합니다.</block>
   <block id="094bf2c199fb9ef7ac29e64a12fd7cad" category="inline-link">VMware NVMe 스토리지의 요구사항 및 제한사항</block>
   <block id="8f853bc18ffad192705726f50eff4144" category="list-text"><block ref="6e8a1449bb92590a7f42c1a30534b1da" category="inline-link-rx"></block>.</block>
@@ -239,7 +237,6 @@
   <block id="2dddc6f893b2d0c22af5f5423687c250" category="paragraph">프로토콜: SAS</block>
   <block id="b71a491626b4be2e99095b6d50cd89e7" category="list-text">NetApp이 지원하는 SAS HBA를 사용하고 있습니다.</block>
   <block id="f0d1919c36085f0e1fce2bd2aada33c1" category="list-text">에 나열된 SAS HBA 드라이버 및 펌웨어 버전을 사용하고 있습니다<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>.</block>
-  <block id="ec54e109d36fc34cc1f95037261f7c35" category="paragraph">이러한 가정이 설치에 적합하지 않거나 자세한 개념 배경 정보를 원하는 경우 다음 기술 보고서를 참조하십시오.<block ref="97a9530bee58cb7f1763d204f6462208" category="inline-link-rx"></block></block>
   <block id="f5f8e7008656ffec252c4e530c9ff205" category="summary">NVMe over Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 확인합니다.</block>
   <block id="13b5a4ce04bdd18c6dbe66e0aff43c56" category="doc">NVMe over FC 관련 작업을 수행합니다</block>
   <block id="cf8e74e7bc142ae49e8ffacaa17daf8f" category="paragraph">NVMe over Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 확인합니다.</block>
@@ -1355,7 +1352,6 @@
   <block id="f2a12ad5f52528054619d431dc7c3054" category="paragraph">E2760, E5660</block>
   <block id="15ced0ef88b79c27417b95cc4a6474e1" category="inline-link">E-Series 하드웨어 케이블 연결 가이드 를 참조하십시오</block>
   <block id="5c8edef9c398c6792341850977901070" category="inline-link">동기 및 비동기 미러링 기능 설명 및 배포 가이드</block>
-  <block id="9696fa6d39ba9aab453fe1ba80da0669" category="paragraph">미러링 기능을 지원하는 케이블 연결에 대한 자세한 내용은 를 참조하십시오<block ref="ecbdbcda2695048a35af4e9c40e978db" category="inline-link-rx"></block>.</block>
   <block id="f9bcb67d08f727c5a322f1f2c7b1e5c5" category="summary">대역외 관리를 위해 스토리지 시스템을 이더넷 네트워크에 연결합니다.</block>
   <block id="87b0d15661ae00d3361b6ec13b87b677" category="doc">관리 스테이션용 이더넷 케이블 연결</block>
   <block id="495468945a56ea18576b443a1af23463" category="paragraph">스토리지 시스템을 이더넷 네트워크에 연결하여 대역외 스토리지 어레이 관리를 수행할 수 있습니다. 모든 스토리지 어레이 관리 접속에는 이더넷 케이블을 사용해야 합니다.</block>
@@ -8888,7 +8884,6 @@
   <block id="e536634a787591dd23dbc618cd207ba6" category="paragraph">웹 서비스 프록시</block>
   <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 버전 6.1로 업데이트되었습니다.</block>
   <block id="c89b00da7202a9a153f3761208e9c04b" category="inline-link">TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드</block>
-  <block id="d449697e3f0e2e82550c5b9a353fbb21" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 을 참조하십시오<block ref="b18137069ebac12afacac28918c3703b" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="d94b2476c52b9269fb71e09f2c273b3f" category="paragraph">* 예: *<block ref="55629997c44d8d81fce2f6296c8a341d" prefix=" " category="inline-code"></block></block>
   <block id="ecac0776d163be45b9926de55b835ec4" category="paragraph">* 예: *<block ref="2c35a6e97cb5b6b552dd737031188e4c" prefix=" " category="inline-code"></block></block>
   <block id="8afb7a80484f4a0c97a4ca2b1dd4f7a9" category="paragraph">* 예 A: *<block ref="5f6fe0e54ad0da0581f1c921b9d0d2ce" prefix=" " category="inline-code"></block></block>
@@ -8908,4 +8903,9 @@
   <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">버전 11.80.1R1의 새로운 기능</block>
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.</block>
+  <block id="eb72855c2604e5d3f7f36945024d001c" category="list-text"><block ref="b742d0734e0a1b1acd85c7093d734f44" category="inline-link-rx"></block> -- VMware와의 iSCSI 통합에 대한 기술 정보를 제공합니다.</block>
+  <block id="721f229c077c5af73351dcbd1a2235d2" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 자세한 내용은 을<block ref="4d4a4533fd2b79dc8951aa3f53f56e3f" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="5821a61234ba1fdfba2e6ba9b392cafa" category="admonition">VMware 구성에서 스토리지측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오<block ref="4c256e5f3e11bff89d951ec9e05da858" category="inline-link-rx"></block>.</block>
+  <block id="f7a1f25c147fdef63a935b6fc10cf5a0" category="paragraph">이러한 가정이 설치에 적합하지 않거나 보다 개념적인 배경 정보를 원하면 다음 기술 보고서를 참조하십시오.<block ref="691af5827a322478f9c39bcb9ec0d331" category="inline-link-rx"></block></block>
+  <block id="c08a9596d55b45e7eb8325bd878b47d5" category="paragraph">미러링 기능을 지원하는 케이블 연결에 대한 자세한 내용은 을<block ref="4c6cd7be794e0089961c4cc00b012a2c" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
