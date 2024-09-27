@@ -48,6 +48,9 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 볼륨이 이미 성능 저
 
 
 
+NOTE: E-Series DE460c 확장 쉘프 교체 방법에 대한 자세한 내용은 를 참조하십시오 https://kb.netapp.com/on-prem/E-Series/Hardware-KBs/How_to_replace_an_E_Series_DE460c_controller_expansion_shelf["NetApp 기술 자료"^].
+
+
 
 == 1단계: 드라이브 드로어 교체 준비
 
