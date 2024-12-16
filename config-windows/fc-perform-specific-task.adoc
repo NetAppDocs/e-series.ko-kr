@@ -70,7 +70,7 @@ HBA 유틸리티에 대한 다음 지침을 검토하십시오.
 
 그림에서는 두 개의 존에서 E-Series 스토리지 어레이에 연결된 호스트를 보여 줍니다. 한 영역은 파란색 선으로 표시되고 다른 영역은 빨간색 선으로 표시됩니다. 단일 포트에는 스토리지에 대한 경로가 2개 있습니다(각 컨트롤러에 대한 경로 1개).
 
-image::../media/port_identifiers_host_and_target_conf-win.gif[포트 식별자 호스트 및 타겟 conf win]
+image::../media/port_identifiers_host_and_target_conf-win.gif[파이버 채널 포트 식별자입니다]
 
 
 

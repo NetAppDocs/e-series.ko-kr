@@ -29,7 +29,7 @@ SANtricity System Manager를 사용하여 가지고 있는 SFP 트랜시버의 �
 . 텍스트 상자에 * SFP * 를 입력하고 * 찾기 * 를 클릭합니다.
 . 스토리지 어레이 프로필에 나열된 각 SFP에 대해 * 지원되는 데이터 속도 * 항목을 찾습니다.
 +
-image::../media/sam1130_ss_e2800_unified_spf_maint-e2800.gif[sam1130 ss e2800 통합 SPF maint e2800]
+image::../media/sam1130_ss_e2800_unified_spf_maint-e2800.gif[지원되는 데이터 전송 속도입니다]
 
 . 다음 표를 참조하여 SFP를 재사용할 수 있는지 여부를 확인하십시오.
 +
@@ -94,7 +94,7 @@ NOTE: 8Gbps FC SFP는 E28xx 또는 E57xx 컨트롤러에서 지원되지 않습�
 .. 지원 리소스 * 탭을 선택한 상태에서 * 상위 스토리지 어레이 속성 보기 * 섹션으로 스크롤합니다.
 .. 섀시 일련 번호 * 를 찾아 이 값을 텍스트 파일로 복사합니다.
 +
-image::../media/sam1130_ss_e2800_storage_array_profile_sn_smid_copy_maint-e2800.gif[sam1130 ss e2800 스토리지 어레이 프로필 SN smid copy maint e2800]
+image::../media/sam1130_ss_e2800_storage_array_profile_sn_smid_copy_maint-e2800.gif[섀시 일련 번호입니다]
 
 
 
@@ -108,7 +108,7 @@ NOTE: "하위 모델"도 "하위 모델"으로 작성할 수 있습니다.
 
 .. 시작 구성에 대한 피처 팩 하위 모델 ID를 찾습니다.
 +
-image::../media/storage_array_profile2_maint-e2800.gif[스토리지 배열 Profile2 maint e2800]
+image::../media/storage_array_profile2_maint-e2800.gif[기능 팩 하위 모델 ID]
 
 
 
@@ -472,7 +472,7 @@ NOTE: 컨트롤러 하위 모델 ID가 목록에 없으면 에 문의하십시�
 .. 기능 팩 변경 * 에서 * 기능 식별자 사용 * 을 찾습니다.
 .. 이 32자리 숫자를 복사하여 텍스트 파일에 붙여 넣습니다.
 +
-image::../media/sam1130_ss_e2800_change_feature_pack_feature_enable_identifier_copy_maint-e2800.gif[sam1130 ss e2800 변경 기능 팩 기능은 식별자 복사 maint e2800을 활성화합니다]
+image::../media/sam1130_ss_e2800_change_feature_pack_feature_enable_identifier_copy_maint-e2800.gif['기능 활성화 식별자"]
 
 
 
@@ -515,7 +515,7 @@ CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이
 . 스토리지 배열이 미러링 관계에 참여하는 경우 보조 스토리지 배열에 대한 모든 호스트 I/O 작업을 중지합니다.
 . 캐시 메모리의 데이터가 드라이브에 기록될 때까지 기다립니다.
 +
-드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다.image:../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[""]
+드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다.image:../media/28_dwg_2800_controller_attn_led_maint-e2800.gif["E2800 컨트롤러에 활성 LED를 캐시합니다"]
 
 +
 |===
@@ -542,7 +542,7 @@ CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이
 . SANtricity 시스템 관리자에서 설정 [시스템] 메뉴를 선택합니다.
 . 추가 기능 * 아래에서 * 기능 팩 변경 * 을 선택합니다.
 +
-image::../media/sam1130_ss_system_change_feature_pack_maint-e2800.gif[sam1130 ss 시스템 변경 기능 팩 유지보수 e2800]
+image::../media/sam1130_ss_system_change_feature_pack_maint-e2800.gif[기능 팩을 변경합니다]
 
 . 찾아보기 * 를 클릭한 다음 적용할 기능 팩을 선택합니다.
 . 필드에 change를 입력합니다.

@@ -13,4 +13,4 @@ summary: Windows Express 구성 워크플로를 사용합니다.
 [role="lead"]
 이 워크플로우는 스토리지 배열 및 SANtricity 시스템 관리자를 구성하는 빠른 방법을 안내하여 Windows 호스트에서 스토리지를 사용할 수 있도록 합니다.
 
-image::../media/1130_flw_sys_mgr_windows_express_guide_all_protocols.png[1130 Flw sys mgr Windows express는 모든 프로토콜을 안내합니다]
+image::../media/1130_flw_sys_mgr_windows_express_guide_all_protocols.png[Windows Express 가이드 워크플로우]

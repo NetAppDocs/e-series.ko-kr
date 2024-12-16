@@ -21,14 +21,14 @@ E5724, EF570, EF280, E2812, E2824, 설치 준비 방법에 대해 알아보십�
 
 
  a| 
-image:../media/trafford_overview.png[""]
+image:../media/trafford_overview.png["드라이브 및 베젤이 설치된 쉘프"]
  a| 
 드라이브가 설치된 쉘프(베젤 별도 패키지)
 
 
 
  a| 
-image:../media/superrails_inst-hw-e2800-e5700.png[""]
+image:../media/superrails_inst-hw-e2800-e5700.png["랙 마운트 하드웨어"]
  a| 
 랙 마운트 하드웨어
 
@@ -42,7 +42,7 @@ image:../media/superrails_inst-hw-e2800-e5700.png[""]
 
 
  a| 
-image:../media/cable_ethernet_inst-hw-e2800-e5700.png[""]
+image:../media/cable_ethernet_inst-hw-e2800-e5700.png["이더넷 케이블"]
  a| 
 이더넷 케이블
 
@@ -53,7 +53,7 @@ image:../media/cable_ethernet_inst-hw-e2800-e5700.png[""]
 
 
  a| 
-image:../media/cable_io_inst-hw-e2800-e5700.png[""]
+image:../media/cable_io_inst-hw-e2800-e5700.png["I/O 케이블"]
  a| 
 I/O 케이블
 
@@ -64,7 +64,7 @@ I/O 케이블
 
 
  a| 
-image:../media/cable_power_inst-hw-e2800-e5700.png[""]
+image:../media/cable_power_inst-hw-e2800-e5700.png["전원 케이블"]
  a| 
 전원 케이블
 
@@ -75,7 +75,7 @@ image:../media/cable_power_inst-hw-e2800-e5700.png[""]
 
 
  a| 
-image:../media/sas_cable.png[""]
+image:../media/sas_cable.png["SAS 케이블"]
  a| 
 SAS 케이블은 드라이브 쉘프에만 포함됩니다
  a| 
@@ -88,28 +88,28 @@ SAS 케이블
 
 
  a| 
-image:../media/screwdriver_inst-hw-e2800-e5700.png[""]
+image:../media/screwdriver_inst-hw-e2800-e5700.png["Phillips #2 드라이버"]
  a| 
 Phillips #2 드라이버
 
 
 
  a| 
-image:../media/flashlight_inst-hw-e2800-e5700.png[""]
+image:../media/flashlight_inst-hw-e2800-e5700.png["플래시"]
  a| 
 플래시
 
 
 
  a| 
-image:../media/wrist_strap_inst-hw-e2800-e5700.png[""]
+image:../media/wrist_strap_inst-hw-e2800-e5700.png["ESD 스트랩"]
  a| 
 ESD 스트랩
 
 
 
  a| 
-image:../media/2u_rackspace_inst-hw-e2800-e5700.png[""]
+image:../media/2u_rackspace_inst-hw-e2800-e5700.png["2U 랙\""]
  a| 
 2U 랙 공간: 의 표준 19인치 (48.30cm) 랙에 장착할 수 있습니다.
 
@@ -126,7 +126,7 @@ image:../media/2u_rackspace_inst-hw-e2800-e5700.png[""]
 
 
  a| 
-image:../media/management_station_inst-hw-e2800-e5700_g60b3.png[""]
+image:../media/management_station_inst-hw-e2800-e5700_g60b3.png["관리 소프트웨어를 위해 지원되는 브라우저가 있는 관리 스테이션"]
  a| 
 관리 소프트웨어에 대해 지원되는 브라우저:
 

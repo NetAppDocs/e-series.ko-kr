@@ -1,7 +1,7 @@
 ---
 permalink: getting-started/getup-run-concept.html 
 sidebar: sidebar 
-keywords: E-Series, eseries, E2800, E5700, EF300, EF600, 
+keywords: E-Series, eseries, E2800, E5700, EF300, EF600, E4000 
 summary: E-Series 시스템을 설치하여 실행하려면 하드웨어 구성요소를 설치하고 호스트 시스템을 구성하고 스토리지를 구성해야 합니다. 
 ---
 = E-Series를 빠르게 시작합니다
@@ -21,6 +21,7 @@ E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유�
 * link:../install-hw-ef600/index.html["24-드라이브 쉘프를 지원하는 EF600 또는 EF300 시리즈"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2842063["12 또는 24 드라이브 쉘프가 포함된 E2800/EF280 또는 E5700/EF570 시리즈"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2842061["60-드라이브 쉘프가 포함된 E2800 또는 E5700 시리즈"^]
+* link:../install-hw-e4000/index.html["E4000 시리즈, 12 또는 60-드라이브 쉘프 포함"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 캐비닛을 설정합니다

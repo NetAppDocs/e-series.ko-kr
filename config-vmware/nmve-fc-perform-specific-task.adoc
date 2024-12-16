@@ -98,7 +98,7 @@ esxcfg-module -s "ql2xnvmesupport=1" qlnativefc
 
 그림에서는 두 개의 존에서 E-Series 스토리지 어레이에 연결된 호스트를 보여 줍니다. 한 영역은 파란색 선으로 표시되고 다른 영역은 빨간색 선으로 표시됩니다. 각 존에는 이니시에이터 포트 하나와 모든 타겟 포트가 포함되어 있습니다.
 
-image::../media/port_identifiers_host_and_target_conf-vmw.gif[포트 식별자 호스트 및 타겟 구성 VMW]
+image::../media/port_identifiers_host_and_target_conf-vmw.gif[NVMe over Fibre Channel 포트 식별자"]
 
 
 

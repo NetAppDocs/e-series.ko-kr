@@ -10,7 +10,7 @@ summary: 같은 유형의 여러 스토리지 배열에 대한 SANtricity 소프
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

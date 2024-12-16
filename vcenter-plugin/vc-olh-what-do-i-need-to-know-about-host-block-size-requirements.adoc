@@ -10,7 +10,7 @@ summary: 'EF300 및 EF600 시스템의 경우 512바이트 또는 4KiB 블록 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

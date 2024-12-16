@@ -10,7 +10,7 @@ summary: '인증서를 사용하는 조직, 인증서를 발급한 기관, 유�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -10,7 +10,7 @@ summary: '스토리지 용량을 할당하려면 스토리지 어레이에서 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

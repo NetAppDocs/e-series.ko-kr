@@ -11,7 +11,7 @@ summary: vCenter용 저장소 플러그인에서 더 이상 관리하지 않으�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

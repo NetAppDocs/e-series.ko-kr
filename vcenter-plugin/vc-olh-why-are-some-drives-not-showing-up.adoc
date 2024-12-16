@@ -10,7 +10,7 @@ summary: Add Capacity 대화 상자에서 기존 풀 또는 볼륨 그룹에 용
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

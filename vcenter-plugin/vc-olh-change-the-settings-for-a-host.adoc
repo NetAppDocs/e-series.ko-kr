@@ -11,7 +11,7 @@ summary: 호스트 또는 호스트 클러스터의 이름, 호스트 운영 체
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -57,7 +57,7 @@ SANtricity 시스템 관리자의 Recovery Guru를 확인하고 필수 단계를
 드라이브 드로어의 주의 LED(주황색)가 깜박여 올바른 드라이브 드로어를 열고 교체할 드라이브를 식별할 수 있습니다.
 
 +
-image::../media/2860_dwg_attn_led_on_drawer_maint-e5700.gif[2860 DWG Attn이 문서함 유지 e5700에서 이끌었습니다]
+image::../media/2860_dwg_attn_led_on_drawer_maint-e5700.gif[주의 LED]
 
 +
 * (1) * _주의 LED _
@@ -66,7 +66,7 @@ image::../media/2860_dwg_attn_led_on_drawer_maint-e5700.gif[2860 DWG Attn이 문
 .. 확장 레버를 사용하여 드라이브 서랍이 멈출 때까지 조심스럽게 빼냅니다.
 .. 드라이브 드로어의 상단을 보고 각 드라이브 전면에 있는 주의 LED를 찾습니다.
 +
-image::../media/2860_dwg_amber_on_drive_maint-e5700.gif[드라이브 유지보수 e5700의 2860 DWG 호박색]
+image::../media/2860_dwg_amber_on_drive_maint-e5700.gif[드라이브 드로어의 주의 LED]
 
 +
 오른쪽 상단의 드라이브에 대한 * (1) * _주의 LED 표시등이 켜집니다 _
@@ -75,7 +75,7 @@ image::../media/2860_dwg_amber_on_drive_maint-e5700.gif[드라이브 유지보�
 드라이브 드로어 주의 LED는 각 드라이브 전면의 왼쪽에 있으며 드라이브 핸들의 LED 바로 뒤에 주의 아이콘이 있습니다.
 
 +
-image::../media/28_dwg_e2860_de460c_attention_led_drive_maint-e5700.gif[28 DWG e2860 de460c 집중을 통해 드라이브 유지 관리 e5700이 추진되었습니다]
+image::../media/28_dwg_e2860_de460c_attention_led_drive_maint-e5700.gif[드라이브 드로어의 주의 LED]
 
 +
 * (1) * _주의 아이콘 _
@@ -105,22 +105,22 @@ image::../media/28_dwg_e2860_de460c_attention_led_drive_maint-e5700.gif[28 DWG e
 구동 스프링의 캠 핸들이 부분적으로 열리고 드로어에서 드라이브가 해제됩니다.
 
 +
-image::../media/trafford_drive_rel_button_maint-e5700.gif[Trafford 드라이브 렐 버튼 maint e5700을 클릭합니다]
+image::../media/trafford_drive_rel_button_maint-e5700.gif[주황색 분리 래치를 사용하여 드라이브를 분리합니다]
 
 +
 * (1) * _주황색 분리 래치 _
 
 . 캠 핸들을 열고 드라이브를 약간 들어 올립니다.
-. 30초 동안 기다립니다.
+. 60초 동안 기다립니다.
 . 캠 핸들을 사용하여 드라이브를 선반에서 들어 올립니다.
 +
-image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[92 DWG de6600 드라이브 유지보수 e5700을 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[캠 핸들을 사용하여 드라이브를 제거합니다]
 
 . 드라이브를 자기 들판 반대쪽으로 정전기 방지 쿠션 처리된 표면에 놓습니다.
-. 소프트웨어가 드라이브가 제거되었음을 인식할 때까지 30초 동안 기다립니다.
+. 소프트웨어가 드라이브가 제거되었음을 인식할 때까지 60초 동안 기다립니다.
 +
 
-NOTE: 활성 드라이브를 실수로 분리한 경우 30초 이상 기다린 다음 다시 설치합니다. 복구 절차는 스토리지 관리 소프트웨어를 참조하십시오.
+NOTE: 활성 드라이브를 실수로 분리한 경우 60초 이상 기다린 다음 다시 설치합니다. 복구 절차는 스토리지 관리 소프트웨어를 참조하십시오.
 
 
 
@@ -137,7 +137,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 드라이브 드로어를 �
 . 새 드라이브의 캠 핸들을 수직으로 올립니다.
 . 드라이브 캐리어의 양쪽에 있는 두 개의 돌출된 단추를 드라이브 드로어의 드라이브 채널에서 일치하는 틈에 맞춥니다.
 +
-image::../media/28_dwg_e2860_de460c_drive_cru_maint-e5700.gif[28 DWG e2860 de460c 드라이브 CRU maint e5700]
+image::../media/28_dwg_e2860_de460c_drive_cru_maint-e5700.gif[드라이브 캐리어의 돌출된 버튼은 드라이브 드로어의 드라이브 채널과 일치해야 합니다]
 
 +
 드라이브 캐리어 오른쪽의 * (1) * _Raised 버튼
@@ -163,7 +163,7 @@ image::../media/28_dwg_e2860_de460c_drive_cru_maint-e5700.gif[28 DWG e2860 de460
 . 교체한 드라이브의 전원 LED 및 주의 LED를 확인합니다. (드라이브를 처음 삽입할 때 주의 LED가 켜져 있을 수 있습니다. 하지만 1분 이내에 LED가 꺼집니다.)
 +
 ** 전원 LED가 켜져 있거나 깜박이고 주의 LED가 꺼져 있습니다. 새 드라이브가 올바르게 작동하고 있음을 나타냅니다.
-** 전원 LED가 꺼져 있음: 드라이브가 올바르게 설치되지 않았을 수 있음을 나타냅니다. 드라이브를 분리하고 30초 정도 기다린 다음 다시 설치합니다.
+** 전원 LED가 꺼져 있음: 드라이브가 올바르게 설치되지 않았을 수 있음을 나타냅니다. 드라이브를 분리하고 60초 정도 기다린 다음 다시 설치합니다.
 ** 주의 LED가 켜짐: 새 드라이브에 결함이 있을 수 있음을 나타냅니다. 다른 새 드라이브로 교체합니다.
 
 

@@ -11,7 +11,7 @@ summary: 드라이브를 제거하여 기존 풀 또는 SSD Cache의 용량을 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

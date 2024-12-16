@@ -11,7 +11,7 @@ summary: Storage Plugin for vCenter를 호스팅하는 시스템에서 인증할
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

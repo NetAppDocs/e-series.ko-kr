@@ -11,7 +11,7 @@ summary: 할당되지 않은 볼륨을 기존 또는 새로운 워크로드에 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

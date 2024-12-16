@@ -11,7 +11,7 @@ summary: 사용자 생성 그룹에 하나 이상의 스토리지 배열을 추�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

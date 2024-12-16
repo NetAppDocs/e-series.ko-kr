@@ -53,12 +53,12 @@ NOTE: 컨트롤러의 스위치 포트에서는 포트 채널/LACP가 지원되�
 
 
 .이 작업에 대해
-iSCSI 네트워킹을 계획하는 동안 에 유의하십시오 https://configmax.vmware.com/home["VMware 구성 최대값"^] 가이드에서 지원되는 최대 iSCSI 스토리지 경로는 8입니다. 너무 많은 경로를 구성하지 않으려면 이 요구 사항을 고려해야 합니다.
+iSCSI 네트워킹을 계획하는 동안 https://configmax.broadcom.com/home["VMware 구성 최대값"^] 가이드에 지원되는 최대 iSCSI 스토리지 경로는 8이라고 나와 있습니다. 너무 많은 경로를 구성하지 않으려면 이 요구 사항을 고려해야 합니다.
 
 기본적으로 VMware iSCSI 소프트웨어 이니시에이터는 iSCSI 포트 바인딩을 사용하지 않을 때 iSCSI 타겟당 단일 세션을 생성합니다.
 
 
-NOTE: VMware iSCSI 포트 바인딩은 구성된 네트워크 세그먼트에서 액세스할 수 있는 모든 타겟 포트에 바인딩된 모든 VMkernel 포트를 강제로 로그인하는 기능입니다. iSCSI 대상에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용됩니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 를 참조하십시오 http://kb.vmware.com/["VMware 기술 자료"] ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용할 때의 고려 사항에 대한 문서를 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우 별도의 iSCSI vmkernel 포트를 사용하여 포트 바인딩과 충돌하지 않는 것이 좋습니다.
+NOTE: VMware iSCSI 포트 바인딩은 구성된 네트워크 세그먼트에서 액세스할 수 있는 모든 타겟 포트에 바인딩된 모든 VMkernel 포트를 강제로 로그인하는 기능입니다. iSCSI 대상에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용됩니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 https://support.broadcom.com/["VMware 기술 자료"] ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용할 때의 고려 사항에 대한 문서를 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우 별도의 iSCSI vmkernel 포트를 사용하여 포트 바인딩과 충돌하지 않는 것이 좋습니다.
 
 모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 자세한 내용은 을 https://www.netapp.com/media/17017-tr4789.pdf["TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드"^] 참조하십시오.
 
@@ -280,7 +280,7 @@ NOTE: 명령이 실패하고 'S endto() failed(Message Too Long)' 메시지가 �
 
 권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
 
-image::../media/50001_01_conf-vmw.gif[50001 구성 VMW]
+image::../media/50001_01_conf-vmw.gif[iSCSI 포트 식별자입니다]
 
 
 

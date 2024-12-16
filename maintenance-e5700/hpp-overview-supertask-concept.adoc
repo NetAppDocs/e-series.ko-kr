@@ -22,7 +22,7 @@ NOTE: E5700 컨트롤러의 옵티컬 기본 포트만 변환할 수 있습니�
 
 다음 그림은 SFP+(광) 베이스보드 호스트 포트를 갖춘 E5700 * (1) * 와 옵션 2 IB HIC 포트 * (2) * 를 보여줍니다.
 
-image::../media/e5700_with_2_port_100g_edr_infiniband_hic_w_callouts.gif[2포트 100g의 EDR InfiniBand hic 속성 표시기가 있는 e5700]
+image::../media/e5700_with_2_port_100g_edr_infiniband_hic_w_callouts.gif[E5700 컨트롤러의 호스트 및 HIC 포트]
 
 
 

@@ -10,7 +10,7 @@ summary: 전체 세부 정보를 보려면 인증서를 내보냅니다.
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

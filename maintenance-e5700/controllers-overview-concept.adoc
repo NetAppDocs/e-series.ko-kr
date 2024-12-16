@@ -41,7 +41,7 @@ NOTE: 다음과 같은 교체 조건이 발생할 때마다 컨트롤러의 황�
 ====
 
 
-image::../media/e5700_attention_led_callout.png[e5700 주의 LED 설명선]
+image::../media/e5700_attention_led_callout.png[E5700 컨트롤러 주의 LED]
 
 * (1) * _주의 LED _
 

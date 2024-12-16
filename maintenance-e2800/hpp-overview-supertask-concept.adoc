@@ -22,7 +22,7 @@ NOTE: E2800 컨트롤러의 16Gb FC/10Gb iSCSI HIC 및 광 기본 포트만 변�
 
 다음 그림은 SFP+(광) 베이스보드 호스트 포트 2개 * (1) * 및 SFP+(광) HIC 포트 4개 * (2) * 를 포함하는 E2800 컨트롤러의 후면을 보여줍니다.
 
-image::../media/28_dwg_e2800_optical_base_quad_sfp_hic.gif[28 DWG e2800 옵티컬 베이스 4중 SFP hic]
+image::../media/28_dwg_e2800_optical_base_quad_sfp_hic.gif[E2800 컨트롤러의 호스트 및 HIC 포트"]
 
 
 NOTE: 2-포트 HIC도 제공됩니다.
@@ -275,7 +275,7 @@ CAUTION: * 데이터 손실 가능성 * -- 포트를 FC로 변환하기 전에 i
 기능 팩을 적용하면 미러링 지원 기능이 번호가 가장 높은 베이스보드 호스트 포트(그림에서 * 1 * 로 표시됨)에서 번호가 가장 높은 HIC 포트(그림에서 * 2 * 로 표시됨)로 이동합니다.
 
 +
-image::../media/28_dwg_e2800_fc_iscsi_to_fc.gif[28 DWG e2800 fc iSCSI를 FC로]
+image::../media/28_dwg_e2800_fc_iscsi_to_fc.gif[E2800 컨트롤러의 포트"]
 
 +
 |===

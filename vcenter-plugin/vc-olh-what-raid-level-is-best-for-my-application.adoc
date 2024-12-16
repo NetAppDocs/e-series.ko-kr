@@ -10,7 +10,7 @@ summary: 볼륨 그룹의 성능을 최대화하려면 적절한 RAID 레벨을 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

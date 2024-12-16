@@ -11,7 +11,7 @@ summary: 풀 또는 볼륨 그룹의 볼륨에서 이중화를 확인하여 해�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

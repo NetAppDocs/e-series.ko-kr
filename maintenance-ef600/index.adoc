@@ -11,58 +11,79 @@ summary: EF300 및 EF600 하드웨어 유지 관리
 
 
 [role="lead"]
+하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. EF300 또는 EF600 시스템 구성 요소를 유지하는 방법과 관련된 절차가 이 섹션에 나와 있습니다.
+
+이 섹션의 절차에서는 EF300 또는 EF600 시스템이 E-Series 환경에 이미 구축되어 있다고 가정합니다.
+
+
+
+== 시스템 구성 요소
+
 EF300 및 EF600 스토리지 시스템의 경우, 다음 구성 요소에 대해 유지보수 절차를 수행할 수 있습니다.
 
+[cols="25,65"]
+|===
 
 
-== 배터리
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/batteries-overview-requirements-concept.html["배터리"]
+ a| 
 배터리는 컨트롤러에 포함되어 있으며 AC 전원에 장애가 발생할 경우 캐싱된 데이터를 보존합니다.
 
 
 
-== 컨트롤러
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/controllers-overview-supertask-concept.html["컨트롤러"]
+ a| 
 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 SANtricity 시스템 관리자 기능을 구현합니다.
 
 
 
-== DIMM
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/dimms-overview-supertask-concept.html["DIMM"]
+ a| 
 메모리 불일치가 있거나 DIMM에 결함이 있는 경우 DIMM(Dual In-line Memory Module)을 교체해야 합니다.
 
 
 
-== 드라이브
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/drives-overview-supertask-concept.html["드라이브"]
+ a| 
 드라이브는 물리적 데이터 저장 미디어를 제공하는 장치입니다.
 
 
 
-== 팬
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/fans-overview-requirements-replacing2-concept.html["팬"]
+ a| 
 각 EF300 또는 EF600 컨트롤러 쉘프 또는 드라이브 쉘프에는 컨트롤러 냉각을 위한 5개의 팬이 포함됩니다.
 
 
 
-== 호스트 인터페이스 카드(HIC)
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/hics-overview-supertask-concept.html["호스트 인터페이스 카드(HIC)"]
+ a| 
 HIC(호스트 인터페이스 카드)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.
 
 
 
-== 호스트 포트 프로토콜입니다
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/hpp-overview-supertask-concept.html["호스트 포트 프로토콜입니다"]
+ a| 
 호환성과 통신을 설정할 수 있도록 호스트의 프로토콜을 다른 프로토콜로 변환할 수 있습니다.
 
 
 
-== 전원 공급 장치
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/power-overview-requirements2-concept.html["전원 공급 장치"]
+ a| 
 전원 공급 장치는 컨트롤러 쉘프에 이중 전원을 제공합니다.
 
 
 
-== SAS 확장 카드
-
+ a| 
+https://docs.netapp.com/us-en/e-series/maintenance-ef600/sas-overview-supertask-concept.html["SAS 확장 카드"]
+ a| 
 SAS 확장 카드는 컨트롤러 캐니스터 내에 설치될 수 있습니다. EF300 컨트롤러는 SAS 확장을 지원합니다.
+
+|===

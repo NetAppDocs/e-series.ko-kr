@@ -10,7 +10,7 @@ summary: 애플리케이션별 워크로드의 볼륨 특성에 따라 스토리
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

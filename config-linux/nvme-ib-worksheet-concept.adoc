@@ -67,7 +67,7 @@ NOTE: 소프트웨어 이니시에이터 NQN은 작업 중에 결정됩니다.
 
 직접 연결 토폴로지에서는 하나 이상의 호스트가 서브시스템에 직접 연결됩니다. SANtricity OS 11.50 릴리스에서는 아래와 같이 각 호스트에서 하위 시스템 컨트롤러로의 단일 연결을 지원합니다. 이 구성에서는 각 호스트의 HCA(호스트 채널 어댑터) 포트 1개가 연결된 E-Series 컨트롤러 포트와 동일한 서브넷에 있어야 하지만 다른 HCA 포트와 다른 서브넷에 있어야 합니다.
 
-image::../media/nvmeof_direct_connect.gif[N etApp으로 직접 연결]
+image::../media/nvmeof_direct_connect.gif[NVMe over Infiniband 직접 연결 예]
 
 
 

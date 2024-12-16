@@ -13,4 +13,4 @@ summary: WVMware Express 구성 워크플로우를 사용합니다.
 [role="lead"]
 이 워크플로우에서는 스토리지 시스템과 SANtricity System Manager를 구성하여 스토리지를 VMware 호스트에서 사용할 수 있도록 하는 "빠른 방법"을 안내합니다.
 
-image::../media/1130_flw_sys_mgr_vmware_express_guide_all_protocols.png[1130 Flw sys mgr VMware express는 모든 프로토콜을 안내합니다]
+image::../media/1130_flw_sys_mgr_vmware_express_guide_all_protocols.png[VMware Express 가이드 워크플로우"]

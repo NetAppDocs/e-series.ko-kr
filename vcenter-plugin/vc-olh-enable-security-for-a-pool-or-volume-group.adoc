@@ -11,7 +11,7 @@ summary: 풀 또는 볼륨 그룹에 대해 드라이브 보안을 설정하여 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

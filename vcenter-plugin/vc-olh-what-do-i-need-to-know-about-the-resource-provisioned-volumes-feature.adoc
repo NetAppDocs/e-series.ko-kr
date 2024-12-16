@@ -11,7 +11,7 @@ summary: 리소스 프로비저닝은 EF300 및 EF600 스토리지 어레이에�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

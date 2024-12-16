@@ -61,7 +61,7 @@ E2800 어레이의 전원 공급 장치를 12 드라이브 또는 24 드라이�
 
 +
 .. 하드웨어 * 를 선택합니다.
-.. 파워를 보십시오 image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif[""] 팬 image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[""] 쉘프 * 드롭다운 목록 오른쪽에 있는 아이콘을 클릭하여 장애 전원 공급 장치가 있는 쉘프를 확인합니다.
+.. 쉘프 * 드롭다운 목록 오른쪽에 있는 전원  및 팬 image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif["'팬 아이콘\""] 아이콘을 확인하여 장애가 발생한 전원 image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif["전원 아이콘"]공급 장치가 있는 쉘프를 확인합니다.
 +
 구성 요소에 오류가 발생한 경우 이러한 아이콘 중 하나 또는 둘 다 빨간색입니다.
 
@@ -82,7 +82,7 @@ CAUTION: 선반에 있는 두 번째 전원 공급 장치 캐니스터가 * Opti
 주의 LED가 켜져 있는 전원 공급 장치를 교체해야 합니다.
 
 +
-image::../media/28_dwg_913w_power_supply_back_view_maint-e2800.gif[28 DWG 913w 전원 공급 장치 후면 모습 유지보수 e2800]
+image::../media/28_dwg_913w_power_supply_back_view_maint-e2800.gif[전원 공급 장치 LED]
 
 +
 ** 전원 LED: * 녹색으로 켜져 있으면 * 전원 공급 장치가 올바르게 작동하고 있는 것입니다. 꺼짐*, 전원 공급 장치 실패, AC 스위치 꺼짐, AC 전원 코드가 제대로 설치되지 않았거나 AC 전원 코드 입력 전압이 여백 내에 있지 않은 경우(AC 전원 코드의 소스 끝에 문제가 있음)
@@ -111,7 +111,7 @@ image::../media/28_dwg_913w_power_supply_back_view_maint-e2800.gif[28 DWG 913w �
 
 . 전원 공급 장치 캠 핸들의 래치를 누른 다음 캠 핸들을 열어 중간 평면에서 전원 공급 장치를 완전히 분리합니다.
 +
-image::../media/drw_2600_psu_maint-e2800.gif[drw 2600 PSU 유지보수 e2800]
+image::../media/drw_2600_psu_maint-e2800.gif[캠 핸들을 당겨 중앙판에서 전원 공급 장치를 분리합니다]
 
 . 캠 핸들을 사용하여 전원 공급 장치를 시스템 밖으로 밀어냅니다.
 +

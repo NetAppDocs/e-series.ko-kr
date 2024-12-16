@@ -11,7 +11,7 @@ summary: 먼저 특정 애플리케이션 유형에 대한 워크로드를 생�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

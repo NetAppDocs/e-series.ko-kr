@@ -10,7 +10,7 @@ summary: 추가/검색 기능을 사용하여 조직의 네트워크에서 관�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

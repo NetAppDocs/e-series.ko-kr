@@ -1,0 +1,81 @@
+---
+permalink: maintenance-e4000/replace-controller-requirements-e4000.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= E4000 컨트롤러 교체 요구 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E4000 컨트롤러를 교체하거나 추가하기 전에 요구 사항 및 고려 사항을 검토하십시오.
+
+각 컨트롤러 캐니스터에는 컨트롤러 카드와 배터리가 들어 있습니다. 두 번째 컨트롤러를 단일 구성에 추가하거나 장애가 발생한 컨트롤러를 교체할 수 있습니다.
+
+
+
+== 두 번째 컨트롤러 추가 요구 사항
+
+E4000 컨트롤러 쉘프의 단순 버전에 두 번째 컨트롤러 캐니스터를 추가할 수 있습니다. 두 번째 컨트롤러를 추가하려면 다음이 필요합니다.
+
+* 현재 설치된 컨트롤러 캐니스터와 부품 번호가 동일한 새 컨트롤러 캐니스터
++
+
+NOTE: StorageGRID 어플라이언스에는 적용되지 않습니다.
+
+* 새 컨트롤러 포트를 연결하는 데 필요한 모든 케이블, 트랜시버, 스위치 및 호스트 버스 어댑터(HBA)
++
+호환되는 하드웨어에 대한 자세한 내용은 또는 http://hwu.netapp.com/home.aspx["NetApp Hardware Universe를 참조하십시오"] 를 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성 매트릭스"] 참조하십시오.
+
+* 두 컨트롤러를 모두 사용할 수 있도록 호스트에 설치된 다중 경로 드라이버  https://docs.netapp.com/us-en/e-series/config-linux/index.html["Linux Express 구성"]자세한 내용은 , https://docs.netapp.com/us-en/e-series/config-windows/index.html["Windows Express 구성"] 또는 https://docs.netapp.com/us-en/e-series/config-vmware/index.html["VMware Express 구성"] 을 참조하십시오.
+* ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.
+* 1 십자 드라이버.
+* 새 케이블을 식별하기 위한 레이블
+* 컨트롤러의 SANtricity 시스템 관리자에 액세스할 수 있는 브라우저가 있는 관리 스테이션. System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
++
+선택적으로 CLI(Command Line Interface)를 사용하여 일부 절차를 수행할 수 있습니다. SANtricity System Manager(버전 11.60 이상)의 경우 System Manager에서 CLI 패키지(zip 파일)를 다운로드할 수 있습니다. 그렇게 하려면 System Manager의 * 설정 > 시스템 > 애드온 > 명령줄 인터페이스 * 로 이동하십시오. 그러면 DOS C: 프롬프트와 같은 운영 체제 프롬프트에서 CLI 명령을 실행할 수 있습니다.
+
+
+
+
+
+== 컨트롤러 교체 요구 사항
+
+장애가 발생한 컨트롤러 캐니스터를 교체할 경우 원래 컨트롤러 캐니스터에서 배터리, HIC 및 DIMM을 제거하고 교체용 컨트롤러 캐니스터에 설치해야 합니다.
+
+다음 두 가지 방법으로 오류가 발생한 컨트롤러 캐니스터가 있는지 확인할 수 있습니다.
+
+* SANtricity 시스템 관리자의 Recovery Guru에서 컨트롤러 캐니스터를 교체하도록 안내합니다.
+* 컨트롤러 캐니스터의 황색 주의 LED가 켜져 컨트롤러에 장애가 있음을 나타냅니다.
+
+
+컨트롤러를 교체하기 전에 다음 사항을 확인해야 합니다.
+
+* 교체 중인 컨트롤러 캐니스터와 부품 번호가 동일한 교체용 컨트롤러 캐니스터
+* ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.
+* 컨트롤러 캐니스터에 연결된 각 케이블을 식별하는 레이블입니다.
+* #1 십자 드라이버.
+* 컨트롤러의 SANtricity 시스템 관리자에 액세스할 수 있는 브라우저가 있는 관리 스테이션. System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
++
+선택적으로 CLI(Command Line Interface)를 사용하여 일부 절차를 수행할 수 있습니다. SANtricity System Manager(버전 11.60 이상)의 경우 System Manager에서 CLI 패키지(zip 파일)를 다운로드할 수 있습니다. 그렇게 하려면 System Manager의 * 설정 > 시스템 > 애드온 > 명령줄 인터페이스 * 로 이동하십시오. 그러면 DOS C: 프롬프트와 같은 운영 체제 프롬프트에서 CLI 명령을 실행할 수 있습니다.
+
+
+
+
+
+=== 이중 구성 요구 사항
+
+컨트롤러 쉘프에 2개의 컨트롤러가 있는 경우(이중 구성), 다음 조건이 충족될 경우 스토리지 배열의 전원이 켜져 있고 호스트 I/O 작업을 수행하는 동안 컨트롤러 캐니스터를 교체할 수 있습니다.
+
+* 선반의 두 번째 컨트롤러 캐니스터는 최적 상태입니다.
+* SANtricity 시스템 관리자의 Recovery Guru 세부 정보 영역에 있는 *제거할 수 있음* 필드가* 예*로 표시되면 이 구성 요소를 제거해도 안전하다는 의미입니다.
+
+
+
+
+=== 단일 구성 요구사항
+
+단일 컨트롤러 캐니스터(단일 구성)만 있는 경우 컨트롤러 캐니스터를 교체할 때까지 스토리지 어레이의 데이터에 액세스할 수 없습니다. 호스트 입출력 작업을 중지하고 스토리지 시스템의 전원을 차단해야 합니다.

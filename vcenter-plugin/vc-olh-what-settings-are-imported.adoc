@@ -10,7 +10,7 @@ summary: 설정 가져오기 기능은 하나의 스토리지 어레이에서 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

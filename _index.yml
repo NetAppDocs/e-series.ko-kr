@@ -20,9 +20,9 @@ indexpage:
       url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
   - title: SANtricity 소프트웨어
     links:
-    - title: SANtricity 시스템 관리자 11.8
+    - title: SANtricity 시스템 관리자 11.9
       url: https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html
-    - title: SANtricity 유니파이드 관리자 6
+    - title: SANtricity 유니파이드 관리자 7
       url: https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html
     - title: CLI(Command Line Interface) 참조
       url: https://docs.netapp.com/us-en/e-series-cli/index.html

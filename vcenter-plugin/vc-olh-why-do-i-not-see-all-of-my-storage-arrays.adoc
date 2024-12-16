@@ -10,7 +10,7 @@ summary: 설정 가져오기 작업 중에 일부 스토리지 배열을 대상 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

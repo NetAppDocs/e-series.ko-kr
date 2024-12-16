@@ -6,6 +6,8 @@ summary: 하드웨어를 랙에 장착합니다.
 ---
 = 랙 마운트 하드웨어
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
 
 [role="lead"]

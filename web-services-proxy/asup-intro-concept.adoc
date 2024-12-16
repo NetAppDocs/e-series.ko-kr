@@ -125,7 +125,7 @@ NOTE: 타임스탬프 항목이 불필요합니다.
 
 === AutoSupport 전달 방법을 구성합니다
 
-HTTPS, HTTP 또는 SMTP 전송 방법을 사용하도록 AutoSupport 기능을 구성할 수 있습니다. HTTPS는 기본 전송 방법입니다.
+AutoSupport 기능을 구성하여 HTTPS 또는 SMTP 배달 방법을 사용할 수 있습니다. HTTPS는 기본 전송 방법입니다.
 
 . 작업 디렉터리에서 ASUPConfig.xml 파일에 액세스합니다.
 . 문자열, "<delivery type="n">"에 표에 설명된 대로 1, 2 또는 3을 입력합니다.
@@ -146,15 +146,6 @@ HTTPS, HTTP 또는 SMTP 전송 방법을 사용하도록 AutoSupport 기능을 �
 
  a| 
 2
- a| 
-* HTTP *
-
-전달 유형="2">
-
-
-
- a| 
-3
  a| 
 SMTP * -- SMTP에 AutoSupport 전달 유형을 올바르게 구성하려면 다음 예와 같이 보낸 사람 및 받는 사람 사용자 이메일과 함께 SMTP 메일 서버 주소를 포함해야 합니다.
 

@@ -10,7 +10,7 @@ summary: 동일한 볼륨 세트에 대한 액세스를 공유하는 호스트�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

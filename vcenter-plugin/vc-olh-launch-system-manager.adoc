@@ -10,7 +10,7 @@ summary: 단일 어레이를 관리하려면 시작 옵션을 사용하여 새 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

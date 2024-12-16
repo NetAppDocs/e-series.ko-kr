@@ -10,7 +10,7 @@ summary: 중복 검사는 풀 또는 볼륨 그룹의 볼륨에 있는 데이터
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

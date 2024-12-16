@@ -11,7 +11,7 @@ summary: SSD Cache 이름을 편집하고 상태, 최대 및 현재 용량, Driv
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

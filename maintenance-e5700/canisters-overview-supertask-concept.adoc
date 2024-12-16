@@ -36,7 +36,7 @@ NOTE: 전원 공급 장치 교체 절차는 IOM 교체에 적용할 수 있습�
 
 다음 그림은 전원 공급 장치 2개(전원 팬 캐니스터)가 있는 E5724 컨트롤러 쉘프의 예를 보여줍니다. DE224C 드라이브 쉘프는 동일하지만 컨트롤러 캐니스터 대신 I/O 모듈(IOM)을 포함합니다.
 
-image::../media/e5700_power_supply_callout.png[e5700 전원 공급 장치 콜아웃]
+image::../media/e5700_power_supply_callout.png[E5700 컨트롤러 전원 공급 장치]
 
 컨트롤러 캐니스터 아래에 전원 공급 장치(전원 팬 캐니스터) 2개가 있는 * (1) * _ 컨트롤러 쉘프
 
@@ -82,11 +82,11 @@ _Replace power 캐니스터_항목은 컨트롤러 쉘프에 연결될 수 있�
 
 다음 그림은 두 개의 전원 캐니스터가 있는 DE460C 드라이브 쉘프의 후면을 보여줍니다.
 
-image::../media/28_dwg_de460c_rear_no_callouts_maint-e5700.gif[28 DWG de460c 후면 속성 표시기 없음 e5700의 유지]
+image::../media/28_dwg_de460c_rear_no_callouts_maint-e5700.gif[두 개의 파워 캐니스터가 있는 DE460C]
 
 다음 그림은 전원 캐니스터를 보여줍니다.
 
-image::../media/28_dwg_e2860_de460c_psu_maint-e5700.gif[28 DWG e2860 de460c PSU 유지보수 e5700]
+image::../media/28_dwg_e2860_de460c_psu_maint-e5700.gif[전원 캐니스터]
 
 
 
@@ -130,11 +130,11 @@ _Fan 캐니스터 교체_항목에서는 컨트롤러 쉘프에 연결될 수 �
 
 다음 그림에서는 팬 캐니스터를 보여 줍니다.
 
-image::../media/28_dwg_e2860_de460c_single_fan_canister_no_callouts_maint-e5700.gif[28 DWG e2860 de460c 단일 팬 캐니스터 속성 표시기 없음 maint e5700]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_no_callouts_maint-e5700.gif[팬 캐니스터]
 
 다음 그림은 두 개의 팬 캐니스터가 있는 DE460C 쉘프의 후면을 보여줍니다.
 
-image::../media/28_dwg_de460c_rear_no_callouts_maint-e5700.gif[28 DWG de460c 후면 속성 표시기 없음 e5700의 유지]
+image::../media/28_dwg_de460c_rear_no_callouts_maint-e5700.gif[팬 캐니스터 2개가 장착된 DE460C]
 
 
 CAUTION: * 발생 가능한 장비 손상 * -- 전원을 켠 상태로 팬 캐니스터를 교체할 경우, 장비 과열 가능성을 방지하기 위해 30분 이내에 교체 절차를 완료해야 합니다.

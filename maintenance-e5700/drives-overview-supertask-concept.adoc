@@ -27,7 +27,7 @@ summary: E5700 드라이브 요구사항 검토
 
 E5724 컨트롤러 쉘프 또는 DE224C 드라이브 쉘프 * 에서 드라이브 번호 매기기
 
-image::../media/28_dwg_e2824_de224c_drive_numbering_maint-e5700.gif[28 DWG e2824 de224c 드라이브 번호 지정 maint e5700]
+image::../media/28_dwg_e2824_de224c_drive_numbering_maint-e5700.gif[DE224C 드라이브 번호 지정]
 
 
 NOTE: E55724 스토리지 어레이에는 DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이를 포함할 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 link:https://library.netapp.com/ecmdocs/ECMLP2577971/html/GUID-E9157E41-F4BF-4237-9454-F1C9145247F0.html["E2600, E2700, E5400, E5500, E5600 12-드라이브 또는 24-드라이브 트레이의 드라이브 교체"].
@@ -38,11 +38,11 @@ NOTE: E55724 스토리지 어레이에는 DE5600 24 드라이브 트레이 또�
 
 E5560 컨트롤러 쉘프와 DE460C 드라이브 쉘프는 각각 12개의 드라이브 슬롯이 포함된 5개의 드라이브 드로서로 구성됩니다. 드라이브 드로어 1은 상단에 있고 드라이브 드로어 5는 하단에 있습니다.
 
-image::../media/28_dwg_e2860_de460c_front_no_callouts_maint-e5700.gif[28 DWG e2860 de460c 전면 설명선 없음 e5700의 경우]
+image::../media/28_dwg_e2860_de460c_front_no_callouts_maint-e5700.gif[DE460C 드라이브 드로어]
 
 E5560 컨트롤러 쉘프 드로어 및 DE460C 드라이브 쉘프 드로어의 경우, 쉘프 내의 각 드라이브 서랍에서 드라이브 번호가 0에서 11로 지정됩니다.
 
-image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[HDD 속성 표시기가 있는 DWG Trafford 서랍 maint e5700]
+image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[드라이브 번호 지정]
 
 
 NOTE: E5560 스토리지 어레이에는 DE1600 12 드라이브 트레이, DE5600 24 드라이브 트레이 또는 DE6600 60 드라이브 트레이를 포함하여 하나 이상의 SAS-2 기존 확장 드라이브 트레이가 포함될 수 있습니다 이러한 드라이브 트레이 중 하나에서 드라이브를 교체하는 방법은 를 참조하십시오 link:https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2577975["E2660, E2760, E5460, E5560 또는 E5660 드라이브 트레이의 드라이브 교체"] 및 link:https://library.netapp.com/ecmdocs/ECMLP2577971/html/GUID-E9157E41-F4BF-4237-9454-F1C9145247F0.html["E2600, E2700, E5400, E5500, E5600 12-드라이브 또는 24-드라이브 트레이의 드라이브 교체"].
@@ -53,11 +53,11 @@ NOTE: E5560 스토리지 어레이에는 DE1600 12 드라이브 트레이, DE560
 
 E5560 컨트롤러 쉘프 및 DE460C 드라이브 쉘프의 드라이브 서랍을 교체할 수 있습니다. 이러한 60-드라이브 쉘프에는 각각 5개의 드라이브 서랍이 있습니다.
 
-image::../media/28_dwg_e2860_de460c_front_no_callouts_maint-e5700.gif[28 DWG e2860 de460c 전면 설명선 없음 e5700의 경우]
+image::../media/28_dwg_e2860_de460c_front_no_callouts_maint-e5700.gif[DE460C 드라이브 드로어]
 
 5개의 드로어 각각은 최대 12개의 드라이브를 수용할 수 있습니다.
 
-image::../media/92_dwg_de6600_drawer_with_hdds_no_callouts_maint-e5700.gif[HDD가 없는 92 DWG de6600 서랍, 유지보수 5700의 속성 표시기 없음]
+image::../media/92_dwg_de6600_drawer_with_hdds_no_callouts_maint-e5700.gif[드라이브 드로어]
 
 
 
@@ -88,7 +88,7 @@ ESD 가방을 손으로 열거나 가위로 잘라냅니다.
 ** 드라이브를 선반에 강제로 밀어 넣은 후 부드럽고 단단한 압력을 사용하여 드라이브 래치를 완전히 결합하지 마십시오.
 ** 쿠션이 있는 표면에 드라이브를 놓고 드라이브를 서로 쌓지 마십시오.
 ** 다른 표면에 드라이브를 부딪히지 마십시오.
-** 드라이브를 쉘프에서 제거하기 전에 핸들을 풀고 드라이브가 회전할 때까지 30초 동안 기다립니다.
+** 드라이브를 쉘프에서 제거하기 전에 핸들을 풀고 드라이브가 회전할 때까지 60초 동안 기다립니다.
 ** 드라이브를 배송할 때는 항상 승인된 포장재를 사용하십시오.
 
 

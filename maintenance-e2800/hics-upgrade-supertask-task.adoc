@@ -102,7 +102,7 @@ CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이
 드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[28 DWG 2800 컨트롤러 Attn led maint e2800]
+image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[캐시 활성 LED]
 
 +
 * (1) * _ 캐시 활성 LED _
@@ -138,7 +138,7 @@ CAUTION: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 �
 캐시 데이터를 드라이브에 기록해야 하는 경우 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 컨트롤러 캐니스터를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[28 DWG 2800 컨트롤러 Attn led maint e2800]
+image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[캐시 활성 LED]
 
 +
 * (1) * _ 캐시 활성 LED _
@@ -148,7 +148,7 @@ image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[28 DWG 2800 컨�
 다음 그림은 E2812 컨트롤러 쉘프, E2824 컨트롤러 쉘프 또는 EF280 플래시 어레이의 예입니다.
 
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -160,7 +160,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[28 DWG e
 다음 그림은 E2860 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e2800.gif[28 DWG e2860은 컨트롤러 캐니스터 유지보수 e2800을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e2800.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -193,7 +193,7 @@ E2812 컨트롤러 쉘프, E2824 컨트롤러 쉘프 또는 EF280 플래시 어�
 이 녹색 LED가 켜져 있으면 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 구성 요소를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2800 내부 캐시가 활성 상태로 유지 관리 e2800에 있습니다]
+image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[내부 캐시 활성 LED]
 
 +
 * (1) * _ 내부 캐시 활성 _
@@ -206,7 +206,7 @@ image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2
 나사는 상단에 1개, 측면에 1개, 전면에 2개 등 4개가 있습니다.
 
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 hic facePlace 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[컨트롤러에서 HIC 팩판을 제거합니다]
 
 . HIC 페이스플레이트를 탈거하십시오.
 . 손가락이나 십자 드라이버를 사용하여 HIC를 컨트롤러 카드에 고정하는 세 개의 나비 나사를 풉니다.
@@ -216,7 +216,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 h
 CAUTION: HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히거나 범프되지 않도록 주의하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic 손잡이 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[컨트롤러에서 HIC 제거"]
 
 +
 * (1) * _ HIC(호스트 인터페이스 카드) _
@@ -240,7 +240,7 @@ CAUTION: * 데이터 액세스 손실 * -- 다른 E-Series 컨트롤러용으로
 . 새 HIC 및 새 HIC 페이스플레이트의 포장을 풉니다.
 . 1 십자 드라이버를 사용하여 HIC 페이스플레이트를 컨트롤러 캐니스터에 연결하는 나사 4개를 제거하고 페이스플레이트를 제거합니다.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 hic facePlace 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[컨트롤러에 HIC 면판을 다시 연결합니다]
 
 . HIC의 3개의 나비 나사를 컨트롤러의 해당 구멍에 맞추고 HIC 하단의 커넥터를 컨트롤러 카드의 HIC 인터페이스 커넥터와 맞춥니다.
 +
@@ -252,7 +252,7 @@ HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히�
 CAUTION: * 장비 손상 가능성 * -- HIC와 나비 나사 사이의 컨트롤러 LED에 골드 리본 커넥터가 끼이지 않도록 매우 조심하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic 손잡이 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[컨트롤러에 HIC를 설치합니다]
 
 +
 * (1) * _호스트 인터페이스 카드 _
@@ -281,7 +281,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic �
 다음 그림은 E2824 컨트롤러 쉘프 또는 EF280 플래시 어레이의 예입니다.
 
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[컨트롤러 캐니스터를 다시 설치합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -293,7 +293,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e2800.gif[28 DWG e
 다음 그림은 E2860 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e2800.gif[28 DWG e2860은 컨트롤러 캐니스터 유지보수 e2800을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e2800.gif[컨트롤러 캐니스터를 다시 설치합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -333,7 +333,7 @@ NOTE: 이때 데이터 케이블을 새 HIC 포트에 연결하지 마십시오.
 NOTE: 그림은 컨트롤러 캐니스터의 예를 보여줍니다. 컨트롤러의 호스트 포트 수와 유형은 다를 수 있습니다.
 
 +
-image::../media/28_dwg_attn_led_7s_display_maint-e2800.gif[28 DWG Attn LED 7은 유지보수 e2800을 표시합니다]
+image::../media/28_dwg_attn_led_7s_display_maint-e2800.gif[E2800 컨트롤러 LED"]
 
 +
 * (1) * _주의 LED(황색) _

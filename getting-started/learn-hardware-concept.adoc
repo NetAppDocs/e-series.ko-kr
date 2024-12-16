@@ -1,7 +1,7 @@
 ---
 permalink: getting-started/learn-hardware-concept.html 
 sidebar: sidebar 
-keywords: E-Series, eseries, E2800, E5700, EF300, EF600, hardware, all flash array, E-Series protocols, E-Series rack 
+keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, hardware, all flash array, E-Series protocols, E-Series rack 
 summary: E-Series 스토리지 어레이는 다양한 구성과 모델로 제공됩니다. 
 ---
 = E-Series 하드웨어 개요
@@ -20,6 +20,7 @@ E-Series 어레이는 다음 모델에서 제공됩니다.
 * E2800 시리즈 - 엔트리 레벨 하이브리드
 * EF280 시리즈 -- 엔트리 레벨 All 플래시
 * EF300 시리즈 -- 엔트리 레벨 All-Flash, All NVMe
+* E4000 시리즈 - 엔트리 레벨 하이브리드
 * E5700 시리즈 -- 미드레인지 하이브리드
 * EF570 시리즈 -- 미드레인지 All-Flash
 * EF600 시리즈 -- 미드레인지 All-Flash, All NVMe
@@ -28,34 +29,28 @@ E-Series 어레이는 다음 모델에서 제공됩니다.
 
 NOTE: SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600, 및 EF300 스토리지.
 
-
-
-== E2800 모델
-
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
-
-
- a| 
-랙 크기:
- a| 
+[role="tabbed-block"]
+====
+.E2800 모델
+--
+랙 크기::
++
+--
 * 2U12(랙 유닛 2개, 드라이브 12개)
 * 2U24(랙 유닛 2개, 드라이브 24개)
 +
-image::../media/e2800_2u_front.gif[e2800 2U 앞면]
+image::../media/e2800_2u_front.gif[E2800 2U]
 
 * 4U60(랙 유닛 4개, 드라이브 60개)
 +
-image::../media/e2860_front.gif[e2860 앞면]
+image::../media/e2860_front.gif["E2800 4U"]
 
 
 
-
-
- a| 
-드라이브:
- a| 
+--
+드라이브::
++
+--
 에서는 다음 드라이브 유형을 지원합니다.
 
 * 3.5" NL-SAS(최대 180)
@@ -63,11 +58,10 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 2.5" SAS HDD(최대 180)
 
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 12Gb SAS
@@ -75,33 +69,29 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 16Gb 또는 32Gb 파이버 채널
 
 
-|===
+--
 
 
-== EF280 모델
+--
+.EF280 모델
+--
+랙 크기::
++
+--
+2U24(랙 유닛 2개, 드라이브 24개)
 
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
+image:../media/ef570_front.gif["EF280 2U"]
 
-
- a| 
-랙 크기:
- a| 
-2U24(랙 유닛 2개, 드라이브 24개)image:../media/ef570_front.gif[""]
-
-
-
- a| 
-드라이브:
- a| 
+--
+드라이브::
++
+--
 최대 96개의 SSD 2.5" 드라이브를 지원합니다
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 12Gb SAS
@@ -109,26 +99,23 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 16Gb 또는 32Gb 파이버 채널
 
 
-|===
+--
 
 
-== EF300 모델
+--
+.EF300 모델
+--
+랙 크기::
++
+--
+2U24(랙 유닛 2개, 드라이브 24개)
 
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
+image:../media/ef570_front.gif["EF300 2U"]
 
-
- a| 
-랙 크기:
- a| 
-2U24(랙 유닛 2개, 드라이브 24개)image:../media/ef570_front.gif[""]
-
-
-
- a| 
-드라이브 및 HIC:
- a| 
+--
+드라이브 및 HIC::
++
+--
 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 통해 다음 드라이브 지원
 
 * NVMe SSD 드라이브: 컨트롤러 쉘프에 최대 24개의 NVMe SSD 드라이브 장착 가능
@@ -139,11 +126,10 @@ image::../media/e2860_front.gif[e2860 앞면]
 
 NOTE: SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 25GB iSCSI
@@ -155,34 +141,29 @@ NOTE: SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라
 * 100Gb NVMe/RoCE
 
 
-|===
+--
 
 
-== E5700 모델
-
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
-
-
- a| 
-랙 크기:
- a| 
+--
+.E5700 모델
+--
+랙 크기::
++
+--
 * 2U24(랙 유닛 2개, 드라이브 24개)
 +
-image::../media/e2800_2u_front.gif[e2800 2U 앞면]
+image::../media/e2800_2u_front.gif[E5700 2U]
 
 * 4U60(랙 유닛 4개, 드라이브 60개)
 +
-image::../media/e2860_front.gif[e2860 앞면]
+image::../media/e2860_front.gif[E5700 4U]
 
 
 
-
-
- a| 
-드라이브:
- a| 
+--
+드라이브::
++
+--
 최대 480개의 다음 드라이브 유형을 지원합니다.
 
 * 3.5" NL-SAS 드라이브
@@ -190,11 +171,10 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 2.5인치 SAS HDD 드라이브
 
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 12Gb SAS
@@ -207,33 +187,29 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 100Gb NVMe/RoCE
 
 
-|===
+--
 
 
-== EF570 모델
+--
+.EF570 모델
+--
+랙 크기::
++
+--
+2U24(랙 유닛 2개, 드라이브 24개)
 
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
+image:../media/ef570_front.gif["EF570 2U"]
 
-
- a| 
-랙 크기:
- a| 
-2U24(랙 유닛 2개, 드라이브 24개)image:../media/ef570_front.gif[""]
-
-
-
- a| 
-드라이브:
- a| 
+--
+드라이브::
++
+--
 최대 120개의 SSD 2.5" 드라이브를 지원합니다
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 12Gb SAS
@@ -246,26 +222,23 @@ image::../media/e2860_front.gif[e2860 앞면]
 * 100Gb NVMe/RoCE
 
 
-|===
+--
 
 
-== EF600 모델
+--
+.EF600 모델
+--
+랙 크기::
++
+--
+2U24(랙 유닛 2개, 드라이브 24개)
 
-[cols="35h,~"]
-|===
-| 구성 요소 | 사양 
+image:../media/ef570_front.gif["EF600 2U"]
 
-
- a| 
-랙 크기:
- a| 
-2U24(랙 유닛 2개, 드라이브 24개)image:../media/ef570_front.gif[""]
-
-
-
- a| 
-드라이브 및 HIC:
- a| 
+--
+드라이브 및 HIC::
++
+--
 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 통해 다음 드라이브 지원
 
 * NVMe SSD 드라이브: 컨트롤러 쉘프에 최대 24개의 NVMe SSD 드라이브 장착 가능
@@ -276,11 +249,10 @@ image::../media/e2860_front.gif[e2860 앞면]
 
 NOTE: SANtricity OS 11.80GA 이상의 경우 EF600은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.
 
-
-
- a| 
-인터페이스:
- a| 
+--
+인터페이스::
++
+--
 다음 인터페이스에서 사용 가능:
 
 * 25GB iSCSI
@@ -295,4 +267,49 @@ NOTE: SANtricity OS 11.80GA 이상의 경우 EF600은 기본 트레이에 드라
 * 200GB NVMe/RoCE
 
 
-|===
+--
+
+
+--
+.E4000 모델
+--
+랙 크기::
++
+--
+* 2U12(랙 유닛 2개, 드라이브 12개)
++
+image::../media/e4000_2u_front.png[E4000 2U]
+
+* 4U60(랙 유닛 4개, 드라이브 60개)
++
+image::../media/e4000_4u_front.png[E4000 4U]
+
+
+
+--
+드라이브::
++
+--
+에서는 다음 드라이브 유형을 지원합니다.
+
+* 3.5" NL-SAS(최대 300)
+* 2.5인치 SAS SSD(최대 120개)
+
+
+--
+인터페이스::
++
+--
+다음 인터페이스에서 사용 가능:
+
+* 12Gb SAS
+* 1GB 또는 10GBASE-T iSCSI
+* 1GB, 10Gb 또는 25GB iSCSI
+* 8GB, 16Gb 또는 32Gb FC
+
+
+--
+
+
+--
+====

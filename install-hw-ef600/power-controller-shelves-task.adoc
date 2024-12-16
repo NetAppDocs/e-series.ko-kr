@@ -27,7 +27,7 @@ summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭�
 
 
  a| 
-image:../media/power_cable_inst-hw-ef600.png[""]
+image:../media/power_cable_inst-hw-ef600.png["전원 케이블"]
  a| 
 * 전원 케이블 *
 
@@ -37,7 +37,7 @@ image:../media/power_cable_inst-hw-ef600.png[""]
 
 
  a| 
-image:../media/cabling_power.png[""]
+image:../media/cabling_power.png["EF600/EF300 전원 케이블 연결"]
 
 |===
 . 각 컨트롤러에서 2개의 전원 케이블을 캐비닛 또는 랙에 있는 2개의 개별 PDU(Power Distribution Unit)에 연결합니다.

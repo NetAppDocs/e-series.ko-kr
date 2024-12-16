@@ -11,7 +11,7 @@ summary: 미디어 검사는 볼륨의 모든 데이터 및 중복 정보를 검
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

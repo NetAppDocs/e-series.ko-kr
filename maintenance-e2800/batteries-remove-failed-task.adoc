@@ -20,7 +20,7 @@ summary: 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거한 후 �
 이 녹색 LED가 켜져 있으면 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 구성 요소를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2800 내부 캐시가 활성 상태로 유지 관리 e2800에 있습니다]
+image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[내부 캐시 활성 LED]
 
 +
 * (1) * _ 내부 캐시 활성 _
@@ -31,7 +31,7 @@ image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2
 . 배터리의 파란색 분리 래치를 찾습니다.
 . 분리 래치를 아래로 누르고 컨트롤러 캐니스터에서 멀리 밀어 배터리를 분리합니다.
 +
-image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[28 DWG e2800 배터리 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[컨트롤러에서 배터리를 분리합니다]
 
 +
 * (1) * _ 배터리 분리 래치 _

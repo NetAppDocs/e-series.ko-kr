@@ -1,7 +1,7 @@
 ---
 permalink: install-hw-cabling/driveshelf-cable-task.html 
 sidebar: sidebar 
-keywords: cabling, cables, drive shelf cabling, controller shelf cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
+keywords: cabling, cables, drive shelf cabling, controller shelf cabling, E-Series, eseries, E2800, E5700, EF300, EF600, E4000, DE212C, DE224C, DE460C 
 summary: '컨트롤러 쉘프의 각 컨트롤러를 드라이브 쉘프의 I/O 모듈(IOM)에 연결합니다.' 
 ---
 = 드라이브 쉘프 케이블링
@@ -29,34 +29,27 @@ NOTE: 이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적�
 
 다음 정보는 E2800, E2800B, EF280, E5700, EF5700B 케이블 연결에 적용됩니다. 또는 EF570 컨트롤러 쉘프: DE212C, DE224C 또는 DE460 드라이브 쉘프
 
-
-
-=== 12-드라이브 또는 24-드라이브 쉘프의 케이블 연결
-
+[role="tabbed-block"]
+====
+.12-드라이브 또는 24-드라이브 쉘프
+--
 컨트롤러 쉘프를 하나 이상의 12 드라이브 또는 24 드라이브 쉘프에 연결할 수 있습니다.
 
 다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
 
+image::../media/12_24_cabling.png[컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프]
 
-
-==== 컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프
-
-image::../media/12_24_cabling.png[12 24 케이블 연결]
-
-
-
-=== 60-드라이브 쉘프의 케이블 연결
-
+--
+.60-드라이브 쉘프
+--
 컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.
 
 다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
 
+image::../media/60_cabling.png[컨트롤러 쉘프 및 60-드라이브 쉘프]
 
-
-==== 컨트롤러 쉘프 및 60-드라이브 쉘프
-
-image::../media/60_cabling.png[60 케이블 연결]
-
+--
+====
 
 
 == EF300 및 EF600 케이블 연결
@@ -66,30 +59,47 @@ image::../media/60_cabling.png[60 케이블 연결]
 .시작하기 전에
 EF300 또는 EF600을 케이블로 연결하기 전에 펌웨어를 최신 버전으로 업데이트해야 합니다. 펌웨어를 업데이트하려면 의 지침을 따르십시오 link:../upgrade-santricity/index.html["SANtricity OS 업그레이드 중"^].
 
-
-
-=== 12-드라이브 또는 24-드라이브 쉘프의 케이블 연결
-
+[role="tabbed-block"]
+====
+.12-드라이브 또는 24-드라이브 쉘프
+--
 컨트롤러 쉘프를 하나 이상의 12 드라이브 또는 24 드라이브 쉘프에 연결할 수 있습니다.
 
 다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
 
+image::../media/ef_to_de224c_four_shelves.png[컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프]
 
-
-==== 컨트롤러 쉘프, 12 드라이브 또는 24 드라이브 쉘프
-
-image::../media/ef_to_de224c_four_shelves.png[EF에서 de224c 4개 쉘프]
-
-
-
-=== 60-드라이브 쉘프의 케이블 연결
-
+--
+.60-드라이브 쉘프
+--
 컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.
 
 다음 이미지는 컨트롤러 쉘프와 드라이브 쉘프를 나타냅니다. 모델에서 포트를 찾으려면 를 참조하십시오 https://hwu.netapp.com/Controller/Index?platformTypeId=2357027["Hardware Universe"^].
 
+image::../media/ef_to_de460c.png[컨트롤러 쉘프 및 60-드라이브 쉘프]
+
+--
+====
 
 
-==== 컨트롤러 쉘프 및 60-드라이브 쉘프
+== E4000 케이블 연결
 
-image::../media/ef_to_de460c.png[EF에서 de460c로]
+다음 정보는 E4000 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460 드라이브 쉘프에 연결하는 데 적용됩니다.
+
+[role="tabbed-block"]
+====
+.12-드라이브 쉘프
+--
+컨트롤러 쉘프를 하나 이상의 12-드라이브 쉘프에 연결할 수 있습니다.
+
+image::../media/e4012_cabling.png[컨트롤러 쉘프 및 12-드라이브 쉘프]
+
+--
+.60-드라이브 쉘프
+--
+컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.
+
+image::../media/e4060_cabling.png[컨트롤러 쉘프 및 60-드라이브 쉘프]
+
+--
+====

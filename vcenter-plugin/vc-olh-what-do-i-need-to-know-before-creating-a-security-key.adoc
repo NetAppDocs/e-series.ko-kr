@@ -11,7 +11,7 @@ summary: 보안 키는 스토리지 시스템 내의 컨트롤러 및 보안 지
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: 풀의 이름, 용량 알림 설정, 수정 우선 순위 및 보존 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

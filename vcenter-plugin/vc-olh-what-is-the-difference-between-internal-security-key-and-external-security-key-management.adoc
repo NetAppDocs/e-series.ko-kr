@@ -10,7 +10,7 @@ summary: 드라이브 보안 기능을 구현할 때 스토리지 배열에서 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: 볼륨 크기를 조정하여 보고된 용량을 늘립니다.
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

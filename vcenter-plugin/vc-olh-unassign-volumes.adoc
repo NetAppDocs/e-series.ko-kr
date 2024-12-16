@@ -11,7 +11,7 @@ summary: 볼륨에 대한 I/O 액세스가 더 이상 필요하지 않은 경우
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

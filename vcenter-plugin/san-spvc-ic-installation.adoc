@@ -11,7 +11,7 @@ summary: vCenter용 SANtricity 스토리지 플러그인을 설치하거나 업�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

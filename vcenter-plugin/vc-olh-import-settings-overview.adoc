@@ -10,7 +10,7 @@ summary: '설정 가져오기 기능은 단일 스토리지 배열(소스)의 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

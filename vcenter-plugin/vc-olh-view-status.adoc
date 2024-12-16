@@ -10,7 +10,7 @@ summary: Storage Plugin for vCenter 또는 vSphere Client에서 시스템 상태
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

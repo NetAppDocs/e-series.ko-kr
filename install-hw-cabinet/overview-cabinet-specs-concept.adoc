@@ -23,7 +23,7 @@ summary: 캐비닛 설치에 대한 개요 및 사양을 검토합니다.
 
 다음 그림은 캐비닛의 전면(왼쪽)과 후면(오른쪽)을 보여줍니다.
 
-image::../media/83000_07_dwg_3040_cabinet_with_callouts.gif[속성 표시기가 있는 83000 07 DWG 3040 캐비닛]
+image::../media/83000_07_dwg_3040_cabinet_with_callouts.gif[3040 캐비닛 개요]
 
 |===
 

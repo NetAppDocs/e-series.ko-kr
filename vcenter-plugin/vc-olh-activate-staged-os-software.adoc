@@ -11,7 +11,7 @@ summary: 소프트웨어 파일을 보다 편리하게 활성화할 수 있습�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -89,7 +89,7 @@ serviceAllowedIndicator=forceOnWarning;"
 ** 명령이 성공하면 호스트 입출력 작업을 중지할 필요가 없습니다. 드로어의 모든 드라이브는 드로어 손실 방지 기능이 있는 풀 또는 볼륨 그룹에 있습니다. 로 이동합니다 <<2단계: 케이블 체인을 제거합니다>>.
 +
 
-CAUTION: * 드라이브 손상 가능성 * -- 명령이 완료된 후 30초 후에 드라이브 드로어를 여십시오. 30초 동안 기다리면 드라이브가 스핀다운되어 하드웨어 손상을 방지할 수 있습니다.
+CAUTION: * 드라이브 손상 가능성 * -- 명령이 완료된 후 60초 후에 드라이브 드로어를 여십시오. 60초 동안 기다리면 드라이브가 스핀다운되어 하드웨어 손상을 방지할 수 있습니다.
 
 ** 이 명령을 완료할 수 없다는 경고가 표시되면 드로어를 제거하기 전에 호스트 I/O 활동을 중지해야 합니다. 영향을 받는 드로어에 있는 하나 이상의 드라이브가 드로어 손실 방지 기능이 없는 풀 또는 볼륨 그룹에 있기 때문에 경고가 표시됩니다. 데이터 손실을 방지하려면 호스트 I/O 활동을 중지하고 드라이브 쉘프 및 컨트롤러 쉘프의 전원을 끄려면 다음 단계를 완료해야 합니다.
 
@@ -115,7 +115,7 @@ CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이
 드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[e5700 IB hic w cache led Callouts maint e5700]
+image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[E5700 컨트롤러의 캐시 활성 LED]
 
 +
 * (1) * _ 캐시 활성 LED _
@@ -174,7 +174,7 @@ CAUTION: * 하드웨어 손상 가능성 * -- 드라이브 트레이의 전원�
 그림은 왼쪽에 있는 주황색 탭에서 확장 및 해제된 팬 캐니스터의 핸들을 보여줍니다.
 
 +
-image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout_maint-e5700.gif[28 DWG e2860 de460c 팬 캐니스터 핸들과 콜아웃 유지보수 e5700이 있습니다]
+image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout_maint-e5700.gif[주황색 황갈색 - 팬 캐니스터 핸들 해제]
 
 +
 * (1) * _ 팬 캐니스터 핸들 _
@@ -195,7 +195,7 @@ CAUTION: * 과열으로 인한 장비 손상 * -- 트레이가 켜져 있는 경
 상단 케이블 체인은 드라이브 서랍 1에 부착되어 있습니다. 하단 케이블 체인은 드라이브 서랍 5에 부착되어 있습니다. 드라이브 드로어 1에 대한 설명선이 제공됩니다.
 
 +
-image::../media/trafford_cable_rail_1_maint-e5700.gif[Trafford 케이블 레일 1 maint e5700]
+image::../media/trafford_cable_rail_1_maint-e5700.gif[드라이브 드로어용 케이블 체인 및 커넥터]
 
 +
 * (1) * _ 케이블 체인 _
@@ -213,7 +213,7 @@ image::../media/trafford_cable_rail_1_maint-e5700.gif[Trafford 케이블 레일 
 +
 .. 손전등을 사용하여 인클로저의 수직 가이드 레일에 연결된 케이블 체인 끝에 있는 주황색 링을 찾습니다.
 +
-image::../media/trafford_cable_rail_3_maint-e5700.gif[Trafford 케이블 레일 3 maint e5700]
+image::../media/trafford_cable_rail_3_maint-e5700.gif[수직 레일의 주황색 고리와 드라이브 드로어의 케이블 체인의 주황색 고리입니다]
 
 +
 * (1) * _세로 가이드 레일의 주황색 링 _
@@ -232,7 +232,7 @@ image::../media/trafford_cable_rail_3_maint-e5700.gif[Trafford 케이블 레일 
 그림은 오른쪽의 수평 커넥터와 케이블 체인이 분리되고 부분적으로 왼쪽에서 당겨진 상태를 보여줍니다.
 
 +
-image::../media/trafford_cable_rail_2_maint-e5700.gif[Trafford 케이블 레일 2 maint e5700]
+image::../media/trafford_cable_rail_2_maint-e5700.gif[수평 레일의 주황색 고리와 드라이브 드로어의 케이블 체인의 주황색 고리입니다]
 
 +
 * (1) * _ 수평 가이드 레일의 주황색 링 _
@@ -309,7 +309,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 자기장을 사용하면 �
 . 확장 레버를 사용하여 드라이브 서랍이 멈출 때까지 조심스럽게 빼냅니다. 드라이브 쉘프에서 드라이브 드로어를 완전히 제거하지 마십시오.
 . 볼륨이 이미 생성되어 할당된 경우 영구 마커를 사용하여 각 드라이브의 정확한 위치를 확인합니다. 예를 들어, 다음 도면을 참조로 사용하여 각 드라이브 상단에 적절한 슬롯 번호를 기록합니다.
 +
-image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[HDD 속성 표시기가 있는 DWG Trafford 서랍 maint e5700]
+image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[드라이브 슬롯 번호입니다]
 
 +
 
@@ -321,7 +321,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 각 드라이브를 제거�
 .. 드라이브 핸들을 수직으로 올립니다.
 .. 핸들을 사용하여 드라이브 드로어에서 드라이브를 들어 올립니다.
 +
-image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[92 DWG de6600 드라이브 유지보수 e5700을 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[캠 핸들을 사용하여 드라이브를 제거합니다]
 
 .. 드라이브를 평평하고 정전기가 없는 표면 위에 놓고 자기 장치와 떨어진 곳에 놓습니다.
 
@@ -330,7 +330,7 @@ image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[92 DWG de6
 +
 .. 드라이브 드로어의 양쪽에 있는 플라스틱 분리 레버를 찾습니다.
 +
-image::../media/92_pht_de6600_drive_drawer_release_lever_maint-e5700.gif[92 PHT de6600 드라이브 드로어 분리 레버 유지보수 e5700]
+image::../media/92_pht_de6600_drive_drawer_release_lever_maint-e5700.gif[레버를 분리하여 서랍을 분리합니다]
 
 +
 * (1) * _드라이브 드로어 분리 레버 _
@@ -355,7 +355,7 @@ image::../media/92_pht_de6600_drive_drawer_release_lever_maint-e5700.gif[92 PHT 
 잠금 텀블러 어셈블리는 한 번에 두 개 이상의 드라이브 드로어를 열 수 없도록 하는 안전 기능입니다.
 
 +
-image::../media/92_pht_de6600_lock_out_tumbler_detail_maint-e5700.gif[92 PHT de6600 락아웃 텀블러 디테일 maint e5700]
+image::../media/92_pht_de6600_lock_out_tumbler_detail_maint-e5700.gif[텀블러 및 드로어 가이드 잠금]
 
 +
 * (1) * _락아웃 텀블러 _
@@ -416,7 +416,7 @@ CAUTION: * 장비 오작동 위험 * -- 커넥터를 가이드 레일에 밀어 
 이 그림에서는 엔클로저의 두 번째 드라이브 드로어의 수평 및 수직 가이드 레일을 보여 줍니다.
 
 +
-image::../media/2860_dwg_both_guide_rails_maint-e5700.gif[2860 DWG 양쪽 가이드 레일이 e5700에 해당합니다]
+image::../media/2860_dwg_both_guide_rails_maint-e5700.gif[수평 및 수직 가이드 레일]
 
 +
 * (1) * _ 수평 가이드 레일 _
@@ -481,7 +481,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 각 드라이브를 드라�
 .. 확장 레버를 사용하여 드라이브 서랍이 멈출 때까지 조심스럽게 빼냅니다. 드라이브 쉘프에서 드라이브 드로어를 완전히 제거하지 마십시오.
 .. 드라이브를 제거할 때 작성한 노트를 사용하여 각 슬롯에 설치할 드라이브를 확인합니다.
 +
-image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[HDD 속성 표시기가 있는 DWG Trafford 서랍 maint e5700]
+image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[드라이브 슬롯 번호입니다]
 
 .. 드라이브의 핸들을 수직으로 올립니다.
 .. 드라이브 양쪽에 있는 두 개의 돌출된 단추를 드로어의 노치에 맞춥니다.
@@ -489,14 +489,14 @@ image::../media/dwg_trafford_drawer_with_hdds_callouts_maint-e5700.gif[HDD 속�
 그림은 드라이브의 우측면도 및 올라간 버튼의 위치를 보여줍니다.
 
 +
-image::../media/28_dwg_e2860_de460c_drive_cru_maint-e5700.gif[28 DWG e2860 de460c 드라이브 CRU maint e5700]
+image::../media/28_dwg_e2860_de460c_drive_cru_maint-e5700.gif[드라이브 캐리어의 돌출된 버튼은 드라이브 드로어의 드라이브 채널과 일치해야 합니다]
 
 +
 드라이브 오른쪽의 * (1) * _Raised 버튼
 
 .. 드라이브를 수직으로 내려 베이에 완전히 눌러 넣은 다음 드라이브가 제자리에 끼워질 때까지 드라이브 핸들을 아래로 돌립니다.
 +
-image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[92 DWG de6600 드라이브 유지보수 e5700을 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive_maint-e5700.gif[손잡이를 사용하여 드라이브를 드로어 위로 내립니다]
 
 .. 이 단계를 반복하여 모든 드라이브를 설치합니다.
 

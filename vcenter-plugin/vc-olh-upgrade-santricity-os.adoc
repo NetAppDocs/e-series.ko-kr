@@ -11,7 +11,7 @@ summary: 최신 소프트웨어 및 NVSRAM으로 하나 이상의 스토리지 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

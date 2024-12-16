@@ -19,7 +19,7 @@ summary: 이 워크시트를 사용하여 iSCSI 스토리지 구성 정보를 �
 
 권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
 
-image::../media/50001_01_conf-lin.gif[50001 conf lin]
+image::../media/50001_01_conf-lin.gif[iSCSI 네트워크 구성]
 
 
 

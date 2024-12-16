@@ -10,7 +10,7 @@ summary: 이 워크로드의 볼륨은 애플리케이션별 워크로드와 연
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

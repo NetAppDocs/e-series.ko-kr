@@ -10,7 +10,7 @@ summary: 기본 클러스터는 기본 클러스터에 할당된 볼륨에 대�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

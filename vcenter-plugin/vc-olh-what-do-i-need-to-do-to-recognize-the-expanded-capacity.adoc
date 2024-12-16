@@ -10,7 +10,7 @@ summary: 볼륨의 용량을 늘릴 경우 호스트에서 즉시 볼륨 용량 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

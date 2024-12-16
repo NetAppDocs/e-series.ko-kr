@@ -10,7 +10,7 @@ summary: FDE/FIPS 보안이란 읽기 중에 고유 암호화 키를 사용하�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

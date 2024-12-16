@@ -37,7 +37,7 @@ NOTE: 플러그인은 스토리지 어레이에 대한 각 컨트롤러에 내�
 
 vCenter 환경의 통신에 대한 자세한 내용은 다음 그림을 참조하십시오.
 
-image:../media/vcenter_communication2.png[""]
+image:../media/vcenter_communication2.png["vCenter 통신 환경입니다"]
 
 
 

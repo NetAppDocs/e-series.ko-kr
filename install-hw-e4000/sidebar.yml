@@ -1,0 +1,26 @@
+---
+section: install-hw-e4000
+title: E4000를 참조하십시오
+entries:
+- title: 설치 개요
+  url: "/install-hw-e4000/index.html"
+- title: 설치 준비
+  url: "/install-hw-e4000/prepare-installation.html"
+- title: 하드웨어를 설치합니다
+  entries:
+  - title: E4012를 참조하십시오
+    url: "/install-hw-e4000/install-hardware-12.html"
+  - title: E4060를 참조하십시오
+    url: "/install-hw-e4000/install-hardware-60.html"
+- title: 케이블 선반
+  entries:
+  - title: E4012를 참조하십시오
+    url: "/install-hw-e4000/connect-cables-12.html"
+  - title: E4060를 참조하십시오
+    url: "/install-hw-e4000/connect-cables-60.html"
+- title: 스토리지 시스템 설정을 완료합니다
+  entries:
+  - title: E4012를 참조하십시오
+    url: "/install-hw-e4000/complete-setup-12.html"
+  - title: E4060를 참조하십시오
+    url: "/install-hw-e4000/complete-setup-60.html"

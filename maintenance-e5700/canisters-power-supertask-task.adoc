@@ -62,7 +62,7 @@ E5700 어레이의 전원 공급 장치는 다음과 같은 쉘프 유형을 포
 . SANtricity 시스템 관리자에서 실패한 전원 캐니스터를 확인합니다.
 +
 .. 하드웨어 * 를 선택합니다.
-.. 파워를 보십시오 image:../media/sam1130_ss_hardware_power_icon_maint-e5700.gif[""] 아이콘을 * Shelf * 드롭다운 목록의 오른쪽에 클릭하여 장애 전원 캐니스터가 있는 쉘프를 확인합니다.
+.. Shelf* 드롭다운 목록 오른쪽에 있는 전원  아이콘을 확인하여 어떤 선반에 장애가 있는 전원 image:../media/sam1130_ss_hardware_power_icon_maint-e5700.gif["전원 아이콘"]캐니스터가 있는지 확인합니다.
 +
 구성 요소에 장애가 발생한 경우 이 아이콘은 빨간색입니다.
 
@@ -87,7 +87,7 @@ NOTE: 또는 Recovery Guru의 세부 정보 영역에서 장애가 발생한 전
 주의 LED가 켜진 전원 캐니스터를 교체해야 합니다.
 
 +
-image::../media/28_dwg_e2860_de460c_psu_w_callouts_maint-e5700.gif[28 DWG e2860 de460c PSU w Callouts maint e5700]
+image::../media/28_dwg_e2860_de460c_psu_w_callouts_maint-e5700.gif[전원 캐니스터 LED]
 
 +
 * (1) * _전원 LED _. 녹색 * 이 켜져 있으면 전원 캐니스터가 올바르게 작동합니다. 꺼짐*, 전원 캐니스터 고장, AC 스위치 꺼짐, AC 전원 코드가 제대로 설치되지 않았거나 AC 전원 코드 입력 전압이 여백 내에 있지 않은 경우(AC 전원 코드의 소스 끝에 문제가 있음)

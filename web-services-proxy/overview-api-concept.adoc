@@ -19,7 +19,7 @@ summary: 웹 서비스 API에 대해 자세히 알아보십시오
 
 사용되는 프로그래밍 언어나 도구에 관계없이 웹 서비스 API에 대한 각 호출은 URL, HTTP 동사 및 Accept 헤더와 유사한 구조를 가집니다.
 
-image::../media/web_services_proxy_api.gif[웹 서비스 프록시 API입니다]
+image::../media/web_services_proxy_api.gif[웹 서비스 API 호출 다이어그램]
 
 모든 요청은 다음 예제와 같이 URL을 포함하며 표에 설명된 요소를 포함합니다.
 

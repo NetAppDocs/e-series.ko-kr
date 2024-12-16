@@ -11,7 +11,7 @@ summary: 더 이상 필요하지 않은 스토리지 그룹을 하나 이상 제
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -10,7 +10,7 @@ summary: SSD 드라이브는 용량의 일부가 할당되지 않은 경우 수�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

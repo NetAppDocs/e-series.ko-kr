@@ -11,7 +11,7 @@ summary: 현재 이름이 더 이상 의미가 없거나 적용할 수 없는 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: vCenter용 Storage Plugin에 대한 액세스 권한을 구성합니다
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -10,7 +10,7 @@ summary: 볼륨 생성 프로세스의 속도를 높이려면 새로 생성된 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

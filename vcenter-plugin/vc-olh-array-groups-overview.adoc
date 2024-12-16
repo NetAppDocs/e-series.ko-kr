@@ -10,7 +10,7 @@ summary: 스토리지 시스템 세트를 그룹화하여 물리적 인프라와
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

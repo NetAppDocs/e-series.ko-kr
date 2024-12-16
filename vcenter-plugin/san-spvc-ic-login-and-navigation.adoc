@@ -10,7 +10,7 @@ summary: 로그인하여 vCenter용 플러그인을 탐색합니다.
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

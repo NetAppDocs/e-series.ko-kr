@@ -11,7 +11,7 @@ summary: 이름, 호스트 할당, 세그먼트 크기, 수정 우선순위, 캐
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

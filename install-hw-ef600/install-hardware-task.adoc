@@ -43,7 +43,7 @@ NOTE: 장비가 넘어지지 않도록 하려면 랙 또는 캐비닛 하단에�
 
 
  a| 
-image:../media/install_rails_inst-hw-ef600.png[""]
+image:../media/install_rails_inst-hw-ef600.png["레일을 설치합니다"]
 
 |===
 . 쉘프를 설치합니다.
@@ -63,7 +63,7 @@ CAUTION: 선반을 설치할 때는 팀 리프트를 두 사람과 함께 사용
 
 
  a| 
-image:../media/install_ef600.png[""]
+image:../media/install_ef600.png["선반을 캐비닛에 두 사람이 함께 설치합니다"]
 
 |===
 . 쉘프를 고정하십시오.
@@ -77,7 +77,7 @@ image:../media/install_ef600.png[""]
 
 
  a| 
-image:../media/secure_shelf_inst-hw-ef600.png[""]
+image:../media/secure_shelf_inst-hw-ef600.png["쉘프를 고정하십시오"]
 
 |===
 . 전면판을 설치합니다.
@@ -92,7 +92,7 @@ image:../media/secure_shelf_inst-hw-ef600.png[""]
 
 
  a| 
-image:../media/install_faceplate_2_0_inst-hw-ef600.png[""]
+image:../media/install_faceplate_2_0_inst-hw-ef600.png["전면판을 설치합니다"]
 
 |===
 

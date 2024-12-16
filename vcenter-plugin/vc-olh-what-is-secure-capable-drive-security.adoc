@@ -10,7 +10,7 @@ summary: 드라이브 보안은 스토리지 어레이에서 제거할 때 보�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

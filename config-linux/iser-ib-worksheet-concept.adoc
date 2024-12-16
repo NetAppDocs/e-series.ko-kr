@@ -67,7 +67,7 @@ NOTE: 소프트웨어 이니시에이터 IQN은 작업 중에 결정됩니다. x
 
 권장 구성은 호스트(이니시에이터) 포트 2개와 타겟 포트 4개로 구성됩니다.
 
-image::../media/port_identifiers_ib_iser.gif[포트 식별자 IB iser]
+image::../media/port_identifiers_ib_iser.gif[IB 네트워크 구성을 통한 iSER]
 
 
 

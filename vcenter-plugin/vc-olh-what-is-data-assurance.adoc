@@ -10,7 +10,7 @@ summary: 'DA(Data Assurance)는 T10 PI(보호 정보) 표준을 구현하여 I/O
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

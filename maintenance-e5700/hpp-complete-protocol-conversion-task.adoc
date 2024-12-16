@@ -50,7 +50,7 @@ NOTE: 호스트 또는 호스트 클러스터를 추가하는 방법에 대한 �
 
 .. 호스트 포트 * 탭을 클릭합니다.
 +
-image::../media/sam1130_ss_host_settings_dialog_ports_tab_maint-e5700.gif[sam1130 ss host settings dialog ports 탭 maint e5700]
+image::../media/sam1130_ss_host_settings_dialog_ports_tab_maint-e5700.gif[호스트 설정 대화 상자]
 
 .. 추가 * 를 클릭하고 * 호스트 포트 추가 * 대화 상자를 사용하여 새 호스트 포트 식별자를 호스트에 연결합니다.
 +
@@ -96,7 +96,7 @@ Delete * 옵션은 호스트 포트를 물리적으로 제거하지 않습니다
 
 .. 호스트 포트 * 탭을 클릭합니다.
 +
-image::../media/sam1130_ss_host_settings_dialog_ports_tab_maint-e5700.gif[sam1130 ss host settings dialog ports 탭 maint e5700]
+image::../media/sam1130_ss_host_settings_dialog_ports_tab_maint-e5700.gif[호스트 설정 대화 상자]
 
 .. 추가 * 를 클릭하고 * 호스트 포트 추가 * 대화 상자를 사용하여 새 호스트 포트 식별자를 호스트에 연결합니다.
 +

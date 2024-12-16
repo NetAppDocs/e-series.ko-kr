@@ -10,7 +10,7 @@ summary: 관리 페이지에 표시되는 스토리지 배열의 이름을 변�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

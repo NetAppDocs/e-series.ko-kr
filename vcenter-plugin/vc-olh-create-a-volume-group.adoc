@@ -11,7 +11,7 @@ summary: 호스트에서 액세스할 수 있는 하나 이상의 볼륨에 대�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

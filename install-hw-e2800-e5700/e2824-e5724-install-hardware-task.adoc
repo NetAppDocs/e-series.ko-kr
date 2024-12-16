@@ -27,14 +27,14 @@ E5724, EF570, EF280, E2812, E2824, DE212C 또는 DE224C 스토리지 시스템�
 . 하드웨어 내용물의 포장을 풀고 포함된 하드웨어의 포장 명세서에 대한 인벤토리를 생성합니다.
 . 레일을 설치합니다.
 +
-랙 장착 하드웨어에 지침이 포함된 경우 레일 설치 방법에 대한 자세한 내용은 해당 설명서를 참조하십시오. 추가 랙 장착 지침은 을 참조하십시오 link:../rackmount-hardware.html["랙 마운트 하드웨어"].
+랙 장착 하드웨어에 지침이 포함된 경우 레일 설치 방법에 대한 자세한 내용은 해당 설명서를 참조하십시오. 추가 랙 장착 지침은 을 link:../rackmount-hardware.html["랙 마운트 하드웨어"^]참조하십시오.
 
 +
 
 NOTE: 장비가 넘어지지 않도록 랙 또는 캐비닛 하단에서 상단까지 하드웨어를 설치하십시오.
 
 +
-image:../media/install_rails_inst-hw-e2800-e5700.png[""]
+image:../media/install_rails_inst-hw-e2800-e5700.png["레일을 설치합니다"]
 
 . 쉘프를 설치합니다.
 +
@@ -43,7 +43,7 @@ CAUTION: 드라이브가 완전히 장착된 경우, 각 쉘프의 무게는 29k
 
 +
 .. 캐비닛 하단에서 원하는 선반부터 시작하여 선반 후면(커넥터가 있는 끝)을 레일에 놓습니다.
-.. 하단에서 쉘프를 지지한 다음 캐비닛에 밀어 넣습니다.image:../media/4_person_lift_source.png[""]
+.. 선반을 바닥에서 지지하고 캐비닛에 밀어 넣습니다. image:../media/4_person_lift_source.png["선반을 캐비닛에 들어올리려면 4명이 필요합니다"]
 
 
 . 쉘프를 고정하십시오.
@@ -56,7 +56,7 @@ CAUTION: 드라이브가 완전히 장착된 경우, 각 쉘프의 무게는 29k
 
 
 +
-image:../media/trafford_secure.png[""]
+image:../media/trafford_secure.png["선반 후면에 브래킷을 고정합니다"]
 
 . 베젤 또는 엔드 캡을 설치합니다.
 +
@@ -69,4 +69,4 @@ image:../media/trafford_secure.png[""]
 
 
 
-image:../media/install_faceplate_2_0_inst-hw-e2800-e5700.png[""]
+image:../media/install_faceplate_2_0_inst-hw-e2800-e5700.png["전면판을 설치합니다"]

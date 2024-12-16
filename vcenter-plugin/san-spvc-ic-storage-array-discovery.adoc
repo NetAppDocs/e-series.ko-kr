@@ -10,7 +10,7 @@ summary: Plugin for vCenter 인터페이스를 사용하여 네트워크에 있�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

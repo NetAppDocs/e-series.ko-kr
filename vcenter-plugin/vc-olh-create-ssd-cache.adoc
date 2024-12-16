@@ -11,7 +11,7 @@ summary: '시스템 성능을 동적으로 가속하기 위해 SSD Cache 기능�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

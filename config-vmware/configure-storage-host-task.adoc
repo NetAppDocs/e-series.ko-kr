@@ -17,5 +17,5 @@ ESXi의 6._x_ 및 7_x_ 버전은 모두 VMFS 버전 5 및 6을 지원합니다.
 
 .단계
 . ESXi 호스트에 매핑된 볼륨이 제대로 검색되었는지 확인합니다.
-. VMFS 데이터 저장소를 생성하거나 vSphere Client 또는 vSphere Web Client에서 볼륨을 RDM으로 사용하는 방법에 대한 자세한 내용은 를 참조하십시오 https://www.vmware.com/support/pubs/["VMware 설명서 웹 사이트"^].
+. vSphere Client 또는 vSphere Web Client에서 VMFS 데이터 저장소를 생성하거나 볼륨을 RDM으로 사용하는 방법에 대한 지침은 을 참조하십시오 https://docs.vmware.com/index.html["VMware 설명서 웹 사이트"^].
 

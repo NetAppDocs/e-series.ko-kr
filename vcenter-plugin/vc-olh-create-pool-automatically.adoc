@@ -11,7 +11,7 @@ summary: 시스템에서 할당되지 않은 드라이브 11개 이상을 감지
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

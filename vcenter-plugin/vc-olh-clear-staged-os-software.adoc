@@ -11,7 +11,7 @@ summary: 대기 중인 버전이 나중에 실수로 활성화되지 않도록 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

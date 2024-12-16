@@ -1,7 +1,7 @@
 ---
 permalink: upgrade-controllers/remove-controllers-task.html 
 sidebar: sidebar 
-keywords: E-Series, eseries, E2800, E5700, EF300, EF600, upgrade controller, upgrading controller, remove controller, removing controller, remove battery, removing battery 
+keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, upgrade controller, upgrading controller, remove controller, removing controller, remove battery, removing battery 
 summary: 컨트롤러 업그레이드의 첫 번째 단계는 기존 컨트롤러를 제거하고 선택적으로 배터리를 제거하는 것입니다. 
 ---
 = 컨트롤러를 제거합니다
@@ -51,7 +51,7 @@ CAUTION: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 �
 다음 그림은 컨트롤러 모델의 분리 핸들에 대한 일반 위치의 예입니다. 컨트롤러 쉘프와 컨트롤러 드라이브 트레이는 릴리스 핸들에 대한 유사한 구성을 가지고 있습니다.
 
 +
-image:../media/28_dwg_e2824_remove_controller_canister_upg-hw.gif[""]
+image:../media/28_dwg_e2824_remove_controller_canister_upg-hw.gif["컨트롤러 캐니스터를 제거합니다"]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -75,12 +75,7 @@ image:../media/28_dwg_e2824_remove_controller_canister_upg-hw.gif[""]
 
 .단계
 . 이전 컨트롤러 캐니스터의 상단 덮개 래치 단추 두 개를 아래로 누르고 상단 덮개를 캐니스터 뒤쪽으로 밉니다.
-. 컨트롤러 드라이브 트레이 모델에 따라 다음 옵션 중 하나를 수행하여 기존 배터리를 분리합니다.
-+
-** E2600 또는 E2700 컨트롤러 드라이브 트레이의 경우, 배터리를 컨트롤러 캐니스터에 고정하는 나비 나사를 풉니다.
-** E5400, EF540, E5500, EF550, E5600, 또는 EF600 컨트롤러 드라이브 트레이를 열고 배터리를 컨트롤러 캐니스터에 고정하는 탭을 놓습니다.
-
-
+. 컨트롤러 드라이브 트레이 모델에서 배터리를 컨트롤러 캐니스터에 고정하는 탭을 해제하여 기존 배터리를 분리합니다.
 . 기존 컨트롤러 캐니스터 뒤쪽으로 밀어 배터리를 제거합니다.
 
 

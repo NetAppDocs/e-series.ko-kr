@@ -151,14 +151,14 @@ CAUTION: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 �
 NOTE: 그림은 컨트롤러 캐니스터의 예를 보여줍니다. 컨트롤러의 호스트 포트 수와 유형은 다를 수 있습니다.
 
 +
-image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[28 DWG 2800 컨트롤러 Attn led maint e2800]
+image::../media/28_dwg_2800_controller_attn_led_maint-e2800.gif[E2800 캐시 활성 LED]
 
 +
 * (1) * _ 캐시 활성 LED _
 
 . 캠 핸들이 분리될 때까지 캠 핸들의 래치를 누른 다음 캠 핸들을 오른쪽으로 열어 컨트롤러 캐니스터를 중앙판에서 분리합니다.
 +
-image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[28 DWG e2824 컨트롤러 캐니스터 단일 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -191,7 +191,7 @@ CAUTION: 항상 두 손을 사용하여 컨트롤러 캐니스터의 무게를 �
 이 녹색 LED가 켜져 있으면 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 구성 요소를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2800 내부 캐시가 활성 상태로 유지 관리 e2800에 있습니다]
+image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[내부 캐시 활성 LED]
 
 +
 * (1) * _ 내부 캐시 활성 _
@@ -202,7 +202,7 @@ image::../media/28_dwg_e2800_internal_cache_active_led_maint-e2800.gif[28 DWG e2
 . 배터리의 파란색 분리 래치를 찾습니다.
 . 분리 래치를 아래로 누르고 컨트롤러 캐니스터에서 멀리 밀어 배터리를 분리합니다.
 +
-image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[28 DWG e2800 배터리 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[컨트롤러 캐니스터에서 배터리를 제거합니다]
 
 +
 * (1) * _ 배터리 분리 래치 _
@@ -225,7 +225,7 @@ image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[28 DWG e2800 배터�
 나사는 상단에 1개, 측면에 1개, 전면에 2개 등 4개가 있습니다.
 
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 hic facePlace 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[컨트롤러 캐니스터에서 전면판을 제거합니다]
 
 . HIC 페이스플레이트를 탈거하십시오.
 . 손가락이나 십자 드라이버를 사용하여 HIC를 컨트롤러 카드에 고정하는 세 개의 나비 나사를 풉니다.
@@ -235,7 +235,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 h
 CAUTION: HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히거나 범프되지 않도록 주의하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic 손잡이 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[컨트롤러 카드에서 HIC를 제거합니다]
 
 +
 * (1) * _호스트 인터페이스 카드 _
@@ -274,7 +274,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic �
 래치가 제자리에 고정되면 래치 하단이 섀시의 금속 슬롯에 후크됩니다.
 
 +
-image::../media/28_dwg_e2800_insert_battery_maint-e2800.gif[28 DWG e2800 배터리 유지보수 e2800을 삽입합니다]
+image::../media/28_dwg_e2800_insert_battery_maint-e2800.gif['컨트롤러 캐니스터에 배터리를 다시 끼우십시오"]
 
 +
 * (1) * _ 배터리 분리 래치 _
@@ -290,11 +290,11 @@ CAUTION: * 하드웨어 손상 가능성 * -- 배터리 전면의 금속 플랜�
 +
 ** * 정답 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 완전히 삽입되어 있습니다.
 +
-image:../media/28_dwg_e2800_battery_flange_ok_maint-e2800.gif[""]
+image:../media/28_dwg_e2800_battery_flange_ok_maint-e2800.gif["올바른 금속 플랜지"]
 
 ** * 잘못됨 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 삽입되지 않음:
 +
-image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e2800.gif[""]
+image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e2800.gif["잘못된 금속 플랜지"]
 
 
 
@@ -318,7 +318,7 @@ HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히�
 CAUTION: * 장비 손상 가능성 * -- HIC와 나비 나사 사이의 컨트롤러 LED에 골드 리본 커넥터가 끼이지 않도록 매우 조심하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic 손잡이 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[컨트롤러에 HIC를 다시 설치합니다]
 
 +
 * (1) * _호스트 인터페이스 카드 _
@@ -332,7 +332,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[28 DWG e2800 hic �
 
 . 1 십자 드라이버를 사용하여 원래 컨트롤러 캐니스터에서 분리한 HIC 페이스플레이트를 4개의 나사로 새 컨트롤러 캐니스터에 부착합니다.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 hic facePlace 나사 maint e2800]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[컨트롤러에 전면판을 다시 설치합니다."]
 
 
 
@@ -347,7 +347,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[28 DWG e2800 h
 . 이동식 덮개가 아래를 향하도록 컨트롤러 캐니스터를 뒤집습니다.
 . 캠 핸들을 열린 위치로 둔 상태에서 컨트롤러 캐니스터를 완전히 컨트롤러 쉘프에 밀어 넣습니다.
 +
-image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[28 DWG e2824 컨트롤러 캐니스터 단일 유지보수 e2800을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 장착합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -426,7 +426,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[
 NOTE: 그림은 컨트롤러 캐니스터의 예를 보여줍니다. 컨트롤러의 호스트 포트 수와 유형은 다를 수 있습니다.
 
 +
-image::../media/28_dwg_attn_led_7s_display_maint-e2800.gif[28 DWG Attn LED 7은 유지보수 e2800을 표시합니다]
+image::../media/28_dwg_attn_led_7s_display_maint-e2800.gif[E2800 컨트롤러 LED]
 
 +
 * (1) * _주의 LED(황색) _

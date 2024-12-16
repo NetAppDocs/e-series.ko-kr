@@ -10,7 +10,7 @@ summary: 볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

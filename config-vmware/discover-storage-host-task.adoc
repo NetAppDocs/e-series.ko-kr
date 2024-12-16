@@ -19,5 +19,5 @@ summary: 호스트에 볼륨을 할당한 후 호스트에서 다중 경로를 �
 . 하나 이상의 볼륨을 생성하여 ESXi 호스트에 할당합니다.
 . vCenter Server를 사용하는 경우 호스트를 서버의 인벤토리에 추가합니다.
 . vSphere Client 또는 vSphere Web Client를 사용하여 vCenter Server 또는 ESXi 호스트에 직접 연결합니다.
-. ESXi 호스트에서 스토리지 재검색을 수행하는 방법에 대한 지침은 를 검색합니다 https://kb.vmware.com/s/["VMware 기술 자료"^] 를 참조하십시오.
+. ESXi 호스트에서 스토리지 재검색을 수행하는 방법에 대한 지침은 https://support.broadcom.com/["VMware 기술 자료"^] 이 항목의 문서를 검색하십시오.
 

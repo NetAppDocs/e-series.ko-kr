@@ -11,7 +11,7 @@ summary: 특정 스토리지 그룹에서 관리 대상 스토리지 어레이�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

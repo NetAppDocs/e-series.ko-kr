@@ -10,7 +10,7 @@ summary: 호스트 운영 체제 유형 필드에는 호스트의 운영 체제�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -10,7 +10,7 @@ summary: 관리 인증서를 공장 자체 서명된 원래 상태로 되돌립�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

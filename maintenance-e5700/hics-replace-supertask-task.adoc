@@ -126,7 +126,7 @@ CAUTION: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 �
 캐시 데이터를 드라이브에 기록해야 하는 경우 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 컨트롤러 캐니스터를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[e5700 IB hic w cache led Callouts maint e5700]
+image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[E5700 컨트롤러의 캐시 활성 LED]
 
 +
 * (1) * _ 캐시 활성 LED _
@@ -136,7 +136,7 @@ image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[e5700 IB hic w
 다음 그림은 E5724 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 ed5700을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -148,7 +148,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e
 다음 그림은 E5560 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[28 DWG e2860 컨트롤러 캐니스터 유지보수 e5700을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -185,7 +185,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- HIC가 다른 E-Series 컨�
 이 녹색 LED가 켜져 있으면 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 구성 요소를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_e2800_internal_cache_active_led_maint-e5700.gif[28 DWG e2800 내부 캐시가 활성 상태로 유지 관리 e5700이 되었습니다]
+image::../media/28_dwg_e2800_internal_cache_active_led_maint-e5700.gif[내부 캐시 활성 LED]
 
 +
 * (1) * _ 내부 캐시 활성 LED _
@@ -204,7 +204,7 @@ HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히�
 CAUTION: * 장비 손상 가능성 * -- HIC와 나비 나사 사이의 컨트롤러 LED에 골드 리본 커넥터가 끼이지 않도록 매우 조심하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic 손잡이 나사 maint e5700]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[컨트롤러 카드에 HIC를 설치합니다]
 
 +
 * (1) * _호스트 인터페이스 카드 _
@@ -218,7 +218,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic �
 
 . 1 Phillips 드라이버를 사용하여 앞서 분리한 나사 4개로 새 HIC 페이스플레이트를 컨트롤러 캐니스터에 부착합니다.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[28 DWG e2800 면 배치 나사 maint e5700을 사용합니다]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[컨트롤러에 전면판을 설치합니다]
 
 
 
@@ -235,7 +235,7 @@ HIC를 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 
 다음 그림은 E5724 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 ed5700을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 장착합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -247,7 +247,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e
 다음 그림은 E5560 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[28 DWG e2860 컨트롤러 캐니스터 유지보수 e5700을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 장착합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -285,7 +285,7 @@ NOTE: 그림은 컨트롤러 캐니스터의 예를 보여줍니다. 컨트롤�
 +
 ** 7세그먼트 디스플레이에는 컨트롤러가 오프라인 상태임을 나타내는 반복 시퀀스 * OS *, * OL *, *_blank_ * 가 표시됩니다.
 ** 황색 주의 LED가 계속 켜져 있습니다.
-** 호스트 인터페이스에 따라 호스트 링크 LED가 켜지거나 깜박이거나 꺼질 수 있습니다.image:../media/e5700_hic_3_callouts_maint-e5700.gif[""]
+** 호스트 링크 LED는 호스트 인터페이스에 따라 켜지거나 깜박이거나 꺼질 수 있습니다. image:../media/e5700_hic_3_callouts_maint-e5700.gif["E5700 컨트롤러 LED\""]
 +
 * (1) * _ 호스트 링크 LED _
 

@@ -6,7 +6,12 @@ summary: E-Series 기술 보고서
 ---
 = 보안 기술 보고서 찾아보기
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
+
+[role="lead"]
+아래 링크를 통해 E-Series 하드웨어 및 SANtricity 소프트웨어 관련 보안 기술 보고서를 확인해 보십시오. 이 링크를 클릭하면 다른 문서 사이트로 이동합니다.
 
 
 

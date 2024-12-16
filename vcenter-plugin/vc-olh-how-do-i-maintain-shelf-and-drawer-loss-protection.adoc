@@ -10,7 +10,7 @@ summary: 풀 또는 볼륨 그룹에 대한 쉘프 및 드로어 손실 방지 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

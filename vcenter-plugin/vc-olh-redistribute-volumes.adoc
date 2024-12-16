@@ -11,7 +11,7 @@ summary: 볼륨을 재배포하여 볼륨을 기본 컨트롤러 소유자에게
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

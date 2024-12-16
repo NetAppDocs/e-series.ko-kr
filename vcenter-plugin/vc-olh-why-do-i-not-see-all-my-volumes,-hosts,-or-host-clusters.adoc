@@ -10,7 +10,7 @@ summary: 'DA 지원 기본 볼륨이 있는 스냅샷 볼륨은 DA(Data Assuranc
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -39,14 +39,14 @@ NOTE: 이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적�
 
 
  a| 
-image:../media/sas_cable.png[""]
+image:../media/sas_cable.png["SAS 케이블"]
  a| 
 SAS 케이블 *
 
 |===
 +
 .예 A: 표준 SAS 구성에서 DE460C 디스크 쉘프 2개가 장착된 E2860 컨트롤러 쉘프
-image:../media/example_a_2860.png[""]
+image:../media/example_a_2860.png["SAS 구성의 E2860 컨트롤러"]
 
 +
 .. 컨트롤러 A를 첫 번째 드라이브 쉘프의 IOM A에 연결합니다.
@@ -57,7 +57,7 @@ image:../media/example_a_2860.png[""]
 
 +
 .예 B: 표준 SAS 구성에서 DE460C 디스크 쉘프 1개가 장착된 E2860 컨트롤러 쉘프
-image:../media/example_b_2860.png[""]
+image:../media/example_b_2860.png["SAS 구성의 E2860 컨트롤러"]
 
 +
 .. 컨트롤러 A를 IOM A에 연결합니다
@@ -73,7 +73,7 @@ image:../media/example_b_2860.png[""]
 
 
  a| 
-image:../media/power_cable_inst-hw-e2800-e5700.png[""]
+image:../media/power_cable_inst-hw-e2800-e5700.png["전원 케이블"]
  a| 
 * 전원 케이블 *
 
@@ -97,7 +97,7 @@ CAUTION: 드라이브 쉘프의 전원 스위치가 꺼져 있는지 확인합�
 
 
  a| 
-* 예: 전원 연결은 선반 후면에 있습니다. *image:../media/trafford_power.png[""]
+* 예: 전원 연결은 선반 뒤쪽에 있습니다. * image:../media/trafford_power.png["쉘프 후면의 전원 연결부"]
 
 |===
 

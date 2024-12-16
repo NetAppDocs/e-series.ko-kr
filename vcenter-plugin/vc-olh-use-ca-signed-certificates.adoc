@@ -11,7 +11,7 @@ summary: Storage Plugin for vCenter를 호스팅하는 관리 시스템에 안�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

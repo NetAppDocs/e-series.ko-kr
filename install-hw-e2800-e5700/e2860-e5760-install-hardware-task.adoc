@@ -37,7 +37,7 @@ NOTE: 사각 구멍 캐비닛의 경우, 먼저 제공된 케이지 너트를 �
 
 
  a| 
-image:../media/install_rails_inst-hw-e2800-e5700.png[""]
+image:../media/install_rails_inst-hw-e2800-e5700.png["레일을 설치합니다"]
 
 |===
 . 쉘프를 설치합니다.
@@ -51,14 +51,14 @@ CAUTION: 빈 선반의 중량은 약 60kg(132lb)입니다. 빈 선반을 안전�
 
 
 +
-image:../media/4_person_lift_source.png[""]
+image:../media/4_person_lift_source.png["선반을 캐비닛에 들어올리려면 4명이 필요합니다"]
 
 . 쉘프를 고정하십시오.
 +
 .. 양쪽의 선반 상단에서 첫 번째 및 세 번째 구멍에 나사를 삽입하여 캐비닛 전면에 고정시킵니다.
 .. 선반 상단 후면 섹션의 양쪽에 후면 브래킷 2개를 놓습니다. 각 브래킷의 첫 번째 및 세 번째 구멍에 나사를 삽입하여 캐비닛 뒷면을 고정합니다.
 +
-image:../media/trafford_secure.png[""]
+image:../media/trafford_secure.png["선반 후면에 브래킷을 고정합니다"]
 
 
 
@@ -92,7 +92,7 @@ image:../media/trafford_secure.png[""]
 
 
  a| 
-image:../media/trafford_overview.png[""]
+image:../media/trafford_overview.png["전면판을 설치합니다"]
 
 
 

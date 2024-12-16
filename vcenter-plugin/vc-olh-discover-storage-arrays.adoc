@@ -10,7 +10,7 @@ summary: vCenter용 저장소 플러그인에서 저장소 리소스를 표시�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

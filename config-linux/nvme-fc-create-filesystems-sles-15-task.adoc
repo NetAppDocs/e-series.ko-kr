@@ -7,7 +7,7 @@ summary: RHEL 8 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스�
 = 파일 시스템 생성(RHEL 8, RHEL 9, SLES 15)
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media
+:imagesdir: ../media/
 
 
 [role="lead"]

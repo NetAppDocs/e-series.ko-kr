@@ -11,7 +11,7 @@ summary: '스토리지 배열에서 자체 서명된 인증서를 가져오거�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

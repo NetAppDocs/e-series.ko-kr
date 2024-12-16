@@ -11,7 +11,7 @@ summary: 두 개 이상의 호스트에서 동일한 볼륨에 대한 I/O 액세
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: 스토리지 그룹은 볼륨을 구성하는 스토리지를 제공하
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

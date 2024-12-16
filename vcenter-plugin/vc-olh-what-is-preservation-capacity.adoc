@@ -10,7 +10,7 @@ summary: 'Preservation capacity는 잠재적 드라이브 장애를 지원하기
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

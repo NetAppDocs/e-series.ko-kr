@@ -19,7 +19,7 @@ summary: 이 워크시트를 사용하여 NVMe over Fibre Channel 스토리지 �
 
 직접 연결 토폴로지에서는 하나 이상의 호스트가 컨트롤러에 직접 연결됩니다.
 
-image::../media/nvme_fc_direct_topology.png[NVMe FC 직접 토폴로지]
+image::../media/nvme_fc_direct_topology.png[직접 연결 토폴로지의 예]
 
 * 호스트 1 HBA 포트 1 및 컨트롤러 A 호스트 포트 1
 * 호스트 1 HBA 포트 2 및 컨트롤러 B 호스트 포트 1
@@ -37,7 +37,7 @@ image::../media/nvme_fc_direct_topology.png[NVMe FC 직접 토폴로지]
 
 Fabric 토폴로지에서는 하나 이상의 스위치가 사용됩니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 지원되는 스위치 목록을 참조하십시오.
 
-image::../media/nvme_fc_fabric_topology.png[NVMe FC 패브릭 토폴로지]
+image::../media/nvme_fc_fabric_topology.png[스위치 연결 토폴로지 예]
 
 
 

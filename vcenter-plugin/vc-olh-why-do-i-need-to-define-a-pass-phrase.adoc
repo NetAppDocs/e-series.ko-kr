@@ -10,7 +10,7 @@ summary: 암호 구문은 로컬 관리 클라이언트에 저장된 보안 키 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

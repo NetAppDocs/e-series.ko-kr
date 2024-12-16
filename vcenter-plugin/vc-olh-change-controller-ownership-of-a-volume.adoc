@@ -11,7 +11,7 @@ summary: 호스트 애플리케이션의 입출력이 새 경로를 통해 전�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -28,14 +28,14 @@ SAS 확장을 위해 EF300을 케이블로 연결하는 경우 다음 정보를 
 
 
  a| 
-image:../media/ef600_w_faceplate.png[""]
+image:../media/ef600_w_faceplate.png["드라이브 및 베젤이 설치된 쉘프"]
  a| 
 드라이브가 설치된 쉘프(베젤 및 엔드 캡 별도 패키지)
 
 
 
  a| 
-image:../media/superrails_inst-hw-ef600.png[""]
+image:../media/superrails_inst-hw-ef600.png["랙 마운트 하드웨어"]
  a| 
 랙 마운트 하드웨어
 
@@ -49,7 +49,7 @@ image:../media/superrails_inst-hw-ef600.png[""]
 
 
  a| 
-image:../media/cable_ethernet_inst-hw-ef600.png[""]
+image:../media/cable_ethernet_inst-hw-ef600.png["RJ-45 이더넷 케이블"]
  a| 
 RJ-45 이더넷 케이블(주문한 경우)
  a| 
@@ -58,7 +58,7 @@ RJ-45 이더넷 케이블(주문한 경우)
 
 
  a| 
-image:../media/cable_io_inst-hw-ef600.png[""]
+image:../media/cable_io_inst-hw-ef600.png["I/O 케이블"]
  a| 
 I/O 케이블(주문한 경우)
  a| 
@@ -67,7 +67,7 @@ I/O 케이블(주문한 경우)
 
 
  a| 
-image:../media/cable_power_inst-hw-ef600.png[""]
+image:../media/cable_power_inst-hw-ef600.png["전원 케이블"]
  a| 
 전원 케이블(주문한 경우)
  a| 
@@ -80,28 +80,28 @@ image:../media/cable_power_inst-hw-ef600.png[""]
 
 
  a| 
-image:../media/screwdriver_inst-hw-ef600.png[""]
+image:../media/screwdriver_inst-hw-ef600.png["Phillips #2 드라이버"]
  a| 
 Phillips #2 드라이버
 
 
 
  a| 
-image:../media/flashlight_inst-hw-ef600.png[""]
+image:../media/flashlight_inst-hw-ef600.png["플래시"]
  a| 
 플래시
 
 
 
  a| 
-image:../media/wrist_strap_inst-hw-ef600.png[""]
+image:../media/wrist_strap_inst-hw-ef600.png["ESD 스트랩"]
  a| 
 ESD 스트랩
 
 
 
  a| 
-image:../media/2u_rackspace_inst-hw-ef600.png[""]
+image:../media/2u_rackspace_inst-hw-ef600.png["2U 랙"]
  a| 
 2U 랙 공간: 의 표준 19인치 (48.30cm) 랙에 장착할 수 있습니다.
 
@@ -121,7 +121,7 @@ NOTE: 타사 캐비닛을 사용하면 전원 케이블이 컨트롤러에 대�
 
 
  a| 
-image:../media/management_station_inst-hw-ef600_g60b3.png[""]
+image:../media/management_station_inst-hw-ef600_g60b3.png["관리 소프트웨어를 위해 지원되는 브라우저가 있는 관리 스테이션"]
  a| 
 관리 소프트웨어에 대해 지원되는 브라우저:
 

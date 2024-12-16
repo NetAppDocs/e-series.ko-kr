@@ -11,7 +11,7 @@ summary: 풀 또는 볼륨 그룹을 삭제하여 할당 취소된 용량을 더
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: 한 스토리지 어레이에서 다른 스토리지 어레이로 디�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

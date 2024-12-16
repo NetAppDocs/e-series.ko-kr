@@ -10,7 +10,7 @@ summary: vCenter용 Storage Plugin을 사용하여 스토리지를 관리하려�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

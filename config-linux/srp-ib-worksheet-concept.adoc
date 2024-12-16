@@ -13,7 +13,7 @@ summary: 이 워크시트를 사용하여 Infiniband 스토리지 구성 정보�
 [role="lead"]
 이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 InfiniBand 스토리지 구성 정보를 통해 SRP를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
 
-image::../media/port_identifiers_ib_srp.gif[포트 식별자 IB SRP]
+image::../media/port_identifiers_ib_srp.gif[IB 포트 식별자를 통한 SRB]
 
 
 

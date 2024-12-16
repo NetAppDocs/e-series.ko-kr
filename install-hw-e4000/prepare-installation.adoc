@@ -1,0 +1,148 @@
+---
+permalink: install-hw-e4000/prepare-installation.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= 설치 준비
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E4000 시리즈 스토리지 시스템의 사양을 충족하도록 현장을 준비해야 합니다.
+
+.단계
+. 에서 계정을 만들고 하드웨어를 등록합니다 http://mysupport.netapp.com/["NetApp 지원"^].
+. 다음 품목이 상자 안에 들어 있는지 확인합니다.
++
+[role="tabbed-block"]
+====
+.E4012를 참조하십시오
+--
+드라이브가 설치된 쉘프(베젤 별도 패키지)::
++
+--
+image:../media/trafford_overview.png["드라이브가 설치된 쉘프"]
+
+--
+랙 마운트 하드웨어::
++
+--
+image:../media/superrails_inst-hw-e2800-e5700.png["랙 마운트 하드웨어"]
+
+--
+관리 연결용 이더넷 케이블(주문한 경우)::
++
+--
+image:../media/cable_ethernet_inst-hw-e2800-e5700.png["관리 연결용 이더넷 케이블"]
+
+--
+데이터 호스트의 케이블 연결용 I/O 케이블::
++
+--
+image:../media/cable_io_inst-hw-e2800-e5700.png["데이터 호스트의 케이블 연결용 I/O 케이블"]
+
+--
+전원 케이블::
++
+--
+image:../media/cable_power_inst-hw-e2800-e5700.png["전원 케이블"]
+
+--
+SAS 케이블::
++
+--
+image:../media/sas_cable.png["SAS 케이블"]
+
+--
+
+
+--
+.E4060를 참조하십시오
+--
+쉘프, 베젤 및 랙 마운트 하드웨어::
++
+--
+image:../media/trafford_overview.png["쉘프, 베젤 및 랙 마운트 하드웨어"]
+
+--
+선반 핸들 4개 x4:: image:../media/handles_counted.png["선반 핸들 4개"]
+관리 연결용 이더넷 케이블(주문한 경우)::
++
+--
+image:../media/cable_ethernet_inst-hw-e2800-e5700.png["관리 연결용 이더넷 케이블"]
+
+--
+데이터 호스트의 케이블 연결용 I/O 케이블::
++
+--
+image:../media/cable_io_inst-hw-e2800-e5700.png["데이터 호스트의 케이블 연결용 I/O 케이블"]
+
+--
+전원 케이블::
++
+--
+image:../media/cable_power_inst-hw-e2800-e5700.png["전원 케이블"]
+
+--
+SAS 케이블::
++
+--
+image:../media/sas_cable.png["SAS 케이블"]
+
+--
+
+
+--
+====
+. 설치에 필요한 추가 항목을 준비합니다.
++
+** Philips #2 나사 드라이버
+** 손전등
+** ESD 스트랩
+** 캐비닛 또는 랙은 다음 크기의 선반에 적합합니다.
++
+[role="tabbed-block"]
+====
+.E4012를 참조하십시오
+--
+* 깊이 *: 21.1인치(53.59 cm)
+
+* 너비 *: 44.8(17.64인치)
+
+* 높이 *: 8.64cm(3.4인치)
+
+* 최대 중량 *: 29.6kg(65.25lb)
+
+--
+.E4060를 참조하십시오
+--
+* 깊이 *: 92.2cm(36.3인치)
+
+* 너비 *: 44.8cm(17.64인치)
+
+* 높이 *: 17.78cm(7.0인치)
+
+* 최대 중량 *: 114.91kg(253.33lb)
+
+--
+====
+** 올바른 AC 전원 전압을 제공하는 위치:
++
+*** E4012: 120 - 240V AC
+*** E4060: 240볼트 AC
+
+
+** 관리 소프트웨어에 대해 지원되는 브라우저:
++
+*** Google Chrome(버전 89 이상)
+*** Microsoft Edge(버전 90 이상)
+*** Mozilla Firefox(버전 80 이상)
+*** Safari(버전 14 이상)
+
+
+
+
+

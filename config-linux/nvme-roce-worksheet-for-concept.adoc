@@ -19,7 +19,7 @@ summary: 이 워크시트를 사용하여 NVMe over RoCE 스토리지 구성 정
 
 직접 연결 토폴로지에서는 하나 이상의 호스트가 서브시스템에 직접 연결됩니다. SANtricity OS 11.50 릴리스에서는 아래와 같이 각 호스트에서 하위 시스템 컨트롤러로의 단일 연결을 지원합니다. 이 구성에서는 각 호스트의 HCA(호스트 채널 어댑터) 포트 1개가 연결된 E-Series 컨트롤러 포트와 동일한 서브넷에 있어야 하지만 다른 HCA 포트와 다른 서브넷에 있어야 합니다.
 
-image::../media/nvmeof_direct_connect.gif[N etApp으로 직접 연결]
+image::../media/nvmeof_direct_connect.gif[NVMe over RoCE 직접 연결의 예]
 
 요구 사항을 충족하는 구성의 예는 다음과 같이 4개의 네트워크 서브넷으로 구성됩니다.
 
@@ -35,7 +35,7 @@ image::../media/nvmeof_direct_connect.gif[N etApp으로 직접 연결]
 
 Fabric 토폴로지에서는 하나 이상의 스위치가 사용됩니다. 을 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 지원되는 스위치 목록을 참조하십시오.
 
-image::../media/nvmeof_switch_connect.gif[nvmeof 스위치 연결]
+image::../media/nvmeof_switch_connect.gif[NVMe over RoCE 스위치 연결 예]
 
 
 

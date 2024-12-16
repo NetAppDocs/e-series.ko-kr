@@ -10,7 +10,7 @@ summary: '호스트를 수동으로 생성하는 경우 먼저 호스트에서 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

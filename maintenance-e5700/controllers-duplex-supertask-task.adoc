@@ -51,7 +51,7 @@ NOTE: 교체 컨트롤러에는 16GB의 메모리가 미리 설치되어 있습�
 
 . 컨트롤러 캐니스터 뒷면에서 MAC 주소 및 FRU 부품 번호 레이블을 찾습니다.
 +
-image::../media/e5700_mac_address_and_fru_part_number.png[e5700 Mac 주소 및 FRU 부품 번호]
+image::../media/e5700_mac_address_and_fru_part_number.png[E5700 컨트롤러의 Mac 주소 및 FRU 부품 번호"]
 
 +
 * (1) * _MAC 주소: _ 관리 포트 1의 MAC 주소(""P1"). DHCP를 사용하여 원래 컨트롤러의 IP 주소를 얻은 경우 이 주소가 새 컨트롤러에 연결되어 있어야 합니다.
@@ -65,7 +65,7 @@ image::../media/e5700_mac_address_and_fru_part_number.png[e5700 Mac 주소 및 F
 
 +
 .. 하드웨어 * 를 선택합니다.
-.. 컨트롤러 아이콘으로 표시된 컨트롤러 쉘프를 찾습니다 image:../media/sam1130_ss_hardware_controller_icon_maint-e5700.gif[""].
+.. 컨트롤러 아이콘으로 표시된 컨트롤러 쉘프를 찾습니다.image:../media/sam1130_ss_hardware_controller_icon_maint-e5700.gif["컨트롤러 아이콘"]
 .. 컨트롤러 아이콘을 클릭합니다.
 .. 컨트롤러를 선택하고 * 다음 * 을 클릭합니다.
 .. 기본 * 탭에서 컨트롤러의 * 교체 부품 번호 * 를 기록해 둡니다.
@@ -165,7 +165,7 @@ CAUTION: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 �
 다음 그림은 E5724 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 ed5700을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -177,7 +177,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e
 다음 그림은 E5560 컨트롤러 쉘프의 예입니다.
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[28 DWG e2860 컨트롤러 캐니스터 유지보수 e5700을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 제거합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -210,7 +210,7 @@ E5724 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거하는 경우
 이 녹색 LED가 켜져 있으면 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 구성 요소를 제거하기 전에 이 LED가 꺼질 때까지 기다려야 합니다.
 
 +
-image::../media/28_dwg_e2800_internal_cache_active_led_maint-e5700.gif[28 DWG e2800 내부 캐시가 활성 상태로 유지 관리 e5700이 되었습니다]
+image::../media/28_dwg_e2800_internal_cache_active_led_maint-e5700.gif[내부 캐시 활성 LED]
 
 +
 * (1) * _ 내부 캐시 활성 LED _
@@ -221,7 +221,7 @@ image::../media/28_dwg_e2800_internal_cache_active_led_maint-e5700.gif[28 DWG e2
 . 배터리의 파란색 분리 래치를 찾습니다.
 . 분리 래치를 아래로 누르고 컨트롤러 캐니스터에서 멀리 밀어 배터리를 분리합니다.
 +
-image::../media/28_dwg_e2800_remove_battery_maint-e5700.gif[28 DWG e2800 배터리 유지 관리 e5700을 제거합니다]
+image::../media/28_dwg_e2800_remove_battery_maint-e5700.gif[배터리를 분리합니다]
 
 +
 * (1) * _ 배터리 분리 래치 _
@@ -244,7 +244,7 @@ image::../media/28_dwg_e2800_remove_battery_maint-e5700.gif[28 DWG e2800 배터�
 나사는 상단에 1개, 측면에 1개, 전면에 2개 등 4개가 있습니다.
 
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[28 DWG e2800 면 배치 나사 maint e5700을 사용합니다]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[컨트롤러에서 전면판을 제거합니다]
 
 . HIC 페이스플레이트를 탈거하십시오.
 . 손가락이나 십자 드라이버를 사용하여 HIC를 컨트롤러 카드에 고정하는 세 개의 나비 나사를 풉니다.
@@ -254,7 +254,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[28 DWG e2800 �
 NOTE: HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히거나 범프되지 않도록 주의하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic 손잡이 나사 maint e5700]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[컨트롤러 카드에서 HIC 제거"]
 
 +
 * (1) * _ HIC(호스트 인터페이스 카드) _
@@ -284,7 +284,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic �
 래치가 제자리에 고정되면 래치 하단이 섀시의 금속 슬롯에 후크됩니다.
 
 +
-image::../media/28_dwg_e2800_insert_battery_maint-e5700.gif[28 DWG e2800 인서트 배터리 유지보수 e5700]
+image::../media/28_dwg_e2800_insert_battery_maint-e5700.gif[배터리를 다시 장착합니다]
 
 +
 * (1) * _ 배터리 분리 래치 _
@@ -300,11 +300,11 @@ CAUTION: * 하드웨어 손상 가능성 * -- 배터리 전면의 금속 플랜�
 +
 ** * 정답 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 완전히 삽입되어 있습니다.
 +
-image:../media/28_dwg_e2800_battery_flange_ok_maint-e5700.gif[""]
+image:../media/28_dwg_e2800_battery_flange_ok_maint-e5700.gif["올바른 금속 플랜지"]
 
 ** * 잘못됨 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 삽입되지 않음:
 +
-image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e5700.gif[""]
+image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e5700.gif["잘못된 금속 플랜지"]
 
 
 
@@ -328,7 +328,7 @@ HIC 하단 또는 컨트롤러 카드 상단에 있는 구성 요소가 긁히�
 CAUTION: * 장비 손상 가능성 * -- HIC와 나비 나사 사이의 컨트롤러 LED에 골드 리본 커넥터가 끼이지 않도록 매우 조심하십시오.
 
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic 손잡이 나사 maint e5700]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif['컨트롤러 카드에 HIC 재설치"]
 
 +
 * (1) * _ HIC(호스트 인터페이스 카드) _
@@ -342,7 +342,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[28 DWG e2800 hic �
 
 . 1 십자 드라이버를 사용하여 원래 컨트롤러 캐니스터에서 분리한 HIC 페이스플레이트를 4개의 나사로 새 컨트롤러 캐니스터에 부착합니다.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[28 DWG e2800 면 배치 나사 maint e5700을 사용합니다]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[전면판 재설치"]
 
 
 
@@ -357,7 +357,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[28 DWG e2800 �
 . 이동식 덮개가 아래를 향하도록 컨트롤러 캐니스터를 뒤집습니다.
 . 캠 핸들을 열린 위치로 둔 상태에서 컨트롤러 캐니스터를 완전히 컨트롤러 쉘프에 밀어 넣습니다.
 +
-image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e2824 컨트롤러 캐니스터 유지보수 ed5700을 제거합니다]
+image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 장착합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -366,7 +366,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_maint-e5700.gif[28 DWG e
 * (2) * _ 캠 핸들 _
 
 +
-image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[28 DWG e2860 컨트롤러 캐니스터 유지보수 e5700을 추가합니다]
+image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[컨트롤러 캐니스터를 장착합니다]
 
 +
 * (1) * _컨트롤러 캐니스터 _
@@ -400,7 +400,7 @@ NOTE: 원래 컨트롤러가 IP 주소에 DHCP를 사용하지 않은 경우 새
 +
 ** 7세그먼트 디스플레이에는 컨트롤러가 오프라인 상태임을 나타내는 반복 시퀀스 * OS *, * OL *, *_blank_ * 가 표시됩니다.
 ** 황색 주의 LED가 계속 켜져 있습니다.
-** 호스트 인터페이스에 따라 호스트 링크 LED가 켜지거나 깜박이거나 꺼질 수 있습니다.image:../media/e5700_hic_3_callouts_maint-e5700.gif[""]
+** 호스트 링크 LED는 호스트 인터페이스에 따라 켜지거나 깜박이거나 꺼질 수 있습니다. image:../media/e5700_hic_3_callouts_maint-e5700.gif["E5700 컨트롤러 LED\""]
 +
 * (1) * _ 호스트 링크 LED _
 

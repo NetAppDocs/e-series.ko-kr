@@ -10,7 +10,7 @@ summary: 'CLI(Command Line Interface)를 사용하여 볼륨을 생성했거나 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

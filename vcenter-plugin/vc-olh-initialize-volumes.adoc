@@ -11,7 +11,7 @@ summary: 볼륨을 수동으로 초기화하여 특정 장애 조건에서 복�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

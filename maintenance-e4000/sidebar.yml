@@ -1,0 +1,44 @@
+---
+section: maintenance-e4000
+title: E4000를 참조하십시오
+entries:
+- title: 배터리
+  url: "/maintenance-e4000/replace-battery-e4000.html"
+- title: 컨트롤러
+  entries:
+  - title: 고려 사항 및 요구 사항
+    url: "/maintenance-e4000/replace-controller-requirements-e4000.html"
+  - title: 두 번째 컨트롤러 캐니스터를 추가합니다
+    url: "/maintenance-e4000/replace-controller-second-e4000.html"
+  - title: 컨트롤러를 교체합니다
+    url: "/maintenance-e4000/replace-controller-e4000.html"
+- title: 캐니스터
+  entries:
+  - title: 전원 공급 장치 교체(E4012)
+    url: "/maintenance-e4000/replace-power-supply.html"
+  - title: 전원 캐니스터 교체(E4060)
+    url: "/maintenance-e4000/replace-power-canister.html"
+  - title: 팬 캐니스터 교체(E4060)
+    url: "/maintenance-e4000/replace-fan-canister.html"
+- title: DIMM
+  url: "/maintenance-e4000/replace-dimms-e4000.html"
+- title: 드라이브
+  entries:
+  - title: 고려 사항 및 요구 사항
+    url: "/maintenance-e4000/replace-drive-e4000.html"
+  - title: 드라이브를 교체합니다
+    entries:
+    - title: 12 또는 24 드라이브
+      url: "/maintenance-e4000/replace-drives-12-24.html"
+    - title: 60 드라이브
+      url: "/maintenance-e4000/replace-drives-60.html"
+  - title: 드라이브 드로어 교체 (4060)
+    url: "/maintenance-e4000/drive-drawer-60.html"
+  - title: 드라이브 쉘프를 핫 추가합니다
+    url: "/maintenance-e4000/replace-drives-hotadd-drive-shelf.html"
+- title: 호스트 인터페이스 카드
+  entries:
+  - title: HIC를 업그레이드합니다
+    url: "/maintenance-e4000/replace-hic-upgrade-e4000.html"
+  - title: 장애가 발생한 HIC를 교체합니다
+    url: "/maintenance-e4000/replace-hic-e4000.html"

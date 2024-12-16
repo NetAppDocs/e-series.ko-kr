@@ -11,7 +11,7 @@ summary: SSD Cache에 대한 공칭 통계 및 세부 통계를 볼 수 있습�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

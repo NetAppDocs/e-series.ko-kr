@@ -22,9 +22,12 @@ summary: 호스트를 컨트롤러에 직접 연결하거나 스위치를 사용
 다음 그림에서는 연결 예를 보여 줍니다. 최대 성능을 보장하려면 사용 가능한 모든 호스트 어댑터 포트를 사용하십시오.
 
 .호스트 2개 및 컨트롤러 2개
-image::../media/topology_host_direct_generic_web_low.png[토폴로지 호스트 직접 일반 웹 로우]
+image::../media/topology_host_direct_generic_web_low.png[호스트 2개와 컨트롤러 2개 케이블 연결]
 
 * (1) * _ 각 호스트 어댑터 포트를 컨트롤러의 호스트 포트에 직접 연결합니다. _
+
+
+NOTE: E4000의 경우 호스트 포트 e0a 및 e0b에 연결합니다.
 
 
 
@@ -35,8 +38,11 @@ image::../media/topology_host_direct_generic_web_low.png[토폴로지 호스트 
 다음 그림에서는 연결 예를 보여 줍니다. 프로비저닝 기능을 제공하는 스위치의 경우 각 이니시에이터와 타겟 쌍을 격리해야 합니다.
 
 .호스트 2개 및 스위치 2개
-image::../media/topology_host_fabric_generic.png[토폴로지 호스트 Fabric 일반]
+image::../media/topology_host_fabric_generic.png[호스트 2개와 스위치 2개를 케이블로 연결합니다]
 
 * (1) * _ 각 호스트 어댑터를 스위치에 직접 연결합니다. _
 
 * (2) * _ 각 스위치를 컨트롤러의 호스트 포트에 직접 연결합니다. 최대 성능을 보장하려면 사용 가능한 모든 호스트 어댑터 포트를 사용하십시오. _
+
+
+NOTE: E4000의 경우 호스트 포트 e0a 및 e0b에 연결합니다.

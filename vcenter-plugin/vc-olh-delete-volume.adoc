@@ -11,7 +11,7 @@ summary: 하나 이상의 볼륨을 삭제하여 풀 또는 볼륨 그룹의 사
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -11,7 +11,7 @@ summary: 드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

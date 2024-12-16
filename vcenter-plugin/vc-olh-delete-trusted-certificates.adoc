@@ -10,7 +10,7 @@ summary: 더 이상 필요하지 않은 인증서를 하나 이상 삭제합니�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

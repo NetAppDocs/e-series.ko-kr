@@ -1,19 +1,62 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.73 
+keywords: whats new, new features, SANtricity 11.90 
 summary: SANtricity OS의 새로운 기능 
 ---
 = SANtricity OS의 새로운 기능
 :allow-uri-read: 
 :experimental: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
-다음 표에서는 EF300, EF600, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 SANtricity OS 11.8의 새로운 기능에 대해 설명합니다.
+다음 표에서는 E4000, EF300, EF600, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 최신 SANtricity OS 릴리즈의 새로운 기능에 대해 설명합니다.
 
+
+
+== 버전 11.90의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+새로운 스토리지 시스템 모델 – E4000
+ a| 
+이 릴리스에는 E4000 저비용 스토리지 시스템이 도입되었습니다. E4000은 12개 및 60개의 드라이브와 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 지원합니다. 초기 릴리즈의 경우 지원되는 호스트 인터페이스 카드에는 iSCSI 및 Fibre Channel이 포함됩니다. E4000 스토리지 시스템 및 기타 E-Series 스토리지 시스템은 Unified Manager에서 보고 관리할 수 있습니다.
+
+
+
+ a| 
+Dynamic Disk Pool의 향상된 용량
+ a| 
+풀 내의 각 개별 드라이브의 용량이 23TB를 초과할 경우 DDP(동적 디스크 풀)의 용량이 12PB로 증가했습니다. 개별 드라이브 용량 크기가 23TB 미만인 경우 DDP 용량은 6PB입니다.
+
+
+
+ a| 
+기본 미디어 스캔 설정이 증가했습니다
+ a| 
+기본 미디어 스캔 속도가 120일로 증가했습니다.
+
+
+
+ a| 
+이제 외부 키 관리에 대해 개인 키를 사용할 수 있습니다
+ a| 
+개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.
+
+
+
+ a| 
+웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다
+ a| 
+REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.
+
+|===
 
 
 == 버전 11.80.1R1의 새로운 기능
