@@ -3637,16 +3637,12 @@
   <block id="4fca16c33bb8244a7b60dd7da4eec715" category="doc">플랫폼 기술 보고서 찾아보기</block>
   <block id="775ecf6ed5e3db61059ce09b5b398110" category="section-title">플랫폼 TR</block>
   <block id="a28b8b732f1d7a87c511f615fe886bc4" category="inline-link">* TR-4725: E2800 어레이 기능 개요 *</block>
-  <block id="fac7424958d70cf4f8d849fb90db1f68" category="cell"><block ref="fac7424958d70cf4f8d849fb90db1f68" category="inline-link-rx"></block></block>
   <block id="16ee0112605f5c7f44d31ab4fb0f7c73" category="inline-link">* ++ TR-4724: E5700 어레이 기능 개요 ++ *</block>
-  <block id="cdbe326a711e037f4bddbe4b226edfa6" category="cell"><block ref="cdbe326a711e037f4bddbe4b226edfa6" category="inline-link-rx"></block></block>
   <block id="346bfe6c5f1a40af18c578c446b216aa" category="inline-link">* + + + TR-4877: EF300 스토리지 기능 개요 ++ *</block>
-  <block id="ca74b797e6d3bd7c698dff9a991616e6" category="cell"><block ref="ca74b797e6d3bd7c698dff9a991616e6" category="inline-link-rx"></block></block>
   <block id="c3bad4531ac09819ae11c8f1eef46379" category="cell">E2800 하이브리드 어레이의 하드웨어 및 소프트웨어 기능과 최신 SANtricity OS 기능에 대해 설명합니다.</block>
   <block id="170c5373a5aea2b6d6daa41c328182fc" category="cell">최신 버전의 SANtricity에 도입된 새로운 하드웨어 및 소프트웨어 기능을 비롯하여 E5700 제품 정보를 설명합니다.</block>
   <block id="6bf4f338106e6cad43fd2f2fecfcaafa" category="cell">EF300 All-Flash 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
   <block id="f3a3500a11e0c13b98d7092f5af6a6c7" category="inline-link">* TR-4800:EF600 어레이 기능 개요 *</block>
-  <block id="567d596a04a1bf27275d8aa991230778" category="cell"><block ref="567d596a04a1bf27275d8aa991230778" category="inline-link-rx"></block></block>
   <block id="6b4552e99c78bda589322e0594a1d89b" category="cell">EF600 All-Flash 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
   <block id="c232892a42c73a75f7718adaf4ae1584" category="summary">SANtricity 시스템 관리자의 원격 스토리지 화면의 결과 목록 섹션에서 각 원격 스토리지 가져오기의 상태를 볼 수 있습니다.</block>
   <block id="4398ca8cc509ea0393181715420194ad" category="doc">가져오기 진행률을 관리합니다</block>
@@ -5704,10 +5700,6 @@
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E-Series/EF-Series SANtricity OS에 대한 알림</block>
   <block id="f54101aa6702c025c4f74ec5ada7bae3" category="summary">스토리지 관리</block>
   <block id="14ad3096f7edeb7d23e22e3ab3539e0f" category="paragraph">아래 링크를 사용하여 스토리지 오브젝트 및 E-Series 스토리지 시스템의 구성, 관리, 모니터링 방법을 설명하는 문서에 액세스할 수 있습니다. 이 링크를 클릭하면 다른 문서 사이트로 이동합니다.</block>
-  <block id="55b9698df8d5ce238fd672cacb45db33" category="section-title">System Manager 11.7에 대한 온라인 도움말</block>
-  <block id="bb0f94cdcadb9a7fe9605a5b5978bc9f" category="inline-link">SANtricity 시스템 관리자 11.7 온라인 도움말</block>
-  <block id="08bdf5ba02a44ea1089a7356e56323d3" category="section-title">Unified Manager 5에 대한 온라인 도움말</block>
-  <block id="d9b69b9cb75561d821d13badf467853f" category="inline-link">SANtricity Unified Manager 5 온라인 도움말</block>
   <block id="6e8602d76e9fef34df4842cd3e73e25b" category="section-title">명령 참조</block>
   <block id="5d3dd536638d57e3f77ad9bda53a7aec" category="summary">E-Series 시스템은 다양한 쉘프 크기로 제공됩니다.</block>
   <block id="91e4f42398de1c06a3558fe252620636" category="doc">E-Series 쉘프 유형</block>
@@ -6474,8 +6466,6 @@
   <block id="228099d750c1289b9bfa62e7687ee971" category="cell"><block ref="228099d750c1289b9bfa62e7687ee971" category="inline-link-rx"></block></block>
   <block id="279a877b44d5476b61408bc38e5178f7" category="cell">에서는 NetApp E2800 및 E5700 하이브리드 스토리지 어레이에서 수행된 인증 테스트 결과를 설명합니다.</block>
   <block id="bf37ab4daa569311ecb03e0f71cfe44e" category="cell">에서는 NetApp E2800 및 E5700 하이브리드 스토리지 어레이에서 Genetec Security Center VM(Video Management Software)의 인증 결과를 설명합니다.</block>
-  <block id="ff584d910a943e131a1a33c07ee376cf" category="paragraph">에 액세스합니다<block ref="4f3037dfe9e12b0599983cd81724b08c" category="inline-link-rx"></block>에서 스토리지 어레이의 계획, 구성, 관리 및 문제 해결 방법에 대한 정보를 찾을 수 있습니다.</block>
-  <block id="a9a112f936967fe8b7a02587778320ab" category="paragraph">에 액세스합니다<block ref="777f091bde7329e4b8f42b44c5184089" category="inline-link-rx"></block>에서는 여러 네트워크 스토리지 어레이에서 스토리지 관리 명령을 실행하는 방법을 배울 수 있습니다.</block>
   <block id="173fec560797244d437c91da004ea89c" category="paragraph">에 액세스합니다<block ref="60cc209e7041626253d52f9b6ac8557b" category="inline-link-rx"></block>에서는 CLI(Command Line Interface) 명령을 사용하여 스토리지 어레이를 구성하고 모니터링하는 방법을 배울 수 있습니다.</block>
   <block id="7e90e7aafc41dd2ae860ea7d075f0a24" category="list-text">Unified Manager -- 프록시 설치에는 최신 E-Series 및 EF-Series 스토리지 시스템에 대한 구성 액세스를 제공하는 웹 기반 인터페이스인 SANtricity Unified Manager가 포함됩니다. 자세한 내용은 사용자 인터페이스 또는 에서 제공되는 Unified Manager 온라인 도움말을 참조하십시오<block ref="173d089ddf996dbd066dc04ffeb10dca" category="inline-link-rx"></block>.</block>
   <block id="9de7e29035705b89b9b2cc49130cd5d4" category="summary">호스트 또는 호스트 클러스터의 이름, 호스트 운영 체제 유형 및 관련 호스트 클러스터를 변경할 수 있습니다.</block>
@@ -9462,4 +9452,15 @@
   <block id="7dca1699f8152d82864de292753389fc" category="sidebar">드라이브 드로어 교체 (4060)</block>
   <block id="676d3cbad89c6a95fe470771db65cfaa" category="sidebar">HIC를 업그레이드합니다</block>
   <block id="f1de52c9b2e0108b121235152081f684" category="sidebar">장애가 발생한 HIC를 교체합니다</block>
+  <block id="54941a8cb8785fb145b01e1bb947b67f" category="section-title">System Manager 온라인 도움말</block>
+  <block id="a4cf386ebe9065ef38c507aa0138fca1" category="inline-link">SANtricity System Manager 온라인 도움말</block>
+  <block id="022c96b1591a4fe3fe2e854b113c6c33" category="paragraph">에 액세스하면<block ref="4060ff1e62df840ae8eeaa66b7bc4ef3" category="inline-link-rx"></block> 스토리지 배열 계획, 구성, 관리 및 문제 해결 방법에 대한 정보를 찾을 수 있습니다.</block>
+  <block id="68b5d7bbc938636a6430a66ddd3590d0" category="section-title">Unified Manager 온라인 도움말</block>
+  <block id="703be4c8c3307cd5e44163a39538eb58" category="inline-link">SANtricity Unified Manager 온라인 도움말</block>
+  <block id="4c0bdc96ec6314c064f33faae57a0c02" category="paragraph">에 액세스하면<block ref="d6978b00f819ec3b99c59933f313d81f" category="inline-link-rx"></block> 여러 네트워크 스토리지 어레이에서 스토리지 관리 명령을 실행하는 방법을 배울 수 있습니다.</block>
+  <block id="5b4f9cf27402df2737b167e7393669c2" category="cell"><block ref="5b4f9cf27402df2737b167e7393669c2" category="inline-link-rx"></block></block>
+  <block id="034410ce2cd58a6a56e6772fadec879b" category="cell"><block ref="034410ce2cd58a6a56e6772fadec879b" category="inline-link-rx"></block></block>
+  <block id="6c33c8a01a7b3f83682789dc2c3e0a6e" category="cell"><block ref="6c33c8a01a7b3f83682789dc2c3e0a6e" category="inline-link-rx"></block></block>
+  <block id="ec476342469d41cbc06b7065ffea021e" category="cell"><block ref="ec476342469d41cbc06b7065ffea021e" category="inline-link-rx"></block></block>
+  <block id="ba463c26bea3a95ca7381fd32b63eb98" category="sidebar">E4000 데이터시트를 참조하십시오</block>
 </blocks>

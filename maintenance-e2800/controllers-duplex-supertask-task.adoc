@@ -306,17 +306,14 @@ CAUTION: * 하드웨어 손상 가능성 * -- 배터리 전면의 금속 플랜�
 
 +
 ** * 정답 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 완전히 삽입되어 있습니다.
-
-
 +
 image:../media/28_dwg_e2800_battery_flange_ok_maint-e2800.gif["올바른 금속 플랜지"]
 
-+
 ** * 잘못됨 * -- 배터리의 금속 플랜지가 컨트롤러의 슬롯에 삽입되지 않음:
-
-
 +
 image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e2800.gif["잘못된 금속 플랜지"]
+
+
 
 
 

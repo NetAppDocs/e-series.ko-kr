@@ -15,15 +15,15 @@ summary: 스토리지 관리
 
 
 
-== System Manager 11.7에 대한 온라인 도움말
+== System Manager 온라인 도움말
 
-에 액세스합니다 https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["SANtricity 시스템 관리자 11.7 온라인 도움말"^]에서 스토리지 어레이의 계획, 구성, 관리 및 문제 해결 방법에 대한 정보를 찾을 수 있습니다.
+에 액세스하면 https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["SANtricity System Manager 온라인 도움말"^] 스토리지 배열 계획, 구성, 관리 및 문제 해결 방법에 대한 정보를 찾을 수 있습니다.
 
 
 
-== Unified Manager 5에 대한 온라인 도움말
+== Unified Manager 온라인 도움말
 
-에 액세스합니다 https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html["SANtricity Unified Manager 5 온라인 도움말"^]에서는 여러 네트워크 스토리지 어레이에서 스토리지 관리 명령을 실행하는 방법을 배울 수 있습니다.
+에 액세스하면 https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html["SANtricity Unified Manager 온라인 도움말"^] 여러 네트워크 스토리지 어레이에서 스토리지 관리 명령을 실행하는 방법을 배울 수 있습니다.
 
 
 
