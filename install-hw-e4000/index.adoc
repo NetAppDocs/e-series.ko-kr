@@ -39,7 +39,7 @@ E4000 스토리지 시스템용 전원 케이블을 연결하고 드라이브 �
 * link:../install-hw-e4000/connect-cables-60.html["E4060 하드웨어 케이블 연결"^]
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["네"] 스토리지 시스템 설정을 완료합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 스토리지 시스템 설정을 완료합니다
 [role="quick-margin-para"]
 컨트롤러를 네트워크에 케이블로 연결하고 스토리지 시스템을 설치하고 구성하는 방법에 대해 알아보십시오.
 
