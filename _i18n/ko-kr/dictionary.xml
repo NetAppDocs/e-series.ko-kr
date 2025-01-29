@@ -9466,4 +9466,7 @@
   <block id="53ec2a2a971455f492adc2f07e6c780d" category="paragraph">LED 중 하나가 켜져 있는 경우에도 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 이 절차를 계속하기 전에 모든 LED가 꺼져 있어야 합니다.</block>
   <block id="5509a7e2ae2dbdec2ed18ae433b4cec6" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 스토리지 시스템 설정을 완료합니다</block>
   <block id="492fcae0b90e6f4d11439a1f70e422cf" category="admonition">손가락을 사용하여 나비나사를 푸는 경우 배터리 분리 탭을 누르고 배터리를 위로 회전시켜 접근성을 높여야 할 수 있습니다.</block>
+  <block id="fdaf387b2cf2a5e0708730deae924c52" category="section-title">버전 11.80.1R3의 새로운 기능</block>
+  <block id="a372f5d0e522484d2807c2713feb9e59" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능이나 제한 사항은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 README 파일을 참조하십시오.</block>
+  <block id="cb495aee74d8e4c14850fb4a3882a508" category="section-title">버전 11.80.1R2의 새로운 기능</block>
 </blocks>
