@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/index.html 
 sidebar: sidebar 
-keywords: EF300 maintenance, EF600 maintenance, repairing EF300, repairing EF600, replace EF300 components, replace EF600 components 
+keywords: EF300 maintenance, EF600 maintenance, repairing EF300, repairing EF600, EF600C, EF300C replace EF300 components, replace EF600 components 
 summary: EF300 및 EF600 하드웨어 유지 관리 
 ---
 = EF300 및 EF600 하드웨어 유지 관리
@@ -11,7 +11,7 @@ summary: EF300 및 EF600 하드웨어 유지 관리
 
 
 [role="lead"]
-하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. EF300 또는 EF600 시스템 구성 요소를 유지하는 방법과 관련된 절차가 이 섹션에 나와 있습니다.
+하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. EF300, EF600, EF300C 또는 EF600C 시스템 구성 요소의 유지 관리 절차에 대한 자세한 내용은 이 섹션을 참조하십시오.
 
 이 섹션의 절차에서는 EF300 또는 EF600 시스템이 E-Series 환경에 이미 구축되어 있다고 가정합니다.
 
@@ -19,7 +19,7 @@ summary: EF300 및 EF600 하드웨어 유지 관리
 
 == 시스템 구성 요소
 
-EF300 및 EF600 스토리지 시스템의 경우, 다음 구성 요소에 대해 유지보수 절차를 수행할 수 있습니다.
+EF300, EF600, EF300C 및 EF600C 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.
 
 [cols="25,65"]
 |===

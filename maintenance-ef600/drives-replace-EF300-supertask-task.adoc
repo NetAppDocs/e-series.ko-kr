@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/drives-replace-EF300-supertask-task.html 
 sidebar: sidebar 
-keywords: replace EF300 drive, replace EF600 drive, drive failure 
+keywords: EF300, EF300C, replace drive, drive failure 
 summary: EF300 스토리지의 드라이브를 교체합니다. 
 ---
 = EF300 스토리지의 드라이브를 교체합니다
@@ -11,9 +11,9 @@ summary: EF300 스토리지의 드라이브를 교체합니다.
 
 
 [role="lead"]
-EF300 스토리지의 드라이브를 교체할 수 있습니다.
+EF300 또는 EF300C 스토리지에서 드라이브를 교체할 수 있습니다.
 
-EF300은 24개 드라이브 및 60개 드라이브 쉘프를 통해 SAS 확장을 지원합니다. 다음 절차는 24-드라이브 쉘프인지 60-드라이브 쉘프인지에 따라 다릅니다.
+EF300 및 EF300C는 24개 드라이브 및 60개 드라이브 쉘프로 SAS 확장을 지원합니다. 다음 절차는 24-드라이브 쉘프인지 60-드라이브 쉘프인지에 따라 다릅니다.
 
 * <<EF300(24-드라이브 쉘프)에서 드라이브 교체>>
 * <<EF300(60-드라이브 쉘프)에서 드라이브 교체>>

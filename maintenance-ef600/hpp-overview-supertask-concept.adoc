@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/hpp-overview-supertask-concept.html 
 sidebar: sidebar 
-keywords: convert EF300 host protocol, convert EF600 host protocol, 
+keywords: convert host protocol, EF600, EF300, EF600C, EF300C 
 summary: EF300 또는 EF600 호스트 프로토콜을 변환하기 전에 요구 사항 및 고려 사항을 검토하십시오. 
 ---
 = EF300 또는 EF600 호스트 프로토콜 전환 요구사항
@@ -11,7 +11,7 @@ summary: EF300 또는 EF600 호스트 프로토콜을 변환하기 전에 요구
 
 
 [role="lead"]
-EF300 또는 EF600 어레이에 대한 호스트 프로토콜을 변환하기 전에 다음 요구 사항을 검토하십시오.
+EF300, EF600, EF300C 또는 EF600C 어레이의 호스트 프로토콜을 변환하기 전에 다음 요구사항을 검토하십시오.
 
 * 이 절차에 대한 가동 중지 시간 유지 관리 기간을 예약했습니다.
 * 변환을 수행할 때 호스트 I/O 작업을 중지해야 합니다. 변환을 성공적으로 완료할 때까지 스토리지 배열의 데이터에 액세스할 수 없습니다.

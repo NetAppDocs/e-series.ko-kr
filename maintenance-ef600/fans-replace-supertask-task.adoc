@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/fans-replace-supertask-task.html 
 sidebar: sidebar 
-keywords: replace EF300 fan, replace EF600 fan, fan fail 
+keywords: EF600, EF300, EF600C, EF300C, replace fan, fan fail 
 summary: EF300 또는 EF600의 팬을 교체합니다. 
 ---
 = EF300 또는 EF600 팬을 교체합니다
@@ -12,7 +12,7 @@ summary: EF300 또는 EF600의 팬을 교체합니다.
 
 
 [role="lead"]
-EF300 또는 EF600 어레이에서 팬을 교체할 수 있습니다.
+EF300, EF600, EF300C 또는 EF600C 어레이에서 팬을 교체할 수 있습니다.
 
 .이 작업에 대해
 각 EF300 및 EF600 컨트롤러 쉘프 또는 드라이브 쉘프에는 5개의 팬이 포함됩니다. 팬에 장애가 발생할 경우 가능한 한 빨리 팬을 교체하여 선반이 충분히 냉각되도록 해야 합니다.

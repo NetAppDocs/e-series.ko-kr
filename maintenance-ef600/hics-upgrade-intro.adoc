@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/hics-upgrade-intro.html 
 sidebar: sidebar 
-keywords: upgrade EF300 HIC, upgrade EF600 HIC, increase host ports, change host protocol 
+keywords: EF600, EF300, EF300C, EF600C, upgrade HIC, upgrade HIC, increase host ports, change host protocol 
 summary: 'HIC(호스트 인터페이스 카드)를 업그레이드하여 호스트 포트 수를 늘리거나 호스트 프로토콜을 변경할 수 있습니다.' 
 ---
 = EF300 또는 EF600 호스트 인터페이스 카드(HIC) 업그레이드
@@ -16,7 +16,7 @@ summary: 'HIC(호스트 인터페이스 카드)를 업그레이드하여 호스�
 
 .이 작업에 대해
 * HIC를 업그레이드할 때는 스토리지 어레이의 전원을 끄고 HIC를 업그레이드한 다음 전원을 다시 적용해야 합니다.
-* EF300 또는 EF600 컨트롤러에서 HIC를 업그레이드할 때 모든 단계를 반복하여 두 번째 컨트롤러를 제거하고, 두 번째 컨트롤러의 HIC를 업그레이드한 다음, 컨트롤러 쉘프에 전원을 다시 설치하기 전에 두 번째 컨트롤러를 다시 설치합니다.
+* EF300, EF600, EF300C 또는 EF600C 컨트롤러에서 HIC를 업그레이드할 경우 모든 단계를 반복하여 두 번째 컨트롤러를 제거하고 두 번째 컨트롤러의 HIC를 업그레이드한 다음 두 번째 컨트롤러를 다시 설치한 다음 컨트롤러 쉘프에 전원을 다시 적용합니다.
 
 
 .시작하기 전에

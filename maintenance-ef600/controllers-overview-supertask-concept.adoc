@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/controllers-overview-supertask-concept.html 
 sidebar: sidebar 
-keywords: replace EF300 controller, replace EF600 controller, 
+keywords: replace controller, EF300, EF600, EF300C, EF600C 
 summary: EF300 또는 EF600 컨트롤러 교체에 대한 요구사항 및 고려사항 
 ---
 = EF300 또는 EF600 컨트롤러 교체 요구사항
@@ -11,7 +11,7 @@ summary: EF300 또는 EF600 컨트롤러 교체에 대한 요구사항 및 고�
 
 
 [role="lead"]
-EF300 또는 EF600 컨트롤러를 교체하기 전에 요구사항 및 고려 사항을 검토하십시오.
+EF300을 교체하기 전, EF600을 교체하세요. EF300C 또는 EF600C 컨트롤러가 요구 사항과 고려 사항을 검토합니다.
 
 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 SANtricity 시스템 관리자 기능을 구현합니다.
 

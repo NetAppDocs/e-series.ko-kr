@@ -1,7 +1,7 @@
 ---
 permalink: install-hw-ef600/power-controller-shelves-task.html 
 sidebar: sidebar 
-keywords: EF300, EF600, installation, power on, power cables 
+keywords: EF300, EF600, EF300C, EF600C, installation, power on, power cables 
 summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
 ---
 = 컨트롤러 쉘프의 전원을 켭니다

@@ -1,7 +1,7 @@
 ---
 permalink: getting-started/index.html 
 sidebar: sidebar 
-keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, 
+keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, E4000, EF300C, EF600C 
 summary: 이 사이트에는 특정 E-Series 릴리즈, 모델, 구성 요소에 대한 정보가 포함되어 있습니다. 
 ---
 = 이 사이트에 포함된 내용
@@ -22,7 +22,7 @@ summary: 이 사이트에는 특정 E-Series 릴리즈, 모델, 구성 요소에
 
 * * SANtricity 소프트웨어 * -- 버전 11.50 이상.
 * * 컨트롤러 펌웨어 * -- 버전 8.50 이상.
-* * 컨트롤러 유형 * -- 모든 E4000, E2800, EF280, EF300, E5700, EF570 및 EF600 모델
+* * 컨트롤러 유형 * - 모든 E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300, EF600C 및 EF300C 모델
 * * 인터페이스 유형 * -- 파이버 채널, iSCSI, iSER, SAS 및 NVMe
 * * 호스트에 설치된 운영 체제 * -- Linux, VMware 및 Windows.
 +

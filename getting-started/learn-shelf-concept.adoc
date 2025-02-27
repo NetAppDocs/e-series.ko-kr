@@ -58,7 +58,7 @@ image:../media/de460c.gif["DE460C"]
 
 * 2u24(랙 유닛 2개, 드라이브 24개)
 * 2.5인치 NVMe SSD 드라이브
-* EF300 및 EF600 컨트롤러
+* EF300, EF600. EF300C 및 EF600C 컨트롤러
 
  a| 
 image:../media/ne224.gif["NE224를 참조하십시오"]

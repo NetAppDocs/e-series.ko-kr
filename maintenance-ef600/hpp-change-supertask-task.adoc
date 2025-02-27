@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/hpp-change-supertask-task.html 
 sidebar: sidebar 
-keywords: host protocol change, EF300 host protocol, EF600 host protocol 
+keywords: host protocol change, EF300, EF600, EF600C, EF300C 
 summary: EF300 또는 EF600 어레이에 대한 호스트 포트 프로토콜을 변경합니다. 
 ---
 = EF300 또는 EF600의 호스트 프로토콜 변경
@@ -12,7 +12,7 @@ summary: EF300 또는 EF600 어레이에 대한 호스트 포트 프로토콜을
 
 
 [role="lead"]
-EF300 또는 EF600 어레이에서 호스트 포트 프로토콜을 변경하려면 다음 절차를 따르십시오. 이 절차는 Infiniband(IB) 또는 파이버 채널(FC)을 사용하는 호스트 인터페이스 카드(HIC)에만 적용됩니다.
+EF300, EF600, EF300C 또는 EF600C 어레이에서 호스트 포트 프로토콜을 변경하려면 다음 절차를 따르십시오. 이 절차는 Infiniband(IB) 또는 파이버 채널(FC)을 사용하는 호스트 인터페이스 카드(HIC)에만 적용됩니다.
 
 
 

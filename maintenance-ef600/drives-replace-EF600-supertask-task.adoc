@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/drives-replace-EF600-supertask-task.html 
 sidebar: sidebar 
-keywords: replace EF300 DIMM, replace EF600 DIMM, drive failure 
+keywords: EF600, EF600C replace DIMM, drive failure 
 summary: EF600 어레이에서 드라이브 교체 
 ---
 = EF600 어레이에서 드라이브 교체
@@ -11,7 +11,7 @@ summary: EF600 어레이에서 드라이브 교체
 
 
 [role="lead"]
-EF600 어레이에서 드라이브를 교체할 수 있습니다.
+EF600 또는 EF600C 어레이에서 드라이브를 교체할 수 있습니다.
 
 .이 작업에 대해
 SANtricity 시스템 관리자의 Recovery Guru는 스토리지 어레이의 드라이브를 모니터링하여 드라이브 오류가 임박한 경우 또는 실제 드라이브 장애를 알려줍니다. 드라이브에 오류가 발생하면 황색 주의 LED가 켜집니다. 스토리지 배열이 I/O를 수신하는 동안 오류가 발생한 드라이브를 핫 스왑할 수 있습니다

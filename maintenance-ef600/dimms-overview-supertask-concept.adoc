@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/dimms-overview-supertask-concept.html 
 sidebar: sidebar 
-keywords: replace EF300 DIMM, replace EF600 DIMM, 
+keywords: EF300, EF600, replace DIMM, EF300C, EF600C 
 summary: EF300 또는 EF600 DIMM을 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오. 
 ---
 = EF300 또는 EF600 DIMM 교체 요구사항
@@ -11,9 +11,9 @@ summary: EF300 또는 EF600 DIMM을 교체하기 전에 요구 사항 및 고려
 
 
 [role="lead"]
-EF300 또는 EF600 스토리지 어레이에서 DIMM을 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오.
+EF300, EF600, EF600C 또는 EF300C 스토리지 어레이에서 DIMM을 교체하기 전에 요구사항과 고려 사항을 검토하십시오.
 
-메모리 불일치가 있거나 DIMM에 결함이 있는 경우 DIMM을 교체해야 합니다. 올바른 DIMM 크기를 교체할 수 있도록 EF300 또는 EF600 컨트롤러 구성을 확인하십시오.
+메모리 불일치가 있거나 DIMM에 결함이 있는 경우 DIMM을 교체해야 합니다. EF300, EF600, EF300C 또는 EF600C 컨트롤러의 구성을 확인하여 올바른 DIMM 크기가 교체되는지 확인하십시오.
 
 
 CAUTION: 스토리지 배열의 DIMM은 충격에 약하므로 잘못 다룰 경우 손상될 수 있습니다.

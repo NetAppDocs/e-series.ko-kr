@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/dimms-replace-supertask-task.html 
 sidebar: sidebar 
-keywords: replace EF300 DIMM, replace EF600 DIMM 
+keywords: EF300, EF600, EF300C, EF600C, replace DIMM 
 summary: EF300 또는 EF600 어레이에서 DIMM 교체 
 ---
 = EF300 또는 EF600의 DIMM을 교체합니다
@@ -12,7 +12,7 @@ summary: EF300 또는 EF600 어레이에서 DIMM 교체
 
 
 [role="lead"]
-EF300 또는 EF600 어레이에서 DIMM을 교체할 수 있습니다.
+EF300, EF600, EF300C 또는 EF600C 어레이에서 DIMM을 교체할 수 있습니다.
 
 .이 작업에 대해
 DIMM을 교체하려면 컨트롤러의 캐시 크기를 확인하고, 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 제거하고, DIMM을 제거하고, 새 DIMM을 컨트롤러에 설치해야 합니다. 그런 다음 컨트롤러를 다시 온라인 상태로 전환하고 스토리지 어레이가 제대로 작동하는지 확인할 수 있습니다.

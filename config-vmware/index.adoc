@@ -39,7 +39,7 @@ summary: E-Series 시스템이 있는 VMware 호스트의 Express 구성을 사�
 * https://kb.netapp.com/["NetApp 기술 자료"^] (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.
 * http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] NetApp에서 지정한 표준 및 요구사항을 충족하는 NetApp 제품 및 구성요소 구성을 검색할 수 있습니다.
 * https://www.netapp.com/pdf.html?item=/media/17017-tr4789pdf.pdf["E-Series SANtricity iSCSI와 ESXi 6.X의 통합에 대한 VMware 구성 가이드"^] -- VMware와의 iSCSI 통합에 대한 기술 정보를 제공합니다.
-* https://configmax.vmware.com/home["VMware 구성 최대값"^] ESX/ESXi가 지원하는 허용된 최대 한도 내에서 가상 및 물리적 스토리지를 구성하는 방법에 대해 설명합니다.
+* https://configmax.broadcom.com/home["VMware 구성 최대값"^] -- ESX/ESXi가 지원하는 최대 한도 내에서 가상 및 물리적 스토리지를 구성하는 방법에 대해 설명합니다.
 * https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-9AEE5F4D-0CB8-4355-BF89-BB61C5F30C70.html["VMware NVMe 스토리지의 요구사항 및 제한사항"^].
 * https://docs.vmware.com/en/VMware-vSphere/index.html["VMware vSphere 설명서"^] ESXi vCenter Server 설명서를 제공합니다.
 

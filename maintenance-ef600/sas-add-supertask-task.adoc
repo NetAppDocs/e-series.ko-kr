@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/sas-add-supertask-task.html 
 sidebar: sidebar 
-keywords: replace EF300 SAS expansion card, replacing SAS card, drive tray expansion, expansion card 
+keywords: replace SAS expansion card, replacing SAS card, drive tray expansion, expansion card, EF300C, EF600C, EF300, EF600 
 summary: 드라이브 트레이를 확장할 수 있도록 SAS 확장 카드를 EF300 컨트롤러에 추가합니다. 
 ---
 = EF300 및 EF600에 SAS 확장 카드 추가
@@ -12,7 +12,7 @@ summary: 드라이브 트레이를 확장할 수 있도록 SAS 확장 카드를 
 
 
 [role="lead"]
-드라이브 트레이 확장을 위해 EF300 또는 EF600 컨트롤러에 SAS 확장 카드를 추가할 수 있습니다.
+SAS 확장 카드를 EF300, EF600, EF300C, EF600C 컨트롤러에 추가하여 드라이브 트레이를 확장할 수 있습니다.
 
 .이 작업에 대해
 SAS 확장 카드를 추가할 경우 스토리지 어레이의 전원을 끄고 새 SAS 확장 카드를 설치한 다음 전원을 다시 연결해야 합니다.

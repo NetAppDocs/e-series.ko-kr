@@ -1,7 +1,7 @@
 ---
 permalink: maintenance-ef600/fans-overview-requirements-replacing2-concept.html 
 sidebar: sidebar 
-keywords: replace EF300 fan, replace EF600 fan, 
+keywords: EF300, EF600, EF300C, EF600C replace fan, 
 summary: EF300 또는 EF600 팬을 교체하기 전에 요구사항 및 고려 사항을 검토하십시오. 
 ---
 = EF300 또는 EF600 팬 교체에 대한 요구사항
@@ -11,7 +11,7 @@ summary: EF300 또는 EF600 팬을 교체하기 전에 요구사항 및 고려 �
 
 
 [role="lead"]
-EF300 또는 EF600 어레이에서 장애가 발생한 팬을 교체하기 전에 다음 요구사항을 검토하십시오.
+EF300, EF600, EF300C 또는 EF600C 어레이에서 장애가 발생한 팬을 교체하기 전에 다음 요구사항을 검토하십시오.
 
 * 컨트롤러 쉘프 또는 드라이브 쉘프 모델에서 지원되는 대체 팬이 있습니다.
 * ESD 밴드를 가지고 있거나 다른 정전기 방지 예방 조치를 취했습니다.

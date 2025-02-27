@@ -1,7 +1,7 @@
 ---
 permalink: install-hw-ef600/prepare-for-install-task.html 
 sidebar: sidebar 
-keywords: EF300, EF600, installation, create account, register hardware 
+keywords: EF300, EF600, EF300C, EF600C, installation, create account, register hardware 
 summary: EF300 또는 EF600을 설치하려면 계정을 생성하고 하드웨어를 등록하십시오. 
 ---
 = 설치 준비
@@ -11,7 +11,7 @@ summary: EF300 또는 EF600을 설치하려면 계정을 생성하고 하드웨�
 
 
 [role="lead"]
-EF300 또는 EF600 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.
+EF300, EF600, EF300C 또는 EF600C 시리즈 스토리지 시스템의 설치 준비를 하는 방법에 대해 알아보십시오.
 
 .시작하기 전에
 SAS 확장을 위해 EF300을 케이블로 연결하는 경우 다음 정보를 검토하십시오.
