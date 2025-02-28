@@ -1264,9 +1264,6 @@
   <block id="ba00ed6645f6f61df5121b8522a892a6" category="paragraph">호스트를 컨트롤러에 직접 연결하거나(직접 연결 토폴로지) 스위치(스위치 토폴로지)를 사용하여 호스트를 컨트롤러에 연결할 수 있습니다.</block>
   <block id="adfce61987579370b99617a05cdb796d" category="section-title">직접 연결 토폴로지의 케이블 연결</block>
   <block id="5b4c9deaadbde82584c00c9a4b53caa3" category="paragraph">직접 연결 토폴로지는 호스트 어댑터를 스토리지 시스템의 컨트롤러에 직접 연결합니다.</block>
-  <block id="c06fc8a512ed8b80d194c0da0a6684c3" category="paragraph">다음 그림에서는 연결 예를 보여 줍니다. 최대 성능을 보장하려면 사용 가능한 모든 호스트 어댑터 포트를 사용하십시오.</block>
-  <block id="860c8d8991038a1aa365aeb7a602e700" category="image-title">호스트 2개 및 컨트롤러 2개</block>
-  <block id="5657524a813a7a96374170f5c9d4e577" category="paragraph">* (1) * _ 각 호스트 어댑터 포트를 컨트롤러의 호스트 포트에 직접 연결합니다. _</block>
   <block id="0b26276cf7e580bcffb9356cffc5beb3" category="section-title">스위치 토폴로지의 케이블 연결</block>
   <block id="ff3742d36338fb61499d562cd3e0228f" category="paragraph">스위치 토폴로지는 스위치를 사용하여 스토리지 시스템의 컨트롤러에 호스트를 연결합니다. 스위치는 호스트와 컨트롤러 사이에 사용되는 연결 유형을 지원해야 합니다.</block>
   <block id="2d057e5ead6a8fb0ff410d15d34dcdb3" category="paragraph">다음 그림에서는 연결 예를 보여 줍니다. 프로비저닝 기능을 제공하는 스위치의 경우 각 이니시에이터와 타겟 쌍을 격리해야 합니다.</block>
@@ -3979,7 +3976,6 @@
   <block id="401d2a131f9727761f1407aca186c35a" category="paragraph">SHH-TA5-ZZYHS</block>
   <block id="c8bb878843cfc619e78e60f6997e3e30" category="admonition">컨트롤러 하위 모델 ID가 목록에 없으면 에 문의하십시오<block ref="4ce7a3cde07b85b80ee4fe046584534d" category="inline-link-rx"></block>.</block>
   <block id="8fc48164adaa0cce79cc215fef244e00" category="list-text">섀시 일련 번호</block>
-  <block id="8de24a1721d0c0fb0c39756c86d1e5da" category="list-text">기능 활성화 식별자 참고: 프리미엄 기능 활성화 웹 사이트에는 ""프리미엄 기능 활성화 지침" 링크가 포함되어 있습니다. 이 절차에 이러한 지침을 사용하지 마십시오.</block>
   <block id="31a599b44c93cb34f76edd48160898be" category="section-title">2단계: 호스트 I/O 중지</block>
   <block id="c09719b9c164ac95eda10fbee1bb4658" category="paragraph">호스트 포트의 프로토콜을 변환하기 전에 호스트에서 모든 입출력 작업을 중지합니다.</block>
   <block id="a1b7af0f21ad6f7da3f61feb2a734667" category="paragraph">변환을 완료할 때까지 스토리지 배열의 데이터에 액세스할 수 없습니다.</block>
@@ -5019,7 +5015,6 @@
   <block id="8c4bd0c1a96bcaf797782a18b54daf7a" category="list-text"><block ref="8640eb68a955f6f5591f0dd1a3bd30e7" category="inline-xref-macro-rx"></block></block>
   <block id="df8c85065effb5093bcc1889495b92f7" category="section-title">내부 키 관리</block>
   <block id="8f0439a6f042ce457ec5d5faf91c28ea" category="paragraph">모든 드라이브가 잠겨 있을 때 내부 키 관리를 위해 다음 단계를 수행하십시오.</block>
-  <block id="e55e81df495444ffb2639e3a7f9ef86e" category="admonition">관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 사용해 봅니다. + Ctrl A 포트 1: 192.168.128.101 + Ctrl A 포트 2: 192.168.128.102 + Ctrl 포트 1: 192.168.129.101 + Ctrl B 포트 2: 192.168.129.102</block>
   <block id="02626834a548b28e809c79cc3246fbf9" category="paragraph">컨트롤러는 드라이브의 자동 코드 동기화 프로세스를 계속 수행하고 재부팅합니다. 재부팅 후 컨트롤러는 원래 IP 구성을 통해 액세스할 수 있습니다.</block>
   <block id="370c6dde461cc5827c330619a80ca24b" category="section-title">외부 키 관리</block>
   <block id="9208cd3893f8fbd0715f391ac0195354" category="paragraph">모든 드라이브가 잠겨 있을 때 외부 키 관리를 위해 다음 단계를 수행하십시오.</block>
@@ -5995,7 +5990,6 @@
   <block id="e9bca9e6b8ba7a48330d28818e51fa42" category="list-text">* 컨트롤러 NVSRAM * -- 컨트롤러 NVSRAM은 컨트롤러의 기본 설정을 지정하는 컨트롤러 파일입니다. NVSRAM 업그레이드 지침은 컨트롤러 업그레이드 지침과 함께 제공됩니다.</block>
   <block id="fdf816b9ac642abd689fd8ace0784e27" category="list-text">* 드라이브 펌웨어 * -- 참조 <block ref="44cf75faaf9d0b93b6ab0672c27e324d" category="inline-link-macro-rx"></block> 을 참조하십시오.</block>
   <block id="3165318c5aca56aaa4c1430b7938435e" category="list-text">* 다중 경로/장애 조치 드라이버 * -- 업그레이드 프로세스의 일부로 호스트의 다중 경로/장애 조치 드라이버도 업그레이드해야 호스트가 컨트롤러와 올바르게 상호 작용할 수 있습니다. Microsoft Windows 이외의 운영 체제를 실행하는 호스트에서 스토리지 시스템에 대한 I/O 연결이 있으면 해당 호스트의 다중 경로 드라이버를 업그레이드합니다. 호환성 정보는 을 참조하십시오<block ref="a3e2ed1651134ba8d782e5dc8287cbc1" category="inline-link-rx"></block>. 업그레이드 지침은 을 참조하십시오 <block ref="584ba4e1f9de8bb64deb26d3ff20be27" category="inline-link-macro-rx"></block>, <block ref="2cd2251585c7977d833c133e2d86f6ab" category="inline-link-macro-rx"></block>, 또는 <block ref="52cf6d66e3232b062c766727a3dc70bb" category="inline-link-macro-rx"></block>.</block>
-  <block id="a573c59164533ab1f5f929a3f6fc773a" category="list-text">* SANtricity Unified Manager * -- Unified Manager는 E2800, E5700, EF300, EF600 모델을 비롯한 여러 스토리지 시스템을 관리하는 소프트웨어입니다. Unified Manager는 SANtricity 웹 서비스 프록시의 일부로, 호스트 시스템에 별도로 설치되는 RESTful API 서버로, 수백 개의 새로운 기존 NetApp E-Series 스토리지 시스템을 관리합니다. 자세한 내용은 을 참조하십시오 <block ref="c92032fad30345308610610a1d1083db" category="inline-link-macro-rx"></block>.</block>
   <block id="4ee891d0ff1650fa6825828fa1b6c6d3" category="list-text">유틸리티* -- 다른 관리 유틸리티는 SANtricity Windows 호스트 유틸리티, SANtricity Linux 호스트 유틸리티 및 SANtricity Windows DSM과 같은 별도의 업그레이드가 필요합니다. 이러한 유틸리티에 대한 자세한 내용은 를 참조하십시오 <block ref="584ba4e1f9de8bb64deb26d3ff20be27" category="inline-link-macro-rx"></block>, <block ref="2cd2251585c7977d833c133e2d86f6ab" category="inline-link-macro-rx"></block>, 또는 <block ref="52cf6d66e3232b062c766727a3dc70bb" category="inline-link-macro-rx"></block>.</block>
   <block id="076ca2f85d1676972e577d65bc826cc1" category="list-text">* 레거시 시스템 * -- 스토리지 시스템이 이전 스토리지 시스템을 포함하는 스토리지 네트워크의 일부인 경우 기존 SANtricity 스토리지 관리자 엔터프라이즈 관리 창(EMW)을 사용하여 모든 스토리지 시스템에 대한 엔터프라이즈 보기를 제공해야 할 수 있습니다. 이 경우 SANtricity 스토리지 관리자의 최신 유지 관리 릴리스가 있는지 확인합니다.</block>
   <block id="06746f611c63e10213aac3b7dcbd69bd" category="section-title">이중 컨트롤러 및 I/O 처리</block>
@@ -8141,15 +8135,7 @@
   <block id="cfbb469ee896c6d8312eac3cd3f10e34" category="paragraph">새로 바꾼 컨트롤러는 * L5 * 의 7세그먼트 디스플레이 코드로 잠깁니다. 이 잠금은 드라이브가 자동 모드 동기화(ACS)를 수행할 수 없을 때 발생합니다. 보안 키를 가져오면 ACS가 새 컨트롤러를 다시 시작하고 업데이트합니다.</block>
   <block id="3ed7bb77bb34146d7096e92088802232" category="list-text">스토리지 어레이와 SANtricity 클라이언트의 랩톱 또는 PC 간에 직접 전용 이더넷을 연결합니다. 방법:</block>
   <block id="c305cf92456cd4decb6725b96d759b94" category="list-text">RJ45 이더넷 케이블을 사용하여 랩톱을 컨트롤러 A의 관리 포트 1에 연결합니다</block>
-  <block id="e770dd108a378a501b36f5bbae01f82a" category="list-text">연결을 완료하려면 랩톱을 컨트롤러 A와 동일한 서브넷에 있는 IP 주소에 할당해야 할 수 있습니다 컨트롤러를 잠글 때 컨트롤러 A의 관리 주소는 기본적으로 192.168.128.101입니다. 따라서 랩톱을 "192.168.128.201"과 같은 서브넷에 할당할 수 있습니다.</block>
-  <block id="9d74567b7f3c3f33bbc54f827296074f" category="list-text">username * admin * 과 패스워드가 비어 있는 IP 주소 192.168.128.101을 사용하여 을 사용하여 내부 키를 가져옵니다<block ref="a6f8118712fc2bcbe8cc4a0df3d41e92" prefix=" " category="inline-code"></block> 에서 보안 키를 저장한 상태에서 CLI 명령을 실행합니다 <block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block>. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오<block ref="26a74644087a8cc4596955787ae55f1d" category="inline-link-rx"></block>.</block>
   <block id="fb86a1495e405ddd56a3a1c076f876aa" category="paragraph">또는 다음 호출을 통해 REST API를 통해 내부 키를 가져올 수 있습니다.<block ref="758036d11568492285b8504fb55d4d9f" prefix=" " category="inline-code"></block></block>
-  <block id="7b9f327d01db82c07c36d41b777ae840" category="admonition">클라이언트 및 서버 인증서를 검색하려면 스토리지 배열이 최적 상태여야 합니다. 인증서를 검색할 수 없는 경우 새 인증서 서명 요청(CSR)을 생성한 다음 외부 키 관리 서버에서 서버 인증서를 가져와야 합니다.</block>
-  <block id="4bbb422ffd22264952cbb6eeeda41faa" category="list-text">사용자 이름 * admin * 과 비밀번호 공백으로 기본 IP 주소 192.168.128.101을 사용하여 를 사용하여 외부 키 관리 서버를 설정합니다<block ref="15b894b6e4c06871df1e10de89d60168" prefix=" " category="inline-code"></block> 명령을 사용하여 를 제공합니다<block ref="836c673259e51101a01e755a34f97359" prefix=" " category="inline-code"></block> 및<block ref="83fdf6a03b86c7990e1460cdc7d81dd1" prefix=" " category="inline-code"></block> 에서 저장되었습니다 <block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block>. 이 명령 사용에 대한 자세한 내용은 를 참조하십시오<block ref="26a74644087a8cc4596955787ae55f1d" category="inline-link-rx"></block>.</block>
-  <block id="781b6e9f0e82576c9634ecfe8a61f455" category="paragraph">또는 다음 호출을 통해 REST API를 통해 외부 키 관리 서버를 설정할 수 있습니다.<block ref="03e0d1fcf5a43cf1714fcbfa1f856800" prefix=" " category="inline-code"></block></block>
-  <block id="157bc9956975fd17471f6bdcb9f966ee" category="list-text">사용자 이름 * admin * 과 비어 있는 암호를 사용하여 기본 IP 주소 192.168.128.101을 사용하여 인증서를 가져옵니다<block ref="872d2d44d951f842ae2823eb6febd102" prefix=" " category="inline-code"></block> CLI 명령: 클라이언트 인증서에 대해 한 번, 서버 인증서에 대해 두 번째.</block>
-  <block id="ebf132debe07a5cd0bc888dd5078033d" category="paragraph">또는 다음 호출을 통해 REST API를 통해 키서버 인증서를 가져올 수 있습니다.<block ref="640677ffae20a0401b505d0de933e391" prefix=" " category="inline-code"></block></block>
-  <block id="bc2848514b39d7125ea7f1e0192ff80f" category="list-text">에서 저장된 보안 키를 사용합니다 <block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block>에서 외부 키를 사용자 이름 * admin * 과 빈 암호를 사용하여 IP 주소 192.168.128.101로 가져옵니다.</block>
   <block id="4097f6992eb560447325a703f31e2270" category="paragraph">또는 다음 호출을 통해 REST API를 통해 외부 키를 가져올 수 있습니다.<block ref="758036d11568492285b8504fb55d4d9f" prefix=" " category="inline-code"></block></block>
   <block id="dfcfc178d6edc54d8706c59b747948d5" category="list-text">를 설치합니다<block ref="3b13fc847651d5be5c89aeab4722c099" prefix=" " category="inline-code"></block> 운영 체제의 패키지 관리 명령을 사용하여 패키지를 만듭니다.</block>
   <block id="79c617afe97932f20f52d1217736d403" category="list-text">이름이 인 시스템 서비스 유닛 파일을 생성합니다<block ref="6bddfc9da80e7ef0195a324214877004" prefix=" " category="inline-code"></block>.</block>
@@ -8202,7 +8188,6 @@
   <block id="da4eb5c5c70275ba4c87430e9eb2caa1" category="paragraph">RO(기존 스토리지의 경우)</block>
   <block id="520ae3e14dc7dcddbce514f73ae5f9c9" category="doc">웹 서비스 프록시 파일을 설치하거나 업그레이드합니다</block>
   <block id="f036aa96cb85f83dc2dad71a70ca9ab9" category="paragraph">설치에는 파일을 다운로드한 다음 Linux 또는 Windows 서버에 프록시 패키지를 설치하는 과정이 포함됩니다. 이 지침을 사용하여 프록시를 업그레이드할 수도 있습니다.</block>
-  <block id="9ab5a43912057c3f252ae0aa5ffafa08" category="paragraph">컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 통해 다음 드라이브 지원</block>
   <block id="d7873c5a31e9fb583fb911435316e255" category="list-text">NVMe SSD 드라이브: 컨트롤러 쉘프에 최대 24개의 NVMe SSD 드라이브 장착 가능</block>
   <block id="99017918290ad98fceaa8544139404ea" category="list-text">NL-SAS 드라이브 및 확장 셸프: DE212C 및 DE460C 셸프의 혼합은 DE212C 쉘프만 사용하지 않는 한 총 240개의 NL-SAS 드라이브 슬롯과 4개의 확장 셸프를 초과할 수 없으며, 8개의 DE212C 쉘프가 허용됩니다. 예를 들어, DE460C 쉘프 4개, DE212C 쉘프 8개, DE460C 쉘프 2개, 쉘프 2개 등 쉘프 2개.</block>
   <block id="f7bdca5a10b1a8a32a0410aa51cc3658" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 4개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개.</block>
@@ -8317,7 +8302,6 @@
   <block id="a5ff5d8396bab4e857d616fc9fa06b26" category="list-title">필요한 것</block>
   <block id="75014b540a900a20abf83a06a6f23acc" category="paragraph">다음을 수행하십시오.</block>
   <block id="d51a879a95a1f1b04438a7e672254378" category="list-text">Microsoft Edge(90 이상)</block>
-  <block id="dae6baa86f1f6e4135f2552862c8b191" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 7개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개</block>
   <block id="70a5ac954926edc08c5f6fc4c248a4a6" category="section-title">SANtricity 릴리스 11.7</block>
   <block id="f7b52729af7c7aa177e09390f0afd194" category="list-text"><block ref="f7b52729af7c7aa177e09390f0afd194" category="inline-link-rx"></block></block>
   <block id="797222f106ff986b71e9f972dd342bc3" category="list-text"><block ref="797222f106ff986b71e9f972dd342bc3" category="inline-link-rx"></block></block>
@@ -8328,7 +8312,6 @@
   <block id="2000cb1e7de82e823717ad308e491d64" category="list-text"><block ref="2000cb1e7de82e823717ad308e491d64" category="inline-link-macro-rx"></block></block>
   <block id="872316f2e40e5f7164acd94c4ac49c16" category="list-text"><block ref="872316f2e40e5f7164acd94c4ac49c16" category="inline-link-macro-rx"></block></block>
   <block id="7cac9f30e199e7ecb1c7454e8193ea25" category="inline-link">11.8x에 대한 SANtricity 시스템 관리자 온라인 도움말</block>
-  <block id="f96ffc1296cfb22e1010ea2a5c153c7d" category="list-text"><block ref="f96ffc1296cfb22e1010ea2a5c153c7d" category="inline-link-rx"></block></block>
   <block id="e310bf04394efde500bf9f4c81acb37c" category="inline-link">11.7배의 SANtricity 시스템 관리자 온라인 도움말</block>
   <block id="57ceabd1bd2acd18e97acd2a27a09688" category="list-text"><block ref="57ceabd1bd2acd18e97acd2a27a09688" category="inline-link-rx"></block></block>
   <block id="cf7b3313bd605518202463f0e3fe1b45" category="inline-link">11.6x용 SANtricity 시스템 관리자 온라인 도움말</block>
@@ -8389,7 +8372,6 @@
   <block id="d7ffc2406b2b1f56267e389dcea17d16" category="paragraph">이제 아무런 조치가 필요하지 않은 공칭 및 최대 온도 초과 이벤트에 대해 케이스 생성 플래그가 비활성화됩니다.</block>
   <block id="746cf185d12f5492055c99b5dda9119d" category="paragraph">0x1209 Mel 이벤트에 대해 활성화된 우선순위 케이스 생성 플래그</block>
   <block id="09c222edb73c49afd2e9ec9f75a2cd53" category="paragraph">이제 에 대한 케이스 생성 플래그가 생성됩니다<block ref="768a075a6d4dc734e5397ee50957d8d8" prefix=" " category="inline-code"></block> Mel 이벤트.</block>
-  <block id="11f16f90266e9e59b05bab98913c351d" category="admonition">SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600, 및 EF300 스토리지.</block>
   <block id="fad6f3761e69d291ccde3b2351a1c961" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
   <block id="cc1b53336ed5c926305dd7ad876ab1d2" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF600은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오.</block>
   <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
@@ -8424,10 +8406,6 @@
   <block id="e536634a787591dd23dbc618cd207ba6" category="paragraph">웹 서비스 프록시</block>
   <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 버전 6.1로 업데이트되었습니다.</block>
   <block id="c89b00da7202a9a153f3761208e9c04b" category="inline-link">TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드</block>
-  <block id="d94b2476c52b9269fb71e09f2c273b3f" category="paragraph">* 예: *<block ref="55629997c44d8d81fce2f6296c8a341d" prefix=" " category="inline-code"></block></block>
-  <block id="ecac0776d163be45b9926de55b835ec4" category="paragraph">* 예: *<block ref="2c35a6e97cb5b6b552dd737031188e4c" prefix=" " category="inline-code"></block></block>
-  <block id="8afb7a80484f4a0c97a4ca2b1dd4f7a9" category="paragraph">* 예 A: *<block ref="5f6fe0e54ad0da0581f1c921b9d0d2ce" prefix=" " category="inline-code"></block></block>
-  <block id="1f30cbc7228c9c1478541fac65592fdd" category="paragraph">* 예 B: *<block ref="ce9fafaa9a800b6d0168143573308013" prefix=" " category="inline-code"></block></block>
   <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="section-title">수동 호스트 생성</block>
   <block id="9a3eb00d2d24e24125d1dfecb99a47e1" category="paragraph">호스트를 생성하는 것은 스토리지 어레이가 호스트에 연결된 호스트를 파악하고 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다. 호스트를 수동으로 생성할 수 있습니다.</block>
   <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">운영 체제 특정 유틸리티(타사 공급업체에서 제공)를 실행한 다음 SMcli 명령을 실행합니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 볼륨 이름과 호스트 스토리지 배열 이름을 서로 연관시킵니다.</block>
@@ -8581,8 +8559,6 @@
   <block id="e63d49fe11023df550eb4a2b6be77e84" category="paragraph">컨트롤러 쉘프를 하나 이상의 12-드라이브 쉘프에 연결할 수 있습니다.</block>
   <block id="37684c22af451e0c6390d46e13acdfbf" category="image-alt">컨트롤러 쉘프 및 12-드라이브 쉘프</block>
   <block id="632ca86f36c69ae91aee0bebdff85617" category="admonition">EF300, EF600 및 E4000에는 대역 외 이더넷 관리 포트가 하나만 있습니다.</block>
-  <block id="f32b2376c6d50ab1fbf88f2ea80d04ed" category="image-alt">호스트 2개와 컨트롤러 2개 케이블 연결</block>
-  <block id="a9b737d914f22bddefbbd571f66e428a" category="admonition">E4000의 경우 호스트 포트 e0a 및 e0b에 연결합니다.</block>
   <block id="d2204ecb6283608047831fca303cc5c1" category="image-alt">호스트 2개와 스위치 2개를 케이블로 연결합니다</block>
   <block id="23d2013304f308363439909fd006bd4e" category="paragraph">E5724, EF570, E4012, E2812, E2824, EF280</block>
   <block id="6048408dac10f3e88fd732617c9d0ef5" category="paragraph">E4060, E2860, E5760</block>
@@ -8655,10 +8631,8 @@
   <block id="7b875024c467f9ec81be78fd845e34d3" category="doc">스토리지 시스템 설치 완료(E4012)</block>
   <block id="9388df48e85777aba8981c9e79739824" category="inline-image-macro">E4012 직접 토폴로지, 폭 = 1000px</block>
   <block id="9dcbe6d474a3385e1258eeebe1d96cfa" category="paragraph"><block ref="9dcbe6d474a3385e1258eeebe1d96cfa" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="605b7ce026d54baac2f33c8eee6e4572" category="list-text">확장 쉘프를 설치하지 않은 경우 각 호스트 어댑터를 컨트롤러의 호스트 포트 e0a 및 e0b에 직접 연결합니다.</block>
   <block id="e5115f367ddc4b23f2a5a9dce410d220" category="inline-image-macro">E4012 Fabric 토폴로지, 폭 = 1000px</block>
   <block id="fe5422a7f743c4750aa826cb030729eb" category="paragraph"><block ref="fe5422a7f743c4750aa826cb030729eb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="643f201ee98aff8102118f79400d167d" category="list-text">각 스위치를 컨트롤러의 호스트 포트 e0a 및 e0b에 직접 연결합니다.</block>
   <block id="2f998d3759a46f941c16045d05799b20" category="inline-image-macro">E4000 컨트롤러 관리 포트</block>
   <block id="419c5b2edef00ba85d62682d5ff0138c" category="paragraph"><block ref="419c5b2edef00ba85d62682d5ff0138c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f530fae0a98563bf22e6ee7a23163588" category="list-text">브라우저의 지침에 따라 SANtricity System Manager를 계속 진행합니다. 연결을 설정할 수 없는 경우 DHCP 서버로부터 네트워크 구성을 받지 않는지 확인합니다.</block>
@@ -8668,7 +8642,6 @@
   <block id="33013c1fc439b91737e74be863a12160" category="doc">스토리지 시스템 설치 완료(E4060)</block>
   <block id="ed82e034d7d377cc12aa1d89cea33d43" category="inline-image-macro">E4060 직접 토폴로지, 폭 = 1000px</block>
   <block id="98e6536dfa926f6bd4a1900657c27282" category="paragraph"><block ref="98e6536dfa926f6bd4a1900657c27282" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="895ec80e8ba95818a8a89dfffdc5f62b" category="list-text">각 호스트 어댑터를 컨트롤러의 호스트 포트 e0a 및 e0b에 직접 연결합니다.</block>
   <block id="427b3e2ab20960e704a22e39fbcda634" category="inline-image-macro">E4060 Fabric 토폴로지, 폭 = 1000px</block>
   <block id="72c6889744a45c86c32b640c76b2138a" category="paragraph"><block ref="72c6889744a45c86c32b640c76b2138a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="872d1df52706490eb75a1a60b57c747c" category="doc">케이블 연결(E4012)</block>
@@ -9387,7 +9360,6 @@
   <block id="eac74c5d17668cb0c341a5f18a69d72f" category="image-alt">웹 서비스 API 호출 다이어그램</block>
   <block id="95985e1a0f17b754899abdad9230ee3f" category="list-text">* 내장 * -- RESTful API 서버는 NetApp SANtricity 11.30 이상 버전을 실행하는 E2800/EF280 스토리지 시스템의 각 컨트롤러, SANtricity 11.40 이상 버전을 실행하는 E5700/EF570, SANtricity 11.60 이상 버전을 실행하는 EF300 또는 EF600, SANtricity 11.90 이상 버전을 실행하는 E4000의 각 컨트롤러에 내장되어 있습니다. 설치가 필요하지 않습니다.</block>
   <block id="72c3d75b0f0ad96704b8c5fc1e8252e5" category="image-alt">웹 서비스 프록시 개요</block>
-  <block id="d680389e96802ed400beaec0b7cba3a6" category="paragraph">다음 표에서는 E4000, EF300, EF600, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 최신 SANtricity OS 릴리즈의 새로운 기능에 대해 설명합니다.</block>
   <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">버전 11.90의 새로운 기능</block>
   <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">새로운 스토리지 시스템 모델 – E4000</block>
   <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">이 릴리스에는 E4000 저비용 스토리지 시스템이 도입되었습니다. E4000은 12개 및 60개의 드라이브와 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 지원합니다. 초기 릴리즈의 경우 지원되는 호스트 인터페이스 카드에는 iSCSI 및 Fibre Channel이 포함됩니다. E4000 스토리지 시스템 및 기타 E-Series 스토리지 시스템은 Unified Manager에서 보고 관리할 수 있습니다.</block>
@@ -9435,10 +9407,7 @@
   <block id="8a7e170acd5f2688800925b2b4a8d261" category="list-text"><block ref="537606410175a12a150f722cd71e55fb" category="inline-link-rx"></block> -- ESX/ESXi가 지원하는 최대 한도 내에서 가상 및 물리적 스토리지를 구성하는 방법에 대해 설명합니다.</block>
   <block id="d088dea69b1345c1729f1c0d46d8053d" category="list-text">* 컨트롤러 유형 * - 모든 E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300, EF600C 및 EF300C 모델</block>
   <block id="4720d0b863e013bea6899b10e0989bda" category="list-text">EF600C 시리즈 -- 미드레인지 All-Flash, All NVMe</block>
-  <block id="b9f7cef2dc8f05405c94daa2cb4fa6ae" category="list-text">EF300C 시리즈 -- 미드레인지 All-Flash, All NVMe</block>
   <block id="5ca6952c7c9ae5d4b8be61e6386f0222" category="open-title">EF300C 모델</block>
-  <block id="595f8cc3ac0c1f12a0f83c3b1dad7c19" category="list-text">30TB 및 60TB 용량 NVMe SSD 드라이브 지원</block>
-  <block id="f8a3ff8be0bd051ecc8c3ec31daa0195" category="admonition">SANtricity OS 11.80GA 이상의 경우 EF300은 기본 트레이에 드라이브가 없는 확장 쉘프 구성을 지원합니다 이 구성을 사용할 경우 시스템 전원을 켜기 전에 확장 쉘프 내에 드라이브가 장착되어 있고 기본 트레이에 올바르게 연결되어 있는지 확인하십시오. *</block>
   <block id="14a2fa7582e1084e3800dde50d8cde03" category="open-title">EF600C 모델</block>
   <block id="0db8edfb04068c99ae28246efebb6d4d" category="list-text">12gb SAS를 사용합니다</block>
   <block id="689052b8726f00a4623e9ada4d36af90" category="list-text">EF300, EF600. EF300C 및 EF600C 컨트롤러</block>
@@ -9478,4 +9447,52 @@
   <block id="7c4ed7bb875e7af6303e23e1e7df86c3" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 모두 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 및 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다.</block>
   <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000에서 12Gb SAS 인터페이스 지원</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="892b365a22314b2852ca18025911d1be" category="list-text">필요한 경우<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 명령을 실행하여 DSM 패키지 설치를 확인합니다.</block>
+  <block id="fb00ee175135cc78e49e873e41c6e6ad" category="admonition">명령을 실행하려면 MPIO 기능이 Windows 서버에 설치되어 있어야<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 합니다.</block>
+  <block id="5f3ab4e439fcf2e4683f430d57044b3a" category="inline-link">11.9x에 대한 SANtricity 시스템 관리자 온라인 도움말</block>
+  <block id="e51c0393968b3aeac9a8857a4efc2e03" category="list-text"><block ref="e51c0393968b3aeac9a8857a4efc2e03" category="inline-link-rx"></block></block>
+  <block id="25d302c40995ad55c0ad7701261d1310" category="list-text"><block ref="25d302c40995ad55c0ad7701261d1310" category="inline-link-rx"></block></block>
+  <block id="718416bdd384ea0f59ab3278846e588d" category="list-text">EF300C 시리즈 -- 엔트리 레벨 All-Flash, All NVMe</block>
+  <block id="2d782dd4047faa435e8a21598b64a8f9" category="admonition">SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600/EF600C 및 EF300/EF300C 어레이에서 모든 USB 포트가 비활성화됩니다.</block>
+  <block id="145e67dd5fe93c51c814f0945a64eadf" category="list-text">SAS 확장 카드 옵션을 지원하므로 SAS 확장 쉘프를 연결할 수 있습니다.</block>
+  <block id="d0becf074be26c6d978c288daba24ca4" category="list-text">컨트롤러당 하나의 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="346a8501979327018cc0ee11a3d0f1cf" category="list-text">30TB 또는 60TB 용량 NVMe SSD 드라이브 지원</block>
+  <block id="af501aae034a5ca029c9b2b363c0f07b" category="list-text">레거시 RAID 지원 없이 동적 디스크 풀용으로만 사용할 수 있습니다.</block>
+  <block id="1525ad0ecd8f2d9b577c446044aa629c" category="list-text">확장 쉘프 구성은 지원되지 않습니다.</block>
+  <block id="b571ba80794df2a8fca4803fbae00b53" category="list-text">시스템 부팅 중에 할당되지 않은 드라이브가 많을 경우 단일 디스크 풀이 자동으로 생성됩니다.</block>
+  <block id="538ff1eff5fd361d6f0b2adf6bbf0ed4" category="list-text">확장 쉘프가 포함된 SAS SSD 드라이브: DE212C, DE224C 및 DE460C 쉘프의 모든 혼합이 DE212C 쉘프만 사용하지 않는 한 총 96개의 SAS SSD 드라이브 슬롯 및 7개의 확장 쉘프를 초과할 수 없습니다. 따라서 DE212C 쉘프 8개가 허용됩니다. 예를 들어, DE460C 쉘프 1개 + DE224C 쉘프 1개 + DE212C 쉘프 1개 또는 DE224C 쉘프 4개 또는 DE212C 쉘프 8개.</block>
+  <block id="c80c70457709e71cfb1acdcad7d813f2" category="list-text">컨트롤러당 2개의 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="f68ca88c11d5a4dbeed850ba81248db6" category="list-text">또는 컨트롤러당 하나의 200Gb IB 호스트 인터페이스 카드 지원을 제공합니다.</block>
+  <block id="7a26624f7fb7a22e34a299b1cb6df6c1" category="list-text">SAS 확장은 컨트롤러당 하나의 호스트 인터페이스 카드가 있는 구성에서만 지원됩니다.</block>
+  <block id="f72413fb6640f9198331e4ddac42a1b4" category="paragraph">최대 성능을 보장하려면 사용 가능한 모든 호스트 어댑터 포트를 사용하십시오.</block>
+  <block id="599b309fb45a54aef0306d417582a4ad" category="paragraph-title">HBA가 2개인 호스트 1개</block>
+  <block id="547b769f7de7cea07ea8e1809f6b68e1" category="paragraph">다음 그림에서는 두 개의 HBA가 설치된 한 호스트의 예를 보여 줍니다.</block>
+  <block id="c2daf72836844565f5f371269f79e909" category="image-alt">호스트 1개/HBA 2개 및 컨트롤러 케이블 연결 2개</block>
+  <block id="15c64c1bde30a480800d35c9ca63702a" category="paragraph-title">HBA 2개가 있는 호스트 1개(대체 케이블 연결)</block>
+  <block id="0a189e49a12a656d00d97d420aceb46f" category="image-alt">호스트 1개/HBA 2개 및 컨트롤러 케이블 연결 2개(대체 케이블 연결)</block>
+  <block id="d31563f45b72dae0e523c10c401bb20d" category="paragraph-title">호스트당 2개의 HBA가 있는 호스트 2개</block>
+  <block id="a71c7f479c0caedb0629383f7ac5efeb" category="paragraph">다음 그림에서는 각각 두 개의 HBA가 설치된 두 호스트의 예를 보여 줍니다.</block>
+  <block id="de1ab736ca66f10e42336f12175adfbb" category="image-alt">호스트 2개/HBA 4개 및 컨트롤러 케이블 연결 2개</block>
+  <block id="9ccebbb91ae504287ed8c313aab6d4fa" category="admonition">컨트롤러의 왼쪽 하단(E1A, e1b, e1c, e1d)과 오른쪽 상단(e0a 및 e0b)에 있는 호스트 포트를 데이터 호스트 케이블에 사용할 수 있습니다.</block>
+  <block id="e6f073e83b4d2d59e85f27a8f76329ce" category="list-text">각 호스트 HBA 포트를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 연결합니다.</block>
+  <block id="b445e22177e0e8f24243dcf4b44a6b65" category="inline-link">호스트 케이블 연결</block>
+  <block id="ef3aa833ef985acdcdf1a9815ed086e2" category="admonition">케이블 연결 다이어그램의 추가 예는 를<block ref="ac6f2dcd3a5364bce3c8b8b61a1abdb1" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="b60f0a96b3917b423c024c47968b1e95" category="list-text">각 스위치를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 직접 연결합니다.</block>
+  <block id="26f63d2be4d7f427507e07522f2bc27e" category="list-text">HIC에 있는 세 개의 나비 나사를 손으로 조입니다.</block>
+  <block id="b561bc9ed41a67af832ede09e0c66855" category="list-text">* 액세스 볼륨을 사용한 대역 내 관리 *</block>
+  <block id="d95bb44a7a9bb7de3384211db9209371" category="list-text">E4000은 액세스 볼륨을 사용하는 대역내 관리를 지원하지 않습니다.</block>
+  <block id="3051db29d3e01aace9b71736b6906cb5" category="paragraph">E4000 컨트롤러로 업그레이드하기 전에 정의된 모든 호스트 및 호스트 클러스터에서 액세스 볼륨의 매핑을 해제합니다.</block>
+  <block id="d771f234da984ad1422ec8ffc796cf49" category="paragraph">고객 지원 센터에 문의하십시오.</block>
+  <block id="b8166fddcc8a9bc53fb34ba8b6b40c74" category="admonition">관리 포트 1을 사용하지 않는 경우 다른 기본 IP 주소를 사용해 봅니다. + Ctrl A 포트 1: 169.254.128.101 + Ctrl A 포트 2: 169.254.128.102 + Ctrl 포트 1: 169.254.128.101 + Ctrl B 포트 2: 169.254.128.102</block>
+  <block id="072d06a0d6f5c5e1085353a74332c241" category="list-text">연결을 완료하려면 랩톱을 컨트롤러 A와 동일한 서브넷의 IP 주소에 할당해야 할 수 있습니다. 컨트롤러 잠금 도중 컨트롤러 A는 기본적으로 관리 주소 169.254.128.101로 설정됩니다. 따라서 랩톱을 "169.254.128.201"과 같은 서브넷에 할당할 수 있습니다.</block>
+  <block id="71bde2f5f345db499289a50db32f08f7" category="list-text">USERNAME * admin * 과 패스워드가 비어 있는 IP 주소 169.254.128.101을 사용하고, 에서 보안 키가 저장된 CLI 명령을 사용하여 내부 키를<block ref="a6f8118712fc2bcbe8cc4a0df3d41e92" prefix=" " category="inline-code"></block><block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block> 가져옵니다. 이 명령 사용에 대한 자세한 내용은 를<block ref="26a74644087a8cc4596955787ae55f1d" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="49896b1b2fdda00188714463295ad34c" category="paragraph">* 예: *<block ref="9dfe80936c8f3826fa0f1b99e4a88b06" prefix=" " category="inline-code"></block></block>
+  <block id="31e27b7c3a23da037324302ef6196af9" category="list-text">에서 저장한 보안 키를 사용하여 <block ref="370683b601e29cfe5ec51edd9d49be09" category="inline-link-macro-rx"></block>사용자 이름 * admin * 과 암호가 비어 있는 상태로 외부 키를 IP 주소 169.254.128.101로 가져옵니다.</block>
+  <block id="c591c8c3a8e8fbcf4843d55451e5745e" category="list-text">(선택 사항) 필요한 경우 다음을 수행하여 드라이브를 다시 입력할 수 있습니다.</block>
+  <block id="0b9601abb9585618affd66f5798a16b2" category="paragraph">* 예: *<block ref="b77e774fa880afa2bd8c8ca91507d0ce" prefix=" " category="inline-code"></block></block>
+  <block id="73c97dd158942ee4b15d19f135952d89" category="list-text">* SANtricity Unified Manager * -- Unified Manager는 E4000, E2800, E5700, EF300, EF600 모델을 포함한 여러 스토리지 시스템을 관리하는 소프트웨어입니다. Unified Manager는 SANtricity 웹 서비스 프록시의 일부로, 호스트 시스템에 별도로 설치되는 RESTful API 서버로, 수백 개의 새로운 기존 NetApp E-Series 스토리지 시스템을 관리합니다. 자세한 내용은 을 <block ref="c92032fad30345308610610a1d1083db" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="e5a4c2aea29b525342429c88518c7f73" category="paragraph">다음 표에서는 E4000, EF300/EF300C, EF600/EF600C, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 최신 SANtricity OS 릴리즈의 새로운 기능에 대해 설명합니다.</block>
+  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">버전 11.90R1의 새로운 기능</block>
+  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.</block>
+  <block id="8af7f744c39ae6285a380b6eb402fcb2" category="paragraph">E4000 컨트롤러에서 12Gb SAS 인터페이스 지원</block>
 </blocks>

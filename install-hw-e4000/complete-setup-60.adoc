@@ -19,6 +19,9 @@ summary: 컨트롤러를 네트워크에 케이블로 연결하고 스토리지 
 
 네트워크 토폴로지에 따라 시스템에 케이블을 연결합니다.
 
+
+NOTE: 컨트롤러의 왼쪽 하단(E1A, e1b, e1c, e1d)과 오른쪽 상단(e0a 및 e0b)에 있는 호스트 포트를 데이터 호스트 케이블에 사용할 수 있습니다.
+
 [role="tabbed-block"]
 ====
 .옵션 1: 직접 연결 토폴로지
@@ -27,8 +30,11 @@ summary: 컨트롤러를 네트워크에 케이블로 연결하고 스토리지 
 
 image:../media/drw_e4060_direct_topology_ieops-2048.svg["E4060 직접 토폴로지, 폭 = 1000px"]
 
-. 각 호스트 어댑터를 컨트롤러의 호스트 포트 e0a 및 e0b에 직접 연결합니다.
+. 각 호스트 HBA 포트를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 연결합니다.
 
+
+
+NOTE: 케이블 연결 다이어그램의 추가 예는 를 https://docs.netapp.com/us-en/e-series/install-hw-cabling/host-cable-task.html#cabling-for-a-direct-attached-topology["호스트 케이블 연결"^]참조하십시오.
 
 --
 .옵션 2: Fabric 토폴로지
@@ -38,7 +44,7 @@ image:../media/drw_e4060_direct_topology_ieops-2048.svg["E4060 직접 토폴로�
 image:../media/drw_e4060_fabric_topology_ieops-2049.svg["E4060 Fabric 토폴로지, 폭 = 1000px"]
 
 . 각 호스트 어댑터를 스위치에 직접 연결합니다.
-. 각 스위치를 컨트롤러의 호스트 포트 e0a 및 e0b에 직접 연결합니다.
+. 각 스위치를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 직접 연결합니다.
 
 
 --
