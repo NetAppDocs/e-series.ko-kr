@@ -1393,7 +1393,6 @@
   <block id="aafac493f2e35b6f1c326279401ced51" category="paragraph">컨트롤러 쉘프를 하나 이상의 60-드라이브 쉘프에 연결할 수 있습니다.</block>
   <block id="9829150d11210fb5e6fc62e793db934e" category="section-title">컨트롤러 쉘프 및 60-드라이브 쉘프</block>
   <block id="be194456d89fce8d64ec33f6aacd608e" category="summary">E-Series 시스템은 단순하고 빠르며 안정적인 SAN 스토리지가 필요한 데이터 분석, 비디오 감시 및 디스크 기반 백업과 같은 전용 고대역폭 애플리케이션을 위한 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.</block>
-  <block id="d3852022ece859a54c514fe09a6eef63" category="summary">호스트 인터페이스 카드\(HIC\)는 컨트롤러 캐니스터 내에 선택적으로 설치할 수 있습니다. E5700 컨트롤러에는 컨트롤러 카드 자체에 내장된 호스트 포트와 HIC 옵션 중 호스트 포트가 포함되어 있습니다. 컨트롤러에 내장된 호스트 포트를 베이스보드 호스트 포트라고 합니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="bb8c12c938368d891c8a41b75b8dbff5" category="doc">호스트 인터페이스 카드</block>
   <block id="7a4a43ed3b8a4107c8b5916a80b9e5bf" category="paragraph">HIC(호스트 인터페이스 카드)는 컨트롤러 캐니스터 내에 선택적으로 설치할 수 있습니다. E5700 컨트롤러에는 컨트롤러 카드 자체에 내장된 호스트 포트와 HIC 옵션 중 호스트 포트가 포함되어 있습니다. 컨트롤러에 내장된 호스트 포트를 베이스보드 호스트 포트라고 합니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="b10f1122a2ac0ae08f749f3130b4f503" category="summary">E5700 컨트롤러 유형 및 요구사항 검토</block>
@@ -2313,7 +2312,6 @@
   <block id="c4ced9489374169918af91eed3c23af3" category="list-text">베이스보드 포트와 HIC 포트("슬롯 1" 레이블)에 대한 세부 정보를 검토하고 각 포트 유형에 원하는 프로토콜이 있는지 확인합니다.</block>
   <block id="58dc8f8b596835dda6ee537004b83559" category="inline-link-macro">호스트 프로토콜 변환을 완료합니다</block>
   <block id="7698e6f3e6142fc3c6d002cd43d50079" category="paragraph">로 이동합니다 <block ref="96616e2404f8fb711fbdc45541d51b7a" category="inline-link-macro-rx"></block>.</block>
-  <block id="e977f6bbcbae61c33920c421cdc41ec2" category="summary">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 양면 인쇄 구성에서 컨트롤러를 교체하는 방법에 대해 설명합니다.</block>
   <block id="d43460ed98dddc7d1125dc3a1388420a" category="summary">E5700 배터리 교체 요구사항 및 고려사항 검토</block>
   <block id="20ae0dc9cc9bf6f23e568a27d2486a04" category="paragraph">E5700 배터리를 교체하기 전에 요구사항 및 고려 사항을 검토하십시오.</block>
   <block id="c9c7042a9b556f47d31274b878a991fe" category="paragraph">각 컨트롤러 캐니스터에는 AC 전원에 장애가 발생할 경우 캐싱된 데이터를 보관하는 배터리가 포함되어 있습니다.</block>
@@ -2924,7 +2922,6 @@
   <block id="57ec4cf3cc5be7dd648af31f42d44ab6" category="section-title">콘솔 모드를 사용하여 제거합니다</block>
   <block id="f4fa4e2722da41144d590e07aea03e14" category="paragraph">콘솔 모드를 사용하여 Linux 운영 체제에서 SANtricity 클라우드 커넥터를 제거할 수 있습니다.</block>
   <block id="531ec4a162500310fa8d7ec0a705c0ee" category="list-text">제거 창에서 * Enter * 를 눌러 SANtricity 클라우드 커넥터 제거를 계속합니다.</block>
-  <block id="00f9ce66241621004c58b2e973a895fd" category="summary">호스트 인터페이스 카드\(HIC\)는 컨트롤러 캐니스터 내에 선택적으로 설치할 수 있습니다. E2800 컨트롤러에는 컨트롤러 카드 자체에 내장 호스트 포트와 HIC 옵션 중 호스트 포트가 포함되어 있습니다. 컨트롤러에 내장된 호스트 포트를 베이스보드 호스트 포트라고 합니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="fcbb93bbfdd8447e24085518b94cfeb8" category="paragraph">HIC(호스트 인터페이스 카드)는 컨트롤러 캐니스터 내에 선택적으로 설치할 수 있습니다. E2800 컨트롤러에는 컨트롤러 카드 자체에 내장 호스트 포트와 HIC 옵션 중 호스트 포트가 포함되어 있습니다. 컨트롤러에 내장된 호스트 포트를 베이스보드 호스트 포트라고 합니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="aa657af1c24d669e18366e849c6f5421" category="summary">단순 구성에서 오류가 발생한 컨트롤러 캐니스터를 교체할 수 있습니다.</block>
   <block id="b0e58cde3661a34fc3fe3d6efcd66e08" category="doc">E2800 Simplex 구성에서는 컨트롤러를 교체합니다</block>
@@ -3406,7 +3403,6 @@
   <block id="80a8676f82f84aa12d1fd18325f53c56" category="list-text">E2860 컨트롤러 쉘프</block>
   <block id="61b77c506ee4a3b451b35fc8416667c4" category="paragraph">전원 캐니스터 교체 절차에서는 컨트롤러 쉘프에 연결될 수 있는 DE6600 드라이브 트레이에서 실패한 전원 캐니스터를 교체하는 방법에 대해 설명하지 않습니다.</block>
   <block id="d9ebe2785a9ada6fd8f18a154ff332a2" category="paragraph">팬 캐니스터 교체 절차에서는 컨트롤러 쉘프에 연결될 수 있는 DE6600 드라이브 트레이에서 장애가 발생한 팬 캐니스터를 교체하는 방법에 대해 설명하지 않습니다.</block>
-  <block id="a3c03452327012e5141c33e5726e73c7" category="summary">캐니스터는 3가지 유형, 즉 12-드라이브 또는 24-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프에서 이중 전원 공급 장치와 적절한 냉각 기능을 제공하는 전원 팬 캐니스터, 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프의 전원 중복에 사용되는 전원 캐니스터, 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 냉각하는 데 사용되는 팬 캐니스터를 지원합니다.</block>
   <block id="fb4cf09c196596d5c6d69783aa59f055" category="summary">양면 또는 단면 인쇄의 적절한 단계를 따라 E2800 배터리 교체를 준비합니다.</block>
   <block id="f51438f6c07d86b8b1be3ab7591ffd96" category="doc">E2800 배터리 교체 준비</block>
   <block id="5d7b64427533316f72376413b14cba00" category="paragraph">배터리 교체 준비 단계는 이중 구성(컨트롤러 2개) 또는 단일 구성(컨트롤러 1개)이 있는지 여부에 따라 다릅니다.</block>
@@ -3521,7 +3517,6 @@
   <block id="989d08712715d693bb0bdb8694f3c7c2" category="cell">호스트 포트의 유형입니다</block>
   <block id="116e44cf6296c08b95202ed848067a08" category="paragraph">캐시 활성 상태 표시등</block>
   <block id="7487bd6e9c92c62043628395d6a8f517" category="list-text">필드에 change를 입력합니다.</block>
-  <block id="98c3987fb58d5d61350074733f52ec4f" category="summary">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 두 번째 컨트롤러를 추가하여 이중 구성으로 변환하는 방법과 단면 인쇄 구성 및 양면 인쇄 구성에서 컨트롤러를 교체하는 방법에 대해 설명합니다.</block>
   <block id="b27b1feddcd0e6980fd142d167ad4000" category="summary">새 배터리를 장착하십시오.</block>
   <block id="0d9172186f7ee4d9c0f105bc4d0ac733" category="doc">새 E2800 배터리를 설치합니다</block>
   <block id="19a40e57f7257d4edddda3d9bdc15b5c" category="paragraph">결함이 있는 배터리를 제거한 후 새 배터리를 설치할 수 있습니다.</block>
@@ -3819,7 +3814,6 @@
   <block id="5eba68d12705561c14a5cf782039d9a6" category="paragraph">액세스<block ref="790da98275795a97c8f97401754053cf" category="inline-link-rx"></block>.</block>
   <block id="10b221abe33d91a2165eab967641529e" category="inline-link">4-포스트 랙에 SuperRail 설치(DE224C/DE460C 쉘프)</block>
   <block id="a6d47447094eb5b7920c8d1f16d0d25d" category="paragraph">액세스<block ref="384159b715a893ce026df1e06010cefa" category="inline-link-rx"></block>.</block>
-  <block id="9ec28cb381dd9edd5e1a4ad5641fba96" category="summary">호스트 인터페이스 카드\(HIC\)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="4340eb550bf9d82ec63ae6c684b4ce19" category="paragraph">HIC(호스트 인터페이스 카드)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="04a3d4071a9450f7356dbc04b8b8747c" category="summary">SAS 확장 카드는 컨트롤러 캐니스터 내에 설치될 수 있습니다. EF300 컨트롤러는 SAS 확장을 지원합니다.</block>
   <block id="e00394e86e0897378bd874e271fcd82c" category="doc">SAS 확장 카드</block>
@@ -3981,7 +3975,6 @@
   <block id="a1b7af0f21ad6f7da3f61feb2a734667" category="paragraph">변환을 완료할 때까지 스토리지 배열의 데이터에 액세스할 수 없습니다.</block>
   <block id="6ee8ffec654d692808d3c18bb0e2d3b9" category="section-title">3단계: 기능 팩을 변경합니다</block>
   <block id="7e1eb07ee4fa34bdf6f3cff4a27c0ce0" category="paragraph">기능 팩을 변경하여 호스트 포트의 호스트 프로토콜을 변환합니다.</block>
-  <block id="9e82bbc678cd60ca1e23c9306295675e" category="summary">메모리 불일치가 있거나 DIMM에 결함이 있는 경우 DIMM을 교체해야 합니다.</block>
   <block id="4ec1b0ed9e4f78833f020b2b7ed423ce" category="doc">DIMM</block>
   <block id="e9e795fffc66424c5fceeda72cc6702b" category="summary">EF300 또는 EF600 컨트롤러 쉘프에 있는 단일 컨트롤러를 교체합니다.</block>
   <block id="317ae44d33c81077bc69598e4bf59e9f" category="doc">EF300 또는 EF600 컨트롤러 교체</block>
@@ -4138,7 +4131,6 @@
   <block id="9ba44d804b4659e108d69ba4db8377f5" category="paragraph">각 EF300 또는 EF600 컨트롤러 쉘프 또는 드라이브 쉘프에는 컨트롤러 냉각을 위한 5개의 팬이 포함됩니다.</block>
   <block id="620e2edf2db0c3c3cad57aeb246c6bfe" category="section-title">전원 공급 장치</block>
   <block id="963fa086e22d0159155d22af7dbcbb0a" category="paragraph">전원 공급 장치는 컨트롤러 쉘프에 이중 전원을 제공합니다.</block>
-  <block id="51255c5d39d4b9a43a7f800db3b8a431" category="doc">전원 공급 장치</block>
   <block id="0473e45a7d7f9557ae9f5ca07ab2315a" category="summary">장애가 발생한 EF300 또는 EF600 HIC(호스트 인터페이스 카드)를 교체합니다.</block>
   <block id="821d24c9ba446ee4c7b02961af65c2df" category="doc">EF300 또는 EF600에서 장애가 발생한 HIC(호스트 인터페이스 카드)를 교체합니다</block>
   <block id="862acd5892fdfacc876441454483bc88" category="paragraph">오류가 발생한 HIC를 교체할 경우 스토리지 어레이의 전원을 끄고 HIC를 교체한 후 전원을 다시 적용해야 합니다.</block>
@@ -4170,7 +4162,6 @@
   <block id="bf6487095e5ecccd756382367b6c5383" category="list-text">변환에 필요한 하드웨어를 확보했으며 새로운 HIC 및/또는 SFP 세트가 포함될 수 있습니다. NetApp 세일즈 담당자는 귀사가 필요한 하드웨어를 결정하고 올바른 부품을 주문하는 데 도움을 줄 수 있습니다.</block>
   <block id="b3f772795168df63454dec0c3e4c3e3b" category="list-text">이중 프로토콜 SFP 트랜시버는 16Gb 및 8Gb FC와 10Gb iSCSI를 지원합니다. 따라서 이중 프로토콜을 사용 중이거나 FC와 iSCSI 간 전환 중인 경우 SFP를 변경할 필요가 없습니다.</block>
   <block id="5e7a01eefac15f1a88cbf08e764f5398" category="list-text">일부 호스트 포트 프로토콜 변환의 경우 호스트 인터페이스 카드를 추가하거나 업그레이드해야 할 수 있습니다.</block>
-  <block id="f35307ec092e89906d40c7e7580fd73e" category="summary">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 EF300 또는 EF600 컨트롤러 쉘프에서 단일 컨트롤러 또는 두 컨트롤러를 모두 교체하는 방법에 대해 설명합니다.</block>
   <block id="571b1ead863e404cb63de04e9e14c21d" category="summary">EF300 또는 EF600 배터리 교체에 대한 요구 사항 및 고려 사항</block>
   <block id="e71146224fd64a6c76e83e431678c8ba" category="paragraph">다음은 EF300 또는 EF600 컨트롤러에서 배터리를 교체하는 단계를 간략하게 보여 줍니다.</block>
   <block id="9cfc11d4ef06463002ddc3a0df54fee8" category="list-text">컨트롤러를 오프라인으로 전환합니다.</block>
@@ -4204,7 +4195,6 @@
   <block id="a5df91b4b8dbc86494c1ea39cec2456d" category="list-text">교체한 DIMM이 있는 컨트롤러를 선택합니다.</block>
   <block id="d755fb949d94fb21eb05693749f9b364" category="list-text">Recovery Guru가 없거나 Recovery Guru 단계를 따르면 여전히 볼륨을 원하는 소유자에게 반환하지 않습니다.</block>
   <block id="74adca4d72e5e007d2c87aa7750faf32" category="paragraph">DIMM 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
-  <block id="8efc2bb6da7e629c408a29a1c453f118" category="summary">호환성을 위해 호스트의 프로토콜을 다른 프로토콜로 변환할 수 있으며, 호스트 연결의 프로토콜을 인프라 요구에 맞게 다른 프로토콜로 변환할 수 있습니다.</block>
   <block id="4a3c8c03cdcb016f4690174be36a72be" category="summary">EF300 SAS 확장 카드를 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오.</block>
   <block id="3d52e0419c7f8a010e6fc5f98c25da0f" category="list-text">을 따라야 합니다 <block ref="333b8feab226020b2ee6e03f5e462ace" category="inline-link-macro-rx"></block> 를 눌러 컨트롤러를 설정합니다.</block>
   <block id="ae1aaca96a065fbfcfe3174c8cf8c2dd" category="list-text">펌웨어를 최신 버전으로 업데이트해야 합니다. 펌웨어를 업데이트하려면 의 지침을 따르십시오 <block ref="bf6a098eae1df274d91ef498db89d4bb" category="inline-link-macro-rx"></block>.</block>
@@ -5081,8 +5071,6 @@
   <block id="47258fb44590338243e024351300f997" category="cell">정보 시스템의 기밀성, 무결성 및 가용성에 대해 규정된 보안 목표를 충족하기 위해 SANtricity를 배포하는 방법을 설명합니다.</block>
   <block id="39a9002fa4dcf0afc27b1355c1567969" category="cell">역할 기반 액세스 제어(RBAC), LDAP(Lightweight Directory Access Protocol) 및 SAML(Security Assertion Markup Language)을 비롯한 액세스 관리를 구성하는 방법에 대해 설명합니다.</block>
   <block id="9ca4f852cb231d38c7cf2bb9053a2245" category="summary">DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 IP 주소를 제공합니다.</block>
-  <block id="041b8a1391f923a8043830be4a716cdd" category="summary">InfiniBand 네트워크 프로토콜에서 NVMe를 사용할 수 있습니다.</block>
-  <block id="97cdaaff2a74763683828420ccda083e" category="doc">NVMe over InfiniBand Express 설정</block>
   <block id="e889c393ff8c52f357be63d353ebf65a" category="summary">RHEL 7 및 SLES 12의 경우 네임스페이스에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="da6e8accbd9a7e86c32239135f1ffed2" category="doc">파일 시스템 생성(RHEL 7 및 SLES 12)</block>
   <block id="facbcb2fa38d6402945c5fd2c6fcf386" category="list-text">'/dev/mapper/dm' 디바이스 목록을 가져오려면 'multipath -ll' 명령을 실행합니다.</block>
@@ -5275,7 +5263,6 @@
   <block id="902bc0f0e4bf7414bb5a92ff0daa7055" category="list-text">"IFF" 명령을 실행하여 복사된 파일을 원본과 비교합니다.</block>
   <block id="86cd25e1b1566d77f5af83eb0ffcd3f0" category="paragraph">복사한 파일 및 폴더를 제거합니다.</block>
   <block id="c60c64d662d0e7a5a446c9f7d86d1e12" category="summary">multipath.conf 파일은 multipath daemon, multipathd의 구성 파일입니다.</block>
-  <block id="1914877215ade75b06ba34ce70bb51dd" category="summary">SAS Express를 설정합니다</block>
   <block id="3a12d0edc81531758f12c83024fbc77e" category="summary">iSER 사용 시 Linux Unified Host Utilities를 설치합니다.</block>
   <block id="fb9768f2275e2783037a700050fe8579" category="doc">Linux Unified Host Utilities를 설치하고 구성합니다</block>
   <block id="6cfa91f7028db85237c0770258925d8e" category="paragraph">Linux Unified Host Utilities 툴을 사용하면 페일오버 정책과 물리적 경로를 비롯한 NetApp 스토리지를 관리할 수 있습니다.</block>
@@ -5444,9 +5431,6 @@
   <block id="cb121353aea01717373d69731917df7f" category="paragraph">파일 시스템을 생성하는 방법은 선택한 파일 시스템에 따라 다릅니다.</block>
   <block id="964adc6b43969a5b7141a5a158c2ce8a" category="list-text">새 파티션을 마운트할 폴더를 생성합니다.</block>
   <block id="351f29f80415002be3da2130495dbbf2" category="list-text">파티션을 마운트합니다.</block>
-  <block id="7e9eed90ab06645af09e14e4688144a5" category="summary">RoCE\(RDMA over Converged Ethernet) 네트워크 프로토콜과 함께 NVMe를 사용할 수 있습니다.</block>
-  <block id="e5acd4f564771f3dbba3bdeb6b6bcfe5" category="doc">NVMe over RoCE Express 설정</block>
-  <block id="d94efd3fa425e38d7761fba32eb7bc67" category="paragraph">RoCE(RDMA over Converged Ethernet) 네트워크 프로토콜과 함께 NVMe를 사용할 수 있습니다.</block>
   <block id="4147efbdc6fd2e6dc90c466022cf7306" category="summary">ping 테스트를 사용하여 호스트 및 어레이가 통신할 수 있는지 확인하여 인터넷 프로토콜\(IP\) 네트워크 연결을 확인합니다.</block>
   <block id="9ef047e8a276866717244a3af9c729b9" category="doc">IP 네트워크 연결을 확인합니다</block>
   <block id="0e6bf59e4893d4e4be6dcab27d206e90" category="list-text">점보 프레임이 활성화된 경우 페이로드 크기가 8,972바이트인 ping 명령을 실행합니다. IP 및 ICMP 결합된 헤더는 28바이트로, 페이로드에 추가되면 9,000바이트입니다. s 스위치는 패킷 크기 비트를 설정합니다. d 스위치는 디버그 옵션을 설정합니다. 이러한 옵션을 사용하면 9,000바이트의 점보 프레임을 iSCSI 이니시에이터와 타겟 간에 성공적으로 전송할 수 있습니다.</block>
@@ -5545,7 +5529,6 @@
   <block id="c0e80cdff7e17bef2e455fab906a94bf" category="list-text">SRP 데몬을 즉시 시작하려면</block>
   <block id="f954d52b7d356b7898493ef1309b32ba" category="list-text">SRP 구성을 수정해야 하는 경우 다음 명령을 입력하여 '/etc/modprobe.d/IB_SRP.conf'를 생성합니다.</block>
   <block id="64ae2d65559b78b214cb7c6aeb856d9b" category="list-text">'/etc/srp_daemon.conf' 아래에 다음 줄을 추가합니다.</block>
-  <block id="fe4b136586896fd70617258689052356" category="summary">InfiniBand Express를 통한 SRP 설정</block>
   <block id="9565db23c5cf63228425a87e81f6ae0d" category="summary">컨트롤러에 NVMe over RoCE\(RDMA over Converged Ethernet\)에 대한 연결이 포함되어 있는 경우 하드웨어 페이지 또는 SANtricity System Manager의 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.</block>
   <block id="f1d9125917e57e2251bb507c05a232c1" category="doc">스토리지 어레이 NVMe over RoCE 연결을 구성합니다</block>
   <block id="0d31f17993ecf74bf74442f4f7a3f7d0" category="paragraph">컨트롤러에 NVMe over RoCE(RDMA over Converged Ethernet)에 대한 연결이 포함되어 있는 경우 하드웨어 페이지 또는 SANtricity System Manager의 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.</block>
@@ -5588,7 +5571,6 @@
   <block id="9fd1ccf35b45152e10c1dcc3a278a357" category="inline-xref-macro">SRP 워크시트</block>
   <block id="e8377a168400202c4d751db31f2af66a" category="list-text">에 이니시에이터의 GUID를 기록합니다 <block ref="637e124a730f0905ce6e480d5b773394" category="inline-xref-macro-rx"></block>.</block>
   <block id="045974d2f2f790a851a04cb91a6f273f" category="doc">SANtricity 시스템 관리자에 액세스하고 설치 마법사를 사용합니다</block>
-  <block id="c96c96aa9e9942faabac2551c9847a4a" category="doc">InfiniBand Express Setup을 통한 iSER</block>
   <block id="bd97f9e0585f1ab3a70a824e4f5ffe79" category="summary">Linux Unified Host Utilities 7.1에는 페일오버 정책과 물리적 경로를 비롯하여 NetApp 스토리지를 관리하는 툴이 포함되어 있습니다.</block>
   <block id="b03d32ba1901ea3dd22914caff790143" category="doc">Linux Host Utilities를 설치하고 구성합니다</block>
   <block id="c4a120813372f7f07d6de687ff0fc6a6" category="paragraph">Linux Unified Host Utilities 패키지에는 페일오버 정책과 물리적 경로를 비롯하여 NetApp 스토리지를 관리하는 툴이 포함되어 있습니다.</block>
@@ -5600,9 +5582,6 @@
   <block id="2d59c1932fb82d6e7c73a375ed97221d" category="summary">물리적 경로 중 하나가 중단되는 경우 스토리지 배열에 대한 중복 경로를 제공하도록 다중 경로 소프트웨어를 구성합니다.</block>
   <block id="7974a85a6c6d440bbee88b27bf089223" category="summary">NVMe-CLI 패키지의 일부인 SMdevices 툴을 사용하여 호스트에 현재 표시된 볼륨을 봅니다. 이 대안은 NVMe list 명령을 사용하는 것입니다.</block>
   <block id="9ba0e91b9dc1e138e7c9c64d8795890a" category="paragraph">E-Series 볼륨에 대한 각 NVMe 경로에 대한 정보를 보려면 'NVMe NetApp SMdevices[-o&lt;format&gt;]' 명령을 사용하십시오. 출력 '&lt;format&gt;'은(는) 정상(-o가 사용되지 않는 경우 기본값), 열 또는 json이 될 수 있습니다.</block>
-  <block id="f849cbf8f2231f3f35d369655c870a3e" category="doc">iSCSI Express 설정</block>
-  <block id="eade6022b2fef6a4e03ff35469374cb0" category="summary">NVMe를 파이버 채널 프로토콜과 함께 사용할 수 있습니다.</block>
-  <block id="62896be8239b3396f0ed277cf184b062" category="doc">NVMe over Fibre Channel Express 설정</block>
   <block id="93e3eeaae5f141e57bcdccb6741d6cec" category="paragraph">사용할 호스트 인터페이스 유형을 선택합니다. 구성한 배열에 사용 가능한 호스트 인터페이스 유형이 하나만 있는 경우 이 설정을 선택할 수 없습니다.</block>
   <block id="96477deae8322871ba6c5133596fd5b1" category="doc">호스트에서 장애 조치를 설정합니다</block>
   <block id="816a290577d3afffcfc7b89e8312db70" category="admonition">을 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 필요한 업데이트가 설치되었는지 확인하기 위해, 다중 경로가 SLES 또는 RHEL의 GA 버전과 제대로 작동하지 않을 수 있습니다.</block>
@@ -6137,9 +6116,6 @@
   <block id="a5de3e8b40f487e6069eec82667104bd" category="list-text">드라이브 쉘프 옵션이 있는 경우, 엔드 캡의 구멍이 쉘프 왼쪽의 패스너와 정렬되도록 드라이브 쉘프 전면에 좌측 엔드 캡을 배치하십시오.</block>
   <block id="70e85bbe4f70fb42276c14a4911a013c" category="list-text">엔드 캡을 제자리에 끼웁니다.</block>
   <block id="20743f255dc99f7c25751ab4970cf40b" category="list-text">오른쪽 엔드 캡에 대해 위 단계를 반복합니다.</block>
-  <block id="efe6d51a14336eb7344b08061d81c223" category="summary">다음 지침은 새 스토리지 시스템을 설치 및 설정하는 방법을 설명하고 추가 컨텐츠에 대한 링크를 제공합니다.</block>
-  <block id="01a6b4e59365da6ed554e20bb2ab5362" category="doc">E2860, E5760 및 DE460C에 대한 설치 및 설정 지침</block>
-  <block id="098f41693365f8de503868e97f04f4c4" category="doc">E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C</block>
   <block id="04b5e92ac5655763e56e78e89fde93c5" category="summary">E2860, E57760 또는 DE460을 설치하려면 계정을 만들고 하드웨어를 등록하십시오.</block>
   <block id="ccccb6142ca7603eed3fc0a275176b3a" category="paragraph">E2860, E5760 또는 DE460 시리즈 스토리지 시스템 설치 준비 방법에 대해 알아보십시오.</block>
   <block id="670969e220ef24008903984f9b57acbd" category="paragraph">쉘프, 베젤 및 랙 마운트 하드웨어</block>
@@ -8336,8 +8312,6 @@
   <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">Disk Pool 기능 향상</block>
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80 이상을 실행하는 컨트롤러로 생성된 디스크 풀은 _ 버전 0_pool과 달리 _ 버전 1_pool입니다. 버전 1_ 디스크 풀이 있으면 다운그레이드 작업이 제한됩니다.</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">디스크 풀의 버전은 스토리지 배열 프로파일에서 확인할 수 있습니다.</block>
-  <block id="82bf7451a207cfbac427edc3bb60fced" category="paragraph">이 문서는 추가 컨텐츠에 대한 라이브 링크가 포함된 단계별 지침의 인쇄 가능한 PDF입니다.</block>
-  <block id="a2f0a23d015da77ff81697442b8f6aad" category="paragraph">다음은 이 사이트에서 설명하는 설정 지침입니다.</block>
   <block id="746ff5a72ad1791e39c47dc0abcdffe3" category="paragraph">System Manager 또는 Unified Manager를 실행하기 전에 브라우저의 최소 버전이 필요합니다.</block>
   <block id="488c35a42ee48966247c5cc643d96708" category="paragraph">다음은 지원되는 최소 버전입니다.</block>
   <block id="5f7273b60d2186e7b7a65eb2cee83294" category="paragraph">SSD 읽기 캐시 최대 증가</block>
@@ -8440,19 +8414,14 @@
   <block id="6a177f60e2c78aeead82deed1b7f79bd" category="image-alt">드라이브 쉘프 케이블링 예</block>
   <block id="97d8dba52fc751664d17d634de384761" category="open-title">E4000용 드라이브 쉘프를 연결합니다</block>
   <block id="5d48bd8c60ef301164497e794ae727ca" category="image-alt">IOM 하드웨어 아이콘입니다</block>
-  <block id="c5f2c8e37ae34577d9aa27dc0a6d9d6a" category="summary">E-Series 시스템의 Linux 호스트에서는 파이버 채널 프로토콜을 사용할 수 있습니다.</block>
   <block id="a51352079fbf62de5b216fbcf5f8547f" category="image-alt">FC 네트워크 구성</block>
-  <block id="2c14a3be6c3b57db7707ac6ae99aeb97" category="summary">E-Series 시스템에서 Linux 호스트에는 iSCSI 프로토콜을 사용할 수 있습니다.</block>
   <block id="035b18714bc5d7aa7c3b19a557b2784d" category="image-alt">iSCSI 네트워크 구성</block>
-  <block id="279607469d0ed6f0d6a8dfabbc5b63e2" category="summary">E-Series 시스템의 Linux 호스트에서 iSER over Infiniband 프로토콜을 사용할 수 있습니다.</block>
   <block id="f6d2572a98e17f547b50d07bd60a4357" category="image-alt">IB 네트워크 구성을 통한 iSER</block>
   <block id="e25b62b71db71b440f775e632a958e5e" category="image-alt">직접 연결 토폴로지의 예</block>
   <block id="3d673c4735715944ce52ebdb6281a20d" category="image-alt">스위치 연결 토폴로지 예</block>
   <block id="5a60c0d89257784a23a8dd439204f7f1" category="image-alt">NVMe over Infiniband 직접 연결 예</block>
   <block id="37370b7d172047a016f376cc6b5258c9" category="image-alt">NVMe over RoCE 직접 연결의 예</block>
   <block id="65311bced825a83f85718b09cc4ab673" category="image-alt">NVMe over RoCE 스위치 연결 예</block>
-  <block id="846fb8d171e9dfcce4fd56289d380608" category="summary">E-Series 시스템의 Linux 호스트에서는 SAS 프로토콜을 사용할 수 있습니다.</block>
-  <block id="ecf0c5c7f835375b8d9275312b470c82" category="summary">E-Series 시스템의 Linux 호스트에서 InfiniBand를 통한 SRP 프로토콜을 사용할 수 있습니다.</block>
   <block id="025f0fcb18e01db2892910a53d657f57" category="image-alt">IB 포트 식별자를 통한 SRB</block>
   <block id="a9a8836056eb3cc8d01f51eb5c6e7eec" category="list-text">vSphere Client 또는 vSphere Web Client에서 VMFS 데이터 저장소를 생성하거나 볼륨을 RDM으로 사용하는 방법에 대한 지침은 을 참조하십시오<block ref="b15a5268225569436f01a761f08cccf7" category="inline-link-rx"></block>.</block>
   <block id="ebaab7c3245c99578b7dd1e67138cccf" category="list-text">ESXi 호스트에서 스토리지 재검색을 수행하는 방법에 대한 지침은<block ref="151d2130fd8b5e8e7d0d3b596c1bdeb5" category="inline-link-rx"></block> 이 항목의 문서를 검색하십시오.</block>
@@ -8889,7 +8858,6 @@
   <block id="2f2564b7bd12fa4c137f3761c14d73a3" category="paragraph">E4060 컨트롤러 쉘프 또는 DE460C 드라이브 쉘프에서 드라이브 드로어를 교체할 수 있습니다.</block>
   <block id="3748f377726945770a9a282453272357" category="paragraph">E4060 컨트롤러 쉘프 또는 DE460C 드라이브 쉘프에서 장애가 발생한 드라이브 드로어를 교체하는 단계는 드로어의 볼륨이 드로어 손실 보호로 보호되는지 여부에 따라 다릅니다. 드라이브 드로어의 모든 볼륨이 디스크 풀 또는 드로어 손실 보호가 있는 볼륨 그룹에 있는 경우 이 절차를 온라인으로 수행할 수 있습니다. 그렇지 않으면 드라이브 드로어를 교체하기 전에 모든 호스트 I/O 활동을 중지하고 쉘프의 전원을 꺼야 합니다.</block>
   <block id="1103b7e629028daaccac02c0a8fc98d2" category="doc">E4000의 배터리를 교체합니다</block>
-  <block id="543025215967bae569d97988a7e97cbc" category="paragraph">SANtricity 시스템 관리자의 Recovery Guru에서 "배터리 고장" 또는 "배터리 교체 필요" 상태가 표시되면 E4000 어플라이언스에서 해당 배터리를 교체해야 합니다. 데이터를 보호하려면 배터리를 최대한 빨리 교체해야 합니다.</block>
   <block id="9af92606abb4b31a8818023a6515b3ec" category="list-text">컨트롤러의 SANtricity 시스템 관리자에 액세스할 수 있는 브라우저가 있는 관리 스테이션. System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.</block>
   <block id="ec6e5e75653734bb428b87afb93f7f41" category="section-title">1단계: 배터리 교체 준비</block>
   <block id="3df752ee7e92a3dba58c1061c5d0a4a6" category="list-text">SANtricity System Manager를 사용하여 스토리지 어레이의 구성 데이터베이스를 백업합니다.</block>
@@ -8929,15 +8897,7 @@
   <block id="7eed6664ecacefe81e2b660f47a5cfaf" category="list-text">컨트롤러 캐니스터 커버를 다시 장착하고 제자리에 잠급니다.</block>
   <block id="aa4ecd2631b0a57f27425bbdf9cc91b7" category="paragraph">컨트롤러 캐니스터의 구성 요소를 교체한 후 섀시에 다시 설치합니다.</block>
   <block id="954c99d35fff8ed108602add34a47b93" category="list-text">컨트롤러 캐니스터의 커버를 아직 장착하지 않은 경우 다시 장착합니다.</block>
-  <block id="9c17c595e56b6b01c7d703a94b943e71" category="list-text">컨트롤러 캐니스터를 뒤집고 끝을 섀시의 입구에 맞춥니다.</block>
-  <block id="44df050c94969c9c5f783babbd55fb7e" category="list-text">컨트롤러 캐니스터의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 캐니스터를 시스템 안쪽으로 살짝 밉니다.</block>
-  <block id="40d0d24050f8aac90dc03655f2738fb3" category="admonition">지시가 있을 때까지 컨트롤러 캐니스터를 섀시에 완전히 삽입하지 마십시오.</block>
-  <block id="4e4cd7bd59f82bab02590366f27be3e5" category="list-text">필요에 따라 시스템을 다시 연결합니다.</block>
   <block id="7bfce735a4505a06fb1c4b7a2d076c1e" category="list-text">미디어 컨버터(QSFP 또는 SFP)를 분리한 경우 광섬유 케이블을 사용하는 경우 다시 설치해야 합니다.</block>
-  <block id="5d971d684708429fbfc1d12fc0823b1c" category="list-text">컨트롤러 캐니스터 재설치를 완료합니다.</block>
-  <block id="b34c1b37f135bc5b382d7862f82e025c" category="list-text">캠 핸들이 열린 상태에서 컨트롤러 캐니스터가 미드플레인과 만나서 완전히 장착될 때까지 컨트롤러 캐니스터를 단단히 밀어 넣은 다음 캠 핸들을 잠금 위치로 닫습니다.</block>
-  <block id="69008785977983cf8a33f9f78ff2b7c9" category="admonition">커넥터 손상을 방지하기 위해 컨트롤러 캐니스터를 섀시에 밀어 넣을 때 과도한 힘을 가하지 마십시오.</block>
-  <block id="0332f86520cc7552e1fb152e32977600" category="paragraph">컨트롤러가 섀시에 장착되면 바로 부팅이 시작됩니다.</block>
   <block id="1245c13fabc810ad6fbb6f05277ad356" category="list-text">아직 설치하지 않은 경우 케이블 관리 장치를 다시 설치하십시오.</block>
   <block id="82cd534d691845f1af190a9df38d753d" category="list-text">케이블을 후크와 루프 스트랩으로 케이블 관리 장치에 연결합니다.</block>
   <block id="91418c565341bd8a889226a195dd2fa2" category="section-title">5단계: 배터리 교체를 완료합니다</block>
@@ -9010,10 +8970,7 @@
   <block id="f4d6345a40a4387a35c3eb6ef8f51b15" category="section-title">8단계: 전체 컨트롤러 교체</block>
   <block id="a7c932e7525739cefdfd19d17123207c" category="paragraph">컨트롤러 쉘프에 대한 연결을 다시 설정하고 지원 데이터를 수집하고 작업을 재개합니다.</block>
   <block id="62241759bfd404c01951d43ae57f4bbe" category="open-title">컨트롤러 쉘프 전원 켜기(단방향)</block>
-  <block id="04803538074d9bd9b55f9adc380717f2" category="list-text">교체 컨트롤러를 제품에 설치합니다.</block>
   <block id="fe69546640a5330ecd9f461f1cdbd1ee" category="list-text">이동식 덮개가 아래를 향하도록 컨트롤러를 뒤집습니다.</block>
-  <block id="f5b18529473e7fbcbdcf4601ffe30597" category="list-text">캠 손잡이를 열린 상태에서 컨트롤러를 제품 안으로 끝까지 밀어 넣습니다.</block>
-  <block id="0dc7aaae2ab89a4fa299f4f2e42c1646" category="list-text">캠 핸들을 왼쪽으로 이동하여 컨트롤러를 제자리에 고정합니다.</block>
   <block id="85caa39a88f7091fb2db841ad6b83ffd" category="list-text">케이블을 교체합니다.</block>
   <block id="2afc7927e5f45cc2a3ef83b60ea186cd" category="list-text">컨트롤러 쉘프 전원을 켭니다.</block>
   <block id="4b55c79852e2203088ca03f4c8fb4b3c" category="list-text">E4000 컨트롤러가 재부팅될 때까지 기다립니다.</block>
@@ -9103,7 +9060,6 @@
   <block id="1ea4267c90825f4bf9c52932b0bd8e1a" category="list-text">컨트롤러 캐니스터 커버를 다시 장착합니다.</block>
   <block id="48a57bdd7334ad13cd1585ba2a663c46" category="section-title">5단계: 컨트롤러 캐니스터를 다시 설치합니다</block>
   <block id="af32241ae4a2afd71e33a8646b775b1f" category="paragraph">컨트롤러 캐니스터를 섀시에 다시 설치합니다.</block>
-  <block id="0a5704c96cc972ac4c49e76417f83282" category="list-text">컨트롤러 캐니스터를 시스템 안으로 살짝 밀어 넣습니다. 컨트롤러 캐니스터의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 캐니스터를 시스템 안쪽으로 살짝 밉니다.</block>
   <block id="660a0f2c7dddd5ead3b175899a5d429c" category="section-title">6단계: DIMM 교체를 완료합니다</block>
   <block id="315927c4ed1f1d8b1d0b704a5a67026e" category="list-text">컨트롤러가 다시 온라인 상태가 되면 해당 상태가 Optimal(최적) 인지 확인하고 컨트롤러 쉘프의 주의 LED를 확인합니다.</block>
   <block id="805863d0c877d6358a86a2607e79ed0d" category="paragraph">상태가 최적이 아니거나 주의 LED 중 하나라도 켜져 있으면 모든 케이블이 올바르게 장착되고 컨트롤러 캐니스터가 올바르게 설치되었는지 확인합니다. 필요한 경우 컨트롤러 캐니스터를 제거하고 다시 설치합니다. 참고: 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.</block>
@@ -9146,7 +9102,6 @@
   <block id="fe831c9a1ec5f0798f7d995bb682d1af" category="list-text">HIC의 손잡이 나사를 풀고 똑바로 들어 올립니다.</block>
   <block id="cb588a37aac0cb396a69cd9c6fa260a7" category="list-text">HIC를 다시 설치합니다.</block>
   <block id="eef513f5198b93971d313eb80e4da6fb" category="list-text">컨트롤러 모듈 덮개를 다시 설치하고 제자리에 고정합니다.</block>
-  <block id="528b8ab8a2997d60c930f6610d03301f" category="paragraph">이중 구성을 사용하는 경우 컨트롤러가 섀시에 장착되는 즉시 부팅을 시작합니다.</block>
   <block id="613ffef3aed34fbf482f6ca198dbe765" category="section-title">5단계: HIC 교체 완료</block>
   <block id="fd3355f16365c925e530b446f01146af" category="paragraph">컨트롤러의 전원을 켜거나(단방향) 컨트롤러를 온라인 상태로 설정(양방향)하고 지원 데이터를 수집한 후 작업을 재개합니다.</block>
   <block id="3e741422cd2bc3082e4d5328242d9d60" category="doc">E4000에서 HIC를 업그레이드합니다</block>
@@ -9419,7 +9374,6 @@
   <block id="04ec4caf2b80e886c69cd8966d5f5c92" category="paragraph">EF300, EF600, EF300C 또는 EF600C 시리즈 스토리지 시스템의 설치 준비를 하는 방법에 대해 알아보십시오.</block>
   <block id="a466a396cacf21d3516a87d8639c5255" category="paragraph">EF300, EF600, EF300C 또는 EF600C 배터리를 교체하기 전에 요구사항 및 고려 사항을 검토하십시오.</block>
   <block id="0b5565f493a40cc2e5ace8909a568f68" category="paragraph">EF300, EF600, EF300C 또는 EF600C 스토리지 시스템에서 배터리를 교체할 수 있습니다.</block>
-  <block id="a3ec65b7c9b468046fdbe7dc19f94299" category="paragraph">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다. 이 섹션에서는 EF300, EF600, EF300C 또는 EF600C 컨트롤러 쉘프에서 단일 컨트롤러 또는 두 컨트롤러를 교체하는 방법에 대해 설명합니다.</block>
   <block id="89e4ff051c9e9c60c1d21fddb84ec42a" category="paragraph">EF300을 교체하기 전, EF600을 교체하세요. EF300C 또는 EF600C 컨트롤러가 요구 사항과 고려 사항을 검토합니다.</block>
   <block id="e0b68b674b62dc6569b4275513ebdb8f" category="paragraph">EF300, EF600, EF300C 또는 EF600C 컨트롤러 쉘프에서 단일 컨트롤러를 교체할 수 있습니다.</block>
   <block id="136b14c506b51c3fdb848576b81df5a9" category="paragraph">EF300, EF600, EF600C 또는 EF300C 스토리지 어레이에서 DIMM을 교체하기 전에 요구사항과 고려 사항을 검토하십시오.</block>
@@ -9495,4 +9449,7 @@
   <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">버전 11.90R1의 새로운 기능</block>
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.</block>
   <block id="8af7f744c39ae6285a380b6eb402fcb2" category="paragraph">E4000 컨트롤러에서 12Gb SAS 인터페이스 지원</block>
+  <block id="7a3a71e57296fe130d591f2dd4a7a06c" category="paragraph">SANtricity 시스템 관리자의 Recovery Guru에서 "배터리 고장" 또는 "배터리 교체 필요" 상태가 표시되면 E4000에서 해당 배터리를 교체해야 합니다. 데이터를 보호하려면 배터리를 최대한 빨리 교체해야 합니다.</block>
+  <block id="8c34b0fdf9a967369992b78c08820091" category="list-text">캠 핸들이 열린 위치에 있는 상태에서 컨트롤러를 선반 끝까지 밀어 넣습니다.</block>
+  <block id="1b6c46128dc1faef9365a16d700d5e74" category="list-text">교체용 컨트롤러를 쉘프에 설치합니다.</block>
 </blocks>
