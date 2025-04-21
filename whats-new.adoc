@@ -16,6 +16,12 @@ summary: SANtricity OS의 새로운 기능
 
 
 
+== 버전 11.90R2의 새로운 기능
+
+이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E-Series 11.90 릴리즈 노트"^]참조하십시오.
+
+
+
 == 버전 11.90R1의 새로운 기능
 
 [cols="35h,~"]
