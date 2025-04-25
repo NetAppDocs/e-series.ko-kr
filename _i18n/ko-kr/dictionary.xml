@@ -9396,10 +9396,7 @@
   <block id="5f8f97ec195542ed337bbddedab32598" category="paragraph">EF300, EF600, EF300C 또는 EF600C 컨트롤러에서 전원 공급 장치가 고장 나면 교체할 수 있습니다.</block>
   <block id="64c37d5d57b631b9fb2968c7586932f3" category="paragraph">SAS 확장 카드를 EF300, EF600, EF300C, EF600C 컨트롤러에 추가하여 드라이브 트레이를 확장할 수 있습니다.</block>
   <block id="0e7081ec1cfc70b91c941e13e9fa52c5" category="paragraph">SAS 확장 카드를 EF300, EF600, EF300C 또는 EF600C에 추가할 계획이라면 다음 요구사항을 검토하십시오.</block>
-  <block id="0b2035b979e0933fbb24230f41a4faa9" category="section-title">버전 11.90.1의 새로운 기능</block>
   <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">새로운 스토리지 시스템 모델 - EF300C 및 EF600C</block>
-  <block id="7c4ed7bb875e7af6303e23e1e7df86c3" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 모두 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 및 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다.</block>
-  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000에서 12Gb SAS 인터페이스 지원</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원합니다.</block>
   <block id="892b365a22314b2852ca18025911d1be" category="list-text">필요한 경우<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 명령을 실행하여 DSM 패키지 설치를 확인합니다.</block>
   <block id="fb00ee175135cc78e49e873e41c6e6ad" category="admonition">명령을 실행하려면 MPIO 기능이 Windows 서버에 설치되어 있어야<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 합니다.</block>
@@ -9455,4 +9452,5 @@
   <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">버전 11.90R2의 새로운 기능</block>
   <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E-Series 11.90 릴리즈 노트</block>
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="c3d9022959f5cf3a3d385e7a2bd0bf3a" category="section-title">버전 11.80.1R4의 새로운 기능</block>
 </blocks>
