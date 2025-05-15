@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access System Manager Linux, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: SANtricity 시스템 관리자의 설정 마법사를 사용하여 스토리지 배열을 구성합니다. 
 ---
-= SANtricity 시스템 관리자에 액세스하고 설치 마법사를 사용합니다
+= SANtricity System Manager-Linux(NVMe over InfiniBand)를 사용하여 스토리지 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font

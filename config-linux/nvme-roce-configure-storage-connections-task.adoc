@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: NVMe over RoCE, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: '컨트롤러에 NVMe over RoCE\(RDMA over Converged Ethernet\)에 대한 연결이 포함되어 있는 경우 하드웨어 페이지 또는 SANtricity System Manager의 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.' 
 ---
-= 스토리지 어레이 NVMe over RoCE 연결을 구성합니다
+= E-Series-Linux에서 RoCE 연결을 통해 스토리지 어레이 NVMe를 구성합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

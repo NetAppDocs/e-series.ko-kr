@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sas, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 권장 설정을 구성합니다. 
 ---
-= SAS 관련 작업을 수행합니다
+= E-Series-Windows에서 SAS 관련 작업 수행
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

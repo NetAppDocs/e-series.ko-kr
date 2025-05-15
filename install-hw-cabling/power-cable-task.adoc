@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cabling, cables, power cable, power cabling, power supply cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
 summary: 각 구성 요소의 전원 공급 장치를 별도의 전원 회로에 연결합니다. 
 ---
-= 전원 케이블 연결
+= 스토리지 시스템의 전원 케이블 연결(E-Series)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

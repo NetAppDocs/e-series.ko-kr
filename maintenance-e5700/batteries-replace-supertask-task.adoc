@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 battery, repair E5700 battery, replace E5700 battery, failed E5700 battery 
 summary: E5700 스토리지 시스템에서 장애가 발생한 배터리 교체 
 ---
-= E5700 배터리 교체
+= 배터리를 교체합니다. - E5700
 :allow-uri-read: 
 :experimental: 
 :icons: font

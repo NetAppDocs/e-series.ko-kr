@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-upgrade-santricity-os.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 최신 소프트웨어 및 NVSRAM으로 하나 이상의 스토리지 어레이를 업그레이드하여 모든 최신 기능과 버그 수정을 확인할 수 있습니다. 
 ---
-= SANtricity OS를 업그레이드합니다
+= vCenter용 스토리지 플러그인을 사용하여 SANtricity 소프트웨어 및 NVSRAM을 업그레이드합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

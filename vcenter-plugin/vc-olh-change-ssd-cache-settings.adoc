@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-change-ssd-cache-settings.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: SSD Cache 이름을 편집하고 상태, 최대 및 현재 용량, Drive Security and Data Assurance 상태, 관련 볼륨 및 드라이브를 확인합니다. 
 ---
-= SSD 캐시 설정을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 SSD 캐시 설정을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

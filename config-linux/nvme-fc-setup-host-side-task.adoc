@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: NVMe over Fibre Channel, host side, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 것이 포함됩니다. 
 ---
-= 호스트 측에서 NVMe over Fibre Channel을 설정합니다
+= E-Series-Linux 호스트에서 NVMe over FC Initiator를 설정합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 2포스트 랙 또는 NetApp 시스템 캐비닛에 E4012, DE212C 또는 DE224C 스토리지 시스템을 설치하는 방법에 대해 알아봅니다. 
 ---
-= 하드웨어 설치(E4012)
+= hardware-E4012 을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

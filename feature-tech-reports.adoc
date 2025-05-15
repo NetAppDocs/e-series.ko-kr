@@ -4,7 +4,7 @@ permalink: feature-tech-reports.html
 keywords: feature technical reports, e-series, hardware, santricity, os 
 summary: E-Series 기술 보고서 
 ---
-= 주요 기술 보고서를 찾아보십시오
+= 추천 기술 보고서 찾아보기(E-Series)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

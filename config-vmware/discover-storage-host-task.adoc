@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: discover storage ESXi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 호스트에 볼륨을 할당한 후 호스트에서 다중 경로를 위한 볼륨을 감지하고 구성할 수 있도록 재검색을 수행합니다. 
 ---
-= 호스트에서 스토리지를 검색합니다
+= E-Series-VMware에서 호스트에서 스토리지를 검색합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

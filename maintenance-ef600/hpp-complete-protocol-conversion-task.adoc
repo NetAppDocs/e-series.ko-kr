@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: host protocol change, EF300 host protocol, EF600 host protocol 
 summary: 호스트 포트의 프로토콜을 변환한 후 새 프로토콜을 사용하기 위한 추가 단계를 수행합니다. 
 ---
-= EF300 또는 EF600에 대한 호스트 프로토콜 변환을 완료합니다
+= EF300 및 EF600 으로 호스트 프로토콜을 완벽하게 변환
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

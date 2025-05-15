@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cabling, cables, hot add, hot add drive shelf, E-Series, eseries, E4000, E2800, E5700, EF300, EF300C, EF600, EF600C, DE212C, DE224C, DE460C 
 summary: 전원이 다른 구성 요소에 계속 공급되는 동안 새 드라이브 쉘프를 추가합니다. 
 ---
-= 드라이브 쉘프 핫 추가
+= 핫-추가 드라이브 쉘프 - IOM12 또는 IOM12B 모듈(E-Series)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: e5724, ef570, ef280, e2812, e2824, de212c, de224c, installation 
 summary: E5724, EF570, EF280, E2812, E2824, DE212C 또는 DE224C는 계정을 만들고 하드웨어를 등록합니다. 
 ---
-= 설치 준비
+= 설치 준비 - E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

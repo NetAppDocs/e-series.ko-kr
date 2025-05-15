@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= E4000 컨트롤러 교체 요구 사항
+= 컨트롤러-E4000을 대체할 요구사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

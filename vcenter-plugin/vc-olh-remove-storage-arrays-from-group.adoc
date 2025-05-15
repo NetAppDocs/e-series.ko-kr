@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-remove-storage-arrays-from-group.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 특정 스토리지 그룹에서 관리 대상 스토리지 어레이를 더 이상 관리하지 않으려면 그룹에서 하나 이상의 관리되는 스토리지 배열을 제거합니다. 
 ---
-= 그룹에서 스토리지 배열을 제거합니다
+= vCenter용 SANtricity 스토리지 플러그인의 그룹에서 스토리지 어레이를 제거합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

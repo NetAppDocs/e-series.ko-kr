@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, upgrade controller, upgrading controller, upgrade controller requirements, upgrade compatibility, upgrade SAS shelf, upgrade SAS shelves, upgrade SAS enclosures, SAS-2 to SAS-3 
 summary: E-Series 컨트롤러의 업그레이드 및 교체에 대한 요구사항을 검토하십시오. 
 ---
-= 업그레이드 고려 사항
+= E-Series 업그레이드 고려 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

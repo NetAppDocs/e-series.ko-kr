@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C, replace EF600 power supply, 
 summary: EF300 또는 EF600 전원 공급 장치를 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오. 
 ---
-= EF300 또는 EF600 전원 공급 장치 교체에 대한 요구사항
+= 전원 공급 장치 교체 요구사항 - EF300 또는 EF600
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

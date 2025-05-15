@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Windows Express 구성 워크플로를 사용합니다. 
 ---
-= Windows 워크플로를 이해합니다
+= E-Series의 Windows 워크플로우 이해
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

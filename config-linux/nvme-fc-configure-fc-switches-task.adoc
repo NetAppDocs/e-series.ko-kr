@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FC switch, zoning, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 'FC(Fibre Channel) 스위치를 구성 \(조닝\)하면 호스트가 스토리지에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.' 
 ---
-= FC 스위치를 구성합니다
+= E-Series-Linux(NVMe over FC)에서 FC 스위치 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

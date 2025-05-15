@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 3040 40U cabinet, cabinet installation, drive tray installation, controller installation, shelf installation, E2800, E5700, EF300, EF600 
 summary: 캐비닛을 영구 위치로 이동합니다. 
 ---
-= 캐비닛을 영구 위치로 이동합니다
+= 3040 40U 캐비닛을 영구 위치(E-Series)로 이동
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000 
 summary: E2800의 드라이브를 60 드라이브 쉘프로 교체합니다. 
 ---
-= E4000의 드라이브 교체(60-드라이브 쉘프)
+= 드라이브 교체 - E4000(60-드라이브 쉘프)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

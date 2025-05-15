@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-use-ca-signed-certificates.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: Storage Plugin for vCenter를 호스팅하는 관리 시스템에 안전하게 액세스할 수 있도록 CA 서명 인증서를 받아서 가져옵니다. 
 ---
-= CA 서명 인증서를 사용합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 CA 서명 인증서를 사용합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

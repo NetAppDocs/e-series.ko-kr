@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-perform-pre-upgrade-health-check.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 상태 점검은 업그레이드 프로세스의 일부로 실행되지만 시작하기 전에 상태 점검을 별도로 실행할 수도 있습니다. 
 ---
-= 업그레이드 전 상태 점검을 수행합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 업그레이드 전 상태 점검을 수행합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

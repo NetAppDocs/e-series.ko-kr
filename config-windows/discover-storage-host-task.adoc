@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUNs, discover LUNs, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Windows Express용 스토리지를 검색합니다. 
 ---
-= 호스트에서 스토리지를 검색합니다
+= E-Series-Windows에서 호스트에서 스토리지를 검색합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

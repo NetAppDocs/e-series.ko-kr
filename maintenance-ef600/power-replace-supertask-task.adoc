@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace power supply, EF300, EF600, EF300C, EF600C 
 summary: EF300 또는 EF600 컨트롤러에서 장애가 발생하면 전원 공급 장치를 교체합니다. 
 ---
-= EF300 또는 EF600 전원 공급 장치를 교체합니다
+= 전원 공급 장치(EF300 및 EF600)를 교체합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

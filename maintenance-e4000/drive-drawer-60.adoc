@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive drawer, replacing E4000 drive drawer, E4000 replace drive drawer, replacing E4000 drive drawer, E4000, E-Series, eseries 
 summary: E2860 컨트롤러 쉘프 또는 DE460C 드라이브 쉘프에 드라이브 드로어를 교체합니다. 
 ---
-= E4000의 드라이브 드로어 교체(60-드라이브 쉘프)
+= 드라이브 드로어 교체 - E4000(60-드라이브 쉘프)
 :allow-uri-read: 
 :experimental: 
 :icons: font

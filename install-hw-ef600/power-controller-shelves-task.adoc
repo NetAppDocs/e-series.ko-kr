@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C, installation, power on, power cables 
 summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
 ---
-= 컨트롤러 쉘프의 전원을 켭니다
+= EF300, EF600, EF300C, EF600C 등의 컨트롤러 쉘프의 전원을 켭니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 물리적 경로 중 하나가 중단되는 경우 스토리지 배열에 대한 중복 경로를 제공하도록 다중 경로 소프트웨어를 구성합니다. 
 ---
-= 다중 경로 소프트웨어를 구성합니다
+= E-Series-Linux(SRP over InfiniBand)에서 다중 경로 소프트웨어 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

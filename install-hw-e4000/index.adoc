@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 다음 단계에 따라 E4000 저장 장치 시스템을 설치 및 설정하십시오. 
 ---
-= E4000 시스템을 설치하고 설정합니다
+= E4000 저장 장치 시스템 설치 및 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

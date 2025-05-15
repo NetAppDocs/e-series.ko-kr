@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries 
 summary: E4000의 드라이브를 12 드라이브 또는 24 드라이브 쉘프로 교체합니다. 
 ---
-= 드라이브 쉘프 핫 추가
+= 드라이브 쉘프를 핫 애드 - IOM12 또는 IOM12B 모듈 - E4000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

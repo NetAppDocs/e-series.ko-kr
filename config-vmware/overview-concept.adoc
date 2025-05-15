@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Express 방법을 사용하여 E-Series 어레이 및 VMware 호스트를 설정하기 위한 요구사항을 검토합니다. 
 ---
-= 가정
+= 가정(E-Series 및 VMware)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

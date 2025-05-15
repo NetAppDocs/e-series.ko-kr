@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-create-storage.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 먼저 특정 애플리케이션 유형에 대한 워크로드를 생성하여 스토리지를 생성합니다. 다음으로, 기본 볼륨 특성이 유사한 볼륨을 생성하여 스토리지 용량을 워크로드에 추가합니다. 
 ---
-= 스토리지 생성
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지를 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

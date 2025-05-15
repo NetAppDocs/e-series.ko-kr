@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Cloud Connector requirements 
 summary: SANtricity 클라우드 커넥터 응용 프로그램과 관련된 시스템 요구 사항, 설정, 설치, 구성 및 작업. 
 ---
-= Cloud Connector의 시스템 요구 사항
+= SANtricity Cloud Connector의 시스템 요구 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

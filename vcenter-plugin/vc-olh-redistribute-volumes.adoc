@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-redistribute-volumes.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 볼륨을 재배포하여 볼륨을 기본 컨트롤러 소유자에게 다시 옮깁니다 
 ---
-= 볼륨을 재배포합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨을 재배포합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Linux Unified Host Utilities, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries, SMcli, SMdevices 
 summary: iSER 사용 시 Linux Unified Host Utilities를 설치합니다. 
 ---
-= Linux Unified Host Utilities를 설치하고 구성합니다
+= E-Series에 Linux 유니파이드 호스트 유틸리티 설치 및 구성(iSER over InfiniBand)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

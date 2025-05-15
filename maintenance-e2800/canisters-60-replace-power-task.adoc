@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 replace 60-drive power canister, replacing E2800 power canister, E2800, E-Series, eseries 
 summary: 전원 이중화를 위해 2개의 전원 캐니스터가 포함된 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 교체합니다. 
 ---
-= E2800 전원 캐니스터 교체(60 드라이브)
+= 전원 캐니스터 교체 - E2800(60 드라이브)
 :allow-uri-read: 
 :experimental: 
 :icons: font

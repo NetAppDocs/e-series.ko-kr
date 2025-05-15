@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: E-Series 시스템이 있는 Linux 호스트의 Express 구성을 사용합니다. 
 ---
-= Linux Express 구성 개요
+= E-Series를 위한 Linux Express 구성에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure Remote Storage Volumes, set up RTV, configure remote volumes, set up remote storage E-Series 
 summary: 지원되는 iSCSI 프로토콜을 통해 E-Series 시스템을 원격 스토리지에 연결하려면 초기 설정이 필요합니다. 
 ---
-= 원격 스토리지 볼륨에 대한 하드웨어를 구성합니다
+= SANtricity 원격 스토리지 볼륨의 하드웨어를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

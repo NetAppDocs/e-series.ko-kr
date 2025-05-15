@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 fan, repair E5700 fan, replace E5700 fan, failed E5700 fan 
 summary: E5700 팬을 교체합니다. 
 ---
-= E5700 팬 캐니스터 교체(60 드라이브)
+= 팬 캐니스터 교체 - E5700(60 드라이브)
 :allow-uri-read: 
 :experimental: 
 :icons: font

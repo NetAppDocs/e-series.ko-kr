@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-create-pool-manually.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 설정이 자동 풀 구성에 대한 요구 사항을 충족하지 않는 경우 풀을 수동으로 생성할 수 있습니다. 풀은 논리적으로 그룹화된 드라이브 집합입니다. 
 ---
-= 풀을 수동으로 생성합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 풀을 수동으로 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

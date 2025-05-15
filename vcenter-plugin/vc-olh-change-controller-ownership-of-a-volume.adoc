@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-change-controller-ownership-of-a-volume.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 호스트 애플리케이션의 입출력이 새 경로를 통해 전달될 수 있도록 볼륨의 기본 컨트롤러 소유권을 변경합니다. 
 ---
-= 볼륨의 컨트롤러 소유권을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨의 컨트롤러 소유권을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

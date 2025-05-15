@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Switches, zoning, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 공급업체의 iSCSI 권장 사항에 따라 스위치를 구성합니다. 
 ---
-= 스위치를 구성합니다
+= E-Series-Linux(iSCSI)에서 스위치 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

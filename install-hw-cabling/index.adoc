@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cabling, cables, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
 summary: 호스트를 컨트롤러에 직접 연결하거나 스위치를 사용합니다. 
 ---
-= 케이블 연결 개요
+= 스토리지 시스템 케이블 연결(E-Series)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

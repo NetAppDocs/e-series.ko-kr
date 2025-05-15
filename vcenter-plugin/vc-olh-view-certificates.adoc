@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-view-certificates.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '인증서를 사용하는 조직, 인증서를 발급한 기관, 유효 기간 및 지문(고유 식별자)이 포함된 인증서의 요약 정보 보기' 
 ---
-= 인증서를 봅니다
+= vCenter용 SANtricity 스토리지 플러그인에서 인증서를 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

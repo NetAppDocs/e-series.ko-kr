@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign volume Linux, assign namespace Linux, express linux configuration, linux host, 
 summary: 'I/O 작업에 사용할 수 있도록 호스트 또는 호스트 클러스터에 볼륨\(네임스페이스\)을 할당해야 합니다. 이 할당은 호스트 또는 호스트 클러스터에 스토리지 배열의 하나 이상의 네임스페이스에 대한 액세스 권한을 부여합니다.' 
 ---
-= 볼륨을 할당합니다
+= SANtricity System Manager-Linux(NVMe over RoCE)를 사용하여 볼륨 할당
 :allow-uri-read: 
 :experimental: 
 :icons: font

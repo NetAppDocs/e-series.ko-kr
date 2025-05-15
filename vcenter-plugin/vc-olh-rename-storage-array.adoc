@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-rename-storage-array.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 관리 페이지에 표시되는 스토리지 배열의 이름을 변경합니다. 
 ---
-= 스토리지 배열의 이름을 바꿉니다
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지 배열 이름을 바꿉니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

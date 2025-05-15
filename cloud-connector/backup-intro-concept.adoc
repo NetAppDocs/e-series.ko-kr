@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Cloud Connector backup 
 summary: SANtricity 클라우드 커넥터 응용 프로그램의 왼쪽 탐색 패널에서 백업 옵션에 액세스할 수 있습니다. 백업 옵션은 새 이미지 기반 또는 파일 기반 백업 작업을 생성할 수 있는 백업 페이지를 표시합니다. 
 ---
-= 백업
+= SANtricity Cloud Connector를 사용하여 E-Series 볼륨 백업을 생성하고 관리합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

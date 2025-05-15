@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-import-directory-services-settings.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 한 스토리지 어레이에서 다른 스토리지 어레이로 디렉토리 서비스 구성을 가져옵니다. 
 ---
-= 디렉터리 서비스 설정을 가져옵니다
+= vCenter용 SANtricity 스토리지 플러그인에서 디렉토리 서비스 설정을 가져옵니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

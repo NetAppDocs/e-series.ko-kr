@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 60-drive, replace E5700 60-drive, failed E5700 60-drive 
 summary: E5700 60 드라이브 쉘프의 드라이브 교체 
 ---
-= E5700(60-드라이브 쉘프) 드라이브 교체
+= 드라이브 교체 - E5700(60 드라이브 쉘프)
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C, installation, create account, register hardware 
 summary: EF300 또는 EF600을 설치하려면 계정을 생성하고 하드웨어를 등록하십시오. 
 ---
-= 설치 준비
+= 설치 준비 - EF300, EF600, EF300C, EF600C
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, upgrade controller, upgrading controller, vendor ID, upgrade status, upgrade validate 
 summary: 컨트롤러 쉘프의 전원을 켜고 컨트롤러 소프트웨어 버전을 검증하여 컨트롤러 업그레이드를 완료합니다. 그런 다음 지원 데이터를 수집하고 작업을 재개할 수 있습니다. 
 ---
-= 컨트롤러 업그레이드를 완료합니다
+= E-Series 컨트롤러 업그레이드를 완료합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

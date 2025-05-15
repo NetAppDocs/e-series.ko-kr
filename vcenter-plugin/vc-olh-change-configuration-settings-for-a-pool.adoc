@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-change-configuration-settings-for-a-pool.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 풀의 이름, 용량 알림 설정, 수정 우선 순위 및 보존 용량을 비롯한 풀 설정을 편집합니다. 
 ---
-= 풀의 구성 설정을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 풀에 대한 구성 설정을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

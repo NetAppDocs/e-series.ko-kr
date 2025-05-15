@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure iSCSI networking, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 어레이 측에서 iSCSI 네트워킹을 구성합니다. 
 ---
-= 스토리지 측 네트워킹 구성
+= E-Series-Linux(iSCSI)에서 어레이측 네트워킹 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: failover, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 페일오버를 실행하도록 호스트를 구성합니다. 
 ---
-= 호스트에서 장애 조치를 설정합니다
+= E-Series-Linux(NVMe over RoCE)에서 호스트에서 페일오버 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

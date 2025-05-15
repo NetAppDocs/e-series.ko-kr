@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-create-pool-automatically.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 시스템에서 할당되지 않은 드라이브 11개 이상을 감지하거나 기존 풀에 적합한 할당되지 않은 드라이브 1개를 감지하면 자동으로 풀을 생성할 수 있습니다. 
 ---
-= 풀을 자동으로 생성합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 풀을 자동으로 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

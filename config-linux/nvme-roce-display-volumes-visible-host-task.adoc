@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display volumes host, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries, SMcli, SMdevices 
 summary: NVMe-CLI 패키지의 일부인 SMdevices 툴을 사용하여 호스트에 현재 표시된 볼륨을 볼 수 있습니다. 이 도구는 NVMe list 명령을 대체하는 도구입니다. 
 ---
-= 호스트에 표시되는 볼륨을 표시합니다
+= E-Series-Linux(NVMe over RoCE)에서 호스트에 표시되는 볼륨 표시
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

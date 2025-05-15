@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: file systems, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Linux 호스트가 처음 LUN을 검색할 때 새 LUN에 파티션 또는 파일 시스템이 없습니다. LUN을 사용하려면 먼저 포맷해야 합니다. 
 ---
-= 파티션 및 파일 시스템을 생성합니다
+= E-Series-Linux(SAS)에서 파티션 및 파일 시스템 생성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

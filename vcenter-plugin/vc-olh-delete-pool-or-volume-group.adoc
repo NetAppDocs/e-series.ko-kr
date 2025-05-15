@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-delete-pool-or-volume-group.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 풀 또는 볼륨 그룹을 삭제하여 할당 취소된 용량을 더 많이 생성한 다음, 애플리케이션 스토리지 요구사항을 충족하도록 다시 구성할 수 있습니다 
 ---
-= 풀 또는 볼륨 그룹을 삭제합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 풀 또는 볼륨 그룹을 삭제합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

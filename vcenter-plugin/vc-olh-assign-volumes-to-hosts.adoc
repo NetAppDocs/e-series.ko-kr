@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-assign-volumes-to-hosts.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: I/O 작업에 사용할 수 있도록 호스트 또는 호스트 클러스터에 볼륨을 할당해야 합니다. 
 ---
-= 호스트에 볼륨을 할당합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 호스트에 볼륨을 할당합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

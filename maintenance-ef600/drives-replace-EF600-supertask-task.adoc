@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF600, EF600C replace DIMM, drive failure 
 summary: EF600 어레이에서 드라이브 교체 
 ---
-= EF600 어레이에서 드라이브 교체
+= 드라이브 교체 - EF600
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

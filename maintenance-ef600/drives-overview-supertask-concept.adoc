@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF600C, EF300C, replace drive, 
 summary: EF300 또는 EF600의 드라이브를 교체하기 전에 요구사항 및 고려 사항을 검토하십시오. 
 ---
-= EF300 또는 EF600 드라이브 교체에 대한 요구사항
+= 드라이브 교체 요구사항 - EF300 또는 EF600
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

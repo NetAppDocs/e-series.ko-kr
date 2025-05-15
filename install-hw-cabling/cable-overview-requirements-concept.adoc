@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cabling, cabling requirements, drive shelf cabling, controller cabling, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
 summary: E-Series 쉘프의 케이블을 연결하는 데 몇 가지 구성 요소가 필요합니다. 
 ---
-= 요구 사항
+= 스토리지 시스템 케이블 연결 요구사항(E-Series)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, guide, express, method, configuring, configure, storage, array, system, manager, host, understand 
 summary: WVMware Express 구성 워크플로우를 사용합니다. 
 ---
-= VMware 워크플로우를 이해합니다
+= E-Series의 VMware 워크플로우를 이해합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

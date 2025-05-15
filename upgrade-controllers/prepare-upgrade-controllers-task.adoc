@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, upgrade controller, upgrading controller, upgrade controller requirements, upgrade controller key management, prepare upgrade controller, upgrade controller preparation, preparing controller upgrade 
 summary: 드라이브 보안 키를 저장하고 지원 데이터를 수집하며 컨트롤러를 오프라인으로 전환하여 컨트롤러를 업그레이드할 준비를 합니다. 
 ---
-= 컨트롤러 업그레이드를 준비합니다
+= E-Series 컨트롤러의 업그레이드를 준비합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

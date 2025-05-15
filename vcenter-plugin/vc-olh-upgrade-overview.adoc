@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-upgrade-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 같은 유형의 여러 스토리지 배열에 대한 SANtricity 소프트웨어 및 NVSRAM 업그레이드를 관리할 수 있습니다. 
 ---
-= 업그레이드 개요
+= vCenter용 스토리지 플러그인을 사용하여 SANtricity 소프트웨어 업그레이드를 관리하는 방법에 대해 알아봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

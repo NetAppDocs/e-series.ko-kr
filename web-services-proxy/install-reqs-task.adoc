@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: installation, download, install proxy, 
 summary: 웹 서비스 프록시에 대한 설치 및 업그레이드 요구 사항 및 고려 사항 
 ---
-= 설치 및 업그레이드 요구 사항 검토
+= SANtricity 웹 서비스 프록시의 설치 및 업그레이드 요구 사항을 검토합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

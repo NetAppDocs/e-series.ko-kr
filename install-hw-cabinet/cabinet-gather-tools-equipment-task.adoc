@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 3040 40U cabinet, cabinet installation, drive tray installation, controller installation, shelf installation, E2800, E5700, EF300, EF600 
 summary: 3040 40U 캐비닛을 설치하기 전에 필요한 도구와 장비를 준비합니다. 
 ---
-= 필요한 도구와 장비를 수집합니다
+= 3040 40U 캐비닛(E-Series)에 필요한 툴 및 장비 수집
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

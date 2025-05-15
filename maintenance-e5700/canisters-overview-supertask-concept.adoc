@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 canister, E5700 power supply, repair E5700 power supply, replace E5700 power supply, failed E5700 power supply 
 summary: E5700 캐니스터 유형 및 요구사항 검토 
 ---
-= E5700 캐니스터 교체 요구사항
+= 캐니스터 교체 요구 사항 - E5700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= E4000에서 컨트롤러를 교체합니다
+= 컨트롤러-E4000을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

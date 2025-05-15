@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 replace drive drawer, replacing E2800 drive drawer, E2800 replace drive drawer, replacing E2800 drive drawer, E2800, E-Series, eseries 
 summary: E2860 컨트롤러 쉘프 또는 DE460C 드라이브 쉘프에 드라이브 드로어를 교체합니다. 
 ---
-= E2800의 드라이브 드로어 교체(60-드라이브 쉘프)
+= 드라이브 드로워 교체 - E2800(60-드라이브 쉘프)
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-change-media-scan-settings-for-a-volume.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 미디어 검사는 볼륨의 모든 데이터 및 중복 정보를 검사하는 백그라운드 작업입니다. 하나 이상의 볼륨에 대한 미디어 스캔 설정을 활성화 또는 비활성화하거나 스캔 기간을 변경하려면 이 옵션을 사용합니다. 
 ---
-= 볼륨에 대한 미디어 스캔 설정을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨에 대한 미디어 검사 설정을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

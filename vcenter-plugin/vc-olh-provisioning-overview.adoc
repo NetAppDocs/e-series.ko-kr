@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-provisioning-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 호스트가 스토리지의 스토리지를 액세스할 수 있도록 볼륨이라는 데이터 컨테이너를 생성할 수 있습니다. 
 ---
-= 프로비저닝 개요
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지 용량 할당에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-increase-capacity-of-a-volume.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 볼륨 크기를 조정하여 보고된 용량을 늘립니다. 
 ---
-= 볼륨의 용량을 늘립니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨 용량을 늘립니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

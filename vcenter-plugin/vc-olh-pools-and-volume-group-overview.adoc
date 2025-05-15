@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-pools-and-volume-group-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '스토리지 용량을 할당하려면 스토리지 어레이에서 사용할 HDD(하드 디스크 드라이브) 또는 SSD(Solid State Disk) 드라이브가 포함될 풀 또는 볼륨 그룹을 생성합니다.' 
 ---
-= 풀 및 볼륨 그룹 개요
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지 풀 및 볼륨 그룹에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 change host protocol, E5700 baseboard ports, convert E5700 protocol, IB protocol, Infiniband protocol, Fibre Channel protocol, FC protocol, iSCSI protocol, converting host port protocol, 
 summary: E5700의 호스트 프로토콜을 변환합니다. 
 ---
-= E5700 호스트 포트 프로토콜 변경 요구사항
+= 호스트 포트 프로토콜-5700을 변경하기 위한 요구 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

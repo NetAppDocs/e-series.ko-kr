@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: multipath.conf, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: multipath.conf 파일은 multipath daemon, multipathd의 구성 파일입니다. 
 ---
-= multipath.conf 파일을 설정합니다
+= E-Series-Linux(SRP over InfiniBand)에서 multipath.conf 파일 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

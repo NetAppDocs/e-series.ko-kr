@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add E2800 controller, adding E2800 controller, simplex to duplex, convert to duplex, E2800, E-Series, eseries 
 summary: 컨트롤러 캐니스터가 하나만 있는 컨트롤러 쉘프에 두 번째 컨트롤러를 추가하거나, 단면 버전에 두 번째 컨트롤러 캐니스터를 추가합니다. 
 ---
-= E2800에 두 번째 컨트롤러 캐니스터를 추가합니다
+= 두 번째 컨트롤러 캐니스터-E2800을 추가합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

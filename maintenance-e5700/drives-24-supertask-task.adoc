@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 24-drive, replace E5700 24-drive, failed E5700 24-drive 
 summary: E5700 24 드라이브 쉘프 드라이브 교체 
 ---
-= E5700(24 드라이브 쉘프) 드라이브 교체
+= 드라이브 교체 - E5700(24-드라이브 쉘프)
 :allow-uri-read: 
 :experimental: 
 :icons: font

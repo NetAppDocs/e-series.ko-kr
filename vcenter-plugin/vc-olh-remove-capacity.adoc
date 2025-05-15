@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-remove-capacity.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 드라이브를 제거하여 기존 풀 또는 SSD Cache의 용량을 줄일 수 있습니다. 
 ---
-= 용량을 제거합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 기존 풀 또는 SSD 캐시의 용량을 줄입니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

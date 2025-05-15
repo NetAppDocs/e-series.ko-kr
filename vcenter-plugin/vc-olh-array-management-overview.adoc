@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-array-management-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 추가/검색 기능을 사용하여 조직의 네트워크에서 관리할 스토리지 어레이를 찾아서 추가합니다. 
 ---
-= 스토리지 관리 개요
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지 시스템 관리에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-change-workload-settings.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 워크로드의 이름을 변경하고 관련 애플리케이션 유형을 확인합니다. 
 ---
-= 워크로드 설정을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 워크로드 설정을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

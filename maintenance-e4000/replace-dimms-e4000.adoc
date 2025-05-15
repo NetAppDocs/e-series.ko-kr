@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= E4000의 DIMM을 교체합니다
+= DIMM-E4000을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= E4000의 배터리를 교체합니다
+= 배터리를 교체하십시오 - E4000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-certificates-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '인증서 관리를 사용하면 CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 기존 인증서를 관리할 수 있습니다.' 
 ---
-= 인증서 개요
+= vCenter용 SANtricity 스토리지 플러그인에서 인증서 관리에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

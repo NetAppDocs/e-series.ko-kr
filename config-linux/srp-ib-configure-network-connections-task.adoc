@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure network SRP over IB, configure Linux network, OFED, RDMA, express linux configuration, linux host, 
 summary: 구성에 Infiniband를 통한 SRP 프로토콜이 사용되는 경우 이 섹션의 단계를 따르십시오. 
 ---
-= 네트워크 연결 구성 - Infiniband를 통한 SRP
+= SANtricity 시스템 관리자 - Linux(SRP over InfiniBand)를 사용하여 네트워크 연결 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

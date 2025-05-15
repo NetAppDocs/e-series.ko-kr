@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure storage ESXi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 'ESXi 호스트에 할당된 스토리지를 VMFS\(Virtual Machine File System\) 데이터 저장소 또는 RDM\(Raw Device Mapping\)으로 사용할 수 있습니다. RDM은 NVMe over Fibre Channel 프로토콜에서 지원되지 않습니다.' 
 ---
-= 호스트에서 스토리지를 구성합니다
+= E-Series-VMware에서 호스트에 스토리지를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

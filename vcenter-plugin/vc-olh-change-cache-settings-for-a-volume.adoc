@@ -4,7 +4,7 @@ summary: 읽기 캐시 및 쓰기 캐시 설정을 변경하여 볼륨의 전체
 permalink: vcenter-plugin/vc-olh-change-cache-settings-for-a-volume.html 
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 ---
-= 볼륨의 캐시 설정을 변경합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨에 대한 캐시 설정을 변경합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

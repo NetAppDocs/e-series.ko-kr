@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= E4000에 두 번째 캐니스터를 추가합니다
+= 두 번째 캐니스터 E4000을 추가합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

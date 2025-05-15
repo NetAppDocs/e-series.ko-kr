@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-create-ssd-cache.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '시스템 성능을 동적으로 가속하기 위해 SSD Cache 기능을 사용하여 가장 자주 액세스하는 데이터("핫" 데이터)를 지연 시간이 짧은 SSD(Solid State Drive)에 캐싱할 수 있습니다.' 
 ---
-= SSD Cache 생성
+= vCenter용 SANtricity 스토리지 플러그인에서 SSD 캐시를 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

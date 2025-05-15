@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: IP address, DHCP, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 'DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 VMware Express 방식으로 IP 주소를 제공합니다.' 
 ---
-= DHCP를 사용하여 IP 주소를 구성합니다
+= E-Series-VMware의 DHCP를 사용하여 IP 주소를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

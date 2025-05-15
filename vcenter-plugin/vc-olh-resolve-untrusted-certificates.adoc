@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-resolve-untrusted-certificates.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '스토리지 배열에서 자체 서명된 인증서를 가져오거나 신뢰할 수 있는 타사에서 발급한 CA(인증 기관) 인증서를 가져와 신뢰할 수 없는 인증서를 해결합니다.' 
 ---
-= 신뢰할 수 없는 인증서를 확인합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 신뢰할 수 없는 인증서를 해결합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

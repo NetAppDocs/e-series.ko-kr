@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-enable-security-for-a-pool-or-volume-group.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 풀 또는 볼륨 그룹에 대해 드라이브 보안을 설정하여 풀 또는 볼륨 그룹에 포함된 드라이브의 데이터에 대한 무단 액세스를 방지할 수 있습니다. 
 ---
-= 풀 또는 볼륨 그룹에 대한 보안을 설정합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 풀 또는 볼륨 그룹에 대한 보안을 설정합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

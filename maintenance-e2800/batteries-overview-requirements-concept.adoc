@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 battery fail, E2800 battery, E2800 battery replacement, replace E2800 battery, replacing E2800 battery, E2800, E-Series, eseries 
 summary: E2800 배터리 교체 요구 사항 및 고려 사항을 검토합니다. 
 ---
-= E2800 배터리 교체 요구 사항
+= 배터리 교체 요구 사항 - E2800
 :allow-uri-read: 
 :experimental: 
 :icons: font

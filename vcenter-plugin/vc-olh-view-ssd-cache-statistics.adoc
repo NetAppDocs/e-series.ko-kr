@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-view-ssd-cache-statistics.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 'SSD Cache의 통계 보기: 읽기, 쓰기, 캐시 적중 횟수, 캐시 할당 백분율, 캐시 활용률입니다.' 
 ---
-= SSD Cache 통계를 확인합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 SSD 캐시 통계를 확인합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

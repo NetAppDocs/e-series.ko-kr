@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C installation process overview 
 summary: EF300 또는 EF600의 설치 및 설정 프로세스를 검토합니다. 
 ---
-= 설치 프로세스
+= 스토리지 시스템 통합 - EF300, EF600, EF300C 및 EF600C에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 power supply, repair E5700 power supply, replace E5700 power supply, failed E5700 power supply 
 summary: E5700 60 드라이브 전원 공급 장치 교체 
 ---
-= E5700 전원 캐니스터 교체(60 드라이브)
+= 전원 캐니스터 교체 - E5700(60 드라이브)
 :allow-uri-read: 
 :experimental: 
 :icons: font

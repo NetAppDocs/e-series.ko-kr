@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-turn-on-locator-lights.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 모든 드라이브를 물리적으로 식별할 수 있습니다. 선택한 풀, 볼륨 그룹 또는 SSD Cache의 각 드라이브에 LED 표시등이 켜집니다. 
 ---
-= 로케이터 조명을 켭니다
+= vCenter용 SANtricity 스토리지 플러그인에서 드라이브의 LED 표시등을 켭니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

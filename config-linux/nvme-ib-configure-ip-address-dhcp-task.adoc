@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: IP address, DHCP, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 'DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 IP 주소를 제공합니다.' 
 ---
-= DHCP를 사용하여 IP 주소를 구성합니다
+= E-Series-Linux(NVMe over InfiniBand)에서 DHCP를 사용하여 IP 주소 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

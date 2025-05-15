@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Web Services, WSP, SANtricity API, 
 summary: WSP 호환성 및 제한 사항. 
 ---
-= 호환성 및 제한
+= SANtricity 웹 서비스 프록시 호환성 및 제한 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

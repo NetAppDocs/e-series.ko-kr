@@ -4,7 +4,7 @@ permalink: manage-storage.html
 keywords: online help, System Manager, Unified Manager 
 summary: 스토리지 관리 
 ---
-= 스토리지 관리
+= E-Series 스토리지 시스템을 관리합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

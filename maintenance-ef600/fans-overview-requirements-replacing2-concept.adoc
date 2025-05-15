@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C replace fan, 
 summary: EF300 또는 EF600 팬을 교체하기 전에 요구사항 및 고려 사항을 검토하십시오. 
 ---
-= EF300 또는 EF600 팬 교체에 대한 요구사항
+= 팬-EF300 및 EF600 교체 요구사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

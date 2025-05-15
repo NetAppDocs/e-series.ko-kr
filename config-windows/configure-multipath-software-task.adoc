@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: multipath software for Windows, express Windows configuration, software configuration, Windows host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Windows용 다중 경로 소프트웨어가 포함된 DSM 패키지를 설치합니다. 
 ---
-= 다중 경로 소프트웨어를 구성합니다
+= E-Series-Windows에서 다중 경로 소프트웨어를 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

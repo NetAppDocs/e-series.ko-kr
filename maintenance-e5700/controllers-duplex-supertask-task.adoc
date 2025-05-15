@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E5700 controller, repair E5700 controller, replace E5700 controller, failed E5700 controller 
 summary: 듀플렉스 구성에서 컨트롤러 캐니스터를 교체합니다. 
 ---
-= 양면 인쇄 구성의 컨트롤러를 교체합니다
+= 이중 구성에서 컨트롤러 교체 - E5700
 :allow-uri-read: 
 :experimental: 
 :icons: font

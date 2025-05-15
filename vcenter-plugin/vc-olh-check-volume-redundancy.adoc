@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-check-volume-redundancy.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 풀 또는 볼륨 그룹의 볼륨에서 이중화를 확인하여 해당 볼륨의 데이터가 일관되는지 확인할 수 있습니다. 이중화 데이터는 풀 또는 볼륨 그룹의 드라이브 중 하나에 장애가 발생할 경우 교체 드라이브에 대한 정보를 빠르게 재구성하는 데 사용됩니다. 
 ---
-= 볼륨 중복성을 확인합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 볼륨 중복성을 확인합니다
 :hardbreaks:
 :allow-uri-read: 
 :experimental: 

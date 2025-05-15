@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: RoCE 환경의 NVMe 이니시에이터 구성에는 RDMA 코어 및 NVMe-CLI 패키지 설치 및 구성, 이니시에이터 IP 주소 구성, 호스트에 NVMe-oF 계층 설정 등이 포함됩니다. 
 ---
-= 호스트 측에서 NVMe over RoCE를 설정합니다
+= E-Series-Linux의 호스트에서 RoCE를 통해 NVMe 이니시에이터를 설정합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

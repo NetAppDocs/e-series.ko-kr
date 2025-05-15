@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: file systems, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: RHEL 7 및 SLES 12의 경우 네임스페이스에 파일 시스템을 생성하고 파일 시스템을 마운트합니다. 
 ---
-= 파일 시스템 생성(RHEL 7 및 SLES 12)
+= E-Series - Linux RHEL 7 및 SLES 12에서 파일 시스템 생성(NVMe over RoCE)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

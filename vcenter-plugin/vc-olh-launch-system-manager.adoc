@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-launch-system-manager.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: 단일 어레이를 관리하려면 시작 옵션을 사용하여 새 브라우저 창에서 System Manager를 엽니다. 
 ---
-= System Manager를 시작합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 System Manager를 시작합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

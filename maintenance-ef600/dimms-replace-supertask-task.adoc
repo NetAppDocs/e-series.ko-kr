@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C, replace DIMM 
 summary: EF300 또는 EF600 어레이에서 DIMM 교체 
 ---
-= EF300 또는 EF600의 DIMM을 교체합니다
+= DIMM을 교체합니다. - EF300 또는 EF600
 :allow-uri-read: 
 :experimental: 
 :icons: font

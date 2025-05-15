@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Web Services terms, WSP concepts 
 summary: 웹 서비스 API에 대해 자세히 알아보십시오 
 ---
-= 용어 및 개념
+= SANtricity 웹 서비스 프록시 용어에 대해 알아봅니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 connect power cables 
 summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
 ---
-= 쉘프 케이블 연결(E4060)
+= 전원 케이블 E4060을 연결합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

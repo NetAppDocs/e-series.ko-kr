@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace SAS expansion card, replacing SAS card, drive tray expansion, expansion card, EF300C, EF600C, EF300, EF600 
 summary: 드라이브 트레이를 확장할 수 있도록 SAS 확장 카드를 EF300 컨트롤러에 추가합니다. 
 ---
-= EF300 및 EF600에 SAS 확장 카드 추가
+= SAS 확장 카드 - EF300 및 EF600 를 추가합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

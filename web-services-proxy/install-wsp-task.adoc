@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: installation, download, install proxy, 
 summary: 설치에는 파일을 다운로드한 다음 Linux 또는 Windows 서버에 프록시 패키지를 설치하는 과정이 포함됩니다. 
 ---
-= 웹 서비스 프록시 파일을 설치하거나 업그레이드합니다
+= SANtricity 웹 서비스 프록시 파일을 설치하거나 업그레이드합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

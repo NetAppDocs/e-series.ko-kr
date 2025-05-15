@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF600, EF300, EF600C, EF300C, replace fan, fan fail 
 summary: EF300 또는 EF600의 팬을 교체합니다. 
 ---
-= EF300 또는 EF600 팬을 교체합니다
+= EF300 또는 EF600을 교체합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

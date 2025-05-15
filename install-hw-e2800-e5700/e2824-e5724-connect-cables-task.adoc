@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800, E5700, connect power cables 
 summary: 전원 케이블을 연결하고 드라이브 쉘프의 전원을 켭니다. 
 ---
-= 케이블을 연결합니다
+= 전원 케이블(E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C)을 연결합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

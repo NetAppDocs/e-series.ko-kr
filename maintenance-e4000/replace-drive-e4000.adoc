@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: E4000 드라이브를 교체하기 전에 요구 사항 및 고려 사항을 검토하십시오. 
 ---
-= E4000 드라이브 교체 개요
+= 드라이브 교체 요구 사항 - E4000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

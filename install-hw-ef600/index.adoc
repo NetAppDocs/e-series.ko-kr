@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C installation 
 summary: EF300 및 EF600 어레이 설치 및 설정 
 ---
-= EF300, EF600, EF300C, EF600C 스토리지 시스템을 설치 및 설정합니다
+= EF300, EF600, EF300C, EF600C 등의 설치 및 설정을 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

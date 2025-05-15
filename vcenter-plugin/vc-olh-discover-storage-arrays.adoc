@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-discover-storage-arrays.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: vCenter용 저장소 플러그인에서 저장소 리소스를 표시하고 관리하려면 네트워크에 있는 어레이의 IP 주소를 검색해야 합니다. 
 ---
-= 스토리지 시스템을 검색합니다
+= vCenter용 SANtricity 스토리지 플러그인에서 스토리지 시스템을 검색합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

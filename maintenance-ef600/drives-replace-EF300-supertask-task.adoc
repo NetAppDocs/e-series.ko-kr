@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF300C, replace drive, drive failure 
 summary: EF300 스토리지의 드라이브를 교체합니다. 
 ---
-= EF300 스토리지의 드라이브를 교체합니다
+= 드라이브를 교체합니다. - EF300
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

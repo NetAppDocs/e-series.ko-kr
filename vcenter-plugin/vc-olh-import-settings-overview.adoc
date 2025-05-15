@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-import-settings-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: '설정 가져오기 기능은 단일 스토리지 배열(소스)의 설정을 여러 배열(대상)에 복제할 수 있는 배치 작업입니다.' 
 ---
-= 설정 가져오기 개요
+= vCenter용 SANtricity 스토리지 플러그인의 가져오기 설정 기능에 대해 알아봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

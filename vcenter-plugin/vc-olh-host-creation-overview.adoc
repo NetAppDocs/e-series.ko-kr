@@ -4,7 +4,7 @@ permalink: vcenter-plugin/vc-olh-host-creation-overview.html
 keywords: vCenter plugin, Plugin for vCenter, SANtricity plugin for vCenter 
 summary: vCenter용 Storage Plugin을 사용하여 스토리지를 관리하려면 네트워크에서 각 호스트를 검색 또는 정의해야 합니다. 
 ---
-= 호스트 생성 개요
+= vCenter용 SANtricity 스토리지 플러그인에서 호스트 생성에 대해 자세히 알아봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

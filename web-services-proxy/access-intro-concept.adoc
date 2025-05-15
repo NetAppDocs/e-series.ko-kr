@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Web Services, WSP, roles WSP, user access WSP 
 summary: 보안을 위해 웹 서비스 API 및 Unified Manager에 대한 사용자 액세스를 관리할 수 있습니다. 
 ---
-= 웹 서비스 프록시에서 사용자 액세스를 관리합니다
+= SANtricity 웹 서비스 프록시에서 사용자 액세스를 관리합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

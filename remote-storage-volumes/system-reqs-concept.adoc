@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Remote Storage Volumes requirements, RTV requirements, RTV restrictions, remote volumes, remote storage E-Series 
 summary: 시스템은 원격 스토리지 볼륨에 대한 호환성 요구 사항을 충족해야 합니다. 
 ---
-= 원격 스토리지에 대한 요구 사항 및 제한 사항
+= SANtricity 원격 스토리지 볼륨 사용에 대한 요구 사항 및 제한 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

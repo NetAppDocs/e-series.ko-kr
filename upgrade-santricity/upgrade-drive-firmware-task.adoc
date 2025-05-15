@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, drive firmware, upgrade SANtricity, upgrade OS, upgrade E-Series, upgrade firmware, upgrading, upgrade IOM firmware, upgrade NVSRAM, upgrade controller 
 summary: 드라이브의 펌웨어를 업그레이드하여 최신 기능 및 버그 수정 사항이 모두 있는지 확인합니다. 
 ---
-= 드라이브 펌웨어를 업그레이드합니다
+= E-Series 및 EF-Series 드라이브 펌웨어를 업그레이드합니다
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: host port GUIDs, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 호스트 포트 GUID를 확인합니다. 
 ---
-= 호스트 포트 GUID를 확인하고 권장 설정을 지정합니다
+= E-Series-Linux(iSER over InfiniBand)에서 호스트 포트 글로벌 고유 ID 결정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
