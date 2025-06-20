@@ -4624,7 +4624,6 @@
   <block id="69388a3aa77fde6c6db723db24c07886" category="paragraph">RPM 패키지 관리 시스템과 호환되는 Linux 시스템의 경우 선택적 RPM 파일을 사용하여 웹 서비스 프록시를 설치할 수 있습니다.</block>
   <block id="44fdd30cd930ac3164eb732ccfc71839" category="list-text">RPM 파일을 프록시 및 Unified Manager를 설치할 서버로 다운로드합니다.</block>
   <block id="6dcd1ebf4390170868ab9bcdfd967581" category="list-text">다음 명령을 입력합니다.</block>
-  <block id="832e1d3c786f0b6f9f452d072f2d4b27" category="paragraph">rpm -u sSANtricity_webservices-nn.nn.nn.nnnn-n. x86_64.rpm</block>
   <block id="e90cc19871614d9efbaffbaffd7e2d47" category="admonition">위 명령에서 nn.nn.nn.nnnn은 버전 번호를 나타냅니다.</block>
   <block id="52877d65c00b08b2ad200ece4bbb448f" category="summary">보안을 위해 웹 서비스 API 및 Unified Manager에 대한 사용자 액세스를 관리할 수 있습니다.</block>
   <block id="0cac4d311d45b98b5398187d39484757" category="section-title">액세스 관리 개요</block>
@@ -6269,10 +6268,7 @@
   <block id="668e2078ef1b1722c77cdb5c523a4463" category="sidebar">NetApp 기술 자료</block>
   <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
   <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E-Series/SANtricity 다운로드(로그인 필요)</block>
-  <block id="e9983c2bf51c9aa8f38dce44157b9a2a" category="paragraph">이 절차는 IOM12 및 IOM12B 드라이브 쉘프에 적용됩니다.</block>
-  <block id="2af3ffb0914986412fbce97033362ada" category="admonition">이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)</block>
   <block id="acd1dcb9f4c3f9c9b28f9c1a4d234d1b" category="admonition">전원 공급 장치 교체 절차는 IOM 교체에 적용할 수 있습니다. IOM을 교체하려면 전원 공급 장치 교체 절차를 수행하십시오.</block>
-  <block id="ebc31fad1cf84954196a7706294df684" category="paragraph">이 절차는 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
   <block id="dbf42093a0041931999943f18d3f0986" category="paragraph">다음 정보는 E2800, E2800B, EF280, E5700, EF5700B 케이블 연결에 적용됩니다. 또는 EF570 컨트롤러 쉘프: DE212C, DE224C 또는 DE460 드라이브 쉘프</block>
   <block id="f2c505979298b93cfd8e71dc78ddd1b0" category="admonition">전압 유형이 다른 PSU를 혼용하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="b7b26f8fd8107cf68f2bc572008d19a7" category="admonition">교체 컨트롤러에는 16GB의 메모리가 미리 설치되어 있습니다. 컨트롤러에 64GB 구성이 필요한 경우 교체 컨트롤러를 설치하기 전에 제공된 업그레이드 키트를 사용하십시오.</block>
@@ -6362,7 +6358,6 @@
   <block id="c0e8c7e46cae3f0c9b9c738bc76c9ea8" category="paragraph">보고된 용량 증가 대화 상자가 나타납니다. 이 대화 상자에는 볼륨의 현재 보고된 용량과 볼륨의 연결된 풀 또는 볼륨 그룹에서 사용 가능한 가용 용량이 표시됩니다.</block>
   <block id="5c82f6a54733344cb7eec2765ac13712" category="paragraph">선택한 항목에 따라 볼륨 용량이 증가합니다. 이 작업은 시간이 오래 걸릴 수 있으며 시스템 성능에 영향을 줄 수 있습니다.</block>
   <block id="4068dcbd83689810385f5bd61994998b" category="paragraph">볼륨 용량을 확장한 후에는 파일 시스템 크기를 수동으로 늘려야 합니다. 이 방법은 사용 중인 파일 시스템에 따라 다릅니다. 자세한 내용은 호스트 운영 체제 설명서를 참조하십시오.</block>
-  <block id="27ff4e5987307be95b847357578a7d2c" category="summary">중복 검사는 풀 또는 볼륨 그룹의 볼륨에 있는 데이터가 일관되는지 여부를 확인합니다.</block>
   <block id="dbdb64210af00cba98b2ae65e68fc433" category="doc">중복 검사란?</block>
   <block id="527686381caf5b91f8b2570f0b90f7e1" category="paragraph">중복 검사는 풀 또는 볼륨 그룹의 볼륨에 있는 데이터가 일관되는지 여부를 확인합니다. 이중화 데이터는 풀 또는 볼륨 그룹의 드라이브 중 하나에 장애가 발생할 경우 교체 드라이브에 대한 정보를 빠르게 재구성하는 데 사용됩니다.</block>
   <block id="ceb78409571f58fc00f9f8b5b24b8937" category="paragraph">한 번에 하나의 풀 또는 볼륨 그룹에서만 이 검사를 수행할 수 있습니다. 볼륨 중복 검사는 다음 작업을 수행합니다.</block>
@@ -6648,7 +6643,6 @@
   <block id="6f77c9c07c72d4718892ec422f4427bc" category="doc">호스트 포트를 호스트에 일치시키려면 어떻게 해야 합니까?</block>
   <block id="e3603ec100f890e2ef8684fc0f32d90c" category="paragraph">이 정보가 있는 경우 Create Host 대화 상자에 제공된 목록에서 스토리지 배열에 로그인한 호스트 포트 식별자를 선택합니다.</block>
   <block id="2bba3e0602cd7a130a9a940ee66aefad" category="admonition">생성 중인 호스트에 대해 적절한 호스트 포트 식별자를 선택해야 합니다. 잘못된 호스트 포트 식별자를 연결하면 다른 호스트에서 이 데이터에 의도하지 않은 액세스가 발생할 수 있습니다.</block>
-  <block id="490911223ced9bd35d325330312a99b5" category="summary">암호 구문은 로컬 관리 클라이언트에 저장된 보안 키 파일을 암호화하고 해독하는 데 사용됩니다.</block>
   <block id="7e2fd80391cbb19f61be6028669d1143" category="doc">암호문을 정의해야 하는 이유는 무엇입니까?</block>
   <block id="2f42cd01026066a070aa52e53e4d963f" category="paragraph">암호 구문은 로컬 관리 클라이언트에 저장된 보안 키 파일을 암호화하고 해독하는 데 사용됩니다. 암호 구문이 없으면 보안 키를 해독할 수 없으며 다른 스토리지 배열에 다시 설치한 경우 보안 활성 드라이브에서 데이터의 잠금을 해제하는 데 사용할 수 없습니다.</block>
   <block id="2da87ae0f783e9cc7ac8f36a7af697e4" category="summary">기본 클러스터는 기본 클러스터에 할당된 볼륨에 대한 액세스 권한을 얻기 위해 스토리지 배열에 로그인한 연결되지 않은 호스트 포트 식별자를 허용하는 시스템 정의 엔티티입니다.</block>
@@ -6844,8 +6838,6 @@
   <block id="961886d373243f3f3f779b008441b5d2" category="cell">ATTO Technology, Inc., 다중 경로 드라이버를 사용하는 Mac OS 버전을 지원합니다.</block>
   <block id="d93a7355c7e5ae529cbbd1c7386ef236" category="cell">Windows(ATTO)</block>
   <block id="1cef5a0ae504a39c3c685c81bb227bcc" category="cell">ATTO Technology, Inc., 다중 경로 드라이버를 사용하는 Windows 운영 체제를 지원합니다.</block>
-  <block id="fae9863ad38cf7cb4abba55837a6958e" category="cell">FlexArray(ALUA)</block>
-  <block id="80a4b6a6aea0733712df8ece7feeb565" category="cell">다중 경로에 대해 ALUA를 사용하여 NetApp FlexArray 시스템을 지원합니다.</block>
   <block id="448462a9364fed0f780b5871c1332348" category="cell">IBM SVC</block>
   <block id="ba5b374a9253be7b2e7ff414763a91ee" category="cell">IBM SAN Volume Controller 구성을 지원합니다.</block>
   <block id="fb83a625e5852c1ba47fe358f2d50ffc" category="cell">공장 출하 시 기본값</block>
@@ -6854,7 +6846,6 @@
   <block id="02677c9d7a9295a0b7ff23da80ed17c2" category="cell">3.9 이하의 커널과 함께 장치 매퍼 다중 경로 장애 조치 솔루션을 사용하여 Linux 운영 체제를 지원합니다.</block>
   <block id="e9745a54dc083bc4c6e7adb0ba4a88bf" category="cell">Window Clustered(더 이상 사용되지 않음)</block>
   <block id="ee99f98925e229fb230a1fca830d5dd4" category="cell">호스트 운영 체제 유형이 이 값으로 설정되어 있으면 Windows(클러스터형 또는 비클러스터형) 설정을 대신 사용합니다.</block>
-  <block id="e28ca758b5b6384ff2daa36accced63c" category="summary">볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 묻는 메시지가 표시됩니다.</block>
   <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">선택한 워크로드가 볼륨 생성에 어떤 영향을 미칩니까?</block>
   <block id="0c6710fd70e8f6dfb7dc7c5ef665fd39" category="paragraph">볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다. 선택적으로 볼륨 생성 순서에서 이 단계를 건너뛸 수 있습니다.</block>
   <block id="a9b6571e3fb4b307db1e9aeb13903f33" category="list-text">비디오 감시 애플리케이션</block>
@@ -7010,7 +7001,6 @@
   <block id="25d294940d1800f4d27d4ba80d924e94" category="section-title">기능 활성화 및 비활성화</block>
   <block id="e8ce4dc5c23425001ae843ebfc09d20d" category="paragraph">드라이브가 DULBE를 지원하는 시스템에서는 리소스 프로비저닝이 기본적으로 사용됩니다. 풀 및 볼륨 그룹에서 기본 설정을 해제할 수 있습니다. 리소스 프로비저닝을 해제하는 작업은 기존 볼륨에 대해 영구적으로 수행되므로 되돌릴 수 없습니다. 즉, 이러한 볼륨 그룹 및 풀에 대해 리소스 프로비저닝을 다시 설정할 수 없습니다.</block>
   <block id="4435efc77a278305c3367a9af9389977" category="paragraph">그러나 새로 생성한 모든 볼륨에 대해 리소스 프로비저닝을 다시 활성화하려면 설정 [시스템] 메뉴에서 다시 활성화할 수 있습니다. 리소스 프로비저닝을 다시 설정하면 새로 생성한 볼륨 그룹 및 풀만 영향을 받습니다. 기존 볼륨 그룹 및 풀은 변경되지 않습니다. 필요한 경우 설정 [시스템] 메뉴에서 자원 프로비저닝을 다시 비활성화할 수도 있습니다.</block>
-  <block id="e995e7f7f68380b2da6f062d6f736236" category="summary">EF300 및 EF600 시스템의 경우 512바이트 또는 4KiB 블록 크기("섹터 크기"라고도 함)를 지원하도록 볼륨을 설정할 수 있습니다. 볼륨을 생성하는 동안 올바른 값을 설정해야 합니다.</block>
   <block id="fb5754cb7d8aec1ca725e7242d365730" category="doc">호스트 블록 크기 요구 사항에 대해 알아야 할 내용은 무엇입니까?</block>
   <block id="e5e425d8ab1cbef0e34a067f0d88d470" category="paragraph">EF300 및 EF600 시스템의 경우 512바이트 또는 4KiB 블록 크기("섹터 크기"라고도 함)를 지원하도록 볼륨을 설정할 수 있습니다. 볼륨을 생성하는 동안 올바른 값을 설정해야 합니다. 가능한 경우 시스템은 적절한 기본값을 제안합니다.</block>
   <block id="f4aa667b118a0a334c4fa467de995fc8" category="paragraph">볼륨 블록 크기를 설정하기 전에 다음 제한 사항 및 지침을 읽으십시오.</block>
@@ -7020,7 +7010,6 @@
   <block id="bfa50d7e23cedec28f3a7c786ec7a651" category="list-text">4KiB 블록에 쓰는 드라이브를 사용하여 볼륨 그룹을 생성하는 경우 512바이트 또는 4KiB 블록으로 볼륨을 생성할 수 있습니다.</block>
   <block id="e131265d769e1bc2ac0e9288abe59c73" category="list-text">어레이에 iSCSI 호스트 인터페이스 카드가 있는 경우 모든 볼륨은 볼륨 그룹 블록 크기와 관계없이 512바이트 블록으로 제한됩니다. 이는 특정 하드웨어 구현 때문입니다.</block>
   <block id="714ec5306252a0c2268088a5e79bd8d2" category="list-text">블록 크기를 설정한 후에는 변경할 수 없습니다. 블록 크기를 변경해야 하는 경우 볼륨을 삭제하고 다시 생성해야 합니다.</block>
-  <block id="968c500c45a669526a5ae69ef252eb12" category="summary">동일한 볼륨 세트에 대한 액세스를 공유하는 호스트가 2개 이상인 경우 호스트 클러스터를 생성해야 합니다.</block>
   <block id="36ba1dd2062be041e65d76f318fc9563" category="doc">호스트 클러스터를 생성해야 하는 이유는 무엇입니까?</block>
   <block id="605c94544e16797cd75e903049c8c75f" category="paragraph">동일한 볼륨 세트에 대한 액세스를 공유하는 호스트가 2개 이상인 경우 호스트 클러스터를 생성해야 합니다. 일반적으로 개별 호스트에는 볼륨 액세스를 조정하기 위해 클러스터링 소프트웨어가 설치되어 있습니다.</block>
   <block id="25158e36dca2975554827639d80d3724" category="summary">vCenter용 Storage Plugin과 관련된 모든 소프트웨어 파일이 나열된 소프트웨어 저장소를 보고 관리할 수 있습니다.</block>
@@ -7071,7 +7060,6 @@
   <block id="6ddafd51962fda13ede773e9d6350dd2" category="list-text">Manage * 페이지에서 스토리지 배열 이름 왼쪽에 있는 확인란을 선택합니다.</block>
   <block id="374fea5b262769323b08b3962c808a45" category="list-text">행의 맨 오른쪽에 있는 줄임표를 선택한 다음 팝업 메뉴에서 * 스토리지 배열 이름 바꾸기 * 를 선택합니다.</block>
   <block id="96f8be2a5d55d9a167ed06cc1a5f9694" category="list-text">새 이름을 입력하고 * 저장 * 을 클릭합니다.</block>
-  <block id="c7f22d49f002f26198a719f2496c2e98" category="summary">설정 가져오기 기능은 하나의 스토리지 어레이에서 여러 스토리지 어레이로 구성을 로드하는 일괄 작업입니다. 이 작업 중에 가져오는 설정은 소스 스토리지 배열이 System Manager에 구성된 방식에 따라 다릅니다.</block>
   <block id="6aa467b445a7d222ea7a821c8df54a08" category="doc">어떤 설정을 가져올까요?</block>
   <block id="5a336d7c8bb4d9fb626af7c0fffe68af" category="paragraph">설정 가져오기 기능은 하나의 스토리지 어레이에서 여러 스토리지 어레이로 구성을 로드하는 일괄 작업입니다.</block>
   <block id="5f54df5b09ce6e5e7ccff3fed9aea673" category="paragraph">이 작업 중에 가져오는 설정은 소스 스토리지 배열이 System Manager에 구성된 방식에 따라 다릅니다. 다음 설정을 여러 스토리지 어레이로 가져올 수 있습니다.</block>
@@ -7084,7 +7072,6 @@
   <block id="1aa660524e4f7281ec5e49498a4718df" category="list-text">* 시스템 설정 * -- 구성에는 볼륨에 대한 미디어 스캔 설정, 컨트롤러에 대한 SSD 캐시, 자동 로드 밸런싱(호스트 연결 보고 제외)이 포함됩니다.</block>
   <block id="95ddff89f7e76cf544c140d3f049b138" category="summary">CLI(Command Line Interface)를 사용하여 볼륨을 생성했거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)한 경우 볼륨은 워크로드에 연결되지 않습니다.</block>
   <block id="184ee7795269728284ddf4700779c94b" category="doc">이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?</block>
-  <block id="a755886af9ddc52625c98ff0c2403d42" category="summary">보안 키는 스토리지 시스템 내의 컨트롤러 및 보안 지원 드라이브에서 공유됩니다.</block>
   <block id="2a0d49e5c65d1c328eea1427c45f821e" category="doc">보안 키를 생성하기 전에 알아야 할 사항은 무엇입니까?</block>
   <block id="eb8e4643855758b3255653b9508bfb4a" category="paragraph">보안 키는 스토리지 시스템 내의 컨트롤러 및 보안 지원 드라이브에서 공유됩니다. 스토리지 배열에서 보안 지원 드라이브를 제거하면 보안 키가 무단 액세스로부터 데이터를 보호합니다.</block>
   <block id="41f869dddf7c6279ec6063ce284c3e8e" category="paragraph">다음 방법 중 하나를 사용하여 보안 키를 만들고 관리할 수 있습니다.</block>
@@ -7189,7 +7176,6 @@
   <block id="5177a22291a0479f014a4c628e8c39bf" category="list-text">초기화된 볼륨에서 모든 데이터를 지웁니다.</block>
   <block id="fc9997eb02932a98d6282e5da3bf886e" category="list-text">블록 인덱스를 지웁니다. 이로 인해 기록되지 않은 블록이 0으로 채워진 것처럼 읽힙니다(볼륨이 완전히 비어 있는 것처럼 보임).</block>
   <block id="0b74908e48cc1d1d0b3056cb2126fb0a" category="paragraph">이 작업은 시간이 오래 걸릴 수 있으며 시스템 성능에 영향을 줄 수 있습니다.</block>
-  <block id="4599f147525488978c059ab5443c5a94" category="summary">이 워크로드의 볼륨은 애플리케이션별 워크로드와 연결되어 있지 않으므로 워크로드를 삭제할 수 없습니다.</block>
   <block id="cc41a400b6ddab31b3cc4c347ea5b96a" category="doc">선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?</block>
   <block id="3bfd2179043341e09a4fc1cfd720d6ff" category="paragraph">이 워크로드는 CLI(Command Line Interface)를 사용하여 생성되거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)된 볼륨 그룹으로 구성됩니다. 따라서 이 워크로드의 볼륨은 애플리케이션별 워크로드와 연결되지 않으므로 워크로드를 삭제할 수 없습니다.</block>
   <block id="bff2ada202630bbc11f607cc5ffa0e29" category="summary">시스템에서 할당되지 않은 드라이브 11개 이상을 감지하거나 기존 풀에 적합한 할당되지 않은 드라이브 1개를 감지하면 자동으로 풀을 생성할 수 있습니다.</block>
@@ -7223,7 +7209,6 @@
   <block id="b19ae07679153c8839dce79280a9b977" category="paragraph">가져온 설정에는 LDAP(Lightweight Directory Access Protocol) 서버의 도메인 이름과 URL, LDAP 서버의 사용자 그룹에 대한 매핑과 스토리지 배열의 사전 정의된 역할에 대한 URL이 포함됩니다.</block>
   <block id="e79c0c6f8d005d753d2037c9281755c5" category="list-text">설정 선택 대화 상자에서 * 디렉터리 서비스 * 를 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="178bcda3e7560e5a5b5e8fa2c4f3b069" category="paragraph">이제 타겟 스토리지 시스템이 소스 스토리지와 동일한 디렉토리 서비스로 구성됩니다.</block>
-  <block id="4618a10c402a86f34f74700b56034c0f" category="summary">풀 또는 볼륨 그룹에 대한 쉘프 및 드로어 손실 방지 유지</block>
   <block id="8a3f4e59944403d76cf4ffb618284325" category="doc">선반 및 서랍 손실 방지를 어떻게 유지합니까?</block>
   <block id="5f18e254e37bfef58483cda02161565b" category="paragraph">풀 또는 볼륨 그룹의 쉘프 및 드로어 손실 보호를 유지하려면 다음 표에 나와 있는 기준을 사용하십시오.</block>
   <block id="a0db49ba470c1c9ae2128c3470339153" category="cell">레벨</block>
@@ -7341,7 +7326,6 @@
   <block id="5e9ab766ec08679ade0079d0bb739b2e" category="list-text">통합 * 을 클릭합니다.</block>
   <block id="310125557218a86df977fea54f7f1144" category="paragraph">시스템은 볼륨 그룹의 여유 용량 영역을 이후 스토리지 구성 작업을 위해 인접한 하나의 용량으로 통합(조각 모음)하기 시작합니다.</block>
   <block id="8b923050d3190a365119cba36abd83c1" category="paragraph">탐색 사이드바에서 * Operations * 를 선택하여 통합 가용 용량 작업의 진행률을 확인합니다. 이 작업은 시간이 오래 걸릴 수 있으며 시스템 성능에 영향을 줄 수 있습니다.</block>
-  <block id="8289ad2daf4149715a39ad8d6af619b8" category="summary">DA 지원 기본 볼륨이 있는 스냅샷 볼륨은 DA(Data Assurance) 기능이 지원되지 않는 호스트에 할당할 수 없습니다.</block>
   <block id="a75d3526ba8cd40a248e9da80d0ba8d2" category="doc">내 볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="f956e41235aa6de0ef7cf1901fa9a994" category="paragraph">DA 지원 기본 볼륨이 있는 스냅샷 볼륨은 DA(Data Assurance) 기능이 지원되지 않는 호스트에 할당할 수 없습니다. DA를 사용할 수 없는 호스트에 스냅샷 볼륨을 할당하기 전에 기본 볼륨에서 DA를 비활성화해야 합니다.</block>
   <block id="92fc66f9534d94b4859793638454d6ee" category="paragraph">스냅샷 볼륨을 할당할 호스트에 대한 다음 지침을 고려하십시오.</block>
@@ -7906,7 +7890,6 @@
   <block id="77019701522f222bf26ade1b8082a1ee" category="sidebar">OS 소프트웨어를 업그레이드합니다</block>
   <block id="ce3948f2b44ee14a18d362f994260727" category="sidebar">호스트를 구성합니다</block>
   <block id="f0ba1c2df528f80a7b9482044ac9d46b" category="sidebar">풀 및 볼륨 그룹을 구성합니다</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ 를 참조하십시오</block>
   <block id="3ffd36cf4afe86c690f4b57be234a2ff" category="sidebar">EF-Series 데이터시트 를 살펴 보십시오</block>
   <block id="ecc348240fe0031a456c147f13126f0c" category="sidebar">E5700 데이터시트</block>
   <block id="239a8d1ddfc1ceae19ee25fea039a278" category="sidebar">E2800 데이터시트를 참조하십시오</block>
@@ -7974,10 +7957,7 @@
   <block id="04595c79a616b5c392556737aaa7347d" category="paragraph">RHEL 7, RHEL 8 및 RHEL 9 *</block>
   <block id="2a5b109c10fe6e93caf3666c9854f292" category="list-text">multipath -ll 명령을 실행하여 NVMe 장치 목록을 가져옵니다.</block>
   <block id="210c9515d4a1e9c78e2608d073aeef56" category="list-text">에 이니시에이터의 GUID를 기록합니다 <block ref="00a1f89a34dac59e8a714860454ae51a" category="inline-xref-macro-rx"></block>.</block>
-  <block id="6dc10b003bcb8e0cbbcf076e7dbcdf2f" category="paragraph">이 작업은 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
   <block id="6616a8dcc33e3e23ed86909a9a46376e" category="admonition">iSCSI에 대한 Data Assurance 기능은 SANtricity 버전 11.40 이상에서 지원됩니다.</block>
-  <block id="d8877bd06791feeb2257a189554b10c0" category="paragraph">다음 절차는 IOM12 및 IOM12B 드라이브 쉘프에 적용됩니다.</block>
-  <block id="9d5445db77f905ba92077d0b48806948" category="admonition">이러한 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사합니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)</block>
   <block id="63651a0b8ef66d63649c69f52dd02292" category="list-text">Google Chrome 89 이상</block>
   <block id="695a09770fa3da1385898775bfef82b9" category="list-text">Mozilla Firefox 80 이상</block>
   <block id="de651d67770cb856f4d13c0980010807" category="list-text">Microsoft Edge 90 이상</block>
@@ -8059,7 +8039,6 @@
   <block id="7bb583eaeb72cab404957a32bf32e9fb" category="paragraph-title">예 A: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 3개가 포함된 E5700 컨트롤러 쉘프</block>
   <block id="ab945691a98936597c2ea25ebe10559a" category="paragraph-title">예 B: 표준 SAS 구성의 DE212C/DE224 디스크 쉘프 1개가 있는 E5700 컨트롤러 쉘프</block>
   <block id="45d7b912755be5cce50a63e39e38af8a" category="section-title">1단계: 새 컨트롤러의 부품 번호를 확인합니다</block>
-  <block id="f2ad0f8f286ab81e3d2722fa3c383e9b" category="admonition">IOM12B 모듈은 SANtricity OS 11.70.2 이상에서만 지원됩니다. IOM12B를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
   <block id="fe52478447b1fa9a4c7ec89de67fdf4d" category="sidebar">드라이브 쉘프를 핫 추가합니다</block>
   <block id="83af49c7a44a4352fd5c07a021524fea" category="paragraph">호환되는 최신 RHEL 7, RHEL 8, RHEL 9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 최신 요구 사항의 전체 목록을 확인하십시오.</block>
   <block id="889869e1d3bab19951bb91f386d721de" category="list-text">RHEL 8 및 RHEL 9의 경우 네트워크 스크립트를 설치합니다.</block>
@@ -8481,9 +8460,7 @@
   <block id="5835021a0e70e0a13bc60ddff4162aca" category="paragraph"><block ref="5835021a0e70e0a13bc60ddff4162aca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="17360156c8ceaa57309077e605e88697" category="image-alt">E2800 및 E5700 설치 프로세스 워크플로우</block>
   <block id="9388df48e85777aba8981c9e79739824" category="inline-image-macro">E4012 직접 토폴로지, 폭 = 1000px</block>
-  <block id="9dcbe6d474a3385e1258eeebe1d96cfa" category="paragraph"><block ref="9dcbe6d474a3385e1258eeebe1d96cfa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e5115f367ddc4b23f2a5a9dce410d220" category="inline-image-macro">E4012 Fabric 토폴로지, 폭 = 1000px</block>
-  <block id="fe5422a7f743c4750aa826cb030729eb" category="paragraph"><block ref="fe5422a7f743c4750aa826cb030729eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f998d3759a46f941c16045d05799b20" category="inline-image-macro">E4000 컨트롤러 관리 포트</block>
   <block id="419c5b2edef00ba85d62682d5ff0138c" category="paragraph"><block ref="419c5b2edef00ba85d62682d5ff0138c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f530fae0a98563bf22e6ee7a23163588" category="list-text">브라우저의 지침에 따라 SANtricity System Manager를 계속 진행합니다. 연결을 설정할 수 없는 경우 DHCP 서버로부터 네트워크 구성을 받지 않는지 확인합니다.</block>
@@ -8491,9 +8468,7 @@
   <block id="05f07938d9743df4b9673ac6e16d5eaf" category="list-text">이전에 설정한 암호를 사용하여 로그인합니다. 네트워크 설정 구성 마법사가 나타납니다.</block>
   <block id="61c8d556c74bbd20f07d7c1565d11a11" category="list-text">가장 간단한 네트워크 구성에서 컨트롤러를 웹 브라우저에 연결하고 SANtricity 시스템 관리자를 사용하여 단일 E4000 시리즈 스토리지 어레이를 관리할 수 있습니다. System Manager에 액세스하려면 관리 포트를 구성하는 데 사용한 것과 동일한 IP 주소를 사용하십시오.</block>
   <block id="ed82e034d7d377cc12aa1d89cea33d43" category="inline-image-macro">E4060 직접 토폴로지, 폭 = 1000px</block>
-  <block id="98e6536dfa926f6bd4a1900657c27282" category="paragraph"><block ref="98e6536dfa926f6bd4a1900657c27282" category="inline-image-macro-rx" type="image"></block></block>
   <block id="427b3e2ab20960e704a22e39fbcda634" category="inline-image-macro">E4060 Fabric 토폴로지, 폭 = 1000px</block>
-  <block id="72c6889744a45c86c32b640c76b2138a" category="paragraph"><block ref="72c6889744a45c86c32b640c76b2138a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ab2bd875f2f303555807a3b13a6b64bb" category="paragraph"><block ref="ab2bd875f2f303555807a3b13a6b64bb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ff2e827a53ef25671ffc7469bb5208a2" category="list-title">예 A: 표준 SAS 구성에서 DE212C/DE224C 디스크 쉘프 3개가 포함된 E4000 컨트롤러 쉘프</block>
   <block id="ecf826f3b05c4b630ca5e118d6536932" category="list-title">예 B: 표준 SAS 구성의 DE212C/DE224C 디스크 쉘프 1개가 있는 E4000 컨트롤러 쉘프</block>
@@ -9711,4 +9686,22 @@
   <block id="ed389a9acb72de33be78325f147d7d8c" category="doc">SANtricity 웹 서비스 및 Unified Manager에 대해 알아보십시오</block>
   <block id="f14a1a04aab620524ee87bd0fd002ab1" category="doc">SANtricity 웹 서비스 프록시 용어에 대해 알아봅니다</block>
   <block id="abf831fd1f3fab9981530f2ea36177b2" category="doc">SANtricity 웹 서비스 프록시 통계에 대한 자동 폴링을 관리합니다</block>
+  <block id="dce708315880727f8ba7e84bab86b168" category="paragraph">이 절차는 IOM12, IOM12B, IOM12C 드라이브 선반에 적용됩니다.</block>
+  <block id="3f457ff9c17714d64ba75fd9d6d618f2" category="admonition">IOM12C 모듈은 SANtricity OS 11.90R3 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
+  <block id="8d93e2013316d1241b304432f0103be5" category="admonition">이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12C 모듈을 다른 IOM12C 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12C 모듈 2개를 포함할 수 있습니다.)</block>
+  <block id="e0f75caa67759a6c5e34cbad6ae84d57" category="admonition">IOM12C 모듈은 SANtricity OS 11.70.2 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
+  <block id="bbfd15448c83d50ee0a4a62cc152d856" category="paragraph"><block ref="bbfd15448c83d50ee0a4a62cc152d856" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f7178ecd56d859f9f7e4878779a236ea" category="paragraph"><block ref="f7178ecd56d859f9f7e4878779a236ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="949ca69f081f10e2fc1938e0e24759c8" category="paragraph"><block ref="949ca69f081f10e2fc1938e0e24759c8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="142dc71d06d08da442f6fe84d80e526d" category="paragraph"><block ref="142dc71d06d08da442f6fe84d80e526d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dea137ce87e98617e1e7f9c6f97eeeff" category="admonition">이러한 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사합니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12C 모듈을 다른 IOM12C 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12C 모듈 2개를 포함할 수 있습니다.)</block>
+  <block id="88db80c02306ca8e9bac2283b0d2f6bf" category="paragraph">이 절차는 DCM, DCM2, DCM3 드라이브 선반에 적용됩니다.</block>
+  <block id="b2d2940e83701ff478975b36d255b487" category="paragraph">이 작업은 DCM, DCM2, DCM3 드라이브 선반에 적용됩니다.</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
+  <block id="a318c851f3d3c0a7eeb1313f1422c3b3" category="doc">vCenter용 SANtricity 스토리지 플러그인에 대한 FAQ</block>
+  <block id="33f3664698fdab78efe7579f9849af32" category="paragraph"><block ref="b6ee0733cf8f7004d998d8fc49cc2022" prefix="" category="inline-code"></block></block>
+  <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">버전 11.90R3의 새로운 기능</block>
+  <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">IOM12C 및 DCM3에 대한 SANtricity OS 지원</block>
+  <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">컨트롤러 펌웨어 11.90R3 이상에서 IOM12C 및 DCM3 SAS-3 셸프를 지원합니다. IOM12C 및 DCM3 셸프는 IOM12B 및 DCM2 셸프를 대체합니다.</block>
+  <block id="3a2a69a35a4560167d4c0478029a3f70" category="sidebar">vCenter용 스토리지 플러그인 FAQ</block>
 </blocks>

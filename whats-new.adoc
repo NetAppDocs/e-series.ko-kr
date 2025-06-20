@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.90, SANtricity 11.80 
+keywords: whats new, new features, SANtricity, 11.9, 11.8 
 summary: SANtricity OS의 새로운 기능 
 ---
 = SANtricity OS의 새로운 기능
@@ -14,6 +14,21 @@ summary: SANtricity OS의 새로운 기능
 [role="lead"]
 다음 표에서는 E4000, EF300/EF300C, EF600/EF600C, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 최신 SANtricity OS 릴리즈의 새로운 기능에 대해 설명합니다.
 
+
+
+== 버전 11.90R3의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+IOM12C 및 DCM3에 대한 SANtricity OS 지원
+ a| 
+컨트롤러 펌웨어 11.90R3 이상에서 IOM12C 및 DCM3 SAS-3 셸프를 지원합니다. IOM12C 및 DCM3 셸프는 IOM12B 및 DCM2 셸프를 대체합니다.
+
+|===
 
 
 == 버전 11.90R2의 새로운 기능

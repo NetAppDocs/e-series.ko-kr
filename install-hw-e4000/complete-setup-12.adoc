@@ -28,7 +28,7 @@ NOTE: 컨트롤러의 왼쪽 하단(E1A, e1b, e1c, e1d)과 오른쪽 상단(e0a 
 --
 다음 예에서는 직접 연결 토폴로지를 사용하여 데이터 호스트에 케이블을 연결하는 방법을 보여 줍니다.
 
-image:../media/drw_e4012_direct_topology_ieops-2047.svg["E4012 직접 토폴로지, 폭 = 1000px"]
+image:../media/drw_e4012_direct_topology_ieops-2156.svg["E4012 직접 토폴로지, 폭 = 1000px"]
 
 . 각 호스트 HBA 포트를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 연결합니다.
 
@@ -41,7 +41,7 @@ NOTE: 케이블 연결 다이어그램의 추가 예는 를 https://docs.netapp.
 --
 다음 예에서는 패브릭 토폴로지를 사용하여 데이터 호스트에 케이블을 연결하는 방법을 보여 줍니다.
 
-image:../media/drw_e4012_fabric_topology_ieops-2046.svg["E4012 Fabric 토폴로지, 폭 = 1000px"]
+image:../media/drw_e4012_fabric_topology_ieops-2157.svg["E4012 Fabric 토폴로지, 폭 = 1000px"]
 
 . 각 호스트 어댑터를 스위치에 직접 연결합니다.
 . 각 스위치를 컨트롤러의 호스트 포트(e1A, e1b, e1c, e1d 또는 e0a 및 e0b)에 직접 연결합니다.

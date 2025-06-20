@@ -45,7 +45,7 @@ image::../media/2hosts_4hbas_ieops-2146.svg[호스트 2개/HBA 4개 및 컨트�
 다음 그림에서는 연결 예를 보여 줍니다. 프로비저닝 기능을 제공하는 스위치의 경우 각 이니시에이터와 타겟 쌍을 격리해야 합니다.
 
 .호스트 2개 및 스위치 2개
-image::../media/topology_host_fabric_generic.png[호스트 2개와 스위치 2개를 케이블로 연결합니다]
+image::../media/topology_host_fabric_generic_ieops-2152.svg[호스트 2개와 스위치 2개를 케이블로 연결합니다]
 
 * (1) * _ 각 호스트 어댑터를 스위치에 직접 연결합니다. _
 
