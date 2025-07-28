@@ -9433,7 +9433,6 @@
   <block id="c2d05de1ae701bdce72c2faac49ce98c" category="doc">EF300, EF600, EF300C, EF600C 등 스토리지 시스템 설정 및 구성을 완료합니다</block>
   <block id="650137d2f2842f6b60e056b9c55a250f" category="doc">EF300, EF600, EF300C, EF600C 등의 설치 및 설정을 구성합니다</block>
   <block id="85c56bf21f1f6bc6a3b828568c9beb6b" category="doc">EF300, EF600, EF300C 및 EF600C 하드웨어를 설치합니다</block>
-  <block id="6169a90642f45b855b0d1918df24f1db" category="doc">스토리지 시스템 통합 - EF300, EF600, EF300C 및 EF600C에 대해 알아보십시오</block>
   <block id="8b8cb36a048e7bee1a4b2b80d86a5118" category="doc">EF300, EF600, EF300C, EF600C 등의 컨트롤러 쉘프의 전원을 켭니다</block>
   <block id="56ce28c073fbbac13d9108d1544bd58e" category="doc">설치 준비 - EF300, EF600, EF300C, EF600C</block>
   <block id="87d6ab4989c0d8d9248aa48458ea993a" category="doc">E-Series 릴리즈 노트</block>
@@ -9668,4 +9667,5 @@
   <block id="cab141641940a0cb3eca1b1695f92d4b" category="list-text">*예 B: 표준 SAS 구성의 DE460C 디스크 셸프 1개가 있는 E4060 컨트롤러 셸프*</block>
   <block id="47e9a132733409a780b8b25a91969da6" category="list-text">CLI 명령을 사용하여 스토리지 배열 설정을 이중화로 변경합니다. CLI를 사용하려면 CLI 패키지를 다운로드한 경우 명령 프롬프트를 열거나 Storage Manager가 설치된 경우 Enterprise Management Window(EMW)를 열면 됩니다.</block>
   <block id="2db2ecd53dfa16abedb03a761e1763e8" category="paragraph">필요한 경우 MTU(Maximum Transmission Unit)에 대한 새 크기를 바이트 단위로 입력합니다. 기본 MTU 크기는 프레임당 1500바이트입니다. 1500 ~ 9000 사이의 값을 입력해야 합니다.</block>
+  <block id="6d169c67d74922fc178491e0bef73793" category="doc">스토리지 시스템 설치에 대해 알아보세요 - EF300, EF600, EF300C 및 EF600C</block>
 </blocks>
