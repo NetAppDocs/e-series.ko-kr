@@ -14,7 +14,7 @@ summary: 파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CL
 파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 기능이 포함됩니다.
 
 .이 작업에 대해
-다음 절차는 Broadcom Emulex 또는 QLogic NVMe/FC 지원 FC HBA를 사용하는 RHEL 7, RHEL 8, RHEL 9, SLES 12 및 SLES 15에 대한 것입니다. 지원되는 OS 버전 또는 HBA에 대한 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+다음 절차는 Broadcom Emulex 또는 QLogic NVMe/FC 지원 FC HBA를 사용하는 RHEL 8, RHEL 9, SLES 12 및 SLES 15에 적용됩니다.  이러한 OS 또는 HBA의 어떤 버전이 지원되는지에 대한 자세한 내용은 다음을 참조하세요. https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] .
 
 .단계
 . "NVMe-CLI" 패키지를 설치합니다.
@@ -28,7 +28,7 @@ summary: 파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CL
 # zypper install nvme-cli
 ----
 +
-RHEL 7, RHEL 8 또는 RHEL 9 *
+*RHEL 8 또는 RHEL 9*
 
 +
 [listing]
@@ -37,7 +37,6 @@ RHEL 7, RHEL 8 또는 RHEL 9 *
 # yum install nvme-cli
 ----
 +
-.. RHEL 7의 경우에만 을 통해 NVMe/FC 연결에 대한 외부 Broadcom AutoConnect 스크립트를 다운로드하여 설치합니다 https://www.broadcom.com/support/download-search["Broadcom 웹 사이트"^]. FC 드라이버를 통해 받은 편지함 NVMe에 대한 키워드 * AutoConnect 스크립트 파일 * 을 입력하고 OS에 맞는 최신 버전을 선택합니다.
 .. Qlogic의 경우 Broadcom NVMe/FC 자동 연결 스크립트를 설치한 후 다음을 포함하도록 '/lib/systemd/system/nvmefc-boot-connections.service` 를 수정합니다.
 +
 [listing]

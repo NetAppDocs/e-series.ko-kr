@@ -4974,8 +4974,6 @@
   <block id="47258fb44590338243e024351300f997" category="cell">정보 시스템의 기밀성, 무결성 및 가용성에 대해 규정된 보안 목표를 충족하기 위해 SANtricity를 배포하는 방법을 설명합니다.</block>
   <block id="39a9002fa4dcf0afc27b1355c1567969" category="cell">역할 기반 액세스 제어(RBAC), LDAP(Lightweight Directory Access Protocol) 및 SAML(Security Assertion Markup Language)을 비롯한 액세스 관리를 구성하는 방법에 대해 설명합니다.</block>
   <block id="9ca4f852cb231d38c7cf2bb9053a2245" category="summary">DHCP(Dynamic Host Configuration Protocol)\ 를 사용하여 IP 주소를 제공합니다.</block>
-  <block id="e889c393ff8c52f357be63d353ebf65a" category="summary">RHEL 7 및 SLES 12의 경우 네임스페이스에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
-  <block id="da6e8accbd9a7e86c32239135f1ffed2" category="doc">파일 시스템 생성(RHEL 7 및 SLES 12)</block>
   <block id="facbcb2fa38d6402945c5fd2c6fcf386" category="list-text">'/dev/mapper/dm' 디바이스 목록을 가져오려면 'multipath -ll' 명령을 실행합니다.</block>
   <block id="4c45d0d12df786bfe97882594b02cae1" category="paragraph">이 명령의 결과는 dm-19와 dm-16이라는 두 가지 장치를 보여 줍니다.</block>
   <block id="07c24368c59a3d6a71b9305c416c7d08" category="list-text">각 '/dev/mapper/eui -' 디바이스의 파티션에 파일 시스템을 생성합니다.</block>
@@ -5099,7 +5097,6 @@
   <block id="2b430348ddae524592cd1c4207d8f170" category="summary">SLES\(SUSE Linux 버전\)의 버전을 기반으로 장치 대상으로 지정된 I/O를 구성합니다.</block>
   <block id="2760a5173fe84d55b4dfd0df17083b60" category="doc">가상 장치 타겟에 NVMe 볼륨에 액세스합니다</block>
   <block id="71a0145e77943169ac5f0e901f7138e7" category="paragraph">사용 중인 OS 및 확장 경로 다중화 방법에 따라 디바이스 타겟에 대한 입출력을 구성할 수 있습니다.</block>
-  <block id="591c00758088276e03267ffcba122b79" category="paragraph">RHEL 7 및 SLES 12의 경우, I/O는 Linux 호스트가 가상 장치 대상으로 지정합니다. DM-MP는 이러한 가상 타겟의 기반이 되는 물리적 경로를 관리합니다.</block>
   <block id="d47b596bd703372e505b66a0d7086453" category="section-title">가상 디바이스는 입출력 타겟입니다</block>
   <block id="77c376f67e98384bf9e50220cc9566e0" category="paragraph">물리적 디바이스 경로가 아닌 DM-MP에서 생성한 가상 디바이스에만 입출력을 실행해야 합니다. 물리적 경로에 대한 입출력을 실행하는 경우 DM-MP가 페일오버 이벤트를 관리할 수 없으며 입출력이 실패합니다.</block>
   <block id="60085e457c461011b1f7a0dc9d2287c9" category="paragraph">/dev/mapper의 dm 장치 또는 'symlink'를 통해 이러한 블록 장치에 액세스할 수 있습니다. 예를 들면 다음과 같습니다.</block>
@@ -5190,7 +5187,6 @@
   <block id="bc2a327cbf5067ba22b3f62235282061" category="paragraph">이 절차를 시작하기 전에 HBA 유틸리티에 대한 다음 지침을 검토하십시오.</block>
   <block id="3e59e5ab1adea8ed176d6a2c2a73cadf" category="paragraph">의 메모 열을 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 을 참조하십시오.</block>
   <block id="b3e50929a30cfc00afbc55d231a50cdc" category="summary">다중 경로 장치에 파티션을 만들고, 선택적으로 네임스페이스에서 파일 시스템을 생성하고, 파티션을 마운트할 수 있습니다.</block>
-  <block id="59c71eb9f304131ed908d87a5f9303f9" category="paragraph">RHEL 7 및 SLES 12의 경우 원하는 dm 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="a50e35ff2f76c0ac349de732916c537b" category="paragraph">RHEL 8 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="446e80fe7b2b546a067aa727557f83e0" category="paragraph">파일 시스템을 생성하는 방법은 선택한 파일 시스템에 따라 다릅니다. 이 예제에서는 ext4 파일 시스템을 만드는 방법을 보여 줍니다.</block>
   <block id="975fd0c9892b022cfeeec8b2a371f30b" category="paragraph">사용할 호스트 인터페이스 유형을 선택합니다. 구성한 어레이에 사용 가능한 호스트 인터페이스 유형이 하나만 있는 경우 이 설정을 선택할 수 없습니다.</block>
@@ -5376,8 +5372,6 @@
   <block id="9e780c0c06dd0edf0f09bcc9516acc1c" category="list-text">RHEL(Red Hat) 호스트의 경우 "rpm -q device-mapper-multipath"를 실행하여 패키지가 설치되어 있는지 확인합니다</block>
   <block id="2176d0eb1d2a0a5ab5201af565e0b30b" category="list-text">SLES 호스트의 경우 'rpm-q multipath-tools'를 실행하여 패키지가 설치되어 있는지 확인합니다</block>
   <block id="7149b8af09961dfba911fe06ae6a3540" category="admonition">을 참조하십시오 <block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> SLES 또는 RHEL의 GA 버전에서 다중 경로가 올바르게 작동하지 않을 수 있으므로 필요한 업데이트가 설치되었는지 확인합니다.</block>
-  <block id="7cab16eb74754bbe232b8775c104e66a" category="section-title">RHEL 7 또는 SLES 12에 대해 장치 매퍼 다중 경로(DMMP)를 활성화합니다</block>
-  <block id="2c2e807f6a8822a2d088dfdcc394203e" category="paragraph">기본적으로 DM-MP는 RHEL 및 SLES에서 비활성화됩니다. 호스트에서 DM-MP 구성 요소를 활성화하려면 다음 단계를 수행하십시오.</block>
   <block id="95be6b7c132218bd8782b6a7b0b982ed" category="list-text">다음 예에 표시된 대로 NVMe E-Series 장치 항목을 /etc/multipath.conf 파일의 devices 섹션에 추가합니다.</block>
   <block id="159eb527caba422e175178bb8e7eb6a3" category="list-text">시스템 부팅 시 시작되도록 'multipid'를 구성합니다.</block>
   <block id="4a9f39582bee881ac128db3567909572" category="list-text">현재 실행되고 있지 않으면 '멀티페이드'를 시작합니다.</block>
@@ -5400,11 +5394,9 @@
   <block id="8c4487a25ea9466f02e7c9276479f372" category="list-text">OFED/RDMA 설정 파일에서 'RP_LOAD=yes'와 'RP_daemon_enable=yes'를 설정한다.</block>
   <block id="e9c7cbe50b485973bea871f161c62eae" category="paragraph">RDMA 구성 파일은 다음 위치에 있습니다.</block>
   <block id="199ab23853e7dbd4480051a2ba7f94c1" category="list-text">OFED/RDMA 서비스를 활성화하고 시작합니다.</block>
-  <block id="d2452f6f41a0fb1c9adc48a224fa39c1" category="paragraph">* RHEL 7.x 및 SLES 12.x 이상 *</block>
   <block id="62a80434680a3501e732e0b0f17f43b5" category="list-text">부팅 시 InfiniBand 모듈을 로드하도록 설정하려면 다음과 같이 하십시오.</block>
   <block id="0e0f48a5b5a9c28eeecd7c27ed199bab" category="list-text">InfiniBand 모듈을 즉시 로드하려면 다음을 따르십시오.</block>
   <block id="d3f496df79399c10dc9661ba6b344e4b" category="list-text">SRP 데몬을 활성화합니다.</block>
-  <block id="e04f1e451cf291bf4dea0e5ac75365d9" category="paragraph">* RHEL 7.x 및 SLES 12 이상 *</block>
   <block id="ec6db7aa1ba44acdf7ea7755f1bf3606" category="list-text">SRP 데몬이 부팅 시 시작되도록 하려면 다음을 수행합니다.</block>
   <block id="c0e80cdff7e17bef2e455fab906a94bf" category="list-text">SRP 데몬을 즉시 시작하려면</block>
   <block id="f954d52b7d356b7898493ef1309b32ba" category="list-text">SRP 구성을 수정해야 하는 경우 다음 명령을 입력하여 '/etc/modprobe.d/IB_SRP.conf'를 생성합니다.</block>
@@ -5478,8 +5470,6 @@
   <block id="eee710143ae29bf272d75ad40d2ede5a" category="doc">호스트 측에서 NVMe over Fibre Channel을 설정합니다</block>
   <block id="a273add3419b2d63bd738c3a4f1e5e3a" category="paragraph">파이버 채널 환경의 NVMe 이니시에이터 구성에는 NVMe-CLI 패키지를 설치 및 구성하고 호스트에서 NVMe/FC 이니시에이터를 사용하는 기능이 포함됩니다.</block>
   <block id="6ba6a18088999d632ca174b9873a3b12" category="list-text">"NVMe-CLI" 패키지를 설치합니다.</block>
-  <block id="969b64ee6a8c67d01b4cd1635a747bd2" category="inline-link">Broadcom 웹 사이트</block>
-  <block id="d55f94d596bbb6493b1bdec1808b9783" category="list-text">RHEL 7의 경우에만 을 통해 NVMe/FC 연결에 대한 외부 Broadcom AutoConnect 스크립트를 다운로드하여 설치합니다<block ref="54ac045dab92bf3efc1a15209419902d" category="inline-link-rx"></block>. FC 드라이버를 통해 받은 편지함 NVMe에 대한 키워드 * AutoConnect 스크립트 파일 * 을 입력하고 OS에 맞는 최신 버전을 선택합니다.</block>
   <block id="bd24eb8365cbbc52e79a70875ec8229b" category="list-text">Qlogic의 경우 Broadcom NVMe/FC 자동 연결 스크립트를 설치한 후 다음을 포함하도록 '/lib/systemd/system/nvmefc-boot-connections.service` 를 수정합니다.</block>
   <block id="fb85e712c850b00626dd602822712dff" category="list-text">nvmefc-boot-connections 서비스를 활성화하고 시작합니다.</block>
   <block id="8d16de46536e749f63af504f807749de" category="paragraph">* Emulex HBA에 대한 호스트 측 설정: *</block>
@@ -7903,7 +7893,6 @@
   <block id="df45b26c6e6aa12c9a2da2dc8610745d" category="list-text">다음 행을 추가합니다. 2단계에서 찾은 값을 로 대체합니다<block ref="7804c104033334dfd1f4483b356e7e80" prefix=" " category="inline-code"></block> 및<block ref="a343d59b38a9422b5e453e8b5ab007c0" prefix=" " category="inline-code"></block>. 용<block ref="16a2e561c536a77cbfd10490ea398be6" prefix=" " category="inline-code"></block> 및<block ref="5f2b9323c39ee3c861a7b382d205c3d3" prefix=" " category="inline-code"></block>에서 서브넷 관리자 우선 순위를 사용합니다. 1은 가장 낮고 15는 가장 높습니다.</block>
   <block id="a377bc45676f5d1c2a8f8219a09c9b83" category="list-text">다음 행을 추가합니다.</block>
   <block id="4eb5da929a8b5274983c883ec977d36a" category="list-text">시스템에 새 서비스를 알립니다.</block>
-  <block id="1f34187b1a209107eee63f82ab42cc05" category="paragraph">RHEL 7, RHEL 8 또는 RHEL 9 *</block>
   <block id="709e243fec7f9a41a7ff766bf8716ce5" category="paragraph">RHEL 8, RHEL 9, SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="8c986ed4d501b7f34013f1474891eb88" category="list-text">를 실행합니다<block ref="3d80983fc82ff72fd51e5d1f7e90c56d" prefix=" " category="inline-code"></block> NVMe 장치 목록을 가져오는 명령입니다.</block>
   <block id="c2254fad4178ca4085391a6ac3fc163a" category="paragraph">이 명령의 결과는 와 연결된 장치를 찾는 데 사용할 수 있습니다<block ref="324b592ebf16794a0c88511b40085a76" prefix=" " category="inline-code"></block> 위치. 아래 예에서는 입니다<block ref="5873769649ae49105d6cefc7971b78c1" prefix=" " category="inline-code"></block>.</block>
@@ -7911,14 +7900,9 @@
   <block id="95aeb1de4d389845f041ab3587500dc3" category="paragraph">RHEL 8, RHEL 9 및 SLES 15의 경우, I/O는 Linux 호스트가 물리적 NVMe 장치 타겟으로 지정합니다. 기본 NVMe 다중 경로 솔루션은 호스트에서 표시되는 분명한 단일 물리적 장치의 물리적 경로를 관리합니다.</block>
   <block id="3762f5d6da93d64fb2c80f51749495f7" category="paragraph">의 링크에 대한 I/O를 실행하는 것이 가장 좋습니다<block ref="324b592ebf16794a0c88511b40085a76" prefix=" " category="inline-code"></block> 물리적 NVMe 장치 경로로 직접 이동하는 것이 아니라<block ref="9378e8badf02c342286a3b9928e4df7c" prefix=" " category="inline-code"></block>. 이러한 두 위치 간의 링크는 다음 명령을 사용하여 찾을 수 있습니다.</block>
   <block id="cdd98f8f112f01967c6cf544d1185a31" category="paragraph">I/O가 에 실행됩니다<block ref="324b592ebf16794a0c88511b40085a76" prefix=" " category="inline-code"></block> 을 통해 직접 전달됩니다<block ref="9378e8badf02c342286a3b9928e4df7c" prefix=" " category="inline-code"></block> 기본 NVMe 다중 경로 솔루션을 사용하여 모든 경로를 이 경로 아래에서 가상화했습니다.</block>
-  <block id="489b1f76dfc3d23f283bb56e173cfce5" category="paragraph">다음 절차는 Broadcom Emulex 또는 QLogic NVMe/FC 지원 FC HBA를 사용하는 RHEL 7, RHEL 8, RHEL 9, SLES 12 및 SLES 15에 대한 것입니다. 지원되는 OS 버전 또는 HBA에 대한 자세한 내용은 를 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block>.</block>
-  <block id="efdd564b9ec4f2056fa78b410b589c82" category="paragraph">RHEL 7, RHEL 8 또는 RHEL 9 *</block>
-  <block id="08fb030e8ad0e09b4e56de467f54c0b0" category="paragraph">RHEL 7 및 SLES 12는 NVMe over RoCE에 대한 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
   <block id="0d1a0f91594280f9d49e074cc400230c" category="admonition">RHEL 9 및 SLES 15의 경우, 기본 NVMe 다중 경로를 기본적으로 사용하며 추가 구성이 필요하지 않습니다.</block>
   <block id="b850731c1bffd8d6372e832c36232f3e" category="admonition">* 데이터 손실 위험. * NVMe over RoCE 환경에서 데이터 손실 위험을 제거하려면 스위치의 글로벌 일시 중지 컨트롤과 함께 흐름 제어를 활성화해야 합니다.</block>
-  <block id="52b757f8b32ea9abd11ade22593e1b87" category="paragraph">RHEL 7 및 SLES 12는 NVMe over Infiniband를 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL9 및 SLES 15에서 기본 제공되는 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
   <block id="d061a1419e660c90553f0a82e4f669dc" category="admonition">SLES 15 및 RHEL 9의 경우 기본 NVMe 다중 경로를 기본적으로 사용하며 추가 구성이 필요하지 않습니다.</block>
-  <block id="1424a7cf2a070f7dd12d78a849490f2c" category="paragraph">RHEL 7 및 SLES 12는 NVMe over Fibre Channel을 사용할 때 다중 경로에 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9 및 SLES 15는 내장된 기본 NVMe 페일오버를 사용합니다. 실행 중인 OS에 따라 올바르게 실행하려면 다중 경로의 일부 추가 구성이 필요합니다.</block>
   <block id="6ee2d18851ba4498d7c9ba43881528c3" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="59608be4b8a68b7f95e7aa6a8924d39f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="44da8255024278223616706dabffdcf2" category="admonition">서브넷 관리자를 구성하기 전에 InfiniBand-diags 패키지를 설치하여 를 통해 GUID(Globally Unique ID)를 얻어야 합니다<block ref="db1fff1f41e48ae933f89caa6a9035c4" prefix=" " category="inline-code"></block> 명령. 을 참조하십시오 <block ref="8968844fa75d7274ef053da34cb4323f" category="inline-xref-macro-rx"></block> InfiniBand-diags 패키지를 설치하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="7bfe6a8c2694c58155bcb8132f65ecd8" category="list-text">를 활성화합니다<block ref="8732863da72605a20ed96b4eee87a5fb" prefix=" " category="inline-code"></block> 부팅 시 데몬</block>
@@ -7927,8 +7911,6 @@
   <block id="278d29980d384d87e03c8f99681b0980" category="paragraph">RHEL 8, RHEL 9 및 SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="8e11cf4b8ef8251a1517afd1c236dd0f" category="paragraph">이 명령의 결과는 연결된 장치를 찾는 데 사용할 수 있습니다<block ref="324b592ebf16794a0c88511b40085a76" prefix=" " category="inline-code"></block> 위치. 아래 예는 입니다<block ref="5873769649ae49105d6cefc7971b78c1" prefix=" " category="inline-code"></block>.</block>
   <block id="1d17dd3572733d46cea446a1f0d4ef11" category="list-text">에 이니시에이터의 GUID를 기록합니다 <block ref="c3a1c379b3d644ae20d101147cd0dfd9" category="inline-xref-macro-rx"></block>.</block>
-  <block id="cdbf7b73734bd4442fcc96a6195b7a15" category="paragraph">* Red Hat Enterprise Linux 7, 8 및 9(RHEL 7, RHEL 8 및 RHEL 9) *</block>
-  <block id="04595c79a616b5c392556737aaa7347d" category="paragraph">RHEL 7, RHEL 8 및 RHEL 9 *</block>
   <block id="2a5b109c10fe6e93caf3666c9854f292" category="list-text">multipath -ll 명령을 실행하여 NVMe 장치 목록을 가져옵니다.</block>
   <block id="210c9515d4a1e9c78e2608d073aeef56" category="list-text">에 이니시에이터의 GUID를 기록합니다 <block ref="00a1f89a34dac59e8a714860454ae51a" category="inline-xref-macro-rx"></block>.</block>
   <block id="6616a8dcc33e3e23ed86909a9a46376e" category="admonition">iSCSI에 대한 Data Assurance 기능은 SANtricity 버전 11.40 이상에서 지원됩니다.</block>
@@ -8010,21 +7992,17 @@
   <block id="f7e582702fa43947010600df41688562" category="section-title">4-포스트 랙 -- SuperRail</block>
   <block id="45d7b912755be5cce50a63e39e38af8a" category="section-title">1단계: 새 컨트롤러의 부품 번호를 확인합니다</block>
   <block id="fe52478447b1fa9a4c7ec89de67fdf4d" category="sidebar">드라이브 쉘프를 핫 추가합니다</block>
-  <block id="83af49c7a44a4352fd5c07a021524fea" category="paragraph">호환되는 최신 RHEL 7, RHEL 8, RHEL 9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다. 를 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 최신 요구 사항의 전체 목록을 확인하십시오.</block>
   <block id="889869e1d3bab19951bb91f386d721de" category="list-text">RHEL 8 및 RHEL 9의 경우 네트워크 스크립트를 설치합니다.</block>
   <block id="8b8d5d75fe765c0900e1083326e233eb" category="paragraph">RHEL 8 *</block>
   <block id="40ae81b37293ba1a886134269b1c76e5" category="paragraph">RHEL 9 *</block>
-  <block id="3babbb5880d0a0a22e662b27203c0dbe" category="paragraph">RHEL 7 또는 RHEL 8 *</block>
   <block id="8ce810d5ab2863c317f14fafb62a5090" category="paragraph">를 사용합니다<block ref="94f122660e8e80af7b93d6609515bc99" prefix=" " category="inline-code"></block> 도구를 사용하여 연결을 활성화하고 편집합니다. 다음은 예제 파일입니다<block ref="a8490166956a7c69a385a3a3169f183e" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
   <block id="e5e4c27b43623332619bb7b742c025ee" category="paragraph">다음은 예제 파일입니다<block ref="4a417e605245176a0337befebb3390ec" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
   <block id="775835480314574c6cd9244c8c9b879b" category="list-text">RHEL 8 또는 RHEL 9의 경우 네트워크 스크립트를 설치합니다.</block>
-  <block id="6836b58aebbdd815358ecf435e05e390" category="list-text">RHEL 7의 경우 활성화합니다<block ref="0247feeacea55a1e5efb40b0947dbbbe" prefix=" " category="inline-code"></block>. /etc/RDMA/RDMA.conf 파일을 편집하고 로드할 항목을 수정합니다<block ref="0247feeacea55a1e5efb40b0947dbbbe" prefix=" " category="inline-code"></block>:</block>
   <block id="0cd1f8d86f769c38f1483db60702ae30" category="list-text">두 IB 포트 링크가 작동 중인지, State=Active 인지 확인합니다.</block>
   <block id="b19174b79ffa987ea20abbce564e973e" category="paragraph">를 사용합니다<block ref="94f122660e8e80af7b93d6609515bc99" prefix=" " category="inline-code"></block> 도구를 사용하여 연결을 활성화하고 편집합니다. 다음은 예제 파일입니다<block ref="9c2912b95ccba22459cf5353437988de" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
   <block id="2662a31940eac2df0a6809d02c631cbb" category="paragraph">다음은 예제 파일입니다<block ref="c9f0a91feab8e55b8d9d166acc79562e" prefix=" " category="inline-code"></block> 이 도구는 다음을 생성합니다.</block>
   <block id="b7577216b0e50cc5bbbbf4483bbc37cd" category="list-text">선택적으로 을 설정할 수 있습니다<block ref="68e21a6780edcb6acab77e2a42f4f506" prefix=" " category="inline-code"></block> 를 실행하기 전에 /etc/iscsi/iscsid.conf에서<block ref="f88921f58beaaae5bcb9dffac54bf5ad" prefix=" " category="inline-code"></block> 재부팅 후 세션이 유지되는 명령입니다.</block>
   <block id="d0c7f819a9c352ec47123255b7bea069" category="list-text">iSCSI 포트에 대한 네트워크를 구성합니다. 다음은 RHEL 및 SLES에 대한 지침 예입니다.</block>
-  <block id="4578709b544309c3c129ddd77e647202" category="paragraph">* Red Hat Enterprise Linux 7 및 8(RHEL 7 및 RHEL 8) *</block>
   <block id="9dabae4a06d30c9c7f51e5f507819763" category="paragraph">예제 파일을 만듭니다<block ref="0d7d3fc433b1b9e503de96fc98959275" prefix=" " category="inline-code"></block> 다음 내용을 참조하십시오.</block>
   <block id="d495950a6cee8eefb9fec72eb4759f52" category="paragraph">IPv6과 관련한 선택적 추가 사항:</block>
   <block id="8a242e9b511ac07bc46f6d5758b40101" category="paragraph">* Red Hat Enterprise Linux 9(RHEL 9) *</block>
@@ -9295,7 +9273,6 @@
   <block id="fb17130ec244634a0532f36a8cfa9912" category="doc">E-Series-Linux(NVMe over FC)에서 가상 장치 타겟에 대한 NVMe 볼륨에 액세스</block>
   <block id="43c850105df5604a2122f91584d74c9a" category="doc">E-Series-Linux(NVMe over FC)에서 FC 스위치 구성</block>
   <block id="f6034c055b35ceacc4497df2f77dfac2" category="doc">E-Series-Linux(NVMe over FC)에서 DHCP를 사용하여 IP 주소 구성</block>
-  <block id="5a5a7d0233646e67c0a873bc58fd676e" category="doc">E-Series - Linux RHEL 7 및 SLES 12에서 파일 시스템 생성(NVMe over FC)</block>
   <block id="1e7e57c41f6250cf0dd2323e0ebba14a" category="doc">E-Series - Linux RHEL 8, RHEL 9 및 SLES 15에서 파일 시스템 생성(NVMe over FC)</block>
   <block id="dcb4a5fa07cd4ed36bb0fb3ad18e00b0" category="doc">SANtricity System Manager-Linux(NVMe over FC)를 사용하여 호스트 생성</block>
   <block id="d592eb2cd6c39918cf5b03b226488789" category="doc">E-Series-Linux(NVMe over FC)에서 호스트에 표시되는 볼륨 표시</block>
@@ -9311,7 +9288,6 @@
   <block id="639cd8f6ff7a3c560f2d878f2b7127b1" category="doc">E-Series-Linux(NVMe over InfiniBand)에서 DHCP를 사용하여 IP 주소 구성</block>
   <block id="117959d1244ec1b0e9e0c3aeaace2244" category="doc">E-Series-Linux에서 InfiniBand 연결을 통해 스토리지 어레이 NVMe를 구성합니다</block>
   <block id="afd02878fb071c80a878b8f7ab1dc1e3" category="doc">E-Series-Linux(NVMe over InfiniBand)에서 서브넷 관리자 구성</block>
-  <block id="04e502fa46e2ee2c981093653742a47d" category="doc">E-Series - Linux RHEL 7 및 SLES 12에서 파일 시스템 생성(NVMe over InfiniBand)</block>
   <block id="2512b2a473d4ffd3d685aefe3f5ce29f" category="doc">E-Series - Linux RHEL 8, RHEL 9 및 SLES 15에서 파일 시스템 생성(NVMe over InfiniBand)</block>
   <block id="90a60ec18000092aa65e65fc3e62e2dc" category="doc">SANtricity System Manager-Linux(NVMe over InfiniBand)를 사용하여 호스트 생성</block>
   <block id="51aada41b528b8fcd1f725914e663229" category="doc">E-Series-Linux(NVMe over InfiniBand)에서 호스트 포트 글로벌 고유 ID 결정</block>
@@ -9330,7 +9306,6 @@
   <block id="f4406895abc0e7fb7bba147a1b4018fc" category="doc">E-Series-Linux(NVMe over RoCE)에서 DHCP를 사용하여 IP 주소 구성</block>
   <block id="2e7f926937a19390a696edcd1611efd8" category="doc">E-Series-Linux에서 RoCE 연결을 통해 스토리지 어레이 NVMe를 구성합니다</block>
   <block id="133ee7ce9eb1e935758f63664a8fc118" category="doc">E-Series-Linux(NVMe over RoCE)에서 스위치 구성</block>
-  <block id="97cedd5ffd91c6d5809e8756bcd9d969" category="doc">E-Series - Linux RHEL 7 및 SLES 12에서 파일 시스템 생성(NVMe over RoCE)</block>
   <block id="3a0391db7b3c5ce929688d1fd3808797" category="doc">E-Series - Linux RHEL 8, RHEL 9 및 SLES 15에서 파일 시스템 생성(RoCE를 통한 NVMe)</block>
   <block id="1d775b87419a4b4faa9188d96fc9f1ef" category="doc">SANtricity System Manager-Linux(NVMe over RoCE)를 사용하여 호스트 생성</block>
   <block id="c06ab1417d3d38a6274ca96f4817729b" category="doc">E-Series-Linux(NVMe over RoCE)에서 호스트에서 스토리지 검색 및 연결</block>
@@ -9668,4 +9643,24 @@
   <block id="47e9a132733409a780b8b25a91969da6" category="list-text">CLI 명령을 사용하여 스토리지 배열 설정을 이중화로 변경합니다. CLI를 사용하려면 CLI 패키지를 다운로드한 경우 명령 프롬프트를 열거나 Storage Manager가 설치된 경우 Enterprise Management Window(EMW)를 열면 됩니다.</block>
   <block id="2db2ecd53dfa16abedb03a761e1763e8" category="paragraph">필요한 경우 MTU(Maximum Transmission Unit)에 대한 새 크기를 바이트 단위로 입력합니다. 기본 MTU 크기는 프레임당 1500바이트입니다. 1500 ~ 9000 사이의 값을 입력해야 합니다.</block>
   <block id="6d169c67d74922fc178491e0bef73793" category="doc">스토리지 시스템 설치에 대해 알아보세요 - EF300, EF600, EF300C 및 EF600C</block>
+  <block id="77c49ca57dc8cc81b5609b5c3b6b0120" category="paragraph">*레드햇 엔터프라이즈 리눅스 8(RHEL 8)*</block>
+  <block id="c2b5f394c3fe5ec74e8f006f7a1c41f2" category="paragraph">*Red Hat Enterprise Linux 8 및 9(RHEL 8 및 RHEL 9)*</block>
+  <block id="f6915e22a07b317f6f9f3f4164551c8d" category="paragraph">SLES 12의 경우 I/O는 Linux 호스트에 의해 가상 장치 대상으로 전달됩니다.  DM-MP는 이러한 가상 대상의 기본이 되는 물리적 경로를 관리합니다.</block>
+  <block id="f9a6f2ee656556e80e38f8a39629d913" category="doc">E-Series - SLES 12(NVMe over FC)에서 파일 시스템 생성</block>
+  <block id="e6e90f0138a14d2c6523ea13f186d5ef" category="paragraph">SLES 12의 경우 원하는 dm 장치에 파일 시스템을 만들고 파일 시스템을 마운트합니다.</block>
+  <block id="717270487102a24fa22876dec32c95f1" category="section-title">SLES 12에 대해 DMMP(Device Mapper Multipath) 활성화</block>
+  <block id="cdfdf9bf8f4a464cd4abef555786cdbb" category="paragraph">기본적으로 DM-MP는 SLES에서 비활성화되어 있습니다.  호스트에서 DM-MP 구성 요소를 활성화하려면 다음 단계를 완료하세요.</block>
+  <block id="0a4a01fb64611536a7fb2c5e1e325d98" category="paragraph">다음 절차는 Broadcom Emulex 또는 QLogic NVMe/FC 지원 FC HBA를 사용하는 RHEL 8, RHEL 9, SLES 12 및 SLES 15에 적용됩니다.  이러한 OS 또는 HBA의 어떤 버전이 지원되는지에 대한 자세한 내용은 다음을 참조하세요.<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> .</block>
+  <block id="75dbe17d5307d64a197f24e012b0fe4e" category="paragraph">*RHEL 8 또는 RHEL 9*</block>
+  <block id="6ef765942b756be59a09bba2c1bea181" category="summary">SLES 12의 경우 네임스페이스에 파일 시스템을 만들고 파일 시스템을 마운트합니다.</block>
+  <block id="5f72169c48d94cfdf13fa8e7156de8ee" category="doc">E-Series에서 파일 시스템 생성 - Linux SLES 12(NVMe over InfiniBand)</block>
+  <block id="f3b72a76b6437fffe54c5f6a0e82669c" category="section-title">SLES 12에서 DMMP(Device Mapper Multipath) 활성화</block>
+  <block id="6b6ebf19e3cedd310169b72fa687b40a" category="paragraph">최신 호환 RHEL 8, RHEL 9, SUSE Linux Enterprise Server 12 또는 15 서비스 팩 운영 체제를 실행해야 합니다.  를 참조하십시오<block ref="0aaf04254af18646f3d246cd4a4b417d" category="inline-link-rx"></block> 최신 요구 사항의 전체 목록을 확인하세요.</block>
+  <block id="8cccdb1fea835b32fb7acd0ac498244d" category="paragraph">*RHEL 8 또는 RHEL 9*</block>
+  <block id="d3f59362d91c4f4d01ccdd309b5bb9fb" category="doc">E-Series에서 파일 시스템 생성 - Linux SLES 12(NVMe over RoCE)</block>
+  <block id="e0b6fa7380c04b056266419d253d2d07" category="paragraph">SLES 12는 RoCE를 통한 NVMe의 다중 경로를 위해 DMMP(Device Mapper Multipath)를 사용합니다.  RHEL 8, RHEL 9 및 SLES 15는 기본 제공 네이티브 NVMe 장애 조치를 사용합니다.  어떤 OS를 실행하고 있는지에 따라, 제대로 실행하려면 멀티패스를 추가로 구성해야 합니다.</block>
+  <block id="31966977d62560abced8790961dab861" category="paragraph">*RHEL 8 및 RHEL 9*</block>
+  <block id="01d7072c63a7f17dd56f882aa05c191e" category="paragraph">*SLES 12.x 이상*</block>
+  <block id="eb9f15fa21e7ecb26458bd00f198d235" category="paragraph">*SLES 12 이상*</block>
+  <block id="fd5ba176689e7b1be93aaa098be59948" category="sidebar">파일 시스템 생성(SLES 12)</block>
 </blocks>

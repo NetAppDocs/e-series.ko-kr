@@ -24,7 +24,7 @@ InfiniBand OFED 드라이버 스택은 동일한 포트에서 iSER 및 SRP를 �
 .단계
 . 호스트에서 iSCSI 서비스 활성화 및 시작:
 +
-* Red Hat Enterprise Linux 7, 8 및 9(RHEL 7, RHEL 8 및 RHEL 9) *
+*Red Hat Enterprise Linux 8 및 9(RHEL 8 및 RHEL 9)*
 
 +
 [listing]

@@ -62,7 +62,7 @@ RDMA 구성 파일은 다음 위치에 있습니다.
 ----
 . OFED/RDMA 서비스를 활성화하고 시작합니다.
 +
-* RHEL 7.x 및 SLES 12.x 이상 *
+*SLES 12.x 이상*
 
 +
 ** 부팅 시 InfiniBand 모듈을 로드하도록 설정하려면 다음과 같이 하십시오.
@@ -81,7 +81,7 @@ systemctl start rdma
 
 . SRP 데몬을 활성화합니다.
 +
-* RHEL 7.x 및 SLES 12 이상 *
+*SLES 12 이상*
 
 +
 ** SRP 데몬이 부팅 시 시작되도록 하려면 다음을 수행합니다.
