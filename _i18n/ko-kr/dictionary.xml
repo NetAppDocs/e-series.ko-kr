@@ -332,7 +332,6 @@
   <block id="1e63a15616a71c16975a6ce6873851d7" category="cell">에서는 SANtricity 동기 및 비동기 미러링 기능에 대해 설명합니다.</block>
   <block id="0d31bf4155130c7e1b044f877c983556" category="cell">에서는 SANtricity 시스템 관리자를 사용한 GUI 탐색 지침을 포함하여 SANtricity 스냅샷 기능에 대해 설명합니다.</block>
   <block id="20b51996662da655011d140b6ce13e08" category="inline-link">* TR-4652: SANtricity 동적 디스크 풀 *</block>
-  <block id="94b9edbcfa8896e9837abb98f7178d0b" category="cell"><block ref="94b9edbcfa8896e9837abb98f7178d0b" category="inline-link-rx"></block></block>
   <block id="c84200fc0d3d1c17f835b93cac2a4073" category="inline-link">* TR-4737: SANtricity 자동 로드 밸런싱 *</block>
   <block id="9e438ddc696936eea7043d42a5d772c2" category="cell"><block ref="9e438ddc696936eea7043d42a5d772c2" category="inline-link-rx"></block></block>
   <block id="b855ed13871c8956bc535c1dcafa14d2" category="inline-link">* TR-4736: SANtricity 웹 서비스 API *</block>
@@ -3523,9 +3522,7 @@
   <block id="ea2848b98724bc7c864ab419f1efd076" category="cell">스토리지 관리자와 데이터베이스 관리자가 NetApp EF-Series 스토리지에 Oracle을 성공적으로 구축할 수 있도록 지원</block>
   <block id="8a7d992e887a76abe4703518ec317a4c" category="section-title">백업 및 복구</block>
   <block id="569680cec832ec2d53d80483c8dbc439" category="inline-link">* TR-4320: Commvault Data Platform V11 * 의 모범 사례</block>
-  <block id="484210f783b83f032755dfc404923829" category="cell"><block ref="484210f783b83f032755dfc404923829" category="inline-link-rx"></block></block>
   <block id="0cd4f7215cb7ec8c6f73c51d9dc39a48" category="inline-link">* TR-4471: Veeam Backup and Replication * 의 모범 사례</block>
-  <block id="08fcfb094209aa6fd6eccf8aa5b05de1" category="cell"><block ref="08fcfb094209aa6fd6eccf8aa5b05de1" category="inline-link-rx"></block></block>
   <block id="5941ff1b3a4ffc80a4b2f0ae157b8b6d" category="inline-link">* TR-4704: NetApp E-Series 스토리지를 사용하여 Veritas NetBackup 구축 *</block>
   <block id="d5da5f4acb6ce9cd96c756f74b96e9a0" category="cell"><block ref="d5da5f4acb6ce9cd96c756f74b96e9a0" category="inline-link-rx"></block></block>
   <block id="12d1a4b387bfcab1922f0a411bb84852" category="cell">Commvault Data Platform V11 환경에서 NetApp E-Series 스토리지를 사용할 때의 참조 아키텍처 및 모범 사례에 대해 설명합니다.</block>
@@ -9605,7 +9602,6 @@
   <block id="309255274290ac8d1dd6b54d267ce8cf" category="doc">SANtricity 웹 서비스 프록시 API 및 Unified Manager에 로그인합니다</block>
   <block id="f43368fba89f2c1294d458d0d3b87979" category="doc">SANtricity 웹 서비스 프록시의 설치 및 업그레이드 요구 사항을 검토합니다</block>
   <block id="689b1eb54a456e34eae7715d09f7480a" category="doc">SANtricity 웹 서비스 프록시를 제거합니다</block>
-  <block id="7c3ba7ad8402a38e099e9ca7b44c927c" category="doc">SANtricity 웹 서비스 프록시 파일을 설치하거나 업그레이드합니다</block>
   <block id="31800de1cb68e15c0426a578c7dd75fd" category="doc">SANtricity 웹 서비스 프록시 API 기본 사항에 대해 알아봅니다</block>
   <block id="be80139591e8588662d79bbef45ee848" category="doc">SANtricity 웹 서비스 프록시 호환성 및 제한 사항</block>
   <block id="ed389a9acb72de33be78325f147d7d8c" category="doc">SANtricity 웹 서비스 및 Unified Manager에 대해 알아보십시오</block>
@@ -9663,4 +9659,9 @@
   <block id="01d7072c63a7f17dd56f882aa05c191e" category="paragraph">*SLES 12.x 이상*</block>
   <block id="eb9f15fa21e7ecb26458bd00f198d235" category="paragraph">*SLES 12 이상*</block>
   <block id="fd5ba176689e7b1be93aaa098be59948" category="sidebar">파일 시스템 생성(SLES 12)</block>
+  <block id="4090c38c724effbcef59a93b035aed46" category="cell"><block ref="4090c38c724effbcef59a93b035aed46" category="inline-link-rx"></block></block>
+  <block id="43cf2b25070c6d7d19cb9548ac18c968" category="cell"><block ref="43cf2b25070c6d7d19cb9548ac18c968" category="inline-link-rx"></block></block>
+  <block id="fc81ed45554cc52f6bb42f4d7c774e51" category="cell"><block ref="fc81ed45554cc52f6bb42f4d7c774e51" category="inline-link-rx"></block></block>
+  <block id="23574e6efb4951cab243d0bca21f6801" category="doc">SANtricity 웹 서비스 프록시 및 SANtricity Unified Manager 파일 설치 또는 업그레이드</block>
+  <block id="2ba81316cd80bb512d2d7c99312de69e" category="section-title">버전 11.90R4의 새로운 기능</block>
 </blocks>

@@ -47,7 +47,7 @@ summary: E-Series 기술 보고서
 |===
 
 
-| https://www.netapp.com/pdf.html?item=/media/17042-tr4320pdf.pdf["* TR-4320: Commvault Data Platform V11 * 의 모범 사례"^] | https://www.netapp.com/pdf.html?item=/media/17159-tr4471pdf.pdf["* TR-4471: Veeam Backup and Replication * 의 모범 사례"^] | https://www.netapp.com/pdf.html?item=/media/16433-tr-4704pdf.pdf["* TR-4704: NetApp E-Series 스토리지를 사용하여 Veritas NetBackup 구축 *"^] 
+| https://www.netapp.com/media/79676-tr-4950.pdf["* TR-4320: Commvault Data Platform V11 * 의 모범 사례"^] | https://www.netapp.com/media/79436-tr-4948.pdf["* TR-4471: Veeam Backup and Replication * 의 모범 사례"^] | https://www.netapp.com/pdf.html?item=/media/16433-tr-4704pdf.pdf["* TR-4704: NetApp E-Series 스토리지를 사용하여 Veritas NetBackup 구축 *"^] 
 
 
 | Commvault Data Platform V11 환경에서 NetApp E-Series 스토리지를 사용할 때의 참조 아키텍처 및 모범 사례에 대해 설명합니다. | Veeam Backup & Replication 9.5 환경에서 NetApp E-Series 스토리지를 사용할 때의 참조 아키텍처 및 모범 사례에 대해 설명합니다. | NetApp E-Series 스토리지에 Veritas NetBackup을 구축하는 방법을 설명합니다. 
