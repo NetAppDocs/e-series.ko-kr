@@ -81,9 +81,6 @@ systemctl start rdma
 
 . SRP 데몬을 활성화합니다.
 +
-*SLES 12 이상*
-
-+
 ** SRP 데몬이 부팅 시 시작되도록 하려면 다음을 수행합니다.
 +
 [listing]
