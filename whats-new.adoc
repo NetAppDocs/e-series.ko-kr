@@ -16,9 +16,15 @@ summary: SANtricity OS의 새로운 기능
 
 
 
+== 버전 11.90R5의 새로운 기능
+
+이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이번 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R5 README를 참조하십시오.
+
+
+
 == 버전 11.90R4의 새로운 기능
 
-이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E-Series 11.90 릴리즈 노트"^]참조하십시오.
+이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R4 README를 참조하십시오.
 
 
 
