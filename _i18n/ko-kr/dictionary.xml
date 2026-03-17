@@ -10655,8 +10655,6 @@
   <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
   <block id="ff0fa97cb252835f443a15ae7e9b46d4" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">새로운 스토리지 시스템 모델 – EF80 및 EF50 올플래시 스토리지 시스템</block>
-  <block id="5c6dee44700e6c5c47a1e1f079ae7fce" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 하나의 호스트 인터페이스 카드(HIC)를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스에는 EF80의 경우 NVMe over RoCE 및 NVMe over IB가, EF50의 경우 NVMe over FC가 포함됩니다. 지원되는 SCSI 인터페이스에는 Fibre Channel이 포함됩니다.</block>
-  <block id="6f8772ffc1694efdc2041680c31dc990" category="paragraph">EF80 및 EF30은 30TB 또는 60TB 용량의 고용량 NVMe SSD 드라이브도 지원합니다. EF80 및 EF30은 기존 RAID를 지원하지 않고 Dynamic Disk Pool 사용과만 호환됩니다.</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager를 위한 새로운 사용자 인터페이스</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.</block>
   <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">서버 인증서의 SAN(Subject Alternative Names)에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다</block>
@@ -10691,4 +10689,6 @@
   <block id="db77cc51d1e45daf8e890b492be12264" category="sidebar">I/O 모듈 교체</block>
   <block id="f026d0a834b5192638b18ee631266375" category="sidebar">I/O 모듈 업그레이드</block>
   <block id="fe377799fa9a443d32452d6d45334541" category="sidebar">I/O 모듈 호스트 프로토콜</block>
+  <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 컨트롤러 간 미러링 카드를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스는 EF80의 경우 NVMe over RoCE, NVMe over IB, NVMe over FC이며, EF50의 경우 NVMe over FC입니다. 두 시스템 모두 지원되는 SCSI 인터페이스는 Fibre Channel입니다. EF50은 컨트롤러당 최대 2개의 호스트 인터페이스 카드를 지원하고, EF80은 컨트롤러당 최대 3개의 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">30TB 또는 60TB 크기의 고용량 NVMe SSD 드라이브도 EF80 및 EF50에서 지원됩니다. EF80 및 EF50은 어레이에 30TB 또는 60TB 드라이브가 장착된 경우에만 Dynamic Disk Pool을 사용할 수 있습니다.</block>
 </blocks>
