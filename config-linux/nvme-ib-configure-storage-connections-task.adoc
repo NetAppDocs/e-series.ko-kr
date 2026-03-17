@@ -14,7 +14,7 @@ summary: 컨트롤러에 InfiniBand 포트를 통한 NVMe가 포함된 경우 SA
 컨트롤러에 InfiniBand 포트를 통한 NVMe가 포함된 경우 SANtricity 시스템 관리자를 사용하여 각 포트의 IP 주소를 구성할 수 있습니다.
 
 .단계
-. System Manager 인터페이스에서 * Hardware * 를 선택합니다.
+. System Manager 인터페이스의 왼쪽 패널에서 *하드웨어*를 선택합니다.
 . 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 클릭합니다.
 +
 그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.

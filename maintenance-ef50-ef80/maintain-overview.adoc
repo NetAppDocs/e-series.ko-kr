@@ -1,0 +1,75 @@
+---
+permalink: maintenance-ef50-ef80/maintain-overview.html 
+sidebar: sidebar 
+keywords: ef50, ef80 maintenance, maintenance, repairing ef50, ef80, replace ef50, ef80 components 
+summary: 장기적인 안정성과 최적의 성능을 보장하기 위해 EF50 또는 EF80 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 구성요소를 교체하는 등의 정기적인 유지보수 작업을 수행하면 다운타임과 데이터 손실을 방지할 수 있습니다. 
+---
+= 유지보수 절차 개요 - EF50 및 EF80
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+장기적인 안정성과 최적의 성능을 보장하기 위해 EF50 또는 EF80 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 구성요소를 교체하는 등의 정기적인 유지보수 작업을 수행하면 다운타임과 데이터 손실을 방지할 수 있습니다.
+
+유지 관리 절차는 EF50 또는 EF80 스토리지 시스템이 이미 SANtricity 환경에 배포되었다고 가정합니다.
+
+
+
+== 시스템 구성 요소
+
+EF50 또는 EF80 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.
+
+[cols="25,65"]
+|===
+
+
+ a| 
+link:controller-replace-workflow.html["컨트롤러"]
+ a| 
+컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 SANtricity 운영 체제 소프트웨어를 실행합니다.
+
+
+
+ a| 
+link:dimm-replace.html["DIMM"]
+ a| 
+듀얼 인라인 메모리 모듈(DIMM)은 컴퓨터 메모리의 한 종류입니다. 컨트롤러 마더보드에 시스템 메모리를 추가하기 위해 설치됩니다.
+
+
+
+ a| 
+link:drive-replace.html["드라이브"]
+ a| 
+드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.
+
+
+
+ a| 
+link:fan-replace.html["팬"]
+ a| 
+팬이 컨트롤러와 드라이브를 냉각합니다.
+
+
+
+ a| 
+link:io-module-overview.html["I/O 모듈"]
+ a| 
+I/O 모듈(입출력 모듈)은 컨트롤러와 컨트롤러와 데이터를 교환해야 하는 다양한 장치 또는 시스템 사이에서 중개자 역할을 하는 하드웨어 구성 요소입니다.
+
+
+
+ a| 
+link:nvdimm-battery-replace.html["NV 배터리"]
+ a| 
+비휘발성 메모리(NVMEM) 배터리는 전원 손실 후 전송 중인 데이터가 플래시 메모리로 옮겨지는 동안 NVMEM 구성 요소에 전원을 공급하는 역할을 합니다.
+
+
+
+ a| 
+link:power-supply-replace.html["전원 공급 장치"]
+ a| 
+전원 공급 장치는 컨트롤러에 이중 전원을 제공합니다.
+
+|===

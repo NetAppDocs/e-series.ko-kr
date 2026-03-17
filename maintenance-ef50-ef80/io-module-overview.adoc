@@ -1,0 +1,24 @@
+---
+permalink: maintenance-ef50-ef80/io-module-overview.html 
+sidebar: sidebar 
+keywords: ef50, ef80, replace io module, upgrade io module, io module overview 
+summary: EF50 및 EF80 스토리지 시스템은 I/O 모듈을 업그레이드하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 
+---
+= I/O 모듈 유지보수 개요 - EF50 및 EF80
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF50 및 EF80 스토리지 시스템은 I/O 모듈을 교체하거나 업그레이드하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다.
+
+* link:io-module-replace.html["I/O 모듈 교체"]
++
+스토리지 시스템의 I/O 모듈에 오류가 발생하면 동일한 유형의 I/O 모듈로 교체하여 스토리지 시스템을 최적의 작동 상태로 복원할 수 있습니다.
+
+* link:io-module-upgrade.html["I/O 모듈 업그레이드"]
++
+스토리지 시스템의 I/O 모듈을 업그레이드하여 호스트 포트 수를 늘려 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장할 수 있습니다.
+
+

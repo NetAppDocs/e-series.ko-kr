@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 3040 40U cabinet, cabinet installation, drive tray installation, controller installation, shelf installation, E2800, E5700, EF300, EF600, 
 summary: E-Series 3040 40U 캐비닛에 드라이브 트레이 설치 개요 
 ---
-= 3040 40U 캐비닛에 트레이 설치(E-Series)
+= 3040 40U 캐비닛에 트레이 설치 - E-Series
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -12,6 +12,8 @@ summary: E-Series 3040 40U 캐비닛에 드라이브 트레이 설치 개요
 
 [role="lead"]
 E-Series 3040 40U 캐비닛에 다음 컨트롤러 드라이브 트레이 및 확장 드라이브 트레이를 설치할 수 있습니다.
+
+컨트롤러 드라이브 트레이 또는 확장 드라이브 트레이가 아래 목록에 없는 경우  https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]를 참조하여 컨트롤러 드라이브 트레이 또는 확장 드라이브 트레이가 지원되는지 확인하십시오.
 
 * E2612, E2624 및 E2660 컨트롤러 드라이브 트레이
 * E2712, E2724, E2760 컨트롤러-드라이브 트레이

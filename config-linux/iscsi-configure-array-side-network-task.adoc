@@ -22,7 +22,7 @@ SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네
 
 
 .이 작업에 대해
-이 작업은 System Manager의 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 시스템 [설정 > iSCSI 포트 구성] 메뉴에서 구성에 액세스할 수도 있습니다.
+이 작업에서는 System Manager의 Hardware 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. menu:System[Settings > System > Configure iSCSI ports]에서도 구성에 액세스할 수 있습니다.
 
 .단계
 . 브라우저에서 '+https://<DomainNameOrIPAddress>+` URL을 입력합니다
@@ -40,11 +40,7 @@ IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.
 +
 나중에 마법사를 사용하여 추가 설정 작업을 완료합니다.
 
-. 하드웨어 * 를 선택합니다.
-. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 클릭합니다.
-+
-그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.
-
+. 왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택합니다.
 . 구성할 iSCSI 포트가 있는 컨트롤러를 클릭합니다.
 +
 컨트롤러의 상황에 맞는 메뉴가 나타납니다.

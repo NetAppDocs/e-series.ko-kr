@@ -163,7 +163,7 @@ iscsiadm -m node --target <Target IQN> -I iface-ib1 -p <Target Port IP\> -l
 ----
 iscsiadm -m session
 ----
-.. 스토리지에서 iSCSI 세션 상태를 확인합니다. SANtricity 시스템 관리자에서 * 스토리지 어레이 * > * iSER * > * 보기/종료 세션 * 으로 이동합니다.
+.. 어레이에서 iscsi 세션 상태를 확인합니다. SANtricity System Manager에서 *Settings* > *System* > *View/End iSCSISessions*로 이동합니다.
 
 
 

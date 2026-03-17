@@ -1,0 +1,56 @@
+= 
+:allow-uri-read: 
+
+
+.단계
+. 스토리지 시스템과 연결된 모든 호스트 간에 I/O 작업이 발생하지 않도록 하십시오. 예를 들어 다음과 같은 단계를 수행할 수 있습니다.
++
+** 스토리지에서 호스트로 매핑된 LUN이 포함된 모든 프로세스를 중지합니다.
+** 스토리지에서 호스트로 매핑된 LUN에 데이터를 쓰는 애플리케이션이 없는지 확인합니다.
+** 스토리지 시스템의 LUN과 연결된 모든 파일 시스템을 마운트 해제합니다.
++
+
+NOTE: 호스트 I/O 작업을 중지하는 정확한 단계는 호스트 운영 체제 및 구성에 따라 다르며, 이는 본 지침의 범위를 벗어납니다. 사용 환경에서 호스트 I/O 작업을 중지하는 방법을 잘 모르는 경우 호스트를 종료하거나 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]에 문의하십시오.
+
++
+
+CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이 절차를 계속하면 데이터가 손실될 수 있습니다.
+
+
+
+. 각 컨트롤러에서 NV Caching Active(녹색) LED가 꺼져 있는지 확인하십시오.
++
+NV 캐싱 활성(녹색) LED가 꺼지면 캐시 메모리의 모든 데이터가 드라이브에 기록되었으므로 이 절차를 계속 진행해도 안전합니다.
+
++
+
+NOTE: NV 캐싱 활성(녹색) LED가 켜져 있으면 캐시된 데이터가 드라이브에 기록되고 있는 것입니다. 프로세스가 완료되고 NV 캐싱 활성(녹색) LED가 꺼질 때까지 기다려야 합니다. 그러나 LED가 5분 이상 켜져 있는 경우 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 이 절차를 계속 진행하기 전에 문의하십시오.
+
++
+NV 캐싱 활성(녹색) LED는 컨트롤러의 NV 아이콘 옆에 있습니다.
+
++
+image::../media/drw_g_nvmem_led_ieops-1839.svg[NV 상태 LED 위치]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image::../media/icon_round_1.png[설명선 번호 1]
+ a| 
+컨트롤러의 NV 아이콘 및 NV Caching Active LED
+
+|===
+. SANtricity System Manager를 사용하여 컨트롤러에 대한 작업이 완료되었는지 확인하십시오.
++
+.. *스토리지* > *진행 중인 작업*을 선택하여 개요 화면을 확인합니다.
+.. 모든 작업이 완료되고 개요 화면에 *현재 진행 중인 작업이 없습니다*가 표시될 때까지 기다린 후 다음 단계로 진행하십시오.
+
+
+. 스토리지 시스템에서 정의된 모든 호스트를 삭제합니다.
++
+자세한 침은  https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-host-or-host-cluster.html["SANtricity System Manager에서 호스트 또는 호스트 클러스터를 삭제합니다"^] 절차를 참조하십시오.
+
+

@@ -1,0 +1,28 @@
+= 
+:allow-uri-read: 
+
+
+I/O 모듈을 교체한 후에는 컨트롤러를 재부팅해야 합니다.
+
+.단계
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다.
++
+`bye`
+
++
+
+NOTE: 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성요소도 다시 초기화됩니다.
+
+. 스토리지를 반환하여 손상된 컨트롤러를 정상 작동으로 되돌립니다.
++
+`storage failover giveback -ofnode _impaired_node_name_`
+
+. 정상 컨트롤러의 콘솔에서 자동 반환 복원:
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport가 활성화된 경우 자동 사례 생성을 복원하십시오.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+

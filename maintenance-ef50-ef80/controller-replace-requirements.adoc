@@ -1,0 +1,48 @@
+---
+permalink: maintenance-ef50-ef80/controller-replace-requirements.html 
+sidebar: sidebar 
+keywords: ef50, ef80, prerequisite, replace the controller module 
+summary: EF50 또는 EF80 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 요구 사항을 충족하는지 확인하십시오. 여기에는 고장난 컨트롤러가 있는지 확인하고, 스토리지 시스템의 상태를 확인하고, 절차에 필요한 도구를 확보하고, SANtricity System Manager에 액세스할 수 있는 관리 스테이션과 브라우저를 준비하는 것이 포함됩니다. 
+---
+= 컨트롤러 교체 요구 사항 - EF50 및 EF80
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF50 또는 EF80 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 요구 사항을 충족하는지 확인하십시오. 여기에는 고장난 컨트롤러가 있는지 확인하고, 스토리지 시스템의 상태를 확인하고, 절차에 필요한 항목을 확보하고, SANtricity System Manager에 액세스할 수 있는 관리 스테이션과 브라우저가 있어야 합니다.
+
+* 컨트롤러에 오류가 발생했는지 확인하십시오. 다음 두 가지 방법으로 확인할 수 있습니다.
++
+** SANtricity System Manager의 Recovery Guru가 컨트롤러를 교체하라고 안내했습니다.
+** 컨트롤러의 주황색 주의 LED가 켜져 있으며, 이는 컨트롤러에 오류가 있음을 나타냅니다.
+
+
+
+
+* 스토리지 시스템의 전원이 켜져 있고 호스트 I/O 작업이 수행 중인 상태에서 손상된 컨트롤러를 교체할 수 있도록 스토리지 시스템의 다음 조건을 충족하는지 확인하십시오.
++
+** 섀시의 두 번째 컨트롤러가 최적 상태입니다.
+** SANtricity System Manager의 Recovery Guru의 세부 정보 영역에 있는 *OK to remove* 필드는 *Yes*로 표시되어, 손상된 컨트롤러를 안전하게 제거할 수 있음을 나타냅니다.
+
+
+* 다음 사항을 확인하십시오.
++
+** 교체하려는 컨트롤러와 동일한 부품 번호를 가진 교체용 컨트롤러.
+** ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.
+** 평평하고 정전기가 없는 작업 표면입니다.
+** 컨트롤러에서 분리할 각 케이블을 식별하기 위한 라벨.
+** 컨트롤러용 SANtricity System Manager에 액세스할 수 있는 브라우저가 있는 관리 스테이션.
++
+브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리켜 SANtricity System Manager 인터페이스를 열 수 있습니다.
+
++
+선택적으로 명령줄 인터페이스(CLI)를 사용하여 일부 절차를 수행할 수 있습니다. SANtricity System Manager를 사용하여 CLI 패키지(zip 파일)를 다운로드하십시오. *Settings* > *System* > *Add-ons*로 이동하여 *Command Line Interface*를 선택합니다. 그런 다음 DOS C: 프롬프트와 같은 운영 체제 프롬프트에서 CLI 명령을 실행할 수 있습니다.
+
+
+
+
+
+.다음 단계
+컨트롤러 교체 요건을 충족한 후 link:controller-replace-prepare.html["컨트롤러 교체 준비"].

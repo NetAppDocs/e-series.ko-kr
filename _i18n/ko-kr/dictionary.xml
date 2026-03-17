@@ -693,7 +693,6 @@
   <block id="1eb0ff6df726e241747c0e89f25244ea" category="paragraph">CA 서명 인증서를 가져오려면 검색 마법사에서 취소하고 왼쪽 패널에서 * 인증서 관리 * 를 클릭합니다. 자세한 지침은 온라인 도움말을 참조하십시오.</block>
   <block id="e3edf5c3fccd5c6697f49aa29eea9d52" category="section-title">2단계: 검색 중에 신뢰할 수 없는 인증서를 해결합니다</block>
   <block id="07cc0b154f9ccc95c3979e73595b247d" category="paragraph">검색 프로세스를 진행하기 전에 인증서 문제를 해결해야 합니다.</block>
-  <block id="42953292e20d0fe6df436b0360c37be2" category="list-text">자체 서명된 인증서 확인 대화 상자가 열리면 신뢰할 수 없는 인증서에 대해 표시되는 정보를 검토합니다. 자세한 내용을 보려면 표의 맨 끝에 있는 줄임표를 클릭하고 팝업 메뉴에서 * 보기 * 를 선택하십시오.</block>
   <block id="d51bf97a9da045099b54d30bd57c5b28" category="list-text">검색된 스토리지 배열에 대한 접속을 신뢰할 수 있는 경우 * Next * (다음 *)를 클릭한 다음 * Yes * (예 *)를 클릭하여 확인하고 마법사의 다음 대화 상자로 이동합니다. 자체 서명된 인증서가 신뢰할 수 있는 것으로 표시되고 스토리지 배열이 플러그인에 추가됩니다.</block>
   <block id="674337fef1a1eb3f66ed81c2c9ecacf9" category="list-text">스토리지 배열에 대한 연결을 신뢰하지 않는 경우, * Cancel * 을 선택하고 각 스토리지 배열의 보안 인증서 전략을 확인한 후 추가하십시오.</block>
   <block id="f090b90012bc562ab3ad569b3f605995" category="section-title">3단계: 암호를 입력합니다</block>
@@ -1007,7 +1006,6 @@
   <block id="c2f14ef319f065fe227efe97d6ea24a9" category="admonition">각 용지함의 후면에서 전원 공급 장치 또는 기타 구성 요소를 분리할 필요는 없습니다</block>
   <block id="c0fc5b77785e9ccc271b2b8dd4cb9834" category="list-text">각 구성 요소를 별도의 정전기 방지 백에 넣습니다. 원래 배송 상자가 있는 경우 해당 상자를 사용하여 구성 요소를 운반합니다.</block>
   <block id="8e13c4e8636891fcc6e5a23419cbc317" category="summary">E-Series 3040 40U 캐비닛에 드라이브 트레이 설치 개요</block>
-  <block id="57d5c442d5e080cc736db980fe00ba6d" category="paragraph">E-Series 3040 40U 캐비닛에 다음 컨트롤러 드라이브 트레이 및 확장 드라이브 트레이를 설치할 수 있습니다.</block>
   <block id="c1720d086d67c4941ff4f5d3bdc66f28" category="list-text">E2612, E2624 및 E2660 컨트롤러 드라이브 트레이</block>
   <block id="6fb7eb6545fb6a1d5229ab891080cda4" category="list-text">E2712, E2724, E2760 컨트롤러-드라이브 트레이</block>
   <block id="ad11ae63512cece6b5faf0e830c04f54" category="list-text">E5412, E5424 및 E5460 컨트롤러 드라이브 트레이</block>
@@ -1096,7 +1094,6 @@
   <block id="d37274e03d6538d0be57f24ae671fece" category="list-text">캐비닛에 있는 모든 드라이브 트레이의 전원을 켭니다.</block>
   <block id="34a41d4e3b538464e1138ee17196dbda" category="paragraph">캐비닛 설치가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="44fc66161e7a43ac157626f024173dde" category="paragraph">iSCSI 프로토콜의 경우 스위치를 구성하고, 스토리지 측과 호스트 측에서 네트워킹을 구성한 다음 IP 네트워크 연결을 확인합니다.</block>
-  <block id="9c8c6bc1dd1c6a33336d55ccb262a475" category="list-text">고가용성을 위한 2개의 별도 네트워크. VLAN 또는 두 개의 별도 네트워크를 사용하여 iSCSI 트래픽을 분리하여 네트워크 세그먼트를 구분해야 합니다.</block>
   <block id="7a0cbf02537e0c5675240097a5e290c6" category="paragraph">기본 이중화를 사용하여 iSCSI 네트워크를 구성하는 효과적인 전략은 각 호스트 포트와 각 컨트롤러에서 포트 하나를 개별 스위치에 연결하고 VLAN을 사용하여 개별 네트워크 세그먼트에서 각 호스트 및 컨트롤러 포트 세트를 분할하는 것입니다.</block>
   <block id="193ade8f53ce0d3769717269d5021a04" category="paragraph">성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 3단계의 절차를 완료하십시오.</block>
   <block id="7a44acba5c86f8f1ca8ef18dcb107358" category="list-text">스토리지 어레이에 대한 적절한 보안 액세스를 위해 구성된 System Manager GUI, 즉 역할 기반 액세스 제어(RBAC) 또는 LDAP 및 디렉토리 서비스에 대한 암호입니다. 액세스 관리에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.</block>
@@ -1146,7 +1143,6 @@
   <block id="e9c45dd6cb00ba8477b33a69aa171b96" category="list-text">새 LUN에 있는 파일을 생성하고 파일에 씁니다.</block>
   <block id="b3f0f7d7e200ade801e191d50af42d06" category="list-text">파일을 읽고 데이터가 기록되었는지 확인합니다.</block>
   <block id="9f0a17fd8f2207d817cfe3c8c6a95585" category="list-text">다중 경로가 작동하는지 확인하려면 볼륨 소유권을 변경합니다.</block>
-  <block id="0e47ea92ec60347bfe5d3c6449f27c14" category="list-text">SANtricity 시스템 관리자 GUI에서 * 스토리지 * &gt; * 볼륨 * 으로 이동한 다음 * 자세히 * &gt; * 소유권 변경 * 을 선택합니다.</block>
   <block id="41213a903734e026a2aabeac116a7c55" category="list-text">볼륨 소유권 변경 대화 상자에서 * 기본 소유자 * 풀다운을 사용하여 목록에 있는 볼륨 중 하나에 대한 다른 컨트롤러를 선택한 다음 작업을 확인합니다.</block>
   <block id="b3b03c678d704e3c2546a61146e099e3" category="list-text">LUN의 파일에 계속 액세스할 수 있는지 확인합니다.</block>
   <block id="093eba936291bd32a865bdc3cedc6822" category="list-text">대상 ID를 찾습니다.</block>
@@ -1260,7 +1256,6 @@
   <block id="56d5920f093315d1b4acca4634ea813e" category="paragraph">DE460C</block>
   <block id="6d15b7c798a29f86cded1b0859358dfd" category="section-title">추가 케이블 연결 정보</block>
   <block id="862335aa1afeb33c245d15b63267f502" category="inline-link">기존 E27XX, E56XX 또는 EF560 컨트롤러 쉘프에 IOM 드라이브 쉘프를 추가합니다.</block>
-  <block id="4fffce6a4208f525b6fa4c44cc5bf6ce" category="paragraph">다음 구성을 위한 케이블 연결을 사용하는 경우 를 참조하십시오<block ref="4426bbb413c69380e459efdddf2e423d" category="inline-link-rx"></block></block>
   <block id="de79e6b334ef3f5c38431ae360ff09f6" category="paragraph">E2712, E2724, E5612, E5624, EF560</block>
   <block id="f2a12ad5f52528054619d431dc7c3054" category="paragraph">E2760, E5660</block>
   <block id="5c8edef9c398c6792341850977901070" category="inline-link">동기 및 비동기 미러링 기능 설명 및 배포 가이드</block>
@@ -3543,23 +3538,11 @@
   <block id="b989c6f72bf677952e698328421db82b" category="cell"><block ref="b989c6f72bf677952e698328421db82b" category="inline-link-rx"></block></block>
   <block id="e1fad75d320cd96b4ad2ead776fbc81b" category="inline-link">* TR-4859: NetApp E-Series 스토리지로 IBM 스펙트럼 확장 구축 *</block>
   <block id="01284e373ad40bcbe95d69ca79432e5d" category="cell"><block ref="01284e373ad40bcbe95d69ca79432e5d" category="inline-link-rx"></block></block>
-  <block id="923277575dfc7bb479a4c1326fc68339" category="inline-link">* TR-4856: Red Hat Enterprise Linux Server * 를 사용하는 E-Series에서 BeeGFS 고가용성 제공</block>
-  <block id="246730575426f6a6e68bf2f52c15bc44" category="cell"><block ref="246730575426f6a6e68bf2f52c15bc44" category="inline-link-rx"></block></block>
-  <block id="2b744bc0da850f7e10b8914e1573c0b3" category="cell">NetApp E-Series 스토리지 시스템 및 IBM Spectrum Scale을 기반으로 한 엔트리 레벨 HPC 시스템의 참조 아키텍처에 대해 설명합니다.</block>
-  <block id="d73f064cebb5bd197545fc7004a56153" category="cell">IBM의 Spectrum Scale 소프트웨어 스택을 기반으로 전체 병렬 파일 시스템 솔루션을 구축하는 프로세스를 설명합니다.</block>
-  <block id="0d183f627b10c74a5ad15f70918e5661" category="cell">NetApp E-Series 시스템에서 지원하는 BeeGFS 아키텍처에서 고가용성 구현을 위한 필수 구성과 BeeGFS 스토리지, 메타데이터 및 관리 서비스에 RedHat Enterprise Linux를 사용하는 방법에 대해 설명합니다.</block>
-  <block id="1625bed3aae287fb145324112cba2acf" category="inline-link">* TR-4862: SUSE Linux Enterprise Server * 를 사용하는 E-Series로 BeeGFS 고가용성 제공</block>
-  <block id="503f8b25bc421dea7e73387381d435f4" category="cell"><block ref="503f8b25bc421dea7e73387381d435f4" category="inline-link-rx"></block></block>
-  <block id="075df837bf753b5aee2b8bcb4b81e05c" category="cell">NetApp E-Series 시스템에서 지원하고 SUSE Linux Enterprise Server for BeeGFS 스토리지, 메타데이터 및 관리 서비스를 사용하는 BeeGFS 아키텍처에서 고가용성을 구현하는 데 필요한 구성을 설명합니다.</block>
   <block id="775ecf6ed5e3db61059ce09b5b398110" category="section-title">플랫폼 TR</block>
   <block id="a28b8b732f1d7a87c511f615fe886bc4" category="inline-link">* TR-4725: E2800 어레이 기능 개요 *</block>
   <block id="16ee0112605f5c7f44d31ab4fb0f7c73" category="inline-link">* ++ TR-4724: E5700 어레이 기능 개요 ++ *</block>
   <block id="346bfe6c5f1a40af18c578c446b216aa" category="inline-link">* + + + TR-4877: EF300 스토리지 기능 개요 ++ *</block>
-  <block id="c3bad4531ac09819ae11c8f1eef46379" category="cell">E2800 하이브리드 어레이의 하드웨어 및 소프트웨어 기능과 최신 SANtricity OS 기능에 대해 설명합니다.</block>
-  <block id="170c5373a5aea2b6d6daa41c328182fc" category="cell">최신 버전의 SANtricity에 도입된 새로운 하드웨어 및 소프트웨어 기능을 비롯하여 E5700 제품 정보를 설명합니다.</block>
-  <block id="6bf4f338106e6cad43fd2f2fecfcaafa" category="cell">EF300 All-Flash 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
   <block id="f3a3500a11e0c13b98d7092f5af6a6c7" category="inline-link">* TR-4800:EF600 어레이 기능 개요 *</block>
-  <block id="6b4552e99c78bda589322e0594a1d89b" category="cell">EF600 All-Flash 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
   <block id="c232892a42c73a75f7718adaf4ae1584" category="summary">SANtricity 시스템 관리자의 원격 스토리지 화면의 결과 목록 섹션에서 각 원격 스토리지 가져오기의 상태를 볼 수 있습니다.</block>
   <block id="4398ca8cc509ea0393181715420194ad" category="doc">가져오기 진행률을 관리합니다</block>
   <block id="28c9a3c549895c0b2dd62381581137e5" category="paragraph">가져오기 프로세스가 시작된 후 진행 상황을 확인하고 조치를 취할 수 있습니다.</block>
@@ -3723,8 +3706,6 @@
   <block id="8bc8b33064c0cbe7dccf7df9298ded4e" category="paragraph">원격 스토리지 연결 제거 확인 대화 상자가 표시됩니다.</block>
   <block id="8c769323bf95aaa0e633003dabe724ac" category="list-text">'remove'를 입력한 다음 * Remove * 를 클릭하여 작업을 확인합니다.</block>
   <block id="08385efafc220bb5d9523658f838574a" category="paragraph">선택한 원격 스토리지 객체가 제거됩니다.</block>
-  <block id="d4f48db40cc9ccb47737f1fc78496e37" category="summary">하드웨어를 랙에 장착합니다.</block>
-  <block id="bd0b9fd60ba60fb26f0df0fcd090ce57" category="paragraph">아래 링크를 사용하여 랙 장착 하드웨어 설치 방법을 설명하는 설명서에 액세스하십시오.</block>
   <block id="d6fb953a021a6ff678e8a0c03802aad8" category="section-title">조절식 지지 레일</block>
   <block id="bfbdc837bd6c733a01be96f0d8c0fcbf" category="inline-link">조절식 지지 레일 설치</block>
   <block id="2bf00abba5acdf11b805e02e28e0cf01" category="paragraph">액세스<block ref="798f784939cffd43e8de29df7d9e6431" category="inline-link-rx"></block> 별도로 제공된 컨트롤러 드라이브 트레이 또는 드라이브 트레이(캐비닛에 설치되어 있지 않음)를 설치하는 데 사용됩니다. 이 절차는 다음 2U(9cm 또는 3.5인치) 트레이에 적용할 수 있습니다.</block>
@@ -3736,7 +3717,6 @@
   <block id="ae4141f22c2ed3b7878fa2ff3a1e6cfe" category="inline-link">4-포스트 랙 또는 캐비닛에 2U 12 드라이브 엔클로저 설치</block>
   <block id="5eba68d12705561c14a5cf782039d9a6" category="paragraph">액세스<block ref="790da98275795a97c8f97401754053cf" category="inline-link-rx"></block>.</block>
   <block id="10b221abe33d91a2165eab967641529e" category="inline-link">4-포스트 랙에 SuperRail 설치(DE224C/DE460C 쉘프)</block>
-  <block id="a6d47447094eb5b7920c8d1f16d0d25d" category="paragraph">액세스<block ref="384159b715a893ce026df1e06010cefa" category="inline-link-rx"></block>.</block>
   <block id="4340eb550bf9d82ec63ae6c684b4ce19" category="paragraph">HIC(호스트 인터페이스 카드)는 컨트롤러 캐니스터 내에 설치되어야 합니다. EF600 컨트롤러에는 HIC 옵션 중 호스트 포트가 포함되어 있습니다. HIC에 내장된 호스트 포트를 HIC 포트라고 합니다.</block>
   <block id="04a3d4071a9450f7356dbc04b8b8747c" category="summary">SAS 확장 카드는 컨트롤러 캐니스터 내에 설치될 수 있습니다. EF300 컨트롤러는 SAS 확장을 지원합니다.</block>
   <block id="e00394e86e0897378bd874e271fcd82c" category="doc">SAS 확장 카드</block>
@@ -4015,7 +3995,6 @@
   <block id="648ed8661ad007c126d212b08e03c8c1" category="list-text">교체 팬을 선반 안으로 완전히 밀어 넣습니다.</block>
   <block id="c4c2324e867c8ac1926d98eff2baef06" category="paragraph">새 팬을 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.</block>
   <block id="30bbbdf3936bea4031a4d92241354b80" category="section-title">6단계: 팬 교체 완료</block>
-  <block id="a935fd8920ef566dc3502cb2fd802a9e" category="list-text">System Manager에서 하드웨어 페이지로 이동합니다.</block>
   <block id="8addc48a633646024884c3c4cdcfc464" category="list-text">교체한 팬이 있는 컨트롤러를 선택합니다.</block>
   <block id="d6475123c80be4addf74127c7fdabcec" category="paragraph">팬 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
   <block id="3445e7362b27e4ba74cabda5b497847f" category="summary">EF300 또는 EF600 HIC를 교체하기 전에 요구사항 및 고려사항을 검토하십시오.</block>
@@ -5241,7 +5220,6 @@
   <block id="0434f4063ec0e6018b67e2628a0486e9" category="paragraph">각 세션에 대해 iscsiadm 명령을 실행하여 세션에 로그인합니다.</block>
   <block id="529357696d4e7bff988966dd1a9b7030" category="list-text">iSER/iSCSI 세션을 확인합니다.</block>
   <block id="8d78f4535f282487a2ab3ddd133fb30b" category="list-text">호스트에서 iSCSI 세션 상태를 확인합니다.</block>
-  <block id="c76785f55adb8111b0f0c955e99aaf58" category="list-text">스토리지에서 iSCSI 세션 상태를 확인합니다. SANtricity 시스템 관리자에서 * 스토리지 어레이 * &gt; * iSER * &gt; * 보기/종료 세션 * 으로 이동합니다.</block>
   <block id="b91274a21d960f7520a6ac949c997991" category="paragraph">OFED/RDMA 서비스가 시작되면 iSER 커널 모듈은 iSCSI 서비스가 실행 중일 때 기본적으로 로드됩니다. iSER 연결 설정을 완료하려면 iSER 모듈을 로드해야 합니다. 현재 이 작업을 수행하려면 호스트를 재부팅해야 합니다.</block>
   <block id="3710c6fd95e8087b7e4f2fd5c68bd9b1" category="summary">NVMe-CLI 패키지의 일부인 SMdevices 툴을 사용하여 호스트에 현재 표시된 볼륨을 볼 수 있습니다. 이 도구는 NVMe list 명령을 대체하는 도구입니다.</block>
   <block id="3f8c2a243c2baf6f8bcf99653d3825cb" category="doc">호스트에 표시되는 볼륨을 표시합니다</block>
@@ -5323,7 +5301,6 @@
   <block id="1bfd8936faf8d2d6e911732cc86fad64" category="doc">Fibre Channel Express 설정</block>
   <block id="13fd378eeb7a101fc09f1cbecaf60c62" category="summary">관리 스테이션에 SANtricity 스토리지 관리자 소프트웨어를 설치하면 기본적으로 그래픽 사용자 인터페이스\(GUI\)와 명령줄 인터페이스\(CLI\)가 설치됩니다. 이 지침에서는 입출력 호스트가 아닌 관리 스테이션에 SANtricity 스토리지 관리자 GUI를 설치한다고 가정합니다.</block>
   <block id="9e87cdc6a00e94ff824bf3066fcce29d" category="summary">컨트롤러에 InfiniBand 포트를 통한 NVMe가 포함된 경우 SANtricity 시스템 관리자를 사용하여 각 포트의 IP 주소를 구성할 수 있습니다.</block>
-  <block id="9f8222c6083d597d584744e4fbf1e758" category="list-text">System Manager 인터페이스에서 * Hardware * 를 선택합니다.</block>
   <block id="e605f070f133de407ce03a9b4c8f9b96" category="list-text">구성할 NVMe over InfiniBand 포트가 있는 컨트롤러를 클릭합니다.</block>
   <block id="a03fb9ed3e23d41ff2ce19057c3e8d50" category="list-text">Configure NVMe over InfiniBand ports * 를 선택합니다.</block>
   <block id="8a105984196bb35866ef84f5338bcea8" category="admonition">Configure NVMe over InfiniBand ports 옵션은 System Manager가 컨트롤러에서 NVMe over InfiniBand 포트를 감지할 경우에만 표시됩니다.</block>
@@ -5496,7 +5473,6 @@
   <block id="8329426ded9436d4fbff44b5e4b4c72c" category="admonition">IQN은 다음과 같습니다.</block>
   <block id="e6fa7633cc6e723b63becb0e5f1d6bb5" category="list-text">호스트에 설정된 iSCSI 세션을 나열합니다.</block>
   <block id="510c309ccc5b6c64d1c85d306a6a0f42" category="summary">어레이 측에서 iSCSI 네트워킹을 구성합니다.</block>
-  <block id="0e5c9a9b399a5ffb43c453285a8e27f7" category="paragraph">이 작업은 System Manager의 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 시스템 [설정 &gt; iSCSI 포트 구성] 메뉴에서 구성에 액세스할 수도 있습니다.</block>
   <block id="dcd56d80ecc0d78aefb3259c4aa4270b" category="summary">SLES 15의 경우 네이티브 NVMe 장치에 파일 시스템을 생성하고 파일 시스템을 마운트합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
@@ -5518,12 +5494,9 @@
   <block id="fd4afa980d6bd4e60fc6c8caabf1757e" category="paragraph">* DE460C: *</block>
   <block id="b6bb42e2f777828c4d73a82302e2ef0a" category="list-text">4u60(랙 유닛 4개, 드라이브 60개)</block>
   <block id="33d6fe66d2b404f7c25080e8098edd9c" category="list-text">3.5" 및 2.5" 드라이브(NL-SAS, SAS 및 SSD)</block>
-  <block id="3fcdd0c9c8fbc91f7bb9df81e95c618f" category="paragraph">* NE224: *</block>
-  <block id="73fe55efcdaa2ad95e010a4bac9165df" category="list-text">2.5인치 NVMe SSD 드라이브</block>
   <block id="ae57e705c83e0b20d768cee453b91d4c" category="summary">E-Series 스토리지 어레이는 다양한 구성과 모델로 제공됩니다.</block>
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="doc">E-Series 하드웨어 개요</block>
   <block id="d234c0641fc33cad6a6c3c6ea71df215" category="paragraph">스토리지 어레이에는 쉘프, 컨트롤러, 드라이브, 소프트웨어 및 펌웨어가 포함되어 있습니다. 어레이는 랙 또는 캐비닛에 설치할 수 있으며 12, 24 또는 60 드라이브 쉘프에 1개 또는 2개의 컨트롤러에 맞게 사용자 지정 가능한 하드웨어를 제공합니다. 여러 인터페이스 유형 및 다양한 호스트 운영 체제에서 스토리지 어레이를 SAN에 연결할 수 있습니다.</block>
-  <block id="b3670f74b82245e2e94e5b08bb774ce5" category="paragraph">E-Series 어레이는 다음 모델에서 제공됩니다.</block>
   <block id="8a34e53d101b7f706ed37ea0908d0235" category="list-text">E2800 시리즈 - 엔트리 레벨 하이브리드</block>
   <block id="790cc654b42cdeb32b1a2b7165e43ea3" category="list-text">EF280 시리즈 -- 엔트리 레벨 All 플래시</block>
   <block id="9ace4a887760531c4699ebc554565544" category="list-text">EF300 시리즈 -- 엔트리 레벨 All-Flash, All NVMe</block>
@@ -5616,7 +5589,6 @@
   <block id="e04137252fedc7e9af87dd09f9516981" category="doc">E-Series 시스템에 대해 알아보십시오</block>
   <block id="a30c4e694d7edde326fee8d00122908f" category="paragraph">조직의 데이터 스토리지 요구사항에 적합한 통합 하드웨어 및 소프트웨어가 포함된 E-Series 시스템에 대해 알아보십시오.</block>
   <block id="5c4cc7b84f5f2341e2a7255a66b90d60" category="summary">E-Series 시스템을 설치하여 실행하려면 하드웨어 구성요소를 설치하고 호스트 시스템을 구성하고 스토리지를 구성해야 합니다.</block>
-  <block id="a852a041cd4afe33464b03fee2e3f120" category="paragraph">E-Series 하드웨어를 설치하려면 스토리지 어레이 및 쉘프 유형에 대한 설치 및 설정 지침을 따르십시오.</block>
   <block id="9543914d3a895a3a83f2774c1ca09f7b" category="inline-link-macro">24-드라이브 쉘프를 지원하는 EF600 또는 EF300 시리즈</block>
   <block id="c15bb09da6c6817f5e7058dc3ca1fd7b" category="list-text"><block ref="c15bb09da6c6817f5e7058dc3ca1fd7b" category="inline-link-macro-rx"></block></block>
   <block id="b792aec7e5819c11f8219784d91447a6" category="inline-link">12 또는 24 드라이브 쉘프가 포함된 E2800/EF280 또는 E5700/EF570 시리즈</block>
@@ -5682,7 +5654,6 @@
   <block id="4e44ffbd3dee7edcb8ad6dd4dc519054" category="paragraph">웹 서비스 프록시는 수백 개의 새로운 기존 E-Series 어레이를 관리할 수 있는 RESTful API 서버입니다. 프록시는 Windows 또는 Linux 서버에 별도로 설치됩니다.</block>
   <block id="024f85290ce8dc060b04f7283ae9349d" category="paragraph">웹 서비스에는 REST API와 직접 상호 작용할 수 있는 API 문서가 포함되어 있습니다. 웹 서비스 API 설명서에 액세스하려면 브라우저를 열고 웹 서비스 프록시가 설치된 서버를 가리키는 URL을 입력합니다.</block>
   <block id="be4ec548f7a100ef363d872487501afc" category="section-title">CLI(Command Line Interface)</block>
-  <block id="7c2d6bb641ac39d33616586566e145db" category="paragraph">CLI(Command Line Interface)는 스토리지 어레이를 구성하고 모니터링하는 방법을 제공하는 소프트웨어 애플리케이션입니다. CLI를 사용하면 DOS C: 프롬프트, Linux 운영 체제 경로 또는 Solaris 운영 체제 경로와 같은 운영 체제 프롬프트에서 명령을 실행할 수 있습니다.</block>
   <block id="29d01982ce991bab3710bffee1868167" category="summary">SANtricity ® OS 업그레이드 개요</block>
   <block id="9689e6113317ad1f1bf249f414d62e3e" category="paragraph">운영 체제 및 시스템 하드웨어 구성 요소를 최신 버전의 SANtricity 소프트웨어 및 펌웨어로 업그레이드할 수 있습니다.</block>
   <block id="45c4e8073edc6e504a5d60a909148a91" category="paragraph">이러한 업그레이드 절차에는 다음에 대한 별도의 지침이 포함되어 있습니다.</block>
@@ -5886,7 +5857,6 @@
   <block id="aa4306ca5582318a4c71780a034351e8" category="list-text">상태 점검을 통해 실행할 스토리지 시스템의 확인란을 선택합니다.</block>
   <block id="059bcb3d06d5b7c0c9b7f4d6d250d626" category="list-text">시작 * 을 클릭합니다.</block>
   <block id="70c0249de1da6c602476f4e4d22c5c3d" category="paragraph">상태 점검이 수행되는 동안 대화 상자에 진행 상황이 표시됩니다.</block>
-  <block id="6288150d7ef4839b9a49ad845bc05aaf" category="list-text">상태 점검이 완료되면 각 행의 오른쪽에 있는 줄임표(...)를 클릭하여 추가 정보를 보고 다른 작업을 수행할 수 있습니다.</block>
   <block id="b7d5630f68b2ae105a1892c1784263e4" category="admonition">상태 확인에 실패한 어레이가 있으면 해당 특정 어레이를 건너뛰고 다른 어레이를 계속 업그레이드할 수 있습니다. 또는 전체 프로세스를 중지하고 통과하지 못한 어레이의 문제를 해결할 수 있습니다.</block>
   <block id="3630613364718f1a83010055203819c6" category="section-title">2단계: 지원 사이트에서 소프트웨어 파일을 다운로드합니다</block>
   <block id="3f66d1daa91f535f68656dfae4716684" category="list-text">스토리지 어레이에 컨트롤러가 하나만 포함되어 있거나 다중 경로 드라이버를 사용하지 않는 경우 스토리지 어레이에 대한 I/O 작업을 중지하여 응용 프로그램 오류를 방지합니다. 스토리지 어레이에 2개의 컨트롤러가 있는데 다중 경로 드라이버가 설치되어 있는 경우 I/O 작업을 중지할 필요가 없습니다.</block>
@@ -7019,7 +6989,6 @@
   <block id="41903b7d098cd5fe2273e2627dcfd5a0" category="doc">스토리지 배열의 이름을 바꿉니다</block>
   <block id="66950f592b3ef70bb4a866b674f1b7a5" category="paragraph">vCenter용 Storage Plugin의 관리 페이지에 표시되는 스토리지 배열의 이름을 변경할 수 있습니다.</block>
   <block id="6ddafd51962fda13ede773e9d6350dd2" category="list-text">Manage * 페이지에서 스토리지 배열 이름 왼쪽에 있는 확인란을 선택합니다.</block>
-  <block id="374fea5b262769323b08b3962c808a45" category="list-text">행의 맨 오른쪽에 있는 줄임표를 선택한 다음 팝업 메뉴에서 * 스토리지 배열 이름 바꾸기 * 를 선택합니다.</block>
   <block id="96f8be2a5d55d9a167ed06cc1a5f9694" category="list-text">새 이름을 입력하고 * 저장 * 을 클릭합니다.</block>
   <block id="6aa467b445a7d222ea7a821c8df54a08" category="doc">어떤 설정을 가져올까요?</block>
   <block id="5a336d7c8bb4d9fb626af7c0fffe68af" category="paragraph">설정 가져오기 기능은 하나의 스토리지 어레이에서 여러 스토리지 어레이로 구성을 로드하는 일괄 작업입니다.</block>
@@ -7300,7 +7269,6 @@
   <block id="9448915bfa64b3a5e64429c61e5807e2" category="list-text">다음 탭 중 하나를 선택합니다.</block>
   <block id="54b4e8d1c4d03ca179159ea57e350324" category="list-text">* Management * -- 플러그인을 호스팅하는 시스템의 인증서를 표시합니다. 관리 인증서는 CA(인증 기관)에서 자체 서명하거나 승인할 수 있습니다. 플러그인에 대한 보안 액세스를 허용합니다.</block>
   <block id="edb5b7738ffb508f1bbb13257bdeffc0" category="list-text">* 신뢰 * -- 플러그인이 스토리지 시스템 및 LDAP 서버와 같은 기타 원격 서버에 액세스할 수 있는 인증서를 표시합니다. 인증서는 CA(인증 기관)에서 발급하거나 자체 서명할 수 있습니다.</block>
-  <block id="177b3451c3ab8af94b99ec603169f482" category="list-text">페이지에서 인증서를 선택한 다음 행 끝에 있는 줄임표를 클릭합니다.</block>
   <block id="5df555ad8a5d58c2d2be3f9893464acb" category="list-text">내보내기 * 를 클릭한 다음 인증서 파일을 저장합니다.</block>
   <block id="818d28e7b7b11b8d0de393cdf2bad961" category="list-text">인증서 뷰어 응용 프로그램에서 파일을 엽니다.</block>
   <block id="657b70e8c66d59c5eb96a02553896eb0" category="summary">DA(Data Assurance)는 T10 PI(보호 정보) 표준을 구현하여 I/O 경로를 통해 데이터가 전송될 때 발생할 수 있는 오류를 확인하고 수정하여 데이터 무결성을 향상합니다.</block>
@@ -7427,7 +7395,6 @@
   <block id="6579984382b6d6db4a9c1dca3719cfde" category="summary">인증서를 사용하는 조직, 인증서를 발급한 기관, 유효 기간 및 지문(고유 식별자)이 포함된 인증서의 요약 정보 보기</block>
   <block id="6577f92f6d3e817e406cf5c8fc28fb74" category="doc">인증서를 봅니다</block>
   <block id="57180671ca977e7c71697763b3f08403" category="paragraph">인증서를 사용하는 조직, 인증서를 발급한 기관, 유효 기간 및 지문(고유 식별자)을 포함하는 인증서의 요약 정보를 볼 수 있습니다.</block>
-  <block id="9c6c2f35f874859a647563b0d99e7685" category="list-text">인증서에 대한 자세한 내용을 보려면 해당 행을 선택하고 행 끝에 있는 줄임표를 선택한 다음 * 보기 * 또는 * 내보내기 * 를 클릭합니다.</block>
   <block id="0932ef9adf6866c6e0d047c2fad05b80" category="summary">드라이브 보안 기능을 구현할 때 스토리지 배열에서 보안 지원 드라이브를 제거할 때 내부 보안 키 또는 외부 보안 키를 사용하여 데이터를 잠글 수 있습니다.</block>
   <block id="0f7d5d5826d8924ee5f59541261a0c9f" category="doc">내부 보안 키와 외부 보안 키 관리의 차이점은 무엇입니까?</block>
   <block id="42bd0a690935b9f782ea60ca3c32e096" category="paragraph">보안 키는 문자열을 말합니다. 이 문자열은 스토리지 어레이에서 보안이 설정된 드라이브와 컨트롤러 간에 공유됩니다. 내부 키는 컨트롤러의 영구 메모리에 유지됩니다. 외부 키는 KMIP(Key Management Interoperability Protocol)를 사용하여 별도의 키 관리 서버에 유지됩니다.</block>
@@ -8172,9 +8139,7 @@
   <block id="cbf7b24ce0d93efff84abb6dca91dc9e" category="list-text">전원 공급 장치가 없습니다</block>
   <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">버전 11.80.1의 새로운 기능</block>
   <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 매개 변수</block>
-  <block id="f853f0f729e70cf8d4d12c4bb6b0dbfc" category="paragraph">새로운 소식<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 이제 SMcli에서 매개 변수를 사용할 수 있습니다. 이 새로운 매개변수를 사용하여 스토리지 배열과 연결된 모든 SCSI 기본 블록 장치를 찾을 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices[Downloadable SMcli 명령줄 매개 변수 를 참조하십시오.</block>
   <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">이더넷 커널 통계</block>
-  <block id="d1c09bea07e8eb52df56a18fb41d1ba1" category="paragraph">이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html[View iSCSI 통계 패키지 를 참조하십시오.</block>
   <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다</block>
   <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.</block>
   <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 플러그인이 E-Series 11.80.1 릴리즈와의 호환성을 위해 업데이트되었습니다.</block>
@@ -8232,8 +8197,6 @@
   <block id="57b75c148600a92b21aa9e4a3a89228d" category="image-alt">VMware Express 가이드 워크플로우"</block>
   <block id="e5de0ab074e4d0827cb5f8e4826ddf53" category="image-alt">iSCSI 포트 식별자입니다</block>
   <block id="25e86314e2b9fd3c25d92450dad8de31" category="image-alt">Windows Express 가이드 워크플로우</block>
-  <block id="a5739ed07187fa97fb95b86ca98419fc" category="inline-link">컨트롤러 업그레이드 가이드 - 레거시 컨트롤러 모델</block>
-  <block id="819e472be532c198f4428448f644516b" category="list-text"><block ref="819e472be532c198f4428448f644516b" category="inline-link-rx"></block></block>
   <block id="056179e9e794d5023a226430ee4efb8d" category="section-title">SANtricity 릴리스 11.8</block>
   <block id="d16a613e55f21678f189a2fe147619f8" category="list-text"><block ref="d16a613e55f21678f189a2fe147619f8" category="inline-link-rx"></block></block>
   <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
@@ -8243,7 +8206,6 @@
   <block id="ac04abe31dcd141500e5d9732b2ac56b" category="list-text">E4000 시리즈 - 엔트리 레벨 하이브리드</block>
   <block id="d8b8562346c10d2efbbb129845379264" category="list-text">랙 크기</block>
   <block id="1c2bd945de8ed1b6e853b76b3def6a6d" category="image-alt">E2800 2U</block>
-  <block id="e67af3d8fc936cb75428bd1c7912d629" category="image-alt">"E2800 4U"</block>
   <block id="756640f0aea5f5bea1cbe250a9d08989" category="list-text">인터페이스</block>
   <block id="58a80778e63fff20f6605b02ba4256ff" category="inline-image-macro">EF280 2U</block>
   <block id="db1f17f8825c1b566a696300d91ea1b0" category="paragraph"><block ref="db1f17f8825c1b566a696300d91ea1b0" category="inline-image-macro-rx" type="image"></block></block>
@@ -8259,7 +8221,6 @@
   <block id="7bc334dd290b9246bbe67354b072e5f1" category="image-alt">E4000 2U</block>
   <block id="9d23e4d1385158413ca160140804380a" category="image-alt">E4000 4U</block>
   <block id="1507bfcf58977c913870a8bc8fc69938" category="list-text">3.5" NL-SAS(최대 300)</block>
-  <block id="501741d2386f7d66c14219977b27bf3b" category="list-text">1GB 또는 10GBASE-T iSCSI</block>
   <block id="2193ca2625399551b2952afc495bddf3" category="list-text">1GB, 10Gb 또는 25GB iSCSI</block>
   <block id="02bfa8a1be678b9844bf1f40bdf0cadb" category="list-text">8GB, 16Gb 또는 32Gb FC</block>
   <block id="403867e7b21e199d8564f994b90f564b" category="list-text">E4000 및 E2800 컨트롤러만 해당</block>
@@ -8269,8 +8230,6 @@
   <block id="4f7cecf7d35b5225b9680d06b9f29855" category="paragraph"><block ref="4f7cecf7d35b5225b9680d06b9f29855" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d23f865aa12d33da2281ece479479e43" category="list-text">E4000, E2800 및 E5700 컨트롤러</block>
   <block id="3d6745de7ba5410e8691359e75378f43" category="paragraph"><block ref="3d6745de7ba5410e8691359e75378f43" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d2ff89321d178d4c06957811edf6dbf" category="inline-image-macro">NE224를 참조하십시오</block>
-  <block id="dee81617ac256de3c537c504e55673b4" category="paragraph"><block ref="dee81617ac256de3c537c504e55673b4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="inline-image-macro">성능</block>
   <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block> * 성능 *</block>
   <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block> * 스토리지 *</block>
@@ -8326,13 +8285,10 @@
   <block id="c8d0e728d6cfecbb35c8768caa389f1f" category="open-title">12-드라이브 쉘프</block>
   <block id="e63d49fe11023df550eb4a2b6be77e84" category="paragraph">컨트롤러 쉘프를 하나 이상의 12-드라이브 쉘프에 연결할 수 있습니다.</block>
   <block id="37684c22af451e0c6390d46e13acdfbf" category="image-alt">컨트롤러 쉘프 및 12-드라이브 쉘프</block>
-  <block id="632ca86f36c69ae91aee0bebdff85617" category="admonition">EF300, EF600 및 E4000에는 대역 외 이더넷 관리 포트가 하나만 있습니다.</block>
   <block id="d2204ecb6283608047831fca303cc5c1" category="image-alt">호스트 2개와 스위치 2개를 케이블로 연결합니다</block>
   <block id="23d2013304f308363439909fd006bd4e" category="paragraph">E5724, EF570, E4012, E2812, E2824, EF280</block>
   <block id="6048408dac10f3e88fd732617c9d0ef5" category="paragraph">E4060, E2860, E5760</block>
   <block id="21b595c66275163668dce07beb8b7e59" category="list-text">전원 케이블을 기억 장치 시스템의 각 전원 공급 장치에 연결합니다.</block>
-  <block id="17a780e85e64d833816350af0a8e60d6" category="list-text">두 전원 스위치를 모두 켭니다.</block>
-  <block id="21194b925b5b062281c4893b747cceec" category="admonition">EF300 및 EF600 스토리지 시스템에는 전원 스위치가 없습니다. 케이블을 연결하면 바로 전원이 켜집니다.</block>
   <block id="b354d93fbc8040931b33caebdbfe0ea8" category="inline-image-macro">직접 연결 토폴로지 케이블 연결</block>
   <block id="6a6b77d61f97c20fcc57f19dbcaf18b2" category="paragraph"><block ref="6a6b77d61f97c20fcc57f19dbcaf18b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb54bfbae17ecce7e95302793374bf9f" category="inline-image-macro">Fabric 토폴로지 케이블 연결</block>
@@ -8619,8 +8575,6 @@
   <block id="57207b374d19a30dbe137b5ae467d607" category="image-alt">'기능 활성화 식별자"</block>
   <block id="f18161f026b7fe18b8f99003cf1deb9a" category="paragraph">드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다.<block ref="28dd70958999565be68b57e06af4d4d1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8907a9bd1bbd427cd7ead31cdae13f94" category="image-alt">기능 팩을 변경합니다</block>
-  <block id="d2d2e8fa568a2d809242096cca97e884" category="image-alt">호스트 포트 대화 상자</block>
-  <block id="141f194cf295ed23b58f7b6b7deada6c" category="image-alt">호스트 포트 대화 상자</block>
   <block id="66d3b4d1ab378575dbea53cfe35695f9" category="image-alt">E2800 컨트롤러의 호스트 및 HIC 포트"</block>
   <block id="8ef7d812cf9839cb105b6657c47cfa09" category="image-alt">E2800 컨트롤러의 포트"</block>
   <block id="962bbd775bc59552889db0c450a4ef52" category="paragraph">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. E2800 시스템 구성 요소 유지 관리에 대한 절차는 이 섹션에 나와 있습니다.</block>
@@ -8640,7 +8594,6 @@
   <block id="654a61d9a5e1b3845170185b185b333e" category="list-text">지원 &gt; 지원 센터 &gt; 진단 * 을 선택합니다.</block>
   <block id="6db1d7bcd2197569ee01531f7998318d" category="admonition">* 가능한 데이터 손실 * -- I/O 작업이 진행되는 동안 이 절차를 계속 진행하면 데이터가 손실될 수 있습니다.</block>
   <block id="9ac50bab7d872b7afc76e70a644219ed" category="paragraph">파일은 브라우저의 다운로드 폴더에 support-data.7z라는 이름으로 저장됩니다.</block>
-  <block id="d1b689b610c29b4b11d641265472d3f2" category="list-text">그래픽에 드라이브가 표시되면 * Controller &amp; Components * 를 선택하여 컨트롤러를 표시합니다.</block>
   <block id="31af8cf3c364ef0721e22c79e63b47d0" category="paragraph">* 컨트롤러 A *:<block ref="9e02aca819e4970527b62fd35f9cc9ec" prefix=" " category="inline-code"></block></block>
   <block id="c37d3d9443e25a97d64925af817282b0" category="paragraph">* 컨트롤러 B *:<block ref="68414166ffb645078598902542c6a3c0" prefix=" " category="inline-code"></block></block>
   <block id="daf10491eeda068f969ac846c9108685" category="list-text">SANtricity System Manager가 컨트롤러 상태를 오프라인으로 업데이트할 때까지 기다립니다.</block>
@@ -8943,7 +8896,6 @@
   <block id="e5a05d58c55c9440148099868dbc6fd1" category="image-alt">컨트롤러에 전면판을 설치합니다</block>
   <block id="e04e79c61faf9262bb7c22ca0bdb75b4" category="image-alt">기능 팩 하위 모델 ID</block>
   <block id="3da943cddf027cccc8bff4dab3f603c8" category="paragraph">드라이브에 캐시된 데이터를 기록해야 하는 경우 각 컨트롤러 후면의 녹색 캐시 활성 LED * (1) * 가 켜집니다. 이 LED가 꺼질 때까지 기다려야 합니다. <block ref="784f4db10eef9c5c5e85ea37262dff8b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6e13bec83d2f599d1a78be9b1da319d5" category="image-alt">호스트 설정 대화 상자</block>
   <block id="46ad3f7b9a79b945126e75570cf3ab20" category="image-alt">E5700 컨트롤러의 호스트 및 HIC 포트</block>
   <block id="9096c61779935802492b59d70ec38ff2" category="paragraph">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. E5700 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 있습니다.</block>
   <block id="c207b913e93567336ac500416e963ac8" category="paragraph">이 섹션의 절차에서는 E5700 시스템이 E-Series 환경에 이미 구축되어 있다고 가정합니다.</block>
@@ -8955,13 +8907,10 @@
   <block id="3543edeec6c44ef942e94faa0424acff" category="paragraph"><block ref="3543edeec6c44ef942e94faa0424acff" category="inline-link-rx"></block></block>
   <block id="72928326de21f42a5ececa543a870d56" category="image-alt">핸들을 쥐어 컨트롤러를 제거합니다</block>
   <block id="ccdf979892d06b3313dd81227d58f4e7" category="image-alt">분리할 때 두 손으로 컨트롤러의 무게를 지탱합니다</block>
-  <block id="d6f83577311942b64cb6a40c36e19ba8" category="image-alt">"탭을 눌러 배터리를 분리합니다</block>
   <block id="cf51ab08845e5a4f0e23f726ab226878" category="image-alt">배터리 배선에서 커넥터 하우징을 탈거하십시오</block>
   <block id="881564a49c7f6fda30f82a5a4a67ecfc" category="image-alt">배터리를 컨트롤러에서 들어올립니다</block>
   <block id="bd0981c1c09a4cb27cd19367269a0960" category="image-alt">배터리를 삽입합니다</block>
   <block id="37103a0435b55e5bcc50923bcd69700e" category="image-alt">쉘프에 컨트롤러를 설치합니다</block>
-  <block id="7796e325c9459708cd9ee117cdbeea2c" category="list-text">배터리 와이어링 커넥터 하우징을 조심스럽게 쥐어줍니다. 배터리를 당겨 보드에서 분리합니다.<block ref="3c05df7462b23b6c10e264df1a62b979" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4d273b85509761057e1f5ed98030b157" category="list-text">배터리를 컨트롤러에서 들어올려 정전기가 없는 평평한 표면에 놓습니다.<block ref="bd4cb93e7de73428d0302a4304ba8680" category="inline-image-macro-rx" type="image"></block></block>
   <block id="db1c3e8b775386049599abeb82b0cf3e" category="image-alt">HIC 전면판을 제거합니다</block>
   <block id="b402c79d7af89342b9df6e7a9076d2d7" category="image-alt">HIC 손잡이 나사를 풉니다</block>
   <block id="8d95b298422e28883fafdac45350d222" category="image-alt">컨트롤러 카드에서 HIC를 제거합니다</block>
@@ -8982,7 +8931,6 @@
   <block id="d419ebdf988a4916b93d1fdd5b11236a" category="image-alt">24-드라이브 쉘프에서 드라이브 번호 매기기</block>
   <block id="a65c0f5d490f825f04f690d32ef8d39a" category="image-alt">24-드라이브 쉘프에서 드라이브 시차 발생</block>
   <block id="8f42fa94ab7e3c353702edcfc0d2eccd" category="image-alt">드라이브 래치</block>
-  <block id="7b8f348a010f5a94503fcabe19088fbf" category="image-alt">"주의 LED</block>
   <block id="339fbc928d6066116ebf66e38efedf8a" category="image-alt">드라이브 손잡이의 주의 LED</block>
   <block id="40f837f06bbd36f49cef42babd88b053" category="image-alt">주황색 분리 래치</block>
   <block id="ad1e03af8eb17b8b69c8e4baf69eb2b9" category="image-alt">캠 핸들을 사용하여 드라이브를 선반에서 들어 올립니다</block>
@@ -9056,7 +9004,6 @@
   <block id="5c735cf53f3f1caaa88045e2bb54b863" category="paragraph">E2600에서 E5500 또는 E5600으로 업그레이드하거나 E2700에서 E5400으로 업그레이드할 경우 추가 단계가 필요합니다.</block>
   <block id="097915df103ac23c8ebc6c0064d8a291" category="paragraph">E5400, E5500 및 E5600 컨트롤러는 SAS-3 쉘프에 장착되지 않아야 합니다.</block>
   <block id="e3a720d87053b94a338fe8e8df7fa7af" category="paragraph">E5500 또는 E5600에서 E2600으로 업그레이드하거나 E5400에서 E2700으로 업그레이드할 경우 추가 단계가 필요합니다.</block>
-  <block id="0dda563975c4b705306e9f33cd4d1442" category="paragraph">5400, E5500 및 E5600 컨트롤러는 SAS-3 쉘프에 장착되지 않아야 합니다.</block>
   <block id="16fe7fa56f57b127b296631d099ad261" category="paragraph">E5400에서 E5500 또는 E5600으로 업그레이드할 때 추가 단계 필요</block>
   <block id="1d236b2937585f4d1069d1e2cc4679a0" category="paragraph">EF540을 EF550 또는 EF560으로 업그레이드할 때 추가 단계 필요</block>
   <block id="e65e60eb717f940240aa8824a61cf723" category="paragraph">EF540, EF550 및 EF560 컨트롤러는 SAS-3 쉘프에 장착되어서는 안 됩니다.</block>
@@ -9090,8 +9037,6 @@
   <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.</block>
   <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다</block>
   <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.</block>
-  <block id="27ed3c2f0cc271f3ffd55cef1621928d" category="sidebar">SANtricity 시스템 관리자 11.9</block>
-  <block id="ece14770330886bc2d41238acbfe48aa" category="sidebar">SANtricity 유니파이드 관리자 7</block>
   <block id="7e70e5b8ab3b4ffb0b5b632ee6ab89f2" category="sidebar">E4000를 참조하십시오</block>
   <block id="600edf74042bc3ae5ce2c2e58c76b005" category="sidebar">설치 준비</block>
   <block id="04f92a4e594759f7a9084677140e7b63" category="sidebar">고려 사항 및 요구 사항</block>
@@ -9128,9 +9073,6 @@
   <block id="4720d0b863e013bea6899b10e0989bda" category="list-text">EF600C 시리즈 -- 미드레인지 All-Flash, All NVMe</block>
   <block id="5ca6952c7c9ae5d4b8be61e6386f0222" category="open-title">EF300C 모델</block>
   <block id="14a2fa7582e1084e3800dde50d8cde03" category="open-title">EF600C 모델</block>
-  <block id="0db8edfb04068c99ae28246efebb6d4d" category="list-text">12gb SAS를 사용합니다</block>
-  <block id="689052b8726f00a4623e9ada4d36af90" category="list-text">EF300, EF600. EF300C 및 EF600C 컨트롤러</block>
-  <block id="16736d8feb91d19d335e7acdefc20ef7" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300C, EF600C와 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.</block>
   <block id="0fabf178487912291e67bdafbadfe77d" category="paragraph">다음 정보는 EF300, EF600, EF300C 또는 EF600C 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460 드라이브 쉘프에 연결하는 데 적용됩니다.</block>
   <block id="f1c197c528faee0553e4d6ce534048a7" category="paragraph">EF300, EF600, EF300C, EF600C</block>
   <block id="915fd81c3f189c50233446daf085a8f7" category="paragraph">EF300, EF600, EF300C 또는 EF600C 스토리지 시스템을 2포스트 랙 또는 NetApp 시스템 캐비닛에 설치할 수 있습니다.</block>
@@ -9164,10 +9106,8 @@
   <block id="892b365a22314b2852ca18025911d1be" category="list-text">필요한 경우<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 명령을 실행하여 DSM 패키지 설치를 확인합니다.</block>
   <block id="fb00ee175135cc78e49e873e41c6e6ad" category="admonition">명령을 실행하려면 MPIO 기능이 Windows 서버에 설치되어 있어야<block ref="3e0e995eb29f6805a04d4b3ac859bc4b" prefix=" " category="inline-code"></block> 합니다.</block>
   <block id="5f3ab4e439fcf2e4683f430d57044b3a" category="inline-link">11.9x에 대한 SANtricity 시스템 관리자 온라인 도움말</block>
-  <block id="e51c0393968b3aeac9a8857a4efc2e03" category="list-text"><block ref="e51c0393968b3aeac9a8857a4efc2e03" category="inline-link-rx"></block></block>
   <block id="25d302c40995ad55c0ad7701261d1310" category="list-text"><block ref="25d302c40995ad55c0ad7701261d1310" category="inline-link-rx"></block></block>
   <block id="718416bdd384ea0f59ab3278846e588d" category="list-text">EF300C 시리즈 -- 엔트리 레벨 All-Flash, All NVMe</block>
-  <block id="2d782dd4047faa435e8a21598b64a8f9" category="admonition">SANtricity OS 11.80GA 이상의 경우 E2800, EF280, E5700, EF570, EF600/EF600C 및 EF300/EF300C 어레이에서 모든 USB 포트가 비활성화됩니다.</block>
   <block id="145e67dd5fe93c51c814f0945a64eadf" category="list-text">SAS 확장 카드 옵션을 지원하므로 SAS 확장 쉘프를 연결할 수 있습니다.</block>
   <block id="d0becf074be26c6d978c288daba24ca4" category="list-text">컨트롤러당 하나의 호스트 인터페이스 카드를 지원합니다.</block>
   <block id="346a8501979327018cc0ee11a3d0f1cf" category="list-text">30TB 또는 60TB 용량 NVMe SSD 드라이브 지원</block>
@@ -9205,7 +9145,6 @@
   <block id="c591c8c3a8e8fbcf4843d55451e5745e" category="list-text">(선택 사항) 필요한 경우 다음을 수행하여 드라이브를 다시 입력할 수 있습니다.</block>
   <block id="0b9601abb9585618affd66f5798a16b2" category="paragraph">* 예: *<block ref="b77e774fa880afa2bd8c8ca91507d0ce" prefix=" " category="inline-code"></block></block>
   <block id="73c97dd158942ee4b15d19f135952d89" category="list-text">* SANtricity Unified Manager * -- Unified Manager는 E4000, E2800, E5700, EF300, EF600 모델을 포함한 여러 스토리지 시스템을 관리하는 소프트웨어입니다. Unified Manager는 SANtricity 웹 서비스 프록시의 일부로, 호스트 시스템에 별도로 설치되는 RESTful API 서버로, 수백 개의 새로운 기존 NetApp E-Series 스토리지 시스템을 관리합니다. 자세한 내용은 을 <block ref="c92032fad30345308610610a1d1083db" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="e5a4c2aea29b525342429c88518c7f73" category="paragraph">다음 표에서는 E4000, EF300/EF300C, EF600/EF600C, E2800/EF280 및 E5700/EF570 컨트롤러의 내장 관리를 위한 최신 SANtricity OS 릴리즈의 새로운 기능에 대해 설명합니다.</block>
   <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">버전 11.90R1의 새로운 기능</block>
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.</block>
   <block id="8af7f744c39ae6285a380b6eb402fcb2" category="paragraph">E4000 컨트롤러에서 12Gb SAS 인터페이스 지원</block>
@@ -9365,17 +9304,13 @@
   <block id="7553994c0c2dd633dd8ba10c100a4ded" category="doc">E-Series 데모 비디오에 액세스합니다</block>
   <block id="28ad05f35e1428f4aa007cdebf7e347b" category="doc">3040 40U 캐비닛(E-Series)에 필요한 툴 및 장비 수집</block>
   <block id="91600f4eb3d156a995ce1b1ec47ab182" category="doc">3040 40U(E-Series)용 전체 캐비닛 설치</block>
-  <block id="0f71fa2cf61422d9dc3e1435d1a0af51" category="doc">3040 40U 캐비닛에 트레이 설치(E-Series)</block>
   <block id="59990da74a4038496ed36361a26b8595" category="doc">3040 40U 캐비닛을 영구 위치(E-Series)로 이동</block>
   <block id="ec56f4e9e033e52e4f7f8c8185c4591d" category="doc">3040 40U 캐비닛(E-Series)용 캐비닛 사양</block>
   <block id="6b2ef569b713e6adc45d3acb0d954ff7" category="doc">3040 40U 캐비닛(E-Series) 이동 준비</block>
   <block id="3adc0491bdd09b8053984a5540955ccd" category="doc">스토리지 시스템 케이블 연결 요구사항(E-Series)</block>
   <block id="1e493b1f08040d7c09ccc1ed1b693f77" category="doc">컨트롤러 쉘프를 드라이브 쉘프에 케이블 연결(E-Series)</block>
-  <block id="4b5c2a585ea9bdccd0456a3e961a113f" category="doc">관리 스테이션용 이더넷 케이블 연결(E-Series)</block>
   <block id="0b550c27392097a1f95c24b17cf16d15" category="doc">호스트를 컨트롤러 또는 스위치에 연결하기 위한 케이블 연결(E-Series)</block>
   <block id="3509ad356c5e72afa0565d920fcc76bc" category="doc">핫-추가 드라이브 쉘프 - IOM12 또는 IOM12B 모듈(E-Series)</block>
-  <block id="f899b9b9f53548c0dea1afd340c90841" category="doc">스토리지 시스템 케이블 연결(E-Series)</block>
-  <block id="9114fe8bca33fe5311b3e215b9bee65f" category="doc">스토리지 시스템의 전원 케이블 연결(E-Series)</block>
   <block id="cca8309690d775486ab4d0ee7986f907" category="doc">E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C 등 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="3fd16291574811effb1e0ca2b7a8a80f" category="doc">전원 케이블(E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C)을 연결합니다</block>
   <block id="65502541d5315d4477d4937aaa9cbd71" category="doc">E5724, EF570, EF280, E2812, E2824, DE212C 및 DE224C 하드웨어를 설치합니다</block>
@@ -9462,7 +9397,6 @@
   <block id="0ae6740fd2e263304e2272eafbf3f5fc" category="doc">호스트 인터페이스 카드(HIC)를 업그레이드합니다. - 5700</block>
   <block id="574e60222b5873c99c68707bb46330da" category="doc">호스트 프로토콜 - 5700을 변경합니다</block>
   <block id="a04faa3422a272a2119ee55c0773f11d" category="doc">호스트 프로토콜 변환 - 5700을 완료합니다</block>
-  <block id="3ca9f69205768ca2729cf2099f3c91fc" category="doc">호스트 포트 프로토콜-5700을 변경하기 위한 요구 사항</block>
   <block id="3e59858b01d2a3adac687292b9354084" category="doc">하드웨어 유지보수 - 5700</block>
   <block id="88b3842ce4b08162538041eb2342c160" category="doc">배터리 교체 요구사항 - EF300 또는 EF600</block>
   <block id="e75a7519d171bb7557b6497aaf0fa138" category="doc">EF300 및 EF600 배터리를 교체합니다</block>
@@ -9489,7 +9423,6 @@
   <block id="634a392452d01560a6a3fa26e30785fe" category="doc">SAS 확장 카드 - EF300 및 EF600 교체 요구사항</block>
   <block id="23c19e9851a45bd1a62c97b5c51e16ab" category="doc">E-Series 스토리지 시스템을 관리합니다</block>
   <block id="2d77a77163078d96d0699098a7f29284" category="doc">플랫폼 기술 보고서 찾아보기(E-Series)</block>
-  <block id="de6a30ef0bb3367d4d98ffad8c434729" category="doc">랙 마운트 하드웨어(E-Series)</block>
   <block id="82395b99bc2ea612343c2224c9ba96f7" category="doc">SANtricity 원격 스토리지 볼륨의 원격 스토리지를 가져옵니다</block>
   <block id="2f9dd903f610e6360946707f5fcc7fb5" category="doc">SANtricity 원격 스토리지 볼륨에 대해 알아보십시오</block>
   <block id="053f568a9f3e7345f8aa801057559613" category="doc">SANtricity 원격 스토리지 볼륨에 대한 원격 스토리지 연결 설정을 수정합니다</block>
@@ -9667,4 +9600,1095 @@
   <block id="980295b6698b8b2aea7adc1d9dafed8c" category="section-title">버전 11.90R5의 새로운 기능</block>
   <block id="94bf3a177cda972f0b25d90290f4610c" category="paragraph">이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이번 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R5 README를 참조하십시오.</block>
   <block id="b2676fbb812b8574fa9249e68163593f" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R4 README를 참조하십시오.</block>
+  <block id="fa55a39b22d11c5af001ea464e373e73" category="paragraph">두 컨트롤러 모두에서 I/O 모듈 또는 I/O 모듈 블랭크를 교체하십시오.</block>
+  <block id="9c35ace50d74937ef9dd17f08d155adc" category="paragraph">컨트롤러 하나로 시작한 다음 다른 컨트롤러에 대한 단계를 반복합니다.</block>
+  <block id="64bdd93ecd6cd33ad364970a62243a9c" category="list-text">컨트롤러 중 하나에서 대상 슬롯에 있는 I/O 모듈 또는 I/O 블랭킹 모듈을 제거합니다.</block>
+  <block id="d537bbb1a90b1eb333e8c8942be81f15" category="paragraph">다음 그림은 I/O 블랭킹 모듈을 제거하는 모습을 보여줍니다.</block>
+  <block id="91e2872c9b5e53f0acf0e8a29206f6fe" category="image-alt">I/O 블랭킹 모듈 제거</block>
+  <block id="eff9a2b0e485ca3fb80f96fc9995fb62" category="inline-image-macro">설명선 번호 1</block>
+  <block id="8123303767547374b75236612d61eaea" category="paragraph"><block ref="8123303767547374b75236612d61eaea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aa03312c0581846f6b1b74dfc125406a" category="paragraph">I/O 모듈 또는 I/O 블랭킹 모듈에서 나비 나사를 시계 반대 방향으로 돌려 풉니다.</block>
+  <block id="746fda156f20e053f2c0e3b0e0ecab0e" category="inline-image-macro">설명선 번호 2</block>
+  <block id="5341a23a962393863fa78f7d211f8029" category="paragraph"><block ref="5341a23a962393863fa78f7d211f8029" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f980fd836f75619a8c905db4727ab5c" category="paragraph">왼쪽의 탭과 나사를 사용하여 컨트롤러에서 I/O 모듈 또는 I/O 블랭킹 모듈을 빼냅니다.</block>
+  <block id="e674b435d235be13e9b7dbef85887973" category="list-text">새 I/O 모듈을 설치합니다.</block>
+  <block id="50d345bb76014f498b9ae6c6984cff5c" category="list-text">I/O 모듈을 컨트롤러 슬롯 개구부의 가장자리에 맞춰 정렬합니다.</block>
+  <block id="a4021e89bcfb830d842cbafb733c367b" category="list-text">I/O 모듈을 슬롯에 완전히 밀어 넣고 모듈이 커넥터에 제대로 장착되었는지 확인하십시오.</block>
+  <block id="067fbc2455a24fcb7cc811e76fc3caf3" category="paragraph">왼쪽 탭과 엄지 나사를 사용하여 I/O 모듈을 밀어 넣을 수 있습니다.</block>
+  <block id="3e5e3cc1c1b4c784727eb30ffda76671" category="list-text">엄지나사를 시계 방향으로 돌려 조입니다.</block>
+  <block id="b0cf669bd0a487d863af85efdd8ee648" category="list-text">I/O 모듈을 호스트 네트워크에 케이블로 연결하십시오.</block>
+  <block id="88b736e6d5561b4dc7cce39802381ee6" category="inline-link-macro">하드웨어에 케이블 연결</block>
+  <block id="6b692ea2048088c59ab42b3bcce87751" category="paragraph">호스트 네트워크 케이블 연결에는 시스템 설치 및 설정 콘텐츠의 <block ref="276dc34fad45927c475bf0fb53ff5be5" category="inline-link-macro-rx"></block> 섹션을 사용할 수 있습니다.</block>
+  <block id="a63801ba50b84ecd5c700166a0e8c4ae" category="list-text">다른 컨트롤러에 I/O 모듈을 추가하려면 이 단계를 반복하십시오.</block>
+  <block id="a51606326fdc4dd84336979274179876" category="inline-link">부품 반품 및 교체</block>
+  <block id="5f7d656732f3f6002e129feef4d6cf85" category="paragraph">키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반송하십시오. 자세한 내용은 <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="8bd6c0defe29f56847a7ba2ca43fd209" category="list-text">메뉴: Hardware[Controllers and components]를 선택합니다.</block>
+  <block id="d4baf862400654c024011c2d8c514cd3" category="list-text">SANtricity System Manager에서 menu:Hardware[Controllers and components]를 클릭합니다.</block>
+  <block id="b2dc0096c64cdaedcabd385ca2737e62" category="list-text">SANtricity System Manager에서 메뉴:하드웨어[컨트롤러 및 구성 요소]를 클릭하고 필요에 따라 아래로 스크롤하여 새로 추가된 드라이브 셸프를 확인하십시오.</block>
+  <block id="a813962ebe4fb11a5bc8e1ab3b8c1492" category="paragraph">다음 그림은 컨트롤러를 재설치할 때 컨트롤러 핸들(컨트롤러 왼쪽 측면 기준)의 작동 방식을 보여주며, 컨트롤러 재설치 단계를 참고하는 데 사용할 수 있습니다.</block>
+  <block id="3a0c08ed150e453675cf3f353dfe471e" category="image-alt">컨트롤러를 설치하기 위한 컨트롤러 핸들 작업</block>
+  <block id="2169e5b74d2794e67d2b6a5c16529024" category="paragraph">컨트롤러를 정비하는 동안 컨트롤러 손잡이를 수직으로 회전시켜(탭 옆) 치웠다면 수평 위치로 다시 회전시키십시오.</block>
+  <block id="2e4775ea47760a070ebb6d0112d605ae" category="paragraph">손잡이를 눌러 컨트롤러를 섀시에 다시 삽입합니다.</block>
+  <block id="5f695e51ae076dac62d244a3e86a2eae" category="image-alt">설명선 번호 3</block>
+  <block id="90bd32fd6a87b2827748364c93194903" category="paragraph">손잡이를 수직 위치로 회전하고 잠금 탭으로 제자리에 고정하십시오.</block>
+  <block id="4b4aa4bb336c5c33a46b6de47b20533b" category="list-text">컨트롤러 덮개를 닫고 엄지나사를 시계 방향으로 돌려 단단히 조입니다.</block>
+  <block id="1f8b9efbc618b713185c861f2ea953ec" category="list-text">컨트롤러를 섀시에 삽입합니다.</block>
+  <block id="f1733862ab533b1be5c046f342116e52" category="list-text">컨트롤러 뒷면을 섀시의 개구부에 맞추고 컨트롤러가 중앙면에 닿아 완전히 고정될 때까지 손잡이를 부드럽지만 단단하게 누르십시오.</block>
+  <block id="28180201bfb2d7bf5615528194442289" category="admonition">컨트롤러를 섀시에 밀어 넣을 때 과도한 힘을 사용하지 마십시오. 커넥터가 손상될 수 있습니다.</block>
+  <block id="a676323e6fcbbd59df78bae524b7b40c" category="list-text">컨트롤러 손잡이를 위로 돌려 탭으로 제자리에 고정합니다.</block>
+  <block id="c190e47c300a3781bbf4edf442004427" category="list-text">전원 코드를 전원 공급 장치에 다시 연결하고 전원 코드 고정 장치를 사용하여 전원 코드를 고정하십시오.</block>
+  <block id="09792124be37eb490b4c100d51a769f1" category="paragraph">전원 공급 장치에 전원이 복구되면 상태 LED가 녹색으로 표시되어야 합니다.</block>
+  <block id="a8ffa005f2f4d7ca0ce6fbc0cc743f6a" category="list-text">컨트롤러에 모든 케이블을 다시 연결합니다.</block>
+  <block id="432439ba5a9c5e97dd867034f0264d18" category="admonition">컨트롤러를 온라인 상태로 전환하기 전에 케이블을 다시 연결해야 합니다. 특히 미러링 케이블 연결은 시스템의 완전한 이중화를 보장하고 캐시 미러링 및 I/O 전송에 사용되므로 더욱 중요합니다.</block>
+  <block id="f3e8f16b8c4599d4e7971f4a3b5b40ec" category="paragraph">캐시 메모리의 데이터가 드라이브에 기록되었는지 확인하고, 고장난 컨트롤러에서 모든 케이블을 분리한 다음, 고장난 컨트롤러를 섀시에서 제거합니다.</block>
+  <block id="ddebde23a73a1e5da12a180120d90828" category="list-text">손상된 컨트롤러에서 NV 캐싱 활성(녹색) LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="58965ac945ee10b0dc2cf0c64879cc65" category="paragraph">NV Caching Active(녹색) LED가 꺼지면 캐시 메모리의 모든 데이터가 드라이브에 기록되었으므로 손상된 컨트롤러를 안전하게 제거할 수 있습니다.</block>
+  <block id="69461a453d92467af5f1dc2949bbb0fd" category="admonition">NV 캐싱 활성(녹색) LED가 켜져 있으면 캐시된 데이터가 드라이브에 기록되고 있는 것입니다. 기록 과정이 완료되고 NV 캐싱 활성 LED가 꺼질 때까지 기다려야 합니다. 그러나 LED가 5분 이상 켜져 있는 경우<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> 이 절차를 계속 진행하기 전에 문의하십시오.</block>
+  <block id="277a5437b393a9dae2e1f36dc8c357c0" category="paragraph">NV 캐싱 활성(녹색) LED는 컨트롤러의 NV 아이콘 옆에 있습니다.</block>
+  <block id="7d4f1018779bf26ae6ea9c3314b4748f" category="image-alt">NV 상태 LED 위치</block>
+  <block id="e8ed7b11484014d720b422ee782eba78" category="paragraph">컨트롤러의 NV 아이콘 및 NV Caching Active LED</block>
+  <block id="67ae27d673fda2143fd1f63adf86608f" category="list-text">장애가 발생한 컨트롤러에 연결된 각 케이블에 라벨을 지정합니다.</block>
+  <block id="37eda14e099a8035cd25a253d4f8db81" category="list-text">손상된 컨트롤러의 전원 공급 장치에서 전원 코드를 분리하십시오.</block>
+  <block id="db8fd2a28ebcf5092f7716116253ff49" category="admonition">전원 공급 장치(PSU)에는 전원 스위치가 없습니다.</block>
+  <block id="b1a94eb82383e51048a46914dd3e98dc" category="list-text">손상된 컨트롤러에서 모든 케이블을 분리합니다.</block>
+  <block id="f10ecb274bf637a86985f6cf212fc947" category="list-text">손상된 컨트롤러를 제거합니다.</block>
+  <block id="e11e72421be735a28947fbf0a54a814a" category="paragraph">다음 그림은 컨트롤러를 분리할 때 컨트롤러 핸들(컨트롤러 왼쪽)의 작동을 보여줍니다.</block>
+  <block id="1b18694f8589edd135989442717be84b" category="image-alt">컨트롤러 핸들 작동으로 컨트롤러를 제거합니다</block>
+  <block id="68bd36189b3dd53d0a3db6843e43eae2" category="paragraph">컨트롤러 양쪽 끝에 있는 수직 잠금 탭을 바깥쪽으로 밀어 핸들을 수평 위치로 해제하십시오.</block>
+  <block id="e38dbb05b47a9a2d1a0e6e4ce5ca2916" category="list-text">컨트롤러를 미드플레인에서 분리하려면 손잡이를 당기십시오.</block>
+  <block id="992eed634c310c3384dab41dec7eef9e" category="paragraph">당기면 손잡이가 컨트롤러에서 튀어나오고 약간의 저항이 느껴지면 계속 당기세요.</block>
+  <block id="4d194c1f374d114aeda5d40087c5bee3" category="list-text">컨트롤러 하단을 받쳐주면서 섀시에서 컨트롤러를 빼낸 다음, 정전기가 없는 평평한 작업 표면에 놓으십시오.</block>
+  <block id="6812d727082207717576976311f2f976" category="paragraph">필요한 경우 손잡이를 수직으로 회전시켜(탭 옆) 방해가 되지 않도록 이동하십시오.</block>
+  <block id="f6c4c0df663b5e47c04664435749c0cf" category="list-text">엄지나사를 시계 반대 방향으로 돌려 푼 다음 덮개를 열어 컨트롤러 덮개를 여세요.</block>
+  <block id="ef13404364a970b4fd05be667ebe059d" category="doc">1단계: 컨트롤러 제거</block>
+  <block id="4d8761cf588ee1a042ea53ea8de854e2" category="list-text">고장난 컨트롤러를 제거한 후 60분 이내에 교체용 컨트롤러를 설치하여 스토리지 시스템의 적절한 냉각을 유지하십시오.</block>
+  <block id="040eb60b9c2067a203906826ad9b9de6" category="admonition">과열을 방지하기 위해 컨트롤러 베이를 60분 이상 비워두지 마십시오.</block>
+  <block id="f314d733699a86d270cee4ccf938c861" category="list-text">손상된 컨트롤러의 케이블을 분리하기 전에 먼저 컨트롤러를 오프라인 상태로 전환해야 합니다.</block>
+  <block id="04f0343c36d2b01208704180f5a2822f" category="list-text">스토리지 시스템 위치(파란색) LED(스토리지 시스템 전면과 두 컨트롤러에 있음)를 켜서 영향을 받는 스토리지 시스템을 물리적으로 찾을 수 있습니다. SANtricity System Manager를 사용하여 *하드웨어* &gt; *컨트롤러 및 구성 요소*를 선택하고 *컨트롤러 셸프* 탭을 선택한 다음 상황 메뉴에서 *위치 표시등 켜기*를 선택하십시오.</block>
+  <block id="46dc7a6019d827f81ffce7b535eb038e" category="section-title">2단계: 전원 공급 장치 이동</block>
+  <block id="7bb165a1e14005ed2165449bfe570ee7" category="paragraph">전원 공급 장치(PSU)를 교체용 컨트롤러로 옮기십시오.</block>
+  <block id="8442028b3097bcfb1898e4700eb08397" category="list-text">손상된 컨트롤러에서 PSU를 제거합니다.</block>
+  <block id="de7883b670e2aa03b8a1c8f09df0283d" category="paragraph">PSU에 접근할 수 있도록 왼쪽 컨트롤러 손잡이가 수직 위치에 있는지 확인하십시오.</block>
+  <block id="eb7daf9edab18c99ff21b5cd1a7d0573" category="image-alt">AC 전원 공급 장치 교체</block>
+  <block id="b39c0aa2f7a74f6bb1d82767252e81f0" category="paragraph">전원 공급 장치 손잡이를 위쪽으로 돌려 수평 위치로 만든 다음 잡으세요.</block>
+  <block id="e53aa8a1ae4c16653020202824322401" category="paragraph">엄지손가락으로 주황색 잠금 탭을 눌러 전원 공급 장치를 컨트롤러에서 분리합니다.</block>
+  <block id="69aa3d2e41b3de12291563841f390a9b" category="paragraph">한 손으로 전원 공급 장치의 무게를 받쳐준 상태에서 다른 손으로 컨트롤러에서 전원 공급 장치를 빼내십시오.</block>
+  <block id="0675e42668a985b3678e0ac7bef7f3df" category="admonition">PSU의 길이가 짧습니다. 컨트롤러에서 분리할 때 갑자기 컨트롤러에서 흔들려 부상을 입지 않도록 항상 양손으로 받쳐 주십시오.</block>
+  <block id="2178955fc711a10316dabc28ec32b496" category="list-text">PSU를 교체용 컨트롤러에 삽입하십시오.</block>
+  <block id="8ea2ecf6afc3dd784c96ad3320c6697c" category="list-text">양손을 사용하여 전원 공급 장치의 가장자리를 컨트롤러의 구멍에 맞춰 받쳐줍니다.</block>
+  <block id="9c45d770c4c72fca10bc51aff2728977" category="list-text">주황색 잠금 탭이 딸깍 소리를 내며 제자리에 고정될 때까지 전원 공급 장치를 컨트롤러에 부드럽게 밀어 넣으십시오.</block>
+  <block id="b5ecda37046d685b93693e01ecb6e6fe" category="paragraph">PSU는 내부 커넥터 및 잠금 장치에 제대로 연결되어야 합니다. PSU가 제대로 장착되지 않았다고 느껴지면 이 단계를 반복하십시오.</block>
+  <block id="f8f3297fae2134dc5ae24c76ca45bcee" category="admonition">내부 커넥터가 손상되는 것을 방지하기 위해 전원 공급 장치를 컨트롤러에 끼울 때 과도한 힘을 가하지 마십시오.</block>
+  <block id="f0167637a350c4dd2e81ce6e691cd9db" category="list-text">손잡이를 아래쪽으로 돌려서 정상 작동에 방해가 되지 않도록 하십시오.</block>
+  <block id="489f4d822f036e8983d65332d7a37f54" category="section-title">3단계: 팬 이동</block>
+  <block id="9409045caa9314bcb1f1483b708e0031" category="paragraph">팬을 교체용 컨트롤러로 이동합니다.</block>
+  <block id="6ebff45ffc34f047fbedc4110d404210" category="list-text">장애가 발생한 컨트롤러에서 팬 중 하나를 제거합니다.</block>
+  <block id="4cad152e4a8c970b1849e94a2254d195" category="image-alt">팬 교체</block>
+  <block id="0598d6786d27c4929b62139fe114b783" category="cell">파란색 접점에서 팬의 양쪽을 잡으십시오.</block>
+  <block id="d9e9a2ba598d4bf9da2d14af94f3f75f" category="cell">팬을 위쪽으로 똑바로 당겨서 소켓에서 빼냅니다.</block>
+  <block id="2ca99cd6d9bea1fe091b4d30068a2d69" category="list-text">팬을 가이드 내에 맞춰 교체용 컨트롤러에 삽입한 다음 팬 커넥터가 소켓에 완전히 장착될 때까지 아래로 누르십시오.</block>
+  <block id="7db206f9e6fccdb15b825a463365ed9a" category="list-text">나머지 팬에 대해 이 단계를 반복합니다.</block>
+  <block id="4f42b1d0608fb1685f8d72748eac26b7" category="section-title">4단계: NV 배터리 이동</block>
+  <block id="febcb77a862bc52409a4f8f740402587" category="paragraph">NV 배터리를 교체용 컨트롤러로 옮기십시오.</block>
+  <block id="3748cc234da371c99e3323c964dad4ff" category="list-text">장애가 있는 컨트롤러에서 NV 배터리를 제거하십시오.</block>
+  <block id="1089c3637780c1a22ad88c3e30e3eaa6" category="image-alt">NV 배터리 교체</block>
+  <block id="ac6ff89bfab84b4e4a936fbdfb584da9" category="paragraph">NV 배터리를 들어 올려 수납함에서 꺼냅니다.</block>
+  <block id="2b6434ef9f5457450d4511d0fabd2506" category="paragraph">배선 하네스를 고정 장치에서 분리하십시오.</block>
+  <block id="5dedb299714fe96c61b1f1919b6e8cc2" category="list-text">커넥터의 탭을 안쪽으로 밀어 넣고 고정합니다.</block>
+  <block id="d3cc2e145aba0519f854557ed57acf4b" category="list-text">커넥터를 소켓에서 위쪽으로 당겨 빼냅니다.</block>
+  <block id="6b2547cf52b63bc6d939b98416cdfde1" category="paragraph">위로 당기면서 커넥터를 끝에서 끝까지(길이 방향으로) 부드럽게 흔들어 분리하십시오.</block>
+  <block id="b43b37a5beb7724c79cd784767cd6f99" category="list-text">교체용 컨트롤러에 NV 배터리를 설치하십시오.</block>
+  <block id="fbbb65591b24687dbb68bedee8fff126" category="list-text">배선 커넥터를 소켓에 꽂습니다.</block>
+  <block id="e443be76e4c5ed8e9dae5cbfde2b1592" category="list-text">전원 공급 장치 측면을 따라 배선을 연결하고, 고정 장치에 넣은 다음, NV 배터리 칸 앞쪽의 채널을 통해 빼냅니다.</block>
+  <block id="0451eb98a36fb1804410bcc4ce9359cc" category="list-text">NV 배터리를 해당 칸에 넣으십시오.</block>
+  <block id="3df44b0182c03fcb8c4156599eba109a" category="paragraph">NV 배터리는 해당 칸에 평평하게 장착되어야 합니다.</block>
+  <block id="27f35b27313c8e5ab77d19b60ae6e137" category="section-title">5단계: 시스템 DIMM 이동</block>
+  <block id="e2ab92defc59c42db8d7751871a85f99" category="paragraph">DIMM을 교체용 컨트롤러로 이동합니다.</block>
+  <block id="aa873a0b11a643ef5c6d4ea9bb76770f" category="paragraph">DIMM 블랭크가 있는 경우 이동할 필요가 없으며 교체 컨트롤러와 함께 설치되어 제공됩니다.</block>
+  <block id="44e8fcc7253fb9a1de8d7428592b78d3" category="list-text">손상된 컨트롤러에서 DIMM 중 하나를 제거합니다.</block>
+  <block id="9f6b3b55748dc3abdda6a24404bc0981" category="image-alt">DIMM 교체</block>
+  <block id="8cadb74e8e3dadb4f0559d6574dc54d2" category="paragraph">DIMM 슬롯 번호 지정 및 위치.</block>
+  <block id="ebef233acb3f41651dd2ed255f0710f3" category="admonition">스토리지 시스템 모델에 따라 DIMM이 2개 또는 4개 있습니다.</block>
+  <block id="c8bca978ec187f4e3926d3fb1c0f21ed" category="list-text">소켓에 DIMM이 어떤 방향으로 장착되어 있는지 확인하여 교체용 컨트롤러에 DIMM을 올바른 방향으로 삽입할 수 있도록 하십시오.</block>
+  <block id="895d127cb9bb8c714cfeedec25196eb8" category="list-text">DIMM 슬롯 양쪽 끝에 있는 두 개의 DIMM 배출 탭을 천천히 밀어서 DIMM을 꺼냅니다.</block>
+  <block id="f422e2b9703dc78004ddade23f0bbe2f" category="admonition">DIMM 회로 기판 부품에 압력이 가해지지 않도록 DIMM의 모서리나 가장자리를 조심스럽게 잡으십시오.</block>
+  <block id="1ab8f30cd60bb4c699f4aa4f4a45d4ef" category="paragraph">DIMM을 들어 올려 슬롯에서 빼냅니다.</block>
+  <block id="2ff45566a080242bfba5b4556db91b26" category="paragraph">배출 탭은 열린 위치에 유지됩니다.</block>
+  <block id="82d00c1935cb2a15e6506a8190030c0d" category="list-text">교체용 컨트롤러에 DIMM을 설치합니다.</block>
+  <block id="60d8cb7af13a1de8e2ac89bf55defe6f" category="list-text">커넥터의 DIMM 배출 탭이 열린 위치에 있는지 확인하십시오.</block>
+  <block id="4db38c111b599a8d5245fba08b4ae7ea" category="list-text">DIMM의 모서리를 잡고 슬롯에 똑바로 삽입하십시오.</block>
+  <block id="cd3a33c660a3471bcf63783151894354" category="paragraph">DIMM 하단의 핀 사이에 있는 노치가 슬롯의 탭과 일렬로 정렬되어야 합니다.</block>
+  <block id="b3fb7cc55fec6d7df9078e2ee7739718" category="paragraph">DIMM을 올바르게 삽입하면 슬롯에 쉽게 들어가지만 단단히 고정됩니다. 그렇지 않은 경우 DIMM을 다시 삽입하십시오.</block>
+  <block id="7e08ee4b466dc677d31c40c8b0488339" category="list-text">DIMM이 슬롯에 고르게 정렬되어 완전히 삽입되었는지 육안으로 확인하십시오.</block>
+  <block id="9575090426787707867ccbc79b2a7518" category="list-text">DIMM의 상단 가장자리를 조심스럽지만 단단하게 눌러 이젝터 탭이 DIMM 양쪽 끝의 노치 위로 딸깍 소리를 내며 제자리에 고정될 때까지 누르십시오.</block>
+  <block id="f2b46f48ad91312dbb629ca0d1eab3fe" category="list-text">나머지 DIMM에 대해 이 단계를 반복합니다.</block>
+  <block id="c37a4d7725ea260112e56edceaf5e4d1" category="section-title">6단계: I/O 모듈 이동</block>
+  <block id="b88a7ed45dedd1e4784a5c578bc8263e" category="paragraph">I/O 모듈 및 I/O 블랭킹 모듈을 교체용 컨트롤러로 이동합니다.</block>
+  <block id="47f9ea1b3b16949857f797ce304a6208" category="list-text">장애가 발생한 컨트롤러에서 I/O 모듈 중 하나를 제거합니다.</block>
+  <block id="e9a79f0407fd89b04b8d674513b95d8e" category="paragraph">I/O 모듈이 어느 슬롯에 있었는지 반드시 기록해 두십시오.</block>
+  <block id="87229a36d0751b8a6977451eb462ca89" category="paragraph">슬롯 4의 I/O 모듈을 제거하는 경우 I/O 모듈에 액세스할 수 있도록 오른쪽 컨트롤러 핸들이 수직 위치에 있는지 확인하십시오.</block>
+  <block id="0af6fe064800da7d11e3417d85012213" category="image-alt">I/O 모듈 제거</block>
+  <block id="ffa468f89f7193e4d62e16f0859dcad7" category="paragraph">I/O 모듈 나사를 시계 반대 방향으로 돌려 풀어줍니다.</block>
+  <block id="5ea88ba805bdaacfdce62e862cfa864e" category="paragraph">왼쪽의 포트 라벨 탭과 오른쪽의 나사를 이용하여 I/O 모듈을 컨트롤러에서 빼내십시오.</block>
+  <block id="e04fbb1e210321f8cf00679d99037eff" category="list-text">교체용 컨트롤러에 I/O 모듈을 설치합니다.</block>
+  <block id="66efd9c2b6ae55ef5c1ff3be01c1fe65" category="list-text">I/O 모듈을 슬롯 가장자리에 맞춰 정렬합니다.</block>
+  <block id="7188f4bfa76e7ca34fdec6ed68818a56" category="paragraph">왼쪽의 탭과 오른쪽의 손잡이 나사를 사용하여 I/O 모듈을 밀어 넣을 수 있습니다.</block>
+  <block id="5994799013219684cd2468d0bd103219" category="list-text">이 단계를 반복하여 나머지 I/O 모듈 및 I/O 블랭킹 모듈을 교체 컨트롤러로 이동합니다.</block>
+  <block id="c15449579d92fa124a659aa412ed32be" category="section-title">7단계: 컨트롤러 설치</block>
+  <block id="718f8a032a06d7322aab870b07f3a5bc" category="paragraph">교체용 컨트롤러를 섀시에 설치하고 전원 코드와 모든 케이블을 다시 연결하십시오.</block>
+  <block id="b43b4b5f5821961553dbe6d4e6122a10" category="list-text">다음 단계는 장애가 발생한 컨트롤러가 IP 주소에 DHCP를 사용했는지 여부에 따라 달라집니다.</block>
+  <block id="bfa9de45095a3a90ebc55708a5ee6dd2" category="cell">만약...</block>
+  <block id="c1325f6903ebb5ebb2bb519a73ddb1b0" category="cell">그런 다음...</block>
+  <block id="db2d89e0aea58b0bb054d06711dd1603" category="paragraph">손상된 컨트롤러는 IP 주소에 DHCP를 사용하지 않았습니다</block>
+  <block id="6fbe3b2a04087d98d7111edd8b0800a6" category="paragraph">교체 컨트롤러는 제거한 손상된 컨트롤러의 IP 주소를 사용합니다.</block>
+  <block id="b1ba38ad947dd1578f31b0197f58b44d" category="paragraph">다음 단계로 이동합니다.</block>
+  <block id="decfc22a794e17cd9475dd29aa12b845" category="paragraph">손상된 컨트롤러가 IP 주소에 DHCP를 사용했습니다</block>
+  <block id="9f0090d15a85a71724021b2fe1054c22" category="paragraph">네트워크 관리자에게 손상된 컨트롤러의 DNS/네트워크 및 IP 주소를 교체 컨트롤러의 MAC 주소와 연결하도록 요청하십시오.</block>
+  <block id="96edeb3ef5f3d00c690483674749e606" category="list-text">SANtricity System Manager를 사용하여 컨트롤러를 온라인 상태로 전환하십시오.</block>
+  <block id="51940da2e0e112c4e2164ed73dde4ca2" category="list-text">컨트롤러를 표시하려면 *Hardware* &gt; *Controllers and components*를 선택하십시오.</block>
+  <block id="43e5e56b16d9e995d72c9ea69ea1a621" category="list-text">교체한 컨트롤러를 선택하여 해당 콘텐츠 메뉴를 표시합니다.</block>
+  <block id="32d3fe65190b2b90e6f9f86e1ae465aa" category="list-text">*온라인으로 주문하기*를 선택합니다.</block>
+  <block id="539f827e10e96fdd5bb9e40e8a033b35" category="list-text">컨트롤러가 부팅되는 동안 컨트롤러 LED를 확인하여 다른 컨트롤러와의 통신이 다시 설정되었는지 확인하십시오.</block>
+  <block id="9099077ffed39ba2a685301f4b1444f5" category="paragraph">NVSRAM 불일치가 보고되면 다음 SMcli 명령을 사용하여 NVSRAM을 업그레이드하십시오. <block ref="ff2bddd61609f26dc3255408781890ad" prefix=" " category="inline-code"></block> 매개 변수는 어레이가 https 보안이 아닌 경우 필요합니다.</block>
+  <block id="ca34ccb280b5b0c1964d413938ebbdf1" category="admonition">SMcli 명령을 완료할 수 없는 경우 <block ref="116f7ad90a3c7441981f82d8f8fba4d5" category="inline-link-rx"></block>에 문의하거나 <block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block>에 로그인하여 케이스를 생성하십시오.</block>
+  <block id="37c9a6ae0057d4ef2e7c8004d6bf9837" category="list-text">스토리지 시스템의 상태가 최적인지, 그리고 컨트롤러의 주의 LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="b1af2a1e075bf65c8a6d562cdf1d917c" category="paragraph">상태가 최적이 아니거나 주의 LED가 켜져 있는 경우 모든 케이블이 올바르게 연결되었는지, 컨트롤러가 제대로 설치되었는지 확인하십시오. 필요한 경우 컨트롤러를 제거한 후 다시 설치하십시오.</block>
+  <block id="546c2059b7d78aee666e65a2118a57b9" category="admonition">문제를 해결할 수 없는 경우<block ref="116f7ad90a3c7441981f82d8f8fba4d5" category="inline-link-rx"></block>에 문의하십시오.</block>
+  <block id="8fae6a367fd3c600bcac1c10f888063c" category="list-text">교체용 컨트롤러를 포장에서 꺼내어 정전기가 없는 평평한 표면에 놓으십시오.</block>
+  <block id="c933121354c0223a9ad728051e709537" category="paragraph">장애가 발생한 컨트롤러를 반환할 때 사용할 포장재를 보관하십시오.</block>
+  <block id="06d5fce8c355d461d669d434c31cd62c" category="list-text">교체용 컨트롤러 측면에 있는 MAC 주소를 기록해 두십시오.</block>
+  <block id="32fdd5186a012c3f888f7ed721176da8" category="paragraph">MAC 주소는 컨트롤러 교체 절차의 후반부에 사용됩니다.</block>
+  <block id="07fda9eb36699866857d3a3fcf9d4fe3" category="list-text">교체용 컨트롤러의 부품 번호가 SANtricity System Manager에 등록된 컨트롤러의 교체 부품 번호와 동일한지 확인하십시오.</block>
+  <block id="7b41eb08240d48ac49d0b954d04195aa" category="admonition">*데이터 액세스 손실 가능성*: 두 부품 번호가 동일하지 않으면 이 절차를 시도하지 마십시오. 컨트롤러가 일치하지 않으면 교체 컨트롤러를 온라인 상태로 전환할 때 잠금 상태가 됩니다.</block>
+  <block id="8d416427e60142869e870aca364073af" category="list-text">교체용 컨트롤러 측면에 있는 부품 번호를 기록해 두십시오.</block>
+  <block id="0afb06886c849a5b8e6ee76d561845a2" category="list-text">Recovery Guru의 세부 정보 영역에 표시된 손상된 컨트롤러의 교체 부품 번호를 찾으십시오.</block>
+  <block id="c05de55475b8cbf67f50787bcf0bddba" category="paragraph">이 번호를 수동으로 찾아야 하는 경우 다음 단계를 따르십시오.</block>
+  <block id="000bff5d070a7406db72435fc7376b96" category="list-text">* Hardware * &gt; * Controllers and components * 를 선택하십시오.</block>
+  <block id="3bca209bdd0840cefddce7cace13642a" category="list-text">손상된 컨트롤러(컨트롤러 A 또는 컨트롤러 B)에 해당하는 컨트롤러 그래픽을 선택하여 상황별 메뉴를 표시하십시오.</block>
+  <block id="035ca9e6fc4bda88ace0c0216c62980b" category="list-text">두 부품 번호를 비교하여 동일한지 확인하십시오.</block>
+  <block id="3cc46ef09d9c0e29c5f2806b83ebacde" category="list-text">다음 단계는 부품 번호가 동일한지 여부에 따라 달라집니다.</block>
+  <block id="743e5938189079dd3357c8b6f7009004" category="paragraph">두 부품 번호는 동일합니다</block>
+  <block id="d2aa5e318ed453a328d025435209fc91" category="paragraph">다음 단계로 진행하십시오.</block>
+  <block id="218db8bd137d4473a909b80dd224d93c" category="paragraph">두 부품 번호가 서로 다릅니다</block>
+  <block id="dc46f66aca33371e2046cc628d114249" category="paragraph">이 절차를 계속 진행할 수 없습니다.</block>
+  <block id="c229d6affaf5d2de37a87c9381cd19ed" category="paragraph">도움이 필요하시면<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> 연락주세요.</block>
+  <block id="2f56d5fc53b80cd72cc9f205c589dd7b" category="list-text">SANtricity System Manager를 사용하여 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="9f5ae5484aae39bf79379c8e27f6637c" category="paragraph">컨트롤러를 제거할 때 문제가 발생하면 저장된 파일을 사용하여 구성을 복원할 수 있습니다. 시스템은 컨트롤러의 볼륨 그룹 및 디스크 풀에 대한 모든 데이터를 포함하는 RAID 구성 데이터베이스의 현재 상태를 저장합니다.</block>
+  <block id="5a88e93518ef0439b565a12db4ca6079" category="list-text">*Collect*를 선택합니다.</block>
+  <block id="fa35372932fd7b7f194002545677ee4e" category="list-text">컨트롤러에 오류가 발생했는지 확인하십시오. 다음 두 가지 방법으로 확인할 수 있습니다.</block>
+  <block id="5c3e489f9f015dec0ad2d63f8ffe4ab0" category="list-text">SANtricity System Manager의 Recovery Guru가 컨트롤러를 교체하라고 안내했습니다.</block>
+  <block id="f8e24f4f8665beda2711e14f280abf35" category="list-text">컨트롤러의 주황색 주의 LED가 켜져 있으며, 이는 컨트롤러에 오류가 있음을 나타냅니다.</block>
+  <block id="e99bb35d6b70ccf62eff1b0246a54916" category="list-text">스토리지 시스템의 전원이 켜져 있고 호스트 I/O 작업이 수행 중인 상태에서 손상된 컨트롤러를 교체할 수 있도록 스토리지 시스템의 다음 조건을 충족하는지 확인하십시오.</block>
+  <block id="7ce5d38198daa42ccdc1ccc6416a719c" category="list-text">섀시의 두 번째 컨트롤러가 최적 상태입니다.</block>
+  <block id="f132692f68dec483e8cae9d0aca02255" category="list-text">SANtricity System Manager의 Recovery Guru의 세부 정보 영역에 있는 *OK to remove* 필드는 *Yes*로 표시되어, 손상된 컨트롤러를 안전하게 제거할 수 있음을 나타냅니다.</block>
+  <block id="6e08763db3826f8c66338c02202737a2" category="list-text">교체하려는 컨트롤러와 동일한 부품 번호를 가진 교체용 컨트롤러.</block>
+  <block id="6a621c69de29da855d69904cb723d4d8" category="list-text">컨트롤러에서 분리할 각 케이블을 식별하기 위한 라벨.</block>
+  <block id="b4cc1ba5bf2164a993417d75aaa53475" category="list-text">컨트롤러용 SANtricity System Manager에 액세스할 수 있는 브라우저가 있는 관리 스테이션.</block>
+  <block id="9974af702a24ead987e72b92fd2e418c" category="paragraph">브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리켜 SANtricity System Manager 인터페이스를 열 수 있습니다.</block>
+  <block id="f92cc7ce14a5c6dd4e15865f19ea86db" category="paragraph">선택적으로 명령줄 인터페이스(CLI)를 사용하여 일부 절차를 수행할 수 있습니다. SANtricity System Manager를 사용하여 CLI 패키지(zip 파일)를 다운로드하십시오. *Settings* &gt; *System* &gt; *Add-ons*로 이동하여 *Command Line Interface*를 선택합니다. 그런 다음 DOS C: 프롬프트와 같은 운영 체제 프롬프트에서 CLI 명령을 실행할 수 있습니다.</block>
+  <block id="54f4a3ad5110292b1d20d9eeb3a833ba" category="list-text">결함이 있는 DIMM을 찾으십시오.</block>
+  <block id="8a682c66646ec7954594a9800184dc7d" category="inline-link">NetApp Hardware Universe</block>
+  <block id="a14eb1c2c4cf319a982bdbf18a929cc2" category="admonition">정확한 DIMM 위치는 <block ref="4e43c3b83d98d9534ba258422aad47e3" category="inline-link-rx"></block> 또는 컨트롤러 커버의 FRU 맵을 참조하십시오.</block>
+  <block id="9f212a86f239a9072597652a665776ee" category="list-text">결함이 있는 DIMM을 제거합니다.</block>
+  <block id="0fda818023e41f602e6784f9ba21bfa6" category="admonition">스토리지 시스템 모델에 따라 DIMM이 2개 또는 4개 있습니다.</block>
+  <block id="f11db7eec0bc125e7dce7a2d804ea918" category="list-text">소켓에 DIMM의 방향을 기록하여 교체용 DIMM을 같은 방향으로 삽입할 수 있도록 하십시오.</block>
+  <block id="193ded937941ceaa24c58df5af5499e5" category="list-text">DIMM 슬롯 양쪽 끝에 있는 두 개의 DIMM 배출 탭을 천천히 밀어서 불량 DIMM을 제거하십시오.</block>
+  <block id="2c6646edb004240e517d3920f69fd930" category="list-text">교체용 DIMM을 포장에서 꺼내 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="99ec8f391e3817f8a8becd2d19610ec6" category="paragraph">결함이 있는 DIMM을 반환할 때 사용할 포장 재료를 보관하십시오.</block>
+  <block id="1ea787c242a7dcd215996d3c48964939" category="list-text">교체용 DIMM을 설치합니다.</block>
+  <block id="7f26eaf9050c56078183b827f935bcc6" category="paragraph">DIMM을 올바르게 삽입하면 슬롯에 쉽게 들어가지만 단단히 고정됩니다. 제대로 삽입되지 않은 것 같으면 DIMM을 다시 삽입하십시오. 절대로 DIMM을 슬롯에 억지로 끼우지 마십시오.</block>
+  <block id="7eb658f34658041c7b9e4400fbfc7d31" category="list-text">SANtricity System Manager에서 손상된 컨트롤러의 스토리지 컨트롤러 프로필에 액세스합니다.</block>
+  <block id="5c036fefd12c456d1d53c265712fe42d" category="list-text">*지원* &gt; *지원 센터*로 이동합니다.</block>
+  <block id="bed19ecb958090751f399e852a95d4d8" category="list-text">지원 리소스 페이지에서 *Storage Array Profile*을 선택하십시오.</block>
+  <block id="ffcca4c24b4d9a797fbd7d795ea331c4" category="list-text">DIMM에 대해 다음 조건 중 하나라도 표시되면 DIMM의 위치를 기록해 두고 이 절차에 따라 DIMM을 교체하십시오.</block>
+  <block id="2e5ab3c5b2a4ad7907ecf21576917151" category="paragraph">이러한 조건이 모두 충족되지 않으면 DIMM을 교체할 필요가 없습니다. 이 절차를 종료하십시오.</block>
+  <block id="c08aea140bdd0ab5a4ceaf2ea1547bbe" category="list-text">DIMM 장애</block>
+  <block id="29aa6af66313fa71148748a2db9289cf" category="list-text">DIMM에서 *Data Cache Module*이 최적의 상태가 아니라고 보고합니다.</block>
+  <block id="def84981fcddd93884dffb8b5a63ae91" category="list-text">*Data Cache Module* 용량이 일치하지 않는 DIMM</block>
+  <block id="0e9652411744905ea48c93e5743075a9" category="list-text">다른 스토리지 시스템 문제를 해결하십시오.</block>
+  <block id="1648b39a8efbc7b387d8975a12526deb" category="paragraph">SANtricity System Manager를 사용하여 Recovery Guru의 세부 정보를 검토하여 다른 문제가 있는지 확인하십시오.</block>
+  <block id="5470a768e23dd3b38ec8c2ab00b4d086" category="list-text">스토리지 시스템 구성에 적합한 크기의 교체용 DIMM.</block>
+  <block id="5b87691ad5641c0085ec901b687091b7" category="list-text">ESD 손목 밴드를 착용했거나 다른 정전기 방지 조치를 취했습니다.</block>
+  <block id="b2cf9771408dd8309b956d998815dd3c" category="list-text">정전기가 없는 평평한 작업 표면</block>
+  <block id="7ccf46f5dab89b439e9855887289c86c" category="list-text">장애가 발생한 컨트롤러에 연결된 각 케이블을 식별하기 위한 라벨.</block>
+  <block id="9e41b9b1d28bb3e55520d4545a2d57d3" category="list-text">장애가 발생한 컨트롤러의 SANtricity System Manager에 액세스할 수 있는 브라우저가 있는 관리 스테이션.</block>
+  <block id="67bb6fcf50230280c150bad28d18532e" category="paragraph">System Manager 인터페이스를 열려면 브라우저에서 장애가 발생한 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.</block>
+  <block id="64c2ba4173620e52c20564c1bdc69caa" category="list-text">DIMM을 취급 및 설치하는 동안 정전기 방전(ESD)을 방지하십시오.</block>
+  <block id="49d0b232da44a7328387eae2814d8ff3" category="list-text">장애가 발생한 DIMM을 반환하거나 DIMM을 배송할 때 승인된 포장을 사용하려면 ESD 백과 포장 재료를 보관하십시오.</block>
+  <block id="5d8ae0b85219aee0aa181d690523e9a4" category="list-text">스토리지 시스템 섀시의 도색되지 않은 표면에 접지된 ESD 손목 스트랩을 항상 착용하십시오.</block>
+  <block id="f2f2d4e0fe7ef7582a624fac176d5f26" category="list-text">SANtricity System Manager를 사용하여 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="99aeea1fb1b2dcbab62413534d9ec17c" category="paragraph">컨트롤러를 제거할 때 문제가 발생하면 저장된 파일을 사용하여 구성을 복원할 수 있습니다. 시스템은 장애가 발생한 컨트롤러의 볼륨 그룹 및 디스크 풀에 대한 모든 데이터를 포함하는 RAID 구성 데이터베이스의 현재 상태를 저장합니다.</block>
+  <block id="e3f34539c0392de4b6cccb551ad8d491" category="list-text">콘솔 오류 메시지를 확인하여 교체해야 할 팬을 찾으십시오.</block>
+  <block id="9180e4524d2db3bcd87343fda3503ac8" category="list-text">장애가 발생한 팬을 제거합니다.</block>
+  <block id="c5326645ccf57e479af92bb7e5b12b3c" category="list-text">교체용 팬을 포장에서 꺼내어 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="a86e28354599b68b343a78aab39cd22a" category="paragraph">결함이 있는 팬을 반환할 때 사용할 포장 재료를 보관하십시오.</block>
+  <block id="eecfe81778edf5dc34051f280e2f122c" category="list-text">교체용 팬을 가이드에 맞춰 끼운 다음 팬 커넥터가 소켓에 완전히 고정될 때까지 아래로 누르십시오.</block>
+  <block id="9a92b3166375aa7c462deb8b92309c32" category="list-text">Recovery Guru에서 고장난 팬을 제거해도 안 된다고 표시되는지 확인하십시오. 만약 그렇다면, 이 절차를 계속 진행하기 전에<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> 문의해 주십시오.</block>
+  <block id="2d25e8226c440048c9e502acef78ce75" category="list-text">*설정* &gt; *시스템*을 선택합니다.</block>
+  <block id="f40489bf823443ace8ab762d9a17849c" category="list-text">*추가 설정* 섹션에서 *호스트 I/O 프로토콜 변경*을 선택하여 해당 페이지를 엽니다.</block>
+  <block id="4723d6db6758b8fff57b2fcccacd2562" category="list-text">* 호스트 I/O 프로토콜 * 필드에서 드롭다운 메뉴를 선택하고 사용할 프로토콜을 선택합니다.</block>
+  <block id="40e7a3d3edaa4c623f15403e6676b491" category="paragraph">프로토콜 목록은 현재 설치된 호스트 I/O 모듈을 기반으로 합니다.</block>
+  <block id="30cc9a1d254ab83b67c3f083c4ef6631" category="list-text">변경 사항을 확인하려면 열린 필드에 *CHANGE*를 입력하십시오.</block>
+  <block id="c7f108d72b11a69d9f9b213b4fcf08f3" category="list-text">*변경* 버튼을 선택합니다.</block>
+  <block id="dc42b5d491fc6401762c79419b8c1d71" category="list-text">컨트롤러가 재부팅 주기를 완료할 때까지 기다립니다.</block>
+  <block id="03404525cd31ebe332bcd916a32408fe" category="paragraph">이 과정은 약 5분 정도 걸릴 수 있습니다.</block>
+  <block id="f0e003d8e910aac92eb678b35d88e454" category="list-text">컨트롤러가 다시 온라인 상태가 되면 SANtricity System Manager를 사용하여 상태가 최적인지 확인하십시오.</block>
+  <block id="c86f60fc7fcc7f12bacc87413a01f8ea" category="list-text">호스트 정의를 다시 생성합니다.</block>
+  <block id="d5a35385e3c41cf9fd9e2f0a4a94c813" category="inline-link">SANtricity System Manager에서 호스트를 수동으로 생성합니다</block>
+  <block id="db8c72a9c6539d1e7ec1c1fb26b87ed0" category="paragraph">자세한 지침은 <block ref="a53958d29b83920c5f55ec43c9dba875" category="inline-link-rx"></block> 절차를 참조하십시오.</block>
+  <block id="1fc86e94ed7b025b1b598bb2f43d1407" category="paragraph">자세한 단계별 지침은 사용 중인 스토리지 시스템에 적합한 가이드를 참조하십시오.</block>
+  <block id="83e4a7b7f356dd5b4fc5814e9fd775dd" category="list-text">스토리지 시스템의 호스트 I/O 모듈에 있는 프로토콜을 모르는 경우 SANtricity System Manager를 사용하여 확인하십시오.</block>
+  <block id="b285314b6b465f044f782ffdd9cc362d" category="list-text">*호스트 I/O 프로토콜* 필드에 표시되는 기본 프로토콜을 참조하십시오.</block>
+  <block id="5773f5591c5be0dd5c50653e6d20aec4" category="admonition">호스트 I/O 모듈에서 사용 가능한 프로토콜 목록을 보려면 *호스트 I/O 프로토콜* 필드의 드롭다운 메뉴를 선택하십시오. 프로토콜 목록은 현재 설치된 호스트 I/O 모듈을 기반으로 합니다.</block>
+  <block id="f62d068f7839c83973a946e971309862" category="list-text">다음 단계는 기본 프로토콜이 원하는 프로토콜인지 여부에 따라 달라집니다.</block>
+  <block id="b8ed3149efb59c6c876d3d0175d04ca1" category="paragraph">기본 프로토콜은 원하는 프로토콜입니다</block>
+  <block id="6254f83a536e9be53589a1db4776caa3" category="paragraph">별도의 조치가 필요하지 않습니다. 이 절차를 종료하셔도 됩니다.</block>
+  <block id="d5dfda2c054ffb702ffa51688eadd327" category="paragraph">기본 프로토콜이 원하는 프로토콜이 아닙니다</block>
+  <block id="fe6e8d93cf140aed40cb0c118024a679" category="paragraph">이 절차를 계속 진행하여 프로토콜을 변경하십시오.</block>
+  <block id="e4f1442149d9233a2ae070b8b54c13ce" category="list-text">이 절차를 위해 다운타임 유지보수 윈도우를 예약하십시오.</block>
+  <block id="6ba03a3402729fd11feb88e957747228" category="list-text">스토리지 시스템과 연결된 모든 호스트 간에 I/O 작업이 발생하지 않도록 하십시오. 예를 들어 다음과 같은 단계를 수행할 수 있습니다.</block>
+  <block id="efae40321ce137d3d4feb3148650f7a0" category="list-text">스토리지 시스템의 LUN과 연결된 모든 파일 시스템을 마운트 해제합니다.</block>
+  <block id="8c966853804ddd0c8a58685b53b824cc" category="admonition">호스트 I/O 작업을 중지하는 정확한 단계는 호스트 운영 체제 및 구성에 따라 다르며, 이는 본 지침의 범위를 벗어납니다. 사용 환경에서 호스트 I/O 작업을 중지하는 방법을 잘 모르는 경우 호스트를 종료하거나<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>에 문의하십시오.</block>
+  <block id="fa28d38e7ea04d9e1f9f826bf1c468a2" category="list-text">각 컨트롤러에서 NV Caching Active(녹색) LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="1e73b048adbb2b88c1979ef16f8dbb06" category="paragraph">NV 캐싱 활성(녹색) LED가 꺼지면 캐시 메모리의 모든 데이터가 드라이브에 기록되었으므로 이 절차를 계속 진행해도 안전합니다.</block>
+  <block id="1e20d67488b878e63809f430aa2d8f11" category="admonition">NV 캐싱 활성(녹색) LED가 켜져 있으면 캐시된 데이터가 드라이브에 기록되고 있는 것입니다. 프로세스가 완료되고 NV 캐싱 활성(녹색) LED가 꺼질 때까지 기다려야 합니다. 그러나 LED가 5분 이상 켜져 있는 경우<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> 이 절차를 계속 진행하기 전에 문의하십시오.</block>
+  <block id="fc3d733029a58a51c05d34499b8293d0" category="list-text">SANtricity System Manager를 사용하여 컨트롤러에 대한 작업이 완료되었는지 확인하십시오.</block>
+  <block id="62d71459ec4565a064b31e7101748457" category="list-text">*스토리지* &gt; *진행 중인 작업*을 선택하여 개요 화면을 확인합니다.</block>
+  <block id="2f3292d0ca451b4603badba163d7d565" category="list-text">모든 작업이 완료되고 개요 화면에 *현재 진행 중인 작업이 없습니다*가 표시될 때까지 기다린 후 다음 단계로 진행하십시오.</block>
+  <block id="023e6709c3cc6f7e022c1f737b9ecf13" category="list-text">스토리지 시스템에서 정의된 모든 호스트를 삭제합니다.</block>
+  <block id="0f065244a3565fda62f0c2976c388d92" category="inline-link">SANtricity System Manager에서 호스트 또는 호스트 클러스터를 삭제합니다</block>
+  <block id="f22e97d82d8d11d91cc641fd579fb1da" category="paragraph">자세한 침은 <block ref="540636eec801f992003aaa89b0185bd2" category="inline-link-rx"></block> 절차를 참조하십시오.</block>
+  <block id="488e6bea7b41710214f6a9d45e4750a0" category="paragraph">장애가 발생한 I/O 모듈을 교체하려면 컨트롤러에서 해당 모듈을 찾아 특정 단계 순서를 따르십시오.</block>
+  <block id="630c54ca8fb6dd67fc002f28d89d1211" category="list-text">장애가 발생한 I/O 모듈에서 케이블을 분리합니다.</block>
+  <block id="539ae767713043504856676d47fbdf4b" category="paragraph">케이블이 어디에서 왔는지 알 수 있도록 라벨을 붙여 두십시오.</block>
+  <block id="21ccb9fc686efabdb54b3721713084dd" category="list-text">컨트롤러에서 장애가 발생한 I/O 모듈을 제거합니다.</block>
+  <block id="b5810c743736c228e22be74cd3df636d" category="paragraph">왼쪽에 있는 포트 라벨 탭과 나사를 사용하여 I/O 모듈을 컨트롤러에서 빼냅니다.</block>
+  <block id="e7a88b07d0fe11e52b015a7a07b1b7ee" category="list-text">교체용 I/O 모듈을 대상 슬롯에 설치합니다.</block>
+  <block id="9980a13f313ae24d02e08fa90a4a1b20" category="paragraph">왼쪽 탭과 엄지 나사를 사용하여 I/O 모듈을 밀어 넣을 수 있습니다.</block>
+  <block id="be9dc0332662b913cef88d5dcde78acd" category="list-text">I/O 모듈에 케이블을 연결합니다.</block>
+  <block id="5dc4a3be8797d072e49c15b407d03894" category="list-text">교체용 I/O 모듈</block>
+  <block id="375cfeccbd14312a2120114ef4e6ee91" category="paragraph">고장난 I/O 모듈을 동일한 유형의 I/O 모듈로 교체해야 합니다. 다른 유형의 I/O 모듈을 설치할 수 없습니다.</block>
+  <block id="da3e4fc40468815155d8e6379f668342" category="paragraph">스토리지 시스템의 각 컨트롤러에 동일한 유형과 수의 I/O 모듈이 있어야 합니다.</block>
+  <block id="3b2f27b5942475fd5c2f0991a987c02b" category="admonition">*데이터 액세스 손실 가능성* -- 호환되지 않거나 일치하지 않는 I/O 모듈이 있는 경우 전원을 공급하면 컨트롤러가 잠깁니다.</block>
+  <block id="8c865d6d652233499322d22b56c020e9" category="list-text">장애가 발생한 I/O 모듈에 연결된 각 케이블을 식별하는 레이블.</block>
+  <block id="d251d30f4b7b8bcd0e981a1e7fc5627b" category="paragraph">I/O 모듈을 교체한 후에는 컨트롤러를 재부팅해야 합니다.</block>
+  <block id="91c7c4ae839664f690723e2789ab84a4" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다.</block>
+  <block id="b8f2c5ae8a36c3665d2a4dca23133f73" category="paragraph"><block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix="" category="inline-code"></block></block>
+  <block id="9965554ffa71eff58da20fab93be4a17" category="admonition">손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성요소도 다시 초기화됩니다.</block>
+  <block id="6f3fa8086df2fa20b3e903512f693396" category="list-text">스토리지를 반환하여 손상된 컨트롤러를 정상 작동으로 되돌립니다.</block>
+  <block id="1ca056bb10dec5191f061968413fb960" category="paragraph"><block ref="30edaf7c9fa43c78aeaf4b8fabb7af1a" prefix="" category="inline-code"></block></block>
+  <block id="257315f653a5868c10e8897449aa264f" category="list-text">정상 컨트롤러의 콘솔에서 자동 반환 복원:</block>
+  <block id="3d2d5e9a2a8cef4225a4bd073c2aeefb" category="paragraph"><block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix="" category="inline-code"></block></block>
+  <block id="af4b4d5cc6a7f6d9937999949dd33233" category="list-text">AutoSupport가 활성화된 경우 자동 사례 생성을 복원하십시오.</block>
+  <block id="824a761c1584c25f025a384b7b387c56" category="paragraph"><block ref="9ac424c0d7b432975df36a19daf50c9c" prefix="" category="inline-code"></block></block>
+  <block id="4d869e390c3cce7fd1a4c2c9abadcab9" category="list-text">교체용 I/O 모듈의 포장을 풀고 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="d46259c4ce941d8117d94864672cd1df" category="paragraph">결함이 있는 I/O 모듈을 반환할 때 사용할 포장 재료를 보관하십시오.</block>
+  <block id="3768c58828c69b283a6a175e6472b661" category="list-text">최신 버전의 SANtricity OS가 설치되어 있는지 확인하십시오.</block>
+  <block id="182b0637f4482f86eff29bbc8aa7426c" category="list-text">*지원* &gt; *업그레이드 센터*를 선택합니다.</block>
+  <block id="d01c73e0727ec874d6c088a150f5596b" category="list-text">모든 볼륨이 소유 컨트롤러로 반환되었는지 확인합니다.</block>
+  <block id="fb8397a799be1df6a0cd370840a4a371" category="list-text">* Storage * &gt; * Volumes * 를 선택합니다.</block>
+  <block id="5aa0ebe3cbd2eef34e0886ee040329bf" category="list-text">*All Volumes* 페이지에서 볼륨이 해당 볼륨을 소유하는 컨트롤러에 배포되었는지 확인하십시오.</block>
+  <block id="47fde62cd6bad69ac5ee1e4f98df4c8b" category="list-text">볼륨 소유자를 보려면 *More* &gt; *Change volume ownership*을 선택하세요.</block>
+  <block id="a8f077dbdc29aae8dd14716d5bdf7039" category="list-text">다음 단계는 볼륨이 소유 컨트롤러로 반환되는지 여부에 따라 달라집니다.</block>
+  <block id="b4776fba955461ce5ba14e4862bd0a10" category="paragraph">볼륨은 모두 해당 소유 컨트롤러가 소유합니다</block>
+  <block id="a5f7e0b057fe15e24d4b49097238ea2f" category="paragraph">어떤 볼륨도 소유 컨트롤러로 반환되지 않습니다</block>
+  <block id="3bab8d68cb105bbbdf0a5a988015b9ad" category="paragraph">*Storage* &gt; *Volumes* &gt; *More*를 선택하고 드롭다운 메뉴에서 *Redistribute volumes*를 선택하여 볼륨을 소유 컨트롤러로 되돌립니다.</block>
+  <block id="15b8fe2de31dc0883ed9aa9334d10703" category="paragraph">자동 배포 또는 수동 배포 후 일부 볼륨만 소유 컨트롤러로 반환됩니다.</block>
+  <block id="f13ce0c51ce6e98e40ff73bf1a311ea3" category="paragraph">호스트 연결 문제에 대해 Recovery Guru를 확인하십시오.</block>
+  <block id="671fd7f14da133cf6a7eee37a6157194" category="paragraph">Recovery Guru가 없거나 Recovery Guru 단계를 수행한 후에도 볼륨이 소유 컨트롤러로 반환되지 않으면<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>이 절차를 계속하기 전에 문의하십시오.</block>
+  <block id="9488f9524146b79e5c3fcf42ad2d5e4b" category="list-text">스토리지 시스템에 대한 지원 데이터 수집:</block>
+  <block id="87f43fac12a1c237d037f1944b505947" category="inline-xref-macro">EF50 또는 EF80의 호스트 I/O 모듈 프로토콜을 변경합니다</block>
+  <block id="1f2378c23351d405c6f5b292526efdef" category="list-text">호스트 I/O 모듈 프로토콜을 확인하고 변경해야 하는 경우 <block ref="74b37660f98856046a08729a22608322" category="inline-xref-macro-rx"></block> 절차를 사용하십시오.</block>
+  <block id="aedcd343fcb68e4a04190bee4c31ca0d" category="list-text">컨트롤러 중 하나에서 제거하려는 I/O 모듈에서 케이블을 분리합니다. 단, I/O 블랭킹 모듈인 경우는 제외합니다.</block>
+  <block id="2d5c2fc8c3eaa1831af4698259afe710" category="paragraph">케이블에 라벨을 붙여 어디에서 왔는지 알 수 있도록 할 수 있습니다. 하지만 업그레이드하려는 I/O 모듈의 종류에 따라 동일한 포트에 다시 케이블을 연결하지 않거나 기존 케이블을 재사용할 수 없을 수도 있습니다.</block>
+  <block id="4fdc5ef7aa01f9a5f4ff2540ea23d305" category="list-text">대상 슬롯에서 I/O 모듈 또는 I/O 블랭킹 모듈을 제거합니다.</block>
+  <block id="9ae4e0bfb22619d98e91319153df15ff" category="list-text">새 I/O 모듈의 포장을 풀고 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="168e8f01911230d3f41f25cd68c68cfa" category="paragraph">호스트 네트워크 케이블 연결에는 시스템 설치 및 설정 콘텐츠의 <block ref="ed123abde8ecae3a647e0e4cc4ae2bec" category="inline-link-macro-rx"></block> 섹션을 사용할 수 있습니다.</block>
+  <block id="42b2248297ad40cbde87588dc34af539" category="list-text">다른 컨트롤러의 I/O 모듈을 업그레이드하려면 이 단계를 반복하십시오.</block>
+  <block id="842d0a92d83c39ec5bb127d94a1340d1" category="list-text">SANtricity System Manager의 홈 페이지에서 스토리지 시스템의 상태가 최적인지 확인하십시오.</block>
+  <block id="1c54e6b7b2c6a4233d29306192e39900" category="admonition">상태가 최적이 아닌 경우 Recovery Guru를 사용하거나<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>에 문의하여 문제를 해결하십시오.</block>
+  <block id="9917fb40a9e6c06975fb8f9243c79b71" category="list-text">스토리지 시스템과 연결된 모든 호스트 간에 I/O 작업이 발생하지 않도록 하십시오.</block>
+  <block id="9967165701d83bd864422952ef200240" category="paragraph">예를 들어 다음과 같은 단계를 수행할 수 있습니다.</block>
+  <block id="cd89376f0923ec921f8ce2a5a6ef8178" category="list-text">스토리지 시스템에서 호스트로 매핑된 LUN과 관련된 모든 프로세스를 중지하십시오.</block>
+  <block id="0cd64d526d84fa4bfc8d092fe191bd08" category="list-text">스토리지 시스템에서 호스트로 매핑된 LUN에 애플리케이션이 데이터를 쓰지 않도록 하십시오.</block>
+  <block id="8cd14a522d01d11d4df48615a78c1777" category="list-text">스토리지 시스템의 볼륨과 연결된 모든 파일 시스템을 마운트 해제합니다.</block>
+  <block id="2cc0ecee1b51ebde25612c3f89f70dd5" category="list-text">SANtricity System Manager에서 컨트롤러에 대한 작업이 완료되었는지 확인하십시오.</block>
+  <block id="cd726a2d971efaac94a9d391e2f68627" category="list-text">두 컨트롤러의 전원을 모두 끕니다.</block>
+  <block id="57c52ae3ab57d269bfcdd09fa130aa11" category="list-text">레이블을 지정한 다음 두 컨트롤러에서 전원 케이블을 뽑습니다.</block>
+  <block id="bc99972b341984a197e8d2d0ecf28533" category="list-text">두 컨트롤러의 모든 LED가 꺼질 때까지 기다립니다.</block>
+  <block id="43875314ce7ca196e665d736455cb139" category="list-text">두 컨트롤러 모두에 전원 케이블을 연결합니다.</block>
+  <block id="734539fc9e02f5e053728e7c5bfb837c" category="paragraph">컨트롤러가 부팅되기 시작합니다.</block>
+  <block id="0b3109a33c36f5898fbca8d3a13976f7" category="list-text">컨트롤러 간 통신이 다시 설정되었는지 확인하려면 컨트롤러의 LED를 확인하십시오.</block>
+  <block id="f573f92d576cf14be4f7901e04dfb2b9" category="list-text">주의 LED가 계속 켜져 있습니다.</block>
+  <block id="3126a6f9eee32abaa08d58ed0a49a615" category="list-text">컨트롤러가 다시 온라인 상태가 되면:</block>
+  <block id="14b348d983a5c81ef707d703552d609e" category="list-text">상태가 최적인지 확인합니다.</block>
+  <block id="e93044d6f12583e6f0c55377a1a2ff8c" category="list-text">각 컨트롤러의 주의 LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="79523326f577fbe6d90a4e42b4bc60f4" category="paragraph">상태가 최적이 아니거나 주의 LED가 켜져 있는 경우 모든 케이블이 올바르게 장착되어 있는지 확인하십시오.</block>
+  <block id="bcc7d313f9ff59780374bed744a70abb" category="admonition">문제를 해결할 수 없는 경우 <block ref="116f7ad90a3c7441981f82d8f8fba4d5" category="inline-link-rx"></block>에 문의하십시오. 필요한 경우 SANtricity System Manager를 사용하여 스토리지 시스템에 대한 지원 데이터를 수집하십시오.</block>
+  <block id="3f30607c8c189611a29aba345aefd909" category="list-text">이 절차를 위해 가동 중지 유지보수 윈도우를 예약하십시오. 이 절차를 성공적으로 완료할 때까지 스토리지 시스템의 데이터에 액세스할 수 없습니다. 두 컨트롤러 모두 전원이 켜진 상태에서 동일한 I/O 모듈 구성을 가져야 하므로 I/O 모듈을 업그레이드할 때는 전원을 꺼야 합니다.</block>
+  <block id="e99ebf994137a95e61f5f7a52a0443b2" category="list-text">업그레이드하려는 새로운 I/O 모듈.</block>
+  <block id="cd8bbbf91ae9a194a24cb371e61472ae" category="paragraph">업그레이드하려는 I/O 모듈이 스토리지 시스템에서 지원되는지, 각 컨트롤러에 동일한 유형과 개수의 I/O 모듈이 있는지, 그리고 슬롯 우선순위(새 I/O 모듈은 각 컨트롤러의 동일한 슬롯에 설치해야 함)를 이해하고 있는지 확인하십시오.</block>
+  <block id="5d34f6bf4f46be7c85807174aa946833" category="paragraph">필요한 경우 스토리지 시스템에 지원되는 I/O 모듈 및 슬롯 우선 순위를 다음에서 확인할 수 있습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>.</block>
+  <block id="0f8915f18b413ad77f4f3dd091d9a678" category="list-text">새 I/O 모듈을 네트워크에 연결하는 케이블.</block>
+  <block id="43f24ff5a34ee925d09b341d8520282a" category="list-text">컨트롤러용 SANtricity System Manager에 액세스할 수 있는 브라우저가 있는 관리 스테이션.</block>
+  <block id="3cfa2a76ec6b7919560b9e39a238b394" category="paragraph">System Manager 인터페이스를 열려면 브라우저에서 대상 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.</block>
+  <block id="6b5dc064a489209f487a1fbe74678501" category="paragraph">SANtricity System Manager를 사용하여 최신 버전의 SANtricity OS가 설치되어 있는지 확인하고, 모든 볼륨이 소유 컨트롤러로 반환되었는지 확인하고, 작업을 재개할 수 있도록 지원 데이터를 수집하십시오.</block>
+  <block id="77480833ef5cc037425fc564bfa7d80e" category="list-text">스토리지 시스템에 최신 버전의 SANtricity OS가 설치되어 있는지 확인하십시오.</block>
+  <block id="5920ef825270be85c014f411676c870a" category="list-text">*Support* &gt; *Upgrade Center*를 선택합니다</block>
+  <block id="238bd8d0896c74de1b56b4553f8598d5" category="list-text">모든 볼륨이 소유 컨트롤러로 반환되었는지 확인합니다.</block>
+  <block id="5bb1a60a48916e939ab17dfa0f0393a8" category="paragraph">Recovery Guru가 있으며 볼륨이 기본 경로에 있지 않음(소유 컨트롤러로 반환되지 않음)을 나타냅니다</block>
+  <block id="52b5a46fb893f7af6e4fcb7e04f0069d" category="list-text">* Storage * &gt; * Volumes * &gt; * More * 를 선택하고 드롭다운 메뉴에서 * Redistribute volumes * 를 선택하여 소유 컨트롤러에 볼륨을 재분배합니다.</block>
+  <block id="3d32eccfdf89dacd7ab5727eebb79421" category="list-text">Recovery Guru가 있는지 확인하고 볼륨이 기본 경로에 없다고 여전히 표시되는지 확인하여 모든 볼륨이 소유 컨트롤러로 재배포되었는지 확인하십시오.</block>
+  <block id="319791616ac3e18fcd67e7ff7d9c482f" category="admonition">볼륨이 여전히 소유 컨트롤러로 반환되지 않으면<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>에 문의하십시오.</block>
+  <block id="8dad8566f57d182c7561be9c94f26b6b" category="paragraph">Recovery Guru가 없습니다(모든 볼륨이 소유 컨트롤러로 반환된 것으로 보입니다)</block>
+  <block id="dff73266acfef23e2d87098944c35f9f" category="paragraph">모든 볼륨이 소유 컨트롤러로 반환되었는지 확인하려면 * Storage * &gt; * Volumes * &gt; * More * 를 선택하고 드롭다운 메뉴에서 * Change volume ownership * 을 선택하여 볼륨 소유자를 확인하십시오.</block>
+  <block id="820d32b1a158d53c60563b13dff48c57" category="paragraph">컨트롤러를 오프라인으로 전환할 때는 최소 1분 이상 기다린 후 다시 온라인 상태로 전환해야 합니다. 이 대기 시간 동안 스토리지 시스템이 컨트롤러의 상태를 업데이트하고 캐시된 모든 데이터가 드라이브에 기록되도록 합니다.</block>
+  <block id="3885b5f478c69340cf83d7820ac679ec" category="list-text">손상된 컨트롤러가 이미 오프라인 상태가 아닌 경우 SANtricity System Manager를 사용하여 오프라인으로 설정하십시오.</block>
+  <block id="c527532258073653760911f554503168" category="list-text">콘텐츠 메뉴를 표시하기 위해 오프라인으로 전환할 컨트롤러를 선택하십시오.</block>
+  <block id="ef1ecc8a6946e0af409699163db6c3fc" category="list-text">* 오프라인으로 전환 * 을 선택한 다음 작업을 수행할 것인지 확인합니다.</block>
+  <block id="fd183302e50d83588c2943337c36bef2" category="admonition">오프라인으로 전환하려는 컨트롤러를 사용하여 SANtricity System Manager에 액세스하는 경우 SANtricity System Manager를 사용할 수 없습니다 메시지가 표시됩니다. 다른 컨트롤러를 사용하여 SANtricity System Manager에 자동으로 액세스하려면 *대체 네트워크 연결에 연결*을 선택하십시오.</block>
+  <block id="7cc57a1eebb94325453f75fbf0275af0" category="list-text">Recovery Guru를 사용하여 결함이 있는 구성 요소를 제거하는 것이 안전한지 확인하십시오.</block>
+  <block id="ad22f97266cdfbff68c2e3e29d4e6330" category="list-text">*다시 확인*을 선택합니다.</block>
+  <block id="5b34eec682dbd9bff0de7ee894cdd6fe" category="list-text">세부 정보 영역의 *제거 가능* 필드에 *예*가 표시되는지 확인하십시오.</block>
+  <block id="8b1060e414851c63305da424310bb1f9" category="admonition">*제거 가능* 필드에 *예*가 표시되지 않으면 결함이 있는 구성 요소를 제거하지 마십시오. 대신 Recovery Guru를 사용하여 문제를 해결하십시오.</block>
+  <block id="362c272b3249d43a519fff1a1e85f81d" category="paragraph">손상된 컨트롤러를 다시 온라인 상태로 전환하십시오.</block>
+  <block id="d4dc0ce64fc66520b80e9aec35fddf63" category="list-text">SANtricity System Manager를 사용하여 컨트롤러를 온라인 상태로 전환하십시오.</block>
+  <block id="bf0aec9f26d4b8f7e108f8863cf2ad82" category="list-text">온라인으로 전환할 컨트롤러를 선택하여 컨텍스트 메뉴를 표시합니다.</block>
+  <block id="f39c900e77ab172808faa7d10efc77b9" category="list-text">*온라인 배치*를 선택한 다음 작업을 수행할 것인지 확인합니다.</block>
+  <block id="854bdd5faf1d0f3d3ab2991f9bfd4251" category="list-text">컨트롤러가 다시 온라인 상태가 되면:</block>
+  <block id="7c95fa003f2eb15e450e38ee5342f76c" category="list-text">상태가 최적인지 확인하십시오.</block>
+  <block id="f77a09f0d502f55ba3caba0850739b1f" category="list-text">컨트롤러의 주의 LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="8a1b9966764bb347ebbc48432bd01c78" category="admonition">문제를 해결할 수 없는 경우 이 절차를 계속 진행하기 전에<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>에 문의하십시오. 필요한 경우 SANtricity System Manager를 사용하여 스토리지 시스템에 대한 지원 데이터를 수집하십시오.</block>
+  <block id="eb6e0aa4b1edce20b022eab407528405" category="list-text">NV 배터리를 찾습니다.</block>
+  <block id="87e83e1392e33b9e82110521a139bad8" category="list-text">NV 배터리를 제거합니다.</block>
+  <block id="ae5529cd3fcab529cb7e4c4cc4ae0d75" category="list-text">교체용 NV 배터리의 포장을 풀고 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="5afcbf849e9cb9a997b8740381124828" category="paragraph">결함이 있는 NV 배터리를 반환할 때 사용할 포장재를 보관하십시오.</block>
+  <block id="d61cc7e5822a30588ead2cb9b0e8c0d8" category="list-text">교체용 NV 배터리를 설치합니다.</block>
+  <block id="216cd6b3556908b9bf9092308aacc2f2" category="list-text">NV 배터리를 해당 칸에 넣으십시오.</block>
+  <block id="1bd0a6d1a38fb93b63ca830a2845a59a" category="list-text">SANtricity System Manager의 Recovery Guru에서 _Battery Failed_ 상태 또는 _Battery Replacement Required_ 상태가 보고되는지 확인하십시오. 두 상태 중 하나가 보고되면 영향을 받는 NV 배터리를 교체해야 합니다.</block>
+  <block id="20cc90805324d82c16bb0844a289dd0d" category="list-text">교체용 NV 배터리.</block>
+  <block id="806431b286fd0d267ecda9775a8a35c7" category="list-text">ESD 손목 밴드 또는 기타 정전기 방지 예방 조치.</block>
+  <block id="6f48d98c2df2386d39c71bc10860a818" category="list-text">전원 코드 고정 장치를 열어 전원 공급 장치에서 전원 코드를 분리한 다음 전원 공급 장치에서 전원 코드를 뽑으십시오.</block>
+  <block id="48ccf1334141c8dca1e2d34eeeaab837" category="admonition">전원 공급 장치에는 전원 스위치가 없습니다.</block>
+  <block id="26cc3f70141c5f4b4f5a7a7c52321240" category="list-text">전원 공급 장치를 제거하십시오.</block>
+  <block id="5b2b06b0e901e3f4d2327241b8bb8b28" category="list-text">교체용 전원 공급 장치의 포장을 풀고 스토리지 시스템 근처의 평평한 표면에 놓습니다.</block>
+  <block id="6aaf2adda7ea3fae24f9570eb951048f" category="list-text">교체용 전원 공급 장치를 설치합니다.</block>
+  <block id="ef030b8aef672e3379af07d3ad1245a3" category="list-text">주황색 잠금 탭이 딸깍 소리를 내며 제자리에 고정될 때까지 전원 공급 장치를 컨트롤러에 부드럽게 밀어 넣으십시오.</block>
+  <block id="0359babd3c6d56d11928ec9f4c47fb26" category="paragraph">PSU는 내부 커넥터와 한 방향으로만 제대로 연결되고 고정됩니다.</block>
+  <block id="c5e3f2387032804b51b67e0c99e63c46" category="list-text">전원 코드를 전원 공급 장치에 다시 연결하고 전원 코드 고정 장치를 사용하여 전원 코드를 고정하십시오.</block>
+  <block id="eb3ac9b9efdc3a8db20ea72534f74755" category="paragraph">전원 공급 장치에 전원이 복구되면 상태 LED가 녹색으로 표시되어야 합니다.</block>
+  <block id="8f1f6d4a09aef4cc3f2282b74c25da2a" category="list-text">전원 공급 장치의 상태가 최적인지, 그리고 스토리지 시스템의 주의 LED가 꺼져 있는지 확인하십시오.</block>
+  <block id="a6782213451e1a25fd1e4a4a2aed3fb3" category="paragraph">상태가 최적이 아니거나 주의 LED가 켜져 있는 경우 전원 케이블이 올바르게 장착되어 있고 전원 공급 장치가 올바르게 설치되어 있는지 확인하십시오. 필요한 경우 전원 공급 장치를 분리했다가 다시 설치하십시오.</block>
+  <block id="44f81d663e1096dd20ceea19ab4ec6c4" category="admonition">문제를 해결할 수 없는 경우, 이 절차를 계속 진행하기 전에 <block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>에 문의하십시오.</block>
+  <block id="6c18738e3a25840fa6f07d0185adf172" category="list-text">SANtricity System Manager에서 *Support &gt; Upgrade Center*를 클릭하여 최신 버전의 SANtricity OS가 설치되어 있는지 확인하십시오.</block>
+  <block id="4cca325ed840b8ff6bedb9a2bcf0134f" category="paragraph">RMA 번호가 필요하거나 교체 절차에 대한 추가 지원이 필요한 경우<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양)으로 기술 지원 팀에 문의하십시오.//2025-11-17 ontap-systems-internal/issues/1391</block>
+  <block id="202eb3bd191afdcc6574db0d2b210141" category="doc">1단계: 드라이브 교체 준비</block>
+  <block id="09b3729e8c54aa618720de02a4a7354b" category="paragraph">드라이브 교체를 준비하려면 드라이브 고장 여부를 확인하고, 지원되는 교체 드라이브가 있는지 확인하고, SANtricity System Manager에 액세스할 수 있는지 확인하고, 정전기 방전 예방 조치를 취하고, 고장난 드라이브의 위치를 물리적으로 찾으십시오.</block>
+  <block id="5411b278ada6771813d99abbd542e77d" category="list-text">사용 중인 스토리지 시스템 구성에 적합한 교체 드라이브가 있는지 확인하십시오.</block>
+  <block id="cc088aad5d4e5812519f87b3cc0360c1" category="paragraph">필요한 경우 SANtricity System Manager를 사용하여 확인할 수 있습니다.</block>
+  <block id="c3bc0491c98d99a3bf13cbd6349a5120" category="list-text">*Hardware* &gt; *Drives*를 선택하십시오.</block>
+  <block id="9676a503fc303740896f0f95f0b258d7" category="list-text">그래픽에서 장애가 발생한 드라이브를 선택하여 상황별 메뉴를 표시한 다음 *View settings*를 선택합니다.</block>
+  <block id="fc153c091910a3ff722411ca3258117f" category="paragraph">예를 들어, 보안 기능이 있는 드라이브를 교체하는 경우 교체할 드라이브도 보안 기능이 있는지 확인하십시오.</block>
+  <block id="ae05495bfd62e95fdf996cb961321009" category="list-text">두 컨트롤러 중 하나에 대해 SANtricity System Manager에 액세스할 수 있는 브라우저가 있는 관리 스테이션이 있는지 확인하십시오.</block>
+  <block id="e4208becdcb61cf8a0a6ac1925086064" category="paragraph">System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소 중 하나를 가리킵니다.</block>
+  <block id="7e70118c7aa8f3ae30729f3a4f60d7a4" category="list-text">드라이브 취급 및 설치 중 정전기 방전(ESD)을 방지하십시오.</block>
+  <block id="9c191e3864338074535e71631a29e170" category="list-text">정전기 방전(ESD) 손목 밴드가 있는지 확인하십시오.</block>
+  <block id="8f296d2982b513dac8462f34100b1d01" category="paragraph">스토리지 시스템 섀시의 도색되지 않은 표면에 접지된 ESD 손목 스트랩을 항상 착용하십시오. 손목 스트랩을 사용할 수 없는 경우 드라이브를 다루기 전에 스토리지 시스템 섀시의 도색되지 않은 표면을 만지십시오.</block>
+  <block id="de7e79e521bea5ab59265cece37e5aba" category="list-text">평평하고 정전기가 없는 작업 표면을 준비하세요.</block>
+  <block id="8d1d2e4f6a4c22781079d577bde99018" category="list-text">장애가 발생한 드라이브를 반환하거나 드라이브를 배송할 때 승인된 포장재를 사용하려면 ESD 백과 포장재를 보관하십시오.</block>
+  <block id="51cebed17b8d8bb9e3f3b47c6481ac7d" category="list-text">드라이브 취급 및 설치 중 물리적 손상을 방지하십시오.</block>
+  <block id="906409d7e6d7896d7f1e4d11901b4d36" category="admonition">드라이브는 취급에 주의해야 하며, 부적절한 드라이브 취급은 드라이브 고장의 주요 원인입니다.</block>
+  <block id="022cbbd400562dd3ebc01ec14bc22327" category="list-text">드라이브를 드라이브 베이에 억지로 끼워 넣지 마십시오. 항상 부드럽지만 단단한 압력을 가하여 드라이브 래치가 완전히 고정되도록 하십시오.</block>
+  <block id="e59368b4449cfc28e6da81f00820e988" category="list-text">필요한 경우 주의(황색) LED를 깜박이게 하여 스토리지 시스템 내에서 장애가 발생한 드라이브의 물리적 위치를 찾을 수 있습니다. SANtricity System Manager를 사용하여 *Hardware* &gt; *Drives*를 선택하고 그래픽에서 장애가 발생한 드라이브를 선택하여 상황별 메뉴를 표시한 다음 *Turn on locator light*를 선택하십시오.</block>
+  <block id="cf839ce4b241d336571595d2daf797e5" category="admonition">드라이브 LED를 보려면 스토리지 시스템 전면에서 베젤을 제거해야 합니다.</block>
+  <block id="91a53f1fc2ef9e460e758feab83a284e" category="section-title">2단계: 드라이브 교체</block>
+  <block id="d0354c343189eb2f166a9771e3de1827" category="paragraph">고장난 드라이브를 새 드라이브로 교체하십시오.</block>
+  <block id="e31ab42775382bfbbce75a3c9166bca5" category="admonition">고장난 드라이브를 제거한 후 가능한 한 빨리 교체 드라이브를 설치해야 합니다.</block>
+  <block id="e1ad95c4430841bde7a938ee47472720" category="list-text">아직 제거하지 않았다면 스토리지 시스템 전면에서 베젤을 제거합니다.</block>
+  <block id="ffe10e0db69ea2cd258521a2ba16bd80" category="list-text">장애가 발생한 드라이브를 제거합니다.</block>
+  <block id="802e81544e7cd56335454cb3f02f6c1a" category="image-alt">NVMe 드라이브 제거</block>
+  <block id="f8187b8825b1a2102bb75307f4e92872" category="paragraph">드라이브 전면의 검은색 해제 버튼을 눌러 캠 핸들을 여십시오.</block>
+  <block id="36c4bb9266e617d3ca8a33eb9502e855" category="paragraph">캠 핸들을 아래쪽으로 돌려 드라이브를 중판에서 분리하십시오.</block>
+  <block id="6c855930c5124022a374c12026485487" category="list-text">캠 핸들을 사용하여 드라이브를 드라이브 베이에서 부분적으로 빼냅니다.</block>
+  <block id="8200bcc78cceee3c1fd142a06af4ffba" category="list-text">드라이브가 회전을 멈출 때까지 60초 동안 기다리십시오.</block>
+  <block id="39969086c4f902c207b1de50ea68f7f4" category="list-text">양손을 사용하여 드라이브 베이에서 드라이브를 완전히 분리합니다.</block>
+  <block id="7e44bba475da6d9d186426fb36056d7b" category="list-text">자기장에서 멀리 떨어진 정전기 방지 쿠션 처리된 표면에 드라이브를 놓으십시오.</block>
+  <block id="4936bdb0c666d8b1c5c0ab72006dfa8b" category="list-text">시스템 소프트웨어가 드라이브가 제거되었음을 인식할 때까지 60초 동안 기다리십시오.</block>
+  <block id="63fd2f9912544ab3fe45fe4c0c3387e4" category="list-text">교체용 드라이브를 포장에서 꺼내 스토리지 시스템 근처의 평평하고 정전기가 없는 표면에 놓습니다.</block>
+  <block id="b71aa18e656f10927bbf6f98aaf2f03f" category="paragraph">결함이 있는 드라이브를 반환할 때 사용할 포장재를 보관하십시오.</block>
+  <block id="582046ffdac76c22bd6e1a671a0dd476" category="list-text">교체용 드라이브를 삽입합니다.</block>
+  <block id="ac5779e6538a2c75a0039ff0255644c0" category="list-text">양손을 사용하여 교체용 드라이브를 열린 드라이브 베이에 삽입하고 드라이브가 멈출 때까지 단단히 밀어 넣으십시오.</block>
+  <block id="80f0f6a9b3efd9ccafa0901ee7c37fc1" category="list-text">캠 핸들을 닫아 드라이브가 미드플레인에 완전히 장착되고 캠 핸들이 제자리에 딸깍 소리가 나면서 고정되도록 하십시오.</block>
+  <block id="70c5de04671814ba5dcd9d09b741a1cf" category="paragraph">캠 핸들을 천천히 닫아 드라이브 전면과 올바르게 정렬되도록 하십시오.</block>
+  <block id="71f51cf599c0c2d8d729e53c4a5f7cd6" category="paragraph">드라이브가 올바르게 삽입되면 드라이브의 녹색 LED가 켜집니다.</block>
+  <block id="8cea4214af8769b1ed6d235deb7aa6f2" category="section-title">3단계: 드라이브 교체 완료</block>
+  <block id="194e5b06fc52bafef35cd966627ddb62" category="paragraph">교체 드라이브가 올바르게 작동하는지 확인하고 드라이브 재구성이 시작되었는지 확인하십시오.</block>
+  <block id="df726dc38cf99f3a4f73c6e349498583" category="list-text">LED 동작을 확인하여 교체 드라이브가 올바르게 작동하는지 확인하고, 그렇지 않은 경우 적절한 수정 조치를 취하십시오.</block>
+  <block id="e2e0d2a0e5302ad9370a95bbec7f737d" category="admonition">드라이브를 처음 삽입할 때 주의 LED가 켜질 수 있습니다. 그러나 교체 드라이브가 올바르게 작동하는 경우 LED는 1분 이내에 꺼져야 합니다.</block>
+  <block id="e7e568fd2613cdd44f30db1e3ce7a917" category="cell">교체 드라이브 LED 동작이 다음과 같이 표시되는 경우...</block>
+  <block id="d66eca965884610649e11844abb43d2c" category="paragraph">전원 LED가 켜져 있거나 깜박이고 주의 LED는 꺼져 있습니다</block>
+  <block id="753e98337d05b543b5faa7f7ea174734" category="paragraph">교체 드라이브가 올바르게 작동하고 있습니다.</block>
+  <block id="53aa3bd9a12a1a326ddf7840c6f0c28d" category="paragraph">전원 LED가 꺼져 있습니다</block>
+  <block id="3702c4797937926ccc02190a8d22d3c2" category="paragraph">드라이브가 올바르게 설치되지 않았을 수 있습니다.</block>
+  <block id="7768fcf3cc78310794819bd1f2cb97d2" category="list-text">드라이브를 제거하고 60초간 기다린 후 다시 설치하십시오.</block>
+  <block id="bf806136946c849db6689fdbf2226859" category="paragraph">주의 LED가 켜져 있습니다</block>
+  <block id="c6829989ff678a0d9d9b385ca91f6e02" category="paragraph">새 드라이브에 결함이 있을 수 있습니다.</block>
+  <block id="a7621c18044658dd14b025c24c9ab382" category="list-text">새 드라이브를 다른 새 드라이브로 교체하십시오.</block>
+  <block id="7896a76b0f7891b195e95650fdd9a3f7" category="list-text">SANtricity System Manager의 Recovery Guru에서 드라이브 재구성이 자동으로 시작되지 않았다고 표시되는 경우, NetApp 지원팀 또는 Recovery Guru의 지시에 따라 수동으로 재구성을 시작하고 다음 단계를 따르십시오.</block>
+  <block id="650b3722bf13bca52f24cd90d065762e" category="admonition">구성에 따라 컨트롤러가 새 드라이브로 데이터를 자동으로 재구성할 수 있습니다. 스토리지 시스템이 핫 스페어 드라이브를 사용하는 경우, 컨트롤러는 교체 드라이브로 데이터를 복사하기 전에 핫 스페어에서 전체 재구성을 수행해야 할 수 있습니다. 이 재구성 프로세스로 인해 이 절차를 완료하는 데 필요한 시간이 늘어납니다.</block>
+  <block id="6ba835c9ea82704f22ff2a15ee4695ba" category="list-text">*Hardware* &gt; *Drive*를 선택하십시오.</block>
+  <block id="db44d1348f7ce991698e428d4ac21f44" category="list-text">그래픽에서 교체 드라이브를 선택하여 상황에 맞는 메뉴를 표시한 다음 * 재구성 * 을 선택합니다.</block>
+  <block id="3412171ea011f81577b92476937a8ab4" category="list-text">베젤을 다시 설치합니다.</block>
+  <block id="95275f416abb0ceec250662ff9b425ed" category="section-title">4단계: 고장난 부품을 NetApp에 반환합니다</block>
+  <block id="3d29438eb952627ce8da2622cb656128" category="paragraph">이 작업에서는 System Manager의 Hardware 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. menu:System[Settings &gt; System &gt; Configure iSCSI ports]에서도 구성에 액세스할 수 있습니다.</block>
+  <block id="cc8755fb46f774d060b45e3e5b0bd265" category="list-text">왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택합니다.</block>
+  <block id="0573a0c49744adecc0a9c55b42f713c1" category="list-text">어레이에서 iscsi 세션 상태를 확인합니다. SANtricity System Manager에서 *Settings* &gt; *System* &gt; *View/End iSCSISessions*로 이동합니다.</block>
+  <block id="769ffa546ec00708bab1334064113cc6" category="list-text">왼쪽 패널에서 menu:Storage[Hosts]를 선택합니다.</block>
+  <block id="2d3c6d3090e0743f13c7d2f6e6baa8a7" category="list-text">System Manager 인터페이스의 왼쪽 패널에서 *하드웨어*를 선택합니다.</block>
+  <block id="54f28e00e77b3b878f53a93bac8c3b82" category="list-text">SANtricity System Manager 인터페이스의 왼쪽 패널에서 menu:Storage[Hosts]를 선택합니다.</block>
+  <block id="ae72018d6159d77eea99fbd937f32807" category="admonition">RHEL 10에서는 네트워크 스크립트를 사용할 수 없습니다.</block>
+  <block id="57b95658e40e066ac07b2b5155110cfe" category="doc">E-Series에서 RoCE를 통한 NVMe 관련 작업 수행 - VMware</block>
+  <block id="53d3c9bb29457cb08e958f62619c1cdb" category="paragraph">RoCE 프로토콜을 통한 NVMe의 경우 스위치를 구성하고 호스트 포트 식별자를 결정합니다.</block>
+  <block id="74c661da20b90780ad273fb5c128b862" category="section-title">1단계: 구성 기록</block>
+  <block id="2bfe70f1bbb7fed1420533e9fc335785" category="image-alt">RoCE 포트 식별자를 통한 NVMe"</block>
+  <block id="6cf4b8e3219ee11133fc7995b252a951" category="cell">어레이 포트 연결</block>
+  <block id="73b9973581e3be0105767aec77f4ea47" category="paragraph">어레이 컨트롤러(타겟) 포트 1</block>
+  <block id="704ce3ae94445e082d2bb1e87f0f047d" category="paragraph">어레이 컨트롤러(타겟) 포트 2</block>
+  <block id="d6476b3528136cc99ca7f3fb989ac43d" category="paragraph">어레이 컨트롤러(타겟) 포트 3</block>
+  <block id="820dc13fc0520d23bf688f0bf1558639" category="paragraph">어레이 컨트롤러(타겟) 포트 4</block>
+  <block id="0fa2bfc199fb42ad06edd03ea829fbb0" category="paragraph">이는 어레이에 따라 다를 수 있습니다. EF300, EF600 및 EF50은 1개 이상의 VLAN이 있는 최대 4개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다. EF80은 1개 이상의 VLAN이 있는 최대 6개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다.</block>
+  <block id="e80331389c74f068dcf435a8c8a29bb4" category="section-title">2단계: NVMe/RoCE 스위치 구성</block>
+  <block id="391683bbbbffe7e0a99ae51301f2071f" category="paragraph-title">이 정보</block>
+  <block id="438a6e391139858173b2b6dac23fd47c" category="paragraph">이 작업에서는 RoCE를 통한 NVMe를 사용하기 위한 스위치 구성의 일반적인 단계를 설명합니다. 자세한 내용은 스위치 공급업체의 설명서를 참조하십시오.</block>
+  <block id="26df54b5f65f134865b888257f306e87" category="paragraph">시작하기 전에 다음 사항을 확인하십시오.</block>
+  <block id="0392371e7158cf2c0db91d780411aa58" category="list-text">고가용성을 위한 두 개의 별도 네트워크. RoCE를 통한 NVMe 트래픽을 별도의 네트워크 세그먼트로 분리해야 합니다.</block>
+  <block id="39b3011a351005c6917c0290e3df190d" category="section-title">3단계: 네트워킹 구성 - NVMe/RoCE, VMware</block>
+  <block id="78b8e6cae2b1cdac934ac7e5e50b9d10" category="paragraph">데이터 스토리지 요구 사항에 따라 NVMe over RoCE 네트워크를 여러 가지 방법으로 설정할 수 있습니다. 환경에 가장 적합한 구성을 선택하는 방법에 대한 팁은 네트워크 관리자에게 문의하십시오.</block>
+  <block id="e9e289b0246da257d8ab01dbf1cc2b7b" category="paragraph">이 작업에서는 RoCE를 통한 NVMe 네트워크 구성에 대한 일반적인 단계를 설명합니다. 자세한 지침은 스위치 공급업체의 설명서를 참조하십시오.</block>
+  <block id="a2a9b18b5704619f25c646a7dd7e55a3" category="list-text">RDMA를 통한 NVMe용 무손실 이더넷에 대해 구성된 스위치.</block>
+  <block id="545b4b08abb959614f088b43f97a909f" category="paragraph">RoCE를 통한 NVMe 네트워킹을 계획할 때 VMware Configuration Maximums 가이드에 따르면 서버당 지원되는 최대 RDMA NVMe 이니시에이터 포트는 2개라는 점을 기억해야 합니다. 너무 많은 경로를 구성하지 않도록 이 요구 사항을 반드시 고려해야 합니다.</block>
+  <block id="4187e9e8059a578f846f0643c831b248" category="paragraph">원활한 다중 경로 구성을 위해 NVMe over RoCE 네트워크에 여러 네트워크 세그먼트를 사용하십시오. 호스트 측 포트 하나 이상과 각 어레이 컨트롤러의 포트 하나 이상을 하나의 네트워크 세그먼트에 배치하고, 동일한 호스트 측 및 어레이 측 포트 그룹을 다른 네트워크 세그먼트에 배치하십시오. 가능한 경우 여러 개의 이더넷 스위치를 사용하여 추가적인 이중화를 제공하십시오.</block>
+  <block id="4083a5994667ca8da19b2478ec3e81dc" category="section-title">4단계: 어레이 측 네트워킹 구성 - NVMe/RoCE, VMware</block>
+  <block id="0e6324e9719ceaa07fadd2cd1be58040" category="paragraph">SANtricity System Manager 인터페이스를 사용하여 어레이 측에서 RoCE를 통한 NVMe 네트워킹을 구성합니다.</block>
+  <block id="d6b31ed9b32c133fe85e6e39d08780c2" category="paragraph">이 작업에서는 SANtricity System Manager의 *컨트롤러 및 구성 요소* 페이지에서 NVMe over RoCE 포트 구성에 액세스하는 방법을 설명합니다. SANtricity System Manager 내의 *NVMe over RoCE 포트 구성* 페이지에서도 구성에 액세스할 수 있습니다.</block>
+  <block id="aad3b22915cf50f0fd3e3b9879b72e79" category="list-text">시스템 관리자 GUI에 대한 암호, 역할 기반 액세스 제어(RBAC) 또는 LDAP 및 디렉터리 서비스가 스토리지 어레이에 대한 적절한 보안 액세스 권한을 위해 구성되어 있습니다. <block ref="23a01fa7b134b588c32da4771cbec201" category="inline-link-macro-rx"></block>에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.</block>
+  <block id="11309d8995227dbd773e6a41e7722a4e" category="list-text">브라우저에서 다음 URL을 입력합니다.<block ref="55e979022fc362aa6178b674515bb175" category="inline-link-rx"></block></block>
+  <block id="1acd76ed6c3f0124ed12e243db859a1f" category="list-text">구성하려는 NVMe over RoCE 포트가 있는 컨트롤러를 클릭합니다.</block>
+  <block id="f8e6e36c70e2e63ef7a939cbb02d5865" category="paragraph">RoCE 포트를 통한 NVMe 구성 대화 상자가 열립니다.</block>
+  <block id="a4877c7c9117da300ffe160002ddd2d8" category="paragraph">원하는 속도를 선택하세요. 드롭다운 목록에 나타나는 옵션은 네트워크에서 지원할 수 있는 최대 속도에 따라 달라집니다(예: 200 Gb/s).</block>
+  <block id="4457e278f9112e9b42c14c2c5c668dde" category="paragraph">MTU 크기(더 많은 포트 설정 표시를 클릭하면 사용 가능)</block>
+  <block id="e685a102ab6446248fa19b89877178fc" category="paragraph">기본 최대 전송 단위(MTU) 크기는 프레임당 4200바이트입니다. 1500에서 9000 사이의 값을 입력해야 합니다.</block>
+  <block id="4492cb7abfd1e28d0b26fbbee72d9daa" category="section-title">5단계: 호스트 측 네트워킹 구성—RoCE를 통한 NVMe, VMware</block>
+  <block id="261d3f7bb6e5f35850bc2acca261fac8" category="paragraph">호스트 측에서 RoCE를 통한 NVMe 네트워킹을 구성하면 VMware NVMe over RDMA 스토리지 어댑터 이니시에이터가 어레이와 세션을 설정할 수 있습니다.</block>
+  <block id="05d615f6664cae956f381bb230acde1c" category="paragraph">이 구성은 DSCP(차등 서비스 코드 포인트) 기반 PFC(우선순위 흐름 제어)를 사용하여 무손실 네트워크를 지원합니다.</block>
+  <block id="0ed3c60adcc47ad1357612793b6aabdd" category="list-text">RDMA 네트워크 어댑터를 식별하고 vmnic 페어링된 업링크를 기록합니다.</block>
+  <block id="afa34f00a26a4f8a79239d152a8c3291" category="inline-link-macro">RDMA 네트워크 어댑터 보기</block>
+  <block id="7b4b838a8e6a39d19b4b01a48e5b6798" category="paragraph">자세한 내용은 <block ref="f5f383c62db37abde6b9e11de1beb7db" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="aa9581d3822e83fca14cd2790f4eac14" category="list-text">vSphere 표준 스위치를 사용하여 RDMA 어댑터에 대한 VMkernel 포트 바인딩을 구성합니다.</block>
+  <block id="3ccb1d7a3929e1fd5bb70b38cb2fbfcf" category="inline-link-macro">RDMA 어댑터에 대한 VMkernel 바인딩을 구성합니다</block>
+  <block id="c1e46bbe0fb718118995e77291eee3d4" category="paragraph">자세한 내용은 <block ref="8a57bfaaef21098675395ccfdc891238" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="f885017e07530d4becbf0e4549cc05d6" category="list-text">소프트웨어 NVMe over RDMA 어댑터를 추가합니다.</block>
+  <block id="521a15c47fb41d8055141333f4c3f248" category="inline-link-macro">RDMA를 통한 소프트웨어 NVMe 또는 TCP를 통한 NVMe 어댑터 추가</block>
+  <block id="e94f093cedfbfce205f798816cb4b2b2" category="paragraph">자세한 내용은 <block ref="cd70a4ef9a53d1bbfc875c777ccad34e" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="0cfb1ebe8e6ed1dc8e33c91b3000e048" category="list-text">RDMA를 통한 NVMe용 NVMe 컨트롤러를 추가합니다.</block>
+  <block id="90337554316c3b19c2d91138d603b539" category="inline-link-macro">NVMe over Fabrics용 컨트롤러 추가</block>
+  <block id="e0d7db48d23e8cff7ae191360acf31de" category="paragraph">자세한 내용은 <block ref="83bdfe48c9580eb725d2c481995c25a1" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="3891cb89f09e8e3eabfd792314b804e2" category="list-text">RDMA를 통한 NVMe에 대해 무손실 이더넷을 구성합니다.</block>
+  <block id="3a260f9a411ad8db6429729f48982d93" category="paragraph">DSCP(차등 서비스 코드 포인트) 기반 PFC(우선순위 흐름 제어)를 사용하여 무손실 네트워크를 구성합니다.</block>
+  <block id="afd44fd310a56c8f36703108f4aa4f7f" category="paragraph">이 옵션을 사용하려면 다음을 참조하십시오:</block>
+  <block id="149b56d852021ec314bf4f68679500ed" category="inline-link-macro">RDMA를 통한 NVMe용 무손실 이더넷 구성</block>
+  <block id="3b8d57b2e5639d016f1bc8fcade1f152" category="list-text"><block ref="ad41945339e2ff926d1d6a75739c5fe3" category="inline-link-macro-rx"></block>.</block>
+  <block id="b68729693cf4f61fa95f01f551453e65" category="section-title">6단계: IP 네트워크 연결 확인 - RoCE를 통한 NVMe, VMware</block>
+  <block id="6c3e20ff9478d7e9f6ea7c0330c06865" category="list-text">호스트에서 다음 명령:</block>
+  <block id="fe034a18b90c30c2ff0c730c6c031c30" category="paragraph">이 예에서 NVMe over RoCE의 대상 IP 주소는 192.6.21.231입니다.</block>
+  <block id="19ba2bfce822d4390f9fb1768a91674e" category="list-text">각 호스트의 이니시에이터 주소(NVMe over RoCE에 사용되는 호스트 이더넷 포트의 IP 주소)에서 각 컨트롤러 NVMe over RoCE 포트로<block ref="bb8dcb7aca9e5a9c6d0064e07e54900b" prefix=" " category="inline-code"></block> 명령을 실행합니다. 구성의 각 호스트 서버에서 이 작업을 수행하고 필요에 따라 IP 주소를 변경하십시오.</block>
+  <block id="77866e8722847d7d6d7998480987782f" category="admonition">명령이 <block ref="b0f01253dbd4eb514ef56969bca29b90" prefix=" " category="inline-code"></block> 메시지와 함께 실패하면 호스트 서버, 스토리지 컨트롤러 및 스위치 포트의 이더넷 인터페이스에 대한 MTU 크기를 확인하십시오.</block>
+  <block id="dd070ab356fd251ebb2cb06199f618e8" category="list-text">대상 검색을 완료하려면 NVMe over RoCE 구성 절차로 돌아가십시오.</block>
+  <block id="3a4b2c7a2c6f0691c5408e4cd5774299" category="list-text">고가용성을 위한 두 개의 개별 네트워크. VLAN 또는 두 개의 개별 네트워크를 사용하여 iSCSI 트래픽을 다른 유형의 트래픽과 별도의 네트워크 세그먼트로 격리해야 합니다.</block>
+  <block id="23eba8f7f99e057ddd042a0dafa62dc8" category="paragraph">이 작업에서는 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 메뉴:설정[시스템 &gt; iSCSI 포트 구성]에서 구성에 액세스할 수도 있습니다.</block>
+  <block id="12ba5ece841aa8fe999f4c5869dcdabb" category="list-text">SANtricity System Manager에서 *Storage* &gt; *Volumes*로 이동한 다음 *ellipsis icon* &gt; *Change volume ownership*을 선택합니다.</block>
+  <block id="5881a3b85f7c9cc2dc191152347d4198" category="section-title">SANtricity 릴리스 11.9</block>
+  <block id="a342898a7b83e0ecaed58e67fcabddbf" category="list-text"><block ref="a342898a7b83e0ecaed58e67fcabddbf" category="inline-link-rx"></block></block>
+  <block id="0918432ee713960ea8c4bd23f9de9aac" category="list-text"><block ref="0918432ee713960ea8c4bd23f9de9aac" category="inline-link-rx"></block></block>
+  <block id="dfeb5c91f2e52f81a061d14460bfca55" category="paragraph">E-Series 하드웨어를 설치하려면 스토리지 어레이 및 셸프 유형(해당하는 경우)에 대한 설치 및 설정 지침을 참조하십시오.</block>
+  <block id="bd93d02316281b84bfd0358488fd9774" category="inline-link-macro">EF50 또는 EF80 스토리지 시스템</block>
+  <block id="8ffe6a7aa97446f89d209cd3ab9e681d" category="list-text"><block ref="8ffe6a7aa97446f89d209cd3ab9e681d" category="inline-link-macro-rx"></block></block>
+  <block id="5704b356a3cec514602bf36e401a7cf4" category="inline-link">SANtricity System Manager 12.0x 온라인 도움말</block>
+  <block id="10dcafa55de6544c34fc0dee6a147c65" category="list-text"><block ref="10dcafa55de6544c34fc0dee6a147c65" category="inline-link-rx"></block></block>
+  <block id="61ca3430c5f1d668a477b9838962bbf9" category="list-text"><block ref="61ca3430c5f1d668a477b9838962bbf9" category="inline-link-rx"></block></block>
+  <block id="8e9dcd9843d7c8730678fd7c801068df" category="paragraph">사용 가능한 E-시리즈 어레이 모델 중 일부는 아래와 같습니다. E-시리즈 어레이 모델 전체 목록 및 하드웨어 사양은 NetApp Hardware Universe에서 확인할 수 있습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>.</block>
+  <block id="7f6b55be6501174a0381e1661006bb3b" category="list-text">EF50 시리즈 -- 엔트리 레벨 올 플래시, 올 NVMe</block>
+  <block id="a62e9e9348e227714a61855a62e70e62" category="list-text">EF80 시리즈 -- 중급형 올플래시, 올 NVMe</block>
+  <block id="135d1c1e868b9c7b205a3d8afe8e4a14" category="admonition">SANtricity OS 11.80GA 이상의 경우 SANtricity OS가 실행되는 동안 모든 USB 포트가 비활성화됩니다.</block>
+  <block id="d9ae6d7dcf9ed3ea02dc63067c88edf1" category="open-title">EF50 모델</block>
+  <block id="3651000984a70ca2a913e10dca8ae731" category="image-alt">EF50 2U</block>
+  <block id="3dadc77af7c67e422751b8a7966d6df4" category="list-text">다음 용량의 NVMe SSD 드라이브를 지원합니다.</block>
+  <block id="e0ec5ed632381f5afbd737a7ca158cdb" category="list-text">3.8 TB</block>
+  <block id="c7d332a0c322abaf8181c5babf32fd81" category="list-text">7.6 TB</block>
+  <block id="1f04a7c587f50d269f44d43229c966ac" category="list-text">15.3 TB</block>
+  <block id="394759e33023d9aed8900256bbd0f36f" category="list-text">30 TB</block>
+  <block id="5ce71a16ba311332a73292a8edf16714" category="list-text">60 TB</block>
+  <block id="abf322da5cf6ce6d86f8e19831b3f9fd" category="list-text">컨트롤러 셸프에서 최대 24개의 NVMe SSD 드라이브를 지원합니다.</block>
+  <block id="58cd2008aef7f82312626d5b5eebd50c" category="list-text">컨트롤러당 하나 또는 두 개의 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="0f13e2736fe0d1284715fd7874d606ae" category="list-text">듀얼 컨트롤러 통신을 위한 컨트롤러 간 카드 및 케이블 지원</block>
+  <block id="4011a2ba674e279dec23ff377c80347d" category="inline-link">컨트롤러 간 미러링 연결 케이블 연결 - EF50 및 EF80</block>
+  <block id="5158e66d0bec8144508506a3ed7a7a81" category="admonition">EF50 시스템을 구성할 때 미러링 케이블을 올바르게 연결하는 것이 매우 중요합니다. 자세한 내용은<block ref="3b7ab90f06bb9d32e376349f50ba2152" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="9b3675f4a440586ef54c10566347950c" category="list-text">64Gb NVMe/Fibre Channel</block>
+  <block id="1e606555825231ac356605a792a3fc8d" category="list-text">64Gb 파이버 채널</block>
+  <block id="de2808d235a9bb8c7352ce4f7a990025" category="open-title">EF80 모델</block>
+  <block id="c8774ee9d8d630bb7bf259737b9c0a43" category="image-alt">EF80 2U</block>
+  <block id="752f692c428a4be902070ec994e760f0" category="list-text">컨트롤러당 호스트 인터페이스 카드 1개, 2개 또는 3개를 지원합니다.</block>
+  <block id="6f802ab99543c2bdbae4096d8954cdbf" category="admonition">EF80 시스템을 구성할 때 미러링 케이블을 올바르게 연결하는 것이 매우 중요합니다. 자세한 내용은<block ref="3b7ab90f06bb9d32e376349f50ba2152" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="cb4f52148019dcfece72b8c2fdb69580" category="list-text">1Gb 또는 10Gb Base-T iSCSI</block>
+  <block id="465a2ea2b6d89c60ed23c2a9e0201429" category="image-alt">E2800 4U</block>
+  <block id="81d5eb12c368fe2301553d9c540a4dae" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 보기에서 EF50, EF80, E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300C 및 EF600C와 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 또한 선택한 스토리지 어레이에서 배치 작업을 수행할 수 있습니다.</block>
+  <block id="60a6b0fbbfa61d15c4020f7f7e098cb9" category="paragraph">명령줄 인터페이스(CLI)는 스토리지 어레이를 구성하고 모니터링하는 방법을 제공하는 소프트웨어 애플리케이션입니다. CLI를 사용하면 <block ref="41f813272af86bac56724a37decae4bb" prefix=" " category="inline-code"></block> 프롬프트, Linux 운영 체제 경로 또는 Solaris 운영 체제 경로와 같은 운영 체제 프롬프트에서 명령을 실행할 수 있습니다.</block>
+  <block id="bed0c69ad6322b88d0d19a7d7f4b2a18" category="doc">3040 40U 캐비닛에 트레이 설치 - E-Series</block>
+  <block id="f6d6ca01d250853987d01c1f2f3320d3" category="paragraph">E-Series 3040 40U 캐비닛에 다음 컨트롤러 드라이브 트레이 및 확장 드라이브 트레이를 설치할 수 있습니다.</block>
+  <block id="724bffb2b9196928417abfcef2c53ecd" category="paragraph">컨트롤러 드라이브 트레이 또는 확장 드라이브 트레이가 아래 목록에 없는 경우 <block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>를 참조하여 컨트롤러 드라이브 트레이 또는 확장 드라이브 트레이가 지원되는지 확인하십시오.</block>
+  <block id="a788f87717c430011cbd08f417a53334" category="doc">관리 스테이션용 이더넷 케이블 - E-Series</block>
+  <block id="0446bb64b3616c90897eb07d0cab4bac" category="paragraph">일부 스토리지 시스템은 각 컨트롤러에 대역 외 이더넷 관리 포트가 하나만 있습니다.</block>
+  <block id="bbdf425fc3c642c8de49d63dc15badbc" category="paragraph">스토리지 시스템과 관련된 케이블 연결 지침은 <block ref="420e50e517d79764f810d7bfbcee32b7" category="inline-link-macro-rx"></block>를 참조하고 해당 스토리지 시스템에 대한 링크를 클릭하십시오.</block>
+  <block id="a44f563f123b3f3a9a9ba60801e3cc35" category="admonition">다음 정보는 모든 스토리지 시스템에 적용되는 것은 아닙니다. 스토리지 시스템별 호스트 케이블 연결에 대한 자세한 내용은 <block ref="420e50e517d79764f810d7bfbcee32b7" category="inline-link-macro-rx"></block>을 참조하고 해당 스토리지 시스템 링크를 클릭하십시오.</block>
+  <block id="46005072ff8ba642f00de1f96f5d8851" category="doc">스토리지 시스템 케이블 연결 - E-Series</block>
+  <block id="f58b5ce520289d0295b8af12ea9b3b6c" category="admonition">아래 목록에 컨트롤러 셸프(스토리지 시스템)가 표시되지 않으면 <block ref="420e50e517d79764f810d7bfbcee32b7" category="inline-link-macro-rx"></block>를 참조하고 특정 스토리지 시스템에 대한 링크를 클릭하여 케이블 연결 정보에 액세스하십시오.</block>
+  <block id="38e73c38b9e2c6b284a24eeb6f0868fb" category="paragraph">다음 구성 중 하나에 대해 케이블을 연결하는 경우 다음을 참조하십시오<block ref="4426bbb413c69380e459efdddf2e423d" category="inline-link-rx"></block></block>
+  <block id="ad69ba1272ea2f557940362e05d45875" category="doc">스토리지 시스템 전원 케이블 연결 - E-Series</block>
+  <block id="a2f7472ef27aa6805d53dc2c352d968a" category="list-text">두 전원 공급 장치의 전원을 모두 켜십시오.</block>
+  <block id="e5d6cef3c0e33a5155a04c0c6d89905c" category="admonition">스토리지 시스템에 따라 전원 공급 장치에 전원 스위치가 있거나 전원 스위치가 없어 전원을 켜려면 전원 케이블을 연결해야 합니다.</block>
+  <block id="32bfa1a65d1413942805620e277c6c06" category="summary">EF50 또는 EF80 스토리지 시스템 하드웨어를 설치한 후 컨트롤러 간 미러링 및 호스트 네트워크 연결을 케이블로 연결하십시오. (관리 포트는 나중에 스토리지 시스템 설정 완료 섹션에서 케이블로 연결합니다.)</block>
+  <block id="c4f6e132f298cda01ed84c032ae3487c" category="doc">하드웨어 케이블 연결 - EF50 및 EF80</block>
+  <block id="309528c65dc2e27541a0b466d6affaba" category="list-text">이 절차에서 _I/O 모듈_이라는 용어는 호스트 인터페이스 카드(HIC)를 지칭하는 데 사용됩니다.</block>
+  <block id="28c4b42113d6ebd3c5e6ca40929d04a6" category="list-text">케이블 연결 그래픽에는 포트에 커넥터를 삽입할 때 케이블 커넥터 풀 탭의 올바른 방향(위 또는 아래)을 나타내는 화살표 아이콘이 있습니다.</block>
+  <block id="fd2cb99acafb4f0144bfb5e0e4c31373" category="paragraph">커넥터를 삽입할 때 딸깍 소리가 나면서 제자리에 고정되는 느낌이 들어야 합니다. 딸깍 소리가 나지 않으면 커넥터를 빼내어 뒤집어서 다시 시도하십시오.</block>
+  <block id="416f5908ffc86e7abf276c4f75904ee7" category="inline-image-macro">케이블 당김 탭 방향</block>
+  <block id="c486d43df45ffe41cde84a1b0fa45aa0" category="paragraph"><block ref="c486d43df45ffe41cde84a1b0fa45aa0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="46469245a5087f6b4b434bb5f633b60f" category="section-title">1단계: 컨트롤러 간 미러링 연결 케이블 연결</block>
+  <block id="36cd37cbec7f6507403c29b0149a41fe" category="paragraph">컨트롤러 간 미러링을 활성화하려면 컨트롤러를 서로 케이블로 연결하십시오. 컨트롤러 간 미러링 연결은 완벽한 시스템 이중화를 보장하며 캐시 미러링 및 I/O 전송에 사용됩니다. 케이블 연결은 EF50 및 EF80 스토리지 시스템에서 동일합니다.</block>
+  <block id="38867b567fccc8548cc0e1cb94f126e8" category="admonition">스토리지 시스템에 설치된 컨트롤러 간 미러링 I/O 모듈의 속도(스토리지 시스템에서 지원하는 100 GbE 또는 200 GbE)에 관계없이 제공된 200 GbE 케이블을 사용합니다. 컨트롤러 간 미러링 I/O 모듈의 속도가 100 GbE인 경우 연결은 더 낮은 속도(100 GbE)로 작동합니다.</block>
+  <block id="2adc34a52429938fb3c735dddbb6ad63" category="list-text">컨트롤러를 서로 연결합니다.</block>
+  <block id="064b137ca9cfb01af5cef5f59d057fe2" category="list-text">컨트롤러 A 포트 e4a를 컨트롤러 B 포트 e4a에 케이블로 연결합니다.</block>
+  <block id="b2461cdc4faa4013beda2df06a62ad8a" category="list-text">케이블 컨트롤러 A 포트 e4b를 컨트롤러 B 포트 e4b에 연결합니다.</block>
+  <block id="ef69dbdbfe8f74a42b4f9a0ac932d33c" category="paragraph">*200 GbE 이더넷 케이블*</block>
+  <block id="417c36221853c2f66482de31e782fef4" category="image-alt">미러링 연결에 사용되는 100 GbE 이더넷 케이블</block>
+  <block id="a6e6ce518c6eb8d6c67720ecc4a737f4" category="inline-image-macro">ef50 및 ef80 컨트롤러 간 미러링 연결 케이블링</block>
+  <block id="5d644f09086f71fe519efe2fabeeca7e" category="paragraph"><block ref="5d644f09086f71fe519efe2fabeeca7e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe93f032d75b75aa618d6fc176216d00" category="section-title">2단계: 호스트 연결 케이블 연결</block>
+  <block id="e0beadc999f5d9ec28e25241c431ecdf" category="paragraph">네트워크 토폴로지에 따라 스토리지 시스템의 호스트 연결을 케이블로 연결하십시오: 직접 연결 또는 패브릭 연결.</block>
+  <block id="c173ac3230ce83526a8085ae3cd5d64e" category="list-text">스토리지 시스템 모델에 따라 스토리지 시스템에 설치된 호스트 I/O 모듈 유형은 이더넷 또는 파이버 채널(FC)일 수 있습니다. 이 절차의 케이블 연결 예시는 스토리지 시스템 모델에서 지원하는 두 가지 유형의 호스트 I/O 모듈을 모두 보여줍니다.</block>
+  <block id="a8be157e2b0226635a9c82e18c4cfa57" category="list-text">케이블 연결 예시에는 호스트 1과 호스트 2에 4포트 64Gb FC HBA가 표시되어 있지 않지만, 이러한 HBA가 설치되어 있는 경우 2포트 HBA에 표시된 것과 동일한 방식으로 다른 모든 포트에 케이블을 연결합니다.</block>
+  <block id="bbe082a3eacdeda56097c89d8ad81785" category="open-title">직접 연결 토폴로지</block>
+  <block id="a10df42fda1dcd0500c334d90c5fb5fa" category="paragraph">다음 예시는 직접 연결 토폴로지를 사용하여 스토리지 시스템을 호스트에 케이블로 연결하는 방법을 보여줍니다.</block>
+  <block id="f25484c2cff0f0a8bf40ca5b2643a51b" category="example-title">2개의 4포트 64Gb FC I/O 모듈이 있는 EF50</block>
+  <block id="4789d81b72046a7085ba4c174549efd3" category="list-text">케이블 연결 예시에서는 호스트 I/O 모듈이 슬롯 1과 2에 장착된 것을 보여줍니다. 이는 EF50 스토리지 시스템에서 지원되는 최대 호스트 I/O 모듈 수입니다. 하지만 슬롯 1의 호스트 I/O 모듈만 필수이며, 슬롯 2의 호스트 I/O 모듈은 선택 사항입니다.</block>
+  <block id="52b94d0d394a6131964981a1a413adc6" category="paragraph">스토리지 시스템에 호스트 I/O 모듈이 하나만 설치되어 있는 경우 추가 호스트 I/O 모듈에 대한 케이블 연결은 무시하고 설치된 호스트 I/O 모듈에만 케이블을 연결하면 됩니다.</block>
+  <block id="2b4e6cdd607b62b8e3110cb10e7ad6bb" category="list-text">직접 연결 스토리지 시스템에는 이중화를 위해 경로 A와 경로 B라는 두 개의 별도 경로가 있습니다.</block>
+  <block id="43578ef918fb73c2b038812c62a63b99" category="list-text">경로 A 연결은 호스트와 컨트롤러의 파란색 케이블과 파란색 포트로 표시됩니다. 각 호스트의 HBA 포트를 컨트롤러 A 포트 a 및 c에 연결합니다.</block>
+  <block id="6960a98169bd0b24caf31b19f599b69c" category="list-text">경로 B 연결은 호스트와 컨트롤러의 빨간색 케이블과 빨간색 포트로 표시됩니다. 각 호스트의 HBA 포트를 컨트롤러 B 포트 a 및 c에 연결합니다.</block>
+  <block id="d40af499527fcfbf4a1beb6c653d0028" category="list-text">케이블 연결 예시에서는 I/O 모듈 포트 a와 c가 호스트에 연결된 것으로 나와 있지만, 포트 a와 b 또는 포트 c와 d를 사용할 수도 있습니다.</block>
+  <block id="67658d2d8d32f469aec261b50f7cf0aa" category="list-text">호스트를 컨트롤러에 케이블로 연결합니다.</block>
+  <block id="8c9ee539ce9a9f80f6828bd7aa0e6779" category="list-text">케이블 호스트 1 경로 A(파란색) HBA 포트를 컨트롤러 A의 a 포트(1a 및 2a)에 연결합니다.</block>
+  <block id="44f41d563c7a22ac44c62ed7dce468ba" category="list-text">케이블 호스트 1 경로 B(빨간색) HBA 포트를 컨트롤러 B의 a 포트(1a 및 2a)에 연결합니다.</block>
+  <block id="38d1ecfc38020fa455c9c7bfb5155532" category="list-text">케이블 호스트 2 경로 A(파란색) HBA 포트를 컨트롤러 A의 c 포트(1c 및 2c)에 연결합니다.</block>
+  <block id="55ea0702f44241e327e5ec1cdecf5314" category="list-text">케이블 호스트 2 경로 B(빨간색) HBA 포트를 컨트롤러 B의 c 포트(1c 및 2c)에 연결합니다.</block>
+  <block id="241c17a1be2cc4feae5c8c6007f8aed3" category="paragraph">*64 Gb/s FC 케이블*</block>
+  <block id="2e169c8e6f4cc1f6315545b46d7284a2" category="inline-image-macro">64 Gb FC 케이블</block>
+  <block id="0bf370304560205688213d22ba637c07" category="paragraph"><block ref="0bf370304560205688213d22ba637c07" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e85e9ec0ed7443a979b5f48d4a7c1803" category="inline-image-macro">2개의 4포트 64GB FC IO 모듈을 사용하여 호스트에 직접 연결된 EF50 토폴로지</block>
+  <block id="d87fb58ba458175d563a880f23be1d1e" category="paragraph"><block ref="d87fb58ba458175d563a880f23be1d1e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3f09e42612391922370ac3dec8b12648" category="example-title">3개의 2포트 200GbE I/O 모듈이 있는 EF80</block>
+  <block id="aff6bfab25b0bdbb5d032cf798fd063b" category="list-text">케이블 연결 예시에서는 호스트 I/O 모듈이 슬롯 1, 2, 3에 장착된 것을 보여줍니다. 이는 EF80 스토리지 시스템에서 지원되는 최대 호스트 I/O 모듈 수입니다. 하지만 슬롯 1의 호스트 I/O 모듈만 필수이며, 슬롯 2와 슬롯 3의 호스트 I/O 모듈은 선택 사항입니다.</block>
+  <block id="a297d61486bf2885c72e08236f9e7725" category="paragraph">스토리지 시스템에 설치된 호스트 I/O 모듈의 수가 더 적은 경우, 추가 호스트 I/O 모듈에 대한 케이블 연결은 무시하고 이미 설치된 호스트 I/O 모듈에만 케이블을 연결하면 됩니다.</block>
+  <block id="3413e68c3b88961945f60f6d99511847" category="list-text">경로 A 연결은 호스트와 컨트롤러의 파란색 케이블과 파란색 포트로 표시됩니다. 각 호스트의 HBA 포트를 컨트롤러 A 포트 a 및 b에 연결합니다.</block>
+  <block id="d346593b0d3bd96299bd7de49f3f5c93" category="list-text">경로 B 연결은 호스트와 컨트롤러의 빨간색 케이블과 빨간색 포트로 표시됩니다. 각 호스트의 HBA 포트를 컨트롤러 B 포트 a 및 b에 연결합니다.</block>
+  <block id="e56102a10171f176b1e5aa5f79d08da3" category="list-text">케이블 호스트 1 경로 A(파란색) HBA 포트를 컨트롤러 A의 a 포트(e1a, e2a 및 e3a)에 연결합니다.</block>
+  <block id="e50a0e85ecc292bb64bdc29422e37bbb" category="list-text">케이블 호스트 1 경로 B(빨간색) HBA 포트를 컨트롤러 B의 a 포트(e1a, e2a 및 e3a)에 연결합니다.</block>
+  <block id="10f37f14a3c746b2ecbf47471f35ada6" category="list-text">케이블 호스트 2 경로 A(파란색) HBA 포트를 컨트롤러 A의 b 포트(e1b, e2b 및 e3b)에 연결합니다.</block>
+  <block id="2df3471ae8994614afacaf3a6af3577a" category="list-text">케이블 호스트 2 경로 B(빨간색) HBA 포트를 컨트롤러 B의 b 포트(e1b, e2b 및 e3b)에 연결합니다.</block>
+  <block id="b585e3620749cc9b290a69b15f369055" category="paragraph">*200 GbE 케이블*</block>
+  <block id="07954a9dbce90160eba5e0d906f74d9b" category="image-alt">200 GbE 케이블</block>
+  <block id="43476b318572f70438d476474ed2f777" category="inline-image-macro">3개의 2포트 200GbE IB IO 모듈을 사용하여 호스트에 직접 연결된 EF80 토폴로지</block>
+  <block id="0f216ce4c6b7b4fa9f09839659d15cb1" category="paragraph"><block ref="0f216ce4c6b7b4fa9f09839659d15cb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ccfa9dc972967682b048d31cb495746" category="example-title">3개의 4포트 64Gb FC I/O 모듈이 장착된 EF80</block>
+  <block id="3164237db13edc41eba0640070a1eb4c" category="list-text">케이블 호스트 1 경로 A(파란색) HBA 포트를 컨트롤러 A의 a 포트(1a, 2a 및 3a)에 연결합니다.</block>
+  <block id="c4050daef87bce6f77d1ca02dd9993d6" category="list-text">케이블 호스트 1 경로 B(빨간색) HBA 포트를 컨트롤러 B의 a 포트(1a, 2a 및 3a)에 연결합니다.</block>
+  <block id="f24bf0dc85c32afa94f0ec06e69c67d6" category="list-text">케이블 호스트 2 경로 A(파란색) HBA 포트를 컨트롤러 A의 c 포트(1c, 2c 및 3c)에 연결합니다.</block>
+  <block id="d3ce7893566ead23fa851e31842ddb2e" category="list-text">케이블 호스트 2 경로 B(빨간색) HBA 포트를 컨트롤러 B의 c 포트(1c, 2c 및 3c)에 연결합니다.</block>
+  <block id="4967befbfdc01bec056647ecf6535038" category="inline-image-macro">EF80 direct-attached 토폴로지는 4포트 64GB FC IO 모듈 3개를 사용하여 호스트에 연결됩니다</block>
+  <block id="9e578d6a52704120b62df8f18f213466" category="paragraph"><block ref="9e578d6a52704120b62df8f18f213466" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3672457c67c4050c67776efa642e4088" category="open-title">패브릭 연결 토폴로지</block>
+  <block id="c79493d7627db4beb028d464b1cb96e8" category="paragraph">다음 예시는 패브릭 연결 토폴로지를 사용하여 스토리지 시스템을 호스트에 케이블로 연결하는 방법을 보여줍니다.</block>
+  <block id="724572661546b5c7e60f9a673deed941" category="list-text">패브릭 연결 스토리지 시스템에는 이중화를 위해 스위치 1 경로와 스위치 2 경로, 이렇게 두 개의 별도 스위치 경로가 있습니다.</block>
+  <block id="02105864ecb13507a2005506ced4c1af" category="list-text">스위치 1 경로 연결은 호스트 및 컨트롤러의 파란색 케이블 및 파란색 포트로 표시됩니다. 스위치 1을 통해 각 호스트의 HBA 포트를 컨트롤러 A 및 컨트롤러 B의 a 및 c 포트에 연결합니다.</block>
+  <block id="520adf9f6ca58d04576019da1b65ff63" category="list-text">스위치 2 경로 연결은 호스트 및 컨트롤러의 빨간색 케이블링 및 빨간색 포트로 표시됩니다. 스위치 2를 통해 각 호스트의 HBA 포트를 컨트롤러 A 및 컨트롤러 B의 b 및 d 포트에 연결합니다.</block>
+  <block id="7511a9d551c40fc98c848597ed1b0b70" category="list-text">호스트를 스위치에 연결합니다.</block>
+  <block id="fccd2e024b66cd3cb678eb2817c3b3a3" category="paragraph">스위치의 모든 포트를 사용할 수 있습니다.</block>
+  <block id="4cf8f9ac2b00b8f87929247b5f9031a1" category="list-text">케이블 호스트 1 및 호스트 2 스위치 1 경로(파란색) HBA 포트를 스위치 1에 연결합니다.</block>
+  <block id="d1b504b40950697d0f8716e4a6f4a954" category="list-text">케이블 호스트 1 및 호스트 2 스위치 2 경로(빨간색) HBA 포트를 스위치 2에 연결합니다.</block>
+  <block id="55df7f6cda750a519a4e2ef3dfadbf9e" category="list-text">스위치를 컨트롤러에 연결합니다.</block>
+  <block id="f92519e312966fea02f4a2ec7d6ec462" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 A의 a 및 c 포트(1a, 2a, 1c 및 2c)에 연결합니다.</block>
+  <block id="d3b637071f42b6a6f32accf660f24fb6" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 B의 a 및 c 포트(1a, 2a, 1c 및 2c)에 연결합니다.</block>
+  <block id="79a9fdcaae97d141ab46175501357bc7" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 A의 b 및 d 포트(1b, 2b, 1d 및 2d)에 연결합니다.</block>
+  <block id="57f1f281e72cb36e6eee17efb2d21697" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 B의 b 및 d 포트(1b, 2b, 1d 및 2d)에 연결합니다.</block>
+  <block id="96816d89672e460ce991268ab12fc468" category="inline-image-macro">EF50 패브릭 연결 토폴로지(4포트 64GB FC IO 모듈 2개 사용)</block>
+  <block id="006d99462a8e32faf2a01db8aecd6d4f" category="paragraph"><block ref="006d99462a8e32faf2a01db8aecd6d4f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6a889796b87dd3c685247dbf20b2f306" category="list-text">케이블 연결 예시에서는 각 호스트에 3개의 HBA가 설치되어 있는 것을 보여줍니다. 호스트에 3개 미만의 HBA가 설치되어 있는 경우, 추가 HBA에 대한 케이블 연결은 생략하고 설치된 HBA에만 케이블을 연결하면 됩니다.</block>
+  <block id="187793f18cc6cf4fe4668447e4351331" category="list-text">스위치 1 경로 연결은 호스트 및 컨트롤러의 파란색 케이블 및 파란색 포트로 표시됩니다. 스위치 1을 통해 각 호스트의 HBA 포트를 컨트롤러 A 및 컨트롤러 B의 a 포트에 연결합니다.</block>
+  <block id="a9ca47cacdf86d16dd35a52e1fc8864a" category="list-text">스위치 2의 경로 연결은 호스트와 컨트롤러의 빨간색 케이블과 빨간색 포트로 표시됩니다. 각 호스트의 HBA 포트는 스위치 2를 통해 컨트롤러 A와 컨트롤러 B의 b 포트에 연결됩니다.</block>
+  <block id="b952c9ae768a48fd5ced278ead19212e" category="list-text">호스트를 스위치에 연결합니다.</block>
+  <block id="bc1c70b5e74fb8c35c3d6efaad68f371" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 A의 a 포트(e1a, e2a 및 e3a)에 연결합니다.</block>
+  <block id="97e8c64dbe1fb04d7e67df5c79f1574e" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 B의 a 포트(e1a, e2a 및 e3a)에 연결합니다.</block>
+  <block id="f7feda4fedcc765bbe499c2eda4b911b" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 A의 b 포트(e1b, e2b 및 e3b)에 연결합니다.</block>
+  <block id="ff3036a0af7047d6ddf2731fa491d6a5" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 B의 b 포트(e1b, e2b 및 e3b)에 연결합니다.</block>
+  <block id="2ec3c959154403a779d82acd5553d3e7" category="inline-image-macro">3개의 2포트 200GbE IO 모듈을 사용하는 EF80 패브릭 연결 토폴로지</block>
+  <block id="966f618ef898f1733ee8137b43541967" category="paragraph"><block ref="966f618ef898f1733ee8137b43541967" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a72def1402ebd27644148bab6231ba44" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 A의 a 및 c 포트(1a, 2a, 3a, 1c, 2c 및 3c)에 연결합니다.</block>
+  <block id="010c878d7bdefdb2c9cab54f15947420" category="list-text">케이블 스위치 1(파란색)을 컨트롤러 B의 a 및 c 포트(1a, 2a, 3a, 1c, 2c 및 3c)에 연결합니다.</block>
+  <block id="8d42cd4b3a5baf9a3f412489f3e12e38" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 A의 b 및 d 포트(1b, 2b, 3b, 1d, 2d 및 3d)에 연결합니다.</block>
+  <block id="4d454a0269f5bd61e2d91ca79541ed28" category="list-text">케이블 스위치 2(빨간색)를 컨트롤러 B의 b 및 d 포트(1b, 2b, 3b, 1d, 2d 및 3d)에 연결합니다.</block>
+  <block id="59d64d676f36898288023f143fc14360" category="inline-image-macro">3개의 4포트 64GB FC IO 모듈을 사용하는 EF80 패브릭 연결 토폴로지</block>
+  <block id="19693a6fcf27fa037b1b85c63e78d478" category="paragraph"><block ref="19693a6fcf27fa037b1b85c63e78d478" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03ed2de1c6ced47cf2038751f6c4e1b4" category="inline-link-macro">스토리지 시스템의 전원을 켭니다</block>
+  <block id="c2d3ec5e666fe12eb961640fa7f0328b" category="paragraph">스토리지 시스템에 대한 컨트롤러 간 미러링 및 호스트 연결 케이블 연결 후 <block ref="d0c3b85257c0c216b48d88ca57aa0056" category="inline-link-macro-rx"></block>.</block>
+  <block id="2559b1d3ade089296a5c82ea8def20df" category="summary">EF50 또는 EF80 스토리지 시스템의 전원을 켠 후 각 컨트롤러의 관리 포트를 케이블로 연결하고 구성하여 대역 외 스토리지 시스템 관리를 수행하고, 스토리지 시스템을 구성한 다음 호스트 I/O 모듈 프로토콜이 올바른지 확인하여 시스템 설정을 완료합니다.</block>
+  <block id="c52380e4285fce53ae461e4bdf6b4527" category="doc">전체 스토리지 시스템 설정 - EF50 및 EF80</block>
+  <block id="e12b25581394ec4377fd1f1f2eeac392" category="section-title">1단계: 관리 포트를 케이블로 연결하고 구성합니다</block>
+  <block id="6629e191e98b635ab2a2b11b4301d852" category="paragraph">각 컨트롤러의 관리 포트를 케이블로 연결한 다음 DHCP 서버 또는 고정 IP 주소를 사용하여 포트를 구성합니다.</block>
+  <block id="d0ae3b654b62807d5a54a174f1d72959" category="paragraph">케이블을 연결한 다음 DHCP 서버를 사용하여 관리 포트를 구성하십시오.</block>
+  <block id="61ba1ff27e2898b15f32e77189032c65" category="list-text">각 컨트롤러 측면에 있는 MAC 주소를 기록해 두십시오. MAC 주소를 사용하여 각 컨트롤러에 할당된 IP 주소를 확인할 수 있습니다.</block>
+  <block id="8156b8ddd08d46672e5dfe4790169c7f" category="list-text">이더넷 케이블을 사용하여 각 컨트롤러의 관리 포트를 네트워크에 연결하십시오.</block>
+  <block id="9c29eb35e98929529d99ca71cd855f4e" category="paragraph">*1000BASE-T RJ-45 케이블*</block>
+  <block id="79bcab102232e2b4e9e48cc24df07246" category="inline-image-macro">EF50 및 EF80 컨트롤러 관리 포트를 네트워크에 케이블로 연결</block>
+  <block id="19ad83b4acd19aab6f8e95ca8c993414" category="paragraph"><block ref="19ad83b4acd19aab6f8e95ca8c993414" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="003c4caf1dce3180acf1d5247dfbe70b" category="paragraph">케이블을 연결한 다음 IP 주소와 서브넷 마스크를 입력하여 관리 포트를 수동으로 구성하십시오.</block>
+  <block id="859468079c73df988ea1ed8046040c27" category="inline-image-macro">EF50 및 EF80 컨트롤러 관리 포트 케이블링</block>
+  <block id="f8b3abe7e0303456c19fd8817298a9c9" category="paragraph"><block ref="f8b3abe7e0303456c19fd8817298a9c9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5aa89c0d79fe2ea73905571507f7d3b" category="list-text">브라우저를 열고 기본 IP 주소(169.254.128.101)를 사용하여 컨트롤러에 대한 연결을 설정하십시오.</block>
+  <block id="c7db1f4684c03e2484bfba0370a95f69" category="paragraph">컨트롤러가 자체 서명된 인증서를 반환합니다. 브라우저는 연결이 안전하지 않다고 알려줍니다.</block>
+  <block id="f8adbb67d95e9c46d61cbee9c21b8211" category="list-text">노트북에서 이더넷 케이블을 분리하고(컨트롤러 A에 연결된 상태로 유지), 네트워크에 연결합니다.</block>
+  <block id="35ce24c3ab23606ee99470433057fd2c" category="admonition">컨트롤러 A와의 연결이 끊어진 경우 이더넷 케이블을 컨트롤러 B에 연결하여 컨트롤러 B(169.254.128.102)를 통해 컨트롤러 A에 다시 연결할 수 있습니다.</block>
+  <block id="10126fb334ba32a6032b072ce7acbd2e" category="list-text">이전에 설정한 비밀번호를 사용하여 로그인하십시오. *Configure Network Settings* 마법사가 나타납니다.</block>
+  <block id="13e4180d1580553590b559ee11c7cc32" category="paragraph">이제 두 컨트롤러 관리 포트 모두 네트워크에 연결되었습니다.</block>
+  <block id="d67ba08b051a178d949c99bcba712b9a" category="section-title">2단계: 스토리지 시스템 구성</block>
+  <block id="7349b49b9949f97abcb087f10b1c4514" category="paragraph">SANtricity System Manager를 사용하여 스토리지 시스템을 구성하고 관리합니다.</block>
+  <block id="f7a6d7064913466b77286942b957f2c3" category="list-text">관리 포트를 네트워크에 케이블로 연결하고 구성해야 합니다.</block>
+  <block id="986ea0888c4483b8908a23f50db781ba" category="list-text">비밀번호와 구성된 IP 주소를 확인하고 기록해 두십시오.</block>
+  <block id="f3409181b03b4a3024c85e7c68e5eb3c" category="list-text">구성된 IP 주소를 사용하여 SANtricity System Manager에 액세스하십시오.</block>
+  <block id="af538554a39155c9eb46aaa2eba3ecc5" category="list-text">SANtricity System Manager를 사용하여 스토리지 시스템을 관리합니다.</block>
+  <block id="bcc65479fcb2279dc15af0b23b353e3c" category="paragraph">SANtricity System Manager에 포함된 온라인 도움말을 참조할 수 있습니다.</block>
+  <block id="96df99685c5bf4b192fba6beba5284f2" category="section-title">3단계: 호스트 I/O 모듈 프로토콜이 올바른지 확인합니다</block>
+  <block id="8a088aa08c66f08cd396428bcc535e08" category="paragraph">스토리지 시스템은 호스트 I/O 모듈에 기본 프로토콜이 설정되어 출고됩니다. 기본 프로토콜이 원하는 프로토콜이 아닌 경우 변경할 수 있습니다.</block>
+  <block id="060d34665cae7c5bb801b31482b3bf4d" category="list-text">SANtricity System Manager를 사용하여 스토리지 시스템의 호스트 I/O 모듈에서 사용되는 기본 프로토콜을 확인하십시오.</block>
+  <block id="f4f194a527e25705dac27f3aad9c18bd" category="list-text">*추가 설정* 섹션에서 *호스트 I/O 프로토콜 변경*을 클릭하여 해당 화면을 엽니다.</block>
+  <block id="259772d328f38bc90d62d168edac1c6a" category="list-text">스토리지 시스템의 호스트 I/O 모듈에 사용되는 기본 호스트 I/O 프로토콜이 *호스트 I/O 프로토콜* 필드에 표시됩니다.</block>
+  <block id="6391f60e0cb1e2d6260002d6fba8b38b" category="paragraph">별도의 조치가 필요하지 않습니다.</block>
+  <block id="2db7cf25e25f43e12ef7a47f9be4a3f0" category="inline-link-macro">호스트 프로토콜을 변경합니다</block>
+  <block id="3bdea44956eca6a6fe526f7453672cb2" category="paragraph"><block ref="3b1e62b8f041cdbf32722b61a558d569" category="inline-link-macro-rx"></block> 절차를 사용하여 변경해야 합니다.</block>
+  <block id="95212c9edc6cfd774f23d964ae66f173" category="admonition">호스트 포트 프로토콜을 변경하려면 프로토콜 변경을 위한 준비, 호스트 I/O 작업 중지, 프로토콜 변경, 그리고 새 프로토콜을 사용하도록 호스트를 구성하는 단계를 거쳐야 합니다.</block>
+  <block id="bf6c3346ff3606822a029bdc5f1fd038" category="summary">EF50 또는 EF80 스토리지 시스템 설치를 준비한 후 캐비닛 또는 통신 랙에 랙 마운트 하드웨어를 설치한 다음 스토리지 시스템을 설치하고 고정합니다.</block>
+  <block id="45b4e7c20322f386ee8d6f6de5e46bd7" category="doc">하드웨어 설치 - EF50 및 EF80</block>
+  <block id="8bd4acc38771e6801a9c3e79e0914f1f" category="paragraph">스토리지 시스템이 캐비닛과 함께 제공된 경우 이 절차를 건너뛰고 <block ref="5cf36f95205599c906eaa6f0709db155" category="inline-link-macro-rx"></block>로 이동할 수 있습니다.</block>
+  <block id="405064d385d6ce1555b45605e3b421aa" category="list-text">랙 마운트 하드웨어와 함께 포장된 설치 지침이 있는지 확인하십시오. 없는 경우 <block ref="eec13eeca211854cac70cc479967d6f5" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="b433386c98551c70005a6f1b800aa07c" category="inline-link-macro">리프팅 주의 사항 이해</block>
+  <block id="65ad8f381a574a2c77a99dbf0844f4df" category="list-text">스토리지 시스템의 무게와 관련된 리프팅 주의 사항을 숙지하십시오. <block ref="eabddf68edb22dbc0c370477b7899ead" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="263564b059d7a28fcd9c2e20b0931d38" category="list-text">스토리지 시스템을 통한 공기 흐름이 드라이브가 설치된 전면에서 유입되어 포트가 있는 후면으로 배출된다는 점을 이해하십시오.</block>
+  <block id="ff446d73ac8e54e5df56f5d61576af50" category="list-text">랙 마운팅 하드웨어에 포함된 지침을 사용하여 스토리지 시스템용 랙 마운팅 하드웨어를 설치합니다.</block>
+  <block id="94f0afec3ec82f33c91d2a3d7d81f4e9" category="admonition">캐비닛 또는 랙에서 사용 가능한 가장 낮은 공간에 랙 마운팅 하드웨어를 설치하여 스토리지 시스템 설치 시 넘어지는 것을 방지하십시오.</block>
+  <block id="1c8c6696ac03ef01690be450b3767032" category="list-text">캐비닛 또는 통신 랙에 스토리지 시스템을 설치하고 고정하십시오.</block>
+  <block id="26e155b7fb3d206a4c26c4bef9241d99" category="list-text">스토리지 시스템을 레일 위에 놓고 스토리지 시스템 아래쪽에서 받쳐 제자리에 밀어 넣으십시오.</block>
+  <block id="0a508c750e66a219b3bc9449125a4672" category="list-text">동봉된 장착 나사를 사용하여 스토리지 시스템을 캐비닛 또는 통신 랙에 고정하십시오.</block>
+  <block id="36eaeecf3fe5d82e498290c50c773db1" category="list-text">스토리지 시스템 전면에 베젤을 부착합니다.</block>
+  <block id="6770bca56cae3c3ef94c3fe33912cafc" category="list-text">베젤을 스토리지 시스템 앞에 배치하여 양쪽 끝의 구멍이 스토리지 시스템의 고정 장치와 정렬되도록 합니다.</block>
+  <block id="6bc9706054ddce477397a74fecd293ed" category="inline-link-macro">하드웨어 케이블 연결</block>
+  <block id="0761c2876a223e6e2037a4e9e910b582" category="paragraph">스토리지 시스템용 하드웨어를 설치한 후 <block ref="bca22c8e81cd07d8c060c28f352f5c5b" category="inline-link-macro-rx"></block>.</block>
+  <block id="5b456164c38ae8e563b1428c3f0d26f8" category="summary">EF50 또는 EF80 스토리지 시스템의 컨트롤러 미러링 및 호스트 네트워크 연결을 케이블로 연결한 후 컨트롤러의 전원을 켭니다.</block>
+  <block id="fd8cf1a58916f99d088946d5a7230216" category="doc">하드웨어 전원 켜기 - EF50 및 EF80</block>
+  <block id="3a6ce1aff8484b4f121120d50d351c0c" category="paragraph">EF50 또는 EF80 스토리지 시스템에 대한 컨트롤러 간 미러링 및 호스트 연결을 케이블로 연결한 후 컨트롤러의 전원을 켭니다.</block>
+  <block id="5ebae18682dda3e61a78b4f23c59fde0" category="list-text">각 컨트롤러 전원 공급 장치에 전원 케이블을 연결한 다음, 서로 다른 회로의 전원에 연결하십시오.</block>
+  <block id="bdc998a5bd1943bedb35cbcb343657f7" category="admonition">타사 PDU(전원 분배 장치)를 사용하는 경우 컨트롤러 바로 뒤에 있는 전원 콘센트를 사용하지 마십시오. 컨트롤러에 대한 액세스가 차단될 수 있습니다.</block>
+  <block id="fa2c4de61b033b70225eabcd36034670" category="image-alt">스토리지 시스템 전원 연결 다이어그램</block>
+  <block id="892ecfa88ac2fc58f239974dc4b528a1" category="list-text">시스템 부팅이 시작됩니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
+  <block id="1f9fc1df1047f59669fdaf4a748c5da0" category="list-text">시스템 섀시의 LED가 깜빡이고 팬이 작동하기 시작하면 컨트롤러에 전원이 공급되고 있음을 나타냅니다.</block>
+  <block id="efbb71632700af11cddc55ae7fa6b780" category="paragraph">시동 초기에는 팬 소음이 매우 큰 것이 정상입니다.</block>
+  <block id="e1c61cdd8939dd8764be2bd3a1144c7c" category="list-text">시스템 섀시 전면(베젤 뒤)의 디지털 디스플레이에 불이 들어오지 않습니다.</block>
+  <block id="d420064a5f4919f9be16d853c6d1997c" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 코드를 고정합니다.</block>
+  <block id="68db173907f08cd16d03de80c901a549" category="inline-link-macro">전체 스토리지 시스템 설정</block>
+  <block id="d1b51920b70cb47316a2aed33df1996c" category="paragraph">스토리지 시스템의 전원을 켠 후 <block ref="a1e08373f9f80025642e885c4d75384a" category="inline-link-macro-rx"></block>.</block>
+  <block id="939b07324bfa4e3da6dfef87a4f84101" category="summary">사이트를 준비하고, 스토리지 시스템의 리프팅 주의 사항을 이해하고, 상자를 개봉하여 내용물을 포장 명세서와 비교하고, 지원 혜택을 받기 위해 스토리지 시스템을 등록하여 EF50 또는 EF80 스토리지 시스템 설치를 준비하십시오.</block>
+  <block id="d5072f1b35968b264502fd8cb42bbc49" category="doc">설치 준비 - EF50 및 EF80</block>
+  <block id="92c8397408f55d9526d554c55cde3d22" category="section-title">1단계: 사이트 준비</block>
+  <block id="6953f9497ab506347f9ba3b6eab20b03" category="paragraph">설치 장소와 사용하려는 캐비닛 또는 랙이 스토리지 시스템의 사양을 충족하는지 확인하십시오.</block>
+  <block id="784289434de2772034240714a84f80a9" category="list-text"><block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>을 사용하여 사이트가 스토리지 시스템의 환경 및 전기 요구 사항을 충족하는지 확인하십시오.</block>
+  <block id="2d0759237f73e187af2bdd02dc95f81b" category="list-text">스토리지 시스템과 스위치를 설치할 충분한 캐비닛이나 랙 공간이 있는지 확인하십시오.</block>
+  <block id="7cea7d78ac598d08b8e997dc16a974d1" category="paragraph">필요한 경우 스토리지 시스템의 정확한 치수는 <block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="586f9ad5db82f223a8b9cca9ed48f572" category="list-text">스토리지 시스템용 2U</block>
+  <block id="d870295bbe120d15107d49597065fc2e" category="list-text">대부분의 스위치의 경우 1U</block>
+  <block id="2df7e61cfe4bf7857f54171cec3da494" category="list-text">필요한 네트워크 스위치를 설치하십시오.</block>
+  <block id="1cf5db804729f0321f20623e8571c4a9" category="list-text">관리 소프트웨어에 지원되는 브라우저가 있는지 확인하십시오.</block>
+  <block id="60fed4620406884a24e2bd1911dc7b09" category="list-text">설치에 필요한 다음 장비와 도구를 준비하십시오.</block>
+  <block id="8dd75d4e14815a2e3e3154ea67cd841e" category="list-text">정전기 방전(ESD) 스트랩</block>
+  <block id="49a15a25561dfc30f3be6f9fe84fa8a8" category="list-text">Phillips #2 드라이버</block>
+  <block id="f848ac0e087570e2f0548d0780917956" category="section-title">2단계: 리프팅 주의사항 숙지</block>
+  <block id="67c51a66df4793c8b8e756080478ecb1" category="paragraph">상자를 풀기 전과 나중에 스토리지 시스템을 설치할 때 스토리지 시스템의 무게를 이해하여 들어 올리고 이동할 때 필요한 예방 조치를 취할 수 있도록 해야 합니다.</block>
+  <block id="3397843644709c0d3ffeb76056124305" category="paragraph">EF50 또는 EF80 스토리지 시스템은 최대 61.5lbs(27.9kg)까지 나갈 수 있습니다. 스토리지 시스템을 들어 올리려면 두 사람이 함께 들거나 유압 리프트를 사용하십시오.</block>
+  <block id="12c8eb3808a13f0adea4f2c3d86acb4c" category="image-alt">AFF A20 A30 A50 및 C30 및 C60 중량 주의 아이콘</block>
+  <block id="3389a768c543e525ee586ceed1a8a457" category="section-title">3단계: 상자 개봉</block>
+  <block id="987f2c925ee0c9444d34b96f189dced8" category="paragraph">사이트와 사용하려는 캐비닛 또는 랙이 스토리지 시스템의 사양을 충족하는지 확인하고 운반 시 주의 사항을 숙지한 후, 모든 상자를 풀고 내용물을 포장 명세서의 품목과 비교하십시오.</block>
+  <block id="82174a976e9a37564a41e6138a110eb6" category="list-text">모든 상자를 조심스럽게 열고 내용물을 정리된 상태로 꺼내 놓으세요.</block>
+  <block id="90eb119b01d3cadbc16dfa9f572e4edb" category="list-text">개봉한 내용물과 포장 명세서를 비교해 보세요.</block>
+  <block id="926a0610eae5ca468bfd2273681ca46d" category="paragraph">배송 상자 측면의 QR 코드를 스캔하여 포장 명세서를 받을 수 있습니다.</block>
+  <block id="344ce3f549ef16582b4401f70361f692" category="admonition">불일치 사항이 있으면 추후 조치를 위해 기록해 두십시오.</block>
+  <block id="1726196375cd4d9085528facd587a31e" category="paragraph">다음 항목은 상자에서 볼 수 있는 내용물의 일부입니다.</block>
+  <block id="e7bd175117d4b2dd641c299d6691449f" category="paragraph">필요한 경우 <block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block>에서 지원되는 다른 케이블을 확인하고 해당 용도를 파악하십시오.</block>
+  <block id="958c530ea1ae0e18b942f8784148734c" category="cell">*하드웨어*</block>
+  <block id="09ff86ce1246a36d79f5d417bc9fb6be" category="cell">*케이블*</block>
+  <block id="82271aedc09b867b3aa3552e5c48a92b" category="list-text">드라이브가 포함된 스토리지 시스템</block>
+  <block id="e13e811059b612b97e5987f5a3cf4bef" category="list-text">랙 마운트 하드웨어(지침 포함)</block>
+  <block id="efb4c0c41cf8767bf0f9361a8c61a50a" category="list-text">베젤</block>
+  <block id="810e6cad6b62fd7fa24c2ee6fabaae07" category="list-text">컨트롤러 간 미러링 Ethernet 케이블</block>
+  <block id="06d2646a8077631818b55a12dc3c58ac" category="list-text">관리 이더넷 케이블(RJ-45 케이블)</block>
+  <block id="b2cdf9589096f203f816541f43a15f6c" category="list-text">네트워크 케이블</block>
+  <block id="afe4eb7c1ac7701fbfd8a1f07611fb30" category="section-title">4단계: 스토리지 시스템 등록</block>
+  <block id="ad017b49c0df10ceee360076dfe26820" category="paragraph">사이트가 스토리지 시스템의 사양을 충족하고 주문한 모든 부품을 받았는지 확인한 후에는 스토리지 시스템을 등록해야 합니다.</block>
+  <block id="f8cfcb3b6ce65079e1f57dd3a4507101" category="paragraph">등록 절차에는 각 컨트롤러의 일련 번호(SN)가 필요합니다. 일련 번호는 다음 위치에서 찾을 수 있습니다.</block>
+  <block id="1594210318baaedcde7a9ee6cf877e2f" category="list-text">각 컨트롤러에서</block>
+  <block id="3fc885acbf9f3f66cb5fefc99c0d76c6" category="list-text">포장 명세서에</block>
+  <block id="cf163ceac39b37fd1108b3cf9ff2b719" category="list-text">확인 이메일에</block>
+  <block id="e1554fb7300ba3f33856607b4276dd89" category="image-alt">일련 번호 라벨의 예</block>
+  <block id="212304f8cbbd7ebaff4e2249b78ee581" category="inline-link-macro">하드웨어를 설치합니다</block>
+  <block id="abda3eb065a719f1d88a781d2e38ad9e" category="paragraph">스토리지 시스템 설치를 준비한 후 <block ref="239db888dbc76fb83268465e5e6536a6" category="inline-link-macro-rx"></block>.</block>
+  <block id="be8d4ce4918ddae84d02431379d6d80c" category="summary">EF50 또는 EF80 스토리지 시스템을 설치 및 설정하려면 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블로 연결하고, 스토리지 시스템의 전원을 켜고, 스토리지 시스템 설정 및 구성을 완료해야 합니다.</block>
+  <block id="686032153c045cdea3816ea49738e842" category="doc">설치 및 설정 - EF50 및 EF80</block>
+  <block id="e33ae0add8106498514961d910b3b38e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="bce179ad419bd48e9c41b073fd99e202" category="inline-link-macro-rx"></block></block>
+  <block id="edb3e9aff5e398b7b7eb19e2ba1c1378" category="paragraph">설치를 준비하려면 사이트를 준비하고, 스토리지 시스템의 리프팅 주의 사항을 이해하고, 상자를 개봉하여 내용물을 포장 명세서와 비교하고, 스토리지 시스템을 등록하여 지원 혜택을 이용하십시오.</block>
+  <block id="923a86c9f908f09f61d33d7831905371" category="inline-link-macro">하드웨어를 설치합니다</block>
+  <block id="11b875727465892cf5bd1e3b8b38f3da" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="d8f87fb4140fea77f47017bd9ec5dcdd" category="inline-link-macro-rx"></block></block>
+  <block id="7569bbc639d17ce831941090847f5f57" category="paragraph">하드웨어를 설치하려면 캐비닛이나 랙에 랙 마운트 하드웨어를 설치한 다음 스토리지 시스템을 설치하고 고정합니다.</block>
+  <block id="b8b738c80e941f2ecc3967c6dbe5c0aa" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="5cf36f95205599c906eaa6f0709db155" category="inline-link-macro-rx"></block></block>
+  <block id="81d9ca4276f9010335b6aeeaa1d0680c" category="paragraph">하드웨어를 케이블로 연결하려면 컨트롤러 간 미러링을 활성화하기 위해 컨트롤러를 서로 케이블로 연결합니다. 이를 통해 전체 시스템 이중화가 보장되며 캐시 미러링 및 I/O 전송에 사용됩니다. 그런 다음 컨트롤러를 호스트 네트워크에 케이블로 연결합니다.</block>
+  <block id="3f43328b333c4df4c9ec539236523e92" category="inline-link-macro">스토리지 시스템의 전원을 켭니다</block>
+  <block id="8d5f5b9f9f2dee34f15574ce8f524e4f" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="8a056a6439f08c4b1b6c616463cfac54" category="inline-link-macro-rx"></block></block>
+  <block id="5e570e70d5b47c9363d964970dc2a50c" category="paragraph">스토리지 시스템의 전원을 켜려면 각 컨트롤러 전원 공급 장치에 전원 케이블을 연결한 다음 서로 다른 회로의 전원에 연결하십시오.</block>
+  <block id="b669c7541b481751dcc71a055cce958b" category="inline-link-macro">스토리지 시스템 설정을 완료합니다</block>
+  <block id="78842b8d721f67915adcf3eb011b7c36" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="5ef3aa7bd3b14cfb714e4d5b256fce22" category="inline-link-macro-rx"></block></block>
+  <block id="38c38e882e02e5c78c715e5e344923bf" category="paragraph">스토리지 시스템 설정을 완료하려면 컨트롤러의 관리 포트를 케이블로 연결하고 구성하고, 스토리지 시스템을 구성 및 관리한 다음, 호스트 I/O 모듈 프로토콜이 올바른지 확인하십시오.</block>
+  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 릴리스 노트</block>
+  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
+  <block id="a75befa2f42df622990e46f9c7d49e08" category="list-text">왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택하십시오.</block>
+  <block id="a2b019c9963ef773b0ead6446cef828d" category="image-alt">팬 캐니스터 분리 탭</block>
+  <block id="b00fd47d5fb356f57fefb70bd8db1fab" category="list-text">그래픽에 드라이브가 표시되면 *Show back of shelf*를 선택하여 컨트롤러를 표시하십시오.</block>
+  <block id="1f36460e84582b36be552c6a17c0123a" category="list-text">지원 리소스 페이지에서 *Storage Array Profile* 링크를 찾아 선택하십시오.</block>
+  <block id="2e4d5d49cfefb01ef272ad2ab4919706" category="paragraph">호스트 편집 설정 대화 상자가 나타납니다.</block>
+  <block id="91822d857a567731cff3a62cdcc4b262" category="list-text">그래픽에 드라이브가 표시되면 *Controller &amp; Components*를 선택하여 컨트롤러를 표시하십시오.</block>
+  <block id="73296082d8b1d967de86e3ca1401778c" category="list-text">*Storage › Volumes*를 선택합니다. *All Volumes* 페이지에서 볼륨이 기본 설정 소유자에게 배포되었는지 확인합니다. *More › Change ownership*을 선택하여 볼륨 소유자를 확인합니다</block>
+  <block id="e5917c8b7ae11d456fbbf964f73d5ea5" category="list-text">볼륨이 모두 기본 소유자가 소유한 경우 4단계로 계속 진행하십시오.</block>
+  <block id="f5513a279f3a0cf086ef71ad97fc2b02" category="list-text">원하는 컨트롤러를 클릭하고 *iSCSI 포트 구성*을 선택합니다.</block>
+  <block id="702435126a074d634b351cf2ccccfcde" category="doc">호스트 포트 프로토콜 변경 요구 사항 - E5700</block>
+  <block id="c4039f7107e8ace0d297e2c9ce9db8c0" category="summary">EF50 또는 EF80 스토리지 시스템의 컨트롤러 교체를 완료하려면 스토리지 시스템 펌웨어가 최신 상태인지 확인하고, 볼륨이 소유자에게 반환되었는지 확인하고, 시스템 지원 데이터를 수집한 다음, 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="1df492fb38de2abdeb3d08f3c3e7f6ed" category="doc">컨트롤러 교체 완료 - EF50 및 EF80</block>
+  <block id="8353977824c9791b266dc918db656fa9" category="paragraph">EF50 또는 EF80 스토리지 시스템의 컨트롤러 교체를 완료하려면 최신 버전의 SANtricity OS가 설치되어 있는지 확인하고, 볼륨이 소유 컨트롤러로 반환되었는지 확인하고, 시스템 지원 데이터를 수집한 다음, 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="c544db45a7babe9836c72d84fccf4ad0" category="section-title">1단계: SANtricity OS의 최신 버전을 확인하고, 볼륨 소유권을 검증하고, 지원 데이터를 수집합니다</block>
+  <block id="8d25d311e353251341d471f4c2d37620" category="section-title">2단계: 고장난 부품을 NetApp에 반환합니다</block>
+  <block id="b7ed4d788cf16b7e63972cb4e46b077f" category="summary">EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체하려면 컨트롤러를 분리하고 구성 요소를 교체용 컨트롤러로 옮긴 다음 교체용 컨트롤러를 설치하십시오.</block>
+  <block id="4f76e3ac8bbd37b71def1f5a39dc253f" category="doc">컨트롤러 교체 - EF50 및 EF80</block>
+  <block id="6670723c2864ca1765e9359b7d487d58" category="paragraph">캐시 메모리의 데이터가 드라이브에 기록되었는지 확인하고, 손상된 컨트롤러에서 모든 케이블을 분리하고, 손상된 컨트롤러를 제거하고, 구성 요소를 교체용 컨트롤러로 옮긴 다음, 교체용 컨트롤러를 설치하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체하십시오.</block>
+  <block id="04930cabf99972a633341ff06ac0deb2" category="inline-link-macro">교체 컨트롤러를 온라인 상태로 전환합니다</block>
+  <block id="3afdcd3e40400319f3d0f83140582eb8" category="paragraph">고장난 컨트롤러를 교체한 후 <block ref="b6ab23cdcb0c3e7e038497056f4f0fe6" category="inline-link-macro-rx"></block>.</block>
+  <block id="cb4238e638fc47d7b570d750fcab014f" category="summary">EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 오프라인으로 전환하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오.</block>
+  <block id="0ed60882ea4f8296eaf657de750f0b1f" category="doc">손상된 컨트롤러 오프라인 - EF50 및 EF80</block>
+  <block id="9060587edeb01a63e3d3edc959678d1e" category="list-title">전에</block>
+  <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link-macro">요구사항</block>
+  <block id="f1e36309340fc4f17fb40811d47953c7" category="list-text">이 절차를 위해 <block ref="f3fc649d7930c1668979ef9e48f6bb30" category="inline-link-macro-rx"></block>을(를) 충족해야 합니다.</block>
+  <block id="501c214438899badfe0ea96a964a43e0" category="inline-link-macro">준비</block>
+  <block id="140705b8013f323d672593a11f9c7bc9" category="list-text">이 절차에 대한 <block ref="e3160eb47607c22388ca3029962b0ccc" category="inline-link-macro-rx"></block>을(를) 완료해야 합니다.</block>
+  <block id="bce072f16c5d36a9b06ffd9b060b1032" category="inline-link-macro">손상된 컨트롤러 교체</block>
+  <block id="002fd09fb9764aac2eb6c3186d15cbfd" category="paragraph">고장난 컨트롤러를 오프라인으로 전환한 후 <block ref="ee0880cd8b48b6c56cd4da2441971f2e" category="inline-link-macro-rx"></block>.</block>
+  <block id="beb7fb9c14796641ab9982a59ef200a1" category="summary">EF50 또는 EF80 스토리지 시스템의 교체 컨트롤러를 설치한 후 교체 컨트롤러의 IP 주소를 확인하고 컨트롤러를 온라인 상태로 전환한 다음 스토리지 시스템 상태가 최적인지 확인하십시오.</block>
+  <block id="596db6c24eb9e12a170f6a7b400b16e8" category="doc">교체 컨트롤러를 온라인으로 전환 - EF50 및 EF80</block>
+  <block id="f6eeb21c85181baceb1efe4944921a82" category="paragraph">EF50 또는 EF80 스토리지 시스템의 교체 컨트롤러를 설치한 후 해당 컨트롤러의 IP 주소를 확인하고, 컨트롤러를 온라인 상태로 전환한 다음, 스토리지 시스템 상태가 최적인지 확인하십시오.</block>
+  <block id="a61002aab76d792f612bedb7d53fdd4f" category="inline-link-macro">컨트롤러 교체를 완료합니다</block>
+  <block id="ab0cc7192570c60edb959133170bce4a" category="paragraph">새 컨트롤러를 온라인에 연결한 후 <block ref="867cf5cb10011fd216b1c24383b0303a" category="inline-link-macro-rx"></block>.</block>
+  <block id="920518de31657059b4af98be4e467165" category="summary">교체용 컨트롤러의 포장을 풀고 부품 번호가 올바른지 확인한 다음 구성 데이터베이스를 백업하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체할 준비를 하십시오.</block>
+  <block id="363003c031f52760e90e0fb1284fdefd" category="doc">컨트롤러 교체 준비 - EF50 및 EF80</block>
+  <block id="23182ac7189b12133b9a6f5a17fdb931" category="paragraph">교체용 컨트롤러의 포장을 풀고 MAC 주소를 기록하고 부품 번호가 올바른지 확인한 다음 스토리지 시스템의 구성 데이터베이스를 백업하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체할 준비를 하십시오.</block>
+  <block id="14db85beb6439163bd9a3227e2e04e91" category="inline-link-macro">손상된 컨트롤러를 오프라인으로 전환합니다</block>
+  <block id="c71f02ba1917135ea53e6af0e26795fd" category="paragraph">컨트롤러 교체를 준비한 후 <block ref="911e69b58a894f7ac5b57ca9f4b1508e" category="inline-link-macro-rx"></block>.</block>
+  <block id="fb081072ce2cc9988433d80f3b47bbb0" category="summary">EF50 또는 EF80 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 요구 사항을 충족하는지 확인하십시오. 여기에는 고장난 컨트롤러가 있는지 확인하고, 스토리지 시스템의 상태를 확인하고, 절차에 필요한 도구를 확보하고, SANtricity System Manager에 액세스할 수 있는 관리 스테이션과 브라우저를 준비하는 것이 포함됩니다.</block>
+  <block id="63d771a32f33c4067d74aa663218f475" category="doc">컨트롤러 교체 요구 사항 - EF50 및 EF80</block>
+  <block id="c7ae60c36e5dd3e8b2951d1153d89ab3" category="paragraph">EF50 또는 EF80 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 요구 사항을 충족하는지 확인하십시오. 여기에는 고장난 컨트롤러가 있는지 확인하고, 스토리지 시스템의 상태를 확인하고, 절차에 필요한 항목을 확보하고, SANtricity System Manager에 액세스할 수 있는 관리 스테이션과 브라우저가 있어야 합니다.</block>
+  <block id="548802e3445e480c774adf86b3c9d40d" category="inline-link-macro">컨트롤러 교체 준비</block>
+  <block id="2f1a84cd73a9d1b253690cee5a996165" category="paragraph">컨트롤러 교체 요건을 충족한 후 <block ref="eeedf715164715cd0f13218b7869f59b" category="inline-link-macro-rx"></block>.</block>
+  <block id="2a9a93ea6f0bd977cebbea5c7c3931ef" category="summary">스토리지 시스템 요구 사항을 충족하고, 시스템을 준비하고, 손상된 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 교체하고, 새 컨트롤러를 온라인으로 전환하고, 교체 프로세스를 완료하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체할 수 있습니다.</block>
+  <block id="cbdd046cb437c2ec3b44256dfde2ff5b" category="doc">컨트롤러 교체 워크플로 - EF50 및 EF80</block>
+  <block id="cc7b6ad2b5c5cf984ed2b31eb7cdec78" category="inline-link-macro">컨트롤러 교체 요구 사항을 검토하십시오</block>
+  <block id="63d82565e7082940cd04e84427b25ae7" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="fda781847f9aa68393ef9eb97f6097de" category="inline-link-macro-rx"></block></block>
+  <block id="406f1172b9d2b0ceb171aea9558a5a68" category="paragraph">스토리지 시스템에 장애가 발생한 컨트롤러가 있는지 확인하고, 스토리지 시스템의 상태를 확인하고, 절차에 필요한 도구를 확보하고, SANtricity System Manager에 액세스할 수 있는 관리 스테이션과 브라우저를 준비하십시오.</block>
+  <block id="5bd0e0ff93ea373fce6b434f7436e2b8" category="inline-link-macro">컨트롤러 교체 준비</block>
+  <block id="391ae3365d58e10f91759a9aed8f49ee" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="170cecc50318f7282077b231093216e9" category="inline-link-macro-rx"></block></block>
+  <block id="9f28a5a587a125c78a342f11c6c7d227" category="paragraph">교체용 컨트롤러를 개봉하고 MAC 주소를 기록해 두고 부품 번호가 올바른지 확인한 후 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="8d3f4062332015f6157b0ecad22a9d48" category="inline-link-macro">손상된 컨트롤러를 오프라인으로 전환합니다</block>
+  <block id="1ccf90cd5ac66fe6dd1f867874ed8b64" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="1193faafc7e0c8a7a7983a858e7e42c7" category="inline-link-macro-rx"></block></block>
+  <block id="e28eab3bed314967d77bc7840a0d700f" category="paragraph">손상된 컨트롤러를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 손상된 컨트롤러를 오프라인으로 전환하십시오.</block>
+  <block id="ae12cdf9e27ddc4e5b3ed69b1b80df01" category="inline-link-macro">손상된 컨트롤러를 교체합니다</block>
+  <block id="c9e0c8f787b4607f27a6dfd442f2195a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="45ea655895c2ecbabc8c7c647a3a6896" category="inline-link-macro-rx"></block></block>
+  <block id="d71f29ff8580c48c94518a4a3d3a4702" category="paragraph">캐시 메모리의 데이터가 드라이브에 기록되었는지 확인하고, 손상된 컨트롤러에서 모든 케이블을 분리하고, 컨트롤러를 제거하고, 구성 요소를 교체용 컨트롤러로 옮기고, 교체용 컨트롤러를 설치한 후 모든 케이블을 다시 연결하십시오.</block>
+  <block id="aec26d175b38820660573a49cf1f9f18" category="inline-link-macro">교체 컨트롤러를 온라인으로 전환합니다</block>
+  <block id="4ea338eb0a5f7427049ef44a30f11300" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="35702f6a9f1e3e47496742aca90b9ed6" category="inline-link-macro-rx"></block></block>
+  <block id="ec93f19c8004dc2ae1888fbff37617b8" category="paragraph">교체 컨트롤러의 IP 주소를 확인하고, 컨트롤러를 온라인 상태로 전환한 후, 스토리지 시스템 상태가 최적인지 확인하십시오.</block>
+  <block id="f4750e6ebd93a7a7ed78133f680ffe16" category="inline-link-macro">컨트롤러 교체 완료</block>
+  <block id="9b45b4bd50c50f33264d635b111c66e7" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block><block ref="fb1d229074231f8b8a434041a80b00f6" category="inline-link-macro-rx"></block></block>
+  <block id="570aef57cad2607bde75709d4a86e944" category="paragraph">최신 버전의 SANtricity OS가 설치되어 있는지 확인하고, 볼륨이 해당 컨트롤러로 반환되었는지 확인하고, 시스템 지원 데이터를 수집한 후, 고장난 부품을 NetApp으로 반환하십시오.</block>
+  <block id="383ef5177a54d7409b9e3c66bbdd00ca" category="summary">EF50 또는 EF80 스토리지 시스템에서 DIMM이 고장났거나, 최적의 상태가 아니라고 보고되거나, 용량이 일치하지 않는 경우 DIMM을 교체하십시오.</block>
+  <block id="4ba23e997e0cdc38baff6119bdd2115e" category="doc">DIMM 교체 - EF50 및 EF80</block>
+  <block id="127fa4a95ea776482897ccf0f46f143e" category="list-text">DIMM을 교체하려면 교체가 필요한지 확인하고, 준비 작업을 한 후, 손상된 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 제거하고, DIMM을 교체하고, 컨트롤러를 다시 설치하고, 온라인 상태로 전환하고, 교체를 완료한 다음, 고장난 부품을 NetApp에 반환합니다.</block>
+  <block id="4abfd4171ab973970a9c4d4bb9f0dcc4" category="paragraph">DIMM에 장애가 발생하거나, 최적의 상태가 아니라고 보고되거나, 용량이 일치하지 않는 경우 교체하십시오.</block>
+  <block id="c4576758d1a1108466321398e70b5733" category="paragraph">DIMM을 교체하기 전에 다른 스토리지 시스템 문제가 없는지 확인하고, 볼륨이 올바른 상태인지 확인하고, 필요한 도구와 장비를 준비하고, 정전기 방전을 방지하기 위한 예방 조치를 취하고, 스토리지 시스템의 구성 데이터베이스를 백업해야 합니다.</block>
+  <block id="eb86ff3cf478c1fcc648fa0ff4dfd4cb" category="section-title">3단계: 컨트롤러를 오프라인 상태로 전환합니다</block>
+  <block id="83ed3aef216a1c44b0fcf6e080809513" category="paragraph">이 절차의 나머지 부분을 안전하게 수행할 수 있도록 손상된 컨트롤러를 오프라인 상태로 전환하십시오.</block>
+  <block id="0418da6a466979d1781efe4f90178456" category="section-title">4단계: 컨트롤러 제거</block>
+  <block id="1ec9f66f0279da06042fe67fa7091043" category="section-title">5단계: DIMM 교체</block>
+  <block id="7942179afa9cc7db8c6e78df8351e369" category="paragraph">장애가 발생한 컨트롤러 내부의 결함이 있는 DIMM을 찾아 교체하십시오.</block>
+  <block id="498d0f96d2f0bf809b02158e756b9b7e" category="section-title">6단계: 컨트롤러를 다시 설치합니다</block>
+  <block id="9d2e538f87568cc8ea2f61ac14aeca34" category="paragraph">컨트롤러를 섀시에 다시 설치하고 전원 코드와 모든 케이블을 다시 연결하십시오.</block>
+  <block id="14e65a354dbea722cf5bf7e256aabd16" category="section-title">7단계: 컨트롤러를 온라인 상태로 전환합니다</block>
+  <block id="e63100abf181cb74cc24fbd0bf3b20b8" category="section-title">8단계: DIMM 교체를 완료합니다</block>
+  <block id="2324c9ff8290e7aacd93f5339cfc2986" category="section-title">9단계: 불량 부품을 NetApp에 반환합니다</block>
+  <block id="38b6c237ab61ba051247de5055885fbe" category="summary">EF50 또는 EF80 스토리지 시스템에서 드라이브에 장애가 발생하거나 업그레이드가 필요한 경우 드라이브를 교체하십시오.</block>
+  <block id="b128b09f0503f3acadbab3ce838606d3" category="doc">드라이브 교체 - EF50 및 EF80</block>
+  <block id="d73077f8b1eb74e5877c54065699aa12" category="paragraph">EF50 또는 EF80 스토리지 시스템이 I/O를 수신하는 동안 고장난 드라이브를 교체하여 지속적인 데이터 액세스 및 시스템 성능을 보장하십시오.</block>
+  <block id="7167e6fb601eb461220ee6f5d0e38e0a" category="list-text">드라이브를 교체하려면 준비 작업을 거쳐 드라이브를 교체하고, 교체를 완료한 다음 고장난 부품을 NetApp에 반환합니다.</block>
+  <block id="308f69e1eee5c954dd187a6972a6cb9e" category="list-text">SANtricity System Manager의 Recovery Guru는 스토리지 시스템의 드라이브를 모니터링하고 드라이브 오류가 임박했거나 실제로 오류가 발생했을 때 사용자에게 알림을 보냅니다. 드라이브에 오류가 발생하면 주의(황색) LED가 켜집니다.</block>
+  <block id="627ea20fba0ea612727b7cb7f0ea0aae" category="summary">팬에 장애가 발생하거나 효율적으로 작동하지 않을 경우 EF50 또는 EF80 스토리지 시스템의 팬 모듈을 교체하십시오. 이는 시스템 냉각 및 전체 시스템 성능에 영향을 줄 수 있습니다.</block>
+  <block id="dd25df4834294fa25b6149163a4481d5" category="doc">팬 모듈 교체 - EF50 및 EF80</block>
+  <block id="1745642b329ee9ae6c4d423166d61ff9" category="list-text">팬을 교체하려면 준비 작업을 하고, 고장난 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 제거하고, 팬을 교체하고, 컨트롤러를 다시 설치하고, 온라인 상태로 전환하고, 교체를 완료한 다음 고장난 부품을 NetApp에 반환합니다.</block>
+  <block id="9b6957f30022c30a17cb5d4361b12eae" category="list-text">각 컨트롤러에는 5개의 팬이 포함되어 있습니다. 팬이 고장 나면 컨트롤러의 적절한 냉각을 위해 가능한 한 빨리 교체해야 합니다.</block>
+  <block id="96336de8c1578c91e716fcd8afc5a855" category="section-title">1단계: 팬 교체 준비</block>
+  <block id="37856465ba7a20bffd2493fa67e0178b" category="paragraph">팬을 교체하려면 교체가 가능한지 확인하고, 필요한 도구와 장비를 준비하고, 스토리지 시스템의 구성 데이터베이스를 백업해야 합니다.</block>
+  <block id="ae28e006d886fe6332498f4bda14e9bc" category="section-title">2단계: 컨트롤러를 오프라인 상태로 전환합니다</block>
+  <block id="a9c0cea0fa970dd78f5c9b732ed7af82" category="section-title">3단계: 컨트롤러 제거</block>
+  <block id="4842d95adb9f7f65ba953748bf6ac5e2" category="section-title">4단계: 팬 교체</block>
+  <block id="c565b1a4941f31e00246773e5d05fb49" category="paragraph">손상된 컨트롤러 내부의 결함이 있는 팬을 찾아 교체하십시오.</block>
+  <block id="930eb6bbec480c5ceef6aa27e8f5aeda" category="section-title">5단계: 컨트롤러 재설치</block>
+  <block id="6f50fb2bdac922e7170a0ddac9c7c205" category="section-title">6단계: 컨트롤러를 온라인 상태로 전환합니다</block>
+  <block id="d4410b5505d1c8c1a6788f6153eff488" category="section-title">7단계: 팬 교체 완료</block>
+  <block id="e81625c6f6813a6e5480c2987f5bd781" category="section-title">8단계: 불량 부품을 NetApp에 반환합니다</block>
+  <block id="289df06b8febb4ba9dab3e2d96e1d3df" category="summary">기존 I/O 모듈에서 다른 프로토콜이 필요하거나, I/O 모듈 업그레이드의 일환으로, 또는 새 스토리지 시스템 설치나 컨트롤러 업그레이드의 일부인 새 컨트롤러의 기본 프로토콜이 원하는 프로토콜이 아닌 경우 EF50 또는 EF80 스토리지 시스템의 호스트 I/O 모듈에서 프로토콜을 변경할 수 있습니다.</block>
+  <block id="dd4a92791444f756affba1a26a443eee" category="doc">호스트 I/O 모듈 프로토콜 변경 - EF50 및 EF80</block>
+  <block id="4f0cc4f2a03a1631ef31204775a0d1e8" category="paragraph">하드웨어 절차(I/O 모듈 업그레이드, 새 시스템 설치 또는 컨트롤러 업그레이드)의 일환으로 호스트 프로토콜을 변경하는 경우 해당 하드웨어 절차를 완료해야 합니다.</block>
+  <block id="13e885e99d8fdc4ea504754a9295e124" category="admonition">기본 프로토콜 및 사용 가능한 프로토콜 목록(이 절차에서 확인)은 현재 설치된 호스트 I/O 모듈을 기반으로 하므로 새 하드웨어가 이미 설치되어 있어야 합니다.</block>
+  <block id="accd5899181dedbb31fd58f7f6e12d94" category="cell">호스트 프로토콜을 변경하는 경우...</block>
+  <block id="2c3909128c6ceedef97f5a05a1bd2bc2" category="paragraph">기존 호스트 I/O 모듈에서(새로운 하드웨어를 설치할 필요가 없습니다)</block>
+  <block id="6a58d5f6ed9134ff245eb1172f368af9" category="paragraph">이 절차를 계속 진행하십시오.</block>
+  <block id="045ce4df55a28d4fac9a9dbae23e1f97" category="paragraph">I/O 모듈 업그레이드의 일환으로</block>
+  <block id="f58a456bbd4f564af406f58dafcbe908" category="paragraph">이 절차를 계속 진행하기 전에 호스트 I/O 모듈을 업그레이드하십시오.</block>
+  <block id="ee562414bdcbb36fc239765997d6ccc9" category="inline-link-macro">EF50 또는 EF80용 I/O 모듈 업그레이드</block>
+  <block id="91b04b48455b88cb067b358ee56b37c7" category="paragraph"><block ref="5f90355ca8ba90bc4c6c34291e857534" category="inline-link-macro-rx"></block> 절차를 사용하십시오.</block>
+  <block id="0975e62816b46fb66331e466cd678aee" category="paragraph">새로운 스토리지 시스템 설치의 일환으로</block>
+  <block id="ab507d8ac4de89c807db351bd7b994de" category="paragraph">이 절차를 계속하기 전에 시스템 설치 및 설정을 완료하십시오.</block>
+  <block id="2c7b646ea0004b99baf4e86a5c006ca4" category="inline-link-macro">EF50 또는 EF80 설치 및 설정</block>
+  <block id="80f5d3fd8e0543d6156ca0af4a65ab6d" category="paragraph"><block ref="5bc7e0b3ef0c2e4b7ad3897c10d8bbc7" category="inline-link-macro-rx"></block> 절차를 사용하십시오.</block>
+  <block id="a2eb841f561d6293a3006e8281b799d9" category="paragraph">컨트롤러 업그레이드의 일환으로</block>
+  <block id="eb901a70ea1458a28ab0d07be1278180" category="paragraph">이 절차를 계속하기 전에 컨트롤러 업그레이드를 완료하십시오.</block>
+  <block id="21bd9aea1b8d512de2b6a4057c816acc" category="paragraph"><block ref="9cd12a65522d368cb718912c4777f627" category="inline-link-macro-rx"></block> 절차부터 시작하세요.</block>
+  <block id="82cad080f04aa6a2f5b09355f1c92238" category="list-text">호스트 I/O 모듈의 프로토콜을 변경하려면 호스트 I/O 작업을 준비하고 중지한 다음 프로토콜을 변경하고 호스트를 구성하여 새 프로토콜을 사용하도록 해야 합니다.</block>
+  <block id="8f8c2babd694314cdd77d5ad0b67c342" category="list-text">프로토콜이 스토리지 시스템의 모든 호스트 I/O 모듈에서 변경됩니다.</block>
+  <block id="4c9b71bb189ece048356461b1775be6f" category="list-text">호스트 I/O 모듈의 프로토콜을 변경하면 모든 볼륨에 대한 호스트 액세스가 일시적으로 중단되고 재부팅하는 동안 스토리지 시스템을 사용할 수 없게 되며, 재부팅에는 몇 분이 소요됩니다.</block>
+  <block id="33296abf5a1642af31a4d756f85cb169" category="section-title">1단계: 프로토콜 변경 준비</block>
+  <block id="6970ce3288781a5f5f4bb687b7a43bbc" category="paragraph">호스트 I/O 모듈의 프로토콜을 변경하기 전에 현재 사용 중인 프로토콜을 확인하고, 프로토콜 변경이 필요한지 판단한 후, 필요한 경우 다운타임 유지보수 윈도우를 예약하십시오.</block>
+  <block id="41d72c8d647ea7b0a9aad9c594d3c098" category="section-title">2단계: 호스트 I/O 작업 중지</block>
+  <block id="d87d058614a637dca18e8276b72b4d60" category="paragraph">프로토콜을 변경하기 전에 호스트의 모든 I/O 작업을 중지하고 스토리지 시스템에서 정의된 모든 호스트를 삭제해야 합니다.</block>
+  <block id="8323bec76d3c20c5ff905fad50e89c4f" category="admonition">프로토콜 변경을 성공적으로 완료할 때까지 스토리지 시스템의 데이터에 액세스할 수 없습니다.</block>
+  <block id="0c5fc7de27442b2cafd032bc7294a088" category="section-title">3단계: 프로토콜 변경</block>
+  <block id="f281568467abf1639273a9b57450f6c3" category="paragraph">SANtricity System Manager를 사용하여 호스트 I/O 모듈의 프로토콜을 변경하고 컨트롤러가 재부팅 주기를 완료할 때까지 기다린 후 상태가 최적인지 확인하고 호스트 정의를 다시 생성하십시오.</block>
+  <block id="9b2d6660ebdf1089f3521ca4c1853164" category="section-title">4단계: 새 프로토콜을 사용하도록 호스트를 구성합니다</block>
+  <block id="71f734bf869da0d12308b9e2aa7ccbf6" category="paragraph">호스트 프로토콜을 변경한 후에는 새 프로토콜을 사용하도록 호스트를 구성해야 합니다.</block>
+  <block id="a4d73645f4e06cae14a4fd28121eea4b" category="summary">EF50 및 EF80 스토리지 시스템은 I/O 모듈을 업그레이드하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다.</block>
+  <block id="9d4faf90fbf60d477b0252d81536f322" category="doc">I/O 모듈 유지보수 개요 - EF50 및 EF80</block>
+  <block id="9210272fa91df110b4b0c5eee37e7f61" category="paragraph">EF50 및 EF80 스토리지 시스템은 I/O 모듈을 교체하거나 업그레이드하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다.</block>
+  <block id="00015974de1f6f69c16403a005f48582" category="inline-link-macro">I/O 모듈 교체</block>
+  <block id="b49ba47015c67eae9f182326198621a4" category="list-text"><block ref="b49ba47015c67eae9f182326198621a4" category="inline-link-macro-rx"></block></block>
+  <block id="c53f3fdfaf55dd8048784ee561500f34" category="paragraph">스토리지 시스템의 I/O 모듈에 오류가 발생하면 동일한 유형의 I/O 모듈로 교체하여 스토리지 시스템을 최적의 작동 상태로 복원할 수 있습니다.</block>
+  <block id="4e2509f697c3b8d1e846cd633039ad0b" category="inline-link-macro">I/O 모듈 업그레이드</block>
+  <block id="84e5d72d80fde0676199c46e2d62e76e" category="list-text"><block ref="84e5d72d80fde0676199c46e2d62e76e" category="inline-link-macro-rx"></block></block>
+  <block id="26792491722e67c8f579995d575d9703" category="paragraph">스토리지 시스템의 I/O 모듈을 업그레이드하여 호스트 포트 수를 늘려 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장할 수 있습니다.</block>
+  <block id="fa2188ad1fdb23ca79cea5e526d0ee2e" category="summary">EF50 또는 EF80 스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈로 교체하여 스토리지 시스템을 최적의 작동 상태로 복원하십시오.</block>
+  <block id="6aafc28ff0b06c5d0635130532d5a922" category="doc">I/O 모듈 교체 - EF50 및 EF80</block>
+  <block id="4831d2fac0f25621f059a75ed94f686b" category="list-text">I/O 모듈을 교체하려면 먼저 준비 작업을 수행한 후, 고장난 컨트롤러를 오프라인으로 전환하고, 고장난 I/O 모듈을 교체한 다음, 컨트롤러를 다시 온라인 상태로 전환하고, 고장난 부품을 NetApp에 반환합니다.</block>
+  <block id="eda0698c7dcadcd604c916d474645b48" category="list-text">이 절차에서는 호스트 인터페이스 카드(HIC) 대신 _I/O 모듈_ 이라는 용어를 사용합니다.</block>
+  <block id="80c20b828151ee676b7b9618527dbfbb" category="list-text">I/O 모듈 오류 LED(4개 슬롯 모두)가 작동하지 않습니다. 항상 꺼져 있으므로 오류 상태를 확인하는 데 사용할 수 없습니다.</block>
+  <block id="4f3037ddb5c9b6c7a68504b5c92b8c80" category="paragraph">오류 LED는 컨트롤러에 위치해 있습니다. 슬롯 1과 2의 오류 LED는 슬롯 2의 오른쪽에 있습니다. 슬롯 3과 4의 오류 LED는 슬롯 4의 왼쪽에 있습니다.</block>
+  <block id="8fa282433ed64f048c8bda03d8c3a8f4" category="list-text">손상된 컨트롤러는 컨트롤러가 제자리에 있는 상태에서 I/O 모듈에 액세스할 수 있으므로 섀시에서 제거할 필요가 없습니다.</block>
+  <block id="b54d41dcdc297a1d3c688a796c1c2988" category="list-text">I/O 모듈 케이블을 분리하기 전에 손상된 컨트롤러를 오프라인 상태로 전환해야 합니다.</block>
+  <block id="ef40daf4e99aa85c10b93245bfa2428b" category="section-title">1단계: I/O 모듈 교체 준비</block>
+  <block id="4a17540b2871c5addffeb5305fe834ca" category="paragraph">I/O 모듈 교체를 준비하려면 필요한 도구와 장비를 준비하고 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="20408433c451f2765ea5960cbacdd5e1" category="section-title">3단계: I/O 모듈 교체</block>
+  <block id="f3d50818205db1d23cdaed8b0e86c827" category="paragraph">장애가 발생한 I/O 모듈에서 케이블을 분리하고 교체용 I/O 모듈로 교체한 다음 교체용 I/O 모듈에 케이블을 연결합니다.</block>
+  <block id="befdd23853982bc09987fc78ea428e05" category="section-title">4단계: 컨트롤러를 온라인 상태로 전환합니다</block>
+  <block id="440fc355bde6ccb740bf9a234b02fb78" category="section-title">5단계: I/O 모듈 교체를 완료합니다</block>
+  <block id="d099df7ce339c15abb7692668d035fea" category="section-title">6단계: 고장난 부품을 NetApp에 반환합니다</block>
+  <block id="f2292d18df84a927d0a755993bb3e79a" category="summary">EF50 또는 EF80 스토리지 시스템의 I/O 모듈을 업그레이드하여 호스트 포트 수를 늘려 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장할 수 있습니다.</block>
+  <block id="e3d06cd515ac1a713a4b65d4d9fedf14" category="doc">I/O 모듈 업그레이드 - EF50 및 EF80</block>
+  <block id="7d75a38e03bd858df8db3610fb3acd51" category="list-text">기존 I/O 모듈을 교체하거나 사용하지 않는 I/O 슬롯에 I/O 모듈을 추가하여 I/O 모듈을 업그레이드할 수 있습니다.</block>
+  <block id="bfeba3c88f2dd8e9ae01db5901cb206f" category="paragraph">사용하지 않는 I/O 슬롯에는 열 문제 발생 가능성을 방지하고 EMC 규정 준수를 위해 블랭킹 모듈을 설치해야 합니다.</block>
+  <block id="6585307bb8265d1b09829c194403a0c5" category="list-text">I/O 모듈 업그레이드는 준비 작업 후 두 컨트롤러의 전원을 끄고, 두 컨트롤러의 I/O 모듈을 업그레이드한 다음, 두 컨트롤러의 전원을 켜고, 업그레이드가 성공했는지 확인하고, 필요한 경우 호스트 I/O 모듈 프로토콜을 확인하고 변경하는 방식으로 진행합니다.</block>
+  <block id="313b01d3c012a9b875daa679af1fd1e7" category="paragraph">컨트롤러가 제자리에 있는 상태에서도 I/O 모듈에 액세스할 수 있으므로 컨트롤러를 섀시에서 제거할 필요가 없습니다.</block>
+  <block id="6a9a54592c082a4d23eb9e7d33336774" category="list-text">I/O 모듈 케이블을 분리하기 전에 두 컨트롤러의 전원을 모두 꺼야 합니다.</block>
+  <block id="942a0d6d365ab89aa795546b027df675" category="section-title">1단계: I/O 모듈 업그레이드 준비</block>
+  <block id="fae136faafe232f4c4c3c8658cf61083" category="paragraph">I/O 모듈 업그레이드를 준비하려면 유지보수 윈도우를 예약하고, 필요한 도구와 장비를 준비하고, 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="b8a7b4e576fb6085fc7818fc9cb8c107" category="section-title">2단계: 두 컨트롤러의 전원을 모두 끕니다</block>
+  <block id="a0cebc91cd2b7996fba58618827eb72a" category="paragraph">스토리지 시스템의 두 컨트롤러를 모두 끄면 두 컨트롤러의 I/O 모듈을 안전하게 업그레이드할 수 있습니다.</block>
+  <block id="5c015311100b4946d20548386d241f50" category="section-title">3단계: I/O 모듈 업그레이드</block>
+  <block id="be1eb8f42694658bd7278f9f7905158c" category="paragraph">업그레이드할 I/O 모듈에서 케이블을 분리하고(I/O 블랭킹 모듈이 있는 경우는 제외), 기존 I/O 모듈 또는 I/O 블랭킹 모듈을 새 I/O 모듈로 교체한 다음 새 I/O 모듈에 케이블을 연결하십시오.</block>
+  <block id="0c3d18807d72e6a0351a3c2e490bcc31" category="section-title">4단계: 두 컨트롤러의 전원을 켭니다</block>
+  <block id="ad6f3292eff5c6b917f69ae8c2ddbac6" category="paragraph">두 컨트롤러의 전원을 모두 켭니다.</block>
+  <block id="3a959d60be14e56f6c7451b1cfba02bb" category="section-title">5단계: I/O 모듈 업그레이드 완료</block>
+  <block id="31b3537334efd47611c131002c33e74d" category="paragraph">SANtricity System Manager를 사용하여 최신 버전의 SANtricity OS가 설치되었는지 확인하고, 모든 볼륨이 해당 소유 컨트롤러로 반환되었는지 확인하고, 운영을 재개할 수 있도록 지원 데이터를 수집하고, 필요한 경우 호스트 I/O 모듈 프로토콜을 확인하고 변경하십시오.</block>
+  <block id="f92ca7c242e5a71bd3eb549d5c5bcb20" category="summary">장기적인 안정성과 최적의 성능을 보장하기 위해 EF50 또는 EF80 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 구성요소를 교체하는 등의 정기적인 유지보수 작업을 수행하면 다운타임과 데이터 손실을 방지할 수 있습니다.</block>
+  <block id="862bd6d24dd0f13ccfd37178cbd8bf90" category="doc">유지보수 절차 개요 - EF50 및 EF80</block>
+  <block id="fb0c3f0aa959723c48eb4727c35a9046" category="paragraph">유지 관리 절차는 EF50 또는 EF80 스토리지 시스템이 이미 SANtricity 환경에 배포되었다고 가정합니다.</block>
+  <block id="82ffa69e587186e368733ebdc76144cb" category="paragraph">EF50 또는 EF80 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="9bbf373797bf7cf7ba62c80023682e25" category="inline-link-macro">컨트롤러</block>
+  <block id="dceb619599d0aa6d9d89d0abf54e0b37" category="paragraph"><block ref="dceb619599d0aa6d9d89d0abf54e0b37" category="inline-link-macro-rx"></block></block>
+  <block id="683e240b7b471a69fe0c3c498ffcd133" category="paragraph">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 SANtricity 운영 체제 소프트웨어를 실행합니다.</block>
+  <block id="cf3978c4f41003aa5f5fa0b3f484dfbe" category="inline-link-macro">DIMM</block>
+  <block id="57a64598a9ce65521278654300cbc21d" category="paragraph"><block ref="57a64598a9ce65521278654300cbc21d" category="inline-link-macro-rx"></block></block>
+  <block id="577d2d3976799dbcd1fc23ee08a572cc" category="paragraph">듀얼 인라인 메모리 모듈(DIMM)은 컴퓨터 메모리의 한 종류입니다. 컨트롤러 마더보드에 시스템 메모리를 추가하기 위해 설치됩니다.</block>
+  <block id="f2c6151d6c0d99f3666129b97e2100f5" category="inline-link-macro">드라이브</block>
+  <block id="5d7bf1cac3020aecc9e419835da60990" category="paragraph"><block ref="5d7bf1cac3020aecc9e419835da60990" category="inline-link-macro-rx"></block></block>
+  <block id="8c2694371a75dd052d8b2e0cd66496fc" category="paragraph">드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.</block>
+  <block id="add0180387a0985c32471180b375b8d9" category="inline-link-macro">팬</block>
+  <block id="48fa76b6ceef78de919d0c14de5c1e8e" category="paragraph"><block ref="48fa76b6ceef78de919d0c14de5c1e8e" category="inline-link-macro-rx"></block></block>
+  <block id="90173eb1ed454afdf58b9269bb20c2b9" category="paragraph">팬이 컨트롤러와 드라이브를 냉각합니다.</block>
+  <block id="6dc123cb91289ee9a0c4db08f205d8dc" category="inline-link-macro">I/O 모듈</block>
+  <block id="1cec3a4ecd2d4b7c8580770e953af5c3" category="paragraph"><block ref="1cec3a4ecd2d4b7c8580770e953af5c3" category="inline-link-macro-rx"></block></block>
+  <block id="807b26d7111f209057a30d265b88f6ae" category="paragraph">I/O 모듈(입출력 모듈)은 컨트롤러와 컨트롤러와 데이터를 교환해야 하는 다양한 장치 또는 시스템 사이에서 중개자 역할을 하는 하드웨어 구성 요소입니다.</block>
+  <block id="d138e90428f37a60387c8577b6e009b8" category="inline-link-macro">NV 배터리</block>
+  <block id="42e36784b087ac0d890c7f6dabed6982" category="paragraph"><block ref="42e36784b087ac0d890c7f6dabed6982" category="inline-link-macro-rx"></block></block>
+  <block id="7399f29b34d3f088dfc5e1147d31fb9f" category="paragraph">비휘발성 메모리(NVMEM) 배터리는 전원 손실 후 전송 중인 데이터가 플래시 메모리로 옮겨지는 동안 NVMEM 구성 요소에 전원을 공급하는 역할을 합니다.</block>
+  <block id="95ab97eb0fe2b20f23eb848c59d681ac" category="paragraph"><block ref="95ab97eb0fe2b20f23eb848c59d681ac" category="inline-link-macro-rx"></block></block>
+  <block id="517e65cbfa02ca306eec69200485822d" category="paragraph">전원 공급 장치는 컨트롤러에 이중 전원을 제공합니다.</block>
+  <block id="3d7672bcb38d18989e39f972e1f11656" category="summary">EF50 또는 EF80 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장 나기 시작하면 교체하십시오.</block>
+  <block id="d8c568441978a950cb6bffddff68ef00" category="doc">NV 배터리 교체 - EF50 및 EF80</block>
+  <block id="e88aa91b6c2cdd74449e01fb276220d4" category="list-text">NV 배터리를 교체하려면 준비 작업을 거쳐 고장난 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 제거하고, 배터리를 교체하고, 컨트롤러를 다시 설치하고, 온라인 상태로 전환하고, 교체를 완료한 후 고장난 부품을 NetApp에 반환합니다.</block>
+  <block id="80e937eeb581acc45452bbd5771394ad" category="section-title">1단계: NV 배터리 교체 준비</block>
+  <block id="456b055ed2f4157d2dfa8258fdc82373" category="paragraph">NV 배터리를 교체하려면 NV 배터리 교체가 필요한지 확인하고, 해결해야 할 다른 스토리지 시스템 문제가 없는지 확인하고, 볼륨이 올바른 상태인지 확인하고, 필요한 도구와 장비를 준비하고, 스토리지 시스템의 구성 데이터베이스를 백업하십시오.</block>
+  <block id="35d08c0779d9e8f3a641ec1a7f861a7d" category="section-title">4단계: NV 배터리 교체</block>
+  <block id="b872d46d1b1391643aea9ed8377ec3e1" category="paragraph">손상된 컨트롤러 내부의 결함이 있는 NV 배터리를 찾아 교체하십시오.</block>
+  <block id="8bd15bb00c8a8a4e533704a40a89b456" category="section-title">7단계: NV 배터리 교체를 완료합니다</block>
+  <block id="349183e8ca3928a2b870cc77a10e1248" category="summary">EF50 또는 EF80 스토리지 시스템의 전원 공급 장치(PSU)가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 지속적으로 공급받도록 하십시오.</block>
+  <block id="dceeff04d941cbb6cd1ccef359f31bcc" category="doc">전원 공급 장치 교체 - EF50 및 EF80</block>
+  <block id="37cc75713523b3a835397946c3cd7732" category="list-text">Recovery Guru에서 세부 정보를 검토하여 전원 공급 장치에 문제가 있는지 확인하십시오.</block>
+  <block id="654ef16eef9220dfb025e429508a6e88" category="list-text">전원 공급 장치의 주의(황색) LED가 켜져 있는지 확인하십시오. 이는 전원 공급 장치 또는 내장 팬에 결함이 있음을 나타냅니다.</block>
+  <block id="2a05f53d4bb59b1be52dceab0bed35c9" category="paragraph">Recovery Guru에서 *다시 확인*을 선택하여 다른 문제가 있는지 확인하십시오.</block>
+  <block id="74e6d9631e10aa772749f20a5a8dc455" category="list-text">교체 전원 공급 장치.</block>
+  <block id="02bd64844fca45ee306a2ba6447ae65a" category="list-text">전원 공급 장치에 장애가 발생하면 스토리지 시스템에 이중화된 전원이 확보되도록 가능한 한 빨리 교체해야 합니다.</block>
+  <block id="65937acdb7ff33c26f402341b49fbd3d" category="list-text">전원 코드를 결함이 있는 PSU에서 뽑고 교체한 다음 전원 코드를 다시 연결하여 전원 공급 장치를 교체하십시오.</block>
+  <block id="ac00a3fbb58d5d1ef60315598a07c427" category="image-alt">탭을 눌러 배터리 잠금 해제</block>
+  <block id="3c05df7462b23b6c10e264df1a62b979" category="paragraph"><block ref="3c05df7462b23b6c10e264df1a62b979" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd4cb93e7de73428d0302a4304ba8680" category="paragraph"><block ref="bd4cb93e7de73428d0302a4304ba8680" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1901d33751b197b105a90f9b18a4dea2" category="list-text">SANtricity System Manager에서 메뉴: Storage[Operations in Progress]를 선택합니다. 모든 작업이 완료될 때까지 기다린 후 다음 단계로 진행하십시오.</block>
+  <block id="98d0f7dd59308ff3880b540cac190b75" category="list-text">*Support Resources* 타일을 선택하세요.</block>
+  <block id="f387869f7a557e1cc8219cc95cc27aab" category="list-text">SANtricity System Manager의 홈 페이지에서 menu:Storage[Operations in Progress]를 선택합니다.</block>
+  <block id="677e17d0f6af629e3c51089d951e8804" category="list-text">SANtricity System Manager 홈 페이지에서 메뉴:스토리지[진행 중인 작업]을 선택합니다. 모든 작업이 완료될 때까지 기다린 후 다음 단계로 진행하십시오.</block>
+  <block id="de358e2366c759734e9ef11bca18e0f0" category="section-title">EF50, EF80 및 E4000 플랫폼 TR</block>
+  <block id="8fadf6f06c1c7141b3d1d50a3f04de9b" category="inline-link">*TR-5017: EF80 어레이 기능 개요*</block>
+  <block id="a50dc4bc58fc9aeb344f5c50afe5bd3d" category="cell"><block ref="a50dc4bc58fc9aeb344f5c50afe5bd3d" category="inline-link-rx"></block></block>
+  <block id="471c08271cbd79cec487c18217043cf8" category="inline-link">*TR-5018: EF50 어레이 기능 개요*</block>
+  <block id="76a2bf2a2e94949266b4f433d9e7dec4" category="cell"><block ref="76a2bf2a2e94949266b4f433d9e7dec4" category="inline-link-rx"></block></block>
+  <block id="df9d0224acf659f41bfbe698c857e7d9" category="cell">EF80 올플래시 어레이의 하드웨어 및 소프트웨어 기능과 최신 SANtricity OS 기능에 대해 설명합니다.</block>
+  <block id="09de21b70314692a1e1ddf19936baa87" category="cell">EF50 올플래시 어레이의 하드웨어 및 소프트웨어 기능과 최신 SANtricity OS 기능에 대해 설명합니다.</block>
+  <block id="24235092ddcc9f87c101c022c66fc071" category="section-title">레거시 플랫폼 TR</block>
+  <block id="23802a859f6ae1b445ff1966bda32d98" category="cell">EF600 올플래시 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
+  <block id="8256681282922e6be84f144c3e473c30" category="cell">EF300 올플래시 어레이의 하드웨어 및 소프트웨어 기능과 새로운 SANtricity OS 기능에 대해 설명합니다.</block>
+  <block id="db5e8529b3d3c60d7eb8b977e1849f12" category="cell">E2800 하이브리드 어레이의 하드웨어 및 소프트웨어 기능과 최신 SANtricity OS 기능에 대해 설명합니다.</block>
+  <block id="742fc41c7d55420b012c2f61a7b1fb34" category="cell">최신 버전의 SANtricity에서 도입된 새로운 하드웨어 및 소프트웨어 기능을 포함한 E5700 제품 정보에 대해 설명합니다.</block>
+  <block id="081f7c88129f20a8400b03d02acb95ef" category="summary">랙 마운트 하드웨어는 랙이나 캐비닛에 하드웨어를 설치하는 데 사용됩니다. 설치 지침은 랙 마운트 하드웨어 상자에 포함되어 있어야 합니다. 그러나 설치 지침에 액세스해야 하는 경우 아래 해당 링크를 사용하십시오.</block>
+  <block id="34eec1fae6323a8e4f97ad347dfd919c" category="doc">랙 마운트 하드웨어 - E-Series</block>
+  <block id="d2bcf423a50f5653cd8acd2d0df3c786" category="paragraph">랙 마운트 하드웨어는 랙이나 캐비닛에 스토리지 시스템을 설치하는 데 사용됩니다. 설치 지침은 랙 마운트 하드웨어 상자에 포함되어 있어야 합니다. 그러나 설치 지침에 액세스해야 하는 경우 아래 해당 링크를 사용하십시오.</block>
+  <block id="07dcaef6380ad89d6b40baeb5fe12386" category="paragraph">최신 스토리지 시스템의 경우 NetApp Hardware Universe<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>에서 지원되는 랙 마운트 하드웨어를 확인할 수 있습니다.</block>
+  <block id="ef76083b2a817d43d97a99b5c1ab84de" category="inline-link">SuperRail을 4포스트 랙에 설치합니다</block>
+  <block id="def756057f2e0bcb61c48d1b9b91e88a" category="paragraph">액세스<block ref="7c995aee9e99f0106e0939755e02170a" category="inline-link-rx"></block>.</block>
+  <block id="f18295dddf592b09ebe3ecb8198400f5" category="open-title">EF280 및 EF50 컨트롤러 모델</block>
+  <block id="da53e25fac17ed4b3598ecf27a51f580" category="inline-link-macro">EF50 및 EF80 - 7단계: 컨트롤러 설치</block>
+  <block id="4434988acf524d96633e90e0f6f754ca" category="paragraph">새로운 EF80 및 EF50 컨트롤러 설치에 대한 자세한 내용은 <block ref="345c0319eb4d606a371b99e69dba5aef" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="2372045f1c00945f73e802f5f900ce1f" category="open-title">기타 E-Series 컨트롤러 모델</block>
+  <block id="fc4c28bdfff97e04c0abc7b5eacb89e7" category="list-text">*EF50 및 EF80 미러 케이블링*</block>
+  <block id="21cc022125303ee507deea7548b5dcdb" category="paragraph">EF80 및 EF50 시스템은 고속 200GbE/100GbE 외부 연결을 사용하여 두 컨트롤러 간의 컨트롤러 간 통신을 지원합니다. 각 컨트롤러에는 슬롯 4에 설치된 전용 인터페이스 카드가 장착되어 있습니다. 이 카드는 두 개의 포트를 제공하며 시스템에 두 개의 0.5m 200GbE 케이블이 포함되어 있습니다.</block>
+  <block id="b0bede6c9377df6d183f97279899a84f" category="paragraph">다음과 같이 이러한 케이블을 사용하여 컨트롤러 포트를 연결하십시오.</block>
+  <block id="9c1ee96eedeec477f6b838b7b363c31b" category="list-text">컨트롤러 A의 포트 e4a에서 컨트롤러 B의 포트 e4a로</block>
+  <block id="cab9ad8281ff22baa132aab94b6f32fb" category="list-text">컨트롤러 A의 포트 e4b에서 컨트롤러 B의 포트 e4b로</block>
+  <block id="c7d53650f3917ef2b9428155109bc900" category="admonition">케이블을 설명된 대로 정확하게 연결하는 것이 매우 중요합니다. 자세한 내용은 다음을 참조하십시오<block ref="3b7ab90f06bb9d32e376349f50ba2152" category="inline-link-rx"></block>.</block>
+  <block id="e9b2fff16e7657bafb7580bf84badce7" category="paragraph">컨트롤러 간 통신에는 지원되지 않으므로 다른 호스트 포트(슬롯 1, 슬롯 2 또는 슬롯 3)를 사용하지 마십시오. EF50 및 EF80 어레이의 올바른 작동을 위해서는 컨트롤러 간 케이블 연결이 필수적입니다.</block>
+  <block id="4ba0a69e8f5142ca314982a9994e29f5" category="open-title">EF50 및 EF80 컨트롤러 업그레이드 호환성</block>
+  <block id="7a4b6bdd0b51c5a96d9cfe09dc272966" category="cell">EF300에서 EF50 또는 EF80으로</block>
+  <block id="6063afe46ba92ef601b9b32789169cd8" category="list-text">EF50 및 EF80은 duplex 구성만 지원합니다</block>
+  <block id="ec93e6ce8af3fc96dca794d8be12360a" category="list-text">EF50 및 EF80은 64Gb Fibre Channel 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="33251a923b1a509958c658fb36f199b3" category="list-text">EF80은 RoCE를 통한 듀얼 200Gbe NVMe 및 Infiniband를 통한 NVMe 호스트 인터페이스 카드를 지원합니다</block>
+  <block id="206beb0a8bbb60504cfc6cbab46d5f34" category="list-text">EF50 및 EF80은 컨트롤러당 최대 24개의 NVMe 드라이브를 지원합니다</block>
+  <block id="42751e79e966a0fe96552c1a07a45596" category="list-text">EF50 및 EF80은 TLC 및 QLC NVMe 드라이브 구성을 지원합니다</block>
+  <block id="1ad6b4858d4c3e09a3e2797cdb500f04" category="list-text">EF50 및 EF80은 베이스보드 호스트 포트를 지원하지 않습니다</block>
+  <block id="87c7e7a2d481ccd7b4ed54aeb79f20cb" category="list-text">EF50 및 EF80은 동기식 또는 비동기식 미러링을 지원하지 않습니다.</block>
+  <block id="4762b632235aed94daad2a5bc1771e4b" category="list-text">EF50 및 EF80은 Remote Storage Volumes를 지원하지 않습니다.</block>
+  <block id="a2e0d74fd53fb0d21de03183f2c78bc4" category="list-text">EF50 및 EF80은 씬 프로비저닝 볼륨을 지원하지 않습니다</block>
+  <block id="9cfea1bb9e1014a42c39daecf62a47de" category="list-text">EF50은 최대 2개의 호스트 인터페이스 카드를 지원하고, EF80은 최대 3개의 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="0a99fe14d85ff8506bf291475fa128a5" category="admonition">EF300에서 EF50 또는 EF80으로 업그레이드할 때 SANtricity System Manager 사용자 인터페이스를 통해 호스트 프로토콜을 구성할 수 있습니다. 자세한 내용은<block ref="2b1779a97b74f646b7f4e0d2ea7d75e0" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="1f0911d54059484e987c7e36bc15c3e1" category="list-text">EF50 및 EF80은 SAS 확장을 지원하지 않습니다.</block>
+  <block id="d672a46d709a93dd1700cc71f2727f33" category="cell">EF600에서 EF80으로</block>
+  <block id="582a6652312e7d481febfe59bd6caf40" category="list-text">EF80은 duplex 구성만 지원합니다</block>
+  <block id="ca1c5ed7eda3a31773fea15341e1215d" category="list-text">EF80은 64Gb Fibre Channel 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="58b56ee156843e197b7925eaf83c5686" category="list-text">EF80은 컨트롤러당 최대 24개의 NVMe 드라이브를 지원합니다.</block>
+  <block id="1c59414033cf253bbfe93b9a24e48c2c" category="list-text">EF80은 베이스보드 호스트 포트를 지원하지 않습니다</block>
+  <block id="5e25cbd1fcc5ab86c5b4d4be2cc2c9d6" category="list-text">EF80은 동기식 또는 비동기식 미러링을 지원하지 않습니다</block>
+  <block id="fdec69be1d337d0a56258c3664fa8a98" category="list-text">EF80은 Remote Storage Volumes를 지원하지 않습니다.</block>
+  <block id="f2edbcbed514cfdd6754a2f40f13db4b" category="list-text">EF80은 Thin Provisioned Volume을 지원하지 않습니다</block>
+  <block id="00ca182480baeeccf3bcb6bb5c1f98c3" category="list-text">EF80은 최대 3개의 Host Interface Card를 지원합니다.</block>
+  <block id="0265b5dbf554054dde3a98afc886c622" category="admonition">EF600에서 EF80으로 업그레이드할 때 SANtricity System Manager 사용자 인터페이스를 통해 호스트 프로토콜을 구성할 수 있습니다. 자세한 내용은<block ref="b4bee00978fbe62a1f735b787be3116c" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="353b820726dde980fadda7f3d579a641" category="list-text">EF80은 SAS 확장을 지원하지 않습니다.</block>
+  <block id="dafff188f3a06d1fdaa68a607c17f832" category="inline-link-macro">EF50 및 EF80 - 1단계: 컨트롤러 제거</block>
+  <block id="a5e57f188bcd8ee5650622c76daaf7ef" category="paragraph">EF280 및 EF50 스토리지 시스템에서 컨트롤러를 제거하는 방법에 대한 자세한 내용은 <block ref="29089e25df4bea78aa196aee147175c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">상태 점검이 완료되면 각 행 오른쪽에 있는 줄임표(...)를 클릭하여 자세한 정보를 확인하고 다른 작업을 수행할 수 있습니다.</block>
+  <block id="ac5947d69f7ee9f8d3f2e9ee0483a85b" category="list-text">자체 서명된 인증서 확인 대화 상자가 열리면 신뢰할 수 없는 인증서에 대해 표시된 정보를 검토하십시오. 자세한 내용을 보려면 표 맨 끝에 있는 점 세 개를 클릭하고 팝업 메뉴에서 *보기*를 선택하십시오.</block>
+  <block id="f95817b2bc0b41d0e6a92b658b3204e4" category="list-text">페이지에서 인증서를 선택한 다음 행 끝에 있는 줄임표를 클릭합니다.</block>
+  <block id="57e6a2c38c0c83841001bc8084252a54" category="list-text">해당 행의 맨 오른쪽에 있는 줄임표를 선택한 다음 팝업 메뉴에서 *스토리지 배열 이름 바꾸기*를 선택합니다.</block>
+  <block id="2bcb50ee17148fb9fd0603f1ac802486" category="list-text">인증서에 대한 자세한 정보를 보려면 해당 행을 선택하고 행 끝에 있는 줄임표를 선택한 다음 *View* 또는 *Export*를 클릭하십시오.</block>
+  <block id="b65e70a586056d9f45f1ba1eca4b2d5e" category="paragraph">다음 표는 EF80, EF50, E4000, EF300, EF600, E2800/EF280 및 E5700/EF570 컨트롤러의 임베디드 관리를 위한 최신 SANtricity OS 릴리스의 새로운 기능에 대해 설명합니다.</block>
+  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
+  <block id="ff0fa97cb252835f443a15ae7e9b46d4" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
+  <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">새로운 스토리지 시스템 모델 – EF80 및 EF50 올플래시 스토리지 시스템</block>
+  <block id="5c6dee44700e6c5c47a1e1f079ae7fce" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 하나의 호스트 인터페이스 카드(HIC)를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스에는 EF80의 경우 NVMe over RoCE 및 NVMe over IB가, EF50의 경우 NVMe over FC가 포함됩니다. 지원되는 SCSI 인터페이스에는 Fibre Channel이 포함됩니다.</block>
+  <block id="6f8772ffc1694efdc2041680c31dc990" category="paragraph">EF80 및 EF30은 30TB 또는 60TB 용량의 고용량 NVMe SSD 드라이브도 지원합니다. EF80 및 EF30은 기존 RAID를 지원하지 않고 Dynamic Disk Pool 사용과만 호환됩니다.</block>
+  <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager를 위한 새로운 사용자 인터페이스</block>
+  <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.</block>
+  <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">서버 인증서의 SAN(Subject Alternative Names)에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다</block>
+  <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">SANtricity System Manager 또는 Unified Manager에서 서버 인증서를 생성하거나 편집할 때 Subject Alternative Names(SAN) 필드에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다. 이러한 변경 사항은 보안을 강화하고 SSL/TLS 인증서에 대한 업계 표준과의 호환성을 보장합니다.</block>
+  <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">이제 SSD 및 NVMe 기반 시스템에서 Dynamic Disk Pool 세그먼트 크기의 기본값이 32K로 설정됩니다.</block>
+  <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">SSD 및 NVMe 기반 시스템의 Dynamic Disk Pool에서 기본 세그먼트 크기가 32K로 변경되었습니다. 이전에는 이러한 시스템에서 Dynamic Disk Pool의 기본 세그먼트 크기가 128K로 고정되어 있었습니다. 이번 변경으로 소규모 및 대규모 I/O 작업이 혼합된 워크로드의 성능이 최적화되었습니다.</block>
+  <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">SANtricity System Manager에서 스크립트 편집기를 사용할 수 있습니다</block>
+  <block id="286df7907589603c59edb63682f9667f" category="inline-link-macro">스크립트 편집기 사용</block>
+  <block id="171f0d90684ea668d5afe1022c27fb99" category="paragraph">SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습니다. 스크립트 편집기를 사용하면 스크립트 파일을 생성 또는 편집하고, 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 불러올 수 있습니다. 스크립트 편집기는 스토리지 시스템 관리를 위한 구문 검사 및 명령 실행 기능을 제공합니다. 자세한 내용은 <block ref="c2af2b5868d8fcf6c64d5f4e052c1d4f" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link-macro">다운로드 가능한 SMcli 명령줄 매개 변수</block>
+  <block id="c7b277569ea9232e1708c189c4c38af7" category="paragraph">SMcli에 새로운<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 매개변수가 추가되었습니다. 이 새로운 매개변수를 사용하면 Storage Arrays와 연결된 모든 SCSI 네이티브 블록 장치를 검색할 수 있습니다. 자세한 내용은 <block ref="391452592dd6d4101b3a240969ca8672" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link-macro">iSCSI 통계 패키지 보기</block>
+  <block id="809701d680e9fe62bb27c816be37d1ce" category="paragraph">System Manager의 View iSCSI Statistics Packages 페이지에서 새로운 Ethernet Kernel Statistics 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 <block ref="e06656598852b432960957ceca80ecb8" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="38833d44319a29abce252a75db2a1f8b" category="sidebar">SANtricity System Manager 12.0</block>
+  <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="sidebar">SANtricity Unified Manager 8</block>
+  <block id="c91faa8fa5379f94c18777a9515b9168" category="sidebar">RoCE를 통한 NVMe 관련 작업 수행</block>
+  <block id="477a44c679560f083fcea73a8a50959d" category="sidebar">EF50 및 EF80</block>
+  <block id="706c1d4933d296d42d61b064f4e637ae" category="sidebar">설치 워크플로우</block>
+  <block id="2b4c30fb054686456c65fcf2f769f659" category="sidebar">설치 준비</block>
+  <block id="ea6245a5aad1d347d3bfd8727ccbe15c" category="sidebar">케이블 hardware</block>
+  <block id="7b2ca066e862da1c95471b425468af14" category="sidebar">시스템 전원 켜기</block>
+  <block id="fad3eebd1aa676638de5e9e932b52f40" category="sidebar">전체 시스템 설정</block>
+  <block id="7dd431cc03f43f663695fa547eddc199" category="sidebar">유지보수 개요</block>
+  <block id="2c7a7771e539f2607f0d26dda217a9ea" category="sidebar">EF50 및 EF80 Controller</block>
+  <block id="4f46fe04ed7debd30ef1d3c151e24935" category="sidebar">컨트롤러 교체 워크플로</block>
+  <block id="e7fc429a9fe4efe32f4c14434a1cf635" category="sidebar">시스템 준비</block>
+  <block id="e675b7845041d1a89668c289f7f49020" category="sidebar">오프라인 컨트롤러</block>
+  <block id="9c21b9a95e80e599c60b7012bb970a3f" category="sidebar">온라인 컨트롤러</block>
+  <block id="40b375b6007e5a697e97e419f1fb91c5" category="sidebar">컨트롤러 전체 교체</block>
+  <block id="940fc0b5e0fa8e55af3a0a0a14398e22" category="sidebar">EF50 및 EF80 I/O 모듈</block>
+  <block id="1ca4e63b42d944e09b1132b7f6f56b66" category="sidebar">I/O 모듈 개요</block>
+  <block id="db77cc51d1e45daf8e890b492be12264" category="sidebar">I/O 모듈 교체</block>
+  <block id="f026d0a834b5192638b18ee631266375" category="sidebar">I/O 모듈 업그레이드</block>
+  <block id="fe377799fa9a443d32452d6d45334541" category="sidebar">I/O 모듈 호스트 프로토콜</block>
 </blocks>

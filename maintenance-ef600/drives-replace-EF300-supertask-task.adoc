@@ -205,7 +205,7 @@ SANtricity 시스템 관리자의 Recovery Guru를 확인하고 필수 단계를
 드라이브 드로어의 주의 LED(주황색)가 깜박여 올바른 드라이브 드로어를 열고 교체할 드라이브를 식별할 수 있습니다.
 
 +
-image::../media/2860_dwg_attn_led_on_drawer_maint-e5700.gif["주의 LED]
+image::../media/2860_dwg_attn_led_on_drawer_maint-e5700.gif[주의 LED]
 
 +
 * (1) * _주의 LED _

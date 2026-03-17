@@ -38,6 +38,7 @@ sidebar:
       url: "/getting-started/getup-run-concept.html"
   - title: 하드웨어를 설치합니다
     entries:
+    - section: install-hw-ef50-ef80
     - title: EF300 및 EF600
       entries:
       - title: 개요
@@ -385,6 +386,8 @@ sidebar:
         url: "/config-vmware/iscsi-perform-specific-task.html"
       - title: SAS 관련 작업을 수행합니다
         url: "/config-vmware/sas-perform-specific-task.html"
+      - title: RoCE를 통한 NVMe 관련 작업 수행
+        url: "/config-vmware/nvme-roce-perform-specific-task.html"
       - title: 호스트에서 스토리지를 검색합니다
         url: "/config-vmware/discover-storage-host-task.html"
       - title: 호스트에서 스토리지를 구성합니다
@@ -455,6 +458,7 @@ sidebar:
         url: "/upgrade-santricity/upgrade-drive-firmware-task.html"
   - title: 시스템 유지보수
     entries:
+    - section: maintenance-ef50-ef80
     - title: EF300 및 EF600
       pdf-filename: EF300-EF600은 시스템 유지 관리
       entries:

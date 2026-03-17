@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반송하십시오. 자세한 내용은  https://mysupport.netapp.com/site/info/rma["부품 반품 및 교체"] 페이지를 참조하십시오.

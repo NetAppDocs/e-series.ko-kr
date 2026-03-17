@@ -103,7 +103,7 @@ CAUTION: 스토리지 배열의 전원을 끄지 않은 경우, 시스템이 과
 
 . 주황색 탭을 눌러 팬 캐니스터 핸들을 해제합니다.
 +
-image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout_maint-e2800.gif[]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout_maint-e2800.gif[팬 캐니스터 분리 탭]
 
 +
 (1) * _ 탭을 눌러 팬 캐니스터 핸들 _ 을(를) 해제합니다

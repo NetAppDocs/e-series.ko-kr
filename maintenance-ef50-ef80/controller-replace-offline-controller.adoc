@@ -1,0 +1,54 @@
+---
+permalink: maintenance-ef50-ef80/controller-replace-offline-controller.html 
+sidebar: sidebar 
+keywords: ef50, ef80, offline the impaired controller 
+summary: EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 오프라인으로 전환하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오. 
+---
+= 손상된 컨트롤러 오프라인 - EF50 및 EF80
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 오프라인으로 전환하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오.
+
+.전에
+* 이 절차를 위해 link:controller-replace-requirements.html["요구사항"]을(를) 충족해야 합니다.
+* 이 절차에 대한 link:controller-replace-prepare.html["준비"]을(를) 완료해야 합니다.
+
+
+.이 작업에 대해
+컨트롤러를 오프라인으로 전환할 때는 최소 1분 이상 기다린 후 다시 온라인 상태로 전환해야 합니다. 이 대기 시간 동안 스토리지 시스템이 컨트롤러의 상태를 업데이트하고 캐시된 모든 데이터가 드라이브에 기록되도록 합니다.
+
+.단계
+. 손상된 컨트롤러가 이미 오프라인 상태가 아닌 경우 SANtricity System Manager를 사용하여 오프라인으로 설정하십시오.
++
+.. 컨트롤러를 표시하려면 *Hardware* > *Controllers and components*를 선택하십시오.
+.. 콘텐츠 메뉴를 표시하기 위해 오프라인으로 전환할 컨트롤러를 선택하십시오.
+.. * 오프라인으로 전환 * 을 선택한 다음 작업을 수행할 것인지 확인합니다.
++
+
+NOTE: 오프라인으로 전환하려는 컨트롤러를 사용하여 SANtricity System Manager에 액세스하는 경우 SANtricity System Manager를 사용할 수 없습니다 메시지가 표시됩니다. 다른 컨트롤러를 사용하여 SANtricity System Manager에 자동으로 액세스하려면 *대체 네트워크 연결에 연결*을 선택하십시오.
+
+
+
+. SANtricity 시스템 관리자가 컨트롤러의 상태를 오프라인으로 업데이트할 때까지 기다립니다.
++
+
+CAUTION: 상태가 업데이트되기 전에는 다른 작업을 시작하지 마십시오.
+
+. Recovery Guru를 사용하여 결함이 있는 구성 요소를 제거하는 것이 안전한지 확인하십시오.
++
+.. *다시 확인*을 선택합니다.
+.. 세부 정보 영역의 *제거 가능* 필드에 *예*가 표시되는지 확인하십시오.
++
+
+CAUTION: *제거 가능* 필드에 *예*가 표시되지 않으면 결함이 있는 구성 요소를 제거하지 마십시오. 대신 Recovery Guru를 사용하여 문제를 해결하십시오.
+
+
+
+
+
+.다음 단계
+고장난 컨트롤러를 오프라인으로 전환한 후 link:controller-replace-move-hardware.html["손상된 컨트롤러 교체"].

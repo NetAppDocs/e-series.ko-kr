@@ -22,9 +22,9 @@ indexpage:
       url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
   - title: SANtricity 소프트웨어
     links:
-    - title: SANtricity 시스템 관리자 11.9
+    - title: SANtricity System Manager 12.0
       url: https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html
-    - title: SANtricity 유니파이드 관리자 7
+    - title: SANtricity Unified Manager 8
       url: https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html
     - title: CLI(Command Line Interface) 참조
       url: https://docs.netapp.com/us-en/e-series-cli/index.html
@@ -49,9 +49,9 @@ indexpage:
   - title: SE용
     links:
     - title: E-Series/EF-Series 기술 교육(로그인 필요)
-      url: https://fieldportal.netapp.com/content/199944
+      url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
     - title: EF300 개요 및 기술 세부 정보(로그인 필요)
-      url: https://fieldportal.netapp.com/content/1417672
+      url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
     - title: NetApp Fusion(로그인 필요)
       url: https://fusion.netapp.com/
   - title: 도구 지원

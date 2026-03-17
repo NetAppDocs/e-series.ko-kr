@@ -1,0 +1,16 @@
+---
+section: install-hw-ef50-ef80
+title: EF50 및 EF80
+entries:
+- title: 설치 워크플로우
+  url: "/install-hw-ef50-ef80/install-workflow.html"
+- title: 설치 준비
+  url: "/install-hw-ef50-ef80/install-prepare.html"
+- title: 하드웨어를 설치합니다
+  url: "/install-hw-ef50-ef80/install-hardware.html"
+- title: 케이블 hardware
+  url: "/install-hw-ef50-ef80/install-cable.html"
+- title: 시스템 전원 켜기
+  url: "/install-hw-ef50-ef80/install-power-hardware.html"
+- title: 전체 시스템 설정
+  url: "/install-hw-ef50-ef80/install-complete-setup.html"

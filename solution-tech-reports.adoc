@@ -79,20 +79,8 @@ summary: E-Series 기술 보고서
 |===
 
 
-| https://www.netapp.com/pdf.html?item=/media/31665-tr-4884.pdf["* TR-4884: NetApp E-Series 및 IBM Spectrum Scale * 을 지원하는 엔트리 레벨 HPC 시스템"^] | https://www.netapp.com/pdf.html?item=/media/22029-tr-4859.pdf["* TR-4859: NetApp E-Series 스토리지로 IBM 스펙트럼 확장 구축 *"^] | https://www.netapp.com/pdf.html?item=/media/19407-tr-4856-deploy.pdf["* TR-4856: Red Hat Enterprise Linux Server * 를 사용하는 E-Series에서 BeeGFS 고가용성 제공"^] 
-
-
-| NetApp E-Series 스토리지 시스템 및 IBM Spectrum Scale을 기반으로 한 엔트리 레벨 HPC 시스템의 참조 아키텍처에 대해 설명합니다. | IBM의 Spectrum Scale 소프트웨어 스택을 기반으로 전체 병렬 파일 시스템 솔루션을 구축하는 프로세스를 설명합니다. | NetApp E-Series 시스템에서 지원하는 BeeGFS 아키텍처에서 고가용성 구현을 위한 필수 구성과 BeeGFS 스토리지, 메타데이터 및 관리 서비스에 RedHat Enterprise Linux를 사용하는 방법에 대해 설명합니다. 
+| https://www.netapp.com/pdf.html?item=/media/31665-tr-4884.pdf["* TR-4884: NetApp E-Series 및 IBM Spectrum Scale * 을 지원하는 엔트리 레벨 HPC 시스템"^] | https://www.netapp.com/pdf.html?item=/media/22029-tr-4859.pdf["* TR-4859: NetApp E-Series 스토리지로 IBM 스펙트럼 확장 구축 *"^] |  
 
 
 |  |  |  
-
-
-|  |  |  
-
-
-| https://www.netapp.com/pdf.html?item=/media/19431-tr-4862.pdf["* TR-4862: SUSE Linux Enterprise Server * 를 사용하는 E-Series로 BeeGFS 고가용성 제공"^] |  |  
-
-
-| NetApp E-Series 시스템에서 지원하고 SUSE Linux Enterprise Server for BeeGFS 스토리지, 메타데이터 및 관리 서비스를 사용하는 BeeGFS 아키텍처에서 고가용성을 구현하는 데 필요한 구성을 설명합니다. |  |  
 |===

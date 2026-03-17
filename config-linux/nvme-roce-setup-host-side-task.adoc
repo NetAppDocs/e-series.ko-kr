@@ -55,6 +55,10 @@ RHEL 9 *
 ----
 # yum install NetworkManager-initscripts-updown
 ----
++
+
+NOTE: RHEL 10에서는 네트워크 스크립트를 사용할 수 없습니다.
+
 . 호스트를 스토리지에 구성하는 데 사용되는 호스트 NQN을 가져옵니다.
 +
 [listing]
