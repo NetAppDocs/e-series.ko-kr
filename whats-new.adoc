@@ -16,10 +16,10 @@ summary: SANtricity OS의 새로운 기능
 
 
 
-== 버전 12.0의 새로운 기능
+== 버전 12.00의 새로운 기능
 
 
-NOTE: SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.
+NOTE: SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.
 
 [cols="35h,~"]
 |===

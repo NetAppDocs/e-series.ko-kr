@@ -8465,7 +8465,6 @@
   <block id="3ab5df294fcede9a13e1df001c392281" category="paragraph"><block ref="3ab5df294fcede9a13e1df001c392281" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90 릴리스 정보</block>
   <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
-  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
   <block id="fe52bb817507c40336c19cb0a171e765" category="inline-image-macro">E2800 LED 디스플레이</block>
   <block id="e4cd966e5475f60c49220402627c0091" category="list-text">호스트 링크 LED는 호스트 인터페이스에 따라 켜지거나 깜박이거나 꺼질 수 있습니다. <block ref="dfa6f90141a0a680db298f8900008782" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f6014478ed7f2623da8bc269a34d7464" category="image-alt">E2800 삽입 배터리</block>
@@ -10372,8 +10371,6 @@
   <block id="b669c7541b481751dcc71a055cce958b" category="inline-link-macro">스토리지 시스템 설정을 완료합니다</block>
   <block id="78842b8d721f67915adcf3eb011b7c36" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="5ef3aa7bd3b14cfb714e4d5b256fce22" category="inline-link-macro-rx"></block></block>
   <block id="38c38e882e02e5c78c715e5e344923bf" category="paragraph">스토리지 시스템 설정을 완료하려면 컨트롤러의 관리 포트를 케이블로 연결하고 구성하고, 스토리지 시스템을 구성 및 관리한 다음, 호스트 I/O 모듈 프로토콜이 올바른지 확인하십시오.</block>
-  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 릴리스 노트</block>
-  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
   <block id="a75befa2f42df622990e46f9c7d49e08" category="list-text">왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택하십시오.</block>
   <block id="a2b019c9963ef773b0ead6446cef828d" category="image-alt">팬 캐니스터 분리 탭</block>
   <block id="b00fd47d5fb356f57fefb70bd8db1fab" category="list-text">그래픽에 드라이브가 표시되면 *Show back of shelf*를 선택하여 컨트롤러를 표시하십시오.</block>
@@ -10652,8 +10649,6 @@
   <block id="57e6a2c38c0c83841001bc8084252a54" category="list-text">해당 행의 맨 오른쪽에 있는 줄임표를 선택한 다음 팝업 메뉴에서 *스토리지 배열 이름 바꾸기*를 선택합니다.</block>
   <block id="2bcb50ee17148fb9fd0603f1ac802486" category="list-text">인증서에 대한 자세한 정보를 보려면 해당 행을 선택하고 행 끝에 있는 줄임표를 선택한 다음 *View* 또는 *Export*를 클릭하십시오.</block>
   <block id="b65e70a586056d9f45f1ba1eca4b2d5e" category="paragraph">다음 표는 EF80, EF50, E4000, EF300, EF600, E2800/EF280 및 E5700/EF570 컨트롤러의 임베디드 관리를 위한 최신 SANtricity OS 릴리스의 새로운 기능에 대해 설명합니다.</block>
-  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
-  <block id="ff0fa97cb252835f443a15ae7e9b46d4" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">새로운 스토리지 시스템 모델 – EF80 및 EF50 올플래시 스토리지 시스템</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager를 위한 새로운 사용자 인터페이스</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.</block>
@@ -10668,7 +10663,6 @@
   <block id="c7b277569ea9232e1708c189c4c38af7" category="paragraph">SMcli에 새로운<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 매개변수가 추가되었습니다. 이 새로운 매개변수를 사용하면 Storage Arrays와 연결된 모든 SCSI 네이티브 블록 장치를 검색할 수 있습니다. 자세한 내용은 <block ref="391452592dd6d4101b3a240969ca8672" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link-macro">iSCSI 통계 패키지 보기</block>
   <block id="809701d680e9fe62bb27c816be37d1ce" category="paragraph">System Manager의 View iSCSI Statistics Packages 페이지에서 새로운 Ethernet Kernel Statistics 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 <block ref="e06656598852b432960957ceca80ecb8" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="38833d44319a29abce252a75db2a1f8b" category="sidebar">SANtricity System Manager 12.0</block>
   <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="sidebar">SANtricity Unified Manager 8</block>
   <block id="c91faa8fa5379f94c18777a9515b9168" category="sidebar">RoCE를 통한 NVMe 관련 작업 수행</block>
   <block id="477a44c679560f083fcea73a8a50959d" category="sidebar">EF50 및 EF80</block>
@@ -10691,4 +10685,10 @@
   <block id="fe377799fa9a443d32452d6d45334541" category="sidebar">I/O 모듈 호스트 프로토콜</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 컨트롤러 간 미러링 카드를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스는 EF80의 경우 NVMe over RoCE, NVMe over IB, NVMe over FC이며, EF50의 경우 NVMe over FC입니다. 두 시스템 모두 지원되는 SCSI 인터페이스는 Fibre Channel입니다. EF50은 컨트롤러당 최대 2개의 호스트 인터페이스 카드를 지원하고, EF80은 컨트롤러당 최대 3개의 호스트 인터페이스 카드를 지원합니다.</block>
   <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">30TB 또는 60TB 크기의 고용량 NVMe SSD 드라이브도 EF80 및 EF50에서 지원됩니다. EF80 및 EF50은 어레이에 30TB 또는 60TB 드라이브가 장착된 경우에만 Dynamic Disk Pool을 사용할 수 있습니다.</block>
+  <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 릴리스 노트</block>
+  <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
+  <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
+  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">버전 12.00의 새로운 기능</block>
+  <block id="631e6d7ea44751bbf0471574f75f550e" category="admonition">SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
+  <block id="dcf1521fe2188852a3d1ae5493b83c24" category="sidebar">SANtricity System Manager 12.00</block>
 </blocks>
