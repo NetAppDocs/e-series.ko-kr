@@ -10640,7 +10640,6 @@
   <block id="0265b5dbf554054dde3a98afc886c622" category="admonition">EF600에서 EF80으로 업그레이드할 때 SANtricity System Manager 사용자 인터페이스를 통해 호스트 프로토콜을 구성할 수 있습니다. 자세한 내용은<block ref="b4bee00978fbe62a1f735b787be3116c" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="353b820726dde980fadda7f3d579a641" category="list-text">EF80은 SAS 확장을 지원하지 않습니다.</block>
   <block id="dafff188f3a06d1fdaa68a607c17f832" category="inline-link-macro">EF50 및 EF80 - 1단계: 컨트롤러 제거</block>
-  <block id="a5e57f188bcd8ee5650622c76daaf7ef" category="paragraph">EF280 및 EF50 스토리지 시스템에서 컨트롤러를 제거하는 방법에 대한 자세한 내용은 <block ref="29089e25df4bea78aa196aee147175c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">상태 점검이 완료되면 각 행 오른쪽에 있는 줄임표(...)를 클릭하여 자세한 정보를 확인하고 다른 작업을 수행할 수 있습니다.</block>
   <block id="ac5947d69f7ee9f8d3f2e9ee0483a85b" category="list-text">자체 서명된 인증서 확인 대화 상자가 열리면 신뢰할 수 없는 인증서에 대해 표시된 정보를 검토하십시오. 자세한 내용을 보려면 표 맨 끝에 있는 점 세 개를 클릭하고 팝업 메뉴에서 *보기*를 선택하십시오.</block>
   <block id="f95817b2bc0b41d0e6a92b658b3204e4" category="list-text">페이지에서 인증서를 선택한 다음 행 끝에 있는 줄임표를 클릭합니다.</block>
@@ -10690,4 +10689,6 @@
   <block id="631e6d7ea44751bbf0471574f75f550e" category="admonition">SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
   <block id="dcf1521fe2188852a3d1ae5493b83c24" category="sidebar">SANtricity System Manager 12.00</block>
   <block id="24fe914c4c521099e3e5332138db4935" category="admonition">빈 선반 하나의 무게는 약 134lb(61kg)입니다. 빈 선반을 안전하게 옮기려면 기계식 리프트 또는 리프트 손잡이를 사용하는 네 사람이 필요합니다.</block>
+  <block id="9e70d8ecbcfbe7711ec544e1649bcd7e" category="open-title">EF80 및 EF50 컨트롤러 모델</block>
+  <block id="982b4a8532b7c0f3dfe46d6bac4642d5" category="paragraph">EF80 및 EF50 스토리지 시스템에서 컨트롤러를 제거하는 방법에 대한 자세한 내용은 <block ref="29089e25df4bea78aa196aee147175c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
