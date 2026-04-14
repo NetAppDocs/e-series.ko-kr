@@ -10685,10 +10685,12 @@
   <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 릴리스 노트</block>
   <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
   <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
-  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">버전 12.00의 새로운 기능</block>
-  <block id="631e6d7ea44751bbf0471574f75f550e" category="admonition">SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
   <block id="dcf1521fe2188852a3d1ae5493b83c24" category="sidebar">SANtricity System Manager 12.00</block>
   <block id="24fe914c4c521099e3e5332138db4935" category="admonition">빈 선반 하나의 무게는 약 134lb(61kg)입니다. 빈 선반을 안전하게 옮기려면 기계식 리프트 또는 리프트 손잡이를 사용하는 네 사람이 필요합니다.</block>
   <block id="9e70d8ecbcfbe7711ec544e1649bcd7e" category="open-title">EF80 및 EF50 컨트롤러 모델</block>
   <block id="982b4a8532b7c0f3dfe46d6bac4642d5" category="paragraph">EF80 및 EF50 스토리지 시스템에서 컨트롤러를 제거하는 방법에 대한 자세한 내용은 <block ref="29089e25df4bea78aa196aee147175c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="0766a0860283ed4bfb84c83d84f27eb7" category="section-title">버전 12.0R1의 새로운 기능</block>
+  <block id="5daddfd6f05e5067c7a89f1710325e32" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 12.0R1 README를 참조하십시오.</block>
+  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
+  <block id="ff0fa97cb252835f443a15ae7e9b46d4" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
 </blocks>
