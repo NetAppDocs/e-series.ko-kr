@@ -9832,7 +9832,6 @@
   <block id="f0e003d8e910aac92eb678b35d88e454" category="list-text">컨트롤러가 다시 온라인 상태가 되면 SANtricity System Manager를 사용하여 상태가 최적인지 확인하십시오.</block>
   <block id="c86f60fc7fcc7f12bacc87413a01f8ea" category="list-text">호스트 정의를 다시 생성합니다.</block>
   <block id="d5a35385e3c41cf9fd9e2f0a4a94c813" category="inline-link">SANtricity System Manager에서 호스트를 수동으로 생성합니다</block>
-  <block id="db8c72a9c6539d1e7ec1c1fb26b87ed0" category="paragraph">자세한 지침은 <block ref="a53958d29b83920c5f55ec43c9dba875" category="inline-link-rx"></block> 절차를 참조하십시오.</block>
   <block id="1fc86e94ed7b025b1b598bb2f43d1407" category="paragraph">자세한 단계별 지침은 사용 중인 스토리지 시스템에 적합한 가이드를 참조하십시오.</block>
   <block id="83e4a7b7f356dd5b4fc5814e9fd775dd" category="list-text">스토리지 시스템의 호스트 I/O 모듈에 있는 프로토콜을 모르는 경우 SANtricity System Manager를 사용하여 확인하십시오.</block>
   <block id="b285314b6b465f044f782ffdd9cc362d" category="list-text">*호스트 I/O 프로토콜* 필드에 표시되는 기본 프로토콜을 참조하십시오.</block>
@@ -10693,4 +10692,5 @@
   <block id="5daddfd6f05e5067c7a89f1710325e32" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 12.0R1 README를 참조하십시오.</block>
   <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
   <block id="ff0fa97cb252835f443a15ae7e9b46d4" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다.</block>
+  <block id="c34bc836af57fee3bb2df387de995660" category="paragraph">자세한 침은 <block ref="b1f1a9dce5288488396d4b3c3e74b2f3" category="inline-link-rx"></block> 절차를 참조하십시오.</block>
 </blocks>
