@@ -27,3 +27,5 @@ E-Series 볼륨에 대한 각 NVMe 경로에 대한 정보를 보려면 'NVMe Ne
 /dev/nvme2n3, Array Name ICTM0706SYS04, Volume Name NVMe4, NSID 4, Volume ID 00001bb0593a46f400a0980000af4462, Controller B, Access State unknown, 2.15GB
 /dev/nvme2n4, Array Name ICTM0706SYS04, Volume Name NVMe6, NSID 6, Volume ID 00001696593b424b00a0980000af4112, Controller B, Access State unknown, 2.15GB
 ----
+.다음 단계
+보이는 볼륨을 확인한 후 link:nvme-roce-setup-failover-host-task.html["호스트에서 페일오버 설정"].

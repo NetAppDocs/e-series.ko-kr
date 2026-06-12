@@ -14,96 +14,10 @@ summary: 페일오버를 실행하도록 호스트를 구성합니다.
 스토리지 배열에 대한 중복 경로를 제공하기 위해 호스트에서 장애 조치를 실행하도록 구성할 수 있습니다.
 
 .시작하기 전에
-시스템에 필요한 패키지를 설치해야 합니다.
-
-* RHEL(Red Hat) 호스트의 경우 "rpm -q device-mapper-multipath"를 실행하여 패키지가 설치되어 있는지 확인합니다
-* SLES 호스트의 경우 'rpm-q multipath-tools'를 실행하여 패키지가 설치되어 있는지 확인합니다
-
-
-
-NOTE: 을 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 필요한 업데이트가 설치되었는지 확인하기 위해, 다중 경로가 SLES 또는 RHEL의 GA 버전과 제대로 작동하지 않을 수 있습니다.
+ https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]를 참조하여 필요한 업데이트가 설치되어 있는지 확인하십시오. 초기 릴리스에서 사용할 수 없는 SLES 또는 RHEL 버전에 중요한 버그 수정이 필요할 수 있습니다.
 
 .이 작업에 대해
-SLES 12는 RoCE를 통한 NVMe 멀티패싱을 위해 DMMP(Device Mapper Multipath)를 사용합니다. RHEL 8, RHEL 9, RHEL 10, SLES 15 및 SLES 16은 내장된 네이티브 NVMe 페일오버 기능을 사용합니다. 사용 중인 운영체제에 따라 멀티패스를 제대로 작동시키려면 추가적인 설정이 필요할 수 있습니다.
+SLES 15, SLES 16, RHEL 9 및 RHEL 10의 경우 네이티브 NVMe 멀티패싱이 기본적으로 활성화되어 있으므로 추가 구성이 필요하지 않습니다.
 
-
-
-== SLES 12에 대해 DMMP(Device Mapper Multipath) 활성화
-
-기본적으로 DM-MP는 SLES에서 비활성화되어 있습니다.  호스트에서 DM-MP 구성 요소를 활성화하려면 다음 단계를 완료하세요.
-
-.단계
-. 다음 예에 표시된 대로 NVMe E-Series 장치 항목을 '/etc/multipath.conf' 파일의 devices 섹션에 추가합니다.
-+
-[listing]
-----
-
-devices {
-        device {
-                vendor "NVME"
-                product "NetApp E-Series*"
-                path_grouping_policy group_by_prio
-                failback immediate
-                no_path_retry 30
-        }
-}
-----
-. 시스템 부팅 시 시작되도록 'multipid'를 구성합니다.
-+
-[listing]
-----
-# systemctl enable multipathd
-----
-. 현재 실행되고 있지 않으면 '멀티페이드'를 시작합니다.
-+
-[listing]
-----
-# systemctl start multipathd
-----
-. '멀티페이드' 상태를 확인하여 활성 상태이고 실행 중인지 확인합니다.
-+
-[listing]
-----
-# systemctl status multipathd
-----
-
-
-
-
-== 기본 NVMe 다중 경로를 사용하여 RHEL 8을 설정합니다
-
-기본 NVMe Multipathing은 RHEL 8에서 기본적으로 비활성화되어 있으며 다음 절차를 사용하여 활성화해야 합니다.
-
-. 기본 NVMe 다중 경로를 사용하도록 'modprobe' 규칙을 설정합니다.
-+
-[listing]
-----
-# echo "options nvme_core multipath=y" >> /etc/modprobe.d/50-nvme_core.conf
-----
-. 새로운 '모데프로브' 파라미터로 'initramfs'를 다시 만듭니다.
-+
-[listing]
-----
-# dracut -f
-----
-. 기본 NVMe 다중 경로를 사용하도록 설정한 상태에서 서버를 재부팅합니다.
-+
-[listing]
-----
-# reboot
-----
-. 호스트를 부팅한 후 기본 NVMe Multipathing이 활성화되어 있는지 확인합니다.
-+
-[listing]
-----
-# cat /sys/module/nvme_core/parameters/multipath
-----
-+
-.. 명령 출력이 N인 경우 기본 NVMe Multipathing은 여전히 비활성화되어 있습니다.
-.. 명령 출력이 Y인 경우 기본 NVMe 다중경로 기능이 활성화되고 발견한 모든 NVMe 장치에서 이 기능을 사용할 것입니다.
-
-
-
-
-
-NOTE: SLES 15, SLES 16, RHEL 9 및 RHEL 10의 경우 네이티브 NVMe 멀티패싱이 기본적으로 활성화되어 있으므로 추가 구성이 필요하지 않습니다.
+.다음 단계
+네이티브 NVMe Multipathing이 활성화된 경우link:nvme-roce-access-physical-targets-concept.html["호스트에서 E-Series 타겟의 NVMe 볼륨에 액세스합니다"].

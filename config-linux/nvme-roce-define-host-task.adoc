@@ -45,10 +45,9 @@ Create Host 대화 상자가 나타납니다.
  a| 
 호스트 운영 체제 유형입니다
  a| 
-드롭다운 목록에서 다음 옵션 중 하나를 선택합니다.
+드롭다운 목록에서 다음 옵션을 선택합니다.
 
 ** SANtricity 11.60 이상용 * Linux *
-** * Linux DM-MP(커널 3.10 이상) * - SANtricity 11.60 이전 버전
 
 
 
@@ -89,3 +88,6 @@ Create Host 대화 상자가 나타납니다.
 호스트가 성공적으로 생성되면 SANtricity System Manager는 호스트에 대해 구성된 각 호스트 포트에 대한 기본 이름을 생성합니다.
 
 기본 별칭은 "<Hostname_Port Number>"입니다. 예를 들어, 호스트 IPT에 대해 생성된 첫 번째 포트의 기본 별칭은 IPT_1입니다.
+
+.다음 단계
+호스트를 생성한 후 link:nvme-roce-assign-volume-task.html["SANtricity System Manager를 통해 볼륨 할당"].

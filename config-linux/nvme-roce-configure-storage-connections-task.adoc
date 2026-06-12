@@ -125,3 +125,6 @@ NOTE: 이 옵션은 iSCSI 환경에서만 사용할 수 있습니다. NVMe over 
 |===
 . 마침 * 을 클릭합니다.
 
+
+.다음 단계
+RoCE 포트 설정을 통해 NVMe를 구성한 후 link:nvme-roce-discover-connect-storage-host-task.html["호스트에서 스토리지를 검색하고 연결합니다"].

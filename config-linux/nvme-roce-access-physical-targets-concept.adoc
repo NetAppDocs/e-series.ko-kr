@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: NVMe volume physical, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출력을 구성할 수 있습니다. 
 ---
-= E-Series-Linux(NVMe over RoCE)에서 물리적 NVMe 장치 타겟에 대한 NVMe 볼륨 액세스
+= 호스트에서 E-Series 타겟의 NVMe 볼륨에 액세스 - Linux(NVMe over RoCE)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,75 +13,96 @@ summary: Linux 버전을 기반으로 디바이스 타겟으로 지정된 입출
 [role="lead"]
 사용 중인 OS 및 확장 경로 다중화 방법에 따라 디바이스 타겟에 대한 입출력을 구성할 수 있습니다.
 
-RHEL 8, RHEL 9 및 SLES 15의 경우, I/O는 Linux 호스트가 물리적 NVMe 장치 타겟으로 지정합니다. 기본 NVMe 다중 경로 솔루션은 호스트에서 표시되는 분명한 단일 물리적 장치의 물리적 경로를 관리합니다.
+RHEL 9, RHEL 10, SLES 15 및 SLES 16에서는 네이티브 NVMe 다중 경로 솔루션이 호스트에 표시되는 단일 NVMe 장치의 물리적 경로를 관리합니다. 따라서 I/O는 SCSI 기반 Device Mapper Multipath(DMMP)와 같은 다중 경로 장치가 아닌 호스트의 NVMe 장치로 직접 전달됩니다. NVMe 장치 위치는 아래에 자세히 나와 있습니다.
 
 
 
-== 물리적 NVMe 장치는 I/O 타겟입니다
+== NVMe 장치는 I/O 타겟입니다.
 
-의 링크에 대한 I/O를 실행하는 것이 가장 좋습니다 `/dev/disk/by-id/nvme-eui.[uuid#]` 물리적 NVMe 장치 경로로 직접 이동하는 것이 아니라 `/dev/nvme[subsys#]n[id#]`. 이러한 두 위치 간의 링크는 다음 명령을 사용하여 찾을 수 있습니다.
+. E-Series 어레이에서 이 호스트에 매핑된 볼륨을 찾으려면 다음 명령줄을 입력하십시오.
++
+다음 명령은 호스트의 하위 수준 NVMe 장치 위치, 해당 장치가 매핑된 어레이의 이름, 볼륨 이름, NSID, 고유 볼륨 ID, 현재 소유 컨트롤러 및 볼륨 크기를 제공합니다.
 
++
+[listing]
+----
+# nvme netapp smdevices
+/dev/nvme0n1, Array Name creG63-FN, Volume Name 1, NSID 1, Volume ID 00001b7f606ec75100a0980000ed289e, Controller B, 1.10TB
+/dev/nvme0n2, Array Name creG63-FN, Volume Name 2, NSID 2, Volume ID 0000128a6a0d045500a0980000ed27f4, Controller A, 536.87GB
+/dev/nvme0n3, Array Name creG63-FN, Volume Name 3, NSID 3, Volume ID 00001b81606ec75b00a0980000ed289e, Controller B, 536.87GB
+/dev/nvme0n4, Array Name creG63-FN, Volume Name 4, NSID 4, Volume ID 0000128c6a0d045700a0980000ed27f4, Controller A, 214.75GB
+----
+.  `/dev/disk/by-id/nvme-eui.[Volume ID#]`의 링크에 I/O를 실행합니다.
++
+ `/dev/disk/by-id/nvme-eui.[Volume ID#]`의 링크는 확정적이며 변경되지 않습니다. 변경될 수 있으므로  `(/dev/nvme[subsys#]n[id#])`의 하위 수준 NVMe 장치 위치는 사용하지 마십시오. 다음 명령줄을 사용하여 이 두 위치 간의 링크를 찾을 수 있습니다.
+
++
 [listing]
 ----
 # ls /dev/disk/by-id/ -l
-lrwxrwxrwx 1 root root 13 Oct 18 15:14 nvme-eui.0000320f5cad32cf00a0980000af4112 -> ../../nvme0n1
-----
-I/O가 에 실행됩니다 `/dev/disk/by-id/nvme-eui.[uuid#]` 을 통해 직접 전달됩니다 `/dev/nvme[subsys#]n[id#]` 기본 NVMe 다중 경로 솔루션을 사용하여 모든 경로를 이 경로 아래에서 가상화했습니다.
 
-다음을 실행하여 경로를 볼 수 있습니다.
+lrwxrwxrwx 1 root root 13 May 19 15:07 nvme-eui.0000128a6a0d045500a0980000ed27f4 -> ../../nvme0n2
+lrwxrwxrwx 1 root root 13 May 19 15:07 nvme-eui.0000128c6a0d045700a0980000ed27f4 -> ../../nvme0n4
+lrwxrwxrwx 1 root root 13 May 19 15:07 nvme-eui.00001b7f606ec75100a0980000ed289e -> ../../nvme0n1
+lrwxrwxrwx 1 root root 13 May 19 15:07 nvme-eui.00001b81606ec75b00a0980000ed289e -> ../../nvme0n3
+----
+. NVMe 장치의 경로를 보려면  `nvme list-subsys` 명령을 사용하십시오.
++
+ `/dev/disk/by-id/nvme-eui.[uuid#]`에 대한 I/O 실행은 Native NVMe 다중 경로 솔루션을 사용하여 그 아래에 모든 경로가 가상화된 
+`/dev/nvme[subsys#]n[id#]``를 통해 직접 전달됩니다.
 
-[listing]
-----
-# nvme list-subsys
-----
-예제 출력:
-
-[listing]
-----
-nvme-subsys0 - NQN=nqn.1992-08.com.netapp:5700.600a098000a522500000000589aa8a6
-\
-+- nvme0 rdma traddr=192.4.21.131 trsvcid=4420 live
-+- nvme1 rdma traddr=192.4.22.141 trsvcid=4420 live
-----
-"NVMe list -Subsys" 명령을 사용할 때 네임스페이스 장치를 지정하면 해당 네임스페이스에 대한 경로에 대한 추가 정보가 제공됩니다.
-
++
 [listing]
 ----
 # nvme list-subsys /dev/nvme0n1
-nvme-subsys0 - NQN=nqn.1992-08.com.netapp:5700.600a098000af44620000000058d5dd96
+nvme-subsys0 - NQN=nqn.1992-08.com.netapp:EF80.600a098000ed28cb0000000062b24855
+               hostnqn=nqn.2014-08.org.nvmexpress:uuid:5257c202-9d94-ea11-b761-00000000003c
 \
- +- nvme0 rdma traddr=192.168.130.101 trsvcid=4420 live non-optimized
- +- nvme1 rdma traddr=192.168.131.101 trsvcid=4420 live non-optimized
- +- nvme2 rdma traddr=192.168.130.102 trsvcid=4420 live optimized
- +- nvme3 rdma traddr=192.168.131.102 trsvcid=4420 live optimized
+ +- nvme0 tcp traddr=10.10.10.101,trsvcid=4420,src_addr=10.10.10.100 live non-optimized
+ +- nvme1 tcp traddr=10.10.10.11,trsvcid=4420,src_addr=10.10.10.100 live non-optimized
+ +- nvme2 tcp traddr=10.10.20.201,trsvcid=4420,src_addr=10.10.20.200 live optimized
+ +- nvme3 tcp traddr=10.10.20.21,trsvcid=4420,src_addr=10.10.20.200 live optimized
+ +- nvme4 tcp traddr=10.10.20.39,trsvcid=4420,src_addr=10.10.20.200 live non-optimized
+ +- nvme5 tcp traddr=10.10.20.31,trsvcid=4420,src_addr=10.10.20.200 live non-optimized
+ +- nvme6 tcp traddr=10.10.10.49,trsvcid=4420,src_addr=10.10.10.100 live optimized
+ +- nvme7 tcp traddr=10.10.10.41,trsvcid=4420,src_addr=10.10.10.100 live optimized
 ----
-또한 다중 경로 명령에 후크를 사용하여 기본 페일오버를 위한 경로 정보를 볼 수도 있습니다.
-
+. *선택 사항* - 기존 DMMP(Device Mapper Multipath) 명령을 통한 네이티브 페일오버 경로 정보를 보려면  `multipath -ll` 명령을 사용하십시오.
++
 [listing]
 ----
 #multipath -ll
 ----
++
 
-NOTE: 경로 정보를 보려면 /etc/multipath.conf에서 다음을 설정해야 합니다.
+NOTE: 기존 DMMP 명령을 통해 경로 정보를 보려면  `/etc/multipath.conf` 파일에 다음을 설정해야 합니다.
 
++
 [listing]
 ----
-
 defaults {
-        enable_foreign nvme
+    enable_foreign nvme
 }
 ----
++
+*출력 예*
 
-NOTE: 이 방법은 RHEL 10에서는 더 이상 작동하지 않습니다. RHEL 9 이하 버전과 SLES 16 이하 버전에서 작동합니다.
-
-예제 출력:
-
++
 [listing]
 ----
-eui.0000a0335c05d57a00a0980000a5229d [nvme]:nvme0n9 NVMe,Netapp E-Series,08520001
+eui.0000a0335c05d57a00a0980000a5229d [nvme]:nvme0n9 NVMe,Netapp E-
+Series,08520001
 size=4194304 features='n/a' hwhandler='ANA' wp=rw
 |-+- policy='n/a' prio=50 status=optimized
 | `- 0:0:1 nvme0c0n1 0:0 n/a optimized    live
 `-+- policy='n/a' prio-10 status=non-optimized
 `- 0:1:1 nvme0c1n1 0:0 n/a non-optimized    live
 ----
++
+
+NOTE: 이 명령은 RHEL 9 이하 및 SLES 16 이하에서만 작동합니다.
+
+
+
+.다음 단계
+NVMe 장치로의 I/O가 실행되면 link:nvme-roce-create-filesystems-sles-15-task.html["파일 시스템을 생성합니다"].
