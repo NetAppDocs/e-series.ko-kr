@@ -15,6 +15,7 @@ summary: 웹 서비스 API에 대해 자세히 알아보십시오
 
 
 
+[[web-services]]
 == 웹 서비스
 
 웹 서비스는 NetApp E-Series 및 EF-Series 스토리지 시스템을 구성, 관리 및 모니터링할 수 있는 API(Application Programming Interface)입니다. API 요청을 발급하여 E-Series 스토리지 시스템의 구성, 프로비저닝, 성능 모니터링과 같은 워크플로우를 완료할 수 있습니다.
@@ -74,6 +75,7 @@ API가 컨트롤러에서 직접 실행되므로 보안 설정이 높습니다. 
 |===
 
 
+[[unified-manager]]
 == Unified Manager를 참조하십시오
 
 프록시 설치 패키지에는 E2800, E5700, EF300, EF600과 같은 최신 E-Series 및 EF-Series 스토리지 시스템에 대한 구성 액세스를 제공하는 웹 기반 인터페이스인 Unified Manager가 포함됩니다.

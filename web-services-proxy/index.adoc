@@ -15,6 +15,7 @@ SANtricity 웹 서비스 프록시는 호스트 시스템에 별도로 설치되
 
 
 
+[[installation-overview]]
 == 설치 개요
 
 웹 서비스 프록시를 설치 및 구성하는 절차는 다음과 같습니다.
@@ -27,6 +28,7 @@ SANtricity 웹 서비스 프록시는 호스트 시스템에 별도로 설치되
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * Unified Manager -- 프록시 설치에는 최신 E-Series 및 EF-Series 스토리지 시스템에 대한 구성 액세스를 제공하는 웹 기반 인터페이스인 SANtricity Unified Manager가 포함됩니다. 자세한 내용은 사용자 인터페이스 또는 에서 제공되는 Unified Manager 온라인 도움말을 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/index.html["SANtricity 소프트웨어 문서 사이트입니다"^].

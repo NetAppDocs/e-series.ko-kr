@@ -15,12 +15,14 @@ summary: 보안을 위해 웹 서비스 API 및 Unified Manager에 대한 사용
 
 
 
+[[overview-of-access-management]]
 == 액세스 관리 개요
 
 액세스 관리에는 역할 기반 로그인, 암호 암호화, 기본 인증 및 LDAP 통합이 포함됩니다.
 
 
 
+[[role-based-access]]
 === 역할 기반 액세스
 
 역할 기반 액세스 제어(RBAC)는 사전 정의된 사용자를 역할에 연결합니다. 각 역할은 특정 수준의 기능에 권한을 부여합니다.
@@ -118,6 +120,7 @@ ro(읽기 전용) 사용자에게는 storage.monitor 역할만 포함됩니다. 
 |===
 
 
+[[password-encryption]]
 === 암호 암호화
 
 각 암호에 기존 SHA256 암호 인코딩을 사용하여 추가 암호화 프로세스를 적용할 수 있습니다. 이 추가 암호화 프로세스는 각 SHA256 해시 암호화에 대해 각 암호(SALT)에 임의의 바이트 세트를 적용합니다. 새로 만든 모든 암호에 소금된 SHA256 암호화가 적용됩니다.
@@ -127,12 +130,14 @@ NOTE: Web Services Proxy 3.0 릴리스 이전에는 SHA256 해싱만 사용하�
 
 
 
+[[basic-authentication]]
 === 기본 인증
 
 기본적으로 기본 인증은 활성화되어 있으며, 이는 서버가 기본 인증 과제를 반환함을 의미합니다. 이 설정은 wsconfig.xml 파일에서 변경할 수 있습니다.
 
 
 
+[[ldap]]
 === LDAP를 지원합니다
 
 분산 디렉터리 정보 서비스에 액세스하고 유지 관리하기 위한 응용 프로그램 프로토콜인 LDAP(Lightweight Directory Access Protocol)가 웹 서비스 프록시에 대해 활성화됩니다. LDAP 통합을 통해 사용자 인증 및 역할을 그룹에 매핑할 수 있습니다.
@@ -141,12 +146,14 @@ LDAP 기능 구성에 대한 자세한 내용은 Unified Manager 인터페이스
 
 
 
+[[configure-user-access]]
 == 사용자 액세스를 구성합니다
 
 암호에 추가 암호화를 적용하고 기본 인증을 설정하며 역할 기반 액세스를 정의하여 사용자 액세스를 관리할 수 있습니다.
 
 
 
+[[apply-additional-encryption-to-passwords]]
 === 암호에 추가 암호화를 적용합니다
 
 최고 수준의 보안을 위해 기존 SHA256 암호 인코딩을 사용하여 암호에 추가 암호화를 적용할 수 있습니다.
@@ -170,6 +177,7 @@ NOTE: 또는 Unified Manager를 통해 암호를 편집할 때마다 로컬 사�
 
 
 
+[[configure-basic-authentication]]
 === 기본 인증을 구성합니다
 
 기본적으로 기본 인증이 활성화되어 있으며 이는 서버가 기본 인증 과제를 반환함을 의미합니다. 필요한 경우 wsconfig.xml 파일에서 해당 설정을 변경할 수 있습니다.
@@ -190,6 +198,7 @@ NOTE: 또는 Unified Manager를 통해 암호를 편집할 때마다 로컬 사�
 
 
 
+[[configure-role-based-access]]
 === 역할 기반 액세스를 구성합니다
 
 특정 기능에 대한 사용자 액세스를 제한하려면 각 사용자 계정에 대해 지정된 역할을 수정할 수 있습니다.

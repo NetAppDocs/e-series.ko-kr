@@ -28,6 +28,7 @@ NOTE: SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으
 
 
 
+[[install-device-mapper-multipath-dm-mp]]
 == 장치 매퍼 다중 경로(DM-MP) 설치
 
 SANtricity 클라우드 커넥터를 실행하는 모든 호스트는 Linux 장치 매퍼 다중 경로(DM-MP)를 실행하고 다중 경로 도구 패키지를 설치해야 합니다.
@@ -36,12 +37,14 @@ SANtricity 클라우드 커넥터 검색 프로세스는 백업 또는 복원할
 
 
 
+[[install-cloud-connector]]
 == Cloud Connector를 설치합니다
 
 Linux 운영 체제에 SANtricity 클라우드 커넥터를 그래픽 모드 또는 콘솔 모드로 설치할 수 있습니다.
 
 
 
+[[graphical-mode]]
 === 그래픽 모드
 
 그래픽 모드를 사용하여 Linux 운영 체제에 SANtricity 클라우드 커넥터를 설치할 수 있습니다.
@@ -112,6 +115,7 @@ Installation Complete(설치 완료) 메시지가 표시됩니다.
 
 
 
+[[console-mode]]
 === 콘솔 모드
 
 콘솔 모드를 사용하여 Linux 운영 체제에 SANtricity 클라우드 커넥터를 설치할 수 있습니다.
@@ -191,6 +195,7 @@ Installation Complete(설치 완료) 메시지가 표시됩니다.
 
 
 
+[[add-server-certificate-and-ca-certificate-into-a-keystore]]
 == 서버 인증서와 CA 인증서를 키 저장소에 추가합니다
 
 브라우저에서 SANtricity 클라우드 커넥터 호스트로의 보안 https 연결을 사용하려면 SANtricity 클라우드 커넥터 호스트에서 자체 서명된 인증서를 수락하거나 브라우저와 SANtricity 클라우드 커넥터 응용 프로그램에서 인식되는 인증서와 신뢰 체인을 추가할 수 있습니다.
@@ -235,6 +240,7 @@ keytool -import -trustcacerts -alias cloudconnect -file certnew.cer -keystore ke
 
 
 
+[[add-storagegrid-certificate-into-a-keystore]]
 == StorageGRID 인증서를 키 저장소에 추가합니다
 
 StorageGRID를 SANtricity 클라우드 커넥터 응용 프로그램의 대상 유형으로 구성하는 경우 먼저 SANtricity 클라우드 커넥터 키 저장소에 StorageGRID 인증서를 추가해야 합니다.

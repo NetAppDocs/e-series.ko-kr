@@ -17,6 +17,7 @@ RHEL 9, RHEL 10, SLES 15 및 SLES 16에서는 네이티브 NVMe 다중 경로 �
 
 
 
+[[nvme-devices-are-io-targets]]
 == NVMe 장치는 I/O 타겟입니다.
 
 . E-Series 어레이에서 이 호스트에 매핑된 볼륨을 찾으려면 다음 명령줄을 입력하십시오.

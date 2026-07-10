@@ -18,6 +18,7 @@ E2800 배터리를 교체하기 전에 요구 사항과 고려 사항을 검토�
 
 
 
+[[recovery-guru-alerts]]
 == Recovery Guru에서 알려줍니다
 
 SANtricity 시스템 관리자의 Recovery Guru에서 다음 상태 중 하나를 보고하는 경우 영향을 받는 배터리를 교체해야 합니다.
@@ -30,6 +31,7 @@ SANtricity 시스템 관리자에서 Recovery Guru의 세부 정보를 검토하
 
 
 
+[[procedure-overview]]
 == 절차 개요
 
 데이터를 보호하려면 장애가 발생한 배터리를 가능한 한 빨리 교체해야 합니다.
@@ -46,6 +48,7 @@ SANtricity 시스템 관리자에서 Recovery Guru의 세부 정보를 검토하
 
 
 
+[[duplex-or-simplex-configuration]]
 == 이중 또는 단일 구성
 
 배터리 교체 단계는 다음과 같이 1개 또는 2개의 컨트롤러가 있는지 여부에 따라 다릅니다.
@@ -80,6 +83,7 @@ SANtricity 시스템 관리자에서 Recovery Guru의 세부 정보를 검토하
 |===
 
 
+[[requirements-for-replacing-a-battery]]
 == 배터리 교체 요구 사항
 
 고장난 배터리를 교체할 계획이라면 다음이 필요합니다.

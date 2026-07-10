@@ -15,6 +15,7 @@ summary: 웹 서비스 프록시에 대한 설치 및 업그레이드 요구 사
 
 
 
+[[installation-requirements]]
 == 설치 요구 사항
 
 Windows 또는 Linux 호스트 시스템에 웹 서비스 프록시를 설치 및 구성할 수 있습니다.
@@ -82,6 +83,7 @@ Webserver가 제대로 작동하려면 Linux 표준 기본 라이브러리(init-
 |===
 
 
+[[upgrade-considerations]]
 == 업그레이드 고려 사항
 
 이전 버전에서 업그레이드하는 경우에는 일부 항목이 보존되거나 제거된다는 점에 유의하십시오.

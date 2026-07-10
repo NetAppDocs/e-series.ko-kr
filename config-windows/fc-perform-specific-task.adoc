@@ -15,6 +15,7 @@ Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 
 
 
 
+[[step-1-configure-the-fc-switches-windows]]
 == 1단계: FC 스위치 구성 -- Windows
 
 FC(Fibre Channel) 스위치를 구성(조닝)하면 호스트가 스토리지에 접속하고 경로 수를 제한할 수 있습니다. 스위치의 관리 인터페이스를 사용하여 스위치를 조닝(Zoning)합니다.
@@ -38,6 +39,7 @@ FC(Fibre Channel) 스위치를 구성(조닝)하면 호스트가 스토리지에
 
 
 
+[[step-2-determine-host-wwpns-and-make-recommended-settings-fc-windows]]
 == 2단계: 호스트 WWPN을 확인하고 권장 설정 -- FC, Windows
 
 각 호스트 포트의 WWPN(Worldwide Port Name)을 볼 수 있도록 FC HBA 유틸리티를 설치합니다. 또한 HBA 유틸리티를 사용하여 의 Notes(메모) 열에 권장된 설정을 변경할 수 있습니다 http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 를 참조하십시오.
@@ -64,6 +66,7 @@ HBA 유틸리티에 대한 다음 지침을 검토하십시오.
 
 
 
+[[step-3-record-your-configuration]]
 == 3단계: 구성을 기록합니다
 
 이 페이지의 PDF를 생성하여 인쇄한 다음 다음 다음 워크시트를 사용하여 FC 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
@@ -74,6 +77,7 @@ image::../media/port_identifiers_host_and_target_conf-win.gif[파이버 채널 �
 
 
 
+[[host-identifiers]]
 === 호스트 식별자입니다
 
 |===
@@ -106,6 +110,7 @@ _해당 사항 없음 _
 |===
 
 
+[[target-identifiers]]
 === 타겟 식별자
 
 |===
@@ -163,6 +168,7 @@ _해당 사항 없음 _
 |===
 
 
+[[mapping-host-name]]
 === 호스트 이름 매핑 중
 
 |===

@@ -16,6 +16,7 @@ summary: '안정적인 운영을 보장하기 위해 구축 계획을 생성한 
 
 
 
+[[verify-the-linux-configuration-is-supported]]
 == Linux 구성이 지원되는지 확인합니다
 
 안정적인 운영을 보장하기 위해 구축 계획을 생성한 다음 NetApp 상호 운용성 매트릭스 툴(IMT) 을 사용하여 전체 구성이 지원되는지 확인하십시오.
@@ -37,12 +38,14 @@ summary: '안정적인 운영을 보장하기 위해 구축 계획을 생성한 
 
 
 
+[[verify-nvme-over-roce-restrictions]]
 == NVMe over RoCE 제한 확인
 
 NVMe over RoCE를 사용하기 전에 을(를) 참조하십시오 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 최신 컨트롤러, 호스트 및 복구 제한 사항을 검토합니다.
 
 
 
+[[switch-restrictions]]
 === 스위치 제한
 
 
@@ -50,6 +53,7 @@ CAUTION: *데이터 손실 위험.* NVMe over RoCE는 무손실 환경에서 실
 
 
 
+[[storage-and-disaster-recovery-restrictions]]
 === 스토리지 및 재해 복구 제한 사항
 
 * 비동기식 및 동기식 미러링은 지원되지 않습니다.

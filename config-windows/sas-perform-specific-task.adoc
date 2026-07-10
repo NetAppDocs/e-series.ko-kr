@@ -15,6 +15,7 @@ SAS 프로토콜의 경우 호스트 포트 주소를 확인하고 적절한 설
 
 
 
+[[step-1-determine-sas-host-identifiers-windows]]
 == 1단계: SAS 호스트 식별자 확인 -- Windows
 
 HBA 유틸리티를 사용하여 SAS 주소를 찾은 다음 HBA BIOS를 사용하여 적절한 구성 설정을 수행합니다.
@@ -36,6 +37,7 @@ HBA 유틸리티에 대한 지침을 검토합니다.
 
 
 
+[[step-2-record-your-configuration]]
 == 2단계: 구성을 기록합니다
 
 이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
@@ -44,6 +46,7 @@ image::../media/sas_topology_diagram_conf-win.gif[다이어그램: SAS 토폴로
 
 
 
+[[host-identifiers]]
 === 호스트 식별자입니다
 
 |===
@@ -92,12 +95,14 @@ _해당 사항 없음 _
 |===
 
 
+[[target-identifiers]]
 === 타겟 식별자
 
 권장 구성은 두 개의 대상 포트로 구성됩니다.
 
 
 
+[[mapping-host-name]]
 === 호스트 이름 매핑 중
 
 |===

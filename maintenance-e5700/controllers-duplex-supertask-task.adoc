@@ -36,6 +36,7 @@ NOTE: 이 작업은 두 개의 컨트롤러가 있는 스토리지 어레이(이
 
 
 
+[[step-1-prepare-to-replace-controller-duplex]]
 == 1단계: 컨트롤러 교체 준비(양면 인쇄)
 
 교체 컨트롤러 캐니스터의 FRU 부품 번호가 올바른지, 구성을 백업하고, 지원 데이터를 수집하여 컨트롤러 캐니스터 교체를 준비하십시오. 컨트롤러가 여전히 온라인 상태인 경우 오프라인 상태로 전환해야 합니다.
@@ -143,6 +144,7 @@ CAUTION: 상태가 업데이트되기 전에는 다른 작업을 시작하지 �
 
 
 
+[[step-2-remove-controller-canister-duplex]]
 == 2단계: 컨트롤러 캐니스터 제거(듀플렉스)
 
 컨트롤러 캐니스터를 제거하여 결함이 있는 캐니스터를 새 캐니스터로 교체합니다.
@@ -199,6 +201,7 @@ E5724 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거하는 경우
 
 
 
+[[step-3-remove-battery-duplex]]
 == 3단계: 배터리 분리(양면 인쇄)
 
 새 컨트롤러를 설치할 수 있도록 배터리를 분리합니다.
@@ -234,6 +237,7 @@ image::../media/28_dwg_e2800_remove_battery_maint-e5700.gif[배터리를 분리�
 
 
 
+[[step-4-remove-host-interface-card-duplex]]
 == 4단계: 호스트 인터페이스 카드 제거(양면 인쇄)
 
 컨트롤러 캐니스터에 HIC(호스트 인터페이스 카드)가 포함된 경우 원래 컨트롤러 캐니스터에서 HIC를 제거하여 새 컨트롤러 캐니스터에서 다시 사용할 수 있도록 합니다.
@@ -267,6 +271,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[컨트롤러 카드
 
 
 
+[[step-5-install-battery-duplex]]
 == 5단계: 배터리 설치(양면 인쇄)
 
 교체용 컨트롤러 캐니스터에 배터리를 설치합니다. 원래 컨트롤러 캐니스터에서 분리한 배터리를 설치하거나 주문한 새 배터리를 설치할 수 있습니다.
@@ -312,6 +317,7 @@ image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e5700.gif["잘못된 금
 
 
 
+[[step-6-install-host-interface-card-duplex]]
 == 6단계: 호스트 인터페이스 카드 설치(양면 인쇄)
 
 원래 컨트롤러 캐니스터에서 HIC를 제거한 경우 새 컨트롤러 캐니스터에 HIC를 설치해야 합니다.
@@ -348,6 +354,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[전면판 재�
 
 
 
+[[step-7-install-new-controller-canister-duplex]]
 == 7단계: 새 컨트롤러 캐니스터 설치(듀플렉스)
 
 배터리와 호스트 인터페이스 카드(HIC)를 설치한 후 처음 설치한 경우 새 컨트롤러 캐니스터를 컨트롤러 쉘프에 설치할 수 있습니다.
@@ -388,6 +395,7 @@ NOTE: 원래 컨트롤러가 IP 주소에 DHCP를 사용하지 않은 경우 새
 
 
 
+[[step-8-complete-controller-replacement-duplex]]
 == 8단계: 전체 컨트롤러 교체(양면 인쇄)
 
 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 운영을 재개하십시오.

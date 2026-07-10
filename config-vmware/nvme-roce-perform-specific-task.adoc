@@ -15,12 +15,14 @@ RoCE 프로토콜을 통한 NVMe의 경우 스위치를 구성하고 호스트 �
 
 
 
+[[step-1-record-your-configuration]]
 == 1단계: 구성 기록
 
 이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
 
 
 
+[[recommended-configuration]]
 === 권장 구성
 
 권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
@@ -29,6 +31,7 @@ image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NV
 
 
 
+[[host-identifiers]]
 === 호스트 식별자입니다
 
 |===
@@ -52,6 +55,7 @@ image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NV
 |===
 
 
+[[target-identifiers]]
 === 타겟 식별자
 
 |===
@@ -91,6 +95,7 @@ image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NV
 |===
 
 
+[[mapping-host]]
 === 호스트 매핑 중
 
 |===
@@ -109,12 +114,14 @@ image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NV
 |===
 
 
+[[recommended-configuration]]
 === 권장 구성
 
 이는 어레이에 따라 다를 수 있습니다. EF300, EF600 및 EF50은 1개 이상의 VLAN이 있는 최대 4개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다. EF80은 1개 이상의 VLAN이 있는 최대 6개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다.
 
 
 
+[[step-2-configure-the-nvmeroce-switches]]
 == 2단계: NVMe/RoCE 스위치 구성
 
 NVMe over RoCE에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
@@ -132,6 +139,7 @@ NVMe over RoCE에 대한 공급업체의 권장 사항에 따라 스위치를 �
 
 
 
+[[step-3-configure-networking-nvmeroce-vmware]]
 == 3단계: 네트워킹 구성 - NVMe/RoCE, VMware
 
 데이터 스토리지 요구 사항에 따라 NVMe over RoCE 네트워크를 여러 가지 방법으로 설정할 수 있습니다. 환경에 가장 적합한 구성을 선택하는 방법에 대한 팁은 네트워크 관리자에게 문의하십시오.
@@ -154,6 +162,7 @@ RoCE를 통한 NVMe 네트워킹을 계획할 때 VMware Configuration Maximums 
 
 
 
+[[step-4-configure-array-side-networking-nvmeroce-vmware]]
 == 4단계: 어레이 측 네트워킹 구성 - NVMe/RoCE, VMware
 
 SANtricity System Manager 인터페이스를 사용하여 어레이 측에서 RoCE를 통한 NVMe 네트워킹을 구성합니다.
@@ -254,6 +263,7 @@ IPv4 및/또는 IPv6 설정을 자동 또는 수동으로 구성합니다. 모�
 
 
 
+[[step-5-configure-host-side-networkingnvme-over-roce-vmware]]
 == 5단계: 호스트 측 네트워킹 구성—RoCE를 통한 NVMe, VMware
 
 호스트 측에서 RoCE를 통한 NVMe 네트워킹을 구성하면 VMware NVMe over RDMA 스토리지 어댑터 이니시에이터가 어레이와 세션을 설정할 수 있습니다.
@@ -293,6 +303,7 @@ DSCP(차등 서비스 코드 포인트) 기반 PFC(우선순위 흐름 제어)�
 
 
 
+[[step-6-verify-ip-network-connections-nvme-over-roce-vmware]]
 == 6단계: IP 네트워크 연결 확인 - RoCE를 통한 NVMe, VMware
 
 ping 테스트를 사용하여 호스트와 어레이가 통신할 수 있는지 확인하여 IP(인터넷 프로토콜) 네트워크 연결을 확인합니다.

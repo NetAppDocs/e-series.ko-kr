@@ -15,10 +15,12 @@ summary: 시스템은 원격 스토리지 볼륨에 대한 호환성 요구 사�
 
 
 
+[[hardware-requirements]]
 == 하드웨어 요구 사항
 
 
 
+[[supported-protocols]]
 === 지원되는 프로토콜
 
 원격 스토리지 볼륨 기능의 초기 릴리스의 경우 iSCSI 및 IPv4 프로토콜에서만 지원을 사용할 수 있습니다.
@@ -27,6 +29,7 @@ summary: 시스템은 원격 스토리지 볼륨에 대한 호환성 요구 사�
 
 
 
+[[storage-system-requirements]]
 === 수행할 수 있습니다
 
 E-Series 스토리지 시스템에는 다음이 포함되어야 합니다.
@@ -41,12 +44,14 @@ E-Series 스토리지 시스템에는 다음이 포함되어야 합니다.
 
 
 
+[[volume-requirements]]
 == 볼륨 요구 사항
 
 가져오기에 사용되는 볼륨은 크기, 상태 및 기타 조건에 대한 요구 사항을 충족해야 합니다.
 
 
 
+[[remote-storage-volume]]
 === 원격 스토리지 볼륨
 
 가져오기의 소스 볼륨을 "원격 저장소 볼륨"이라고 합니다. 이 볼륨은 다음 기준을 충족해야 합니다.
@@ -73,6 +78,7 @@ E-Series 스토리지 시스템에는 다음이 포함되어야 합니다.
 
 
 
+[[target-volume-candidates]]
 === 타겟 볼륨 후보
 
 타겟 볼륨은 로컬 E-Series 시스템의 타겟 볼륨입니다.
@@ -93,6 +99,7 @@ System Manager는 원격 스토리지 가져오기 마법사의 일부로 이러
 
 
 
+[[restrictions]]
 == 제한 사항
 
 원격 스토리지 기능에는 다음과 같은 제한 사항이 있습니다.
@@ -111,6 +118,7 @@ System Manager는 원격 스토리지 가져오기 마법사의 일부로 이러
 
 
 
+[[preparation-for-production-imports]]
 == 생산 수입 준비
 
 프로덕션을 가져오기 전에 테스트 또는 "dry run" 가져오기를 수행하여 스토리지 및 Fabric 구성이 올바른지 확인해야 합니다.

@@ -15,6 +15,7 @@ summary: '데이터를 수집한 AutoSupport(ASUP)를 구성하여 원격 문제
 
 
 
+[[overview-of-autosupport-asup]]
 == AutoSupport(ASUP) 개요
 
 ASUP(AutoSupport) 기능은 수동 및 일정 기반의 기준에 따라 메시지를 NetApp에 자동으로 전송합니다.
@@ -94,12 +95,14 @@ webServices - profile.json
 |===
 
 
+[[configure-autosupport]]
 == AutoSupport를 구성합니다
 
 AutoSupport는 설치 시 기본적으로 활성화되어 있지만, 이 설정을 변경하거나 전송 유형을 수정할 수 있습니다.
 
 
 
+[[enable-or-disable-autosupport]]
 === AutoSupport를 활성화 또는 비활성화합니다
 
 AutoSupport 기능은 웹 서비스 프록시를 처음 설치하는 동안 활성화 또는 비활성화되지만 ASUPConfig 파일에서 해당 설정을 변경할 수 있습니다.
@@ -123,6 +126,7 @@ NOTE: 타임스탬프 항목이 불필요합니다.
 
 
 
+[[configure-autosupport-delivery-method]]
 === AutoSupport 전달 방법을 구성합니다
 
 AutoSupport 기능을 구성하여 HTTPS 또는 SMTP 배달 방법을 사용할 수 있습니다. HTTPS는 기본 전송 방법입니다.

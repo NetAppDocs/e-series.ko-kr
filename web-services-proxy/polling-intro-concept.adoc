@@ -15,6 +15,7 @@ summary: 검색된 스토리지 시스템의 모든 디스크 및 볼륨 통계�
 
 
 
+[[overview-of-statistics]]
 == 통계 개요
 
 통계는 스토리지 시스템의 데이터 수집 속도 및 성능에 대한 정보를 제공합니다.
@@ -31,12 +32,14 @@ summary: 검색된 스토리지 시스템의 모든 디스크 및 볼륨 통계�
 
 
 
+[[statistics-functionality]]
 == 통계 기능
 
 웹 서비스 프록시는 지원되는 하드웨어 모델 및 소프트웨어 버전에서 원시 및 분석된 컨트롤러 및 인터페이스 통계를 검색할 수 있는 API 엔드포인트를 제공합니다.
 
 
 
+[[raw-statistics-apis]]
 === 원시 통계 API
 
 * '+/storage-systems/{system-id}/controller-statistics+'
@@ -47,6 +50,7 @@ summary: 검색된 스토리지 시스템의 모든 디스크 및 볼륨 통계�
 
 
 
+[[analyzed-statistics-apis]]
 === 분석된 통계 API
 
 * '+/storage-systems/{id}/분석됨-controller-statistics/+'
@@ -69,6 +73,7 @@ NOTE: 시스템이 시작될 때 다양한 메트릭을 계산하는 데 사용�
 
 
 
+[[configure-polling-intervals]]
 == 폴링 간격을 구성합니다
 
 폴링 간격을 구성하려면 wsconfig.xml 파일을 수정하여 폴링 간격을 초 단위로 지정합니다.

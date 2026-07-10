@@ -20,6 +20,7 @@ NOTE: SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으
 
 
 
+[[considerations]]
 == 고려 사항
 
 이러한 절차를 사용할 때는 다음 사항에 유의하십시오.
@@ -30,6 +31,7 @@ NOTE: SANtricity 클라우드 커넥터 도구는 더 이상 사용되지 않으
 
 
 
+[[types-of-backups]]
 == 백업 유형
 
 SANtricity 클라우드 커넥터는 이미지 기반 백업과 파일 기반 백업의 두 가지 백업 유형을 제공합니다.

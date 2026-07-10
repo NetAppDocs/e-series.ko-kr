@@ -17,6 +17,7 @@ summary: 랙 마운트 하드웨어는 랙이나 캐비닛에 하드웨어를 �
 
 
 
+[[adjustable-support-rails]]
 == 조절식 지지 레일
 
 액세스 https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1652045["조절식 지지 레일 설치"^] 별도로 제공된 컨트롤러 드라이브 트레이 또는 드라이브 트레이(캐비닛에 설치되어 있지 않음)를 설치하는 데 사용됩니다. 이 절차는 다음 2U(9cm 또는 3.5인치) 트레이에 적용할 수 있습니다.
@@ -28,18 +29,21 @@ summary: 랙 마운트 하드웨어는 랙이나 캐비닛에 하드웨어를 �
 
 
 
+[[two-post-rack-2u]]
 == 2-포스트 랙 -- 2U
 
 액세스 https://mysupport.netapp.com/ecm/ecm_download_file/ECMM1280302["2-포스트 랙에 2U 장비 설치"^].
 
 
 
+[[four-post-rack-or-cabinet-2u]]
 == 4-포스트 랙 또는 캐비닛 -- 2U
 
 액세스 https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2484194["4-포스트 랙 또는 캐비닛에 2U 12 드라이브 엔클로저 설치"^].
 
 
 
+[[four-post-rack-superrail]]
 == 4-포스트 랙 -- SuperRail
 
 액세스 https://docs.netapp.com/us-en/ontap-systems/platform-supplemental/superrail-install.html["SuperRail을 4포스트 랙에 설치합니다"^].

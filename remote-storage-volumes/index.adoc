@@ -15,6 +15,7 @@ SANtricity ® 원격 스토리지 볼륨 기능을 사용하여 원격 스토리
 
 
 
+[[configuration-overview]]
 == 구성 개요
 
 원격 스토리지 볼륨 기능은 선택된 하위 모델 ID에서 SANtricity System Manager에서 사용할 수 있습니다. 이 기능을 사용하려면 원격 스토리지 시스템과 E-Series 스토리지 시스템이 서로 통신하도록 구성해야 합니다.
@@ -31,6 +32,7 @@ NOTE: SANtricity 원격 저장소 볼륨은 현재 E4000 시스템에서 지원�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * 온라인 도움말: System Manager 사용자 인터페이스 또는 에서 사용할 수 있습니다 https://docs.netapp.com/us-en/e-series-santricity/index.html["SANtricity 소프트웨어 문서 사이트입니다"^].

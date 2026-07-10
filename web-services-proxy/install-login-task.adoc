@@ -15,6 +15,7 @@ summary: 웹 서비스 API 및 Unified Manager에 액세스 및 로그인합니�
 
 
 
+[[log-in-to-web-services-api]]
 == 웹 서비스 API에 로그인합니다
 
 웹 서비스 프록시를 설치한 후 브라우저에서 대화형 API 설명서에 액세스할 수 있습니다.
@@ -99,6 +100,7 @@ Try it Out * 을 클릭하여 끝점과 직접 상호 작용할 수 있습니다
 
 
 
+[[log-in-to-unified-manager]]
 == Unified Manager에 로그인합니다
 
 웹 서비스 프록시를 설치한 후 Unified Manager에 액세스하여 웹 기반 인터페이스에서 여러 스토리지 시스템을 관리할 수 있습니다.

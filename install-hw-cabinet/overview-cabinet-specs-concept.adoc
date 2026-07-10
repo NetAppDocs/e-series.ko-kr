@@ -125,18 +125,21 @@ NOTE: 3040 캐비닛이 DE6600 트레이로 완전히 채워진 경우 무게는
 
 
 
+[[power-requirements-and-heat-dissipation]]
 == 전력 요구 사항 및 열 손실
 
 캐비닛에는 전원 및 열 방산에 대한 다음 사양이 포함되어 있습니다.
 
 
 
+[[power-rating]]
 === 전원 등급
 
 3040 40U 캐비닛은 50 Hz ~ 60 Hz에서 200 VAC ~ 240 VAC로 정격되며 해당 범위의 ± 10%까지 작동합니다.
 
 
 
+[[power-distribution-units-pdus]]
 === PDU(Power Distribution Unit)
 
 캐비닛에는 2개의 동일한 AC PDU(Power Distribution Unit)가 포함되어 있으며 각 PDU는 최대 72A의 가용 전력을 제공합니다. PDU는 캐비닛 후면에 수직으로 장착되며 각 PDU에는 6개의 12A 전원 뱅크가 포함되어 있습니다. 각 전원 뱅크에는 4개의 IEC 60320-C19 전원 콘센트와 15A 회로 차단기가 있습니다. 각 PDU에는 총 24개의 콘센트와 6개의 회로 차단기가 있습니다.
@@ -152,6 +155,7 @@ NOTE: 3040 캐비닛이 DE6600 트레이로 완전히 채워진 경우 무게는
 
 
 
+[[power-calculations-and-heat-calculations-for-the-cabinet]]
 === 캐비닛의 전력 계산 및 열 계산
 
 |===
@@ -379,12 +383,14 @@ DE6600 드라이브 트레이
 |===
 
 
+[[maximum-number-of-trays]]
 == 최대 용지함 수
 
 3040 40U 캐비닛에 설치할 수 있는 최대 용지함 수는 랙 장치(U)의 각 용지함 높이에 따라 다릅니다.
 
 
 
+[[tray-heights-in-rack-units-u]]
 === 랙 유닛의 트레이 높이(U)
 
 각 랙 유닛은 4.45cm(1.75인치)입니다. 예를 들어 최대 10개의 4U 트레이, 최대 20개의 2U 트레이 또는 2U 및 4U 트레이의 조합을 최대 40U까지 설치할 수 있습니다.

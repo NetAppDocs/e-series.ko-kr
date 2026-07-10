@@ -17,6 +17,7 @@ image::../media/sas_topology_diagram_conf-lin.gif[다이어그램: SAS 토폴로
 
 
 
+[[host-identifiers]]
 == 호스트 식별자입니다
 
 |===
@@ -65,12 +66,14 @@ _해당 사항 없음 _
 |===
 
 
+[[target-identifiers]]
 == 타겟 식별자
 
 권장 구성은 두 개의 대상 포트로 구성됩니다.
 
 
 
+[[mapping-host]]
 == 호스트 매핑 중
 
 |===

@@ -33,6 +33,7 @@ DIMM을 교체하려면 컨트롤러의 캐시 크기를 확인하고, 컨트롤
 
 
 
+[[step-1-determine-if-you-need-to-replace-a-dimm]]
 == 1단계: DIMM을 교체해야 하는지 확인합니다
 
 DIMM을 교체하기 전에 컨트롤러의 캐시 크기를 확인합니다.
@@ -50,6 +51,7 @@ DIMM을 교체하기 전에 컨트롤러의 캐시 크기를 확인합니다.
 
 
 
+[[step-2-place-controller-offline]]
 == 2단계: 컨트롤러를 오프라인으로 전환합니다
 
 DIMM을 안전하게 분리하고 교체할 수 있도록 컨트롤러를 오프라인으로 설정합니다.
@@ -96,6 +98,7 @@ NOTE: 상태가 업데이트되기 전에는 다른 작업을 시작하지 마�
 
 
 
+[[step-3-remove-controller-canister]]
 == 3단계: 컨트롤러 캐니스터 제거
 
 장애가 발생한 컨트롤러 캐니스터를 제거하여 DIMM을 새 것으로 교체할 수 있습니다.
@@ -126,6 +129,7 @@ image::../media/remove_controller_6.png[분리할 때 두 손으로 컨트롤러
 
 
 
+[[step-4-remove-dimms]]
 == 4단계: DIMM을 분리합니다
 
 메모리 불일치가 있는 경우 컨트롤러의 DIMM을 교체합니다.
@@ -160,6 +164,7 @@ CAUTION: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으�
 
 
 
+[[step-5-install-new-dimms]]
 == 5단계: 새 DIMM을 설치합니다
 
 새 DIMM을 설치하여 기존 DIMM을 교체하십시오.
@@ -189,6 +194,7 @@ image::../media/dimm_5.png[DIMM을 슬롯에 삽입하고 탭으로 고정합니
 
 
 
+[[step-6-reinstall-controller-canister]]
 == 6단계: 컨트롤러 캐니스터 재설치
 
 새 DIMM을 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -208,6 +214,7 @@ image::../media/remove_controller_7.png[DIMM을 컨트롤러의 슬롯에 설치
 
 
 
+[[step-7-complete-dimms-replacement]]
 == 7단계: DIMM 교체를 완료합니다
 
 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 운영을 재개하십시오.

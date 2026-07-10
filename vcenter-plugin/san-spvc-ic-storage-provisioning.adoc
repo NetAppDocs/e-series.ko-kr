@@ -19,6 +19,7 @@ summary: Plugin for vCenter를 사용하여 볼륨을 생성하고 호스트에 
 
 
 
+[[step-1-create-volumes]]
 == 1단계: 볼륨 생성
 
 볼륨은 스토리지 어레이에서 스토리지 공간을 관리하고 구성하는 데이터 컨테이너입니다. 스토리지 배열에서 사용 가능한 스토리지 용량에서 볼륨을 생성하여 시스템 리소스를 구성할 수 있습니다. "볼륨"의 개념은 빠른 액세스를 위해 파일을 구성하기 위해 컴퓨터의 폴더/디렉토리를 사용하는 것과 비슷합니다.
@@ -180,6 +181,7 @@ DA 지원 볼륨을 생성하려면 사용하려는 호스트 연결이 DA를 �
 
 
 
+[[step-2-create-host-access-and-assign-volumes]]
 == 2단계: 호스트 액세스를 생성하고 볼륨을 할당합니다
 
 호스트를 수동으로 생성할 수 있습니다.
@@ -189,6 +191,7 @@ DA 지원 볼륨을 생성하려면 사용하려는 호스트 연결이 DA를 �
 
 
 
+[[manually-creating-the-host]]
 === 호스트를 수동으로 생성합니다
 
 .시작하기 전에
@@ -293,12 +296,14 @@ CHAP 이니시에이터 암호를 설정합니다
 
 
 
+[[step-3-create-a-datastore-in-vsphere-client]]
 == 3단계: vSphere Client에서 데이터 저장소를 생성합니다
 
 vSphere Client에서 데이터 저장소를 생성하려면 를 참조하십시오 https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-5AC611E0-7CEB-4604-A03C-F600B1BA2D23.html["vSphere Client에서 VMFS 데이터 저장소를 생성합니다"^] 항목을 참조하십시오.
 
 
 
+[[increase-capacity-of-existing-datastore-by-increasing-volume-capacity]]
 === 볼륨 용량을 늘려 기존 데이터 저장소의 용량을 늘립니다
 
 풀 또는 볼륨 그룹에서 사용할 수 있는 가용 용량을 사용하여 볼륨의 보고된 용량(호스트에 보고된 용량)을 늘릴 수 있습니다.
@@ -337,6 +342,7 @@ NOTE: 볼륨 용량 증가는 특정 운영 체제에서만 지원됩니다. LUN
 
 
 
+[[increase-capacity-of-existing-datastore-by-adding-volumes]]
 === 볼륨을 추가하여 기존 데이터 저장소의 용량을 늘립니다
 
 . 볼륨을 추가하여 데이터 저장소의 용량을 늘릴 수 있습니다. 의 단계를 따릅니다 <<1단계: 볼륨 생성>>.

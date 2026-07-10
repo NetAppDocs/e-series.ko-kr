@@ -33,6 +33,7 @@ EF300, EF600, EF300C 또는 EF600C 스토리지 시스템에서 배터리를 교
 
 
 
+[[step-1-place-controller-offline]]
 == 1단계: 컨트롤러를 오프라인으로 전환합니다
 
 데이터를 백업하고 영향을 받는 컨트롤러를 오프라인으로 설정합니다.
@@ -79,6 +80,7 @@ NOTE: 상태가 업데이트되기 전에는 다른 작업을 시작하지 마�
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 결함이 있는 배터리를 새 배터리로 교체합니다.
@@ -109,6 +111,7 @@ image::../media/remove_controller_6.png[분리할 때 두 손으로 컨트롤러
 
 
 
+[[step-3-remove-failed-battery]]
 == 3단계: 결함이 있는 배터리를 제거합니다
 
 컨트롤러에서 결함이 있는 배터리를 꺼냅니다.
@@ -141,6 +144,7 @@ CAUTION: IATA(International Air Transport Association) 규정을 준수하기 �
 
 
 
+[[step-4-install-new-battery]]
 == 4단계: 새 배터리를 장착하십시오
 
 컨트롤러 캐니스터에서 결함이 있는 배터리를 분리한 후 이 단계에 따라 새 배터리를 설치합니다.
@@ -163,6 +167,7 @@ image::../media/batt_5.png[배터리를 삽입합니다]
 
 
 
+[[step-5-reinstall-controller-canister]]
 == 5단계: 컨트롤러 캐니스터 재설치
 
 컨트롤러를 컨트롤러 쉘프에 다시 설치합니다.
@@ -181,6 +186,7 @@ image::../media/remove_controller_7.png[쉘프에 컨트롤러를 설치합니�
 
 
 
+[[step-6-complete-battery-replacement]]
 == 6단계: 배터리 교체 완료
 
 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 운영을 재개하십시오.

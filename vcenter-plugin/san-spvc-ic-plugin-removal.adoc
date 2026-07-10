@@ -20,6 +20,7 @@ vCenter Server Appliance에서 플러그인을 제거하고 애플리케이션 �
 
 
 
+[[unregister-the-plugin-from-a-vcenter-server-appliance]]
 == vCenter Server Appliance에서 플러그인 등록을 취소합니다
 
 vCenter Server Appliance에서 플러그인 등록을 취소하려면 다음 방법 중 하나를 선택합니다.
@@ -30,6 +31,7 @@ vCenter Server Appliance에서 플러그인 등록을 취소하려면 다음 방
 
 
 
+[[method-1-execute-the-registration-script]]
 === 방법 1: 등록 스크립트를 실행합니다
 
 . 명령줄을 통해 프롬프트를 열고 다음 디렉토리로 이동합니다.
@@ -57,6 +59,7 @@ vcenter-register.bat ^
 
 
 
+[[method-2-use-the-vcenter-server-mob-pages]]
 === 방법 2: vCenter Server Mob 페이지를 사용합니다
 
 . 웹 브라우저를 열고 다음 URL을 입력합니다.
@@ -78,6 +81,7 @@ NOTE: 이 절차에서는 vCenter Server Appliance에서 플러그인 등록을 
 
 
 
+[[remove-the-plugin-webserver-from-the-application-host]]
 == 애플리케이션 호스트에서 플러그인 웹 서버를 제거합니다
 
 애플리케이션 호스트에서 플러그인 소프트웨어를 제거하려면 다음 단계를 수행하십시오.

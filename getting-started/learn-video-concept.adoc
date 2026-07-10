@@ -15,6 +15,7 @@ summary: 비디오 데모를 통해 E-Series 시스템에 대해 자세히 알�
 
 
 
+[[e-series-fast-simple-reliable-storage]]
 == E-Series: 빠르고 단순하며 안정적인 스토리지
 
 이 비디오에서는 스토리지에 일반 서버를 사용하는 것과 NetApp E-Series 시스템을 사용할 때의 주요 이점을 살펴봅니다.
@@ -23,6 +24,7 @@ https://www.youtube.com/embed/FjFkU2z_hIo?rel=0["NetApp 비디오: 스토리지�
 
 
 
+[[system-manager-easy-setup-and-configuration]]
 == System Manager: 간편한 설정 및 구성
 
 이 기술 데모에서는 웹 기반 SANtricity System Manager 인터페이스를 사용하여 NetApp E2800을 쉽게 설정하고 구성하는 방법을 보여 줍니다.

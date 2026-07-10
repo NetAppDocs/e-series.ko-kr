@@ -26,6 +26,7 @@ summary: 이전 컨트롤러를 제거한 후에는 컨트롤러 드라이브 �
 
 
 
+[[step-1-install-battery]]
 == 1단계: 배터리를 설치합니다
 
 원래 컨트롤러 캐니스터에서 분리한 배터리 또는 주문한 새 배터리를 설치합니다.
@@ -56,6 +57,7 @@ TIP: 컨트롤러 배터리가 E5XX 컨트롤러 드라이브 트레이에 올�
 
 
 
+[[step-2-install-new-controller-canister]]
 == 2단계: 새 컨트롤러 캐니스터 설치
 
 [role="tabbed-block"]

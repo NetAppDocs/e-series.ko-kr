@@ -31,7 +31,7 @@ NOTE: 추가 인터페이스 및 운영 체제가 지원될 수 있습니다. �
 
 
  a| 
-이 사이트는 릴리즈_소프트웨어 버전 11.50 이전_소프트웨어 버전 8.50 또는 펌웨어 버전 8.50에 대한 정보를 포함하지 않습니다. 이전 릴리스의 경우 로 이동합니다 https://www.netapp.com/us/documentation/eseries-santricity.aspx["E-Series 및 SANtricity 문서 리소스"^] 페이지.
+이 사이트는 소프트웨어 버전 11.50 또는 펌웨어 버전 8.50 이전의 릴리스에 대한 정보를 제공하지 않습니다. 이전 릴리스에 대한 정보는 해당  https://docs.netapp.com/us-en/e-series-santricity/early-versions.html#software-documentation-for-earlier-releases["이전 릴리스에 대한 E-Series 및 SANtricity 설명서"^]페이지를 참조하십시오.
 
 사이트 준비 요구 사항에 대한 자세한 내용은 을 참조하십시오 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^].
 

@@ -33,6 +33,7 @@ summary: 단순 구성에서 오류가 발생한 컨트롤러 캐니스터를 �
 
 
 
+[[step-1-prepare-to-replace-controller-simplex]]
 == 1단계: 컨트롤러 교체 준비(단방향)
 
 드라이브 보안 키를 저장하고 구성을 백업하고 지원 데이터를 수집하여 컨트롤러 캐니스터 교체를 준비합니다. 그런 다음 호스트 I/O 작업을 중지하고 컨트롤러 쉘프의 전원을 끕니다.
@@ -120,12 +121,14 @@ CAUTION: * 데이터 손실 가능성 * -- I/O 작업이 진행되는 동안 이
 
 
 
+[[step-2-remove-failed-controller-simplex]]
 == 2단계: 장애가 발생한 컨트롤러 제거(단일)
 
 결함이 있는 캐니스터를 새 캐니스터로 교체합니다.
 
 
 
+[[step-2a-remove-controller-canister-simplex]]
 === 2a단계: 컨트롤러 캐니스터 제거(단일)
 
 컨트롤러 캐니스터를 제거합니다.
@@ -180,6 +183,7 @@ CAUTION: 항상 두 손을 사용하여 컨트롤러 캐니스터의 무게를 �
 
 
 
+[[step-2b-remove-battery-simplex]]
 === 2b단계: 배터리 분리(단면)
 
 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거한 후 배터리를 분리합니다.
@@ -215,6 +219,7 @@ image::../media/28_dwg_e2800_remove_battery_maint-e2800.gif[컨트롤러 캐니�
 
 
 
+[[step-2c-remove-host-interface-card-simplex]]
 === 단계 2c: 호스트 인터페이스 카드 제거(단면 인쇄)
 
 컨트롤러 캐니스터에 HIC(호스트 인터페이스 카드)가 포함된 경우 원래 컨트롤러 캐니스터에서 HIC를 제거하여 새 컨트롤러 캐니스터에서 다시 사용할 수 있도록 합니다.
@@ -248,12 +253,14 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[컨트롤러 카드
 
 
 
+[[step-3-install-new-controller-simplex]]
 == 3단계: 새 컨트롤러 설치(단일)
 
 새 컨트롤러 캐니스터를 장착하여 결함이 있는 캐니스터를 교체합니다.
 
 
 
+[[step-3a-install-battery-simplex]]
 === 3a단계: 배터리 설치(단면)
 
 교체용 컨트롤러 캐니스터에 배터리를 설치합니다. 원래 컨트롤러 캐니스터에서 분리한 배터리를 설치하거나 주문한 새 배터리를 설치할 수 있습니다.
@@ -302,6 +309,7 @@ image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e2800.gif["잘못된 금
 
 
 
+[[step-3b-install-host-interface-card-simplex]]
 === 3b단계: 호스트 인터페이스 카드 설치(단방향)
 
 원래 컨트롤러 캐니스터에서 HIC(호스트 인터페이스 카드)를 분리한 경우 새 컨트롤러 캐니스터에 해당 HIC를 설치합니다.
@@ -338,6 +346,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.gif[컨트롤러�
 
 
 
+[[step-3c-install-new-controller-canister-simplex]]
 === 단계 3c: 새 컨트롤러 캐니스터 설치(단면)
 
 배터리와 HIC를 설치한 후 처음 설치한 경우 새 컨트롤러 캐니스터를 컨트롤러 쉘프에 설치할 수 있습니다.
@@ -405,6 +414,7 @@ image::../media/28_dwg_e2824_remove_controller_canister_simplex_maint-e2800.gif[
 
 
 
+[[step-4-complete-controller-replacement-simplex]]
 == 4단계: 전체 컨트롤러 교체(단일)
 
 컨트롤러 쉘프의 전원을 켜고 지원 데이터를 수집하며 작업을 재개합니다.

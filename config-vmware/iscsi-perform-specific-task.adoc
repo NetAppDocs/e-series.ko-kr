@@ -16,6 +16,7 @@ iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측과 호�
 
 
 
+[[step-1-configure-the-switches-iscsi-vmware]]
 == 1단계: 스위치 구성 - iSCSI, VMware
 
 iSCSI에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
@@ -37,6 +38,7 @@ NOTE: 컨트롤러의 스위치 포트에서는 포트 채널/LACP가 지원되�
 
 
 
+[[step-2-configure-networking-iscsi-vmware]]
 == 2단계: 네트워킹 구성 -- iSCSI VMware
 
 데이터 저장소 요구 사항에 따라 여러 가지 방법으로 iSCSI 네트워크를 설정할 수 있습니다. 사용자 환경에 가장 적합한 구성을 선택하는 방법은 네트워크 관리자에게 문의하십시오.
@@ -72,6 +74,7 @@ NOTE: 많은 네트워크 스위치는 IP 오버헤드를 위해 9,000바이트 
 
 
 
+[[step-3-configure-array-side-networking-iscsi-vmware]]
 == 3단계: 스토리지 측 네트워킹 구성 -- iSCSI, VMware
 
 SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네트워킹을 구성합니다.
@@ -87,7 +90,7 @@ SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네
 이 작업은 하드웨어 페이지에서 iSCSI 포트 구성에 액세스하는 방법을 설명합니다. 시스템 [설정 > iSCSI 포트 구성] 메뉴에서 구성에 액세스할 수도 있습니다.
 
 
-NOTE: VMware 구성에서 스토리지측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오 https://www.netapp.com/pdf.html?item=/media/17017-tr4789pdf.pdf["E-Series SANtricity iSCSI와 ESXi 6.x 및 7.x의 통합에 대한 VMware 구성 가이드"^].
+NOTE: VMware 구성에서 어레이 측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오. https://www.netapp.com/pdf.html?item=/media/17017-tr4789.pdf["E-Series SANtricity iSCSI와 ESXi 6.x 및 7.x의 통합에 대한 VMware 구성 가이드"^].
 
 .단계
 . 브라우저에서 '+https://<DomainNameOrIPAddress>+` URL을 입력합니다
@@ -197,6 +200,7 @@ IPv4 사용 * 을 선택한 경우 * 다음 * 을 클릭하면 IPv4 설정을 �
 
 
 
+[[step-4-configure-host-side-networking-iscsi]]
 == 4단계: 호스트측 네트워킹 구성 -- iSCSI
 
 호스트 측에서 iSCSI 네트워킹을 구성하면 VMware iSCSI 이니시에이터가 스토리지와 세션을 설정할 수 있습니다.
@@ -222,6 +226,7 @@ VMware용 iSCSI 네트워킹 구성에 대한 자세한 내용은 를 참조하�
 
 
 
+[[step-5-verify-ip-network-connections-iscsi-vmware]]
 == 5단계: IP 네트워크 연결 확인 -- iSCSI, VMware
 
 ping 테스트를 사용하여 호스트와 어레이가 통신할 수 있는지 확인하여 IP(인터넷 프로토콜) 네트워크 연결을 확인합니다.
@@ -270,12 +275,14 @@ NOTE: 명령이 실패하고 'S endto() failed(Message Too Long)' 메시지가 �
 
 
 
+[[step-6-record-your-configuration]]
 == 6단계: 구성을 기록합니다
 
 이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
 
 
 
+[[recommended-configuration]]
 === 권장 구성
 
 권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
@@ -284,6 +291,7 @@ image::../media/50001_01_conf-vmw.gif[iSCSI 포트 식별자입니다]
 
 
 
+[[target-iqn]]
 === 타겟 IQN입니다
 
 |===
@@ -299,6 +307,7 @@ image::../media/50001_01_conf-vmw.gif[iSCSI 포트 식별자입니다]
 |===
 
 
+[[mapping-host-name]]
 === 호스트 이름 매핑 중
 
 |===

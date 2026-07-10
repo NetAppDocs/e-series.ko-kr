@@ -327,15 +327,12 @@
   <block id="1a1ac7a0c3f35e22cacb2c550a2df1d9" category="inline-link">* TR-4839: SANtricity 동기 및 비동기 미러링 *</block>
   <block id="d509b57060f226bd7e2c44a452f89f7b" category="cell"><block ref="d509b57060f226bd7e2c44a452f89f7b" category="inline-link-rx"></block></block>
   <block id="4ad675687f473ec16e280e823a6f3390" category="inline-link">* TR-4747: SANtricity 스냅샷 기능 개요 및 배포 가이드 *</block>
-  <block id="876a07b4a179bcb94de902848f25e8a0" category="cell"><block ref="876a07b4a179bcb94de902848f25e8a0" category="inline-link-rx"></block></block>
   <block id="aa798eeebd2e602192497fec8d5a7af0" category="cell">솔루션 아키텍처와 E-Series 스토리지 시스템을 사용하여 기존 원격 스토리지 장치에서 데이터를 가져오는 방법에 대해 설명합니다.</block>
   <block id="1e63a15616a71c16975a6ce6873851d7" category="cell">에서는 SANtricity 동기 및 비동기 미러링 기능에 대해 설명합니다.</block>
   <block id="0d31bf4155130c7e1b044f877c983556" category="cell">에서는 SANtricity 시스템 관리자를 사용한 GUI 탐색 지침을 포함하여 SANtricity 스냅샷 기능에 대해 설명합니다.</block>
   <block id="20b51996662da655011d140b6ce13e08" category="inline-link">* TR-4652: SANtricity 동적 디스크 풀 *</block>
   <block id="c84200fc0d3d1c17f835b93cac2a4073" category="inline-link">* TR-4737: SANtricity 자동 로드 밸런싱 *</block>
-  <block id="9e438ddc696936eea7043d42a5d772c2" category="cell"><block ref="9e438ddc696936eea7043d42a5d772c2" category="inline-link-rx"></block></block>
   <block id="b855ed13871c8956bc535c1dcafa14d2" category="inline-link">* TR-4736: SANtricity 웹 서비스 API *</block>
-  <block id="4326d77c3acc0dbfc96e7f9272191ffd" category="cell"><block ref="4326d77c3acc0dbfc96e7f9272191ffd" category="inline-link-rx"></block></block>
   <block id="70f747e2b25caced64506b369bc562c5" category="cell">스토리지 관리자가 유사한 디스크 세트를 풀 토폴로지로 그룹화하여 풀의 모든 드라이브가 I/O 워크플로우에 참여하는 방법에 대해 설명합니다.</block>
   <block id="958efa95bcd23aab2dfe387642f119c1" category="cell">ALB 기능의 동작, 주요 구성 매개 변수 및 호스트 상호 운용성 향상에 대한 개요를 설명합니다.</block>
   <block id="43d61efb5c5b9a22659cb0751fa61930" category="cell">E-Series 스토리지 시스템을 구성 및 관리하는 데 사용되는 API, SANtricity 웹 서비스에 대한 개요를 설명합니다.</block>
@@ -3503,31 +3500,25 @@
   <block id="ff2bc06fec8afad4f4fef6613d515032" category="paragraph">드라이브 교체를 완료하여 새 드라이브가 올바르게 작동하는지 확인합니다.</block>
   <block id="2f9304fe9b427489507405bef9a0bb9f" category="section-title">더 효율적인 데이터 센터</block>
   <block id="158f8674c1793cce2d98e8cbcb20b6bf" category="inline-link">* TR-4623: Splunk Enterprise * 가 탑재된 E5700</block>
-  <block id="2cf8e7dfbbc127c7fc8a9b5579f49087" category="cell"><block ref="2cf8e7dfbbc127c7fc8a9b5579f49087" category="inline-link-rx"></block></block>
   <block id="d6bc9f7e61ad87366a99e2b38a35d217" category="inline-link">* TR-4903: Splunk Enterprise * 기반 EF300</block>
   <block id="48611860e08a7021a7a32db63f370c03" category="cell"><block ref="48611860e08a7021a7a32db63f370c03" category="inline-link-rx"></block></block>
   <block id="acc1921e66c3e2d692f3a9d26ff19962" category="cell">E5700 시스템 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다.</block>
   <block id="ef0a7b34f1fe40e5b839eca3326eb739" category="cell">EF300 All-Flash 어레이 및 Splunk 설계의 통합 아키텍처에 대해 설명합니다. 또한, 이 문서에는 Splunk 머신 로그 이벤트 시뮬레이션 툴에서 얻은 성능 테스트 결과가 요약되어 있습니다.</block>
   <block id="bf8e2974cd692b57a29e42874b662b52" category="section-title">엔터프라이즈 데이터베이스</block>
   <block id="4b23b3afe3be27a8aef7f52e987e9e75" category="inline-link">* TR-4764: Microsoft SQL Server with NetApp EF-Series * 의 모범 사례 가이드</block>
-  <block id="c6aff4e6a6907e8ad632932a56bba161" category="cell"><block ref="c6aff4e6a6907e8ad632932a56bba161" category="inline-link-rx"></block></block>
   <block id="44249e3e6f499b6ef16f3c604a4060f0" category="inline-link">* TR-4794: NetApp EF-Series 기반의 Oracle 데이터베이스 *</block>
-  <block id="116671a22501aac3b12ba87e23615719" category="cell"><block ref="116671a22501aac3b12ba87e23615719" category="inline-link-rx"></block></block>
   <block id="1be89425e0cebd7d4e13e5744baebbbd" category="cell">스토리지 관리자와 데이터베이스 관리자가 NetApp EF-Series 스토리지에 Microsoft SQL Server를 성공적으로 구축할 수 있도록 지원</block>
   <block id="ea2848b98724bc7c864ab419f1efd076" category="cell">스토리지 관리자와 데이터베이스 관리자가 NetApp EF-Series 스토리지에 Oracle을 성공적으로 구축할 수 있도록 지원</block>
   <block id="8a7d992e887a76abe4703518ec317a4c" category="section-title">백업 및 복구</block>
   <block id="569680cec832ec2d53d80483c8dbc439" category="inline-link">* TR-4320: Commvault Data Platform V11 * 의 모범 사례</block>
   <block id="0cd4f7215cb7ec8c6f73c51d9dc39a48" category="inline-link">* TR-4471: Veeam Backup and Replication * 의 모범 사례</block>
   <block id="5941ff1b3a4ffc80a4b2f0ae157b8b6d" category="inline-link">* TR-4704: NetApp E-Series 스토리지를 사용하여 Veritas NetBackup 구축 *</block>
-  <block id="d5da5f4acb6ce9cd96c756f74b96e9a0" category="cell"><block ref="d5da5f4acb6ce9cd96c756f74b96e9a0" category="inline-link-rx"></block></block>
   <block id="12d1a4b387bfcab1922f0a411bb84852" category="cell">Commvault Data Platform V11 환경에서 NetApp E-Series 스토리지를 사용할 때의 참조 아키텍처 및 모범 사례에 대해 설명합니다.</block>
   <block id="a1b3500cdb406a82f102b18ae88f8421" category="cell">Veeam Backup &amp; Replication 9.5 환경에서 NetApp E-Series 스토리지를 사용할 때의 참조 아키텍처 및 모범 사례에 대해 설명합니다.</block>
   <block id="ac8df2201a6c1727b46dd8779e1c479e" category="cell">NetApp E-Series 스토리지에 Veritas NetBackup을 구축하는 방법을 설명합니다.</block>
   <block id="4b1723f1cc6cad1502f558faf333c23d" category="section-title">VSS를 참조하십시오</block>
   <block id="faacb27f48573fe7471c6c5407114769" category="inline-link">* TR-4825: 비디오 감시용 NetApp E-Series 모범 사례 가이드 *</block>
-  <block id="1cb1ebb36d511709a2d47a00b912e28e" category="cell"><block ref="1cb1ebb36d511709a2d47a00b912e28e" category="inline-link-rx"></block></block>
   <block id="133e06e6567e2be753a017c1d83c75be" category="inline-link">* TR-4818: NetApp E-Series 스토리지로 비디오 관리 시스템 가상화 *</block>
-  <block id="9f78f0c3a696ac09970d273359d55850" category="cell"><block ref="9f78f0c3a696ac09970d273359d55850" category="inline-link-rx"></block></block>
   <block id="3a3bcd9a696371d87aa6a1357bd3bca8" category="inline-link">* TR-4848: NetApp E-Series E2800 디스크 스토리지 어레이 * 가 포함된 Bosch 비디오 녹화 솔루션</block>
   <block id="38a88b97f187a582e7a91f2bdabb2776" category="cell"><block ref="38a88b97f187a582e7a91f2bdabb2776" category="inline-link-rx"></block></block>
   <block id="642678f34e43644119ca55a845b8eb4b" category="cell">비디오 감시 환경에 E-Series 어레이를 구축하기 위한 모범 사례를 설명합니다.</block>
@@ -4933,11 +4924,8 @@
   <block id="e3516c86194201deb982fe92e4fb83a3" category="doc">E-Series 컨트롤러 업그레이드</block>
   <block id="58e0dda41aec654996f2661ca9ee6f7b" category="section-title">보안 TR</block>
   <block id="d46165f424a559168595411d0e129de6" category="inline-link">* TR-4474: SANtricity 드라이브 보안 기능 가이드 *</block>
-  <block id="7aeb5576c50c1baeaf78d974491ebf2e" category="cell"><block ref="7aeb5576c50c1baeaf78d974491ebf2e" category="inline-link-rx"></block></block>
   <block id="5671444c44b849b5c9fe3625aca83a32" category="inline-link">* TR-4712: SANtricity 관리 보안 기능 *</block>
-  <block id="3fbbca07210386bb17ab330852008ab0" category="cell"><block ref="3fbbca07210386bb17ab330852008ab0" category="inline-link-rx"></block></block>
   <block id="ab8408b6fd9cba5084539eb227cd6e7a" category="inline-link">* TR-4813: E-Series 시스템용 인증서 관리 *</block>
-  <block id="5121e9a4ab6f5ca2bcf73d97f25849ac" category="cell"><block ref="5121e9a4ab6f5ca2bcf73d97f25849ac" category="inline-link-rx"></block></block>
   <block id="eb61863f24474705952b6b8529693268" category="cell">FIPS 140-2 검증 드라이브 지원, 내부 및 외부 키 관리 지원을 포함하여 E-Series 시스템의 전체 디스크 암호화 기능에 대해 설명합니다.</block>
   <block id="4f9496e09027a6c99404d536d6528ce0" category="cell">NetApp E-Series E2800, E5700, EF280, EF570, EF300을 위한 SANtricity 보안 기능 설명 EF600 스토리지 시스템과 용량</block>
   <block id="72a5b80ae6deeca3b9add8212e4901c5" category="cell">최신 E-Series 컨트롤러 및 애플리케이션으로 보안 인증서를 관리하는 방법을 설명합니다.</block>
@@ -5528,7 +5516,6 @@
   <block id="ab37896fbb014d28bb0820e9643aceec" category="list-text">* 인터페이스 유형 * -- 파이버 채널, iSCSI, iSER, SAS 및 NVMe</block>
   <block id="3474f87ae20afc5b78f412345a99408d" category="list-text">* 호스트에 설치된 운영 체제 * -- Linux, VMware 및 Windows.</block>
   <block id="6e466b5767b863e58337ef3d9b28ac15" category="admonition">추가 인터페이스 및 운영 체제가 지원될 수 있습니다. 자세한 내용은 기술 지원 부서에 문의하십시오.</block>
-  <block id="2df66eecc8cd9c51e0161166dfb25f4e" category="paragraph">이 사이트는 릴리즈_소프트웨어 버전 11.50 이전_소프트웨어 버전 8.50 또는 펌웨어 버전 8.50에 대한 정보를 포함하지 않습니다. 이전 릴리스의 경우 로 이동합니다<block ref="7a0dfab887be5b186aa694d5066574fe" category="inline-link-rx"></block> 페이지.</block>
   <block id="44e714ce1f6e8ee0800c0869d6ef25c7" category="paragraph">사이트 준비 요구 사항에 대한 자세한 내용은 을 참조하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block>.</block>
   <block id="d4c415f2fd844777bff62def3563c4dd" category="summary">E-Series에 사용된 용어에 대해 자세히 알아보십시오.</block>
   <block id="441d7c58b8e6e2f71f2baa1cb4c03912" category="doc">E-Series 용어</block>
@@ -8135,11 +8122,7 @@
   <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">버전 11.80.1R1의 새로운 기능</block>
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.</block>
-  <block id="eb72855c2604e5d3f7f36945024d001c" category="list-text"><block ref="b742d0734e0a1b1acd85c7093d734f44" category="inline-link-rx"></block> -- VMware와의 iSCSI 통합에 대한 기술 정보를 제공합니다.</block>
   <block id="721f229c077c5af73351dcbd1a2235d2" category="paragraph">모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 자세한 내용은 을<block ref="4d4a4533fd2b79dc8951aa3f53f56e3f" category="inline-link-rx"></block> 참조하십시오.</block>
-  <block id="5821a61234ba1fdfba2e6ba9b392cafa" category="admonition">VMware 구성에서 스토리지측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오<block ref="4c256e5f3e11bff89d951ec9e05da858" category="inline-link-rx"></block>.</block>
-  <block id="f7a1f25c147fdef63a935b6fc10cf5a0" category="paragraph">이러한 가정이 설치에 적합하지 않거나 보다 개념적인 배경 정보를 원하면 다음 기술 보고서를 참조하십시오.<block ref="691af5827a322478f9c39bcb9ec0d331" category="inline-link-rx"></block></block>
-  <block id="c08a9596d55b45e7eb8325bd878b47d5" category="paragraph">미러링 기능을 지원하는 케이블 연결에 대한 자세한 내용은 을<block ref="4c6cd7be794e0089961c4cc00b012a2c" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="3885d6d9f5a5030ec46ec3ce038af96c" category="inline-link">NetApp 기술 자료</block>
   <block id="780fe86b24958c45b0b8792fad1e9b3c" category="admonition">E-Series DE460c 확장 쉘프 교체 방법에 대한 자세한 내용은 를 참조하십시오<block ref="b46c4d97d6f1694e2cd029493cdb5475" category="inline-link-rx"></block>.</block>
   <block id="cefb29f3645d6d69acdc85d8770aa08a" category="inline-xref">2단계: 드라이브 쉘프를 설치하고 전원을 공급합니다.</block>
@@ -9029,10 +9012,7 @@
   <block id="68b5d7bbc938636a6430a66ddd3590d0" category="section-title">Unified Manager 온라인 도움말</block>
   <block id="703be4c8c3307cd5e44163a39538eb58" category="inline-link">SANtricity Unified Manager 온라인 도움말</block>
   <block id="4c0bdc96ec6314c064f33faae57a0c02" category="paragraph">에 액세스하면<block ref="d6978b00f819ec3b99c59933f313d81f" category="inline-link-rx"></block> 여러 네트워크 스토리지 어레이에서 스토리지 관리 명령을 실행하는 방법을 배울 수 있습니다.</block>
-  <block id="5b4f9cf27402df2737b167e7393669c2" category="cell"><block ref="5b4f9cf27402df2737b167e7393669c2" category="inline-link-rx"></block></block>
-  <block id="034410ce2cd58a6a56e6772fadec879b" category="cell"><block ref="034410ce2cd58a6a56e6772fadec879b" category="inline-link-rx"></block></block>
   <block id="6c33c8a01a7b3f83682789dc2c3e0a6e" category="cell"><block ref="6c33c8a01a7b3f83682789dc2c3e0a6e" category="inline-link-rx"></block></block>
-  <block id="ec476342469d41cbc06b7065ffea021e" category="cell"><block ref="ec476342469d41cbc06b7065ffea021e" category="inline-link-rx"></block></block>
   <block id="ba463c26bea3a95ca7381fd32b63eb98" category="sidebar">E4000 데이터시트를 참조하십시오</block>
   <block id="b30b3ed54d36ae2fd1e5c231ba1b18c0" category="list-text">컨트롤러 후면의 캐시 활성 LED와 컨트롤러 전면판이 꺼져 있는지 확인합니다.</block>
   <block id="53ec2a2a971455f492adc2f07e6c780d" category="paragraph">LED 중 하나가 켜져 있는 경우에도 컨트롤러는 여전히 배터리 전원을 사용하고 있습니다. 이 절차를 계속하기 전에 모든 LED가 꺼져 있어야 합니다.</block>
@@ -10744,4 +10724,25 @@
   <block id="7f3980e2c518e011140305dfa2c7cc40" category="list-text">이 절차를 위해 다운타임 유지보수 윈도우를 예약하십시오. 이 절차를 성공적으로 완료하기 전까지는 스토리지 어레이의 데이터에 액세스할 수 없습니다. 두 컨트롤러 모두 전원을 켤 때 동일한 HIC 구성을 가져야 하므로, HIC를 설치할 때는 시스템을 비중복 상태로 만들기 위해 하나의 컨트롤러를 오프라인으로 전환해야 합니다.</block>
   <block id="79a7b3d475a1ce35fef4a7398f3e40b8" category="list-text">EF300 컨트롤러의 경우 드라이브 트레이 확장을 위해 SAS 확장 카드를 포트 1에 설치해야 합니다.</block>
   <block id="805eb1d81197f7063faa2748049cf91c" category="sidebar">파일 시스템 생성</block>
+  <block id="2cbe497ead02b07696b7f8ba715273d8" category="list-text"><block ref="14ce0b3b3110401a1b39acf80b50aa21" category="inline-link-rx"></block> -- VMware와 iSCSI 통합에 대한 기술적 세부 정보를 제공합니다.</block>
+  <block id="db8fd25422dfd9e476a6d254489d6885" category="admonition">VMware 구성에서 어레이 측 네트워킹을 설정하는 방법에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오.<block ref="4ac86815341f0906d3774739def67837" category="inline-link-rx"></block>.</block>
+  <block id="f269f736f01b5a3ba3b44794e8ee27c6" category="paragraph">이러한 가정이 설치 환경에 맞지 않거나 더 자세한 개념적 배경 정보가 필요한 경우 다음 기술 보고서를 참조하십시오.<block ref="4977c7b19f138570e684730359b29046" category="inline-link-rx"></block></block>
+  <block id="4a75d0ce3a7cec59194f5da10fc68b01" category="cell"><block ref="4a75d0ce3a7cec59194f5da10fc68b01" category="inline-link-rx"></block></block>
+  <block id="3da4716e359d926374c1e38750cb4042" category="cell"><block ref="3da4716e359d926374c1e38750cb4042" category="inline-link-rx"></block></block>
+  <block id="ddfa60f0509e2e068f8ef6bfd7673cc1" category="cell"><block ref="ddfa60f0509e2e068f8ef6bfd7673cc1" category="inline-link-rx"></block></block>
+  <block id="13178170438c003ae2aa2be18f8906c8" category="inline-link">이전 릴리스에 대한 E-Series 및 SANtricity 설명서</block>
+  <block id="ca706c2fc37c15773a41828815e2598e" category="paragraph">이 사이트는 소프트웨어 버전 11.50 또는 펌웨어 버전 8.50 이전의 릴리스에 대한 정보를 제공하지 않습니다. 이전 릴리스에 대한 정보는 해당 <block ref="f4862ea0f3425290e53b9b2a7ea1bbb6" category="inline-link-rx"></block>페이지를 참조하십시오.</block>
+  <block id="38d182558c93c49cb0f7c3e674c84809" category="paragraph">미러링 기능을 지원하는 케이블링에 대한 자세한 내용은<block ref="0676c92dfb7980c8f661feef8914b234" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="59afa1b325e9b68dee4cd5c8f27d0f60" category="cell"><block ref="59afa1b325e9b68dee4cd5c8f27d0f60" category="inline-link-rx"></block></block>
+  <block id="177b521773d98f6fa93c6166c87a492a" category="cell"><block ref="177b521773d98f6fa93c6166c87a492a" category="inline-link-rx"></block></block>
+  <block id="676b0fd9f88ed51de190d1cb66b949be" category="cell"><block ref="676b0fd9f88ed51de190d1cb66b949be" category="inline-link-rx"></block></block>
+  <block id="0997d04e7d8852e63947caa54f2a478a" category="cell"><block ref="0997d04e7d8852e63947caa54f2a478a" category="inline-link-rx"></block></block>
+  <block id="727697529ac79d12e4d3e026354cb756" category="cell"><block ref="727697529ac79d12e4d3e026354cb756" category="inline-link-rx"></block></block>
+  <block id="b6e9fc34b1b5c07d8fadd79fa351f4b0" category="cell"><block ref="b6e9fc34b1b5c07d8fadd79fa351f4b0" category="inline-link-rx"></block></block>
+  <block id="6fbcc04415dc1d7f1a17864715ced47d" category="cell"><block ref="6fbcc04415dc1d7f1a17864715ced47d" category="inline-link-rx"></block></block>
+  <block id="7a025c6da9dacd6ebf8b1115962ed2c2" category="cell"><block ref="7a025c6da9dacd6ebf8b1115962ed2c2" category="inline-link-rx"></block></block>
+  <block id="32528c8831f732a871241bcfd3cf1298" category="cell"><block ref="32528c8831f732a871241bcfd3cf1298" category="inline-link-rx"></block></block>
+  <block id="22839016e944bb39ae944b854e55b7ef" category="cell"><block ref="22839016e944bb39ae944b854e55b7ef" category="inline-link-rx"></block></block>
+  <block id="6a7c8d63e9ff78bb1b7b5d797d0587e5" category="cell"><block ref="6a7c8d63e9ff78bb1b7b5d797d0587e5" category="inline-link-rx"></block></block>
+  <block id="1ed965aef797c8ec8dad05a7ba9680f3" category="cell"><block ref="1ed965aef797c8ec8dad05a7ba9680f3" category="inline-link-rx"></block></block>
 </blocks>

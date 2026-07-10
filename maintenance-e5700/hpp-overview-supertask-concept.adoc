@@ -15,6 +15,7 @@ E5700에서 호스트 포트 프로토콜을 변환하기 전에 요구사항을
 
 
 
+[[host-ports-you-can-change]]
 == 변경할 수 있는 호스트 포트
 
 
@@ -26,6 +27,7 @@ image::../media/e5700_with_2_port_100g_edr_infiniband_hic_w_callouts.gif[E5700 �
 
 
 
+[[requirements]]
 == 요구 사항
 
 * 이 절차에 대한 다운타임 유지 보수 기간을 예약해야 합니다.
@@ -38,6 +40,7 @@ image::../media/e5700_with_2_port_100g_edr_infiniband_hic_w_callouts.gif[E5700 �
 
 
 
+[[considerations-for-changing-the-host-protocol]]
 == 호스트 프로토콜 변경 시 고려 사항
 
 호스트 프로토콜 변경에 대한 고려사항은 베이스보드 호스트 포트와 HIC 포트의 시작 및 종료 프로토콜에 따라 다릅니다.
@@ -49,6 +52,7 @@ NOTE: 다음 고려 사항은 이미 사용 중인 스토리지 배열을 변환
 
 
 
+[[converting-from-fc-to-iscsi]]
 === FC에서 iSCSI로 변환
 
 * 비동기 미러링에서는 로컬 스토리지 배열과 원격 스토리지 배열이 모두 동일한 프로토콜을 사용해야 합니다.
@@ -75,6 +79,7 @@ CAUTION: iSCSI로 변환하기 전에 동기 미러링 관계를 비활성화하
 
 
 
+[[converting-from-iscsi-to-fc]]
 === iSCSI에서 FC로 변환 중
 
 * 비동기 미러링에서는 로컬 스토리지 배열과 원격 스토리지 배열이 모두 동일한 프로토콜을 사용해야 합니다. 베이스보드 포트에서 비동기 미러링을 사용 중인 경우 프로토콜을 변경하기 전에 비동기 미러링을 비활성화해야 합니다.
@@ -83,6 +88,7 @@ CAUTION: iSCSI로 변환하기 전에 동기 미러링 관계를 비활성화하
 
 
 
+[[converting-ib-iser-tofrom-ib-srp]]
 === IB-iSER을 IB-SRP로 변환
 
 * iSER을 SRP로 변환하면 하드웨어를 변경할 필요가 없습니다.
@@ -102,6 +108,7 @@ NOTE: 비활성화된 후에는 볼륨에서 DA를 다시 활성화할 수 없�
 
 
 
+[[mirroring-operations-need-same-host-protocol]]
 === 미러링 작업에는 동일한 호스트 프로토콜이 필요합니다
 
 미러링 작업에 사용되는 호스트 포트가 기능 팩을 적용한 후 동일한 프로토콜을 유지하는 경우 미러링 작업이 영향을 받지 않습니다. 또한 기능 팩을 적용하기 전에 모든 미러 정합성 보장 그룹이 동기화되었는지 확인해야 합니다. 기능 팩을 적용한 후 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 통신을 테스트해야 합니다. 방법에 대한 질문이 있는 경우 SANtricity 시스템 관리자용 온라인 도움말을 참조하십시오.

@@ -16,12 +16,14 @@ summary: SANtricity OS의 새로운 기능
 
 
 
+[[new-features-in-version-12-0r1]]
 == 버전 12.0R1의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 12.0R1 README를 참조하십시오.
 
 
 
+[[new-features-in-version-12-0]]
 == 버전 12.0의 새로운 기능
 
 
@@ -70,18 +72,21 @@ SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습
 |===
 
 
+[[new-features-in-version-11-90r5]]
 == 버전 11.90R5의 새로운 기능
 
 이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이번 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R5 README를 참조하십시오.
 
 
 
+[[new-features-in-version-11-90r4]]
 == 버전 11.90R4의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R4 README를 참조하십시오.
 
 
 
+[[new-features-in-version-11-90r3]]
 == 버전 11.90R3의 새로운 기능
 
 [cols="35h,~"]
@@ -97,12 +102,14 @@ IOM12C 및 DCM3에 대한 SANtricity OS 지원
 |===
 
 
+[[new-features-in-version-11-90r2]]
 == 버전 11.90R2의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E-Series 11.90 릴리즈 노트"^]참조하십시오.
 
 
 
+[[new-features-in-version-11-90r1]]
 == 버전 11.90R1의 새로운 기능
 
 [cols="35h,~"]
@@ -125,6 +132,7 @@ E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원
 |===
 
 
+[[new-features-in-version-11-90]]
 == 버전 11.90의 새로운 기능
 
 [cols="35h,~"]
@@ -168,24 +176,28 @@ REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정�
 |===
 
 
+[[new-features-in-version-11-80-1r4]]
 == 버전 11.80.1R4의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능이나 제한 사항은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 README 파일을 참조하십시오.
 
 
 
+[[new-features-in-version-11-80-1r3]]
 == 버전 11.80.1R3의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능이나 제한 사항은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 README 파일을 참조하십시오.
 
 
 
+[[new-features-in-version-11-80-1r2]]
 == 버전 11.80.1R2의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능이나 제한 사항은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 README 파일을 참조하십시오.
 
 
 
+[[new-features-in-version-11-80-1r1]]
 == 버전 11.80.1R1의 새로운 기능
 
 [cols="35h,~"]
@@ -201,6 +213,7 @@ SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 �
 |===
 
 
+[[new-features-in-version-11-80-1]]
 == 버전 11.80.1의 새로운 기능
 
 [cols="35h,~"]
@@ -244,6 +257,7 @@ E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 
 |===
 
 
+[[new-features-in-version-11-80]]
 == 버전 11.80의 새로운 기능
 
 [cols="35h,~"]

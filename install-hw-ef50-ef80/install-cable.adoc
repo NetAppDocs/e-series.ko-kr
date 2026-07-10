@@ -26,6 +26,7 @@ image:../media/drw_cable_pull_tab_direction_ieops-1699.svg["케이블 당김 탭
 
 
 
+[[step-1-cable-the-inter-controller-mirroring-connections]]
 == 1단계: 컨트롤러 간 미러링 연결 케이블 연결
 
 컨트롤러 간 미러링을 활성화하려면 컨트롤러를 서로 케이블로 연결하십시오. 컨트롤러 간 미러링 연결은 완벽한 시스템 이중화를 보장하며 캐시 미러링 및 I/O 전송에 사용됩니다. 케이블 연결은 EF50 및 EF80 스토리지 시스템에서 동일합니다.
@@ -53,6 +54,7 @@ image:../media/drw_ef50-ef80_mirroring_2p_100gbe_ieops-2659.svg["ef50 및 ef80 �
 
 
 
+[[step-2-cable-the-host-connections]]
 == 2단계: 호스트 연결 케이블 연결
 
 네트워크 토폴로지에 따라 스토리지 시스템의 호스트 연결을 케이블로 연결하십시오: 직접 연결 또는 패브릭 연결.

@@ -15,6 +15,7 @@ E-Series 스토리지 시스템은 지원되는 iSCSI 프로토콜을 통해 원
 
 
 
+[[configure-remote-storage-device-and-e-series-array]]
 == 원격 스토리지 장치 및 E-Series 어레이를 구성합니다
 
 SANtricity 시스템 관리자로 넘어가기 전에 원격 스토리지 볼륨 기능을 구성하려면 다음을 수행하십시오.
@@ -38,6 +39,7 @@ NOTE: 권장: 가져오기 프로세스를 시작하기 전에 원격 소스 볼
 
 
 
+[[cable-the-storage-arrays]]
 == 스토리지 어레이에 케이블을 연결합니다
 
 설정 프로세스 중에 스토리지 어레이와 I/O 호스트를 iSCSI 호환 인터페이스에 케이블로 연결해야 합니다.
@@ -48,6 +50,7 @@ image:../media/remote_target_volumes_iscsi_use_case_1.png["iSCSI 스토리지 �
 
 
 
+[[configure-the-iscsi-ports]]
 == iSCSI 포트를 구성합니다
 
 타겟(로컬 E-Series 스토리지 어레이)과 소스(원격 스토리지 어레이) 간의 통신을 보장하기 위해 iSCSI 포트를 구성해야 합니다.

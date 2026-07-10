@@ -32,6 +32,7 @@ E5700 스토리지 시스템에서 장애가 발생한 배터리를 교체할 �
 
 
 
+[[step-1-place-controller-offline-duplex]]
 == 1단계: 컨트롤러를 오프라인으로 설정(양면 인쇄)
 
 이중 구성이 있는 경우 장애가 발생한 배터리를 안전하게 제거할 수 있도록 영향을 받는 컨트롤러를 오프라인으로 설정합니다. 오프라인 상태로 전환하지 않는 컨트롤러는 온라인 상태여야 합니다(최적 상태).
@@ -108,6 +109,7 @@ CAUTION: 상태가 업데이트되기 전에는 다른 작업을 시작하지 �
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 결함이 있는 배터리를 제거하려면 먼저 컨트롤러 캐니스터를 제거해야 합니다.
@@ -161,6 +163,7 @@ E5724 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거하는 경우
 
 
 
+[[step-3-remove-failed-battery]]
 == 3단계: 결함이 있는 배터리를 제거합니다
 
 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거한 후 배터리를 분리합니다.
@@ -201,6 +204,7 @@ CAUTION: IATA(International Air Transport Association) 규정을 준수하기 �
 
 
 
+[[step-4-install-new-battery]]
 == 4단계: 새 배터리를 장착하십시오
 
 결함이 있는 배터리를 제거한 후 새 배터리를 설치합니다.
@@ -249,6 +253,7 @@ image:../media/28_dwg_e2800_battery_flange_not_ok_maint-e5700.gif["잘못된 배
 
 
 
+[[step-5-re-install-controller-canister]]
 == 5단계: 컨트롤러 캐니스터 재설치
 
 새 배터리를 장착한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -281,6 +286,7 @@ image::../media/28_dwg_e2860_add_controller_canister_maint-e5700.gif[컨트롤�
 
 
 
+[[step-6-place-controller-online-duplex]]
 == 6단계: 컨트롤러를 온라인으로 전환(양면 인쇄)
 
 이중 구성의 경우 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 작업을 다시 시작합니다.

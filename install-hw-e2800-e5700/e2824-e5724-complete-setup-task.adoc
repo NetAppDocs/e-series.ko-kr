@@ -15,6 +15,7 @@ summary: 스토리지 시스템의 설치 및 구성을 완료하려면 컨트�
 
 
 
+[[step-1-cable-the-data-hosts]]
 == 1단계: 데이터 호스트의 케이블을 연결합니다
 
 네트워크 토폴로지에 따라 시스템에 케이블을 연결합니다.
@@ -24,6 +25,7 @@ NOTE: AIX ® 를 사용하는 경우 E-Series 다중 경로 드라이버를 어�
 
 
 
+[[option-1-direct-attach-topology]]
 === 옵션 1: 직접 연결 토폴로지
 
 다음 예에서는 직접 연결 토폴로지를 사용하여 데이터 호스트에 케이블을 연결하는 방법을 보여 줍니다.
@@ -40,6 +42,7 @@ image:../media/2U_DirectTopology.png["직접 연결 토폴로지 케이블 연�
 |===
 
 
+[[option-2-fabric-topology]]
 === 옵션 2: Fabric 토폴로지
 
 다음 예에서는 패브릭 토폴로지를 사용하여 데이터 호스트에 케이블을 연결하는 방법을 보여 줍니다.
@@ -57,12 +60,14 @@ image:../media/2U_FabricTopology.png["Fabric 토폴로지 케이블 연결"]
 |===
 
 
+[[step-2-connect-and-configure-the-management-connection]]
 == 2단계: 관리 연결을 연결하고 구성합니다
 
 DHCP 서버 사용 또는 정적 IP 주소 사용 두 옵션 중 하나를 사용하여 컨트롤러 관리 포트를 구성할 수 있습니다.
 
 
 
+[[option-1-dhcp-server]]
 === 옵션 1: DHCP 서버
 
 DHCP 서버를 사용하여 관리 포트를 구성하는 방법에 대해 알아봅니다.
@@ -106,6 +111,7 @@ E5700 컨트롤러 P1 관리 포트
 
 
 
+[[option-2-static-ip-address]]
 === 옵션 2: 고정 IP 주소
 
 IP 주소와 서브넷 마스크를 입력하여 관리 포트를 수동으로 구성하는 방법에 대해 알아봅니다.
@@ -181,6 +187,7 @@ NOTE: 컨트롤러 B에 대한 연결이 끊긴 경우 이전에 검증된 컨�
 
 
 
+[[step-3-configure-storage-system]]
 == 3단계: 스토리지 시스템 구성
 
 하드웨어를 설치한 후 SANtricity 소프트웨어를 사용하여 스토리지 시스템을 구성하고 관리합니다.

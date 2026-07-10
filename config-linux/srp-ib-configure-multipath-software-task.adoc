@@ -38,6 +38,7 @@ Linux 설치에 DM-MP(Device Mapper MultiPath) 툴을 사용합니다. 기본적
 ----
 . uname -r 명령을 실행하여 커널 버전을 저장합니다.
 +
+[[step4]]
 [listing]
 ----
 # uname -r

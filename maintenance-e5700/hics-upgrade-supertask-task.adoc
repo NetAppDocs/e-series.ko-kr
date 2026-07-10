@@ -38,6 +38,7 @@ HIC를 업그레이드할 때는 스토리지 어레이의 전원을 끄고 각 
 
 
 
+[[step-1-prepare-to-upgrade-hics]]
 == 1단계: HIC 업그레이드를 준비합니다
 
 스토리지 어레이의 구성 데이터베이스를 백업하고 지원 데이터를 수집하며 호스트 I/O 작업을 중지하여 HIC 업그레이드를 준비합니다. 그런 다음 컨트롤러 쉘프의 전원을 끕니다.
@@ -121,6 +122,7 @@ image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[E5700 컨트�
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 새 HIC를 업그레이드할 수 있도록 컨트롤러 캐니스터를 제거합니다.
@@ -185,6 +187,7 @@ E5724 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거하는 경우
 
 
 
+[[step-3-remove-a-hic]]
 == 3단계: HIC를 제거합니다
 
 기존 HIC를 제거하여 업그레이드된 HIC로 대체할 수 있습니다.
@@ -232,6 +235,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[컨트롤러 카드
 
 
 
+[[step-4-install-the-new-hic]]
 == 4단계: 새 HIC를 설치합니다
 
 새 호스트 HIC를 설치합니다.
@@ -272,6 +276,7 @@ image::../media/28_dwg_e2800_hic_thumbscrews_maint-e5700.gif[컨트롤러 카드
 
 
 
+[[step-5-reinstall-controller-canister]]
 == 5단계: 컨트롤러 캐니스터 재설치
 
 새 HIC를 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -315,6 +320,7 @@ NOTE: 이때 데이터 케이블을 새 HIC 포트에 연결하지 마십시오.
 
 
 
+[[step-6-complete-the-hic-upgrade]]
 == 6단계: HIC 업그레이드를 완료합니다
 
 컨트롤러 LED 및 7개 세그먼트 디스플레이를 확인하고 컨트롤러의 상태가 최적인지 확인합니다.

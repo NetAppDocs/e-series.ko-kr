@@ -27,6 +27,7 @@ EF50 또는 EF80 스토리지 시스템에서 장애가 발생한 I/O 모듈을 
 
 
 
+[[step-1-prepare-to-replace-an-io-module]]
 == 1단계: I/O 모듈 교체 준비
 
 I/O 모듈 교체를 준비하려면 필요한 도구와 장비를 준비하고 스토리지 시스템의 구성 데이터베이스를 백업하십시오.
@@ -71,6 +72,7 @@ System Manager 인터페이스를 열려면 브라우저에서 장애가 발생�
 
 
 
+[[step-2-place-the-controller-offline]]
 == 2단계: 컨트롤러를 오프라인 상태로 전환합니다
 
 이 절차의 나머지 부분을 안전하게 수행할 수 있도록 손상된 컨트롤러를 오프라인 상태로 전환하십시오.
@@ -109,6 +111,7 @@ CAUTION: *제거 가능* 필드에 *예*가 표시되지 않으면 결함이 있
 
 
 
+[[step-3-replace-the-io-module]]
 == 3단계: I/O 모듈 교체
 
 장애가 발생한 I/O 모듈에서 케이블을 분리하고 교체용 I/O 모듈로 교체한 다음 교체용 I/O 모듈에 케이블을 연결합니다.
@@ -160,6 +163,7 @@ image::../media/icon_round_2.png[설명선 번호 2]
 
 
 
+[[step-4-place-the-controller-online]]
 == 4단계: 컨트롤러를 온라인 상태로 전환합니다
 
 손상된 컨트롤러를 다시 온라인 상태로 전환하십시오.
@@ -201,6 +205,7 @@ NOTE: 문제를 해결할 수 없는 경우 이 절차를 계속 진행하기 �
 
 
 
+[[step-5-complete-the-io-module-replacement]]
 == 5단계: I/O 모듈 교체를 완료합니다
 
 SANtricity System Manager를 사용하여 최신 버전의 SANtricity OS가 설치되어 있는지 확인하고, 모든 볼륨이 소유 컨트롤러로 반환되었는지 확인하고, 작업을 재개할 수 있도록 지원 데이터를 수집하십시오.
@@ -251,6 +256,7 @@ Recovery Guru가 없습니다(모든 볼륨이 소유 컨트롤러로 반환된 
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 고장난 부품을 NetApp에 반환합니다
 
 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반송하십시오. 자세한 내용은  https://mysupport.netapp.com/site/info/rma["부품 반품 및 교체"] 페이지를 참조하십시오.

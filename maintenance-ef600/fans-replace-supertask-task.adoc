@@ -29,6 +29,7 @@ EF300, EF600, EF300C 또는 EF600C 어레이에서 팬을 교체할 수 있습�
 
 
 
+[[step-1-place-controller-offline]]
 == 1단계: 컨트롤러를 오프라인으로 전환합니다
 
 장애가 발생한 팬을 안전하게 교체할 수 있도록 컨트롤러 캐니스터를 오프라인으로 설정합니다.
@@ -75,6 +76,7 @@ NOTE: 상태가 업데이트되기 전에는 다른 작업을 시작하지 마�
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 고장난 팬을 새 팬으로 교체할 수 있도록 컨트롤러 캐니스터를 제거합니다.
@@ -105,6 +107,7 @@ image::../media/remove_controller_6.png[분리할 때 두 손으로 컨트롤러
 
 
 
+[[step-3-remove-failed-fan]]
 == 3단계: 장애가 발생한 팬을 제거합니다
 
 고장난 팬을 분리하여 새 팬으로 교체할 수 있습니다.
@@ -123,6 +126,7 @@ image::../media/fan_2.png[팬을 분리합니다]
 
 
 
+[[step-4-install-new-fan]]
 == 4단계: 새 팬을 설치합니다
 
 새 팬을 설치하여 장애가 발생한 팬을 교체합니다.
@@ -139,6 +143,7 @@ image::../media/fan_3_a.png[팬을 컨트롤러에 설치합니다]
 
 
 
+[[step-5-reinstall-controller-canister]]
 == 5단계: 컨트롤러 캐니스터 재설치
 
 새 팬을 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -157,6 +162,7 @@ image::../media/remove_controller_7.png[컨트롤러를 쉘프에 설치합니�
 
 
 
+[[step-6-complete-fan-replacement]]
 == 6단계: 팬 교체 완료
 
 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 운영을 재개하십시오.

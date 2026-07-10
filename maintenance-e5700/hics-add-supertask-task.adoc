@@ -38,6 +38,7 @@ HIC를 추가할 때는 스토리지 어레이의 전원을 끄고 전원을 다
 
 
 
+[[step-1-prepare-to-add-hic]]
 == 1단계: HIC를 추가할 준비를 합니다
 
 스토리지 시스템의 구성 데이터베이스를 백업하고 지원 데이터를 수집하며 호스트 I/O 작업을 중지하여 HIC를 추가할 준비를 합니다. 그런 다음 컨트롤러 쉘프의 전원을 끕니다.
@@ -121,6 +122,7 @@ image::../media/e5700_ib_hic_w_cache_led_callouts_maint-e5700.gif[E5700 컨트�
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 새 HIC를 추가할 수 있도록 컨트롤러 캐니스터를 제거합니다.
@@ -181,6 +183,7 @@ E5724 컨트롤러 쉘프에서 컨트롤러 캐니스터를 제거하는 경우
 
 
 
+[[step-3-install-a-hic]]
 == 3단계: HIC 설치
 
 HIC(호스트 인터페이스 카드)를 설치하여 스토리지 어레이의 호스트 포트 수를 늘립니다.
@@ -235,6 +238,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e5700.gif[컨트롤러�
 
 
 
+[[step-4-reinstall-controller-canister]]
 == 4단계: 컨트롤러 캐니스터 재설치
 
 새 HIC를 설치한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -277,6 +281,7 @@ CAUTION: 이때 데이터 케이블을 새 HIC 포트에 연결하지 마십시�
 
 
 
+[[step-5-complete-hic-addition]]
 == 5단계: HIC 추가 완료
 
 컨트롤러 LED 및 7개 세그먼트 디스플레이를 확인한 다음 컨트롤러의 상태가 최적인지 확인합니다.

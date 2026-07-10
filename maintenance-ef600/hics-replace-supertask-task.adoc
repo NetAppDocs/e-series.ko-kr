@@ -38,6 +38,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- HIC가 다른 E-Series 컨�
 
 
 
+[[step-1-place-the-controller-offline]]
 == 1단계: 컨트롤러를 오프라인으로 설정합니다
 
 HCC를 안전하게 교체할 수 있도록 영향을 받는 컨트롤러를 오프라인으로 설정합니다.
@@ -83,6 +84,7 @@ NOTE: 상태가 업데이트되기 전에는 다른 작업을 시작하지 마�
 
 
 
+[[step-2-remove-controller-canister]]
 == 2단계: 컨트롤러 캐니스터 제거
 
 결함이 있는 호스트 인터페이스 카드를 교체할 수 있도록 컨트롤러 캐니스터를 제거합니다.
@@ -116,6 +118,7 @@ image::../media/remove_controller_6.png[분리할 때 두 손으로 컨트롤러
 
 
 
+[[step-3-remove-the-hic]]
 == 3단계: HIC를 제거합니다
 
 기존 HIC를 제거하여 업그레이드된 HIC로 대체할 수 있습니다.
@@ -164,6 +167,7 @@ NOTE: 위의 이미지는 예시이며 HIC의 모양은 다를 수 있습니다.
 
 
 
+[[step-4-replace-the-hic]]
 == 4단계: HIC를 교체합니다
 
 기존 HIC를 제거한 후 새 HIC를 설치합니다.
@@ -198,6 +202,7 @@ NOTE: 위의 이미지는 예시이며 HIC의 모양은 다를 수 있습니다.
 
 
 
+[[step-5-reinstall-controller-canister]]
 == 5단계: 컨트롤러 캐니스터 재설치
 
 HIC를 교체한 후 컨트롤러 캐니스터를 컨트롤러 쉘프에 다시 설치합니다.
@@ -220,6 +225,7 @@ image::../media/remove_controller_7.png[컨트롤러를 쉘프에 설치합니�
 
 
 
+[[step-6-complete-hic-replacement]]
 == 6단계: HIC 교체 완료
 
 컨트롤러를 온라인 상태로 전환하고 지원 데이터를 수집하며 운영을 재개하십시오.

@@ -30,6 +30,7 @@ EF300, EF600, EF300C 또는 EF600C 컨트롤러에서 전원 공급 장치가 �
 
 
 
+[[step-1-remove-failed-power-supply]]
 == 1단계: 장애가 발생한 전원 공급 장치를 분리합니다
 
 장애가 발생한 전원 공급 장치를 분리하여 새 전원 공급 장치로 교체할 수 있습니다.
@@ -62,6 +63,7 @@ image::../media/psup_3.png[전원 공급 장치를 밀어 꺼냅니다]
 
 
 
+[[step-2-install-new-power-supply-and-complete-the-replacement]]
 == 2단계: 새 전원 공급 장치를 설치하고 교체를 완료합니다
 
 결함이 있는 전원 공급 장치를 제거한 후 새 전원 공급 장치를 설치합니다.
