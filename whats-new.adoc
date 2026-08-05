@@ -72,6 +72,29 @@ SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습
 |===
 
 
+[[new-features-in-version-11-90r6]]
+== 버전 11.90R6의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+IOM/DCM 펌웨어 버전 지원 업데이트
+ a| 
+다음 IOM/DCM 모델에 대해 새로운 IOM/DCM 펌웨어 버전이 지원됩니다.
+
+* IOM12A - v0412
+* IOM12B - v0212
+* IOM12C - v0112
+* IOM12G - v0212
+* DCM3 - v01.12.09.02
+
+
+|===
+
+
 [[new-features-in-version-11-90r5]]
 == 버전 11.90R5의 새로운 기능
 
