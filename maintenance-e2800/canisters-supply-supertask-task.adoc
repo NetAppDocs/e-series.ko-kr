@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 replace 12-drive power supply, E2800 replace 24-drive power supply, replacing E2800 power supply, E2800, E-Series, eseries 
 summary: 통합 팬을 포함하는 2개의 전원 공급 장치가 포함된 E2800 12 드라이브 또는 24 드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 교체합니다. 
 ---
-= 전원 공급 장치 교체 - E2800(12 드라이브 또는 24 드라이브)
+= E2800 12드라이브 또는 24드라이브 쉘프의 전원 공급 장치 교체
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -62,7 +62,7 @@ E2800 어레이의 전원 공급 장치를 12 드라이브 또는 24 드라이�
 
 +
 .. 하드웨어 * 를 선택합니다.
-.. 쉘프 * 드롭다운 목록 오른쪽에 있는 전원  및 팬 image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif["'팬 아이콘\""] 아이콘을 확인하여 장애가 발생한 전원 image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif["전원 아이콘"]공급 장치가 있는 쉘프를 확인합니다.
+.. *Shelf* 드롭다운 목록 오른쪽에 있는 전원 image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif["전원 아이콘"] 및 팬 image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif["팬 아이콘"] 아이콘을 확인하여 전원 공급 장치에 장애가 발생한 쉘프를 확인합니다.
 +
 구성 요소에 오류가 발생한 경우 이러한 아이콘 중 하나 또는 둘 다 빨간색입니다.
 

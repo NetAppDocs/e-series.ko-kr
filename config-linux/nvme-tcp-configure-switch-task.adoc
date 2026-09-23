@@ -1,0 +1,19 @@
+---
+permalink: config-linux/nvme-tcp-configure-switch-task.html 
+sidebar: sidebar 
+keywords: configure switch, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
+summary: NVMe over TCP에 대한 벤더의 권장 사항에 따라 스위치를 구성하십시오. 이러한 권장 사항에는 구성 지침과 코드 업데이트가 모두 포함될 수 있습니다. 
+---
+= E-Series Linux NVMe over TCP 호스트용 스위치 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe over TCP에 대한 벤더의 권장 사항에 따라 스위치를 구성하십시오. 이러한 권장 사항에는 구성 지침과 코드 업데이트가 모두 포함될 수 있습니다.
+
+E-Series는 네트워크 구성에 관한 특별한 지침을 제공하지 않습니다. 사용 환경에 적합한 구성 선택에 관한 지침은 네트워크 관리자에게 문의하십시오.
+
+.다음 단계
+스위치를 구성한 후 link:nvme-tcp-setup-host-side-task.html["호스트에서 TCP를 통해 NVMe 이니시에이터를 설정합니다."].

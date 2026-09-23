@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace battery, battery fail, EF300C, EF600C, EF300, EF600 
 summary: EF300 또는 EF600 어레이의 배터리를 교체합니다. 
 ---
-= EF300 및 EF600 배터리를 교체합니다
+= EF300 또는 EF600 어레이의 배터리 교체
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -60,8 +60,7 @@ EF300, EF600, EF300C 또는 EF600C 스토리지 시스템에서 배터리를 교
 
 . 컨트롤러가 아직 오프라인 상태가 아닌 경우 SANtricity 시스템 관리자를 사용하여 오프라인 상태로 전환합니다.
 +
-.. 하드웨어 * 를 선택합니다.
-.. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 선택하여 컨트롤러를 표시합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. 오프라인 상태로 설정할 컨트롤러를 선택합니다.
 .. 상황에 맞는 메뉴에서 * 오프라인 상태로 전환 * 을 선택하고 작업을 수행할지 확인합니다.
 +
@@ -194,8 +193,7 @@ image::../media/remove_controller_7.png[쉘프에 컨트롤러를 설치합니�
 .단계
 . 컨트롤러를 온라인으로 설정합니다.
 +
-.. System Manager에서 Hardware 페이지로 이동합니다.
-.. 컨트롤러 후면 표시 * 를 선택합니다.
+.. SANtricity System Manager에서 메뉴:Hardware[Controllers and components]를 선택합니다.
 .. 교체한 배터리가 있는 컨트롤러를 선택합니다.
 .. 드롭다운 목록에서 * 온라인 상태로 * 를 선택합니다.
 

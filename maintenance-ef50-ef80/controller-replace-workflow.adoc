@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, replace the controller workflow 
 summary: 스토리지 시스템 요구 사항을 충족하고, 시스템을 준비하고, 손상된 컨트롤러를 오프라인으로 전환하고, 컨트롤러를 교체하고, 새 컨트롤러를 온라인으로 전환하고, 교체 프로세스를 완료하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체할 수 있습니다. 
 ---
-= 컨트롤러 교체 워크플로 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템용 컨트롤러 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

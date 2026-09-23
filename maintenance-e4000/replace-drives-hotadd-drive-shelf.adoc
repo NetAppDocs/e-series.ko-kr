@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries 
 summary: E4000의 드라이브를 12 드라이브 또는 24 드라이브 쉘프로 교체합니다. 
 ---
-= 드라이브 쉘프를 핫 애드 - IOM12 또는 IOM12B 모듈 - E4000
+= IOM12 또는 IOM12B 모듈을 사용하여 E4000 드라이브 셸프 핫 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -65,7 +65,7 @@ NOTE: 이전 2-3주 내에 해결되지 않은 중요 이벤트가 발생한 경
 
 . 하드웨어에 IOM이 연결되어 있는 경우 다음 단계를 수행하십시오. 그렇지 않으면 로 이동합니다 <<step2_install_drive_shelf,2단계: 드라이브 쉘프를 설치하고 전원을 공급합니다.>>
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. IOM(ESM) * 아이콘을 선택합니다.
 +
 image::../media/sam1130_ss_hardware_iom_icon.gif[IOM 아이콘]
@@ -122,7 +122,7 @@ NOTE: 실제 설치 및 전원 케이블 연결에 대한 전체 절차는 해�
 +
 image::../media/hot_e4000_cabling_1.png[드라이브 쉘프를 연결합니다]
 
-. SANtricity 시스템 관리자에서 * 하드웨어 * 를 클릭합니다.
+. SANtricity System Manager에서 메뉴:Hardware[Controllers and components]를 선택합니다.
 +
 
 NOTE: 이 절차에서는 컨트롤러 쉘프에 대한 활성 경로가 하나만 있습니다.
@@ -168,7 +168,7 @@ NOTE: Optimal(최적) 상태는 새 드라이브 쉘프와 관련된 이중화 �
 .단계
 . SANtricity 시스템 관리자에서 * 홈 * 을 클릭합니다.
 . 페이지 상단 중앙에 * Recover from Problems * 라는 링크가 표시되면 링크를 클릭하여 Recovery Guru에 표시된 문제를 해결합니다.
-. SANtricity 시스템 관리자에서 * 하드웨어 * 를 클릭하고 필요한 경우 아래로 스크롤하여 새로 추가된 드라이브 쉘프를 확인합니다.
+. SANtricity System Manager에서 메뉴:Hardware[Controllers and components]를 선택하고 필요에 따라 아래로 스크롤하여 새로 추가된 드라이브 셸프를 확인하십시오.
 . 이전에 다른 스토리지 시스템에 설치된 드라이브의 경우, 새로 설치된 드라이브 쉘프에 드라이브를 한 번에 하나씩 추가합니다. 다음 드라이브를 삽입하기 전에 각 드라이브가 인식될 때까지 기다립니다.
 +
 스토리지 시스템에서 드라이브를 인식하면 * Hardware * 페이지의 드라이브 슬롯이 파란색 직사각형으로 표시됩니다.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 maintenance, E2800 repair, replace E2800 components, replacing E2800 components, 
 summary: E2800 구성 요소에 대한 유지 관리를 수행합니다. 
 ---
-= 하드웨어-E2800 유지 관리
+= E2800 스토리지 시스템의 하드웨어 유지보수
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -14,6 +14,9 @@ summary: E2800 구성 요소에 대한 유지 관리를 수행합니다.
 하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. E2800 시스템 구성 요소 유지 관리에 대한 절차는 이 섹션에 나와 있습니다.
 
 이 섹션의 절차는 E2800 시스템이 E-Series 환경에 이미 구축되었다고 가정합니다.
+
+
+NOTE: E2800 스토리지 시스템은 단종(EOA) 제품으로 더 이상 구매할 수 없지만, 지원은 계속 제공됩니다. 이 섹션의 정보는 참고용으로만 제공됩니다.
 
 
 

@@ -1,7 +1,7 @@
 ---
 permalink: getting-started/learn-shelf-concept.html 
 sidebar: sidebar 
-keywords: E-Series, eseries, E4000, E2800, E5700, EF300, EF600, E-series hardware, E-Series shelf, DE212C, DE224C, DE460C, NE224, 
+keywords: E-Series, eseries, EF50, EF80, E4000, E2800, E5700, EF300, EF600, E-series hardware, E-Series shelf, DE212C, DE224C, DE460C, 
 summary: E-Series 시스템은 다양한 쉘프 크기로 제공됩니다. 
 ---
 = E-Series 쉘프 유형에 대해 알아보십시오
@@ -22,7 +22,7 @@ E-Series 시스템은 다양한 쉘프 크기로 제공됩니다.
 
 * 2u12(랙 유닛 2개, 드라이브 12개)
 * 3.5" HDD 및/또는 2.5" SSD(어댑터 포함)
-* E4000 및 E2800 컨트롤러만 해당
+* EF50, EF80, E4000 및 E2800 컨트롤러
 
  a| 
 image:../media/e2812_front.gif["DE212C를 참조하십시오"]
@@ -34,7 +34,7 @@ image:../media/e2812_front.gif["DE212C를 참조하십시오"]
 
 * 2u24(랙 유닛 2개, 드라이브 24개)
 * 2.5인치 HDD 및/또는 2.5인치 SSD 드라이브
-* E2800, EF280, E5700 및 EF570 컨트롤러
+* EF50, EF80, E2800, EF280, E5700 및 EF570 컨트롤러
 
  a| 
 image:../media/e2824_front.gif["DE224C를 참조하십시오"]
@@ -46,7 +46,7 @@ image:../media/e2824_front.gif["DE224C를 참조하십시오"]
 
 * 4u60(랙 유닛 4개, 드라이브 60개)
 * 3.5" 및 2.5" 드라이브(NL-SAS, SAS 및 SSD)
-* E4000, E2800 및 E5700 컨트롤러
+* EF50, EF80, E4000, E2800 및 E5700 컨트롤러
 
  a| 
 image:../media/de460c.gif["DE460C"]

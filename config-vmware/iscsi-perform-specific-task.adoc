@@ -1,10 +1,10 @@
 ---
 permalink: config-vmware/iscsi-perform-specific-task.html 
 sidebar: sidebar 
-keywords: iscsi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+keywords: iscsi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
 summary: iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측과 호스트 측에서 네트워킹을 구성합니다. 그런 다음 IP 네트워크 연결을 확인합니다. 
 ---
-= E-Series-VMware에서 iSCSI 관련 작업 수행
+= E-Series에서 VMware용 iSCSI 스위치 및 네트워킹 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -15,9 +15,41 @@ summary: iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측
 iSCSI 프로토콜의 경우 스위치를 구성하고 스토리지 측과 호스트 측에서 네트워킹을 구성합니다. 그런 다음 IP 네트워크 연결을 확인합니다.
 
 
+NOTE: VMware와의 호환성을 확보하려면 4096바이트 드라이브를 사용할 때 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정해야 합니다. 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정하는 방법에 대한 자세한 내용은 SANtricity System Manager 온라인 도움말을 참조하십시오.
 
-[[step-1-configure-the-switches-iscsi-vmware]]
-== 1단계: 스위치 구성 - iSCSI, VMware
+
+
+[[step-1-record-your-configuration]]
+== 1단계: 구성 기록
+
+이 페이지를 PDF 파일로 생성하여 인쇄한 다음, 아래 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록하십시오. 프로비저닝 작업을 수행할 때 이 정보가 필요합니다.
+
+이 그림은 VLAN 및/또는 고유 서브넷으로 분리된 E-시리즈 스토리지 어레이에 연결된 호스트를 보여줍니다. 파란색 선은 하나의 VLAN/서브넷을, 빨간색 선은 다른 VLAN/서브넷을 나타냅니다. 각 VLAN/서브넷에는 최소 하나의 이니시에이터 포트와 대상 포트의 절반이 포함됩니다. 호스트 및/또는 컨트롤러 포트 수는 네트워크 인터페이스 수와 컨트롤러 모델에 따라 달라집니다. 컨트롤러당 최대 6개의 포트를 사용할 수 있습니다.
+
+image::../media/50001_01_conf-vmw.gif[iSCSI 포트 식별자입니다]
+
+
+
+[[host-mapping-information]]
+=== 호스트 매핑 정보
+
+[cols="35h,~"]
+|===
+| 호스트 이름 매핑 중 |  
+
+
+| 호스트 OS 유형입니다 |  
+
+
+| 호스트 IQN |  
+
+
+| 타겟 IQN입니다 |  
+|===
+
+
+[[step-2-configure-the-switches]]
+== 2단계: 스위치 구성
 
 iSCSI에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
 
@@ -25,9 +57,9 @@ iSCSI에 대한 공급업체의 권장 사항에 따라 스위치를 구성합�
 다음 사항을 확인하십시오.
 
 * 고가용성을 위한 2개의 별도 네트워크. iSCSI 트래픽을 분리하여 네트워크 세그먼트를 구분해야 합니다.
-* 하드웨어 흐름 제어 전송 및 수신 * 엔드 투 엔드 * 를 활성화했습니다.
+* 송수신 하드웨어 흐름 제어를 *종단 간*으로 활성화했습니다.
 * 우선 순위 흐름 제어를 비활성화했습니다.
-* 필요한 경우 점보 프레임을 사용하도록 설정합니다.
+* 필요한 경우 점보 프레임을 활성화하십시오(권장).
 
 
 
@@ -38,31 +70,29 @@ NOTE: 컨트롤러의 스위치 포트에서는 포트 채널/LACP가 지원되�
 
 
 
-[[step-2-configure-networking-iscsi-vmware]]
-== 2단계: 네트워킹 구성 -- iSCSI VMware
+[[step-3-configure-networking]]
+== 3단계: 네트워크 구성
 
 데이터 저장소 요구 사항에 따라 여러 가지 방법으로 iSCSI 네트워크를 설정할 수 있습니다. 사용자 환경에 가장 적합한 구성을 선택하는 방법은 네트워크 관리자에게 문의하십시오.
 
 .시작하기 전에
 다음 사항을 확인하십시오.
 
-* 하드웨어 흐름 제어 전송 및 수신 * 엔드 투 엔드 * 를 활성화했습니다.
+* 송수신 하드웨어 흐름 제어를 *종단 간*으로 활성화했습니다.
 * 우선 순위 흐름 제어를 비활성화했습니다.
-* 필요한 경우 점보 프레임을 사용하도록 설정합니다.
+* 필요한 경우 점보 프레임을 활성화하십시오(권장).
 +
-성능상의 이유로 IP SAN 내에서 점보 프레임을 사용하는 경우, 점보 프레임을 사용하도록 어레이, 스위치 및 호스트를 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 3단계의 단계를 완료하십시오.
+성능 향상을 위해 IP SAN에서 점보 프레임을 사용하는 경우, 어레이, 스위치 및 호스트에서 점보 프레임을 사용하도록 구성해야 합니다. 호스트와 스위치에서 점보 프레임을 활성화하는 방법에 대한 자세한 내용은 운영 체제 및 스위치 설명서를 참조하십시오. 어레이에서 점보 프레임을 활성화하려면 4단계의 절차를 완료하십시오.
 
 
 
 .이 작업에 대해
-iSCSI 네트워킹을 계획하는 동안 https://configmax.broadcom.com/home["VMware 구성 최대값"^] 가이드에 지원되는 최대 iSCSI 스토리지 경로는 8이라고 나와 있습니다. 너무 많은 경로를 구성하지 않으려면 이 요구 사항을 고려해야 합니다.
+iSCSI 네트워킹을 계획할 때,  https://configmax.broadcom.com/guest["VMware 구성 최대값 가이드"^]LUN에 대한 최대 지원 iSCSI 경로 수는 32개이며, 서버당 소프트웨어 iSCSI 스택에 연결하거나 포트 바인딩할 수 있는 NIC의 최대 수는 8개라는 점을 명심하십시오. 너무 많은 경로를 구성하지 않도록 이 요구 사항을 반드시 고려해야 합니다.
 
 기본적으로 VMware iSCSI 소프트웨어 이니시에이터는 iSCSI 포트 바인딩을 사용하지 않을 때 iSCSI 타겟당 단일 세션을 생성합니다.
 
 
-NOTE: VMware iSCSI 포트 바인딩은 구성된 네트워크 세그먼트에서 액세스할 수 있는 모든 타겟 포트에 바인딩된 모든 VMkernel 포트를 강제로 로그인하는 기능입니다. iSCSI 대상에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용됩니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 https://support.broadcom.com/["VMware 기술 자료"] ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용할 때의 고려 사항에 대한 문서를 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우 별도의 iSCSI vmkernel 포트를 사용하여 포트 바인딩과 충돌하지 않는 것이 좋습니다.
-
-모범 사례를 위해서는 E-Series 스토리지 어레이에서 포트 바인딩을 사용하면 안 됩니다. 자세한 내용은 을 https://www.netapp.com/media/17017-tr4789.pdf["TR-4789: E-Series SANtricity iSCSI를 ESXi 6.x 및 7.x와 통합하기 위한 VMware 구성 가이드"^] 참조하십시오.
+NOTE: VMware iSCSI 포트 바인딩은 바인딩된 모든 VMkernel 포트가 구성된 네트워크 세그먼트에서 액세스 가능한 모든 대상 포트에 로그인하도록 강제하는 기능입니다. 이 기능은 iSCSI 타겟에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용하기 위한 것입니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/setting-up-network-for-iscsi-and-iser-with-esxi/best-practices-for-configuring-networking-with-software-iscsi.html["ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용하기 위한 모범 사례"^]을 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우, NetApp은 포트 바인딩과의 충돌을 방지하기 위해 별도의 iSCSI VMkernel 포트를 사용할 것을 권장합니다.
 
 경로 다중화 구성이 양호한지 확인하려면 iSCSI 네트워크에 대해 여러 네트워크 세그먼트를 사용합니다. 한 네트워크 세그먼트의 각 어레이 컨트롤러에서 하나 이상의 호스트 측 포트와 하나 이상의 포트를 배치하고 다른 네트워크 세그먼트의 호스트 측 포트와 어레이 측 포트의 동일한 그룹을 배치합니다. 가능한 경우 여러 이더넷 스위치를 사용하여 추가적인 이중화를 제공합니다.
 
@@ -74,8 +104,8 @@ NOTE: 많은 네트워크 스위치는 IP 오버헤드를 위해 9,000바이트 
 
 
 
-[[step-3-configure-array-side-networking-iscsi-vmware]]
-== 3단계: 스토리지 측 네트워킹 구성 -- iSCSI, VMware
+[[step-4-configure-array-side-networking]]
+== 4단계: 어레이 측 네트워킹 구성
 
 SANtricity 시스템 관리자 GUI를 사용하여 어레이 측에서 iSCSI 네트워킹을 구성합니다.
 
@@ -102,7 +132,7 @@ IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.
 
 . 관리자 암호 설정 및 암호 확인 필드에 관리자 역할에 대한 System Manager 암호를 입력한 다음 * 암호 설정 * 을 클릭합니다.
 +
-구성된 풀, 볼륨 그룹, 워크로드 또는 알림이 없는 경우 설정 마법사가 시작됩니다.
+풀, 볼륨 그룹, 워크로드 또는 알림이 구성되어 있지 않으면 설정 마법사가 실행됩니다.
 
 . 설정 마법사를 닫습니다.
 +
@@ -134,10 +164,10 @@ iSCSI 포트 구성 대화 상자가 열립니다.
  a| 
 이더넷 포트 속도를 구성했습니다
  a| 
-원하는 속도를 선택합니다. 드롭다운 목록에 표시되는 옵션은 네트워크에서 지원할 수 있는 최대 속도(예: 10Gbps)에 따라 달라집니다.
+원하는 속도를 선택합니다. 드롭다운 목록에 나타나는 옵션은 네트워크에서 지원할 수 있는 최대 속도에 따라 달라집니다(예: 25Gbps).
 
 
-NOTE: 컨트롤러에서 옵션으로 제공되는 25GB iSCSI 호스트 인터페이스 카드는 속도를 자동 협상하지 않습니다. 각 포트의 속도를 10Gb 또는 25Gb로 설정해야 합니다. 모든 포트는 동일한 속도로 설정되어야 합니다.
+NOTE: 컨트롤러에서 사용 가능한 iSCSI 호스트 인터페이스 카드는 속도 자동 협상을 지원하지 않습니다. 각 포트의 속도를 1Gbps, 10Gbps 또는 25Gbps 중 하나로 설정해야 합니다. 모든 포트는 동일한 속도로 설정해야 합니다.
 
 
 
@@ -162,7 +192,7 @@ MTU 크기(* 추가 포트 설정 표시 * 를 클릭하여 사용 가능)
  a| 
 필요한 경우 MTU(Maximum Transmission Unit)에 대한 새 크기를 바이트 단위로 입력합니다.
 
-기본 MTU(Maximum Transmission Unit) 크기는 프레임당 1,500바이트입니다. 1500에서 9000 사이의 값을 입력해야 합니다.
+기본 최대 전송 단위(MTU) 크기는 프레임당 1500바이트입니다. 1500에서 9000 사이의 값을 입력해야 합니다. 점보 프레임을 사용하려면 이 값을 9000바이트로 설정하십시오.
 
 
 
@@ -200,34 +230,57 @@ IPv4 사용 * 을 선택한 경우 * 다음 * 을 클릭하면 IPv4 설정을 �
 
 
 
-[[step-4-configure-host-side-networking-iscsi]]
-== 4단계: 호스트측 네트워킹 구성 -- iSCSI
+[[step-5-configure-host-side-networking]]
+== 5단계: 호스트 측 네트워킹 구성
 
 호스트 측에서 iSCSI 네트워킹을 구성하면 VMware iSCSI 이니시에이터가 스토리지와 세션을 설정할 수 있습니다.
 
 .이 작업에 대해
-호스트 측에서 iSCSI 네트워킹을 구성하는 이 빠른 방법에서는 ESXi 호스트가 스토리지에 대한 4개의 중복 경로를 통해 iSCSI 트래픽을 전송할 수 있습니다.
+이 작업은 호스트 측에서 iSCSI 네트워킹을 구성하고 스토리지 어레이와 iSCSI 세션을 설정합니다.
 
 이 작업을 완료하면 호스트는 VMkernel 포트 및 두 VMNIC를 모두 포함하는 단일 vSwitch로 구성됩니다.
 
-VMware용 iSCSI 네트워킹 구성에 대한 자세한 내용은 를 참조하십시오 https://docs.vmware.com/en/VMware-vSphere/index.html["VMware vSphere 설명서"^] 를 참조하십시오.
+VMware용 iSCSI 네트워킹 구성에 대한 자세한 내용은  https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi.html["ESXi에서 iSCSI 어댑터 및 스토리지 구성"^]을 참조하십시오.
+
+
+NOTE: 이 과정에서 추가된 소프트웨어 iSCSI 어댑터에서 iSCSI 정규화 이름(IQN)을 기록해 두십시오. 이 정보는 나중에 호스트 매핑을 구성할 때 필요합니다.
+
+.시작하기 전에
+다음 사항을 확인하십시오.
+
+* iSCSI 스토리지 트래픽을 전송하는 데 사용될 스위치가 구성됩니다.
+* 스위치에서 송수신 하드웨어 흐름 제어가 *종단 간*으로 활성화됩니다.
+* 스위치에서 우선순위 흐름 제어가 비활성화되었습니다.
+* 어레이 측 iSCSI 구성이 완료되었습니다.
+* iSCSI 트래픽을 위해 최소 두 개의 호스트 NIC 포트가 필요합니다.
+
 
 .단계
-. iSCSI 스토리지 트래픽을 전송하는 데 사용할 스위치를 구성합니다.
-. 하드웨어 흐름 제어 전송 및 수신 * 엔드 투 엔드 * 를 활성화합니다.
-. 우선순위 흐름 제어를 비활성화합니다.
-. 어레이 측 iSCSI 구성을 완료합니다.
-. iSCSI 트래픽에는 NIC 포트 2개를 사용합니다.
-. vSphere Client 또는 vSphere 웹 클라이언트를 사용하여 호스트 측 구성을 수행합니다.
+. vSphere Client 또는 vSphere Web Client를 사용하여 호스트 측 구성을 수행합니다. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi.html["ESXi에서 iSCSI 어댑터 및 스토리지 구성"^]
 +
 인터페이스는 기능마다 다르며 정확한 워크플로도 다릅니다.
 
+. iSCSI용 네트워크를 설정합니다. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/setting-up-network-for-iscsi-and-iser-with-esxi.html["ESX에서 iSCSI를 위한 네트워크 설정"^]
++
+.. 포트 바인딩은 사용하지 않는 것이 좋습니다. VMware iSCSI 포트 바인딩은 바인딩된 모든 VMkernel 포트가 구성된 네트워크 세그먼트에서 액세스 가능한 모든 대상 포트에 로그인하도록 강제하는 기능입니다. 이 기능은 iSCSI 타겟에 대한 단일 네트워크 주소를 제공하는 어레이와 함께 사용하기 위한 것입니다. NetApp은 iSCSI 포트 바인딩을 사용하지 않을 것을 권장합니다. 자세한 내용은 https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/setting-up-network-for-iscsi-and-iser-with-esxi/best-practices-for-configuring-networking-with-software-iscsi.html["ESX/ESXi에서 소프트웨어 iSCSI 포트 바인딩을 사용하기 위한 모범 사례"^]을 참조하십시오. ESXi 호스트가 다른 공급업체의 스토리지에 연결된 경우, NetApp은 포트 바인딩과의 충돌을 방지하기 위해 별도의 iSCSI VMkernel 포트를 사용할 것을 권장합니다.
+.. NetApp은 이중화를 위해 액티브/스탠바이 어댑터를 활용하여 vSphere Standard Switch에서 다중 어댑터 매핑을 권장합니다. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/setting-up-network-for-iscsi-and-iser-with-esxi/multiple-network-adapters-in-iscsi-or-iser-configuration.html["iSCSI 구성에서 여러 네트워크 어댑터"^]
+.. 원하는 경우 iSCSI에서 점보 프레임을 활성화하십시오. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/using-jumbo-frames-with-iscsi-and-iser.html["ESX에서 iSCSI를 통한 점보 프레임 사용"^]
+
+
+. 소프트웨어 iSCSI 어댑터를 추가합니다. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/configure-the-software-iscsi-adapter-with-esxi/add-or-remove-the-software-iscsi-adapter.html["소프트웨어 iSCSI 어댑터 추가 또는 제거"^]
++
+.. 호스트 IQN을 기록하고 iSCSI 별칭을 추가합니다(선택 사항). 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/modify-general-properties-for-iscsi-and-iser-adapters-on-esxi-hosts.html["ESX 호스트에서 iSCSI의 일반 속성 수정"^]
+.. CHAP 암호를 사용하는 경우 CHAP 매개변수를 구성하십시오. 을(를) 참조하십시오. https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/configuring-iscsi-and-iser-adapters-and-storage-with-esxi/configuring-chap-parameters-for-iscsi-or-iser-storage-adapters-with-esxi.html["ESX 호스트에서 iSCSI 어댑터용 CHAP 매개변수 구성"^]
 
 
 
 
-[[step-5-verify-ip-network-connections-iscsi-vmware]]
-== 5단계: IP 네트워크 연결 확인 -- iSCSI, VMware
+추가가 성공적으로 완료되면 vSphere Client의 스토리지 어댑터 보기에서 연결을 확인할 수 있습니다. 연결에 실패한 경우 6단계로 이동하여 포트와의 통신을 확인하고 연결 설정을 수정하십시오.
+
+
+
+[[step-6-verify-ip-network-connections]]
+== 6단계: IP 네트워크 연결 확인
 
 ping 테스트를 사용하여 호스트와 어레이가 통신할 수 있는지 확인하여 IP(인터넷 프로토콜) 네트워크 연결을 확인합니다.
 
@@ -260,7 +313,7 @@ Reply from 192.0.2.8: bytes=8972 time=2ms TTL=64
 Reply from 192.0.2.8: bytes=8972 time=2ms TTL=64
 Ping statistics for 192.0.2.8:
   Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
+Approximate round trip times in milliseconds:
   Minimum = 2ms, Maximum = 2ms, Average = 2ms
 ----
 
@@ -270,61 +323,5 @@ Approximate round trip times in milli-seconds:
 
 NOTE: 명령이 실패하고 'S endto() failed(Message Too Long)' 메시지가 나타나면 호스트 서버, 스토리지 컨트롤러 및 스위치 포트의 이더넷 인터페이스에 대한 MTU 크기(점보 프레임 지원)를 확인합니다.
 
-. iSCSI 구성 절차로 돌아가 대상 검색을 완료합니다.
+. 5단계 검색이 실패한 경우, iSCSI 호스트 측 네트워킹 구성 절차로 돌아가 세션 검색을 완료하십시오.
 
-
-
-
-[[step-6-record-your-configuration]]
-== 6단계: 구성을 기록합니다
-
-이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
-
-
-
-[[recommended-configuration]]
-=== 권장 구성
-
-권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
-
-image::../media/50001_01_conf-vmw.gif[iSCSI 포트 식별자입니다]
-
-
-
-[[target-iqn]]
-=== 타겟 IQN입니다
-
-|===
-| 속성 표시기 번호 | 대상 포트 연결입니다 | IQN을 선택합니다 
-
-
- a| 
-2
- a| 
-대상 포트
- a| 
-
-|===
-
-
-[[mapping-host-name]]
-=== 호스트 이름 매핑 중
-
-|===
-| 속성 표시기 번호 | 호스트 정보입니다 | 이름 및 유형 
-
-
- a| 
-1
- a| 
-호스트 이름 매핑 중
- a| 
-
-
-
- a| 
- a| 
-호스트 OS 유형입니다
- a| 
-
-|===

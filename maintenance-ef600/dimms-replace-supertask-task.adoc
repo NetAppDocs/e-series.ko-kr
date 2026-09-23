@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300, EF600, EF300C, EF600C, replace DIMM 
 summary: EF300 또는 EF600 어레이에서 DIMM 교체 
 ---
-= DIMM을 교체합니다. - EF300 또는 EF600
+= EF300 또는 EF600 어레이의 DIMM 교체
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -79,7 +79,6 @@ DIMM을 안전하게 분리하고 교체할 수 있도록 컨트롤러를 오프
 . 컨트롤러가 아직 오프라인 상태가 아닌 경우 SANtricity 시스템 관리자를 사용하여 오프라인 상태로 전환합니다.
 +
 .. 메뉴: Hardware[Controllers and components]를 선택합니다.
-.. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 선택하여 컨트롤러를 표시합니다.
 .. 오프라인 상태로 설정할 컨트롤러를 선택합니다.
 .. 상황에 맞는 메뉴에서 * 오프라인 상태로 전환 * 을 선택하고 작업을 수행할지 확인합니다.
 +
@@ -222,8 +221,7 @@ image::../media/remove_controller_7.png[DIMM을 컨트롤러의 슬롯에 설치
 .단계
 . 컨트롤러를 온라인으로 설정합니다.
 +
-.. System Manager에서 Hardware 페이지로 이동합니다.
-.. 컨트롤러 후면 표시 * 를 선택합니다.
+.. SANtricity System Manager에서 메뉴:Hardware[Controllers and components]를 선택합니다.
 .. 교체한 DIMM이 있는 컨트롤러를 선택합니다.
 .. 드롭다운 목록에서 * 온라인 상태로 * 를 선택합니다.
 

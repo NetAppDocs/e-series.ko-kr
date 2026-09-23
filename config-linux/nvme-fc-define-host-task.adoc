@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define host Linux, configure host linux, express linux configuration, linux host, 
 summary: SANtricity 시스템 관리자를 사용하여 스토리지 배열에 데이터를 전송하는 호스트를 정의합니다. 호스트 정의는 스토리지 배열에 연결된 호스트를 알려 주는 단계 중 하나이며 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다. 
 ---
-= SANtricity System Manager-Linux(NVMe over FC)를 사용하여 호스트 생성
+= E-Series Linux NVMe over FC 호스트용 SANtricity System Manager를 사용하여 호스트 생성
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -29,6 +29,7 @@ SANtricity 시스템 관리자를 사용하여 스토리지 배열에 데이터�
 +
 Create Host 대화 상자가 나타납니다.
 
+. *+호스트 포트 추가*를 클릭하여 호스트 포트 필드에 접근하고 호스트에 대한 호스트 포트 식별자를 추가합니다. 호스트와 연결할 호스트 포트 식별자를 하나 이상 추가할 수 있습니다.
 . 필요에 따라 호스트 설정을 선택합니다.
 +
 |===

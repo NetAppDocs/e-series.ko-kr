@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace canister, replacing E4000 canister, E4000 replace fan, replacing E4000 fan, E4000, E-Series, eseries 
 summary: E4000 캐니스터 유형 및 요구 사항을 검토합니다. 
 ---
-= 팬 캐니스터 교체 - E4000(60 드라이브)
+= E4000 60드라이브 쉘프의 팬 캐니스터 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,13 +54,12 @@ CAUTION: * 발생 가능한 장비 손상 * -- 전원을 켠 상태에서 이 �
 
 . SANtricity 시스템 관리자에서 어떤 팬 캐니스터가 고장났는지 확인합니다.
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. Shelf* 드롭다운 목록 오른쪽에 있는 팬 image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif["팬 아이콘"] 아이콘을 확인하여 어떤 선반에 장애가 있는 팬 캐니스터가 있는지 확인합니다.
 +
 구성 요소에 장애가 발생한 경우 이 아이콘은 빨간색입니다.
 
-.. 빨간색 아이콘이 있는 선반을 찾으면 * Controller & Components * 를 선택합니다.
-.. 팬 캐니스터 또는 빨간색 팬 아이콘을 선택합니다.
+.. 빨간색 아이콘이 있는 선반을 찾으면 팬 캐니스터 또는 빨간색 팬 아이콘을 선택하십시오.
 .. Fans* 탭에서 팬 캐니스터의 상태를 확인하여 어떤 팬 캐니스터를 교체해야 하는지 확인합니다.
 +
 실패 * 상태의 구성 요소를 교체해야 합니다.

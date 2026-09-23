@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, replace a power supply 
 summary: 'EF50 또는 EF80 스토리지 시스템의 전원 공급 장치(PSU)가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 지속적으로 공급받도록 하십시오.' 
 ---
-= 전원 공급 장치 교체 - EF50 및 EF80
+= EF50 또는 EF80 스토리지 시스템의 전원 공급 장치 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

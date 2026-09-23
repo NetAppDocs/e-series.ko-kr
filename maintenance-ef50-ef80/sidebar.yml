@@ -25,6 +25,8 @@ entries:
   url: "/maintenance-ef50-ef80/dimm-replace.html"
 - title: 드라이브
   url: "/maintenance-ef50-ef80/drive-replace.html"
+- title: 드라이브 드로어
+  url: "/maintenance-ef50-ef80/drive-drawer-de460c-replace.html"
 - title: 팬
   url: "/maintenance-ef50-ef80/fan-replace.html"
 - title: I/O 모듈

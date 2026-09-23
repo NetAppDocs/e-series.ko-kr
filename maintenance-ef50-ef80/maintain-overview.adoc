@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80 maintenance, maintenance, repairing ef50, ef80, replace ef50, ef80 components 
 summary: 장기적인 안정성과 최적의 성능을 보장하기 위해 EF50 또는 EF80 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 구성요소를 교체하는 등의 정기적인 유지보수 작업을 수행하면 다운타임과 데이터 손실을 방지할 수 있습니다. 
 ---
-= 유지보수 절차 개요 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템의 유지 관리 절차에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -44,6 +44,13 @@ link:dimm-replace.html["DIMM"]
 link:drive-replace.html["드라이브"]
  a| 
 드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.
+
+
+
+ a| 
+link:drive-drawer-de460c-replace.html["드라이브 드로어"]
+ a| 
+드라이브 서랍은 최대 12개의 드라이브를 수용할 수 있는 DE460C 드라이브 선반의 5개 구성 요소 중 하나입니다.
 
 
 

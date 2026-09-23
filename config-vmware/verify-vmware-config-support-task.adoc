@@ -1,7 +1,7 @@
 ---
 permalink: config-vmware/verify-vmware-config-support-task.html 
 sidebar: sidebar 
-keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
 summary: VMware 구성이 지원되는지 확인합니다. 
 ---
 = E-Series에서 VMware 구성 지원이 검증됩니다
@@ -30,10 +30,11 @@ summary: VMware 구성이 지원되는지 확인합니다.
 
  a| 
 ** 적절한 기능과 지원 가능성을 보장하기 위해 즉시 사용 가능한 드라이버를 설치해야 할 수 있습니다. ESXi 셸이나 ESXi 호스트에 대한 원격 SSH 연결을 사용하여 HBA 드라이버를 설치할 수 있습니다. 이러한 방법 중 하나를 사용하여 호스트에 액세스하려면 ESXi 셸 및 SSH 액세스를 설정해야 합니다. ESXi 셸에 대한 자세한 내용은 ESXi에서 ESXi 셸 사용과 관련된 VMware 기술 자료 를 참조하십시오. 설치 명령에 대해서는 HBA 드라이버와 함께 제공되는 지침을 참조하십시오.
-** 각 HBA 공급업체에는 부팅 코드 및 펌웨어를 업데이트하는 특정 방법이 있습니다. 이러한 방법 중 일부에는 vCenter 플러그인 사용 또는 ESXi 호스트에 CIM 공급자 설치가 포함될 수 있습니다. vCenter 플러그인을 사용하여 공급업체의 특정 HBA에 대한 정보를 얻을 수 있습니다. HBA 부트 코드 또는 펌웨어를 업데이트하는 데 필요한 지침과 소프트웨어를 얻으려면 공급업체 웹 사이트의 지원 섹션을 참조하십시오. 올바른 부팅 코드 또는 펌웨어를 얻으려면 _VMware 호환성 가이드_ 또는 HBA 공급업체 웹 사이트를 참조하십시오.
+** 각 HBA 공급업체는 부트 코드 및 펌웨어를 업데이트하는 특정 방법을 보유하고 있습니다. 이러한 방법에는 vCenter 플러그인 사용 또는 ESXi 호스트에 CIM 공급자 설치 등이 포함될 수 있습니다. vCenter 플러그인을 사용하면 특정 공급업체의 HBA에 대한 정보를 얻을 수 있습니다. HBA 부트 코드 또는 펌웨어를 업데이트하는 데 필요한 지침 및 소프트웨어를 얻으려면 공급업체 웹 사이트의 지원 섹션을 참조하십시오. 올바른 부트 코드 또는 펌웨어를 얻으려면 https://compatibilityguide.broadcom.com/search?program=io&persona=live&column=brandName&order=asc["_VMware Compatibility Guide_"] 또는 HBA 공급업체의 웹 사이트를 참조하십시오.
+** 선택한 구성에 대한 경고 및 정보를 검토하여 특정 OS, 게스트 OS, HBA 또는 구성에 적용해야 할 수 있는 기타 관련 설정이나 정보를 확인하십시오.
 
  a| 
-FC
+FCP
  a| 
 호스트 버스 어댑터(HBA) 드라이버, 펌웨어 및 부트 코드
 
@@ -50,6 +51,27 @@ iSCSI
 SAS를 참조하십시오
  a| 
 호스트 버스 어댑터(HBA) 드라이버, 펌웨어 및 부트 코드
+
+
+
+ a| 
+FC를 통한 NVMe
+ a| 
+호스트 버스 어댑터(HBA) 드라이버, 펌웨어 및 부트 코드
+
+
+
+ a| 
+RoCE를 통한 NVMe
+ a| 
+원격 직접 메모리 접근(RDMA) 드라이버, 펌웨어 및 부트코드
+
+
+
+ a| 
+TCP를 통한 NVMe
+ a| 
+네트워크 인터페이스 카드(NIC) 드라이버, 펌웨어 및 부트 코드
 
 |===
 

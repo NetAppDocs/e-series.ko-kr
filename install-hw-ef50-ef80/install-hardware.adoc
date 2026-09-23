@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: EF50 또는 EF80 스토리지 시스템 설치를 준비한 후 캐비닛 또는 통신 랙에 랙 마운트 하드웨어를 설치한 다음 스토리지 시스템을 설치하고 고정합니다. 
 ---
-= 하드웨어 설치 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템용 하드웨어를 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

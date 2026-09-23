@@ -1,10 +1,10 @@
 ---
 permalink: config-vmware/access-sam-setup-wizard-task.html 
 sidebar: sidebar 
-keywords: access System Manager vmware, express vmware configuration,software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+keywords: access System Manager vmware, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
 summary: SANtricity 시스템 관리자의 설정 마법사를 사용하여 스토리지 배열을 구성합니다. 
 ---
-= SANtricity System Manager - VMware를 사용하여 스토리지를 구성합니다
+= VMware용 SANtricity System Manager를 사용하여 E-Series 스토리지 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -77,7 +77,7 @@ IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.
 
 . 관리자 암호 설정 및 암호 확인 필드에 관리자 역할에 대한 System Manager 암호를 입력한 다음 * 암호 설정 * 을 클릭합니다.
 +
-구성된 풀, 볼륨 그룹, 워크로드 또는 알림이 없는 경우 설정 마법사가 시작됩니다.
+풀, 볼륨 그룹, 워크로드 또는 알림이 구성되어 있지 않으면 설정 마법사가 실행됩니다.
 
 . 설정 마법사를 사용하여 다음 작업을 수행합니다.
 +
@@ -91,6 +91,6 @@ IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.
 . 볼륨을 아직 생성하지 않은 경우 Storage [Volumes > Create > Volume] 메뉴로 이동하여 생성합니다.
 +
 
-NOTE: EF300 및 EF600의 경우 VMware와의 호환성을 위해 블록 크기를 512바이트로 설정해야 합니다. 볼륨을 512바이트로 설정하는 방법에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.
+NOTE: VMware와의 호환성을 확보하려면 4096바이트 드라이브를 사용할 때 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정해야 합니다. 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정하는 방법에 대한 자세한 내용은 SANtricity System Manager 온라인 도움말을 참조하십시오.
 
 

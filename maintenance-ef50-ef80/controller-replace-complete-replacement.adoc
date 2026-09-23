@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, how to complete the controller replacement process 
 summary: EF50 또는 EF80 스토리지 시스템의 컨트롤러 교체를 완료하려면 스토리지 시스템 펌웨어가 최신 상태인지 확인하고, 볼륨이 소유자에게 반환되었는지 확인하고, 시스템 지원 데이터를 수집한 다음, 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 컨트롤러 교체 완료 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템의 컨트롤러 교체 완료
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

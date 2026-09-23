@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80 replace io module, replace hic, replace host interface card 
 summary: EF50 또는 EF80 스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈로 교체하여 스토리지 시스템을 최적의 작동 상태로 복원하십시오. 
 ---
-= I/O 모듈 교체 - EF50 및 EF80
+= EF50 또는 EF80 스토리지 시스템에서 I/O 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

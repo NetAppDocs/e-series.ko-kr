@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: NVMe over Infiniband worksheet Linux, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 이 워크시트를 사용하여 NVMe over Infiniband 스토리지 구성 정보를 기록합니다. 
 ---
-= E-Series-Linux에 InfiniBand를 통해 NVMe 구성을 기록합니다
+= E-Series용 NVMe over InfiniBand 구성 워크시트
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -172,7 +172,9 @@ _해당 사항 없음 _
 
 
  a| 
+{nbsp}
  a| 
+{nbsp}
 
 |===
 스토리지 포트와 각 호스트 포트에서 사용할 IQN을 기록합니다.

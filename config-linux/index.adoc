@@ -29,6 +29,7 @@ Linux Express 방법에는 다음 단계가 포함됩니다.
 ** Infiniband를 통한 SRP
 ** NVMe over Infiniband
 ** RoCE를 통한 NVMe
+** TCP를 통한 NVMe
 ** NVMe over Fibre Channel
 
 

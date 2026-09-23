@@ -1,124 +1,50 @@
 ---
 permalink: config-vmware/nvme-roce-perform-specific-task.html 
 sidebar: sidebar 
-keywords: NVMe over RoCE protocol, switches, zone switches, zoning, host port identifiers, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E4000, EF50, EF80 E-Series, eseries 
-summary: Fibre Channel 프로토콜의 경우 스위치를 구성하고 호스트 포트 식별자를 결정합니다. 
+keywords: NVMe over RoCE protocol, switches, zone switches, zoning, host port identifiers, express vmware configuration, software configuration, vmware host, E5700, EF300, EF600, EF50, EF80, E-Series, eseries 
+summary: 'RoCE 프로토콜을 통한 NVMe를 사용하려면 스위치를 구성하고 호스트의 NVMe 정규화 이름(NQN)을 확인해야 합니다.' 
 ---
-= E-Series에서 RoCE를 통한 NVMe 관련 작업 수행 - VMware
+= E-Series에서 VMware용 NVMe over RoCE 스위치 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-RoCE 프로토콜을 통한 NVMe의 경우 스위치를 구성하고 호스트 포트 식별자를 결정합니다.
+RoCE 프로토콜을 통한 NVMe를 사용하려면 스위치를 구성하고 호스트의 NVMe 정규화 이름(NQN)을 확인해야 합니다.
+
+
+NOTE: VMware와의 호환성을 확보하려면 4096바이트 드라이브를 사용할 때 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정해야 합니다. 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정하는 방법에 대한 자세한 내용은 SANtricity System Manager 온라인 도움말을 참조하십시오.
 
 
 
 [[step-1-record-your-configuration]]
 == 1단계: 구성 기록
 
-이 페이지의 PDF를 생성하여 인쇄한 다음 다음 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록할 수 있습니다. 프로비저닝 작업을 수행하려면 이 정보가 필요합니다.
+이 페이지를 PDF 파일로 생성하여 인쇄한 다음, 아래 워크시트를 사용하여 프로토콜별 스토리지 구성 정보를 기록하십시오. 프로비저닝 작업을 수행할 때 이 정보가 필요합니다.
+
+이 그림은 VLAN 및/또는 고유 서브넷으로 분리된 E-시리즈 스토리지 어레이에 연결된 호스트를 보여줍니다. 파란색 선은 하나의 VLAN/서브넷을, 빨간색 선은 다른 VLAN/서브넷을 나타냅니다. 각 VLAN/서브넷에는 최소 하나의 이니시에이터 포트와 대상 포트의 절반이 포함됩니다. 호스트 및/또는 컨트롤러 포트 수는 네트워크 인터페이스 수와 컨트롤러 모델에 따라 달라집니다. 컨트롤러당 최대 6개의 포트를 사용할 수 있습니다.
+
+image::../media/network_generic_worksheet.gif[NVMe over RoCE 포트 식별자]
 
 
 
-[[recommended-configuration]]
-=== 권장 구성
+[[host-mapping-information]]
+=== 호스트 매핑 정보
 
-권장 구성은 2개의 이니시에이터 포트와 1개 이상의 VLAN이 있는 4개의 타겟 포트로 구성됩니다.
-
-image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NVMe"]
-
-
-
-[[host-identifiers]]
-=== 호스트 식별자입니다
-
+[cols="35h,~"]
 |===
-| 속성 표시기 번호 | 호스트 포트 연결 | 소프트웨어 이니시에이터 NQN 
+| 호스트 이름 매핑 중 |  
 
 
- a| 
-1
- a| 
-호스트(이니시에이터) 1
- a| 
+| 호스트 OS 유형입니다 |  
 
 
+| 호스트 NQN |  
 
- a| 
-1
- a| 
-호스트(이니시에이터) 2
- a| 
 
+| 타겟 NQN |  
 |===
-
-
-[[target-identifiers]]
-=== 타겟 식별자
-
-|===
-| 속성 표시기 번호 | 어레이 포트 연결 | 타겟 NQN 
-
-
- a| 
-2
- a| 
-어레이 컨트롤러(타겟) 포트 1
- a| 
-
-
-
- a| 
-2
- a| 
-어레이 컨트롤러(타겟) 포트 2
- a| 
-
-
-
- a| 
-2
- a| 
-어레이 컨트롤러(타겟) 포트 3
- a| 
-
-
-
- a| 
-2
- a| 
-어레이 컨트롤러(타겟) 포트 4
- a| 
-
-|===
-
-
-[[mapping-host]]
-=== 호스트 매핑 중
-
-|===
-
-
- a| 
-호스트 이름 매핑 중
- a| 
-
-
-
- a| 
-호스트 OS 유형입니다
- a| 
-
-|===
-
-
-[[recommended-configuration]]
-=== 권장 구성
-
-이는 어레이에 따라 다를 수 있습니다. EF300, EF600 및 EF50은 1개 이상의 VLAN이 있는 최대 4개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다. EF80은 1개 이상의 VLAN이 있는 최대 6개의 타겟 포트가 있는 2개의 이니시에이터 포트입니다.
-
 
 
 [[step-2-configure-the-nvmeroce-switches]]
@@ -126,10 +52,11 @@ image::../media/network_generic_worksheet.gif[RoCE 포트 식별자를 통한 NV
 
 NVMe over RoCE에 대한 공급업체의 권장 사항에 따라 스위치를 구성합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
 
-.이 정보
+.이 작업에 대해
 이 작업에서는 RoCE를 통한 NVMe를 사용하기 위한 스위치 구성의 일반적인 단계를 설명합니다. 자세한 내용은 스위치 공급업체의 설명서를 참조하십시오.
 
-시작하기 전에 다음 사항을 확인하십시오.
+.시작하기 전에
+다음 사항을 확인하십시오.
 
 * 고가용성을 위한 두 개의 별도 네트워크. RoCE를 통한 NVMe 트래픽을 별도의 네트워크 세그먼트로 분리해야 합니다.
 
@@ -139,21 +66,21 @@ NVMe over RoCE에 대한 공급업체의 권장 사항에 따라 스위치를 �
 
 
 
-[[step-3-configure-networking-nvmeroce-vmware]]
-== 3단계: 네트워킹 구성 - NVMe/RoCE, VMware
+[[step-3-configure-networking]]
+== 3단계: 네트워크 구성
 
 데이터 스토리지 요구 사항에 따라 NVMe over RoCE 네트워크를 여러 가지 방법으로 설정할 수 있습니다. 환경에 가장 적합한 구성을 선택하는 방법에 대한 팁은 네트워크 관리자에게 문의하십시오.
 
 .이 작업에 대해
 이 작업에서는 RoCE를 통한 NVMe 네트워크 구성에 대한 일반적인 단계를 설명합니다. 자세한 지침은 스위치 공급업체의 설명서를 참조하십시오.
 
-시작하기 전에 다음 사항을 확인하십시오.
+.시작하기 전에
+다음 사항을 확인하십시오.
 
-* RDMA를 통한 NVMe용 무손실 이더넷에 대해 구성된 스위치.
+* 스위치가 경로에 있는 경우 NVMe over RDMA용 무손실 이더넷으로 구성된 스위치입니다.
 
 
-.이 작업에 대해
-RoCE를 통한 NVMe 네트워킹을 계획할 때 VMware Configuration Maximums 가이드에 따르면 서버당 지원되는 최대 RDMA NVMe 이니시에이터 포트는 2개라는 점을 기억해야 합니다. 너무 많은 경로를 구성하지 않도록 이 요구 사항을 반드시 고려해야 합니다.
+RoCE를 통한 NVMe 네트워킹을 계획할 때,  https://configmax.broadcom.com/guest["VMware 구성 최대값 가이드"^]서버당 지원되는 최대 RDMA NVMe 이니시에이터 포트는 2개라는 점을 기억해야 합니다. 너무 많은 경로를 구성하지 않도록 이 요구 사항을 반드시 고려해야 합니다.
 
 원활한 다중 경로 구성을 위해 NVMe over RoCE 네트워크에 여러 네트워크 세그먼트를 사용하십시오. 호스트 측 포트 하나 이상과 각 어레이 컨트롤러의 포트 하나 이상을 하나의 네트워크 세그먼트에 배치하고, 동일한 호스트 측 및 어레이 측 포트 그룹을 다른 네트워크 세그먼트에 배치하십시오. 가능한 경우 여러 개의 이더넷 스위치를 사용하여 추가적인 이중화를 제공하십시오.
 
@@ -162,15 +89,16 @@ RoCE를 통한 NVMe 네트워킹을 계획할 때 VMware Configuration Maximums 
 
 
 
-[[step-4-configure-array-side-networking-nvmeroce-vmware]]
-== 4단계: 어레이 측 네트워킹 구성 - NVMe/RoCE, VMware
+[[step-4-configure-array-side-networking]]
+== 4단계: 어레이 측 네트워킹 구성
 
 SANtricity System Manager 인터페이스를 사용하여 어레이 측에서 RoCE를 통한 NVMe 네트워킹을 구성합니다.
 
 .이 작업에 대해
 이 작업에서는 SANtricity System Manager의 *컨트롤러 및 구성 요소* 페이지에서 NVMe over RoCE 포트 구성에 액세스하는 방법을 설명합니다. SANtricity System Manager 내의 *NVMe over RoCE 포트 구성* 페이지에서도 구성에 액세스할 수 있습니다.
 
-시작하기 전에 다음 사항을 확인하십시오.
+.시작하기 전에
+다음 사항을 확인하십시오.
 
 * 스토리지 어레이 컨트롤러 중 하나의 IP 주소 또는 도메인 이름입니다.
 * 시스템 관리자 GUI에 대한 암호, 역할 기반 액세스 제어(RBAC) 또는 LDAP 및 디렉터리 서비스가 스토리지 어레이에 대한 적절한 보안 액세스 권한을 위해 구성되어 있습니다. link:https://docs.netapp.com/us-en/e-series-santricity/um-certificates/overview-access-management-um.html["액세스 관리"^]에 대한 자세한 내용은 SANtricity 시스템 관리자 온라인 도움말을 참조하십시오.
@@ -186,7 +114,7 @@ IPAddress는 스토리지 배열 컨트롤러 중 하나의 주소입니다.
 
 . 관리자 암호 설정 및 암호 확인 필드에 관리자 역할에 대한 System Manager 암호를 입력한 다음 * 암호 설정 * 을 클릭합니다.
 +
-구성된 풀, 볼륨 그룹, 워크로드 또는 알림이 없는 경우 설정 마법사가 시작됩니다.
+풀, 볼륨 그룹, 워크로드 또는 알림이 구성되어 있지 않으면 설정 마법사가 실행됩니다.
 
 . 설정 마법사를 닫습니다.
 +
@@ -263,53 +191,57 @@ IPv4 및/또는 IPv6 설정을 자동 또는 수동으로 구성합니다. 모�
 
 
 
-[[step-5-configure-host-side-networkingnvme-over-roce-vmware]]
-== 5단계: 호스트 측 네트워킹 구성—RoCE를 통한 NVMe, VMware
+[[step-5-configure-host-side-networking]]
+== 5단계: 호스트 측 네트워킹 구성
 
 호스트 측에서 RoCE를 통한 NVMe 네트워킹을 구성하면 VMware NVMe over RDMA 스토리지 어댑터 이니시에이터가 어레이와 세션을 설정할 수 있습니다.
 
+.시작하기 전에
+호스트가 이더넷 스위치를 통해 스토리지 어레이에 연결하는 경우, 2단계와 3단계에 설명된 대로 스위치에서 무손실 네트워킹을 구성해야 합니다. 이 경우 스위치 기반 무손실 네트워킹 설정이 우선 적용되므로 아래의 호스트 측 필수 조건을 완료할 필요가 없습니다.
+
+호스트가 스토리지 어레이에 직접 연결되어 있는 경우(경로에 스위치가 없는 경우), 호스트 측 NVMe over RDMA 어댑터를 구성하기 전에 다음 사전 요구 사항을 완료하십시오.
+
+.필수 조건: RDMA를 통한 NVMe에 대해 무손실 이더넷 구성(직접 연결만 해당)
+DSCP(Differentiated Services Code Point) 기반 PFC(Priority Flow Control)를 사용하여 무손실 네트워크를 구성합니다.
+
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/requirements-for-vmware-nvme-storage.html#GUID-B764140D-BCF3-4C99-8169-E5B058757518-en["RDMA를 통한 NVMe용 무손실 이더넷 구성"^]을 참조하십시오.
+
 .이 작업에 대해
-이 구성은 DSCP(차등 서비스 코드 포인트) 기반 PFC(우선순위 흐름 제어)를 사용하여 무손실 네트워크를 지원합니다.
+이 작업은 NVMe over RDMA 호스트 어댑터를 생성하고 스토리지에 컨트롤러 연결을 추가합니다.
 
 .단계
 . RDMA 네트워크 어댑터를 식별하고 vmnic 페어링된 업링크를 기록합니다.
 +
-자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/view-rdma-network-adapters.html["RDMA 네트워크 어댑터 보기"^]을 참조하십시오.
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/view-rdma-network-adapters.html["RDMA 네트워크 어댑터 보기"^]을 참조하십시오.
 
 . vSphere 표준 스위치를 사용하여 RDMA 어댑터에 대한 VMkernel 포트 바인딩을 구성합니다.
 +
-자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/configure-vmkernel-binding-for-the-rdma-adapter.html["RDMA 어댑터에 대한 VMkernel 바인딩을 구성합니다"^]을 참조하십시오.
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/configure-vmkernel-binding-for-the-rdma-adapter/configure-vmkernel-binding-with-a-vsphere-standard-switch.html["RDMA 어댑터에 대한 VMkernel 바인딩을 구성합니다"^]을 참조하십시오.
 
 . 소프트웨어 NVMe over RDMA 어댑터를 추가합니다.
 +
-자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/add-software-nvme-over-rdma-or-nvme-over-tcp-adapters.html["RDMA를 통한 소프트웨어 NVMe 또는 TCP를 통한 NVMe 어댑터 추가"^]을 참조하십시오.
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/add-software-nvme-over-rdma-or-nvme-over-tcp-adapters.html["RDMA를 통한 소프트웨어 NVMe 또는 TCP를 통한 NVMe 어댑터 추가"^]을 참조하십시오.
 
 . RDMA를 통한 NVMe용 NVMe 컨트롤러를 추가합니다.
 +
-자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/add-controller-for-nvme-over-fabrics.html["NVMe over Fabrics용 컨트롤러 추가"^]을 참조하십시오.
-
-. RDMA를 통한 NVMe에 대해 무손실 이더넷을 구성합니다.
-+
-DSCP(차등 서비스 코드 포인트) 기반 PFC(우선순위 흐름 제어)를 사용하여 무손실 네트워크를 구성합니다.
-
-+
-이 옵션을 사용하려면 다음을 참조하십시오:
-
-+
-** link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-0/vsphere-storage/about-vmware-nvme-storage/requirements-for-vmware-nvme-storage.html#GUID-B764140D-BCF3-4C99-8169-E5B058757518-en["RDMA를 통한 NVMe용 무손실 이더넷 구성"^].
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-rdma-roce-v2-on-esxi/add-controller-for-nvme-over-fabrics.html["NVMe over Fabrics용 컨트롤러 추가"^]을 참조하십시오.
 
 
 
 
+NOTE: 호스트 NQN은 이 과정에서 컨트롤러 추가 대화 상자에서 얻을 수 있습니다. 이 정보는 나중에 호스트 매핑을 구성할 때 필요합니다.
+
+추가가 성공적으로 완료되면 vSphere Client의 스토리지 어댑터 보기에서 연결을 확인할 수 있습니다. 연결에 실패한 경우 6단계로 이동하여 포트와의 통신을 확인하고 연결 설정을 수정하십시오.
 
 
-[[step-6-verify-ip-network-connections-nvme-over-roce-vmware]]
-== 6단계: IP 네트워크 연결 확인 - RoCE를 통한 NVMe, VMware
+
+[[step-6-verify-ip-network-connections]]
+== 6단계: IP 네트워크 연결 확인
 
 ping 테스트를 사용하여 호스트와 어레이가 통신할 수 있는지 확인하여 IP(인터넷 프로토콜) 네트워크 연결을 확인합니다.
 
 .단계
-. 호스트에서 다음 명령:
+. 호스트에서 다음 명령을 실행하십시오.
 +
 [listing]
 ----
@@ -335,5 +267,5 @@ round-trip min/avg/max = 0.406/0.721/0.902 ms
 
 NOTE: 명령이  `sendto() failed (Message too long)` 메시지와 함께 실패하면 호스트 서버, 스토리지 컨트롤러 및 스위치 포트의 이더넷 인터페이스에 대한 MTU 크기를 확인하십시오.
 
-. 대상 검색을 완료하려면 NVMe over RoCE 구성 절차로 돌아가십시오.
+. 5단계 검색이 실패한 경우, NVMe over RoCE 호스트 측 네트워킹 구성 절차로 돌아가 타겟 컨트롤러 추가를 완료하십시오.
 

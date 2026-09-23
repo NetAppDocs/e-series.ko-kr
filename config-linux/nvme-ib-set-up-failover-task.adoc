@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: failover, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: 페일오버를 실행하도록 호스트를 구성합니다. 
 ---
-= E-Series-Linux(NVMe over InfiniBand)에서 호스트에서 페일오버 설정
+= NVMe over InfiniBand를 사용하여 E-Series Linux 호스트에서 페일오버 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -107,4 +107,58 @@ devices {
 
 
 
-NOTE: SLES 15, SLES 16, RHEL 9 및 RHEL 10의 경우 네이티브 NVMe 멀티패싱이 기본적으로 활성화되어 있으므로 추가 구성이 필요하지 않습니다.
+NOTE: SLES 15 및 RHEL 9의 경우 Native NVMe Multipathing이 기본적으로 활성화되어 있으므로 추가 구성이 필요하지 않습니다.
+
+
+
+[[configure-nvme-io-policy]]
+== NVMe I/O 정책 구성
+
+.이 작업에 대해
+Linux NVMe 네이티브 멀티패싱은 기본적으로  `numa` I/O 정책을 따릅니다. E-Series/EF-Series NVMe-over-Fabrics 구성의 경우 권장되는 I/O 정책은  `round-robin`이며, 모든 사용 가능한 경로에 I/O를 균등하게 분산합니다.
+
+.단계
+. 현재 NVMe I/O 정책을 확인하십시오.
++
+[listing]
+----
+# cat /sys/module/nvme_core/parameters/iopolicy
+numa
+----
+. 다음 방법 중 하나를 사용하여 `round-robin` I/O 정책을 설정하십시오.
++
+** *지속적 유지(권장)* — udev 규칙 파일을 생성합니다.
++
+.<code>/etc/udev/rules.d/71-nvme-io-policy.rules</code>
+[listing]
+----
+ACTION=="add|change", SUBSYSTEM=="nvme-subsystem", ATTR{iopolicy}="round-robin"
+----
++
+그런 다음 규칙을 다시 로드하고 적용합니다.
+
++
+[listing]
+----
+udevadm control --reload
+udevadm trigger --subsystem-match=nvme-subsystem
+----
+** *부팅 시 전역 설정* — 부트로더 구성에 다음 커널 매개 변수를 추가합니다.
++
+[listing]
+----
+nvme_core.iopolicy=round-robin
+----
+** *비영구적(온라인, I/O 중단 없음)* — 재부팅 없이 즉시 적용:
++
+[listing]
+----
+echo "round-robin" > /sys/class/nvme-subsystem/nvme-subsys0/iopolicy
+----
++
+
+NOTE: 이 설정은 재부팅 후에는 유지되지 않습니다.
+
+
+
+

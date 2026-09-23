@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cabling, cables, E-Series, eseries, E2800, E5700, EF300, EF600, DE212C, DE224C, DE460C 
 summary: 호스트를 컨트롤러에 직접 연결하거나 스위치를 사용합니다. 
 ---
-= 스토리지 시스템 케이블 연결 - E-Series
+= E-Series 스토리지 시스템용 케이블링에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -75,4 +75,4 @@ E2760, E5660
 DE460C
 
 |===
-미러링 기능을 지원하는 케이블링에 대한 자세한 내용은 https://www.netapp.com/pdf.html?item=/media/17133-tr4656.pdf["동기 및 비동기 미러링 기능 설명 및 배포 가이드"^]을 참조하십시오.
+미러링 기능을 지원하는 케이블링에 대한 자세한 내용은 https://www.netapp.com/pdf.html?item=/media/19405-tr-4839.pdf["동기 및 비동기 미러링 기능 설명 및 배포 가이드"^]을 참조하십시오.

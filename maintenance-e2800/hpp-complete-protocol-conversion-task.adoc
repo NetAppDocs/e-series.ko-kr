@@ -1,10 +1,10 @@
 ---
 permalink: maintenance-e2800/hpp-complete-protocol-conversion-task.html 
 sidebar: sidebar 
-keywords: 'E2800 convert host port protocol, convert E2800 FC iSCSI, Fibre Channel protocol, iSCSI protocol, convert HPP, converting host port protocol, SFP+ (optical) host ports, E2800, E-Series, eseries' 
+keywords: E2800 convert host port protocol, convert E2800 FC iSCSI, Fibre Channel protocol, iSCSI protocol, convert HPP, converting host port protocol, SFP optical host ports, E2800, E-Series, eseries 
 summary: E2800 어레이에 대한 호스트 포트 프로토콜 변환을 완료합니다. 
 ---
-= 호스트 프로토콜의 변환을 완료합니다. - E2800은
+= E2800 어레이에 대한 호스트 프로토콜 변환을 완료합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -29,6 +29,7 @@ summary: E2800 어레이에 대한 호스트 포트 프로토콜 변환을 완�
 iSCSI 트래픽을 전송하는 데 사용되는 스위치는 공급업체의 iSCSI 권장 사항에 따라 구성해야 합니다. 이러한 권장 사항에는 구성 지시문과 코드 업데이트가 모두 포함될 수 있습니다.
 
 . SANtricity 시스템 관리자에서 메뉴: 하드웨어 [iSCSI 포트 구성]을 선택합니다.
+. 스위치를 클릭하고 *iSCSI 포트 구성*을 선택하십시오.
 . 포트 설정을 선택합니다.
 +
 다양한 방법으로 iSCSI 네트워크를 설정할 수 있습니다. 사용자 환경에 가장 적합한 구성을 선택하는 방법은 네트워크 관리자에게 문의하십시오.

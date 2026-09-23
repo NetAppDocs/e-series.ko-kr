@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace EF300 HIC, replace EF600 HIC, host interface card failed, HIC failure 
 summary: '장애가 발생한 EF300 또는 EF600 HIC(호스트 인터페이스 카드)를 교체합니다.' 
 ---
-= 장애가 발생한 호스트 인터페이스 카드(HIC) 교체 - EF300 또는 EF600
+= EF300 또는 EF600 스토리지 시스템에서 오류가 발생한 HIC 교체
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -16,6 +16,9 @@ EF300, EF600, EF300C 또는 EF600C 어레이에서 장애가 발생한 호스트
 
 .이 작업에 대해
 고장난 HIC를 교체할 때는 시스템을 비중복 상태로 만들기 위해 컨트롤러 하나를 오프라인으로 전환한 다음 HIC를 교체하고 컨트롤러를 다시 온라인 상태로 전환해야 합니다.
+
+
+NOTE: EF300 및 EF600 스토리지 어레이는 동일한 프로토콜 유형의 HIC를 교체할 때(예: Fibre Channel HIC를 다른 Fibre Channel HIC로 교체하는 경우) 전원을 끌 필요가 없습니다.
 
 .시작하기 전에
 * 검토 link:hics-overview-supertask-concept.html["EF300 또는 EF600 HIC 업그레이드 요구사항"].
@@ -262,7 +265,7 @@ NOTE: 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십
 
 . 모든 볼륨이 기본 소유자에게 반환되었는지 확인합니다.
 +
-.. Storage [Volumes](저장소 [볼륨]) 메뉴를 선택합니다. 모든 볼륨 * 페이지에서 볼륨이 기본 소유자에게 배포되었는지 확인합니다. 메뉴 선택: More [Change Ownership](자세히[소유권 변경])를 선택하면 볼륨 소유자가 표시됩니다.
+.. 메뉴에서 Storage[Volumes]을 선택합니다. *모든 볼륨* 페이지에서 볼륨이 원하는 소유자에게 배포되었는지 확인합니다. *점 3개 아이콘* > *소유권 변경*을 선택하여 볼륨 소유자를 확인합니다.
 .. 기본 소유자가 볼륨을 모두 소유한 경우 6단계를 계속 진행하십시오.
 .. 반환된 볼륨이 없는 경우 볼륨을 수동으로 반환해야 합니다. More [Redistribute volumes](추가 [볼륨 재배포]) 메뉴로 이동합니다.
 .. 자동 배포 또는 수동 배포 후 일부 볼륨만 기본 소유자에게 반환되는 경우 Recovery Guru에서 호스트 연결 문제를 확인해야 합니다.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: file systems, express linux configuration, software configuration, linux host, E2800, E5700, EF300, EF600, E-Series, eseries 
 summary: RHEL 9, RHEL 10, SLES 15 및 SLES 16의 경우 네이티브 nvme 장치에 파일 시스템을 생성하고 해당 파일 시스템을 마운트합니다. 
 ---
-= E-Series에서 파일 시스템 생성 - Linux(RoCE 기반 NVMe)
+= Linux 호스트에서 E-Series NVMe over RoCE용 파일 시스템 생성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

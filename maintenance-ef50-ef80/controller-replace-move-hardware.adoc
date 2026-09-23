@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, move the controller module hardware 
 summary: EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체하려면 컨트롤러를 분리하고 구성 요소를 교체용 컨트롤러로 옮긴 다음 교체용 컨트롤러를 설치하십시오. 
 ---
-= 컨트롤러 교체 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템의 컨트롤러 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

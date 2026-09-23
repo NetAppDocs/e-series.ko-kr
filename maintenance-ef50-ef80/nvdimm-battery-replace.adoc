@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, replace the NV battery, NV battery 
 summary: EF50 또는 EF80 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장 나기 시작하면 교체하십시오. 
 ---
-= NV 배터리 교체 - EF50 및 EF80
+= EF50 또는 EF80 스토리지 시스템의 NV 배터리 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

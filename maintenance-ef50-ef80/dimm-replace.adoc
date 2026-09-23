@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, replace a dimm 
 summary: EF50 또는 EF80 스토리지 시스템에서 DIMM이 고장났거나, 최적의 상태가 아니라고 보고되거나, 용량이 일치하지 않는 경우 DIMM을 교체하십시오. 
 ---
-= DIMM 교체 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템의 DIMM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

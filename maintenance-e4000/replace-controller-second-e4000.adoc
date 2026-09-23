@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= 두 번째 캐니스터 E4000을 추가합니다
+= E4000 어레이에 두 번째 컨트롤러 캐니스터 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -39,7 +39,7 @@ E4012 컨트롤러 쉘프의 단순 버전에 두 번째 컨트롤러 캐니스�
 . 컨트롤러 캐니스터 뒷면에서 MAC 주소 및 FRU 부품 번호 레이블을 찾습니다.
 . SANtricity 시스템 관리자에서 설치된 컨트롤러 캐니스터의 교체 부품 번호를 찾습니다.
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. 컨트롤러 아이콘으로 표시된 컨트롤러 쉘프를 찾습니다.
 .. 컨트롤러 아이콘을 image:../media/sam1130_ss_hardware_controller_icon_maint-e2800.gif["컨트롤러 아이콘의 GIF"]클릭합니다.
 .. 컨트롤러를 선택하고 * 다음 * 을 클릭합니다.
@@ -324,7 +324,7 @@ NOTE: SANtricity 시스템 관리자를 사용하여 새 NVSRAM 파일을 설치
 . 컨트롤러가 재부팅된 후 필요에 따라 컨트롤러 A와 새 컨트롤러 B 간에 볼륨을 배포합니다
 +
 .. Storage > Volumes * 를 선택합니다.
-.. All Volumes 탭에서 * More > Change Ownership * 을 선택합니다.
+.. 모든 볼륨 탭에서 *줄임표 아이콘 › 소유권 변경*을 선택합니다.
 .. 텍스트 상자에 '소유권 변경' 명령을 입력합니다
 +
 소유권 변경 버튼이 활성화됩니다.

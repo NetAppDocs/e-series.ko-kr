@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000 
 summary: E2800의 드라이브를 60 드라이브 쉘프로 교체합니다. 
 ---
-= 드라이브 교체 - E4000(60-드라이브 쉘프)
+= E4000 60드라이브 쉘프에서 드라이브 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -40,7 +40,7 @@ SANtricity 시스템 관리자의 Recovery Guru를 확인하고 필수 단계를
 . SANtricity System Manager의 Recovery Guru에서 드라이브 오류가 발생했다는 메시지가 표시되지만 아직 드라이브에 오류가 발생하지 않은 경우 Recovery Guru의 지침에 따라 드라이브에 장애가 발생한 것입니다.
 . 필요한 경우 SANtricity 시스템 관리자를 사용하여 적합한 교체 드라이브가 있는지 확인하십시오.
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. 쉘프 그래픽에서 장애가 발생한 드라이브를 선택합니다.
 .. 드라이브를 클릭하여 상황에 맞는 메뉴를 표시한 다음 * 설정 보기 * 를 선택합니다.
 .. 교체 드라이브의 용량이 교체 중인 드라이브와 같거나 큰지, 예상 기능이 있는지 확인합니다.
@@ -144,7 +144,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 드라이브 드로어를 �
 NOTE: 기술 지원 부서 또는 Recovery Guru에서 지시한 경우에만 이 작업을 수행하십시오.
 
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴에서 하드웨어[드라이브]를 선택하십시오.
 .. 교체한 드라이브를 클릭합니다.
 .. 드라이브의 컨텍스트 메뉴에서 * reconstruct * 를 선택합니다.
 .. 이 작업을 수행할지 확인합니다.

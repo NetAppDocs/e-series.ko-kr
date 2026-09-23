@@ -1,17 +1,17 @@
 ---
 permalink: config-vmware/index.html 
 sidebar: sidebar 
-keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
 summary: E-Series 시스템이 있는 VMware 호스트의 Express 구성을 사용합니다. 
 ---
-= E-Series에 포함된 VMware Express 구성
+= E-Series에서 VMware 호스트 구성을 위한 빠른 시작
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 시스템을 설치하고 SANtricity System Manager에 액세스하는 VMware Express 방법은 독립 실행형 VMware 호스트를 E-Series 스토리지 시스템에 설정하는 데 적합합니다. 최소한의 의사 결정으로 스토리지 시스템을 최대한 빠르게 가동 및 운영할 수 있도록 설계되었습니다.
+스토리지 어레이를 설치하고 SANtricity System Manager에 액세스하기 위한 VMware Express 방식은 E-Series 스토리지 시스템을 사용하는 독립 실행형 VMware 호스트를 설정하는 데 적합합니다. 이 방식은 최소한의 결정 단계만으로 스토리지 시스템을 최대한 빠르게 가동할 수 있도록 설계되었습니다.
 
 
 
@@ -22,11 +22,12 @@ summary: E-Series 시스템이 있는 VMware 호스트의 Express 구성을 사�
 
 . 다음 통신 환경 중 하나를 설정합니다.
 +
-** link:nmve-fc-perform-specific-task.html["NVMe over Fibre Channel"]
-** link:fc-perform-specific-task.html["파이버 채널"]
+** link:nvme-fc-perform-specific-task.html["NVMe over Fibre Channel"]
+** link:fc-perform-specific-task.html["Fibre Channel(FCP)"]
 ** link:iscsi-perform-specific-task.html["iSCSI"]
 ** link:sas-perform-specific-task.html["SAS를 참조하십시오"]
 ** link:nvme-roce-perform-specific-task.html["RoCE를 통한 NVMe"]
+** link:nvme-tcp-perform-specific-task.html["TCP를 통한 NVMe"]
 
 
 . 스토리지 배열에 논리적 볼륨을 생성합니다.
@@ -42,7 +43,7 @@ summary: E-Series 시스템이 있는 VMware 호스트의 Express 구성을 사�
 * https://kb.netapp.com/["NetApp 기술 자료"^] (기사 데이터베이스) -- 다양한 NetApp 제품 및 기술에 대한 문제 해결 정보, FAQ 및 지침을 제공합니다.
 * http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] NetApp에서 지정한 표준 및 요구사항을 충족하는 NetApp 제품 및 구성요소 구성을 검색할 수 있습니다.
 * https://www.netapp.com/pdf.html?item=/media/17017-tr4789.pdf["E-Series SANtricity iSCSI와 ESXi 6.X의 통합에 대한 VMware 구성 가이드"^] -- VMware와 iSCSI 통합에 대한 기술적 세부 정보를 제공합니다.
-* https://configmax.broadcom.com/home["VMware 구성 최대값"^] -- ESX/ESXi가 지원하는 최대 한도 내에서 가상 및 물리적 스토리지를 구성하는 방법에 대해 설명합니다.
-* https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-9AEE5F4D-0CB8-4355-BF89-BB61C5F30C70.html["VMware NVMe 스토리지의 요구사항 및 제한사항"^].
-* https://docs.vmware.com/en/VMware-vSphere/index.html["VMware vSphere 설명서"^] ESXi vCenter Server 설명서를 제공합니다.
+* https://configmax.broadcom.com/guest["VMware 구성 최대값"^] -- ESX/ESXi에서 허용하는 최대 용량 범위 내에서 가상 및 물리적 스토리지를 구성하는 방법을 설명합니다.
+* https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/requirements-for-vmware-nvme-storage.html["VMware NVMe 스토리지 요구 사항"^] -- 패브릭 기반 NVMe 특정 구성 요구 사항.
+* https://techdocs.broadcom.com/["Broadcom 기술 문서"^] -- VMware 클라우드 인프라 소프트웨어 및 vSphere 기술 문서.
 

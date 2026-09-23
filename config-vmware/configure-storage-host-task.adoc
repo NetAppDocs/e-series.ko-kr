@@ -1,21 +1,28 @@
 ---
 permalink: config-vmware/configure-storage-host-task.html 
 sidebar: sidebar 
-keywords: configure storage ESXi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
-summary: 'ESXi 호스트에 할당된 스토리지를 VMFS\(Virtual Machine File System\) 데이터 저장소 또는 RDM\(Raw Device Mapping\)으로 사용할 수 있습니다. RDM은 NVMe over Fibre Channel 프로토콜에서 지원되지 않습니다.' 
+keywords: configure storage ESXi, express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
+summary: 'ESXi 호스트에 할당된 스토리지는 가상 머신 파일 시스템(VMFS) 데이터스토어 또는 원시 장치 매핑(RDM)으로 사용할 수 있습니다. RDM은 NVMe over fabric 프로토콜(NVMe over FC, NVMe over RoCE, NVMe over TCP)에서는 지원되지 않습니다.' 
 ---
-= E-Series-VMware에서 호스트에 스토리지를 구성합니다
+= VMware용 E-Series 호스트의 스토리지 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ESXi 호스트에 할당된 스토리지를 VMFS(Virtual Machine File System) 데이터 저장소 또는 RDM(Raw Device Mapping)으로 사용할 수 있습니다. RDM은 NVMe over Fibre Channel 프로토콜에서 지원되지 않습니다.
+ESXi 호스트에 할당된 스토리지는 가상 머신 파일 시스템(VMFS) 데이터스토어 또는 원시 장치 매핑(RDM)으로 사용할 수 있습니다. RDM은 NVMe over fabric 프로토콜(NVMe over FC, NVMe over RoCE, NVMe over TCP)에서는 지원되지 않습니다.
 
-ESXi의 6._x_ 및 7_x_ 버전은 모두 VMFS 버전 5 및 6을 지원합니다.
+현재 모든 ESXi 버전은 VMFS 버전 5 및 6을 지원합니다.
+
+
+NOTE: VMware에서 VMFS 익스텐트를 사용하는 것은 권장되지 않습니다. 기존 VMFS 데이터스토어에 익스텐트로 볼륨을 추가하여 용량을 늘리는 대신, 기존 백업 볼륨에 대해 DVE 작업((https://kb.netapp.com/on-prem/E-Series/Management-Apps-KBs/How_to_expand_Volumes["볼륨 확장 방법 - NetApp 기술 자료"^])을 수행하여 VMFS 데이터스토어를 확장하는 것이 좋습니다.
+
+
+NOTE: 리눅스 가상 머신에서는 물리적 RDM 대신 가상 RDM 또는 가상 디스크를 사용하는 것이 좋습니다.
 
 .단계
 . ESXi 호스트에 매핑된 볼륨이 제대로 검색되었는지 확인합니다.
-. vSphere Client 또는 vSphere Web Client에서 VMFS 데이터 저장소를 생성하거나 볼륨을 RDM으로 사용하는 방법에 대한 지침은 을 참조하십시오 https://docs.vmware.com/index.html["VMware 설명서 웹 사이트"^].
+. VMFS 데이터스토어 생성에 대한 지침은  https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/working-with-datastores-in-vsphere-storage-environment/vsphere-vmfs-datastore-concepts-and-operations/create-a-vsphere-vmfs-datastore.html["vSphere VMFS 데이터스토어를 생성합니다."^]을 참조하십시오.
+. RDM 생성 방법에 대한 지침은  https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/raw-device-mapping-in-vsphere.html["vSphere의 Raw Device Mapping"^]을 참조하십시오.
 

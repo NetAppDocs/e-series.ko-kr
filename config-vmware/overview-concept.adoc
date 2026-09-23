@@ -1,10 +1,10 @@
 ---
 permalink: config-vmware/overview-concept.html 
 sidebar: sidebar 
-keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, E-Series, eseries 
+keywords: express vmware configuration, software configuration, vmware host, E2800, E5700, EF300, EF600, EF50, EF80, E4000, E-Series, eseries 
 summary: Express 방법을 사용하여 E-Series 어레이 및 VMware 호스트를 설정하기 위한 요구사항을 검토합니다. 
 ---
-= 가정(E-Series 및 VMware)
+= E-Series용 VMware 익스프레스 구성 가정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -64,12 +64,13 @@ IP 주소 지정
  a| 
 * 공유 볼륨은 사용하지 않습니다.
 * 볼륨 그룹이 아닌 풀을 생성합니다.
+* VMware와의 호환성을 확보하려면 4096바이트 드라이브를 사용할 때 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정해야 합니다. 볼륨을 512바이트 에뮬레이션(512e)을 사용하도록 설정하는 방법에 대한 자세한 내용은 SANtricity System Manager 온라인 도움말을 참조하십시오.
 
 
 
 
  a| 
-프로토콜: FC
+프로토콜: Fibre Channel(FCP)
  a| 
 * 모든 호스트측 FC 연결과 활성화된 스위치 조닝을 만들었습니다.
 * NetApp이 지원하는 FC HBA 및 스위치를 사용하고 있습니다.
@@ -102,6 +103,26 @@ IP 주소 지정
  a| 
 * NetApp이 지원하는 SAS HBA를 사용하고 있습니다.
 * 에 나열된 SAS HBA 드라이버 및 펌웨어 버전을 사용하고 있습니다 http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+
+
+
+
+ a| 
+프로토콜: NVMe over RoCE (RDMA over Converged Ethernet)
+ a| 
+* RDMA 트래픽 처리가 가능한 이더넷 스위치를 사용하고 있습니다.
+* 차등 서비스 코드 포인트(DSCP) 기반 우선순위 흐름 제어(PFC)를 사용하여 무손실 네트워킹을 위해 이더넷 스위치를 구성했습니다.
+* 사용 중인 RDMA 드라이버 및 펌웨어 버전은  http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]에 나열되어 있습니다.
+
+
+
+
+ a| 
+프로토콜: NVMe over TCP
+ a| 
+* TCP 트래픽 처리가 가능한 이더넷 스위치를 사용하고 있습니다.
+* 제조사에서 권장하는 TCP 설정에 따라 이더넷 스위치를 구성했습니다.
+* 사용 중인 네트워크 드라이버 및 펌웨어 버전은  http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]에 나열되어 있습니다.
 
 
 |===

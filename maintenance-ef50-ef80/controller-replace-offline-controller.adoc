@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, offline the impaired controller 
 summary: EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 오프라인으로 전환하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오. 
 ---
-= 손상된 컨트롤러 오프라인 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템에서 손상된 컨트롤러를 오프라인으로 전환
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

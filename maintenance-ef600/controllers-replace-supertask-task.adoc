@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace controller, replace canister, EF300, EF600, EF300C, EF600C 
 summary: EF300 또는 EF600 컨트롤러 쉘프에 있는 단일 컨트롤러를 교체합니다. 
 ---
-= 컨트롤러를 교체합니다. - EF300 및 EF600
+= EF300 또는 EF600 어레이의 컨트롤러 교체
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -69,7 +69,7 @@ NOTE: 다음과 같은 교체 조건이 발생할 때마다 컨트롤러의 황�
 컨트롤러에 장애가 발생하여 교체해야 하는 경우 Recovery Guru의 세부 정보 영역에 교체 부품 번호가 표시됩니다. 이 번호를 수동으로 찾아야 하는 경우 다음 단계를 수행하십시오.
 
 +
-.. 하드웨어 * 를 선택합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. 컨트롤러 아이콘으로 표시된 컨트롤러 쉘프를 찾습니다 image:../media/sam1130_ss_hardware_controller_icon_maint-ef600.gif[""].
 .. 컨트롤러 아이콘을 클릭합니다.
 .. 컨트롤러를 선택하고 * 다음 * 을 클릭합니다.
@@ -100,8 +100,7 @@ CAUTION: * 데이터 액세스 손실 가능성 * -- 두 부품 번호가 동일
 
 . 컨트롤러가 아직 오프라인 상태가 아닌 경우 SANtricity 시스템 관리자를 사용하여 오프라인 상태로 전환합니다.
 +
-.. 하드웨어 * 를 선택합니다.
-.. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 선택하여 컨트롤러를 표시합니다.
+.. 메뉴: Hardware[Controllers and components]를 선택합니다.
 .. 오프라인 상태로 설정할 컨트롤러를 선택합니다.
 .. 상황에 맞는 메뉴에서 * 오프라인 상태로 전환 * 을 선택하고 작업을 수행할지 확인합니다.
 

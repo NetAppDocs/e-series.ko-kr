@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: host protocol change, EF50, EF80 
 summary: 기존 I/O 모듈에서 다른 프로토콜이 필요하거나, I/O 모듈 업그레이드의 일환으로, 또는 새 스토리지 시스템 설치나 컨트롤러 업그레이드의 일부인 새 컨트롤러의 기본 프로토콜이 원하는 프로토콜이 아닌 경우 EF50 또는 EF80 스토리지 시스템의 호스트 I/O 모듈에서 프로토콜을 변경할 수 있습니다. 
 ---
-= 호스트 I/O 모듈 프로토콜 변경 - EF50 및 EF80
+= EF50 또는 EF80 시스템에서 호스트 I/O 모듈 프로토콜 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

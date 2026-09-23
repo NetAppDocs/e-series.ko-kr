@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: EF300 maintenance, EF600 maintenance, repairing EF300, repairing EF600, EF600C, EF300C replace EF300 components, replace EF600 components 
 summary: EF300 및 EF600 하드웨어 유지 관리 
 ---
-= 하드웨어 유지 관리 - EF300 및 EF600
+= EF300 및 EF600 시스템 하드웨어 유지보수
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -51,6 +51,13 @@ https://docs.netapp.com/us-en/e-series/maintenance-ef600/dimms-overview-supertas
 https://docs.netapp.com/us-en/e-series/maintenance-ef600/drives-overview-supertask-concept.html["드라이브"]
  a| 
 드라이브는 물리적 데이터 저장 미디어를 제공하는 장치입니다.
+
+
+
+ a| 
+link:drive-drawer-de460c-replace.html["드라이브 드로어"]
+ a| 
+드라이브 서랍은 최대 12개의 드라이브를 수용할 수 있는 DE460C 드라이브 선반의 5개 구성 요소 중 하나입니다.
 
 
 

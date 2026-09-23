@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Cloud Connector 
 summary: SANtricity 클라우드 커넥터 
 ---
-= SANtricity ® Cloud Connector 개요
+= SANtricity Cloud Connector에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

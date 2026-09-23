@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ef50, ef80, prepare the impaired controller 
 summary: 교체용 컨트롤러의 포장을 풀고 부품 번호가 올바른지 확인한 다음 구성 데이터베이스를 백업하여 EF50 또는 EF80 스토리지 시스템에서 손상된 컨트롤러를 교체할 준비를 하십시오. 
 ---
-= 컨트롤러 교체 준비 - EF50 및 EF80
+= EF50 및 EF80 스토리지 시스템의 컨트롤러 교체 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

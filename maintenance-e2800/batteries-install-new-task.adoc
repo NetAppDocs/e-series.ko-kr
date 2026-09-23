@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E2800 battery fail, E2800 battery, E2800 battery replacement, replace E2800 battery, replacing E2800 battery, E2800, E-Series, eseries 
 summary: 새 배터리를 장착하십시오. 
 ---
-= 새 배터리 - E2800을 설치합니다
+= E2800 어레이에 새 배터리 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

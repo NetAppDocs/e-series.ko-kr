@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: multipath.conf file, express linux configuration, software configuration, linux host, 
 summary: multipath daemon, multipathd의 구성 파일인 multipath.conf 파일을 사용합니다. 
 ---
-= FC(E-Series-Linux)에서 multipath.conf 파일 설정
+= E-Series Linux FC 호스트용 multipath.conf 파일
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
