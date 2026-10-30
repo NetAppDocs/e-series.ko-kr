@@ -211,7 +211,7 @@ IPv4 및/또는 IPv6 설정을 자동 또는 수동으로 구성합니다. 모�
 
 . TCP를 통한 NVMe용 NVMe 컨트롤러를 추가합니다.
 +
-자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-tcp-on-esxi/shared-content/submaps/GUID-23E6D699-BEDC-4B5F-9515-3390C0E73888_copy.html["NVMe over Fabrics용 컨트롤러 추가"^]을 참조하십시오.
+자세한 내용은 link:https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/9-1/vsphere-storage/about-vmware-nvme-storage/configuring-nvme-over-tcp-on-esxi.html["NVMe over Fabrics용 컨트롤러 추가"^]을(를) 참조하십시오.
 
 
 

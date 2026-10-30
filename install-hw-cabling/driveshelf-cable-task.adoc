@@ -17,7 +17,7 @@ summary: '컨트롤러 쉘프의 각 컨트롤러를 드라이브 쉘프의 I/O 
 * 이 절차는 IOM12, IOM12B, IOM12C 드라이브 선반에 적용됩니다.
 +
 
-NOTE: IOM12C 모듈은 SANtricity OS 11.70.2 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.
+NOTE: IOM12C 모듈은 SANtricity OS 11.90R3 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.
 
 * 구형 컨트롤러 쉘프를 DE212C, DE224C 또는 DE460에 케이블로 연결하는 경우 를 참조하십시오 https://mysupport.netapp.com/ecm/ecm_download_file/ECMLP2859057["기존 E27XX, E56XX 또는 EF560 컨트롤러 쉘프에 IOM 드라이브 쉘프를 추가합니다"^].
 * 새 시스템 설치의 일환으로 EF50 또는 EF80 스토리지 시스템을 SAS 확장 셸프에 케이블로 연결하는 경우 link:../install-hw-ef50-ef80/install-cable.html["EF50 및 EF80 스토리지 시스템의 하드웨어 케이블 연결"] 절차를 참조하십시오.

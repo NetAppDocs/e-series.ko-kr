@@ -9112,7 +9112,6 @@
   <block id="dce708315880727f8ba7e84bab86b168" category="paragraph">이 절차는 IOM12, IOM12B, IOM12C 드라이브 선반에 적용됩니다.</block>
   <block id="3f457ff9c17714d64ba75fd9d6d618f2" category="admonition">IOM12C 모듈은 SANtricity OS 11.90R3 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
   <block id="8d93e2013316d1241b304432f0103be5" category="admonition">이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12C 모듈을 다른 IOM12C 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12C 모듈 2개를 포함할 수 있습니다.)</block>
-  <block id="e0f75caa67759a6c5e34cbad6ae84d57" category="admonition">IOM12C 모듈은 SANtricity OS 11.70.2 이상에서만 지원됩니다. IOM12C를 설치하거나 업그레이드하기 전에 컨트롤러의 펌웨어가 업데이트되었는지 확인합니다.</block>
   <block id="bbfd15448c83d50ee0a4a62cc152d856" category="paragraph"><block ref="bbfd15448c83d50ee0a4a62cc152d856" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f7178ecd56d859f9f7e4878779a236ea" category="paragraph"><block ref="f7178ecd56d859f9f7e4878779a236ea" category="inline-image-macro-rx" type="image"></block></block>
   <block id="949ca69f081f10e2fc1938e0e24759c8" category="paragraph"><block ref="949ca69f081f10e2fc1938e0e24759c8" category="inline-image-macro-rx" type="image"></block></block>
@@ -10797,7 +10796,6 @@
   <block id="63caec46d73c7fc7cfb31576f03448b3" category="list-text">소프트웨어 NVMe over TCP 어댑터를 추가합니다.</block>
   <block id="38e873b40f9f1fadf5b58bb3e7881a0a" category="paragraph">자세한 내용은 <block ref="83ec1ea21d3b4612b4378c8e0322370e" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="35364a0d878a8e2835e056f68bbe94ca" category="list-text">TCP를 통한 NVMe용 NVMe 컨트롤러를 추가합니다.</block>
-  <block id="85711dc46edb07fe18d562b7bd2afd62" category="paragraph">자세한 내용은 <block ref="138a9b696f8791e3b3cb78426f306288" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="6ffa0472c7a35ad33e212ebdffd65a85" category="paragraph">이 예에서 TCP를 통한 NVMe의 타겟 IP 주소는 192.29.11.111입니다.</block>
   <block id="6ecdef344e2ba5fc1740960e5ecc14b7" category="list-text">각 호스트의 이니시에이터 주소(TCP를 통한 NVMe에 사용되는 호스트 이더넷 포트의 IP 주소)에서 각 컨트롤러의 TCP를 통한 NVMe 포트로<block ref="bb8dcb7aca9e5a9c6d0064e07e54900b" prefix=" " category="inline-code"></block> 명령을 실행합니다. 구성의 각 호스트 서버에서 필요에 따라 IP 주소를 변경하여 이 작업을 수행합니다.</block>
   <block id="ef85308abea9690943da10064f1e07e0" category="list-text">5단계 검색이 실패한 경우, NVMe over TCP 호스트 측 네트워킹 구성 절차로 돌아가 타겟 컨트롤러 추가를 완료하십시오.</block>
@@ -11180,4 +11178,5 @@
   <block id="1994aa7db9e9fad5a648e62ba534a9a8" category="sidebar">Linux용 NVMe over TCP 워크시트</block>
   <block id="13b5a4ce04bdd18c6dbe66e0aff43c56" category="sidebar">FC를 통한 NVMe 관련 작업 수행</block>
   <block id="12100775087ee0a5c3fb85e5dbaf178d" category="sidebar">TCP를 통한 NVMe 관련 작업 수행</block>
+  <block id="7baca5088011490565ae0a1cf6125785" category="paragraph">자세한 내용은 <block ref="540ffd17fd5ec0a460640b11d1bd0a3b" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
 </blocks>
